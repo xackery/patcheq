@@ -21179,3 +21179,267 @@ EQUI_NewPointMerchantWnd.xml
 - The EverQuest Team
 
 .....................................................................
+
+
+February 21, 2007
+_____________________
+
+
+*** Items ***
+
+- Fixed the misspelling of the fish Seaperch.
+- Removed the "Temporary" flag from the portal keys for the "Portal Activation" tasks.
+- Corrected the focus effects on Praetorian's Energeiac Silk Pantaloons and Robe.
+- Addressed issues with the spell effects on Praetorian's Silk armor.
+- Increased the AC of Praetorian Plate armor.
+- Improved Serpent Seeker's Charm of Lore to be more in line with the difficulty required to reach maximum stats.
+- Increased the amount of mod effects on single group items from Steppes, Sunderock, Vergalid, Direwind, Icefall, Valdholm, Frostcrypt, and Ashengate.
+- Changed the focus effect on Mysaphar's Silverfanged Gauntlets from ice to poison damage focus.
+- Increased the stats for several TBS two-handed weapons.
+- Added mod effects to Riven Krithgor Battle Shield.
+- Corrected AC on the level 60 Tradeskill Energeiac armor and weapons.
+
+
+*** Spells ***
+
+- New Druid teleportation spells have been discovered that lead to the Buried Sea!
+- New Wizard teleportation spells have been discovered that lead to Katta Castrum!
+
+
+*** NPC ***
+
+- Nelin Signus in Plane of Knowledge is now findable.
+
+
+*** Tradeskills ***
+
+- Roboboars can now be upgraded from any class to a higher class where a higher class of roboboar exists. This will not in any way be economical as there is no discount for the needed gear sets just because you have already completed a previous upgrade.
+
+
+*** Progression ***
+
+- Made a number of changes to the Serpent Spine Frostcrypt progression series. It should now take less time to be eligible for the final Frostcrypt instances.
+- Added faction modifiers to many of the Frostcrypt raids and events that take place within the Frostcrypt instances.
+
+
+*** Tasks ***
+
+- Corrected an issue with the task "Confront Emperor Vaakish" that would prevent the task from resetting properly in certain cases.
+- Corrected several issues with the task "Stop the Ritual". We were unable to stop the guards from warping in some cases but they will now return to the temple if they do warp. Additionally added a failsafe to respawn any "missing" NPCs that are needed for the task should they disappear.
+- The Portal Activation quests will no longer trigger ambushes for a task you do not have. If you manage to get both tasks, you will still get triggers for both until you finish one.
+
+
+*** Miscellaneous ***
+
+- The Nurtha Event in Vergalid Mines should now function properly.
+- Removed the imps from the Demi-Plane of Blood.
+
+
+- The EverQuest Team
+
+
+March 14, 2007
+_____________________
+
+*** Highlights ***
+
+
+Happy 8th Anniversary EverQuest!
+
+On March 16, 2007, EverQuest will celebrate its 8th Anniversary.
+
+To commemorate this landmark occasion, we have introduced dozens of Fabled Luclin NPCs and have brought back all the fabled fiends of years past. There is also a new scavenger hunt! Speak with Tyla Filinav in the Nexus if you are interested in helping her collect a few things.
+
+The Anniversary Festivities will be available from March 16, 2007 through April 16, 2007.
+
+Enjoy the Celebration!
+
+
+*** Items ***
+
+- Corrected focus effects on Solteris armor to the appropriate (raid level) focus effects.
+- Stormweave Swatch and Nightmare Arachnid Swatch should now be able to be combined in the appropriate cultural containers as well as the various Tanaan containers.  These will not be automatically learned unless you have already done these combines in a Tanaan Loom.  If the combine was instead done in a portable kit you will need to experiment in order to "learn" the recipe.
+- Corrected stats on the Gem of Judgment.
+- Many issues with ranged weapons and their ability to hit a target have been fixed.
+- Daggers and throwing axes as well as other projectile weapons now correctly SPIN as they are moving through the air!
+- Added Bard Instrument Mods to Buccaneer and Praetorian Energeiac Plate Armor.
+- Modified the Worn Iron Rallosian Relic charm to use elemental damage rather than bane damage.
+
+
+*** Quests 
+
+- Expanded the range at which the Outer Portal Key Geza Zeku and Outer Portal Key Azia Zeku is received when you near the appropriate portal.  You should no longer fail to get these keys if you accidentally zone.  It is still advisable to not run as fast as you can to the teleporter.
+- Ambushes will no longer spawn near the Thalassius nor Zhisza portals.  Additionally there will no longer be an unstable portal energy at the Atiiki Portal.
+- Removed the requirement to hand in the Sunstone Sun Charm at the end of the Sunstone Savages mission, as this item is needed later in the quest arc.
+- Added some difficulty to the Warning Signs quest in Valdeholm.
+- The NPCs that ambush players in Katta Castrum while doing some of the quests there will now be much more focused on those they intend to ambush. It will be harder to avoid the ambush, and the ambushers will mostly ignore those that they are not after.
+- The Vergalid dragon raid should now function correctly. Roar of Insanity will now cast less often and has a shorter duration.
+- The clockworks in the Nurtha raid now hit for slightly less damage.
+
+
+*** Spells ***
+
+- Rage of the Crystalwing is now increasing hate appropriately.
+- Certain individuals have learned how to change the form of undead servants.  They are willing to share that knowledge, for a price.
+- The Eye of Zomm should no longer go faster than a speeding bullet in the water.
+
+
+*** NPC ***
+
+- Specters across the world of Norrath have taken on a more frightening and less blocky form.
+
+
+*** Tradeskills ***
+
+- The Dihydrous Oxide Glaciator now requires a shiny bundle of superconductive wires.  This is made simply by cleansing the wires with celestial solvent.
+- Doubled the drop rate of Sunshard Dust, Sunshard Pebble and Sunshard Ore.
+
+
+*** Tasks ***
+
+- The quest "Library Heist" is no longer repeatable. 
+
+
+*** Zones ***
+
+- You can now bind in Katta Castrum.
+- Dyn'leth has returned to his draconic form.
+- Corrected problems with entering some keyed zones if you only had the key, not the associated keyring flag. 
+- Cleared the area around the Portal of War in Steppes. This should make zoning in there safer.
+- Changed the zone in location for all Zhisza missions. You should now be safer when you enter the mission but be warned - you still need to be wary!
+
+
+*** AA ***
+
+- Reduced the reuse time on Intensity of the Resolute to 6 hours and the duration of the effect to 1 minute. 
+
+
+*** Miscellaneous ***
+
+- Looting Twisted Harp Strings will now fully backflag you for Deathknell.  You will no longer need to get the additional Inspiration.
+- Higher rank disciplines should now correctly replace lower rank ones when characters learn them.
+
+
+*** User Interface ***
+
+- Added a scroll bar to the reward window.
+- Changed the default size of the Options Window to ensure previously-added buttons are visible.
+- Bazaar Search Window size was changed to avoid the need for resizing in order to access the "Find Items" button.
+- Made some corrections to the power source slot.
+
+* Changed *
+
+EQUI_Animations.xml
+EQUI_BazaarSearchWnd.xml
+EQUI_GuildManagementWnd.xml
+EQUI_HotButtonWnd.xml
+EQUI_Inventory.xml
+EQUI_LootWnd.xml
+EQUI_OptionsWindow.xml
+EQUI_RewardSelectionWnd.xml
+EQUI_TaskWnd.xml
+
+
+*** Previously Updated ***
+
+- Removed the Pristine Granite Stone from Iceflow in Frostcrypt and moved the item to a new rare in the same zone. 
+
+
+- The EverQuest Team
+
+March 29, 2007
+_____________________
+
+*** Highlights ***
+
+The Anniversary scavenger hunts and fabled NPCs will continue to be available until April 16, 2007.
+
+Is your EverQuest character a great traveler, a community leader, or do you have a fabled tale to tell? Want a chance to get an item named after your character? Are you "The Fabled Adventurer"? Then show us the tale of your character. Read about The Fabled Adventurer Video Contest on the EQPlayers website.
+
+
+*** Items ***
+
+- Increased the AC on the Arcane Scroll of Suncrest.
+- Increased the AC on Orb of Stonecarving.
+- Increased AC, and reduced HP / Mana on the Fabled Great Shadow Platemail.
+- Increased the HP / Mana on the Fabled Halo of Enlightening Barriers.
+- Corrected the AC and Endurance on the Fabled Fire Idol.
+- Corrected the stats on the Fabled Jenniy's Two-tone Cuirass.
+- Added an augment slot to the Efreeti Death Visage.
+- Removed augment slots from the fabled augments.
+- Increased the stats for Serpent Seeker's Charm of Lore to be more in line with the effort required to complete it.
+- Changed the weight formula on the Frost-Carved Granite Statue to be less restrictive.
+- Costs of Rank III spells in The Buried Sea have been reduced by half.
+- Changed the Fabled Scimitar of Shissar Slaying to use the correct body type.
+- Added additional worn effects to TBS Combine and Pirate vendor armor.
+- Changed damage/delay ratios for several TSS weapons.
+- Added mods to the Sleetcaller's Mask of Icy Precision and the Scaleguardian's Guise.
+- Modified weapon ratios for many TBS Weapons.
+- Upgraded Block on TSS and TBS armor.
+- Improved several augments from Solteris.
+
+
+*** Quests 
+
+- Smith Gyasi will now give the normal cash rewards for doing the quest for ore.
+- The Cursebearers of Ink'tuta can no longer be thwarted by invulnerability effects.
+
+
+*** Spells ***
+
+- The Standards that increase Max HP, Max Mana, and Max Endurance are now mutually exclusive.  You can receive the benefits of one at a time.
+
+
+*** AA ***
+
+- Lowered the reuse timer on the Veteran AA Intensity of the Resolute to 4 hours and reduced the casting time to instant. 
+- Increased the amount of hitpoints absorbed by the AA Uncanny Resilience (Ranks 2 and 3 only). 
+- Increased the duration of all 3 ranks of the AA Mind Over Matter. 
+- The AA Manadraw should now stack with the Clarity line of spells. 
+- Removed the Manadrain component from the AA Veil of Mindshadow (All 3 Ranks). 
+- Glyph expendable AAs are no longer focusable.
+
+
+*** Previously Updated ***
+
+- Caerlyna will now accept Dark Blue Hand Made Backpack Tokens.
+- Fixed the setting for the Fabled Wards of Life and Death in Acrylia as well as the Cursed, Creator, and High Priest in Ssra Temple. They should be more Fabled and less wimp now.
+- Fixed several scavenger hunt access issues.
+- Added recipes for the new ice for the shakes.
+
+
+- The EverQuest TeamApril 5, 2007
+_____________________
+
+*** Highlights ***
+
+The Anniversary scavenger hunts and fabled NPCs will continue to be available until April 16, 2007.
+
+Is your EverQuest character a great traveler, a community leader, or do you have a fabled tale to tell? Want a chance to get an item named after your character? Are you "The Fabled Adventurer"? Then show us the tale of your character. Read about The Fabled Adventurer Video Contest on the EQPlayers website.
+
+
+*** Items ***
+
+- Changed the name of the fine silk that is used to make the seals for cultural raid augments to fine silk swatch.
+- Changed the name of the human robes that have the name "cuirass" instead of robe.
+
+
+*** NPC ***
+
+- Spell caster skeletons in the Buried Sea should now give the correct aggro message.
+
+
+*** Miscellaneous ***
+
+- Autojoin now works up to level 75 in The Buried Sea zones and Darkhollow zones.
+- Fixed a server crash that could occur when a member was added to a raid. This only happened with very large raids.
+- Players are now able to see how much damage they are taking from a DoT when it does its damage. This is also filterable in the Options Windows under Filters under My Damage Over Time.
+- Players with pets will no longer get stuck in combat when charmed. The pet's hatelist is cleared when owner is uncharmed.
+- Campfires will now despawn if the leader removes himself (as the last member).
+- Banners should display the correct guild name when targeted.
+- The tribute timer should no longer go away when zoning. 
+- You can now filter the guild banners even when the "Show all" button is not checked in the guild banners management window.
+- Fixed crash bug when trying to display a multi-socketed item.
+
+
+- The EverQuest Team
