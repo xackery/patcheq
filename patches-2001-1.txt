@@ -1,0 +1,1953 @@
+.....................................................................
+
+------------------------------
+January 9, 2001  3:00 am
+------------------------------
+
+***Patch Day***
+
+We're happy to present today's patch, which focuses primarily on 
+addressing issues that have been brought forth by EverQuest players. We 
+appreciate the opportunity to spend some time focusing on specific 
+issues important to you. Today's patch includes the following:
+
+*Disciplines*
+
+- The "Resistant" Discipline now lasts 5 minutes instead of the 
+previous 1.
+- The "Holy Forge" Discipline now lasts 5 minutes instead of the 
+previous 2.
+- The "Weaponshield" Discipline now lasts 20 seconds instead of the 
+previous 15.
+- The "Leechcurse" Discipline now lasts 20 seconds instead of the 
+previous 15.
+- The "Deftdance" Discipline now lasts 15 seconds instead of the 
+previous 10.
+- The "Puretone" Discipline now lasts 4 minutes instead of the previous 
+2.
+- The "Sanctification" discipline now lasts 15 seconds instead of the 
+previous 10.
+- The "Unholy Aura" Discipline now gives a 50% bonus to Harmtouch 
+(compared with the previous 25%) and causes it to save versus disease, 
+which should result in even fewer resists in most high-level 
+encounters.
+
+*Spells*
+
+- "Lay on Hands" has been improved starting at 40th level.
+- The "Summon Corpse" spell is now available to Shadowknights.
+- Corrected a bug that was causing damage while using the "Trueshot" 
+Discipline to be the same regardless of the quality of your bow.
+- The spells "Focus of Spirit" and "Visions of Grandeur" now stack.
+- "Harmtouch" is now resisted as if it were a "Lifetap" spell, meaning 
+that it is all-or-nothing, and nearly unresistable with exception to 
+encounters that are immune to magic or out of the acceptable level 
+range. In addition, maximum damage for Harmtouch has been increased 
+starting at 40th level.
+- We fixed a bug that caused "Lure" type spells (Wizards) to be 
+resisted more than they should have been in certain types of 
+encounters.
+- Melee attack timers will no longer be reset when a SK, Paladin, or 
+Ranger cast a spell. Previously these classes had to wait a full attack 
+delay after casting before they would attack via melee again. 
+
+*Miscellaneous*
+
+- You may now adjust the clipping plane in the Hole. Previously, the 
+clipping plane was fixed. Many people requested the ability to bring 
+the clipping plane closer to allow them to improve their client's 
+performance.
+- Fixed several problems with trade-skill components that were not 
+dropping. Also added some new recipes.
+- Fixed the Iksar "Shackle of Steel" quest. 
+- The additional options for /camp (/camp server, /camp desktop) have 
+been implemented. /camp server will take you to the server-selection 
+screen. /camp desktop will cause EverQuest to terminate and take you to 
+the desktop.
+
+*Root and Snare*
+
+Root-type spells and "snare" type spells now use a separate spell 
+effect. 
+
+Previously, "Root" spells would overwrite any snare effect upon the 
+target. When the root would wear off, the target began moving at full 
+speed. With this change, when root wears off, snare will still be in 
+effect. This has a few added effects on the other end. 
+
+For instance, root will no longer cancel SoW or Journeyman's Boots 
+effects. It also allowed us to correct a long-standing bug that was 
+allowing bards to cancel root on themselves by playing Selo's 
+Accelerando if Selo's was in effect at the time that the bard was 
+rooted. As mentioned in a previous patch where the first part of this 
+bug was fixed, this was not the intended effect.
+
+*Looting NODROP Items*
+
+A new command is now available to EverQuest players. 
+
+In order to prevent the accidental looting of NODROP items, the 
+/lootnodrop command has been added to the client. The command supports 
+three options: ALWAYS (Default) - You will be presented with a yes/no 
+confirmation box when attempting to loot any NODROP item. SOMETIMES - 
+You will be presented with a yes/no confirmation box when attempting to 
+loot any NODROP items that your race and/or class cannot use. NEVER - 
+NODROP items will be looted without confirmation. 
+
+It is highly recommended that you DO NOT CHANGE this from the default 
+option, as the GM staff cannot assist in cases of accidental looting.
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+January 17, 2001  3:00 am
+------------------------------
+
+*Baltimore Fan Faire - Last Chance*
+
+Monday is the registration deadline for the Baltimore Fan Faire! We are 
+almost sold out so hurry and visit 
+http://everquest.station.sony.com/fanfaire/fanfaire.html before you 
+miss your chance to attend this event!
+
+*Patch Day*
+
+The primary focus of today's patch is to implement changes noted in the 
+new Producer's Letter which can be found at 
+http://everquest.station.sony.com/news/letter.shtml
+
+It is HIGHLY RECOMMENDED that you read the Producer's Letter before 
+playing EverQuest. It contains some unprecedented and exciting 
+enhancements to gameplay.
+
+In addition to these changes, the following changes have been 
+implemented:
+
+*Bug Fixes*
+
+- Fixed a bug that caused "root" and "snare" type spells to function 
+incorrectly when stacked. They should now stack properly.
+- Fixed a bug that negated the "instrument modifier" for bards using 
+Selo's, causing them to run slower than they otherwise would. 
+- Fixed a bug that allowed two or more spells that grant levitation to 
+stack. Levitation spells should not stack.
+- The "Track Corpse" spell now works.
+- Tracked down and eliminated several bugs that were causing a very 
+small percentage of people to crash when zoning or upon entering the 
+game.
+- Fixed a problem with some Ulthork armor that caused it to disappear 
+on death if the wearer was of extremely low level.
+- Tserrina's Whip has been fixed. If you received one prior to today's 
+patch, you will need to trade out your whip with a GM in order to get 
+one that works correctly.
+- Last week's patch attempted to fix Celestial Elixir, Celestial 
+Healing, and Torpor, so that they would stack another similar spell, 
+unintentionally causing it to stop stacking with standard regeneration 
+spells. This has been fixed. The downside to this fix is that these 
+spells will now overwrite the "Call of Bones" series. As the three 
+former spells are cast to save a character's life, this solution 
+appears to be the most beneficial for all of those involved. 
+- The stronger /lootnodrop options will no longer prompt you for 
+confirmation when looting your own corpse. It is highly suggested that 
+everyone reset their option to the strongest security available: 
+/lootnodrop ALWAYS (always ask for confirmation).
+- Added some code to address an issue reported by a few players, that 
+being that an NPC named "Ragefire" would die and not leave a corpse. 
+Though we were unable to reproduce this problem in testing, the code we 
+added should function as a catch-all for this problem. Please be sure 
+to let us know how this goes.
+
+
+*Changes/Enhancements*
+
+- While not mentioned in the Producer's Letter, the Zone Experience 
+Modifier has also been increased in Guk (guktop), by roughly 12%.
+- "Lay on Hands" has been enhanced again to heal more hitpoints.
+- Overlooked in the last patch message, new spells were made available 
+to Rangers and Paladins in the upper levels. 
+- "Voice of the Berserker", a beneficial spell, no longer drains mana 
+over the duration of the spell.
+- The maximum duration of "Strength of Nature" has been increased.
+- A new spell for magicians is now available in game.
+- The "Shield of the Eighth" spell will now last a number of minutes 
+equal to your level.
+- You can now use the arrow and enter keys to select characters in the 
+character select screen. In addition, the last character you chose will 
+be automatically hilighted when entering that screen. This value is 
+stored in the EQCLIENT.INI file as "LastCharSel=0-7"
+- The ranger's "Trueshot" discipline has had its damage increased after 
+analyzing data from its fix last week. Prior to the last patch, all 
+bows, while under the discipline, were hitting as if they were 45dmg 
+bows regardless of the delay. Last week's patch fixed it so that damage 
+was based on the damage of the bow. This weeks patch increases damage 
+bonuses in relation to delay (longer delays yield better damage 
+bonuses). 
+- You can now reverse the left and right channels on your speakers 
+using the /reversesound command. This should be very useful for those 
+who have had to place their speakers backwards due to cable lengths.
+- Made some improvements to Paw, Mistmoore, and The Hole, to address 
+some concerns brought forth by the players. Both zones had some 
+problems that would cause them to be exceedingly difficult in some 
+cases.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+January 24, 2001 
+------------------------------
+
+*QA Openings* 
+
+Our Quality Assurance department is looking for some AVID EQ gamers to 
+join us as testers at the San Diego branch. If you would like more 
+information please visit www.verant.com or mail your resume to 
+resume@station.sony.com with "QA Openings" as the Subject. 
+
+Applicants should include their time playing EverQuest, and their 
+number of characters and their respective classes and levels as part of 
+their resume. 
+
+*Small Patch* 
+
+The EverQuest Team is currently hard at work evaluating, planning, and 
+documenting our project plans for the current year. As such, we did not 
+plan game updates during this period, forecasted to last a few weeks. 
+
+However, given today's server maintenance being performed by our 
+Operations Team, we were able to include a few small updates. These 
+include some minor polishing on the Plane of Mischief, as well as the 
+placement of the wizard's Velious teleport spells on merchants. 
+
+Very soon, we'll be back to our continual plans to enhance the game 
+world. We'll be sure to let you know what we have planned as we can. 
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+January 31, 2001  3:00 am
+------------------------------
+
+*File Download*
+
+The file just downloaded contains some new art for use in game in the 
+future. 
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+February 21, 2001  3:00 am
+------------------------------
+
+*Patch Day*
+
+Today's patch contains a wide variety of enhancements and changes. Due 
+to the number of changes being made, this list is primarily a summary. 
+Extended descriptions of the changes and the reasoning behind them can 
+be solicited on the EverQuest Message Boards.
+
+*Spell and Skill Changes*
+
+Druids, Shaman, and Clerics:
+--- Superior Healing moved to level 51 for shamans and druids. 
+--- Casting difficulty of Superior Heal reduced (less fizzles)
+--- New level 55 Druid and shaman spell, Chloroblast, similar to remedy 
+for clerics.
+--- New Druid spell at level 60, upgrade to superior healing, Natures 
+Touch.
+--- Created a new spell effect for Celestial Healing, Celestial Elixir, 
+and Torpor. This will allow them to stack with all other spells, save 
+spells of the same type (Heal over time). Prior to this, all heal-over-
+time spells followed the same rules as regeneration spells.
+--- Reduced the casting difficulty of Remedy.
+--- Lowered recast time on Wake of Karana
+
+Paladins:
+--- Added Endure Magic spell at level 30
+--- Added Resist Magic at 55
+--- Moved Guard spell from 49 to 39
+--- Moved Armor of Faith from 53 to 49
+--- Added New level 53 paladin spell: Divine Glory
+--- Added New level 59 spell: Celestial Cleansing 
+--- Defense skill cap made exactly same as warriors
+--- Added Yaulp 4 at 60 and enhanced.
+
+Shadowknights:
+--- Removed artificially inflated mana cost for pre level 50 lifetap 
+spells. Please note that post-50 lifetap spells never had an inflated 
+mana cost.
+--- Moved Spirit Tap to level 55
+--- Moved Drain Spirit to level 57
+--- Added Drain Soul at level 60
+--- Grim Aura added at level 22 and enhanced
+--- Moved Shieldskin to level 34
+--- Pet buff added at 29
+--- Added Diamondskin spell at 59
+--- Defense skill cap made exactly same as warriors
+--- Due to the recent improvements to "Harmtouch", it is doing much 
+more damage than it would before and unbalances PvP. As such it will 
+now do less damage in PvP (68% of PvE, down from 80%). In addition, 
+Shadowknights on the PvP servers were routinely killing themselves via 
+non-XP losing means and attacking other players with Harmtouch 
+immediately upon respawn. In order to address this situation, Harmtouch 
+is no longer automatically "recharged" by death on the PvP Servers.
+--- The "Lifeleech" discipline now increases hit probability in 
+addition to its other effects.
+
+
+Rangers:
+--- Added Endure Cold at 22
+--- Added Skin Like Nature at 59
+--- Added FireFist at 22
+--- Moved Bramblecoat from 49 to 39
+--- Added Spikecoat at 49
+--- Added resist cold at 55
+--- Added Panic Animal at 22
+--- Moved Jolt to 51
+--- Moved Spirt of Wolf from 39 to 30
+--- Added Cinder Jolt (fire-based Jolt spell) at 55.
+--- Offense and weapons skill made identical to warriors
+--- Added See Invisible at 39
+
+Bards:
+--- Added new level 20 Bard Song: Cassindra`s Chant of Clarity
+--- Bards defensive skill made exactly the same as a warriors
+--- Changed it so that the bard spell Denon's Desperate Dirge to 
+increase damge by 10pts per level over 45. Also made it so the spell 
+does 20% more damage using the Puretone discipline.
+
+Magicians:
+--- Added new level 59 spell: Valiant Companion
+--- Added new level 39 spell: Summon Companion
+--- Rain spells no longer count pets against total number of entities 
+they can damage (all rain spells)
+--- Added level 29 spell for Mages: Expedience
+
+Enchanters: 
+--- Lowered recast time on Visions of Grandeur
+
+*Bug Fixes*
+
+--- Aggressive and Defensive disciplines have been fixed. Before they 
+would only affect damage taken and not affect damage dealt out. Now 
+they affect both as designed.
+--- Fixed the bug with going to the spellbook when the inventory window 
+was up in fullview mode. It should work now. Also, fixed a minor bug 
+where if you were in normal mode and tried to go to the spellbook from 
+inventory via /book or the keymapped key it would not go, and it would 
+make the done button not work properly for the inventory mode.
+--- Fixed NPC melee ranges to be the same as for player characters. In 
+other words, if you can hit the NPC, he can hit you. This bug was a 
+problem with one dragon that could be hit, but could not hit back.
+--- Fixed a bug that made it impossible to "Call of the Hero" someone 
+out of water or lava.
+--- Fixed the proc on the Chilled Scythe. Owners of this item will need 
+to swap it out with a GM.
+--- The Kromzek Surveyor Scope now fits in the "Ranged" slot rather 
+than the "Ammo" slot as before.
+--- Fixed a bug that caused the two single-target bard snare songs to 
+break too soon in some cases.
+--- Fixed a bug whereby NPCs would consider the race of a player prior 
+to the loading of the faction table upon zoning or logging in. This 
+would cause people to be attacked by things that normally like them. 
+--- Players should now be properly removed from the group regardless of 
+how they exit the game.
+
+*Misc Changes*
+
+--- Added text labels to the fullview inventory window "body" slots 
+(Available only to Velious Subscribers)
+--- Added the ability to toggle those labels on and off. Use 
+/invwinlabels [on/off] (or no arguments to toggle). This is saved in 
+the eqclient.ini file in the [Defaults] section with the key 
+InvWinLabels=[TRUE/FALSE]
+--- Increased the pre-50 bind-wounds cap for rogues and warriors.
+--- Pickpocket now works to a max of 5 levels below you, or level 
+45...whichever is greater... You can pickpocket NPC up to level 55 if 
+you are level 60. 
+--- The mouse pointer will now move at a multiple of its normal speed 
+when you adjust the MousePointerSpeedMod setting in the eqclient.ini 
+file. You can set that multiple on-the-fly with the /mousespeed 
+command.
+--- The "AutoHelp" feature that can be set under the options menu has 
+been enhanced. Spell casters in particular might want to turn it on and 
+try depressing the ALT key. It's perfect for refreshing your memory in 
+regards to your spell lineup.
+--- If you are interrupted while trying to cast a spell that uses a 
+component, you will no longer use that component. Jewelers should be 
+very pleased with this change.
+--- Reduced the casting difficulty (fizzle rate) of all spells over 
+level 56. Spells have always previously been set up so that it's 
+usually more efficient to use a spell from a previous circle than the 
+current one. The formula did not take into account the fact that 
+everyone stops at 60.
+--- Changed it so that players will now lose experience when they die 
+in the Arena in Kael Drakkel. It seems that people were fighting giants 
+in that arena in order to avoid the death penalty.
+--- Naked PC corpses that have experience and are above level 30 will 
+now last 3 hours instead of 3 minutes.
+--- Avatar and Focus of Spirit should now stack
+--- Raised the pre and post 50 bind wounds cap for paladins, clerics, 
+druids, and shaman.
+
+*Item Changes*
+
+--- The effect on the "Frost Giant Beard" can now be used at 35th level 
+rather than level 50.
+--- The Wurmslayer will now fit in a bag. 
+--- Iksar can now use the Ashenbone Shield
+--- Chandged Crystallized Shadow leggings to rentable
+--- Changed Gorilla Hide Leggings to show up as leather, was cloth 
+before
+--- Changed Envy from a piercing weapon to a shield so players could 
+Bash with it. Envy is a parrying dagger.
+--- The Shralok Pack is now LORE. It was set to pending-lore some time 
+ago.
+--- The Guardian and Sentry Armor bracers are no longer LORE.
+--- Donal's Breastplate can now only be used on any individual target 
+once every 7.5 minutes. This addresses some of the balance issues that 
+became apparent given the existence of a mana-free complete heal.
+
+*Trades and Crafts*
+
+--- Fixed the Gator Roll baking recipe.
+--- Repaired the notetext instructions for creating a Mixing Bowl with 
+pottery. 
+--- Repaired Holgresh Fur Cap and Holgresh Fur Moccasins tailoring 
+recipes.
+--- Made it so that the file is returned in addition to the hammer when 
+a character fails to forge any of the various chain jointings.
+--- Repaired Recipe for Enchanted Tier`Dal Adamantite Bracelet
+--- Made it so that the Dwarven Smithy Hammer is returned on a failure 
+to forge Brellium Chain Jointing.
+--- Repaired Field Plate Boots smithing recipe
+--- Changed the name of the smithed Enchanted Cabilis Scale armor to 
+Imbued Cabilis Scale armor for naming convention reasons.
+--- Repaired the recipe for converting 3 Enchanted Large Adamantite 
+Bricks into 1 Enchanted Block of Adamantite in the Tier`Dal Forge, it 
+was previously only possible in the Oggok Forge.
+--- Made it so that the Bread Tin is returned upon a failure to bake 
+bread.
+--- Mithril and Velium Bonings will be stackable.
+--- Mithril Studs will be stackable.
+
+*NPC AI - Hate*
+
+We've made a number of changes to NPC AI, specifically to the section 
+dealing with target-selection, or what's commonly referred to as 
+"Hate". It is not so much that NPCs react differently to hate now than 
+before, but that we've changed the way that hate is awarded. 
+
+--- We reduced the amount of hate that can be caused by a proc. Due to 
+the high proc rates at upper levels, the amount of hate generated from 
+procs, and the spells that were selected for those procs, made keeping 
+the attention of the creature much too easy a task for the tank. 
+Simply, it nearly eliminated the challenge of keeping a foes attention 
+at levels above 50.
+
+--- We've capped the amount of hate that can be awarded to most 
+casters, specifically for debuff-type spells like the Malo and Tash 
+series. The hate calculation for these spells takes into account the 
+number of hitpoints of the NPC and did not "play nice" with the 
+increased HP limit of Velious. It explains why Enchanters, for 
+instance, would complain that casting a Tash spell would lead to near-
+instant death.
+
+--- We've redressed the amount of hate generated by heal spells. 
+Previously, and *partly* due to a bug, the high level heal spells such 
+as superior heal or complete heal would generate no more hate than 
+greater heal. In fact, so little hate was generated by these spells 
+that it made controlling NPC aggression trivial. Heal spells will now 
+generate an amount of hate more in line with the number of hitpoints 
+actually healed. Due to our desire to leave the lower level game more 
+or less untouched, two separate caps have been placed for targets level 
+50 or below, and 51 or above. Heal spells will generate significantly 
+less hate for targets below level 51 than those at or above that level.
+
+--- We've also re-evaluated ways that players have to reduce their own 
+hate. While spells in place to allow this are OK, the Evade skill 
+(possessed by rogues) let them out of their damage too easily. A rogue 
+that successfully evaded would immediately drop to a level of hate 
+lower than someone who was in the awareness range, but hadn't done 
+anything to really upset the creature such as damage it or heal its 
+foe. This problem was exacerbated by the increase of the size of the 
+hate list implemented with Velious. 
+
+*Tracking*
+
+Tracking now works in full view for all classes that can use it, and 
+sports a nifty scroll bar that allows players to see everything on the 
+list. In addition, the /trackplayer setting is now saved to the 
+eqclient.ini file.
+
+The following options have been put in for Rangers only:
+
+--- /tracksort 
+--- /trackfilter 
+
+*/tracksort options beginning with R are reverse order
+
+*Hybrid Casting*
+
+Hybrids that cast spells in combat were taking double penalties at 
+higher levels. The casting times of their spells went up, and the 
+amount of melee damage they do per second went up. This results is 
+having to take longer to cast spells, and losing more damage/second for 
+each second taken in casting. To help offset this, Rangers, Paladins 
+and Shadowknights casting non-beneficial spells that have casting times 
+greater than or equal to 3 seconds, now get a 3 % reduction in casting 
+time for each level over 50. 3% at 51, 6% at 52, etc., to 30% at 60. 
+Again, this applies only to non-beneficial spells. 
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+March 6, 2001  3:00 am
+------------------------------
+
+***Patch Day***
+
+*General Changes*
+
+-- Doubled the chance gain skill points in skills that are above 200. 
+-- Fixed a bug that disallowed casting of the Donal's Breatplate on 
+others once casted upon yourself.
+-- The spell scrolls for Grim Aura should now all reflect usability by 
+SKs
+-- Fixed a bug that would allow melee players to open a spellbook via 
+/book or alt+b.
+-- Merchants will now recognize Iksar as a valid race.
+-- New bind locations have been added to three zones in the world - One 
+on Antonica and two others on Kunark. NPCs at these locations can fill 
+you in on the details. Good hunting.
+-- The casting time for four cleric brestplates sporting the "Celestial 
+Healing" effect has been increased to one minute. We understand that 
+this severely limits the use of that effect and we are currently 
+discussing alternate effects to place on those items in the next patch. 
+We did, however, need to address the 300pt per tick regen that could be 
+placed and kept on the group tank. When we've decided on the new 
+affect, it will be applied to those items retroactively. 
+-- Numeric skill values will be shown on character skill display for 
+skill values over 100. Values under 100 still show the qualitative 
+identifiers.
+-- Players have expressed concern about accidentally inspecting other 
+players. You can now turn on or off your ability to inspect other 
+players by typing /inspect. 
+-- Those of you with z-axis mouse wheels on your mice may use them over 
+the chat window.
+-- Fixed "Breath of the Sea". It was mistakenly set to be unresistable.
+-- Same-zone evac-type spells will now cause you to reload the current 
+zone. This is a necessary step to ensure that you are removed from all 
+hatelists and clean up your pet.
+-- "Voice Graft" will no longer show the spawn number (Jobaber00) of 
+your pet.
+-- You will now receive a message when you are being bandaged.
+-- The tracking skill cap for Druids has been raised to 125. It was the 
+intent for druids to be better at tracking than they were, however 
+before the scroll bar, smaller skill numbers were often considered 
+better. With the tracking improvements from the last patch, this 
+increase was appropriate.
+-- Increased the number of hitpoints healed by Celestial Cleansing.
+
+*NPC AI Adjustments*
+
+-- Level 60 players with the taunt skill will now have a chance to 
+taunt creatures that are level 60 to 65. Previously, players could only 
+taunt creatures below their level.
+-- NPCs that are mesmerized or stunned will now only add a very small 
+amount of hate when they see you cast beneficial spells on their 
+enemies. Prior to this, they would add full hate when they saw you do 
+this. This is why NPCs would always jump the cleric after breaking Mez.
+-- Fixed a bug that would cause NPCs to add too much "temporary hate" 
+when a player would sit down in front of them.
+-- The maximum amount of "hate" that an NPC can add when witnessing a 
+heal to targets above level 50 has been decreased substantially.
+-- Hate from heals is also now calculated at a lesser number than the 
+number of hitpoints healed. Previously, healing one hitpoint would 
+cause one point of hate. Now, healing 3 hitpoints will cause 2 points 
+of hate.
+
+*Velious Music*
+
+Velious subscribers should run the Velious Patch to pick up new mood 
+music for some Velious Zones. Let us know what you think of the new 
+compositions. 
+
+*EQGems*
+
+A new "mini-game" has been added to the EverQuest client. EQGems is our 
+first effort aimed towards allowing people to engage in different 
+activities while playing EverQuest. Based upon the success of EQGems, 
+we may explore opportunities for other mini-games in the future, even 
+some that are multiplayer in and of themselves. Type /gems to play.
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+March 9, 2001  12:00 am
+------------------------------
+
+*E'ci and The Rathe Movelog*
+
+We will be opening a new server and moving characters from the E'ci and 
+The Rathe servers to this new server upon the request of the customer. 
+If you choose to move your characters to the new server, please be 
+aware that all of your characters on the old server will be moved to 
+the new server.
+
+To request to have your characters moved to the new server, all you 
+need to do is type "/movelog yes" into the chat window while playing a 
+character on that server during the time that the move log is open.
+
+We will be opening the move log for these two servers on Friday, March 
+16th, 2001 at 6:00 pm. PST (which is Saturday morning at 2:00 am GMT). 
+We will be closing the move log on Sunday, March 18th, 2001 at 11:59 pm 
+PST (7:59 am on Monday the 19th GMT). The new, yet unnamed, server 
+should be opened some time during the week of March 19th. We'll 
+announce the exact date as soon as we can.
+
+There are a few things to keep in mind when choosing to move your 
+characters to the new server. The most important thing to keep in mind 
+is that character corpses will not be moved with the characters. So it 
+is important to make certain that you have looted all of the corpses 
+that you want to loot before the characters are moved.
+
+Also, characters names are unique on the new server. Because characters 
+will be moving from two separate servers onto the new one, there may be 
+cases where two characters with the same name are created on the new 
+server. Because character names must be unique, one of the two 
+characters will be chosen at random and have an 'x' added to the end of 
+their name. If you find that one of your characters has had an 'x' 
+tacked onto their name after the move and you would rather have a new 
+name, please contact your GM by using the /petition function. The GM 
+will help you to change the name of your character.
+
+Guild structures do not follow the characters to the new server. We 
+will be unable to reestablish guilds until at least a week has passed 
+after the split. On any day after the new server has been up for eight 
+days, the guild leader can /petition for a GM to help them reestablish 
+the guild. Please do not petition for this before seven days have 
+passed, we will not be able to set up your guild before then.
+
+We will not be moving characters back to the old server, so make 
+certain that you want to move your characters before you type "/movelog 
+yes". And we will not be moving characters for those that fail to 
+execute the movelog command during the stated window of opportunity. 
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+March 14, 2001  3:00 am
+------------------------------
+
+***EverQuest Turns Two***
+
+Two years ago this Friday, EverQuest was launched, forever changing the 
+course of online gaming. Today EverQuest boasts nearly 360,000 active 
+subscribers, and a two-year retention rate of 65%. Peak usage tops 
+89,000 simultaneous users with average peak usage at roughly 87,000. 
+The EverQuest community continues to grow daily. 
+
+We've put up a page on the EverQuest website to help celebrate 
+EverQuest's achievement and to thank our loyal fans. Over the next 
+couple of days we will be posting interesting content from EverQuest's 
+humble beginnings, as well as a few surprises. Check it out! 
+http://everquest.station.sony.com/2ndanniversary/index.jsp
+
+*Ever Changing, Evolving, Expanding*
+
+The Warrens:
+
+As part of our two-year celebration, we're pleased to announce the 
+release of "The Warrens", a free expansion zone located on Odus. "The 
+Warrens" is a low-to-mid level dungeon and the home of the Kobolds on 
+Odus. You can patch the Warrens by running the "Optional Patch". 
+
+In addition to filling-out the continent of Odus, "the Warrens" will 
+also serve as a platform to try out some of the new ideas brought forth 
+by members of the team and the public aimed at addressing some common 
+gameplay issues. We would like to see what options might be open to and 
+enjoyed by the players in the future.
+
+The first issue addressed in the Warrens is the problem of higher level 
+characters competing with lower level characters for loot on lower 
+level creatures. To address this issue, in the Warrens, a group that 
+"outclasses" a particular foe will not receive any loot that is MAGIC, 
+LORE, or NODROP. All other loot will drop. "Outclassing" a foe is 
+defined as having a group makeup such that no one in your group 
+receives experience from the kill. This can happen if, for instance, 
+the foe is "green" to all group members, or if the group makeup is of 
+such a wide level range that the system determines the fight was 
+unbalanced using regular experience rules.
+
+Any time that an NPC would have dropped special loot and does not due 
+to it being outclassed, a message indicating that the combat was 
+"trivial" will be displayed to the group. 
+
+As time goes on, we will be implementing new gameplay subsets and 
+adjustements in the Warrens. Please be sure to let us know what you 
+think!
+
+The Planes:
+
+The Planes of Fear and Hate have been updated as part of our two-year 
+celebration. Adventurers in the Plane of Fear will notice that some 
+high-level foes are now available. Rewards for former "boss npcs" have 
+been moved down to underlings that are roughly as powerful as the old 
+bosses were.
+
+The Plane of Hate has also received a large update, but this one also 
+includes the opening of a previously undiscovered part of the zone, now 
+full high-level expansion-oriented content. Much as with Fear, rewards 
+from bosses have been moved. 
+
+Epic Quests:
+
+As part of the Plane updates, we've made several adjustments to Epic 
+quests for a number of classes. Previously, questers of many classes 
+were put in direct competition with regular non-questing adventurers 
+for a few coveted spawns. In these cases, a new step has been added to 
+separate the "Epic Encounter" NPCs from the "Epic Quest" NPCs. 
+
+For those who are mid-quest, all quest requirements have remained the 
+same. In other words, if you turn the same items into the same NPC, the 
+same reward applies. What has changed is that some components may be in 
+a different location from where you expect them. It is recommended that 
+you check with the last NPC in line or other adventurers to find where 
+you need to go next.
+
+***Patch Day***
+
+Along with the big announcements above, today was a patch day as well:
+
+- Fixed a bug that allowed exploitation of the period of time between 
+character control being established and loading of character faction 
+tables.
+- Fixed the Dagger of Frost. Its special item flags were improperly 
+removed in the last patch.
+- The spell, Mark of Karn, has been enhanced to heal more per hit.
+- The effect on the Celestial Elixir Breastplates has been changed to 
+the enhanced Mark of Karn. The casting time on these items has also 
+been changed to 9 seconds.
+- NPCs in Thurgadin will no longer stop traveling when you /hail them.
+- Fixed a problem present in Nagafen's Lair and the Plane of Hate that 
+caused framerate to drop over time.
+- Shift-clicking on a stack of items will cause you to pick up the 
+whole stack. This is in addition to CTRL-clicking on a stack, which 
+will cause you to pick up one. These both also work for coins now as 
+well as items.
+- In addition to the above, holding down the shift key while clicking 
+the "Sell" button in the vendor screen will cause you to sell the 
+entire stack of items if a stack is selected. For example, you can sell 
+20 peridots by selecting the stack, and shift-clicking "Sell". I'd 
+recommend though that you give them to your neighborhood cleric first 
+though :) The ability to buy stacks is on the list for implementation 
+in the near future.
+- There are a ton of new recipies for trade skill users out there. 
+Check your books. 
+- There are a bunch of new quests as well.
+- It appears that we fixed a bug with the Mend skill that caused it to 
+be unavailable for a few seconds after it was supposed to be ready for 
+use. Let us know if there are any further problems.
+- Foraging items will now yield a message giving you some idea of what you've foraged.
+
+Please remember that the /movelog for the Rathe and E'ci is scheduled 
+for this weekend. Please read the message below for details on the 
+/movelog.
+
+*A Message From Customer Service*
+
+We regularly receive requests from customers that want their characters 
+moved from one server to another, or from one account to another. 
+Unfortunately, due to the EverQuest EULA, the number of requests that 
+we receive, the desire to maintain stable server communities and 
+economies, and other problems associated with character moves, we can 
+not move characters across servers or accounts. 
+
+It is important for the integrity of the server that items from a 
+server remain on that server. We also feel that it is important that 
+characters that have built up a reputation, good or bad, have to live 
+with the consequences of their decisions, and are not allowed to 
+retreat from that reputation by changing servers.
+
+The only exception to this rule is when we open a Movelog for moving a 
+large number of characters to new servers. At no other time will we 
+move a character in such a fashion.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+March 27, 2001  2:00 am
+------------------------------
+
+***Fan Faire Reminder***
+
+Registration for the San Diego Fan Faire closes on Wednesday, March 
+28th, and we are running out of spaces. Once all the spaces are taken, 
+we will not be accepting any further registrations (or walk-ins). So if 
+you plan to attend sign up before someone else gets your spot. Head 
+over to www.everquest.com to register.
+
+*** Patch Day ***
+
+*Spell Changes and Additions*
+
+- A new teleportation spell has been added to the game for both Druids 
+and Wizards. These are self-only gate spells to the Dreadlands. These 
+spells should be available on the more exclusive spell vendors in 
+Norrath.
+
+- Increased the drop rate on some Kunark spells to coincide with the 
+narrowing of the creatures carrying those spells as the game evolves.
+
+- Wizards now have access to a new type of spell that only works on 
+certain types of target. Generically called 'bane' spells, a few are 
+now available in the game. May your quest for such spells be 
+successful.
+
+*Item Changes*
+
+- Changed the effects on the Singing Steel Boots and Greaves. After a 
+fair amount of concern from players, we have removed the summon food 
+and water effects from these items. They have been replaced with 
+modified versions of Aria of the Eagles (boots) and Appalling Screech 
+(greaves).
+
+- The Incandescent Bracer can now be worn on the wrist rather than the 
+waist.
+
+- The Incarnadine Breastplate must now be worn to activate.
+
+- Changed spell effects on Pauldrons of the Fearsome and Fearsome 
+Shield to right click and worn to activate.
+
+*Bug Fixes*
+
+- Fixed a bug that was causing some players to zone into the Warrens at 
+the wrong location.
+
+- Corrected an error with the Bixie Sword Blade, changing its delay 
+from 6 to 16.
+
+- Fixed a bug where Iskar Monks were unable to Feign Death after 
+Foraging.
+
+- Kodiaks in the Great Divide are now seen as animals.
+
+- Toxdil, the wandering rogue poison vendor, will now sell to 
+characters even when he is away from his home.
+
+*Enhancements*
+
+- Fixed a problem that occurred when players mistyped /guild. Typing 
+/guildd in the chat window is the shortcut for typing /guilddelete. 
+/guildd now has a confirmation box so that such an error should no 
+longer lead to the accidental deletion of a guild. 
+
+- Added /showspelleffects. Using this toggle ('on' or 'off') a player 
+can turn on or off the display of particle effects for spells. This 
+will only affect spells, not world effects like waterfalls or weapon 
+particle effects. This should allow you to turn off many of the effects 
+that hamper rendering performance, inducing effects of spells, while 
+still being able to see some of the awesome effects, like those on 
+certain paladin weapons...
+
+- Added server-side filtering for chat and combat messages. This will 
+allow you to turn off guild chat, shouts, auctions, oocs, 'my misses', 
+'others misses', 'others hits', 'attacker misses me', PC spells (all 
+options), NPC spells and Bard songs (all options) at the server instead 
+of at the client. This can reduce that amount of data sent to you over 
+your connection, and can help those with slower connections with better 
+performance and connectivity.
+
+- Ships will now be announcing their arrival in most zones. They will 
+also be announcing their progress to any zone they travel through. Any 
+of those zones that they are not currently making announcements in will 
+be added in the next patch or two.
+
+- Shift - Left and Shift - Right will now repeat in the chat window. 
+This means that when editing what you've typed, you can just hold down 
+the Shift and Left Arrow keys and the cursor will move left until it 
+reaches the beginning of the line or until you release the keys.
+
+- The spell slot number will now show up in front of the spell name 
+when you press Alt to cast a spell using the Alt-Spell Number method.
+
+- View perspective in wolf form has been fixed. First-person view will 
+now be on level with the wolf, rather than a few feet above it. At the 
+same time, perceiving other players in wolf form will appear to be 
+standing on the ground instead of floating a few feet above it.
+
+- Trade skill success and failure messages will be sent to the 
+craftsperson's group instead of just the craftsperson, as long as the 
+craftsperson is using the proper ingredients. Failure of the craftsman 
+to use the proper ingredients will result in no failure message being 
+sent.
+
+- In order to prevent a few trade scams, money can no longer be removed 
+from a trade window. You will have to cancel the trade and start over 
+to adjust the amount of money involved in the trade.
+
+- We're now sending hitpoint updates to the casters of direct damage 
+spells no matter how far away they are when the spell lands. This will 
+allow those casters that try to stand as far back as possible to get 
+updates even when their range indicates that the messages should be 
+surpressed.
+
+*Quest*
+
+Several new quests have been added as well, so don't be afraid to talk 
+to the folks of Norrath, they might have new information for you.
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+April 4, 2001  3:00 am
+------------------------------
+
+** New and Changed Features **
+
+- Guild Message of the Day. Guild Officers and Leaders will be able to 
+type /guildmotd to set up a Guild Message of the Day (GMotD). From then 
+on any time a member of that guild logs in they will see the message 
+with the name of the message sender added at the front, so you will 
+know who sent the message. Any guild member will also be able to read 
+the GMotD by typing just /guildmotd and the message will be displayed 
+again. The GMotD will be erased if the server comes down, however. You 
+will have to reset the GMotD when the server comes back up.
+
+- /assist changed and improved. It should be much more reliable now. It 
+also will target whatever the assisted person has targeted. The 
+assisted person does not need to have auto-attack on for /assist to 
+work.
+
+- Fixed a problem with /corpse that kept it from working on corpses 
+that were too far above or below you.
+
+** Skill Change **
+
+- Foraging changed so that if you are getting the hungry and thirsty 
+messages, your next successful forage will always be drink or food. We 
+have also decreased the chance of foraging fishing grubs a bit and 
+increased the chance that you will forage water.
+
+** Spell Changes **
+
+- Acumen now overwrites See Invisible.
+
+- Translocate now has the proper spell gem.
+
+** Bug Fix **
+
+- Fixed many crash problems for Windows 2000 users. This fix will most 
+likely also aid some folks that are not using Windows 2000 that are 
+having problems.
+
+** Item Changes **
+
+- Velious racial plate helm quests have been added that will allow you 
+to 'trade in' your existing helms for ones with textures. We have 
+decided to allow the players (or their characters) to chose whether 
+they wish to have the new helmet textures or to continue to use helmets 
+that show no graphics.
+
+- Five and ten charge versions of Potions of the Bone Field have been 
+added.
+
+- Kilva's Skin of Flame potion has been changed. It no longer has the 
+same effect as the Kilva's Blistering Flesh potion.
+
+- Removed the tinting from Dark Forge and Resonant armors. Tinting was 
+never really intended to be on those pieces and, frankly, they look 
+better without it.
+
+** Miscellaneous Items **
+
+- Reduced the 'bottleneck' for getting Howling Stone keys by increasing 
+the availability of one of the quest items.
+
+- Erudite guards will now be much less friendly to Kobolds.
+
+- Vendors are once again selling the Coldain Tanner's Kit.
+
+** 'Combine' container changes **
+
+We've made a change to 'combine' containers. In order to prevent people 
+from accidentally destroying items, all containers with a 'combine' 
+button will not combine any items that do not form a complete recipe. 
+This will be a huge boon to craftspeople all across Norrath. But this 
+removes the only drawback to using trade containers as backpacks. Their 
+reduced weight and often greater carrying capacity made them more 
+desirable as bags, with the compensating risk that you might just lose 
+something if you made a mistake.
+
+We will be increasing the weight of portable 'combine' containers 
+somewhat. Where some of these containers weighed under 1 pound, they 
+will now weigh as much as 4 pounds for the largest sewing kit.
+
+Along with this we are making a change to tailor made backpacks. In 
+case you didn't know, most tailor made packs have a built in weight 
+reduction of 5%. We are raising that to 10%. We will also be displaying 
+the weight reduction of all containers with the information shown on a 
+right click.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+April 4, 2001  11:30 am
+------------------------------
+
+** EverQuest Classic Edition ** 
+
+There is a new package for EverQuest. It's a small box with a small 
+price. Here's a bit from the press release for details:
+
+---
+
+SAN DIEGO, CA - April 3, 2001 - Sony Online Entertainment announced 
+today that its classic edition of EverQuest(tm) is now available for 
+the SRP of $9.99, a price point that will attract new users to a 
+continuously growing community. EverQuest, the most successful 
+massively multiplayer online role-playing game ever, will be available 
+in both a jewel case and mini box versions at retail stores nationwide. 
+"Newbies" will enjoy all the amazing aspects of the original EverQuest 
+from creating their own specialized characters to embarking on perilous 
+and excitement filled journeys across three continents.
+
+---
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+April 17, 2001  3:00 am
+------------------------------
+
+** Food Changes **
+
+- Food items now have a 'duration'. This means that some food items 
+will not sustain a character as long as others, and some items will 
+sustain your character longer than they did before.
+
+** Bug Fixes **
+
+- We THINK we've fixed the problem with the Dusty Werebat. This fellow 
+has been steadfastly refusing to appear where and when we ask him to. 
+We've worked out a deal with his agent, and we think he'll be back to 
+work with this patch.
+
+- Corrected an anomaly with hit point bars that occurred when a 
+character was healed or damaged by spells. This could be seen, for 
+example, when a character was healed and the hit point bar would go up 
+and then quickly go back down a bit right afterwards. There was no 
+error in the assignment of healing or damage previously, just in the 
+way it was being displayed.
+
+- Fixed the visual bracer bug where other people would see a different 
+bracer graphic than you would. Now everyone (including the wearer) will 
+always see the same bracer texture. If you have two bracers that have a 
+different look (one is leather and one is steel, for example), make 
+sure that the one you want to show up graphically is on your right 
+wrist inventory slot, because this is the one that the game will choose 
+to show for you (unless you take off the left one and put it back on, 
+which will show the left one, but that is only temporary, and it will 
+go back to showing the right one after you zone or reenter the game).
+
+- Fixed zoning problem in Nurga to Droga that caused characters to be 
+facing the wrong way when they zoned, often causing confusion that lead 
+to accidentally zoning back the way they had come. You should be facing 
+the right way when you make that zone transition now.
+
+** Zone and Quest Changes **
+
+- The marauding Tar Goos will no longer be assisted by the Geonids. 
+This should make at least one quest more available.
+
+- Grobb should now have a couple of ovens. Hopefully this will allow 
+Troll bakers to keep their fellows full of carbs and ready to fight.
+
+- Fixed a bug that occurred when selling stacks of items. Previously, 
+if you had 4 bat wings and sold them one by one to the merchant, the 
+merchant would have 4 bat wings for you to buy, but if you sold all 
+four at once to the merchant he would only have one for you to buy. Now 
+he will have 4 in either case.
+
+- We have increased the spawn rate of Venril Sathir and his skeletal 
+remains. Please note that only Rangers and Druids will be able to 
+trigger the spawn for the skeletal remains, and those remains will only 
+be dropping items for those epic quests. Hopefully these changes will 
+dramatically reduce the competition and resentment over this spawn.
+
+- We have reduced resistances to some spell types on some NPCs in Sky 
+Shrine and the Tower of Frozen Shadow. This is the beginning of our 
+overview of the resistances of NPCs in Velious.
+
+** Improved and New Features **
+
+- When you /consent someone it will give them the ability to drag all 
+of your corpses.
+
+- You can now buy stacks of combinable items (such as rations, water, 
+etc...) from merchants. It works the same way as sell in that you can 
+hold down shift to buy a full stack and control to buy just one item.
+
+- Added the ability to change the color of all windows at one time with 
+/wincolor (all windows that can be changed, that is). You can now use 
+/wincolor ALL 0 0 100 2, for example, instead of having to set each 
+window separately.
+
+- Right-clicking items while looting will 'auto-equip' them. This will 
+work just as if you had picked the items up and dropped them onto the 
+'auto-equip' area of your character profile. So if there is already a 
+piece of equipment on your character in the spot where the looted item 
+would normally go, it will drop into your inventory, if you have room 
+for it.
+
+- The tab key will no longer toggle between you and your last target 
+when the chat bar is up. When the chat bar is open the tab key will 
+take you through the list of your most recent /tell names or /reply 
+names. When the chat bar is closed the tab key will switch you between 
+yourself and your last target.
+
+- /assist has an added parameter. /assist on and /assist off will 
+determine whether or not your character auto-attacks when you use 
+/assist. So if you type /assist off, from that time forward using 
+/assist will NOT engage your character's auto-attack. This change will 
+be persistent, so it will remain as you left it when you log out. 
+/assist also now has a range of 200 feet.
+
+- The destroy confirmation requestor now shows the name of the item you 
+are trying to destroy, or it just says money if you are destroying 
+coins. This should greatly reduce the chance of accidentally deleting 
+the wrong item. PLEASE read the text in the destroy confirmation box to 
+be certain that you are destroying the right item before choosing to 
+destroy it.
+
+- Hailing Player Character will now say 'Hail Playername', rather than 
+just 'hail'.
+
+- Added /charinfo command. Currently this command only reports the zone 
+where the current character is bound. We may add further information as 
+things progress.
+
+- You will now see how much damage your character has taken when he is 
+hit by a spell that causes instant damage (DOT damage is not reported).
+
+** Item Changes **
+
+- We've made a change to the Red Scabbard that should relieve most of 
+the problems warriors were having with their epic weapon occasionally 
+disappearing during conversion between the two-handed weapon and the 
+two one-handed weapons. What will happen now is rather simple. The very 
+next time you use the container to combine the weapons (or break them 
+apart), the old scabbard will disappear and a new one will replace it.
+
+THE NEW SCABBARD AND THE SWORDS WILL APPEAR ON YOUR CURSOR, rather than 
+in your inventory. So once you have combined them, make sure to place 
+them in your inventory. And don't panic, the items didn't disappear. :) 
+But also MAKE CERTAIN THAT YOU HAVE ROOM IN YOUR INVENTORY FOR ALL 
+THREE ITEMS (the two swords and the scabbard, which is a container and 
+needs to be able to fit into your main inventory). If you end up with a 
+No-Drop container on your cursor with no place to put it in your 
+inventory, you will have a problem...
+
+Also, right now the new scabbard is a little bugged. Right now you 
+won't be able to open the new scabbard until you camp out once after it 
+is created. We're working on fixing that bug. We decided to make this 
+change even with this small bug to help relieve everyone of the 
+problems with the old scabbard.
+
+This new scabbard will have a special ability. It will be able to 
+recreate the epic weapons if you have lost them. Simply place a Sword 
+of Runes (summoned by a Magician) into the scabbard and hit the combine 
+button. The scabbard will convert the temporary power of the Sword of 
+Runes into the permanent epic sword.
+
+Customer Service WILL NOT be replacing the old scabbards with the new 
+ones. That will be done by the game itself once you have completed the 
+quest and combined the swords for the first time.
+
+- Changed the size of the Weighted Axe from Tiny to Large (after all, 
+it's a big two-handed axe...). If you have one in a bag now, be aware 
+that it probably won't fit back into that bag again once you take it 
+out.
+
+- No Rent Items will no longer be immediately deleted from your 
+character inventory upon disconnection with the server. If you are 
+disconnected from the servers, or even if you log out, your No Rent 
+items (such as summoned food and water) will remain on your character 
+as long as you log back to that character within 30 minutes. After 
+thirty minutes those No Rent items will be deleted. There may be some 
+extreme cases beyond our control (such as hardware failures) where No 
+Rent items will not be on your character even if you log back in within 
+the 30 minute timeframe. No reimbursement will be given for No Rent 
+items lost in this manner.
+
+- Grand Master Wrist Wraps have been fixed and should now create the 
+"Pouch of Quellios" as intended. If you have one of these items and it 
+still does not work, please contact a GM using /petition and ask them 
+to switch yours for a new one.
+
+- Snow Storm Mask should now function properly.
+
+- The Ring of the Frozen Flame should now be working properly.
+
+- The slow effect on the Willsapper proc has been reduced.
+
+- The weight of Skewers has been increase to a weight of 3.
+
+- Velious Monk armor appearances have been changed. If you're wearing 
+these items, you probably already noticed this, but we thought we'd 
+announce it anyway. New textures will be showing on the Plane of Growth 
+dropped armors and on the questable armors. Because the Velious 
+textures can be a strain on some systems, the textures for these new 
+armors will not be loaded by default by the game. If you want to see 
+the new textures you will have to edit your EQClient.ini and change the 
+line LoadArmor23=FALSE (the default) to LoadArmor23=TRUE.
+
+** Trade Skill Changes **
+
+- Bards that worship Sol Ro will now be able to wear the Imbued jewelry 
+made for their god. For those that not only sing around the campfire, 
+but sing about the campfire!
+
+- 'World' Trade Containers (those that are stationary) have been fixed. 
+Previously when a character tried to combine items in a world container 
+that did not match a recipe, the items would seem to disappear. But if 
+the character closed and reopened the container, the items were still 
+in it. Those items should no longer seem to disappear.
+
+- The speed of Selo's Song of Travel, the effect of the Singing Steel 
+Chestplate has been increased a little.
+
+** Spell Changes **
+
+- Removed Gem component from the following spells. They will now only 
+require the metal components. These are the Enchant spells for making 
+cultural armor.
+
+Enchant Velium
+Enchant Mithril
+Enchant Adamantite
+Enchant Steel
+Enchant Brellium
+
+- Changed the spell component for the following Magician spells from 
+Lapis Lazuli to Malachite. They now use the same reagent as every other 
+Magician pet spell.
+
+Minor Summoning: Earth 
+Minor Summoning: Water 
+Minor Summoning: Fire
+Minor Summoning: Air
+Elemental: Earth
+Elemental: Water
+Elemental: Fire
+Elemental: Air
+
+- Added Casting Text to the Following spells (the messages in brackets 
+will now appear upon a successful use of the spell):
+
+Panic Animal (soandso flees in a state of total panic!)
+Terrorize Animal (soandso runs away in terror!)
+Repulse Animal (soandso is utterly repulsed!)
+Acumen (soandso's eyes tingle)
+
+- Cannibalize IV now exists. This spell is now available in Velious.
+
+- Cannibalize II and III have had their effects improved. They now 
+return more mana to the caster than they did before.
+
+** Class Specific Changes **
+
+- Monk weight allowance has been increased. Every 15 levels monks will 
+get an extra 1 stone weight allowance. The post 50 weight allowance has 
+also been increased by 2 stone.
+
+Level 15, Limit 15
+Level 30, Limit 16
+Level 45, Limit 17
+Level 51, Limit 18
+Level 55, Limit 20
+Level 60, Limit 24
+
+- Disarmed traps will remain disarmed for a somewhat longer time than 
+before to allow larger groups to get past the traps before they go off.
+
+.....................................................................
+
+------------------------------
+April 18, 2001  Luclin Announced - Press Release
+------------------------------
+
+SONY ONLINE ENTERTAINMENT EXPANDS EVERQUEST(r) UNIVERSE WITH 
+"EVERQUEST(r): SHADOWS OF LUCLIN(tm)"
+
+- Massive Additions in Store for SOE's Premier Role-Playing Game--
+
+SAN DIEGO, CA - April 18, 2001 - Sony Online Entertainment announced 
+today its new expansion pack, "EverQuest: Shadows of Luclin" for the 
+Internet's most popular role-playing game, "EverQuest(r)." The new 
+expansion pack will introduce EverQuest fans to an enchanting moonscape 
+packed with new adventure zones, new items, creatures and spells, a new 
+playable character class and more. Supported by a complete graphic 
+overhaul, "Shadows of Luclin" will allow EverQuest players to witness 
+their world in unprecedented splendor.
+
+"'Shadows of Luclin' will give EQ fans a beautiful uncharted territory 
+to explore," states Jeff Butler, Producer, Sony Online Entertainment. 
+"Whether you're a devoted long-term fan looking for new challenges or 
+just discovering online gaming for the first time, 'Shadows of Luclin' 
+is filled with enough captivating adventures to support all levels of 
+EverQuest players."
+
+"The Shadows of Luclin" takes voyagers to a satellite hovering 
+ominously above the world of Norrath. An area of great mystery, magic, 
+and perplexity, Luclin is divided into a land of light, ruled by 
+Discord, and a land of shadow, ruled by Order. Each side of this 
+amazing world will present many new secrets, treasures and unique 
+monsters.
+
+"Shadows of Luclin" key features:
+
+* New adventure zones, including a new starting city
+* All new, highly detailed player-character models
+* Massively enhanced 3D graphics engine
+* An all-new player character race
+* Challenging new quests, items to trade and sell, NPCs and more
+
+"EverQuest: The Shadows of Luclin" is due to ship in Q4 2001. For more 
+information visit the official Shadows of Luclin Website at 
+http://www.everquest.com/luclin.
+
+Continuing to grow with top-selling expansions "The Ruins of Kunark
+(tm)" and "The Scars of Velious(tm)," "EverQuest" proves to be the 
+largest fantasy world ever created online. During peak periods, more 
+than 88,000 adventurers and dragon slayers have explored the world of 
+Norrath simultaneously. The active global EverQuest subscriber base is 
+comprised of players from various countries throughout the "real" 
+world, including the U.S., England, Canada, Japan, Taiwan, Korea, Saudi 
+Arabia, France, Italy and Australia.
+
+.....................................................................
+
+------------------------------
+May 8, 2001  3:00 am
+------------------------------
+
+** PvP changes **
+
+We have made the first of our upcoming changes to the PvP aspects of 
+EverQuest:
+
+- Consider: /Consider will only have three results when used to 
+consider a Player Character. The character will show as 'green' if he 
+is below the range that allows you to attack him. The character will 
+show as 'white/black' if he is within your ability to attack. And the 
+character will show as 'red' if he is above your range. This will only 
+take effect on PvP servers.
+
+- Sanctuary Levels: Characters below level six will not be able to 
+engage in PvP combat, unless they take part in a Guild War, duel or use 
+the Arena. This will, obviously, only take place on PvP servers.
+
+- De-Leveling: Characters that lose levels will only retain the combat 
+skills of a character two levels higher. This means that if a character 
+of level 10 somehow loses 5 levels, that character will only have 
+skills that would be available to a 7th level character. This change 
+will apply to all servers (it has to, code-wise). So the two level 
+buffer is there to make certain that people that lose levels during 
+normal gameplay will be minimally affected (hopefully not affected at 
+all), while those that purposefully lose levels with the intent of 
+causing other players grief will find themselves at no great advantage.
+
+These are the first of the things that we plan to. We are taking a 
+careful, step-by-step approach to changes whenever we can, and we have 
+other changes planned for upcoming patches.
+
+** Quest Changes **
+
+- We've made a change to the Velious armor quests. The folks in Kael 
+and in Skyshrine that give out rewards for these quests are now being 
+stricter about who they will reward quest items to. You will have to be 
+considered an 'ally' (see Features section below) by these NPCs in 
+order to be able to complete these quests. If you are doing quests for 
+the Coldain, however, they are somewhat less picky, and they only 
+require that they consider you 'kindly' to reward you for your labors.
+
+- The Black Silk Cape will now drop more frequently.
+
+** Bug Fixes **
+
+- Attacking with a two-handed piercing weapon will now 'gray-out' the 
+attack button as it should.
+
+- Text that once read: "You cannot remove this affect." now reads "You 
+cannot remove this effect." Changed by popular demand... :)
+
+- Food Emotes: Forcing your character to eat by right clicking food 
+will now properly display the appropriate emote to those in the area.
+
+- Fixed a problem that often made it difficult to loot really large 
+NPCs.
+
+
+** Item Changes **
+
+- The Shield of Tsunami can now be equipped in the secondary slot.
+
+- Quivers now reduce the delay time on bows, the better the quiver the 
+faster your bow. We will not be listing the speed increase a quiver 
+will give your bow, but you can tell the good quivers by their ability 
+to reduce the weight of your arrows (better-made or magical quivers 
+have this property).
+
+- The Ivory Handled Falchion should now 'proc' without telling you that 
+it is out of charges. You may need to contact your GM to replace the 
+item with a new version if it is still acting strangely.
+
+- The Opal Bracelet is now a wrist item, not a finger item. Be aware, 
+once you remove it from your finger, it will not go back onto that 
+finger, it will only fit on your wrists, as it should.
+
+- The Large Dragonbone Shard will no longer appear to be a Staff of the 
+Gathering.
+
+- The Ring of Levitation will now poof when all the charges are used 
+up, and should display the correct number of charges.
+
+- The Priceless Velium Reinforced Bow now has a range of 200 instead of 
+a range of 0.
+
+- The Refined Mithril Blade should now be equipable in both primary and 
+secondary slots.
+
+- The Unicorn Horn should now have a graphic.
+
+- The Hammer of Flattening has been changed from tiny to large. This 
+might cause you a little reorganization in your inventory.
+
+- Runebranded Stone Buckler is now labeled as a shield and can be used 
+to bash.
+
+- The Ring of Pureblood is now a finger item, not a waist item.
+
+** Spell Changes and Additions **
+
+- Translocation spells: Five new Wizard 'push' spells have been added 
+(Translocate: Fay, Tox, North, Combine and Group). Translocate spells 
+send the group to the location, while the Wizard remains behind. 
+Translocate Group sends everyone in the group (except the Wizard) to 
+their own bind points. Translocate Group can be found on NPCs in 
+Velious (and they won't give them up easily). The others are available 
+on an exclusive vendor. All Translocate spells (even the original 
+Translocate) have confirmation boxes that must be accepted before the 
+target will be sent. And Wizards can no longer Translocate themselves.
+
+- Some lower 39th and 44th level Velious spells have had their drop 
+rates increased.
+
+- GM Resurrection has had it's name changed from ResurrectionGM to 
+Customer Service Resurrection so that players will be able to better 
+tell when they are getting a resurrection from the GM staff. GM 
+resurrection will no longer have Res effects, and will leave the newly 
+Ressed with full Hit Points and Mana.
+
+- Divine Aura and spells of that type (Divine Aura - cleric, Divine 
+Barrier - cleric, Kazumi's Note of Preservation - bard, Harmshield - 
+necromancer, Quivering Veil of Xarn - necromancer) will now prevent the 
+caster from being stunned when hit for their duration.
+
+- The Eye of Zomm series of spells will no longer work in Kedge Keep. 
+This change was made to prevent an exploit.
+
+** Feature Additions and Changes **
+
+- Looting text has been changed. You will now see a -- before and after 
+any loot messages. This has been changed primarily to help prevent any 
+fake looting messages from being thought of as real.
+
+- When you loot an item, you will receive a text message telling you 
+what you have just looted.
+
+- Expanded Friends List: The Friends List will now hold 30 character 
+names. And each character has its own friends list. You can find and 
+edit this list with a text editor, if you need to, outside the game. 
+You can locate the text files in your EverQuest directory. The files 
+will look like this: _<#>.ini. The default Friends List for existing 
+and new characters will be your old Friends List.
+
+- The destroy or drop item confirmation box will now close if you 
+accidentally pick up another item while they are open. This should 
+prevent accidentally deleting or dropping the wrong item.
+
+- When selling to a merchant, you can no longer sell items that are 
+inside a container by having the container selected and clicking the 
+sell button. The merchant will tell you that you need to empty the 
+container before the merchant will buy it. This should prevent folks 
+from accidentally selling items that they did not know were in those 
+containers.
+
+- You can now move items around inside containers that are in the bank.
+
+- There is a new /consider message: "regards you as an ally". This is 
+the highest level of friendliness that an NPC will register using the 
+/consider command. The faction required to reach this rating is 
+significantly higher than 'warmly'.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+May 8, 2001  4:30 pm
+------------------------------
+
+** Fan Faire **
+
+The Fan Faire in Minneapolis is half way sold out. There are just over 
+two more weeks left to register so don't delay! For each of these 
+events, we get countless e-mails asking if there is any space available 
+after we have sold out... and then it is too late! So don't wait until 
+registration is closed! Register now and be sure your spot is reserved!
+
+** Guild Wipe for Guilds without enough members **
+
+On May 15th we will be performing another servers-wide guild wipe for 
+any guild with less than ten members. Remember, it is always a 
+requirement to have ten members in your guild. These ten members must 
+all be characters from separate accounts (only one member from each 
+account will be counted for the ten member total). So if your guild 
+does not have ten members on Tuesday, May 15th, it will be deleted.
+
+We're sorry for being so harsh about this rule, but there is a distinct 
+limit to the number of guilds that we can support, and the rules for 
+maintenance of a guild are clear.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+May 14, 2001  6:30 pm
+------------------------------
+
+** Important announcement about the next patch **
+
+Our next patch is planned for May 30th, probably some time in the wee 
+morning hours here on the West Coast.
+
+The important part of the message is not that, though. It's this:
+
+Due to some of the things we are going to be doing, there is a small 
+chance that some corpses might disappear during the patch. GMs will 
+have the ability to verify any corpses that are lost. That means that 
+they can help you get them back if you do indeed lose one. It also 
+means that I should remind everyone that attempting to scam a GM about 
+a lost corpse could mean banning.
+
+** IT IS IMPORTANT THAT YOU PETITION TO HAVE A MISSING CORPSE **
+** PROBLEM ADDRESSED WITHIN 5 DAYS OF THE PATCH! **
+
+We will not be recovering corpses that might be lost after that time. 
+In fact, it would be best for you to petition immediately if you have a 
+problem. Don't wait. If you are worried about a corpse that you were 
+unable to deal with before the patch, then please log in an check on it 
+right away after the patch.
+
+So please make certain that you have as many of your corpses cleaned up 
+as possible before the next patch. We're not expecting a lot of corpses 
+to disappear, but the fewer lying around, the less chance of them 
+disappearing.
+
+Thanks.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+May 22, 2001  6:30 pm
+------------------------------
+
+** Updated EQManual_Supplement **
+
+The EQManual_Supplement.doc and EQManual_Suppliment.txt have been 
+updated. The majority of the updates occurred in the description of the 
+EQclient.ini file and the descriptions of the in-game "slash" commands. 
+This document also includes things like a listing of the emotes 
+available, instructions for changing windows and text colors, and other 
+additions to the original manual, and is a good first source for 
+EverQuest information and help.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+May 30, 2001 
+------------------------------
+
+*** Important Reminder ***
+
+Due to some of the things we are going to be doing, there is a small 
+chance that some corpses might disappear during the patch. GMs will 
+have the ability to verify any corpses that are lost. That means that 
+they can help you get them back if you do indeed lose one. It is also 
+important to understand that attempting to scam a GM about a lost 
+corpse could mean banning from EverQuest.
+
+** IT IS IMPORTANT THAT YOU PETITION TO HAVE A MISSING CORPSE PROBLEM 
+ADDRESSED WITHIN 5 DAYS OF THE PATCH! **
+
+We will not be recovering corpses that might be lost after that time. 
+In fact, it would be best for you to petition immediately if you have a 
+problem. Don't wait. If you are worried about a corpse that you were 
+unable to deal with before the patch, then please log in and check on 
+it right away after the patch.
+
+So please make certain that you have as many of your corpses cleaned up 
+as possible before the next patch. We're not expecting a lot of corpses 
+to disappear, but the fewer lying around, the less chance of them 
+disappearing.
+
+Thanks.
+
+- The EverQuest Team
+
+*** Patch Message ***
+
+** Zone Changes **
+
+- Runnyeye has been changed. Something is up in Goblin land...
+
+
+** Spell and Song Changes and Bug Fixes **
+
+- We've been fixing holes in the spell stacking code. For the most part 
+the changes fix bugs that allowed tricks to get spells to stack that 
+were never intended to stack.
+
+- Increased duration on Bard Charm songs to 18 seconds from 12 seconds.
+
+- Fixed the Spell Scroll for Imbue Amber so that Erudite Clerics of 
+Cazic Thule can scribe it.
+
+- The casting messages for Necromancer pet summoning spells have been 
+changed to be more appropriate.
+
+** Features and Interface Changes **
+
+- The variable %t will now work with /assist. So you can use /assist %t 
+if you wish. Though it should have exactly the same effect as /assist 
+without the %t.
+
+- %r returns "corpse" for corpses and "NPC" for targeted NPCs.
+
+- Sense traps failure message text color has been changed to user color 
+15 (same as other skill messages). The success message was already set 
+to user color 15.
+
+- Ignore Lists now work the same way that the Friends List does. It has 
+been expanded to 30 names per character per server. The new ignore list 
+is stored in the same ini file as the friends list _<#>.ini). The first 
+time a character is created or loaded after the patch their new ignore 
+list will be a copy of the old ignore list, but will from then on be 
+unique to the character.
+
+- The Alt key now works in several new situations. It will now show 
+item names when in the trade window. Because the trade items of the 
+local player and the trading partner are so close together, the item 
+names of the trading partner will always show up unless the player 
+positions their mouse pointer over the local player part of the trade 
+window, which will cause the game to only show the local player's trade 
+item names.
+
+- The Alt key will show item names for items in your bank.
+
+- The Alt key will also pop up names for merchant items and corpse 
+items when you hold it down in merchant mode or loot mode.
+
+- The Alt key will even pop up names for items in open containers when 
+held down and the mouse cursor is over the open container window (they 
+don't show up otherwise).
+
+- The client will now automatically reject a /duel request from any 
+player that is on your /ignore list. Some players were using this to 
+annoy players that had ignored them.
+
+- You also will no longer see /consent messages from people that are on 
+your /ignore list (this was also something people were doing to annoy 
+people that had ignored them).
+
+- /who GUILD (and the GUILD must be in caps) will now show you the 
+members of your guild in your zone. You can also specify a guild name, 
+such as /who "Irontoe Brigade".
+
+- /safelock command added. /safelock will lock the EverQuest interface 
+(mostly just mouse clicks, keyboard commands/movement, and most slash 
+commands) with the password that you supply to the command. You must 
+use this command a second time, supplying the same password, to unlock 
+the interface. Passwords are NOT case-sensitive. So to lock your 
+interface, you would type /safelock password. You would do the same to 
+unlock it. REMEMBER: If you forget what password you typed, you will 
+need to reboot your machine.
+
+** Item Changes **
+
+- All the shields in the game that have the Ribcage graphic should now 
+also have the ribcage icon when they are in your inventory.
+
+- Tinkered Watchman helm should show up now.
+
+- Ring of Pureblood is now equipable only on your fingers instead of 
+your waist.
+
+- Grand Master's Leg Wraps and Fists of the Grand Master are now No-
+Drop. They were intended to be No-Drop when they were created. 
+
+- Peacekeeper Staff and the Bug Collection box are no longer equipable. 
+There are problems that can arise when containers can be equipped, so 
+we had to disable that for these items.
+
+- Sewing Kits: No existing sewing kits are being changed with this 
+patch. But from now on, kits sold on vendors will be somewhat 
+different. Large Sewing Kits will have 8 slots. Deluxe Sewing Kits will 
+have 10 slots and weight slightly more than the Large Sewing Kit.
+
+- Changed the color of the Kael SK quest armor from a very pretty blue-
+green to a more appropriate reddish-gray.
+
+** Other Stuff **
+
+- Changed the spelling of Troubador to Troubadour for the 55th level 
+bard title. :)
+
+- King Tormax's spawn rate has been adjusted to be more in line with 
+that of his counterparts in Velious. This is not the sort of thing that 
+we will usually announce, as spawn times and things of that nature are 
+part of the dynamic content of EverQuest. We're announcing this, 
+however, to help avoid some confusion.
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+May 31, 2001  2:00 am
+------------------------------
+
+*** Patch Addendum ***
+
+This evening we put in another patch to correct some issues that arose 
+with the patch yesterday. The changes implemented include some that 
+weren't announced previously:
+
+- Resist-debuffs will do 1.5 times their normal value for PvP 
+encounters. In other words, if the spell did -60MR in PvP before, it 
+does -90MR in PvP now. PvE (combat versus NPCs) remains unaffected.
+- Faction-loss for PvP kills on Vallon and Tallon now only occur 
+against factions within the hometown of the person killed. In other 
+words, if you kill an Erudite in Erudin, you will only lose faction 
+with the factions in Erudin, not the factions in Paineel.
+- Turning in the Tomb of Order and Discord will have no effect on 
+Vallon and Tallon.
+- On all PvP servers, only the person who gets the killing-blow in PvP 
+combat will have looting rights. We would prefer to implement some sort 
+of "majority damage" logic however this should solve most of the issues 
+associated with uninvolved players "ninja-looting" the loser in PvP 
+encounters.
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+June 4, 2001  3:00 am
+------------------------------
+
+Today's patch consisted only of server-side data, and does not contain 
+anything that would normally be announced.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+June 27, 2001  3:00 am
+------------------------------
+
+** Gameplay Changes **
+
+- Aggro Changes: We've made an adjustment to the way that NPCs choose 
+their targets. It's a rather simple change, one that makes a lot of 
+sense. But we want you to be aware of it so that it won't surprise you 
+too much, and so that you won't think that it is a bug. NPCs are now 
+much more aware of the vulnerability (or, more precisely, the 
+invulnerability) of their targets. NPCs will now be very unlikely to 
+waste their time attacking a target that they can't harm.
+
+- Spell and Item Interruption: Ducking will now interrupt a spell 
+instantly. You will no longer be able to sit while using items or 
+casting spells. This will not affect bard songs, which will still work 
+as they always have, but will affect all items, even those with song-
+like effects.
+
+** Spell Changes **
+
+- Skin Like Nature and Natureskin should stack with more spells now 
+(though not with each other).
+
+- Aegolism can now be clicked off.
+
+- Imbue Ivory has had its casting level lowered to 29.
+
+- Shard of the Core will be tradable now.
+
+- Shroud of Hate and Visions of Grandeur should stack properly now.
+
+- Several new Translocation spells have been added.
+
+- Call of the Hero will no longer remove the target from NPCs' 
+hatelists if the target is not summoned far enough.
+
+- Egress will now work indoors.
+
+- Wind of the North, Wind of the South, Markar's Relocation and 
+Tishan's Relocation have had their additional restrictions removed, and 
+can now be cast from any zone where other similar spells can be cast.
+
+- Summon Companion can now be used by Necromancers, Shamans, 
+Enchanters, Shadowknights in addition to Magicians.
+
+- Deadeye should now stack with Dead Man Floating, but should not stack 
+with Acumen.
+
+- Plainsight will now stack with Dead Man Floating, but not with 
+Acumen.
+
+- The Great Divide portal spells are now 39th level instead of 44th 
+level.
+
+- Spirit of the Oak will no longer be overwritten by any beneficial 
+spells.
+
+- Paralyzing Poison spells should no longer be broken by direct damage 
+spells.
+
+- Hsagra's Wrath and Porlos' Fury now have a 5 second recast delay.
+
+** Item Changes **
+
+- The effect on the 10th ring should have fewer stacking conflicts with 
+haste buffs. 
+
+- The effect of the Monk epic, Celestial Tranquility, will stack with 
+the higher end haste spells. Keep in mind - the highest haste will 
+always win out. This means that the spells will stack, the haste 
+components will not.
+
+- Speed of the Shissar has had its duration increased from 20 minutes 
+to 30 minutes. This effect should no longer conflict with Call of 
+Earth.
+
+- Bone Ring of Condemnation will no longer be usable in the secondary 
+slot, it will only be wearable on the finger.
+
+- Druid Skyshrine Quest armor has had a color change so that it will 
+look more unique.
+
+- Circlet of Shadow will no longer drop in-game. The Circlet of 
+Shadows, can now be found in its place. This item differs from the 
+original only in that it has a five-second casting time. Existing 
+Circlets of Shadow will retain the same functionality as before, though 
+we may change existing Circlets at some future date.
+
+** Quest Changes **
+
+- King Tormax is now a little more particular about who he gives quests 
+to.
+
+- The Iksar Shaman 6th Skull/cudgel quest should be working now. 
+
+- Rumor has it that there is a new source for green dragon scales in 
+Norrath.
+
+** PvP Changes **
+
+- If you go link dead on a PvP server and are killed you can still be 
+looted.
+
+- When a player becomes invisible (or hides successfully) every other 
+player that had them targeted will lose their target. This is true for 
+all servers, but has the greatest implications on PvP servers. The use 
+of spells that allow you to see through invisibility will prevent you 
+from losing your target if that target hides or goes invisible.
+
+- Faction hits on Rallos Zek: Killing a person in one of his or her 
+home cities will cause a faction hit with residents of that city.
+
+** Miscellaneous **
+
+- We've addressed a lot of spelling and grammatical errors over the 
+past few weeks. For example we have corrected all misspellings of 
+"deity" in messages to the player, changed Cantana to Cantata and 
+others.
+
+- The 'Fab Four' in Dagnor's Cauldron will no longer assist Undertow 
+Skeletons.
+
+- Instill Doubt/Intimidation can no longer be used while sitting, and 
+sitting after starting it will cancel it.
+
+- Mastery of language skills now occurs at 100, not at 101. This was a 
+problem for masters of a language, since language skills could not go 
+over 100.
+
+- The messages for eating and drinking now say "Chomp... Chomp," or 
+"Glug... Glug..." so that they can't be copied with emotes.
+
+- Helms on Barbarians, Trolls, and Ogres should no longer block the 
+first person view when in combat. 
+
+- Sirens Grotto has been changed a bit. It should be a more interesting 
+zone now.
+
+** NOTE **
+
+Boisterous shouts can be heard across the lands as carriers herald the 
+arrival of the latest volume of their city's newspapers. Citizens rush 
+to get a copy of these publications to read the featured articles, 
+latest gossip, and community news for their home town.
+
+- The EverQuest Team
+
+.....................................................................

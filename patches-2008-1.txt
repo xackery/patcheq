@@ -1,0 +1,872 @@
+Patch Messages from January 2008 to June 2008
+
+
+.....................................................................
+
+------------------------------
+January 16, 2008
+------------------------------
+
+Today's patch message:
+
+Loot All has been changed to help resolve some client disconnect/corpse loss issues. This will cause the loot all to be slower than it was previously. When stability is improved, we will take a look at speeding it back up again. 
+
+*** Highlights ***
+- The beta reward item for players who participated in the Secrets of Faydwer beta test is now available.  Anyone who turned in at least 50 beta tokens (or a single raid token) can speak to Old Man Thorren in Plane of Knowledge on the beta server and request your reward.  This will then allow you to use the /claim system to claim the reward item, the Golden Mask of the Goblin King, on the character and server of your choice.
+
+*** Items ***
+
+- Made some slight changes to the rare group items in SoF.
+- Changed the recast group on items with Geomantra to avoid interference with items that have no recast timer.
+- Added a required level to the Bulwark of Many Portals.
+- Added Augment Sockets to Elegant Crystalskin Sleeves.
+- Changed the name of the Moray Eel from the Buried Sea to Barren Moray Eel.
+- Cultural augments (seals and symbols) will now only fit in armor.
+- Elegant Charms have had an additional upgrade in their stats.
+- Many potions that had a different required level than the required level for the spell have been changed to have the item required level match the spell required level. This will not change the functioning of the potion in any way, it will just reduce confusion as to the intended level for the potion.
+- Spider Food Poison and Worg Food Poison are no longer temporary.
+- Raid loot drop tables have been increased.
+
+*** Quests & Events ***
+
+- The final two steps of the "Repairing the Spiritlight Earring" quest have been changed so that they can be completed in any zone.
+- If your Spiritvoid Earring should have become a Damaged Spiritlight Earring but has not, hand it to Acolyte Emyria in Bloodmoon Keep and she will replace it.
+- Selay will no longer be fooled into leaving Lethar.
+- The Griffon Master event in Ashengate has been made a bit less difficult.
+- Fixed a bug with the Dyn'leth raid that allowed players to avoid one of the mechanics.  Also gave the poor fellow a few more hit points.
+- It is no longer possible to levitate near Veldyn.
+- Fixed an issue that was causing the Operations Manager to spawn multiple times.
+- Reduced the lockout timers on all Mansion and Crystallos raids to four and a half days.  This will not affect existing timers, only newly acquired timers.
+
+*** Spells ***
+
+- Heal over time spells or buffs with a heal over time component now go to the short-duration buff window.
+- All three ranks of the level 78 Magician and Druid anti-summoned spell Annihilate the Aberrant are now available.
+- All three ranks of the level 76 Paladin anti-undead spell Benediction are now available.
+- The damage and efficiency on the Enchanter's Thin Air line has been rebalanced.
+- The damage bonus from the recourses on the Wizard's Flashfires and Cold Snap lines now scales with the rank of the spell.
+- The feedback damage from the recourses on the Wizard's Flashfires and Cold Snap lines is now applied as a damage over time instead of direct damage.
+- Cleric nuke spells from Secrets of Faydwer will do additional damage versus undead and/or summoned targets.
+- Improved the stacking on Spirit of Keikolin, Spirit of the Shrouded, Spirit of Venesh, and Spirit of Earth.
+- Improved the stacking on Rage of Tri'Qaras.
+- Improved the stacking on Hungry Flames.
+- Rebalanced Hungry Flames to follow a progression similar to other short-duration damage shields.
+- The Magician's Raging Servant line and the Beastlord's Bestial Empathy line now assign a point of damage to their target to break mesmerization effects and / or trigger Gift of Mana.
+- The word "Dispell" in spell memorization menus has been changed to "Dispel".
+- Mana Recursion buffs will work on damage over time spells.
+- Skeleton and specter form effects on the Necromancer's Lich line have been split off to a separate buff.  The caster can drop the illusion and still benefit from the mana regeneration effect.
+- The attack benefit bestowed by Strength of the Hunter and Strength of the Forest Stalker has been reduced to appropriate values after the ranger innate attack boost was moved to AAs instead.
+- Regeneration spells should no longer display a healed per tick message.
+- Removed the maximum spell level restriction from the enchanter Mana Flare line. 
+- The proc from the Beastlord spell Lockfang Jaws now has a damage over time component.
+- Cast times on the Wizard summoned sword pet line and the Cleric summoned hammer pet line have been reduced to half a second.
+- The selections of Rank III rare spells should now match the associated faction camp's available Rank II rare spells.
+
+*** NPC ***
+
+- Some of the NPCs in Crystallos will now summon players when the NPC is low on health.
+- Grom's dialogues should be less confusing.
+- Raelnyna in crescent reach will now offer the same bag exchange services that Caerlyna in the bazaar offers.
+- Increased the chances to find Fishing Nets and Springy Young Branches in Hills of Shade. 
+- The clockwork spiders in Dragonscale Hills have been changed to their correct faction.
+- Drake and elementals in the fire and ice wings of Crystallos should not be as stingy with their essences anymore.
+
+*** Tradekills ***
+
+- Intricate Frostwarded armor now requires Malleable Northman Ore.
+- Secrets to making Pure Enchanted Velium Bars have been discovered and it is now less difficult to make it.
+- Distillate Potions that can be purchased from merchants and made by Alchemists have been updated to include effects up to level 80.  The Distillate of Alacrity is the exception, and will receive no further upgrades past the level 65 version.  Additionally two new distillates have been found, one that acts like the spiritualism spell line and one that acts like the regeneration spell line.
+- The spell scroll for paralyzing earth created by spell research can now also be used by necromancers and wizards.
+- Enabled the recipe to make the Enchant Dwerium Scroll.
+- Changed the thickener for Koadic's Endless Intellect to the proper thickener.
+- Reduced the difficulty of making the Infusion of Spirit spell.
+
+*** Tasks ***
+
+- The Master Jeweler Test has had step 10 and 20 changed to be Pear Cut Rubellite instead of the Silver Conduit Cylinder.
+- Judge Marion Teld`mare has decided that she no longer wants to taste Beer-Braised Nest Drake Soup.  Instead she would like Grilled Treant Vegetable Pie for the tradeskill trophy tasks where the soup was required.
+- The reward list for the final step in Eron's series of quests is now less confusing and only offers the jewelry.
+- Apprentice Researcher Test has had two of its elements changed.
+- The counting shadows step of the tradeskill task now requires that you make the arrows before you continue.
+
+*** AA ***
+
+- Resolved a timer conflict with the Enchant Dwerium AAs.
+- Reduced the level requirement for all 4 ranks of the AA Hastened Call of the Wild to level 70.
+
+*** Miscellaneous ***
+
+- Bazaar traders can now resume selling stacks of items at higher cost again.
+- The Hungry Flames spell gem should now be red.
+- Corrected a Typo in the Veteran Reward approval message.
+- Submitting an in-game mail with a blank "To" field should no longer crash the game client for the sender.
+- The spell Illusion Iksar should no longer change characters heritage from Mysaphar the White to Atathus the Red.
+- Froglok and Vah Shir should now match head and body type when changing facial features when under illusions.
+- Environment sounds should now stop when they are turned off in Blightfire Moors.
+- Selling worn items to vendors should no longer remove all model attachments from chest.
+- The graphical appearance of a player's helmet should no longer disappear if the Pact of Hate spell effect is removed.
+- Corrected a few Atlas connection links for Field of Bone, Erud's Crossing, and Takish-Hiz.
+- Agent Quigbell in S.H.I.P. Workshop is giving more detailed sabotage information for players helping with Spy Reports.
+
+*** Previously Updated ***
+
+- Increased the difficulty of the Squire rare NPCs in Crystallos to better match their rewards.
+- Respawn timers of the base population in Steam Factory and Meldrath's Majestic Mansion have been increased to 22 minutes.
+- Karam Dragonforge in Rathe Mountains now wants different items for his fiancée. Additionally he will only reward people who give him all items.  He will still accept the original items if you still have them, but he will not specifically ask for them.
+- Additional NPCs in Crystallos are now immune to run speed changes.
+- The zoneline from Steam Factory to Meldrath's Majestic Mansion should be safer.
+- Modified the DPS values of some Secrets of Faydwer raid Bosses.
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+February 6, 2008
+------------------------------
+
+*** Highlights ***
+- We've made improvements to increase the stability of the servers.
+
+*** Items ***
+
+- Added the ability to wear the Spiritlight Earring in what do you know... the ear.
+- Fixed the drag icon of the new clarity potions, and changed the drag icon of the spirituality and replenishment potions.
+- Increased the maximum stack size on a small selection of tradeskill component items.
+- Removed the no-trade flag from the LoY vendor sold ribbons.
+
+- Altered the casting time on all of the Eron's jewelry pieces that have a click effect to 4 seconds from 5 seconds.
+- Changed the icon of The Basics of Jewelcrafting to a book instead of a scroll.
+- Added Required levels to the Enchant Palladium and Enchant Dwerium scrolls.  This does not alter how they work, it just clarifies the abilities.
+- Moved recommended level from the gems to the metals in the new jewelry. With this change, moving the expensive gems to other metals will yield better results if you are below the recommended level.
+- Fixed the spelling of Runed Scroll of Pestilence.
+- Changed the weight of the spell research kit to 4.0.
+- Removed fire focus effects from SoF Shadowknight armor and cold focus effects from SoF Necromancer armor due to their limited utility for those classes.
+- The clockwork key is no longer tradable on the Firiona Vie server.
+*** Spells ***
+
+- Wearing an item with the Servitor of Scale focus will now work correctly while also wearing an item with the Spire Servant focus.
+
+*** Quests & Events ***
+
+- Made a change to the Bargangle fight that should prevent him from staying hidden inside his bedroom. Called him a coward a few times, that seems to have riled him up.
+- Slightly changed the way Breakneck spawns in Meldrath's Mansion. He spawns off different doors. These doors are less spread out across the zone. Areas where he can't be spawned and that have no bearing on the raids in the zone have been locked off.
+- Charming Tiny Tops now stunts their growth. But they become resistant to charm much younger these days.
+- A humongous ice golem named Avalanche has been spotted in Icefall, terrorizing the Wraithguard.
+
+*** NPC ***
+
+- The casino now gives out the new stackable illusion potions. Additionally the elixir will now stack.
+- The Wyvern trios in Crystallos will now summon when they are low on health.
+- Increased the experience given by the Golems in Crystallos.
+- Slowed down the re-spawn in Gyrospire Zeka 11%, and Gyrospire Beza 22%.
+
+*** Tasks ***
+
+- The "Gathering the Essence" lines in Crystallos have been changed so you can collect the items before you accept the task and still get credit for them.
+- Altered a few of the tradeskill trophy tasks to use some slightly less annoying steps. Pottery will make Fine Shaped Potion Vial's instead of Bola Weights.  Tailoring will replace Etched Scale Stock Whip with Rough Leather Gorget Template, Concussive Bola with Pristine Leather Tunic Template, and Robe of Haunted Dreams with Fine Silk Robe Template. Tinkering will also replace the Steam-Powered Piston with a Collapsed Gnomish Recharge Kit.
+
+*** AA ***
+
+- Added additional ranks to Elemental Fury (Magician) and Quickening of Death (Necromancer) AA lines.
+
+*** Zones ***
+
+- Elevator music now plays in the Mansion elevators. The sound soothes the inhabitants and they should be less likely to attack folks that are just riding up or down.
+
+*** Previously Updated ***
+
+- Realnyna in Crescent reach will now respond to hails.
+- Fixed a bug that could cause the Last Stand Into Eternity task to fail to trigger properly.
+- It is no longer necessary to be in a raid to get the chest to drop off of the "Breaking Walls" events in Devastation.
+
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+February 28, 2008
+------------------------------
+
+Here are the patch notes from today's patch:
+
+*** Highlights ***
+- Hot Zones: New Hot Zones have been created! Be on the lookout for new items and content in the following zones:
+
+Level 20 North/South Ro
+Level 25 Solusek's Eye
+Level 30 Blightfire Moors
+Level 35 Stone Hive
+Level 40 Dulak's Harbor
+Level 45 Skyshrine
+Level 50 Akheva Ruins
+Level 55 Crypt of Nadox
+Level 60 Riwwi, Coliseum of Games
+Level 65 Torden, Bastion of Thunder
+Level 70 Ruins of Illsalin
+
+- The 9th Anniversary is approaching. The Fabled Planes of Power will be active starting March 16th!
+
+- Fan Faire Requests: At the 2007 Fan Faire, attendees got a chance to discuss their suggestions directly with the development teams. After the launch of Secrets of Faydwer, the EQ team started working on the list of suggestions and feedback they were given. Below are two of the most recent changes based on that feedback:
+
+- Guild Bank items and deposits now sort after the contents have been changed.
+
+- The Adventure window now includes the ability to sort entries by the properties of each adventure entry.
+
+
+*** Items ***
+
+- Added recommended levels to some SoF bracers that did not have them before.
+- Changed the additive in Monster Summoning IV spell research recipe to Ink Additive of the Nameless.
+- Ranthock Roots now have the tradeskill flag.
+
+
+*** Spells ***
+
+- Corrected all instances of Fear Spells that were bypassing the Fear Immunity granted by the Fearless AA.
+
+
+*** NPC ***
+
+- Mercia has set up shop in the Plane of Knowledge to sell some of the odd jewelry supplies.
+- Added Thraynis, Vetiver Root, and Sea spirit to the alchemy merchants that carry the larger sized herbs.
+
+
+*** Tradekills ***
+
+- Cultural Charms made with pottery now require only one rare component. More information can be found in the scrolls. Additionally you can learn the new recipes by scribing the scroll, or just experiment as usual.
+- Reduced the casting time of the bag summoning for the final stage of the tradeskill trophies.
+- Fixed omissions in systematic spell research books where peridot was added to some recipes, but the books did not include the changes.
+- Alchemist will want to look for a note from an alchemist that has made a few discoveries about potions.
+- Made contraption parts tradeable.
+- Added Intricate Claviger Sleeves to the Intricate Human Cultural Smithing book.
+- Added tribute to cultural charms.
+- Tools to alter steam cores and gyro cores have been created by the Ak'Anon Strike gnomes. If you prove yourself worthy they will sell them too you.
+- Added Class XIX Augmentation Distiller, Class XX Augmentation Distiller and Class XXI Augmentation Distiller to the appropriate bazaar and guildhall merchants.
+- Augmentation distillers can now be traded between players and sold back to NPC vendors for a small loss.
+
+
+*** AA ***
+
+- Several AAs that provided timer reductions to other AAs have had their requirements fixed. The changed AAs include: Hastened Ligament Slice, Hastened Cacophony, Hastened Funeral Dirge.
+
+These AAs will now require you to purchase the first rank of the ability they focus before you can purchase these AAs.
+
+
+*** Zones ***
+
+- Additional Augments have been added to all parts of Crystallos.
+- Old Man Thorren on the Beta server is now able to take tokens from multiple characters on the same account. If you used multiple characters to turn in tokens, simply ask Thorren to [combine] your tokens. He'll keep track of how many tokens are on your character and ask you to log in other characters on the same account that have also turned in tokens. You can repeat this as many times as needed to accumulate enough tokens total to earn a beta reward for your account.
+
+
+*** UI ***
+
+- Changed -
+
+EQUI_DynamicZoneWnd
+
+
+*** Miscellaneous ***
+
+- Added default height sizes to many of the illusions in the game. This should cause illusions of creatures that are typically non-human heights to grow or shrink the user as appropriate when they change into that illusion.
+
+
+*** Previously Updated ***
+
+- Slightly lowered the damage done by the four Squires of Crystallos.
+
+.....................................................................
+
+------------------------------
+March 13, 2008
+------------------------------
+
+*** Highlights ***
+
+Happy 9th Anniversary EverQuest! The anniversary activities will begin on March 16, 2008.
+
+- The Fabled: The gods and servants of the Planes of Power have been deemed Fabled and have had their power increased and treasures updated. In addition, all of the past Fabled will be will be making a return appearance this Fabled season.
+
+- Scavenger Hunt: A new anniversary scavenger hunt is also available for adventurers. Speak with Garin Tvalish in Plane of Tranquility if you are interested in participating in a world search.
+
+*** Items ***
+
+- Crystallos weapon augments now fit into socket 4/8 instead of 7/8.
+- The "Absent Absinthe" quest in Hills of Shade now requires components that have been influenced by the Hills of Shade.  (The item names have changed.)
+- Added eight new evolving weapons on some of the SoF faction vendors for players with maximum faction.
+
+*** Quests & Events ***
+
+- Fixed an issue with the quests given by Tenish in Crescent Reach. He will now require you to be level 71 for his tasks instead of level 75.
+
+*** Spells ***
+
+- In order to resolve a stacking issue with the second rank of the Tumble AA the AC component has been replaced with a Melee Guard effect
+
+*** Tradekills ***
+
+- Zumzal in Grobb now carries Blessed Water of Innoruuk
+
+*** Zones ***
+
+- Removed the recently imposed restriction on teleporting to campfires and banners in certain instances.
+- Adjusted the spawn rate of many rare NPCs in Mechanotus, Mansion, Steamfactory, Dragonscale, Loping Plains, Bloodmoon and Crystallos.
+
+*** Miscellaneous ***
+
+- Corrected the default size of the Pyrilen and Gelidran illusions.
+
+*** Previously Updated ***
+
+- Prime Researcher Elnot will now be able to assist you in finding your next progression task for The Buried Sea missions for entrance to Solteris.
+- Servants summoned by Haezvair will no longer attack him.
+
+.....................................................................
+
+------------------------------
+Hot Fix Notes - March 26, 2008
+------------------------------
+
+From the patcher:
+
+*** Hotfix ***
+
+Based on player feedback, we made a few improvements to the following existing raid encounters:
+
+Lethar and Selay Raid: We made tuning changes to the Lethar and Selay raid in TSS including:
+
+Increased the tether range on Selay slightly
+Modified the rate at which Selay fires off her AEs to avoid her casting an AE at the same time Lethar does for the most part (although it may still happen once in a while!)
+Selay will now follow Lethar when he moves from location to location to avoid having her tether just because he moved
+Crystallos Raids: We made some tuning adjustments to Crystallos Raids including:
+
+Fixed a reset issue with the Halls of Fire raid in the Fire Wing
+Fixed a reset issue with the Keeper of Stones event. Also changed the Adds in the event to spawn in a more physically spaced out manner so they don’t all come at the raid at the exact same time.
+We made a tuning change to the Kildrukaun the Prophet raid. We added a new mechanic to the event. Enjoy!
+Made various tuning changes to the Vyskudra event. The stormrider drakes have had their offense values lowered and will react differently to mezmerization spells than they previously did.
+Made various tuning changes to the Ice Constructs event in the Ice wing. The Ice Constructs should be easier to kill but now have additional mechanics.
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+April 1, 2008
+------------------------------
+
+From the patcher:
+
+** Highlights ***
+
+EverQuest is pleased to announce the introduction of a new service that will allow you to permanently change the gender or race of your characters.  This is something that has been requested by players since the inception of the game, but has only recently become possible due to changes that have been made in how characters are stored.
+
+
+
+In order to make the use of this feature as simple as possible and to allow you to request this service without leaving the game, we have added NPCs to every static (non-instanced) zone in the game that listen for the key phrase “I want to be a ”.  All you have to do is shout your request to the zone and when the NPC hears the key phrase, they will add your request to the processing queue.  The NPCs do not currently have a way to respond to requests via the shout command, so you won’t get a response to your request.   This is something we plan to add to the system later, but we didn’t want to hold up the release of this service.
+
+For example, if you have a female character and want to request a change to a male character, you would issue the following command:
+
+“/shout I want to be a man”  (note: “I want to be a boy” and “I want to be a male” will also work)
+
+The service can take compound requests which include a change to both your race and gender.  If you wanted to change your character into a female iksar, for instance, you would issue the following command:
+
+“/shout I want to be a female iksar”
+
+Because we are anticipating a large amount of interest in this feature and wish to prevent possible performance problems that might occur, the servers are being limited to processing only a certain number of requests at a time and each character will only be allowed to change one time.  Once your character has been changed, subsequent requests will be ignored.  During heavy request times, it may take up to 24 hours before your request is processed.  If your request hasn’t been processed within 24 hours, please reissue the command, ensure you are in a static, non-instanced, zone, and make sure that you have spelled the name of the race/gender properly when you do so.
+
+Important Note:  Once the service has been requested, it cannot be altered and the change to your character is permanent.  GMs are not able to assist with reversals, so please be absolutely sure about your decision before requesting the change.  Changes to your race may alter your faction standings, so please be careful when exploring the world right after a race change.
+
+Enjoy,
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+April 17, 2008
+------------------------------
+
+Here are the patch notes from today's patch (this is the 'sneak peek' version, subject to change). 
+
+*** Highlights ***
+
+- The 10th Veteran Reward, Summon Resupply Agent, is now available! 
+
+- Alternate Advancement experience has been accelerated significantly for those with fewer AAs spent and will scale back down to the normal rate as more AAs are earned.
+
+- Many keyed zones from the Ruins of Kunark, Scars of Velious, Shadows of Luclin, Planes of Power, Gates of Discord, Omens of War, Depths of Darkhollow, and Prophecy of Ro have had their key/flag requirements modified.  All players that have obtained the key/flag will still be allowed entry into the zones, as will players that have met minimum level requirements for the zones.  The zones and minimum level requirements are as follows:
+
+- Required Level 46 -
+The Howling Stones
+Old Sebilis
+Skyshrine to Cobalt Scar
+
+- Required Level 55 -
+Sleeper's Tomb
+Veeshan's Peak
+Vex Thal
+Locked areas of the Temple of Ssraeshza
+
+- Required level 57 -
+Bastion of Thunder
+Halls of Honor
+The Temple of Marr
+Tower of Solusek Ro
+Drunder, The Fortress of Zek
+
+- Required Level 60 -
+Plane of Water
+Plane of Air
+Plane of Fire
+Plane of Earth
+Ikkinz
+Uqua
+Yxtta
+Kodtaz
+
+- Required Level 62 -
+Plane of Time
+Inktuta
+Qvic
+
+- Required Level 65 -
+Txevu
+Tacvi
+
+- Required Level 68 -
+Anquish
+
+- Required Level 70 -
+Dreadspire
+Demiplane of Blood
+
+- Required Level 72 -
+Theater of Blood
+Deathknell
+
+- The Season of the Fabled has come to an end. The Fabled NPCs have packed up their camps and are riding off into the sunset for another year.
+
+
+*** Items ***
+
+- Added new spell drops to Meldrath's Majestic Mansion.
+- Increased the drop rate slightly for some spells in Crystallos.
+- Added recommended and required levels to some trade skill drops to help clarify their use. This does not change their actual use as trade skill containers do not pay attention to the recommended and required levels of items put in them.
+- Added a set of new vendors that sell many of the spell research components. The cost of these have been adjusted so that they sell to an NPC closer to the price it cost to make them, but merchants will sell them at a premium.  This means that you can save money while gaining skill. Also when you make spell combines you can choose between saving money, or saving time. You save money by making the sub-combines yourself, you save time by buying them.
+- Chromatic focus is now available for slot 12 augments for Cultural armor.
+- The engineer steamworks that work within the guardian have developed devices that help them move within the beast.  Fortunately for adventurers they can be a bit absent minded about them and adventurers can find them lying about.
+- A vial of raging heartblood is not as vile as it was previously.
+
+
+*** Quests & Events ***
+
+- Rylin Coil will now show and give all three tinkering mastery books for the tinkering mastery quest.
+
+
+*** Spells ***
+
+- The Shadowknight spells Touch of Kildrukaun and Touch of Severan that were linked together to share the reuse timer with a previous Game Update have been unlinked.
+- Secrets of Faydwer's Talisman of the Puma has been renamed to Talisman of the Cougar.
+- Cast time on Quellious' Word of Tranquility has been reduced from 4 to 2 seconds.
+- The Adrenal Boost focus effect has been changed to Life Line, which is a mana cost reduction on Pure Life.
+- The Closefisted Claw focus effect has been changed to Ethereal Breath, which is a damage increase on Ethereal Conflagration.
+- Breastplate worn effects that enhanced one rank of a spell or discipline now enhance all three ranks.
+- Reuse time reduction bonus on Assassin's Efficacy, Impenetrable Body, and Fit of Berserking Rage have been set to 25%.
+- The Rage of Tri'Qaras effect triggered from Bulwark of Tri'Qaras is now a damage bonus that stacks with other effects.
+- The recourse from the Challenge for Honor line will now appear in the bard buff box.
+- The Vinelash Ensnare effect triggered from Vinelash Cascade will no longer overwrite the highest version of Entrap.
+- The efficiency of Secrets of Faydwer direct damage spells now scales up on higher ranks of the same spell.
+- Improved Block and Improved Parry have been merged.  Any item that previously had Improved Block or Improved Parry will now have Improved Parry / Block.
+
+
+*** NPC ***
+
+- Halima in Crescent Reach can now be found in the find window.
+- Henrik O'Danos no longer sells Hypericum twice.
+- Ralfin in Bloodmoon keep will now cast his heal spell less frequently.
+
+
+*** AA ***
+
+- Added Rangers to the Critical Affliction line of AAs.
+- Increased the range of the Wrath of the Wild AA line to match other Damage Shield spells that Druids have.
+- Increased the hitpoints and resists of all "Wards" for all classes to make them better able to resist ambient damage.
+
+
+*** UI ***
+
+- The tracking window can now be sorted alphabetically and reverse-alphabetically.  Also, there is now a check box to set whether you want the tracking window to auto-update every six seconds.
+- Our UI xml schema has changed. If you are using a custom UI you may need to update this file in your custom UI directory.
+
+- Changed -
+
+SIDL.xml
+EQUI_FindLocationWnd
+EQUI_TrackingWnd.xml
+
+
+*** Miscellaneous ***
+
+- Situation where double length timer was given on events has been fixed. This occurred specifically to people who dropped out of the expedition and hadn't been kicked out of the zone yet.
+- Changes have been made to the way the client is notified about other entities (players, NPCs, etc.) in the zone.
+- Changed NPC summon behavior to summon the player right in front of their current heading at 1/2 their melee range.  Calculations used to determine when the NPC should summon have been made a bit more accurate.
+- Iksar and Wood Elves should be able to increase their forage skill caps after purchasing the forage AA.
+- Corrected a problem with hate generation from skill attack abilities such as Hail of Arrows and Decimator's Volley.  They were generating considerably more hate than they should and have been returned to their previous, lower hate generation.
+- Zone-wide /who commands now use a similar code path to server wide /who all commands.  Note that this will impose a similar time limit to how often it can be used.
+- The bobbing effect of levitation has been removed.  A new effect that pushes you off the ground about a foot and a half has been introduced.
+- Fixed an issue with the "Public if Usable" permission in the guild bank.
+- Fixed an issue that could place levitated players below the world when entering certain zones.
+- Fixed an issue that would cause levitate to fail if a player's mount was hit by a spell (usually an aura).
+- Stacks of two items in the guild bank can now be split.
+
+
+*** Previously Updated ***
+
+- Fixed an issue with the reset of the Kildrukaun event in Crystallos.
+- Lockout timers linked on many similar long-reuse spells of the same line.
+
+ 
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+April 24, 2008
+------------------------------
+
+Here is the patch message from today:
+
+*** Highlights ***
+
+ - Reduced experience requirements and increased bane damage on SoF evolving bane weapons.
+ - Several speed and stability changes have been made to address issues with proximity loading.
+ - Critical heals should be calculating their effectiveness correctly again.
+ - Fixed a problem that was not allowing players over level 62 access to Bastion of Thunder and the Halls of Honor on the progression server.
+
+
+
+*** Items ***
+
+ - The Guardian Expediators are no longer so fragile (they are no longer temporary items).
+ - Added bard mods to the melee centric slot 12 augments.
+ - Reduced experience requirements and increased bane damage on SoF evolving bane weapons.
+ - Changed Intricate Snowborn armor to use malleable ore as it should.
+
+*** Spells ***
+
+ - Spells should once again display their cast messages when they land.
+ - Critical heals should be calculating their effectiveness correctly again.
+
+*** AA ***
+
+ - If the Summon Resupply Agent AA fails to cast, the refresh timer will reset itself.
+ - AAs that reduce spell recast timers (Such as Fortified Intervention and Fortified Survival) should now properly reduce their timers.
+ - AA experience should now be split properly again.
+
+*** Miscellaneous ***
+
+ - Leadership AAs should work more reliably with mobs that come from outside of the group's awareness range.
+ - Several speed and stability changes have been made to address issues with proximity loading.
+ - The client will now load more information upon initial zone-in to make later movement smoother.  There will be a performance hit when first zoning in, however.
+ - The tracking window updates have been optimized and should be somewhat faster now.
+ - Fixed issues where /guildstatus and /guildinvite were not working on players outside of proximity range.
+ - The corpses of group members who die outside of proximity range should once again be targetable by clicking their name and should show on the map.
+ - Fixed several issues with the /hidecorpse command:
+ - - You can now hide corpses after being resurrected from hover mode.
+ - - Corpses of group members not in zone will no longer be hidden with /hidecorpse allbutgroup.
+ - - /hidecorpse looted will not hide your own corpse.
+ - The /who guild command should now return players in the zone who are in /roleplay mode.
+ - The /who count command will again work for all players in the zone.
+ - Using the center view key after moving downward on a mount will no longer cause your view angle and movement angle to be out of sync.
+ - Right clicking a player's name in the bazaar window will again face you towards them and generate a path.
+ - Due to issues with NPCs summoning players below the world, NPCs will once again summon to their exact position.  The change will be returned once the issues are resolved.
+ - Fixed a problem that was not allowing players over level 62 access to Bastion of Thunder and the Halls of Honor on the progression server.
+ - Fixed a problem with access to Theatre of Blood.  You should now be able to enter Theatre of Blood at level 68.
+
+*** Previously Updated ***
+
+ - As of 4/16/2008, enemies will forget about feigned players after one minute rather than two.
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+May 7, 2008
+------------------------------
+
+Here are the patch notes from today's patch:
+
+*** Highlights ***
+
+- Improvements have been made to the functionality of the EQPlayers pages.
+- Secrets of Faydwer pet focus items have had their effects improved.
+
+
+
+*** Items ***
+
+- Changed variations of the same SoF evolving item that were not on lore groups to now share lore groups.
+- Fixed grammar issues and erroneous item equip slots with many tradeskill gems.
+- Exchanged the loot items from Squire Tectoran and Squire Zirkanamef in Crystallos that they had "borrowed" from each other.
+- Secrets of Faydwer pet focus items have had their effects improved.
+
+*** Quests & Events ***
+
+- Several quests in the Mechamatic Guardian should now update their counts when named mobs are killed.
+- Characters who worship Karana should no longer be KOS to some mobs in monster missions.
+
+*** Spells ***
+
+- The Putrefaction spell should now last its full duration in PvP play.
+
+*** NPC ***
+
+- Eron in Dragonscale Hills will now trade blue gem grade faycite for clear gem grade faycite at any time. 
+- Eron in Dragonscale Hills will now give you some help if you are stuck with the shadow counting book.  This help is simply resetting the flags that may be keeping you from uncovering the gem boxes. 
+
+*** Tradeskills ***
+
+- Added a root beer float recipe that uses the new ice.
+- Changed Intricate Snowborn armor to use malleable ore as it should.
+
+*** AA ***
+
+- The 10th Veteran Reward (Summon Resupply Agent) will now count down the timer in the Guild Lobby and Guild Hall.
+- The 10th Veteran Reward (Summon Resupply Agent) will no longer be affected by buff-extension AAs.
+- Changed Arcane Whisper to allow more than one player to use this ability on a single NPC at a time.
+
+*** Zones ***
+
+- Meldrath has initiated a new security measure within the gyrospires that will prevent invaders from easily infiltrating the more secure floors of the spires.
+
+*** Miscellaneous ***
+
+- /guildstatus should once again work on any players in the zone regardless of location.
+- The Mark NPC command should display NPC names correctly now.
+- The /who command will now always put your name last in the list.
+- Fixed a problem in the bazaar where if you used mouselook right after right clicking on a trader name in the search window your view would pitch up to look at the ceiling.
+- /hidecorpse looted now persists after zoning (the hidden corpses don't persist, but the /hidecorpse looted "mode" does).
+- Looting all the items on a corpse when in /hidecorpse looted mode will cause the corpse to immediately disappear, rather than fade out slowly.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+Hotfix Patch May 15, 2008
+------------------------------
+
+Here is the patch message from a hotfix implemented yesterday:
+
+*** Hotfix ***
+
+- The scouts in the Feerrott should now properly update the quest Into the Muck when killed.
+- Killing many of the NPCs in Meldrath's Mansion, The Steamfactory and Mechanotus will now please rebel brownies.
+- Reduced some of the population in Meldrath's Mansion.
+- Reduced the number of NPCs that can see invisible in Meldrath's Mansion.
+- After working with the Community Leaders we have identified several Rare NPCs in SoF that needed to have a reduction in power. The following NPCs were changed:
+- - - Steam Factory - Exterminator Mark V
+- - - Meldrath's Majestic Mansion - Geartop
+- - - Fortress Mechanotus - Hogswaller
+- - - Fortress Mechanotus - Groudskeeper Cotongle
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+May 22, 2008
+------------------------------
+
+Here's a peek at the Game Update notes for Thursday, May 22, 2008
+
+*** Highlights ***
+
+- The EQPlayers database has received an upgrade to improve performance.
+
+- We have enabled player proximity again.  The proximity algorithms have been improved and tuned.  Bandwidth usage has been reduced and both client and server performance have been improved.  In addition, the delay upon first zoning in should be largely eliminated as any NPCs in your proximity on zone-in are sent by the server before you are officially in the zone (while the zoning screen is still up).
+
+
+
+
+*** Items ***
+
+- The worn effect on the following breastplates is now a reuse time reduction of Thousand Blades: Osh`vir`s Dreamponder Breastplate, Singing Energeiac Plate Breastplate, Chromasteel Breastplate of the Dream, Prismatic Skaldsong Breastplate, and Dauntless Minstrel's Hardened Breastplate.
+- All types of Modulating Rods are now usable in the potion belt.
+
+
+*** Spells ***
+
+- Unholy Aura Discipline now increases the damage done by direct damage Lifetap spells.
+
+
+*** Quests & Events ***
+
+- Relm M`Loch has found another destination that she enjoys almost as much as the Plane of Hate.
+- Noble's Causeway - Ferans will no longer spawn or fight inside some objects near the dead Bazu.
+- Katta Castellum - Shield of Bane Warding Quest: The opening of the Sealed Runed Iron Bound Chest will now correctly spawn the reanimated Vah Shir.
+- Barren Coast - Killing Maybell the Dark Flower will update her quest correctly once again.
+- The Soulbleeder raid will no longer spawn if the raid has a lockout timer for successfully completing it.
+- The Soulbleeder raid will now reset properly.
+- Mayong's slash ability should no longer hit the player tanking him.
+- Lethar's conical breath ability should always be directed at the player tanking him.
+
+
+*** NPC *** 
+
+- Zeflmin Werlikanin in the Guild Hall has found new geodes for travel. 
+- Denizens of the Loping Plains are no longer stealing clockwork modulators.
+
+
+*** Tradeskills ***
+
+- Murky and Foggy energeian orbs have become less expensive to create.  Additionally, Foggy energeian orbs have become less difficult to make.
+- Player-made powersources will now result in "sealed" orbs which can be right-clicked to create the actual powersources.  This will guarantee that players will get a fully-charged powersource, and allow for multiple yields on the tradeskill combine as originally intended.
+
+
+*** Miscellaneous ***
+
+- The Locker of Lupine Linking can now be used to separate an older mount from the SoF Claim item 'Mottled Worg Mount' if they have been previously combined.
+- Players who worship Karana should no longer be KOS to some mobs in monster missions.
+- We have enabled player proximity again.  The proximity algorithms have been improved and tuned.  Bandwidth usage has been reduced and both client and server performance have been improved.  In addition, the delay upon first zoning in should be largely eliminated as any NPCs in your proximity on zone-in are sent by the server before you are officially in the zone (while the zoning screen is still up).
+- Fixed an issue that could cause players with /hidecorpse looted active to be unable to loot+.
+- Fixed an issue that was causing players to go linkdead when accepting a resurrection.
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+May 29, 2008
+------------------------------
+
+Here's a peek at the Game Update notes for Thursday, May 29, 2008
+
+*** Highlights ***
+
+- Summer is coming.  Keep watch on the EQPlayers website and the LaunchPad over the next couple of weeks for news about some exciting activities.
+
+- The experience gained formulas have been modified to present players with a much smoother increase in the number of kills required to progress through a level as they gain more levels. This change has the side effect of reducing the number of kills required to gain a level in certain scenarios between levels 50 and 75.
+
+
+
+*** AA ***
+
+- Rank 4 of Divine Stun is now available as a Secrets of Faydwer AA.
+
+*** Miscellaneous ***
+
+- Improvements have been made to load balancing for instance servers that should improve peak-time performance of instances.
+- Corpses should once again disappear immediately rather than fading away slowly after looting when using /hidecorpse looted even if all the items have been removed from the corpse.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+June 3, 2008
+------------------------------
+
+Here are some update notes from the patcher (today and yesterday): 
+
+*** Highlights ***
+
+- Five scholars have recently entered the Plane of Knowledge to pass along knowledge of the expanding world of Norrath and beyond to all returning travelers.  These scholars hope that their guidance will assist these adventurers as they embark upon their journeys.
+
+*** Previously Updated ***
+
+- The current Hotzones have received an additional 25% boost to their experience modifier.
+- Defiant armor and weapons have begun to appear throughout the lands of Norrath.  Use them to strengthen yourself or to provide aid to your allies.
+
+
+- The EverQuest Team
+
+
+And, from June 2, 2008:
+
+*** Living Legacy Highlights *** 
+
+Live Events – XP Bonuses, Upgrades To Favorite Zones and New Raids! 
+The Hottest Zones Ever! All current EverQuest hot zones offer an additional 25% experience bonus. See the "Welcome Back" tab for a list of the current hot zones and their suggested level ranges as well as details on the experience bonus. 
+More Loot! The global drop rate has been updated throughout all of Norrath so returning and current adventurers can line their pockets. 
+Classic Group Content Upgrades! Lower Guk (7/7/08 – 8/04/08) will be fine-tuned with upgraded loot for groups of returning hardcore adventurers. Prepare to face some old enemies…and a few new ones! 
+Brand New Raids! Get ready for the fight of your life with four brand new raid scenarios. Incredible item rewards await adventurers who face these hardcore challenges and succeed. See the "Events Tab" for more details.
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+June 11, 2008
+------------------------------
+
+Here's a sneak peek at Wednesday's Game Update message. This may or may not be updated before the update is live.
+
+*** Returning Players ***
+
+- If you're returning to the game following a break, be sure to visit the Scholars in the northeast portion of the Plane of Knowledge.  They can help guide you through the many changes to the land of Norrath over the years.
+
+*** Items ***
+
+- The Mangled Head combine for the Druid Epic 1.5 will no longer consume its components if it is performed outside of the correct zone.
+- The Bundle of Defiant Armor will no longer summon pieces of armor that you already have.
+
+*** NPCs ***
+
+- The Magus at the Wayfarer camps will now send characters to Nedaria's Landing and from there to Natimbi or Abysmal Sea, without need for the Wayfarer's Stone.
+- Crystal Golems in Plane of Valor have been changed to constructs and are no longer humanoids.
+
+*** Tasks ***
+
+- Tavik will now give out the Stopping Production task.
+- The Tasks "Disposing of Unwanted Things" and "Engine Room Schematic" should always have enough steamworks available to kill.
+
+*** User Interface ***
+
+- Added a few new item icons for future items. Custom UIs will need to update to see them.
+
+- Changed -
+
+EQUI_Animations.xml
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+June 19, 2008
+------------------------------
+
+Here is the patch message from today:
+
+*** Items ***
+- Scorpion sandwiches no longer have a weapon delay on them. They do, however, still have scorpions.
+- The Temporal Chrysalis will no longer disappear if it is used before its proper time.
+
+*** Quests and Events ***
+- The lockout for Goru Uldrock, the Reincarnate is now spelled correctly.
+- Killing Emperor Draygun should properly update his task once again.
+
+*** Tasks **** 
+- Fixed the spelling of the quest NPC in the task Simple Arrow for Crescent Reach.
+
+*** NPC ***
+- Fixed the reset issues with Bargangle Tinkerson in Meldrath's Mansion.
+
+- The EverQuest Team
+
+
+6/16/2008
+
+***Hotfix ***
+- Whizzlebang Twempt (both versions) should now only respond to text triggers if you have him targeted. 
+
+- The EverQuest Team
+
+.....................................................................

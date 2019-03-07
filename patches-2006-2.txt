@@ -1,0 +1,680 @@
+Patch Messages from July 2006 to December 2006
+
+
+.....................................................................
+
+------------------------------
+July 18, 2006
+------------------------------
+
+- /raid commands should now work appropriately.
+- Added /decaycorpse command on The Combine and The Sleeper. You can now target and manually 
+decay any of your own corpses that no longer have items on them. Please help us keep Norrath 
+clean of unnecessary corpse litter.
+- Fixed a bug that would cause ground items to not respawn appropriately.
+
+
+.....................................................................
+
+
+------------------------------
+September 19, 2006
+------------------------------
+
+*** Highlights ***
+
+Welcome to EverQuest: The Serpent's Spine, the 12th expansion for EverQuest!
+
+- New Player Race: The Drakkin have been created from both human and dragon blood to protect the future 
+of all dragon kind. Several colors and customizations will be available to make each Drakkin character 
+unique, such as elegant scale markings and horns.
+- Level Cap Increase: Players can now reach level 75, complete with new spells, abilities, raids and 
+quests for greater power. 
+- Content for Levels 1 to 75: Play through every level of the game without ever leaving the Serpent 
+Spine Mountains. The entrance to Serpent's Spine can be found within Highpass Hold.
+- New Starting City: Crescent Reach is a fully functioning city with all that is required to learn and 
+thrive in EverQuest, including merchant, quest, combat and tradeskill areas. All classes and races are
+welcome within the city.
+- Dynamic Features: New zones, NPCs, destructible and interactive objects.
+- New AAs 
+
+Spell Ranks: The new spells that you can acquire in The Serpent's Spine have different ranks to them. 
+The higher ranks of a spell are generally more powerful and more difficult to obtain than the lower 
+ranks. When you scribe a higher rank of a spell that you already know, the lower rank will automatically 
+be overwritten by the higher rank and your spell casting gems and hotkeys will be updated to reflect that 
+you now have a higher rank of the spell.
+
+
+*** General Game Improvements ***
+
+*** AA System ***
+
+The AA system has undergone some significant back-end changes. The experience you get toward an AA 
+point is now based on the difficulty of the NPC relative to you rather than being based directly on 
+the NPCs level. This means that you will gain a similar amount of experience killing even con 
+creatures at all levels. The amount of experience required to gain an AA is based off the current 
+amount required for a level 70 character to do so, so players at level 70 shouldn't see much of a
+difference. Players below level 70 will gain AA experience at a rate faster than they were before since 
+they are now gaining it at a similar rate as the level 70. Going forward, this rate will remain static 
+so the amount of kills to gain an AA point at level 75 will be the same it is at level 70. Current 
+abilities and points spent are not affected by this change.
+
+
+*** Death ***
+
+We've made a change to the way death works. When you die now you will be "hovering" over your body 
+and can choose to stay that way while waiting for a resurrection instead of immediately zoning to 
+your bind point. This is being done to help players on slow connections who take a big hit from 
+having to zone twice when they die.
+
+
+*** Character Creation ***
+
+We've changed character creation to make it more graphical, allow characters to be created from a 
+single page, and updated it to include features associated with the new Drakkin race. As part of 
+this, we've set up some character defaults so starting point allocation, starting city, and starting 
+deity all have defaults now, which can be changed if you wish.
+
+
+*** Con Color Changes ***
+
+We have introduced a new con color, dark blue, which represents a range of blue con NPCs that give a 
+bonus to their experience due to being very close to your level, generally within 5 levels. The 
+concept of a dark blue con NPC has existed in EQ for a while now, but we've decided to change the 
+con system to visually include this range so you can visually see when an NPC falls into this 
+"sweet spot". To properly display a different shade of blue, we've had to reorder the cons a little 
+bit. From trivial to highest con, the colors are now:
+
+- Gray - This creature is trivial to you and will give you no experience for killing it.
+- Green - This creature is not much of a threat, but will still give you some experience.
+- Blue - This creature is below your level, but high enough level to give you experience.
+- Dark Blue - This creature is below your level, but close enough to provide a solid challenge and gives 
+you more experience than normal blue cons.
+- White - This creature is the same level as you
+- Yellow - This creature is slightly above your level.
+- Red - This creature is well above your level.
+
+In addition, yellow con now extends up to 3 levels above the player for high end NPCs to help casters 
+determine what can be affected by their spells.
+
+
+*** Downtime ***
+
+As EverQuest has grown over the years, the amount of downtime imposed upon players has grown as well 
+and we'd rather players find challenge in the fights themselves than in the time between them. Toward 
+that end, we've created a new system that is simple to use, but powerful and flexible enough to control 
+downtime as the game continues to grow.
+
+The basics of the new system are simple. Once you have been out-of-combat for a sufficient amount of 
+time, you can sit down (or be on a non-moving horse) and begin to rest. While resting, you enter an 
+accelerated regeneration state that will quickly recover your mana, health, and endurance. For most 
+single group content, once you are out of combat for 30 seconds you can rest. While dealing with 
+multi-group content, that time is 5 minutes. The amount of time you have to be out-of-combat before 
+you can rest varies for group content and raid content due to the different needs of the different 
+encounter types.
+
+There are a series of icons that will display by your character's name to let you know what your 
+character's current state is.
+
+- Crossed Swords - You are currently in combat.
+- Hour Glass - You are recovering from combat and cannot rest yet. In addition to the hourglass, 
+there is a timer bar beneath the endurance bar that will count down as you get closer to being rested.
+- Poison Drop - You are no longer in combat, but cannot rest because of a debuff that is affecting 
+you. You must get rid of the debuff before you can rest. Certain debuffs now have a yellow border 
+instead of a red one. These debuffs do not affect your ability to rest.
+- Void - The void is the default icon and indicates that you are not in-combat and you can rest at 
+any time.
+- Energy Swirl - The energy swirl indicates that you are currently resting.
+
+
+*** Group Mentoring ***
+
+Players can now share their group leadership experience with another member of their group.
+
+
+*** Reward Window ***
+
+Tasks within The Serpent's Spine have a new way of giving out rewards. When there are multiple rewards 
+to choose from, you will get to choose which one you like from a selection window. If you don’t choose 
+a reward immediately, you can bring up the window later to make the selection but you can only have a 
+maximum of 5 outstanding rewards at any time. If you go above that, the oldest reward will be replaced 
+and you will be unable to claim that reward.
+
+
+*** NPCs ***
+
+- Corrected a couple of problems in the NPC call-for-help code. NPCs will now call for help immediately 
+when attacked regardless of when they were last aggroed if they are no longer aggro. Also, NPCs will now 
+properly aggro on the owner of a pet if the pet is sent to attack the NPC.
+- Shrewd halfling bankers have set up shop in the guild lobby.
+- Coldwind in Nektulos will now offer a confirmation box to players when they try to remove their Curse 
+of the Blood AAs.
+- Various issues with the Trial of Lashing in Plane of Justice have been resolved.
+- The balances in the Kvxe Pirik event in Tacvi will once again reset to full health between waves. 
+- The Alchemy vendors have set up shop in Innothule, Everfrost, West Cabilis, and Shar Vahl.
+- A new vendor has appeared in East Cabilis that caries some basic adventuring supplies.
+- Tani N`mar and Founy Jestands are now pick-pocketable again.
+- The skeletons summoned by the Swarm of Decay ability are casting their spells properly again. 
+- Tegea Prendyn has grown tired of her ocean view and now rests near an inn.
+- Char and Blaze in the ROTA raid now have their spells functioning correctly again.
+- Many healer NPCs in Depths of Darkhollow now require some casting time to get off their big heal.
+- The Vengeful skeletons in Everfrost should no longer evade the guards quite so well.
+
+
+*** Tradeskill ***
+
+- Made the Foldable Reinforced Medicine Bag a bit roomier.
+- For clarity, the tradeskill trophies and carry-alls now list the lore group they are part of.
+- The yield when making metal bits has increased to 2.
+- Modified the recipe for Blessing of Reverence to make the spell line more consistent.
+- Lost Dungeons of Norrath and Omens of Wars spells have become tradable. Additionally, Lost 
+Dungeons of Norrath spells will have no token sellback value to NPCs.
+
+
+*** Spells ***
+
+- Stun-caps have been added to the various levels of the Strike of Opportunity spells. 
+- The Circle of Power aura effects will now improve all melee and ranged attacks instead of affecting 
+only one-hand blunt.
+- Wolf form illusions will no longer automatically make you KOS to guards.
+- Illusion: Tree now uses a different, global tree model rather than the tree model it used to use, 
+which was only available in older zones.
+- The damage dealt by high level NPCs that have been charmed has been increased.
+- Increased the regeneration of pets while they are out-of-combat to keep pace with the increases 
+of out-of-combat regeneration for PCs.
+- Translocate spells no longer require a reagent.
+- The reuse on the warrior disciplines Bazu Bellow and Mock are no longer linked together. 
+
+
+*** AAs ***
+
+- Most beneficial AA effects that last for less than 30 seconds will now go to the short 
+duration buff window instead of the normal buff window.
+- Improved Harm Touch and Leech Touch are now on different timers.
+- The Shadowknight AAs Consumption of the Soul and Improved Consumption of the Soul now provide 
+a greater increase to Leech Curse.
+- Refunded all AAs that increased your chance to channel through damage. Channeling is currently 
+set to 100% for all classes due to a long standing issue in how it is calculated, so the abilities 
+weren't doing anything. This includes Channeling Focus, Channeling Mastery, and Internal Metronome. 
+Item Channeling abilities, such as Concentration, are not affected.
+- You will now get a message if you have the Stonewall or Willful Death AA and successfully 
+feign death through a spell that hit you.
+- Lowered the reuse time on the Monk AA Imitate Death to 18 minutes. Modified Hastened Death 
+to reduce the reuse by 2 more minutes per rank of the ability.
+- Increased the mitigation of the higher ranks of the bard AA Shield of Notes.
+- By popular demand, removed Spell Casting Subtlety from the Bard AA lineup. Any points spent 
+in that ability will be refunded.
+- The Beastlord AA Feral Swipe has received a damage increase.
+
+
+*** Skills ***
+
+- Modified skill progression for many classes.
+- Bards and Beastlords now have access to Double Attack starting at level 71.
+- All bard instrument skills are now available starting at level 5.
+
+
+*** Veteran Rewards ***
+
+- Issues with the Steadfast Servant casting lower level effects at certain level ranges have 
+been corrected. 
+
+
+*** Events ***
+
+- The Aura of Destruction from Uqua and Prick of a Poisoned Pin from Demi-Plane of Blood will 
+land reliably again and last their intended duration.
+- Slightly reduced the hit-points of the third wave adds in the Sendaii event.
+
+
+*** Items ***
+
+- Changed the name of the "Stromguard Forge" to "Stormguard Forge".
+- Many items that had extremely strong light sources have had their light sources reduced a 
+bit to help with the issues where lightly colored surfaces become blindingly bright.
+- Many spell reagents now stack to 100 instead of 20.
+- Some items now have a new tab on them called "Lore" that will give extended information about 
+the item.
+- Shield of the Immaculate, Amulet of Necropotence, and Holgresh Elder Beads are now flagged all/all.
+- Upgraded Stats on Class Specific Items in Demiplane of Blood.
+
+
+*** Disciplines ***
+
+- You may now learn combat abilities by right-clicking upon the Tomes instead of delivering 
+them to your guild master.
+
+
+*** Miscellaneous ***
+
+- Race based experience penalties have been removed.
+- You can you enable texture streaming from the advanced graphics options window. This should 
+reduce the total memory used by the client during any given play session.
+
+
+.....................................................................
+
+------------------------------
+September 19, 2006
+------------------------------
+
+*** Please Read ****
+
+Due to issues with granting the extra two character slots to Station Access subscribers we will 
+be temporarily granting these slots to all players. If you are not a Station Access subscriber then 
+these slots WILL be taken away when the issue is fixed. Please do not make characters using these 
+slots unless you are a Station Access subscriber.
+
+- Fixed issue with AA experience while grouping.
+- Server stability addressed.
+- Non-TSS players will no longer get stuck in the Tutorial.
+
+We are sorry for the inconvenience this has caused you. Thank you for your patience.
+
+
+.....................................................................
+
+------------------------------
+September 27, 2006
+------------------------------
+
+*** NPCs ***
+
+- Moved Ezna Connoy and Tavin of the Wild a little further south. While they are one with 
+the animals around them, some of their customers were unhappy with their location.
+- Increased the elemental essence drop rates off the four elemental gods in Planes of Power.
+- Frannie in Surefall Glade now carries shiny new combine smithy hammers.
+- Removed Spin Stun from the NPCs in Infected Paw.
+- Improved run animations for both male and female Drakkin
+
+*** Tradeskills ***
+
+- Altered the systematic spell research spells Belt of Magi'Kot and Girdle of Magi'Kot to better 
+match the systematic system.
+- Added the spells Summon Glowing Bauble, Summon Platinum Choker, Summon Runed Mantle, Summon 
+Sapphire Bracelet, Summon Spiked Ring, Summon Steel Bracelet, Summon Jewelry Bag to the systematic 
+spell research system.
+- Vergalid Clay, Medicinal Moss, and Vergalid Slave Manacles have all moved to Sunderock outside 
+of Vergalid.
+
+*** Spells ***
+
+- Four of the mage summoned spells in Serpent’s Spine are now tradable.
+- Damage from Necromancer and Shadowknight lich-type spells has been reduced by a third.
+- The range on Mayong and Ayonae bane clicky items has been decreased.
+- Several unresistable melee attacks no longer work on other players.
+- Corrected a problem that was causing some spells to resist more often than they should.
+- Bolt spells should now behave more consistently.
+- Fixed a problem with illusion spells making everyone default to the same appearance.
+- Invisibility should no longer stack with other forms.
+
+*** Missions ***
+
+- Several issues with the Finding Fibblebrap mission have been fixed.
+
+*** Items ***
+
+- The appearance of evergreen leaves on the ground has changed. They now look more leaf like!
+
+*** AAs ***
+
+- Corrected the level requirements for Greater Blood Tithe and Funeral Dirge.
+- Players should now be able to get AA experience from Monster Missions.
+
+*** UI ***
+
+- Players using custom UIs should now be able to go back to character select from in game and 
+see their characters.
+
+- The EverQuest Team
+
+
+.....................................................................
+
+------------------------------
+October 4, 2006
+------------------------------
+
+*** NPCS ***
+
+- Added level 10 to 25 spell and melee tome merchants to Crescent Reach near the Master's Hall.
+- Artisan Moswin decided that she disliked being confused for the bakers assistant Moswen. She has 
+decided to go by her other name Irisi. 
+
+
+*** Quests ***
+
+- Scout Zryan will no longer award the final item awards for his mission arc after each mission in 
+the arc. 
+- Wanderlust Guild: Crypt Delving no longer requires you to enter the Shade King's chambers.
+- In Icefall the Nightmoon and Coldeye clans will be more pleased with you than they were before if 
+you kill their enemies. However, the quest givers for these two clans will not deal with you unless 
+you are at least tolerated among the clan itself.
+- Nerissa Clothspinner has realized that she will need money to continue the search for her sister. 
+She will now continue to sell her wares when she is on the move.
+
+
+*** Tradeskills ***
+
+- Yew Leaves now look like leaves.
+- Some secrets to making the single unfired tradeskill charms have gotten out and they are now easier 
+to make. The unfired artisan charm and the firing of the charms is still a difficult process.
+- Some spell research items and a few poison making items stack better.
+- Acids used in spell research are now sold by NPC vendors. These vendors do not like handling 
+such items so they charge a hefty premium for carrying them. You will save money making them yourself, 
+but you can save time by buying them.
+- Fixed a misspelling in the spell recipe for Elemental Simulacrum.
+- Made changes to the following list of spell recipes to more closely match the systematic spell 
+research system. If you already learned to make these spells your recipe book will automatically 
+update to match. The Spells changed are: Feral Form, Virtue, Hand of Virtue, Maelstrom of Ro, 
+Rathe's Son, Elemental Siphon, Elemental Simulacrum, Symbol of Kazad, Flameshield of Ro, Ward of
+Xegony, Servant of Marr, Xegony's Phantasmal Guard, Kazad`s Mark, Armor of the Zealot, Cry of Thunder, 
+Star Scream, Faith, Pacification, Ward of Nife, Pious Might, Aura of the Crusader, Cloak of Luclin, 
+Crusader's Purity, Serene Command, Placate, Zevfeer's Bite and Touch of the Devourer.
+- The task "Thundercrest Expedition" for Dwarven grandmaster cultural charms now requires the 
+correct item in the second stage (Stone Necklace).
+
+
+*** AAs ***
+
+- AA experience now mimics the way leveling experience splits within a group made up of players 
+of very different levels.
+
+
+*** Missions ***
+
+- If you are in the death limbo state (hover mode) when the mission completes and the rewards are 
+granted, you will now get your reward.
+
+
+*** Combat ***
+
+- If you logout with an active combat timer, when you login again you will now see the correct 
+timer.
+- Bolt spells and ranged weapons should no longer fire straight up.
+
+
+*** Miscellaneous ***
+
+- Corrected a problem that was causing some beneficial melee disciplines to not show up in the 
+buff windows.
+
+
+.....................................................................
+
+------------------------------
+October 5, 2006
+------------------------------
+
+- Corrected the missing stats on ashengate and frostcrypt augments. 
+- Errant spells that were being sold by the crescent reach spell vendor are no longer player usable. 
+- Fixed an issue with the Wanderlust quests requiring access to a raid instance to progress. 
+
+
+.....................................................................
+
+------------------------------
+October 25, 2006
+------------------------------
+
+*** Highlights ***
+
+- The way that AA experience is granted within each con range has been adjusted. NPCs that 
+are higher level within the con range will now give more AA experience than NPCs that are 
+lower level, but con the same.
+- In order for Sony Online Entertainment to provide you with the best possible customer service 
+we will be integrating a new SOE Customer Service interface into EverQuest which will allow us 
+to provide you with a Unified Front of customer support where all forms of service will have the 
+same general look and feel in a centralized location. You'll also be able to view support and 
+service requests in an archived history regardless of how you contacted us or what game you 
+contacted us about! For more information on this change please read the announcement in "The 
+Town Crier" on the EverQuest forums at http://eqforums.station.sony.com. 
+
+
+*** Items ***
+
+- Warweaver has been corrected to be a Paladin / Shadowknight only weapon. Players who looted 
+the item before the patch have had the item exchanged for a different weapon: Warsorrow. 
+- The damage ratios of several high-end TSS weapons have been retuned.
+- The Cartographer's Loadstone has been modified so that stat increases are better spread over 
+the quest's progression. The final stats are now achieved at the final step of the quest instead 
+of the preceding step.
+
+
+*** Tradeskills *** 
+
+- The recipe names for some of the poisons that use sketches have been made clearer.
+- Some poison-making components have had their stack sizes adjusted.
+- Fixed a misspelling in the title of Brodder's Lost Diaries.
+- Enabled Fierce Heraldic for a more appropriate expansion on the progression servers.
+- Crow in North Qeynos has decided to use the same supplier as the ones in Abysmal Sea and now 
+has a full stock of his brew.
+- Smith Gyasi in Crescent Reach should now properly get more supplies when you offer him a 
+completed ore shipment.
+- Halima and Baker Kosey now carry a supply of beans.
+- Rylin Coil will now give players any missing Tinkering Mastery books if they have already 
+completed the task.
+
+
+*** Events ***
+
+- The Muramite Proving Ground trials will properly flag everyone currently in the zone when a raid 
+is successfully completed.
+- The Stitch event should now spawn properly after the ambush event is completed.
+- The Cursebearers in Inktu`ta should no longer warp shortly after spawning.
+
+
+*** Quests ***
+
+- Many of the Ashengate faction quests should take less time to complete.
+- Fixed the combine for the Flowers for Veldyn task.
+- Shryyn's Quest "A Fair Trade" is now repeatable. Since this is now repeatable the experience 
+given upon completion has been reduced. Additionally the quest item is now lore.
+
+
+*** Raids ***
+
+- Made some fixes to the King Odeen raid in Valdeholm. He will take a little longer to escape and 
+will give warnings if you have almost given him enough time to escape. When he does escape the 
+mission will fail outright. Also corrected some errors with the Commander Clanghor (his assistants 
+won't run off without him) and with the High Keepers. You will now have to defeat them before 
+moving on to the next part of the event and their ability to heal has been removed.
+
+
+*** NPCs***
+
+- The inhabitants of Frostcrypt will be more likely to see invisible individuals than they did previously.
+- Reduced the level of Expin in Greater Faydark so he can be successfully pick pocketed again.
+- Mesa Snakes have a bit less poison than they used to have, though the effectiveness of the poison 
+is the same.
+- Librarian Hemfar in Crescent Reach should now be willing to offer you the charm reward for turning 
+in artifacts. If you did not receive the offered reward, hail him again.
+- The swarm pet from the Savage Platinum Fists now functions correctly.
+
+
+*** AAs ***
+
+- Corrected the description of Mercy Kill so it properly reflects that it works on NPCs below levels 
+66, 68, and 70.
+- Adjusted the way that AA experience is granted within each con range. NPCs that are higher level 
+within the con range will now give more AA experience than NPCs that are lower level, but con the same.
+
+- The EverQuest Team
+
+
+.....................................................................
+
+------------------------------
+October 30, 2006
+------------------------------
+
+Spooky spirits and strange mishaps seem to be descending upon Norrath. In addition to familiar 
+Halloween haunts, keep your eyes peeled for Haunted Jack and Spooky Sally with their fiendish 
+holiday treats in your local hometown. There have also been rumors of a strange zombie uprising, 
+an increased bout of lycanthropy, and other creepy encounters rising up within Kithicor Forest. 
+Take care and watch your step! Folks in need of assistance have been taking refuge within the Plane 
+of Knowledge and Crescent Reach.
+
+The festivities kick off tonight at midnight PST and run through the weekend. Happy Halloween!
+
+
+.....................................................................
+
+------------------------------
+December 5, 2006
+------------------------------
+
+*** Headlines ***
+
+East and West Commons have been combined and graphically updated to form a newly revamped Commonlands 
+zone!
+
+
+*** Hot Zones ***
+
+New Hot Zones! Some new zones and some familiar stomping grounds make up this set of Hot Zones. 
+Included in these zones will be some new encounters and new items for you to enjoy.
+
+The new hot zones are:
+
+20 Kurn's Tower
+25 Unrest
+30 Tower of Frozen Shadow
+35 Lower Guk
+40 The Hole
+45 Chardok
+50 Sebilis
+55 Grieg's End 
+60 Cazic Thule
+65 Splitpaw
+
+
+*** AAs ***
+
+- Corrected an issue with the AA - Petrified Roots that was incorrectly increasing the chance for an 
+NPC to break root. This ability should now correctly reduce the chance an NPC has to break root.
+- Modified the Serpent Spine Expendable AA abilities to be more powerful for the same cost. 
+- Added Spell Critical chance increases to the Expendable AA Glyph of Destruction and opened it up 
+for use by casters.
+- Deep Sleep will now work on mesmerization spells over level 70.
+
+
+*** Items ***
+
+- The weapon delay restrictions have been removed from the Mossy Tundra Stone and Everlasting Forge 
+Coal.
+- Several high level TSS shields now have their appropriate augmentation slots.
+- The proc rate on Brightflame, Pride of the Lifebringer has been increased to a more appropriate 
+level.
+- With the exception of diseased forages, the forages from The Serpents Spine zones have been given a 
+small vendor value.
+- Changed most of the gems in the game to stack to 100.
+- Dyn'leth's Spy Glass has been improved to work more effectively.
+- Keikolin's Mindhaze Sleeves now have a chromatic damage focus effect instead of a magic damage focus 
+effect.
+- The swarm pet from the Savage Platinum Fists functions correctly again.
+
+
+*** NPCs ***
+
+- NPCs can now potentially drop more than 8 items. Also, stackable items will be dropped as stacks 
+instead of as several single items.
+- Added cash loot to some NPCs in Sunderock that had none.
+- Butcher Redloe now correctly describes how to make Blood Sausage.
+- Termun in Crescent Reach is a bit more forgiving of foreigners.
+- Lowered the poison effect on the lower half of snakes in the mesa.
+- Removed some errant drops from the base Thundercrest zone.
+- Increased the drop rates for the Powersources in Ashengate and Frostcrypt that are used for various 
+armor tasks in Crescent Reach.
+
+
+*** Spells ***
+
+- Fixed an issue with casting spells as soon as spell gems started to become available, where the user 
+would get a "Spell recovery time not yet met" error.
+- Players will now always be able to see themselves and their group members who are invisible or hiding.
+- Bolt spells should now function more appropriately. Arrows and bolt spells should now work regardless 
+of height differences between you and your target, as long as you have line of sight.
+- The recourse effects from Doppelganger and Dimensional Instability can no longer be buff blocked. 
+- Necklace of Warportal Fragments effect now requires vendor bought Small Portal Fragments as a reagent 
+instead of Portal Fragments.
+
+
+*** Quests ***
+
+- Fixed a pathing issue that would cause the pilgrims on the Altar Escort task to warp through Icefall.
+- The Evidence of Corruption task has been modified slightly. Zhureni will no longer want Igneous Cairn 
+Stones, Lava Ooze Glands, or the Vial of Burning Liquid until you have collected them all.
+
+
+*** Tasks ***
+
+- Changed an error in the text of Dorina's Quest in the Mesa.
+- Corrected an issue with the following Grandmaster Cultural Symbol quests: "Thundercrest Expedition", 
+"The Latest in Clockworks!", and "A Bit of Spider, a Bit of Drake". If you are a Dwarf, High Elf, or 
+Gnome, have the quest from before this update but haven't completed it, and the task has less than 6 
+steps including hidden ones marked with a "???", there are some special steps you can take to update 
+your quest to include these changes while keeping your current progress. NOTE: These steps are not 
+required and your task can be completed without going through this, but your task may not display updates 
+properly. 
+1)Go to the Artisan in your home town that gave out the task. Be sure that you have a few minutes and 
+do not zone or log out until you have completed all steps.
+2) Say "Broken" to the Artisan and it will start a new dialog tree.
+3) Read everything carefully and respond appropriately. There will be text in brackets. Be sure to say 
+exactly what is in the brackets. You will be asked to remove tasks at certain steps. Be very certain 
+you have the correct task highlighted before you hit the remove button. Take your time and follow the 
+directions carefully.
+4) Following these steps properly will give you the updated the task and preserve the progress you have 
+made on the old version.
+
+
+*** Tradeskills ***
+
+- Some of the grandmaster cultural symbol tasks have been made easier by being less specific about the 
+NPCs that are needed for the kill step. For example, if the kill step was "kill 120 Isle Drakes" it will 
+now be "Kill 120 Isle Creatures". Additionally, the kill steps will only be able to be completed in the 
+base zone, or instance of the base zone that is mentioned in the task text. The loot step will still 
+only be on the specific creatures, and only in instances.
+- Metal Bits now stack more efficiently.
+- Changed the name of the three old cultural sewing kits and their tokens to make them stand out. They 
+will continue to work for basic tailoring as they have for a while, and they will continue to not work 
+for cultural tailoring, as they have not for a while.
+- Added fish from The Serpents Spine to the Bait Dispenser.
+- Fixed a misspelling of the recipe name for Feir'Dal Sewing Kit and Teir'Dal Sewing Kit.
+- Removed the tradeskill flag from Onyx Ring.
+- More of the "Blue Diamond Cultural" was set for Luclin release on progression servers.
+- Crystalwing Sewing Kit and Crescent Essence recipes can now be learned.
+- Crescent Essence can now be traded.
+
+
+.....................................................................
+
+------------------------------
+December 14, 2006
+------------------------------
+
+*** Tasks ***
+
+- Looting a stack of items should now update your tasks and quests appropriately.
+
+*** Items ***
+
+- Keikolin`s Mindhaze Sleeves now have a chromatic damage focus effect instead of a magic 
+damage focus effect.
+- Goru's Girdle of the Deceased now has Improved Parry IV instead of Improved Parry III.
+- Increased the damage on Fleshmelter, Lethar's Maul.
+- Ice-Striated Iron Orb should now function properly.
+- Reduced the weight on hot zone augments.
+- Items should now show their appropriate cast times.
+
+*** Miscellaneous ***
+
+- Playing as a shroud that is significantly below your regular level now gives reduced experience 
+while in a group environment just like it does while solo.
+- Instruments are now considered one-handed items regardless of which hand the instrument is 
+in so you can wield an instrument and another item at the same time. You cannot wield two instruments 
+at the same time.
+- Healing a pet now generates much less agro than before. Beware though, healing pets will still be 
+noticed by NPCs and they will still be unhappy with the healer if the pet dies.
+
+.....................................................................

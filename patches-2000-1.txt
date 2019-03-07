@@ -1,0 +1,1040 @@
+.....................................................................
+
+------------------------------
+February 3, 2000  8:00 am
+------------------------------
+
+The following changes have been implemented on the live servers:
+
+*Spells*
+
+- Lay On Hands: Enhanced to heal more hitpoints per level.
+- Enveloping Roots: Casting time reduced to match Immobilize
+- Skin Like Nature: Small Damage Shield added. This will stack with 
+other shields.
+- Insidious Fever: Casting time reduced.
+- Insidious Malady: Casting time Reduced.
+- Burnout series: Negative HP component removed to bring it in line 
+with the Necromancer's Intensify/Augment death series.
+
+*Songs*
+
+- Syvelian's Anti-magic Aura: Potency increased.
+- Shauri's Sonorous Clouding: Now also grants See Invisible. Party 
+members can now see each other while under the effect of this song.
+
+Additionally, the following songs have been given a slightly larger 
+radius:
+
+- Selo's Accelerando
+- Agilmente's Aria of Eagles
+- Shauri's Sonorous Clouding
+- Tarew's Aquatic Ayre
+
+*PvP-Teams Change*
+
+Customers on the PvP-Teams servers have been plagued by a tactic known 
+as "Bind Rushing". Casters would bind themselves in a hostile area or 
+dungeon, and attack everyone of an opposing race in the area. Sooner or 
+later the caster would die. They would then respawn, memorize a few 
+spells, then jump back in to attack their wounded opponents.
+
+As a first step in combating this practice and improving life for those 
+on the PvP-Servers, casters will now respawn with zero mana after being 
+killed by another player in a duel or open combat.
+
+This code is new for those on Tallon and Vallon Zek. It has been in 
+place for some time on Rallos Zek and works very well there.
+
+*The Plane of Sky*
+
+All spells that grant levitation will no longer function in the Plane 
+of Sky. This affects spells cast by Wizards, Enchanters, Shamans, 
+Druids, Necromancers, and Bards. The Plane of Sky is designed to be 
+completed in certain fashion, and the existence of these spells allowed 
+the islands to be completed out-of-order.
+
+A teleporter will be placed on the first island in the next patch to 
+allow people access to the room below.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+February 17, 2000  7:00 am
+------------------------------
+
+***Announcements***
+
+The City of Paineel, home to the infamous Heretics of Erudin, is now 
+available via the Optional Patch. In addition, Erudites may now also be 
+Shadowknights in addition to the other classes available to them. All 
+Erudite Necromancers, Shadowknights, and Clerics who worship the God of 
+Fear, Cazic-Thule, now start in the City of Paineel. As such, if you 
+wish to create a character of this type from this point forward, you 
+*must* download the Paineel zone-files via the Optional Patch.
+
+Please note that if you downloaded the Paineel zone files recently, you 
+must run the Optional Patch again to insure you have the correct 
+version of the files.
+
+In related news, all of the entrances to the Qeynos Catacombs have been 
+fixed.
+
+Enjoy!
+
+The following changes have been implemented on the live servers:
+
+*Spell Changes*
+
+- The recast delay for many of the Shaman buff-spells have been 
+reduced.
+- "Reoccurring Amnesia" has had its casting time reduced.
+- "Yaulp" and "Augmentation" should now stack.
+- "Solidarity of Vision" has had its duration increased.
+- The Druid spell, "Skin Like Nature", has been returned to its former 
+status due to popular opinion. As such, the damage-shield component has 
+been removed and the regeneration component has been re-applied.
+- "Sense Magic" has been replaced in all cases by the "True North" 
+spell. If you have already inscribed the "Sense Magic" spell, the spell 
+icon will now automatically reflect "True North".
+- A bug that existed with several damage-shield spells, causing their 
+damage to be subtracted rather than added when stacked, has been 
+corrected. The spells will now stack properly.
+- The "Feign Death" spell, when cast by a Necromancer, will now have a 
+fixed duration. The Necromancer will receive several warnings prior to 
+the spell wearing off. This change was necessary because some 
+Necromancers found a way to gain experience through their pet while 
+being AFK for an extended duration, such as being in bed for the night. 
+Note: This does not affect Shadowknights or Monks.
+- New Necromancer spells are now in game. Check your spell vendors.
+- Alchemy has been revamped. Check with your local Shaman.
+- DOT (Damage Over Time) spells will no longer hinder camping.
+
+*General Changes/Fixes*
+
+- The dungeon of Paw has again received a minor update to slightly 
+reduce the difficulty of the zone.
+
+- All known issues with the SBLive soundcard have been corrected.
+
+- From this point forward, deleting a character will cause all corpses 
+belonging to that character to likewise be deleted. This change was 
+made primarily to stop a no-drop transfer bug. It also has the added 
+effect of cleaning up corpses for characters that people no longer 
+intend to play.
+
+- Crippling Blows will now display the correct damage in the "You have 
+scored a Crippling Blow (###)" line.
+
+*Corpse Looting Exploit*
+
+Recently, an exploit was discovered that allowed certain unsavory 
+individuals to loot the corpses of other players without their consent. 
+The precise symptom of this is that the owner would find their corpse 
+stripped of everything except for no-drop items, and items in a bag 
+with no-drop items. This exploit was fixed in this patch.
+
+If you were affected by this exploit recently, you are entitled to a 
+reimbursement of your lost items assuming that we still have a record 
+of what you had. Please contact a GM in-game to arrange for an 
+investigation.
+
+During the course of the investigation, people who have exploited this 
+bug will be subject to disciplinary action by our GM staff up to and 
+including item wipes, suspension, and/or banishment.
+
+*Rogue Enhancements*
+
+Rogues received several enhancements as part of this patch:
+
+- The chance to score a critical hit with a throwing weapon has been 
+increased significantly.
+
+- When throwing a weapon from behind the NPC in question, a rogue now 
+has a chance to score a "Deadly Strike", for enhanced damage above and 
+beyond that of a critical hit.
+
+- A new rogue-specific ability has been added to the "Hide" skill. It 
+is called "Evade". This skill has the effect of lowering the amount 
+that the targeted NPC hates the rogue, and has the potential of making 
+the engaged NPC switch to another target (preferably a tank) within the 
+rogue's group. It is essentially a "reverse taunt". This ability helps 
+mitigate the negative effects of the rogue's exceedingly high damage-
+output potential. It also will in-turn help the rogue do even more 
+damage as the NPC is much more likely to expose its back. It is engaged 
+by targeting the NPC you wish to "Evade" and pressing the "Hide" 
+button. As a note, you must not be in combat mode in order to use this 
+ability.
+
+*Mistwalker*
+
+The Mistwalker will once again cast its spell as often as it used to 
+prior to the last patch. However, the resulting pet will now 
+automatically "dissipate" after one combat round. The change that 
+reduced the "proc" percentage on the weapon was made due to an 
+unintended interaction between the pet and the target when several 
+users of this weapon were attacking the same target. Since the new pet 
+now automatically dissipates after one round, the reduced "proc" 
+percentage was no longer necessary.
+
+*Class-Specific Armor Quests*
+
+Class-Specific armor quests, especially those belonging to Clerics, 
+Paladins, and Shadowknights, have been reduced in terms of how long it 
+will take the average person to acquire the armor. These classes, and 
+others that found particular pieces of their armor exceedingly 
+difficult to obtain should find it much easier now.
+
+In addition, a bug that hindered completion of the Bracer of Ro quest 
+for some races has been corrected.
+
+*Tallon Zek*
+
+Loot rules for PvP deaths on the PvP-Teams server, Tallon Zek, have 
+been changed from "Coin + 1 item" to "Coin Only". This change was made 
+to study the impact of loot-rules upon server population in reference 
+to the loot/efficiency disparity between caster and melee characters. 
+This change is a test, and may or may not be retained or rolled out 
+across the other PvP servers, pending the results of the server 
+population study over the next few weeks.
+
+*Plane Changes*
+
+Several changes have been implemented in the Planes as part of this 
+patch:
+
+- Characters will now lose all enchantments upon entering the Plane of 
+Sky.
+
+- Due to the fact that the levitate-series no longer works within the 
+Plane of Sky, a teleporter has been placed to allow entrance into the 
+quest room.
+
+- A teleporter has been placed within the Plane of Hate in order to 
+give non-casters a way out of the zone besides death, potion, or group 
+teleport.
+
+*Loot Messages*
+
+Messages indicating what has been looted from a corpse will now be 
+broadcast to everyone within the looters group. This change was made 
+due to public request and to encourage trust within the group. We may, 
+in the future, employ filters to allow people to choose whether or not 
+they wish to receive loot messages.
+
+*Fiery Avenger*
+
+The greatly anticipated defining blade of the Paladin, the "Fiery 
+Avenger", is again available within game via a quest. The *first* 
+devout Paladin to wield this blade and be validated by a GM in-game 
+will be publicly congratulated within a patch message and on the 
+Official EverQuest web-site at www.everquest.com.
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+February 23, 2000
+------------------------------
+
+Today's patch was primarily comprised of server-side changes in 
+preparation for the release of EverQuest: The Ruins of Kunark. Only one 
+gameplay-affecting issue was updated as a result of this patch: 
+
+- Being killed by another player in a duel will now cause you to re-
+spawn with zero mana. 
+
+This change was implemented to counter a strategy used by casters where 
+they would duel to reduce downtime between fights, thus allowing groups 
+to engage creatures that they normally would not be able to. 
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+March 29, 2000
+------------------------------
+
+This morning's update consisted primarily of server-side changes to 
+improve performance of the game engine in general. No items, spawns, 
+spells (with the exceptions below), etc., were changed as a result of 
+this patch.
+
+Area Effect "Fear" spells will no longer work in PvP. This affects a 
+bard song, as well as the Cleric "Wave of Fear" spell. 
+
+Corrected a bug with some of the Resurrection spells that caused them 
+to return too little experience.
+
+We plan on publishing data and item changes next week if all goes well 
+on the Test server. We apologize to those who are inconvenienced by 
+having to wait for the expected changes.
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+April 10, 2000
+------------------------------
+
+***Patch Day***
+
+The following is a list of changes that were implemented on the Live 
+EverQuest servers today:
+
+*Spells*
+- You will now receive a message when attempting to mesmerize a 
+creature that is immune to that type of spell.
+- You can now right-click-and-hold on bard songs to determine what 
+instrument skill is used by the spell.
+- Dyn's Dizzying Draught has had its casting time lowered 
+significantly.
+- Corrected a bug in the Druid root + damage spells (Enveloping roots 
+series) that caused the spell's damage to have a chance of breaking the 
+spell. They work much better now.
+- The Magicians Phantom Armor series now grants HP regeneration.
+- The Druid spell, dance of the fireflies, has been changed from 
+"Outdoor only" to "Night only". It may now be cast in dungeons.
+- Corrected a typographical error that allowed high level magicians to 
+inscribe the Malosi spell. It was not intended for magicians under 
+level 50.
+
+*General Changes/Fixes*
+- Items have gained the ability to be restricted by Deity. If a deity 
+restriction is placed upon an item, it will show when you right-click-
+and-hold on the item.
+- The AC on the mid-level cleric quest armor has been increased.
+- The Terror Mask will now cast "Fear" instead of "Call of Bones" as 
+previously announced. The "Call of Bones" effect was placed on this 
+item by mistake.
+- The Mempo of Likato now grants AC.
+- The Quest for the Short Sword of Morin has been fixed.
+- Some spawn-time problems in Mistmoore have been repaired.
+- Five spawn-time problems were identified in regards to the Armor of 
+Ro (Paladin) quests. They have been fixed and Paladins should have a 
+much easier time of obtaining their armor.
+- Pets should now attack Willowisps on command.
+- Many spell-gems and icons have been changed to reflect the 
+appropriate action of the spell. Be sure to reacquaint yourself with 
+your spell line-up.
+- Fixed a bug that caused targetable bard songs to ignore the 
+instrument in use.
+
+*Kerra Ridge*
+Kerra Ridge has been completely revamped. The target level-range for 
+the zone has been slightly increased. In addition, many new quests have 
+been added to the zone. The faction for Kerrans has been changed so 
+that those who killed them indiscriminately before today's update can 
+take part. Be warned that the Kerrans still do not like everyone.
+
+*Paw*
+Paw has received another minor difficulty adjustment. In addition, item 
+drop percentages have been increased.
+
+*The Plane of Hate*
+The Plane of Hate has received an item-drop/spawn-time revamp. Take 
+care in your exploration of this zone as many things have changed.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+April 17, 2000  4:00 pm
+------------------------------
+
+EverQuest: The Ruins of Kunark (upgrade) should now be arriving on 
+doorsteps around the world. Please note that attempting to create an 
+Iksar character will not work until the expansion zones are officially 
+opened within the next week.
+
+We ask that if you attempt to create an Iksar character out of 
+curiosity that you do not proceed past the "History" page (the page 
+that speaks of your lifestyle) in the character creation process. Once 
+at this page, please use the "Back" button to get back to the character 
+creation screen. Pressing "Next" on this screen will cause the name you 
+have selected to go into the "used name" list, making it unavailable 
+for future use.
+
+We appreciate your cooperation.
+
+- The EverQuest Team
+
+*Today's Patch*
+
+Today's patch consisted of preparations for the launch of Kunark, as 
+well as some new art. The following spell changes were also included:
+
+- Corrected a bug with a new bard song that allowed them to charm 
+anything, such as deities and dragons.
+- Added a lesser included wisdom effect with "Brilliance" as well as a 
+lesser included intelligence effect with "Insight". These spells will 
+no longer stack.
+
+- The EverQuest Team 
+
+
+.....................................................................
+
+
+------------------------------
+April 19, 2000  4:00 pm
+------------------------------
+
+As part of the emergency update completed last night, a change was 
+implemented that increases the amount of damage done by someone 
+wielding a 2 handed weapon. 
+
+This change was made due to a statistical imbalance in the way that 
+damage is calculated at the mid-to-upper levels. A person wielding a 
+one-handed weapon of a given ratio was able to do more damage than when 
+wielding a two-handed weapon of the same ratio. 
+
+We would like to stress that no change has been made to the amount of 
+damage done by people wielding one-handed weapons. The net result of 
+this change is that people choosing to wield two-handed weapons will 
+now do more damage than they did before. 
+
+-The EverQuest Team 
+
+
+.....................................................................
+
+
+------------------------------
+April 21, 2000  7:00 am
+------------------------------
+
+Greetings everyone! 
+
+This morning's update is one of the final updates necessary for the 
+EverQuest: The Ruins of Kunark launch scheduled to take place on 
+Monday. 
+
+As part of this update, a new EverQuest Patch Program was sent to your 
+system. For those who have installed the Ruins of Kunark, this update 
+has added a button labeled "K-Patch" to the patch program control 
+panel. Within these patch messages, Ruins of Kunark players may be 
+asked from time to time to press the "K-Patch" button following the 
+download of the regular patch. This will allow them to download Kunark-
+related updates when they are required. 
+
+If you have not installed EverQuest: The Ruins of Kunark, you will not 
+see a "K-Patch" button. 
+
+In addition to the Kunark-related changes made today, a bug that 
+lowered the maximum damage of two-handed weapons that was introduced 
+earlier this week in the Emergency Update was also corrected. Finally, 
+the art update yesterday implemented a solution that we've been 
+promising: Male barbarians can now see their shields.
+
+We continue to appreciate everyone's patience while we get the servers 
+ready for Kunark. 
+
+Thank you.
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+April 24, 2000  3:00 pm
+------------------------------
+
+Hello All,
+
+Due to the unfortunate problems we have had with our order processing 
+system, it doesn't look like every person that ordered Kunark will 
+receive it in a timely fashion. We sincerely apologize for this 
+unanticipated problem. We expect that roughly 90% of the people who 
+ordered will be receiving their orders by today.
+
+Because of the problems we have had we will be refunding anyone who 
+ordered Ruins of Kunark on or before Wednesday April 19th and does not 
+receive their orders by today for their shipping costs, as well as 
+crediting their accounts for one month of gameplay. This applies to 
+International orders as well.
+
+We'll be taking care of these refunds via email at 
+kunarkrefund@verant.com, and it will be necessary for anyone that wants 
+to take advantage of this refund to send us your Station Name, billing 
+name and address on the account and the date you placed the order. 
+Please also include "Kunark Refund" in the subject line.
+
+We are very sorry for the problems that have come up.
+
+The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+April 27, 2000
+------------------------------
+
+Hello all,
+
+I wasn't able to get this in the patch message this evening, but I'd 
+hope you'd help spread it around. I'm also having new /MOTD's put on 
+the servers to be sure that people get the word.
+
+/movelog registered accounts from Veeshan and Bristlebane will be 
+moving to Saryrn, Xegony and Bertox to The Seventh Hammer.
+
+I'd like to remind everything that corpses will not follow the account, 
+so everyone will want to make sure that there corpses are looted, or 
+they will be lost. I'd also like to note that more people requested the 
+move than we will be able to accommodate, and we appreciate everyone's 
+understanding in this matter.
+
+-Gordon
+
+.....................................................................
+
+
+
+------------------------------
+May 16, 2000  10:00 am
+------------------------------
+
+***Patch Day***
+
+*General Changes*
+
+- Sounds have been updated for NPCs in Kunark. Your Iksar should no 
+longer sound like humans.
+- Dark Elven worshipers of Solusek Ro and Bristlebane will no longer be 
+natively KOS to the outpost in the Overthere. Take care that if you 
+have taken actions allowing you to be judged sufficiently by your 
+deeds, you may still find yourself KOS.
+- Increased the number of frightfingers in the Plane of Fear. 
+Previously only 3 frightfingers would pop per respawn. 
+- Several problems with the guards that were buffed up last week have 
+been addressed. Some guards that should not have been buffed have been 
+fixed. In addition, due to the level of the new guards, they all gained 
+the ability to innately see-invisible. The level of those guards has 
+been reduced so that they no longer automatically get this ability, 
+making it a bit easier to sneak by them.
+- Many quests have been updated and/or fixed, both in terms of ease of 
+completion and reward.
+
+*Item Updates*
+
+- Corrected a typo that had the Canyoneer's Pike marked as NO RENT, 
+causing it to disappear on logout.
+- Corrected the model for the Axe of the Iron Back. It was showing as a 
+2H sword when equipped.
+- The Halcyon Broadsword was mistakenly marked as an artifact. This has 
+been corrected.
+- Corrected item icons for various pieces of Burynai Hide Armor. It was 
+displaying improperly in the inventory slots.
+- The Skull Mask of Innervation has been changed so that it must be 
+worn to activate its effect.
+- Corrected a problem with the Scourgetail Whip whereby the damage and 
+delay figures were transposed yielding a 30 damage, 5 delay weapon. 
+- The "Illusion: Iksar" spell scroll is now droppable/tradeable.
+- The Goblin Eye Poker now looks like a dagger instead of a small sack.
+- The Cone of Mystics, which incidentally also looked like a small 
+sack, now looks as intended.
+- Corrected a typo that had the Goblin Skull Crusher's effect set to 
+the "Lull" spell, which is not appropriate for a melee weapon. The 
+"Lull" effect has been replaced with an appropriate effect.
+- The Pouch of Mistletoe Powder will now impart its effect on the 
+targeted character.
+- Mosquito Wings are available in game once again.
+- Many items had incorrect usage restrictions, and have been repaired.
+
+As always, we strive to avoid making negative changes to items that 
+already exist in game. However, there are cases where a particularly 
+unbalancing error has been made, such as with the Scourgetail Whip 
+mentioned above, where the item in question must be fixed in interest 
+of maintaining game balance. 
+
+We will continue to repair problems, add content, and enhance gameplay 
+in both Kunark and EQ proper. We appreciate everyone's support.
+
+Thank you,
+
+The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+May 25, 2000  8:00 am
+------------------------------
+
+*Patch Day*
+
+Greetings all! The following changes have been implemented on the Live 
+servers:
+
+*Spells/Songs*
+
+- Voltaic Draught, a high level wizard direct damage spell was 
+improperly saving versus resistance to cold. It now appropriately saves 
+versus magic.
+- The higher level bard song by Brusco was improperly healing the 
+target instead of damaging it. This has been corrected.
+
+*Items*
+
+The Shadowknight class-specific quest armor, Darkforge armor, has had 
+its weight decreased substantially.
+
+The Runed Fighter's Staff, previously useable by Monks and Warriors, 
+has been restricted to Monks only. The statistics on this staff are 
+much more powerful than normally allowed for warriors. This change is 
+retroactive and will be reflected on items currently in inventory. 
+Though we strive to avoid negatively adjusting items after they have 
+been earned, this item presented a balance issue, making the change 
+necessary. We apologize to warriors that currently own this weapon.
+
+A data error with the Symphonic Saber, causing it to report "Item out 
+of charges", has been corrected. Due to the dynamics of this particular 
+issue, current owners will need to contact a GM to trade this item out 
+for a new, properly working version of the item.
+
+The Burning Rapier (rogue weapon) has been enhanced. In addition to an 
+increase in statistics, it received a stronger spell effect. The 
+lightsource effect on the weapon has been removed due to an aesthetic 
+rogue desire to be "sneaky" :)
+
+The effect on the Hangman's Noose will now work properly.
+
+*General Changes*
+
+- Some NPCs in Dalnir were casting spells much too powerful for their 
+level. They have been adjusted.
+- Pathing information has been updated in Highkeep. NPCs and pets 
+should have a much easier time of navigating the zone.
+- Some Quest-NPCs were not spawning properly in Rathe Mountains. These 
+issues have been corrected.
+- A handful of problems reported with research practice via the 
+Concordance of Research have been corrected. All practice-rune recipes 
+should now work correctly.
+- Gorilla's in Burning Wood now have a new texture set that properly 
+reflects their undead status.
+- Fishing should now work properly in Kunark zones.
+- /yell now reports the proper direction to people hearing the yell.
+- Corrected a bug that gave some races the impression that they were 
+allowed to start their character in Cabalis. They were never actually 
+allowed to create the character there, however the indication that they 
+could has been fixed.
+- Corrected sound issues that were causing some crashes to the desktop 
+in certain cases.
+
+We are in the process of patching music files (*.XMI) for zones in 
+which music does not currently work. There are 55 small files (around 
+2K each) that will be patched over the next couple of days to enable 
+music in all of the affected zones. 
+
+The zone of Timorous Deep has been tuned and itemized. Certain aspects 
+of the changes have made certain areas of the zone more dangerous, but 
+the reward should be well worth the risk. Feel free to visit this zone 
+and search out its treasures at your leisure. Note: These changes went 
+in on Monday.
+
+Upon investigation, we discovered a deficiency with the amount of 
+experience being rewarded in many Kunark zones (mostly dungeons). The 
+affected zones have been updated, and adventurers should notice the 
+greater experience reward in return for the increased risk and 
+challenge associated with these zones.
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+June 6, 2000  8:00 am
+------------------------------
+
+*Patch Day*
+
+Greetings! The live servers have been updated to reflect the newest 
+data on the Test Server:
+
+*General*
+
+- Some new spells are available for the hybrid classes. Check your 
+Kunark spell vendors.
+- Found and corrected a problem causing people to fall to their deaths 
+upon zoning. The majority of these issues should no longer occur.
+- Corrected outstanding issues with several quests, including the Brain 
+Bite, Shackle of Rock, and the Barnal Flamehands quest.
+- Increased treasure in many Kunark zones including The Emerald Jungle, 
+Sebilis, and the Frontier Mountains.
+- Upon review we've increased the drop-rate of level 51+ spells in 
+Kunark. They should be more plentiful now. 
+- Updated pathing information in many zones, making it easier for pets 
+and other NPCs to get around the zones.
+
+*Items*
+
+- A problem with the spell effect for the Luminary Two-Handed Sword. 
+Current owners of this weapon will need to contact a GM to trade their 
+sword out for a working one.
+- The Gunthak Harpoon is now rentable. It will remain in your 
+possession when you leave the game.
+- A couple pieces of Blood Ember armor have been reduced in weight.
+- Reduced the weight on several Monk weapons found in Kunark.
+
+*PvP Teams Servers (VZ/TZ) and Illusions*
+
+Due to an outstanding bug that allowed a player to permanently 
+mesmerize or stun opposing team members when coupled with an illusion, 
+illusions will now automatically cancel when the person wearing the 
+illusion casts an offensive spell upon any player-character. Players 
+should keep this in mind before attacking with spells in an area where 
+their faction standing is less than desirable. 
+
+Illusions are defined as any spell that makes a character look 
+different than they actually are. This includes all racial illusions, 
+as well as other illusions such as Treeform, Wolfform, and the Call of 
+Bones series. 
+
+*Risk and Reward*
+
+The concept of risk and reward is very important to the game of 
+EverQuest. Ideally, situations that provide a greater reward should 
+also provide substantial risk. Over the past several weeks, we've been 
+identifying areas in game where risk and reward are at a disparity, and 
+making necessary adjustments. 
+
+In most cases, those adjustments are in favor of increasing the reward 
+for a specific action. For example, we recently increased the 
+experience awarded in many Kunark zones to offset the sometimes-
+considerable risk associated with adventuring there. We also do this 
+quite frequently by increasing the reward associated with a quest by 
+enhancing the item, as we did last week with the Burning Rapier quest. 
+
+However, in some cases there are instances where reward is far in 
+excess of the risk involved, and we will be correcting these issues 
+like those above as we come across them. For example, there are many 
+cases where a solitary and stationary outdoor creature has a "fast 
+spawn", yielding the reward of fast experience-gain without the 
+commensurate risk. 
+
+Though it is not our policy to announce changes to individual NPCs, we 
+did want to let you know that you will see risk/reward disparities 
+corrected over the next several weeks.
+
+*PvP Teams (VZ/TZ) Character Transfers*
+
+As many people playing upon the PvP-Teams servers are aware, Vallon Zek 
+and Tallon Zek have different rules regarding looting rights from PvP 
+combat. Vallon Zek allows the victor to loot all coin plus one item 
+from the fallen, whereas Tallon Zek allows only coin-loot with no right to loot items.
+
+Due to the fact that the looting rules were changed on Tallon Zek post-
+production, we've decided to allow characters on both servers a one-
+time character-move. Registration for the move will open at 6:00pm PDT 
+on Friday, June 9th, 2000, on both servers, and will be open through 
+12:00pm PDT on Monday, June 12th, 2000. You can register for the move 
+by executing the "/movelog yes" command during the registration window. 
+There is no limit to the number of people that we will allow to move 
+between Tallon and Vallon Zek, so there is no reason to rush to enter 
+the command.
+
+Please remember that once you register for the move, your decision can 
+not be rescinded. The actual character-move will take place sometime 
+next week, at a time to be announced later. Please keep in mind that 
+corpses are not moved in a character-move, so we'd recommend against 
+leaving unclaimed corpses around after Monday of next week if you've 
+asked to be moved. 
+
+Questions about the move process will be addressed in the Gameplay 
+Message Forum available via www.everquest.com.
+
+
+- The EverQuest Team
+
+Updates Not Included in This Patch Message:
+
+* Banshee Aura has had its duration increased.
+* Scale of Wolf and Spirit of Scale will no longer be canceled by being 
+the target of a melee attack. Ranged attacks and spells will still 
+cancel the spell.
+* Shaman can now cast Charm Animal
+* Some enchanter and shaman spells have had their casting times/mana 
+costs altered.
+* Augment, Glamour of Kintaz, Rapture, and Clarity II have had their 
+mana cost lowered.
+* Root spells that cause damage (Druid roots, Hungry Earth) now work 
+properly.
+
+.....................................................................
+
+
+------------------------------
+June 15, 2000  8:00 am
+------------------------------
+
+*Patch Day*
+
+Hello everyone,
+
+Over the past few weeks, a portion of the EQ team has been working on
+The Hole, in preparation of its release in the near future. Even so, a
+number of changes and additions were made in today's patch. Most of the
+changes are in regards to quests:
+
+- The "Fleshy Orb" quest has been completed
+- We've received word that "Fabian" has been spotted somewhere on
+Norrath.
+- Froglok Foragers and Hunters should been seen more regularly.
+- Lord Grimrot should be seen more frequently.
+- Skill in tailoring is no longer required to craft The Robe of the 
+Lost Circle.
+
+A few items have also been changed this week:
+
+- The Robe of the Lost Circle has been enhanced.
+- The Staff of Temperate Flux and the Rod of Insidious Glamour now have
+a short casting time associated with their activatable effect (See
+Below).
+- The Gunthak Harpoon is again NORENT, meaning that it will disappear
+when you log off (See Below.)
+
+
+*Casting Times on Staff and Rod*
+
+We received word a few weeks ago that some people were using these 
+items to "spam" other players with their spell-effect messages, causing 
+them to disconnect. Though /ignore will allow you to filter out text
+messages caused by people on your /ignore list, it will not allow you 
+to filter out spell-effect messages for spells cast upon you.
+
+The short casting time should prevent the problems associated with the
+targetable and activatable effect on these weapons, however you will
+have to stand still to use them now.
+
+*Gunthak Harpoon*
+
+In the last item patch, we made the mistake of making this weapon
+"rentable", meaning that it does not disappear upon logoff. Basically,
+one of our game designers heard that the weapon was NORENT, concluded
+that it must be a bug, and took the initiative to fix it.
+Unfortunately, the stats on this weapon, despite its disadvantages of
+weight and its non-magical composition, make it much too powerful for
+its location and difficulty in obtaining it.
+
+For these reasons, the weapon is once again NORENT, and will disappear
+the next time that you log out. This is a retroactive change and will
+affect weapons already in possession. We do apologize to those who
+acquired it within the last week expecting that it would be a permanent
+weapon.
+
+*Chat / Login Process*
+
+The Chat and Login server components are now completely separate,
+meaning that players will no longer have difficulty logging in due to 
+an excess of people in the chat server.
+
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+June 22, 2000  9:00 am
+------------------------------
+
+***Today's Updates***
+
+*The Hole*
+
+We are pleased to announce the opening of The Hole, a high-level 
+dungeon on the continent of Odus. The Hole is a complementary addition 
+to EverQuest, available to all subscribers regardless of their Kunark 
+status. The files necessary to enter The Hole are available via the 
+"Optional Patch" button at the bottom of the patch program interface. 
+The files are quite large (about 9MB total), so if the download is 
+going slowly, you may want to postpone downloading the files until 
+later.
+
+As mentioned above, The Hole is a high-level dungeon, designed to 
+support characters starting at about level 40. It should be regarded as 
+extremely dangerous. As a note, jumping in The Hole from Paineel is NO 
+LONGER A SHORTCUT TO TOXXULIA FOREST. The GMs will not recover corpses 
+for people who fall, or jump, or attempt to levitate into The Hole. 
+
+*Vallon Zek is now Coin-Only*
+
+As we announced earlier this week, due to the number of people 
+specifying interest in "coin-only" loot on Vallon Zek, versus those 
+wishing to retain item- loot, we have implemented "coin-only" looting 
+rules for PvP combat on Vallon Zek.
+
+*Resurrection*
+
+Previously, players had to be resurrected within two hours after death 
+in order to receive any experience back as part of the resurrection. 
+Due to the increased size and difficulty associated with Kunark zones, 
+we've raised this limit from two hours to three. This should assist 
+players and make it easier for them to obtain an experience-returning 
+resurrection within the time limit.
+
+*Warping*
+
+We put in some code that should help decrease the "ghosting" (NPCs 
+appearing to be some place they aren't) being reported in some of the 
+larger Kunark zones. Please let us know how this goes.
+
+*Locked Doors*
+
+We noticed few weeks ago that it is common practice to use NPCs to open 
+locked doors rather than by using the services of someone that is able 
+to pick locks. In order to protect and increase the value of the 
+abilities of the lock-picking classes, NPCs have gained the ability to 
+walk through locked doors without opening them. 
+
+*Vox and Nagafen*
+
+Over the past couple of weeks, we've received more and more reports of 
+these dragons being bested by smaller and smaller groups of higher-
+level (high 50s) adventurers. As we've always felt that Dragons should 
+be special encounters that require a large number of people, we were 
+left with some choices.
+
+One choice available to us was to increase the power of the dragons to 
+a level where the level 60 folks would find them challenging. This 
+would have the disadvantage of forever placing them out-of-reach for 
+those who did not buy Kunark, and place them further out-of-reach for 
+those who did, but are just now approaching the levels where they could 
+go on Dragon raids. Another possible solution was to make the dragons 
+flee (depop) when engaged by a more powerful group of people. This 
+would have the undesired effect of allowing some people to deny others 
+the experience of fighting a dragon.
+
+Instead of raising the bar as mentioned above, we've instead decided 
+that dragons, or at least these two dragons, should have the magical 
+ability to pick their own fights. Players of level 53 or above will now 
+encounter some difficulty when attempting to assist in combat with 
+these dragons. This should help 40s and low 50-level characters with 
+their chances to encounter a dragon without worry of getting forced out 
+by much higher level players. In addition, it also has the added effect 
+of creating a natural progression from the younger dragons of Antonica 
+to the elder and more formidable dragons of Kunark.
+
+
+-The EverQuest Team 
+
+.....................................................................
+
+
+------------------------------
+June 29, 2000  7:00 am
+------------------------------
+
+***Patch Day***
+
+Though today's patch is primarily comprised of fixes to various bugs 
+that have been reported by the players, we're also pleased to announce 
+a few enhancements:
+
+- Ranger spell "Jolt" now has a lesser casting time.
+- Many new recipes for the "Make Poison" skill are now in game. 
+Features include: Several new poison books, stackable components, new 
+suspensions, some purchasable components, and players now have the 
+ability to purchase vials. Please check your vendors.
+- Increased spell-drop percentages in three difficult Kunark zones 
+where drops were less than should be expected.
+- Corrected an error in the drop rate for a couple cleric spells making 
+them unavailable. 
+
+*Quest Fixes*
+
+- Fixed the "Minotaur Horns" Quest
+- Fixed a misspelling in the guild-note for Erudite clerics worshipping 
+Cazic-Thule.
+- Fixed a misspelled keyword in the Trueshot Longbow Quest.
+- The guild note for gnome clerics now states the appropriate gender 
+for the guildmaster.
+- Fixed the "illegible cantrip" Quest.
+- Fixed the "Hunt for Meat" Quest.
+- Removed Jinkus Felligan's doppelganger from Halas.
+- Fixed the "Travis Twostring" quest.
+- Fixed the "Algthin Dasmore" quest.
+- Fixed the "Gather Components" quest.
+- Fixed the "Lion Meat" quest.
+- The Fleshy Orb quest and "Fabian" should really be fixed now. These 
+were not correct after the last patch due to a data export issue.
+
+*Item Fixes*
+
+- Fixed spelling of "Basilisk Egg"
+- The Brass Ring is now worn on the finger, instead of the waist.
+- Fixed the "Broken Minotaur Lord's Horn"
+- Fixed race/class restrictions listed for the "Bullsmasher". Item 
+listed some inappropriate classes.
+- Fixed race/class restrictions listed for "Patchwork Armor". Items 
+listed some inappropriate classes.
+- Fixed the model for the "Cast Iron Rapier".
+- Fixed Race/class restrictions for the "Crushbone Belt". Item listed 
+some inappropriate classes.
+- Fixed the mundane "Electrum Peridot Bracelet" so that it would equip 
+in the proper slot.
+- The "Bloody Mantle" may now be equipped.
+- Fixed the effect on the "Canyoneer Pike". Current owners of this item 
+will need to trade it out with a GM in game.
+- Fixed the "Howling Harpoon". Item was previously casting its spell 
+upon the wielder, rather than the target. The fix will be automatically 
+applied to existing items.
+- Fixed the icon for the Degenerated Guk Weed.
+- Fixed the icon for the Enshrouded Veil.
+- The Splitpaw Hide Tunic will now look like "Leather" when equipped.
+- "The Crusade of 1312AG" and "The Forbidden Tome" will now remain with 
+the character after logout.
+- Fixed race/class restrictions listed for the "Mortificator Staff". 
+Item listed an inappropriate class.
+- Fixed the icon for the Spectral Bow. In addition, removed "BRD" from 
+the class listing since Bards do not have the Archery Skill.
+- Removed excess classes listed on the "Silk Lined Steel Helm".
+- Fixed the effect on the "Theurgist Mace". Current owners of this item 
+will need to trade it out with a GM in game.
+
+*Miscellaneous*
+
+- Fixed bug that caused NPCs to say "cant open politethnks.txt"
+- Fixed bug that caused NPCs to say "Can not open file NERDRGATT.txt"
+- Fixed "cannot open file guards.txt" bug with Butcherblock dwarves
+- Fixed "Cannot open item2monster.txt" problem with goblin whelps in 
+Butcherblock.
+- Lizardman Mystics no longer think that the Feerrott belongs to the 
+Sabretooth Gnolls.
+- Fixed a ghost in Field of Bone who was inappropriately labeled as 
+living, causing "undead only" spells to fail.
+- Improved pathing in Sebilis.
+- Improved pathing in West Freeport.
+- Fixed the color of several spell-gems.
+- Fixed recipe for a "Block of Clay" in the Basic Pottery book.
+- Stone Skeletons in Lake Rathe can now be affected by "undead only" 
+spells.
+- Fixed several merchants who did not have wares to sell.
+- Fixed several dozen spelling and grammar errors in NPC text and the 
+spell database.
+- "Folded Sheet Metal" may now be crafted via blacksmithing.
+- The "Unfired Urn", "Onyx Encrusted Urn", and "Small Bowl" may now be 
+crafted via Pottery.
+
+- The EverQuest Team
+
+.....................................................................

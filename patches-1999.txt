@@ -1,0 +1,480 @@
+.....................................................................
+
+------------------------------
+April 6, 1999  News Bit from John Smedley
+------------------------------
+
+Music works on all sound cards. If you still aren't getting music, 
+double check to make sure that music is turned on in-game. In addition, 
+you may not have correct drivers, and/or you may not have it set 
+properly. In any case, either call our tech support or go to the tech 
+support area in chat. Please be advised that music DOES have a 
+performance impact on the game, although it is a small one.
+
+Frame Rate Speedup - Our resident graphics genius sped up the game a 
+fair amount. Those of you in areas like Greater Faydark should see some 
+real improvements.
+
+Corpse Bug - We've been tracking a nasty little bug that would make 
+corpses disappear. I'm sure many of you know firsthand about this one. 
+We finally nailed it and it should be safe to die again ;)
+
+There's a whole bunch of other stuff that has been fixed as well and is 
+listed in the patch message.
+
+Just as an FYI we did find a server-side bug that's been fixed and we 
+will probably have to down the servers one at a time to update since 
+this bug is one that really needs to be fixed.
+
+One final Item: Yes, glide on banshee's is coming back. It should be in 
+later this week.
+
+- John Smedley, President and CEO: Verant Interactive, Inc.
+
+.....................................................................
+
+
+------------------------------
+April 29, 1999  News Bit from John Smedley
+------------------------------
+
+Here's a summary of what was done in the last 2 days
+
+1) We did a major hardware upgrade to our primary router here in San 
+Diego.
+2) We worked with CERFnet to do a router upgrade to their facility here 
+in San Diego.
+3) We moved Karana over to CERFnet
+4) We brought up Rodcet Nife
+
+I think you will find now that the packet loss should be basically 
+gone... at least on our end. We were definetely causing some of the 
+loss before (only when we hit major numbers) but now things are very, 
+very clean running and that is with 23,582 people on just as I write 
+this (a new record).
+
+Does this mean that EVERYONE'S Packet Loss is gone? Absolutely not. 
+BUT, I did some surveys in most of the worlds and about 750f the people 
+told me their Packet Loss was great. If you are having problems now, do 
+a traceroute to chat.everquest.com and send it to the email address 
+traceroute@verant.com and we will take a look. We take our customers 
+connections very seriously, and if a whole lot of people on one network 
+are having a problem we will do our best to look into it. It doesn't 
+mean we can always get the reaction we want (some networks are just 
+plain bad) but many times we can help find a legitimate problem and 
+help correct it.
+
+.....................................................................
+
+------------------------------
+September 13, 1999
+------------------------------
+
+Bug Fixes:
+- Players levitating should be easier for other PCs to see.
+- When charmed/feared and killed players should not be returned to the 
+character selection screen.
+- Lore items in containers that are dropped should not be destroyed.
+- Charged items, such as the Staff of the Observers, should correctly 
+report the number of charges remaining after zoning.
+- Corpses should remain lootable even if a player goes linkdead while 
+looting
+- A player under the effect of charm or fear can no longer open their 
+spellbook or sit in order to escape the effects of these spells.
+- A player using online help should no longer be locked into the help 
+screen if another party initiates a trade.
+- Non-melee items equipped in weapon slots should no longer mutate if 
+the pc is charmed.
+- Extremely large NPCs, ie Vox, should not suicide when stuck.
+
+New emotes:
+- Here is a list of new emotes that have been added to the game: agree, 
+amaze, apologize, applaud, plead, bite, bleed, blink, blush, boggle, 
+bonk, bored, brb, burp, bye, cackle, calm, clap, comfort, congratulate, 
+cough, cringe, curious, dance, drool, duck, eye, gasp, giggle, glare, 
+grin, groan, grovel, happy, hungry, introduce, jk (just kidding), 
+kneel, lost, massage, moan, mourn, peer, point, ponder, puzzle, raise, 
+ready, roar, salute, shiver, shrug, sigh, smirk, snarl, snicker, stare, 
+tap, tease, thank, thirsty, veto, welcome, whine, whistle, yawn.
+
+PVP Changes:
+- In order to make PVP combat between spellcasters and melee types more 
+viable some changes to PVP spell effects have been made. All damage 
+spells cast in PVP combat will do less damage to the PC than the same 
+spell would do to an NPC. When a PC is under the effect of a root-type 
+spell there is a 20% chance that they will break free when a direct 
+damage spell is cast upon them.
+
+Spell Changes:
+- Levitate: All players may now cancel this effect.
+- Paralyzing Earth now Wizard and Necromancer useable.
+- The Mana cost on some Magician damage shields has been slightly 
+reduced.
+- Alter Plane: Hate and Alter Plane: Sky have been changed into higher 
+level spells.
+- Succor: Ro (Druid) is now a level 39 spell (previously a typo as a 
+level 49 spell.
+- Curse of the Simple Mind (Enchanter) now lowers both Int AND Wis.
+- Selo`s Consonant Chain (Bard) should now work better.
+- Shadow Vortex (Necro) is more effective.
+- Screaming Terror is now an all or nothing save. This should stop the 
+'train' problems that it was causing.
+- Gravity Flux will now research correctly for Wizards.
+- Lich and Bond of Death are now researchable for Necromancers check 
+your tomes.
+- The different types of Words of Collection and Words of Acquisition 
+are now more easily identifiable.
+- Dead Man Walking (Necromancer) has been renamed Dead Man Floating.
+- Ignite Bones (Necromancer) has had the movement component removed.  
+This means that it will no longer break root and snare spells, and that 
+it will now stack with the darkness line.
+- Syvelian`s Anti-Magic Aria (Bard) has been fixed.
+- A bug in some of the AoE code has been fixed.  AoE spells will now 
+effect more monsters.
+- Some Magician Summoned items are now lore items.  Items that have 
+turned lore have had other small benefits added to them.
+- Dance of the Fireflies (Druid) has been changed from Divination to 
+Conjuration.
+- Rangers have gained the spell Dance of the Fireflies (level 15)
+- High Level Enchanter Illusion spells have had the remainder of their 
+effects implemented.
+- Magi research components have been added to more monsters throughout 
+the world.
+- There is a new pet command: /pet taunt and /pet notaunt. Pets default 
+to /pet taunt
+- The Rods for the Ice Comet quests will now pop much more often.
+- Envenomed Breath (Shaman) has had its damage raised slightly.
+- Scourge (Necromancer and Shaman) has had its damage raised slightly.
+- Enchantment of Light and Enchantment of Brilliance (Enchanter) have 
+been replaced by new enchantment spells.  These spells have been added 
+to a hidden vendor somewhere in the game.
+- New quests for Necromancers to research their pets have been added.
+
+Pets:
+- High level pets (44th and 49th lvl spells) do less damage
+- Pets will now navigate some outdoor and dungeon areas better
+
+DoT Changes:
+- If the monster is in melee with you, there is no change to how a DoT 
+spell works.
+- If the monster is running away from you (fear, wounded, etc.), there 
+is no change to how a DoT spell works.
+- If the monster is moving when the damage from the DoT is applied 
+(happens every few seconds), it will take 66% of the damage that it 
+would have taken.
+- DoT spells have all had their duration slightly increased.  If the 
+monster moves for 18 seconds during a fight, it will take as much 
+damage from the DoT as it would before the patch.  If the monster moves 
+for less then 18 seconds during a fight, your DoT will do more damage 
+then it would have done before the patch.  If the monster moves more 
+then 18 seconds during the fight, it will take less damage then it 
+would have before the patch.
+
+.....................................................................
+
+------------------------------
+September 22, 1999
+------------------------------
+
+Magic:
+- Illusion: Werewolf (enchanter) now stacks with other attack speed 
+spells.
+- Casting times on the higher level Ward series (Cleric, Magician, 
+Necromancer & Druid) have been slightly lowered.
+- The Lich (Necromancer) spell will now provide more mana.
+- Surge of Enfeeblement (Necromancer) should now work consistently.
+- Enchanter Wolf Illusion is now Outdoors only.
+- Paralyzing Earth can now be scribed by Necromancers.
+- Thicken and Crystallize Mana now produce their proper potions.
+- All research quest combinations should now work.
+- Eyes of the Cat now provides infravision as the description states.
+
+General:
+- Summoned food and water will now disappear when the user logs out.
+- If the player is under the effect of Minor Illusion, and exits the 
+game, upon reentry to the game, the Minor Illusion icon will remain.
+- Summoned items will no longer remain indefinitely when placed within 
+a bag in the bank.
+
+
+.....................................................................
+
+
+------------------------------
+September 28, 1999
+------------------------------
+
+The following changes have been implemented with the latest patch, most 
+importantly, changes to corpse resurrection.  It should be noted that 
+all corpses generated previous to this patch may not be resurrected, 
+however, all corpses generated from this point forward may be 
+resurrected with the changes listed below applying.
+
+- Corpses that are older than 2 hours cannot be resurrected.
+- Corpses that are produced from a duel cannot be resurrected after 10 
+minutes.
+
+General Enhancements
+- A Yes/No request window is now brought up when ever turning in the PK 
+note to the Priest of Discord.
+- It is now possible to manually reorganize icons within the spell 
+book.  This may be performed by right-clicking on the currently placed 
+icon (the icon will then be highlighted), then right-clicking on the 
+desired slot you wish to move it.
+- Pet damage inflicted during PvP combat has been slightly reduced.
+- It is now possible to place items marked as "No Drop" in the bank.
+- NPC corpses will only remain for 8 minutes, even while looting.
+- If a party member goes link-dead, the remaining members will be 
+notified.
+- Pets with less than 20 hit points cannot receive hit point buffs.
+- When viewing an invisible PC with See Invisible, the name will be 
+shown in parentheses over the character.
+- All beneficial speed spells may be canceled left-clicking on the 
+spell icon.
+- We have also made revisions to the /text command section of the 
+EverQuest manual.
+
+Fennin Ro Specific Enhancements
+- Experience and looting rights is now awarded based on group aggregate 
+damage (i.e. If a group's combined damage if greater than an individual 
+player, the group members will be given the exp. and looting rights).  
+We will be gathering the results of this data throughout the day, and 
+if need be, incorporate this change on other "live" servers.
+
+.....................................................................
+
+------------------------------
+October 13, 1999
+------------------------------
+
+Optional Patch
+
+- A new zone, The Temple of Solusek Ro, is now available via the 
+optional patch.
+
+General Enhancements
+- Experience and looting rights are now awarded for group aggregate 
+damage.  This is now true for ALL servers.  We still consider this 
+change in 'TEST' and will conduct a poll as to whether it positively 
+addresses the kill stealing situation in approximately 2 weeks.
+- As mentioned on Saturday, Rubicite armor will no longer spawn.  The 
+new class specific quests to obtain the new armor are now in for each 
+class that could wear Rubicite.
+- Journeyman's Boots will no longer spawn where they did but rather are 
+the products of a quest.
+- To address trade fraud (players removing items/money immediately 
+prior to trading to deceive the other player), items/money may only be 
+removed by clicking on the "Cancel" button.
+- When receiving a text message from either an NPC or PC speaking in a 
+language other than "Common Tongue", if the user's language skill is 
+high enough, the language being spoken will be noted preceding the 
+text.
+- The fishing pole will now appear in the player's hand whenever the 
+fishing skill is used.
+- A number of quests were both added and enhanced throughout the zones.
+
+Trade Skills
+- A number of new items have been added to Blacksmithing.
+
+Spell Enhancements
+- Some of the Items that Magicians summon with their spells have been 
+made better or had their effects increased.
+- Fufil's Curtailing Chant, Tuyen's Chant of Flame and Tuyen's Chant of 
+Frost have all had their effects slightly increased.
+- The Burnout Series has had the negative HP component reduced 
+(improvement) and the stat buff increased (improvement).  Because of 
+this, the spells are no longer permanent. They now have a 15 minute 
+duration.  Burnout III has also had its casting cost reduced.
+- Illusion: Werewolf attack speed component now works as intended.
+- Insipid Weakness will research as intended.
+
+.....................................................................
+
+------------------------------
+November 1, 1999
+------------------------------
+
+[Kunark News Release]
+
+EVERQUEST POSITIONED TO AGAIN CONQUER ONLINE WORLD WITH EVERQUEST: THE 
+RUINS OF KUNARK EXPANSION PACK 
+- Expansion Pack Features All-New Continent, More Than 20 New Adventure 
+Zones and an Enhanced 3D Engine -
+FOSTER CITY, Calif., November 1, 1999 -
+
+989 Studios, a Sony Computer Entertainment Group Company, announced 
+today that its highly anticipated EverQuest®: The Ruins of Kunark™ 
+expansion pack, which is an add-on to the most successful online role 
+playing game ever released - EverQuest -will be available in March 
+2000. The expansion pack will provide the more than 225,000 current 
+EverQuest gamers with an all-new continent, more than 20 new adventure 
+zones, numerous characters, an additional playable race and an enhanced 
+3D engine.
+
+"EverQuest has a wildly devoted fan base who are constantly craving new 
+challenges and experiences in the massive world of EverQuest," said 
+Jeffrey Fox, vice president, marketing, 989 Studios. "EverQuest: The 
+Ruins of Kunark continues the legacy of EverQuest and takes it many 
+steps further with a more detailed world that offers 40 percent more 
+gameplay and breathtaking graphics." 
+
+EverQuest: The Ruins of Kunark takes players on a mystical quest to the 
+continent of Kunark, home of the Iksar race. On the continent, players 
+face all-new challenges and rewards in their quest for dominance and 
+survival. EverQuest fans can get more information and an early look at 
+EverQuest: The Ruins of Kunark by visiting the exclusive expansion pack 
+web site at www.everquest.com/kunark.
+
+Existing EverQuest players will be able to purchase the expansion pack 
+directly online; pricing information is currently under discussion. New 
+players will be able to purchase a retail version, which will include 
+all aspects of the original EverQuest, along with the increased 
+features included in the expansion pack EverQuest: The Ruins of Kunark. 
+
+989 Studios - EverQuest: The Ruins of Kunark
+
+EverQuest: The Ruins of Kunark Key Features
+
+New continent "Kunark," located south of Faydwer
+More than 20 new adventure zones featuring both beginner and advanced 
+zones including: lakes, jungles, crypts, caves, dungeons, ancient 
+towers and underground castles
+New playable race, the Iksar (Lizardman) 
+A new cast of visually stunning non-player characters; grey dragons, 
+reptilian monsters, giant scorpions, man-eating plants and more
+More object animations featured throughout Kunark that include 
+earthquakes and other violent natural phenomena 
+A highly detailed world with three times the amount of polygons and 
+larger textures than the EverQuest world 
+All-new ships that will sail from both Antonica and Faydwer to Kunark
+Newly created art by famous fantasy artist Keith Parkinson
+Increased level difficulty range allows players to advance further in 
+the game. 
+
+The most successful online role-playing game ever released, EverQuest 
+features a multitude of adventures and quests with an interactive 
+storyline that evolves according to a player's individual decisions. 
+Players can choose to begin the game in any of the three continents, 
+with more than 90 adventure zones and 13 cities. Each of these 
+continents feature: diverse species, economic systems, alliances and 
+politics. Throughout this adventure, players form groups, strategic 
+alliances and gather magical artifacts in their perilous and exciting 
+quest to conquer the world of Norrath. 
+
+The Station@sony.com is the official provider of EverQuest, with 
+software updates and news about the game, message boards and other 
+community features, as well as an easy-to-use billing system for 
+EverQuest's monthly subscription fee of $9.89. 
+
+Verant Interactive is an independent development studio that develops 
+cutting-edge online games. Based in San Diego, California, Verant 
+Interactive has a staff of over 70 employees who consist of the 
+development teams responsible for the online games Tanarus and 
+EverQuest. 
+
+989 Studios, a Sony Computer Entertainment Group Company, is a wholly-
+owned division of Sony Computer Entertainment America Inc. and is the 
+third-largest PlayStation® software publisher in North America. 
+Headquartered in Foster City, California, with additional development 
+studios in San Diego and Santa Monica, 989 Studios develops software 
+for the PlayStation game console and online markets. 989 Studios is a 
+recognized leader in the entertainment software industry, with top 
+franchise titles such as NFL GameDay™, Twisted Metal®, Jet Moto®, Cool 
+Boarders® and EverQuest™.
+
+
+.....................................................................
+
+
+------------------------------
+December 1, 1999  7:00am
+------------------------------
+
+The following changes and enhancements have been introduced with the 
+latest patch: 
+
+*Monk Enhancements*
+-The Feign Death changes which were mentioned on November 16th are now 
+live.
+
+*Spell Enhancements*
+-Tishan (Enchanter) and Malise (Magician/Shaman) spells now stack.
+-The Pet bug (where if you have a pet, certain monsters can attack its 
+owner anywhere in the zone) has been fixed.
+-Alenia`s Disenchanting Melody (Bard) should now work.
+-Screaming Terror (Necromancer) has changed. It is no longer a "Run 
+Away" Fear spell - instead the targeted creature will cower in terror 
+until it takes damage (similar to the Enchanter's Mesmerize spell). 
+-The Environment limit (Dungeons only) has been removed.
+-Pact of Shadow (Necromancer) now has a 12 second recast time
+-Summon Waterstone (Magician) has been added to the game.
+
+- The EverQuest Team
+********************************************* 
+
+
+.....................................................................
+
+
+------------------------------
+December 8, 1999  7:00am
+------------------------------
+
+The following general enhancements have been introduced with this 
+patch.
+
+- /Pet No Taunt and /pet taunt now works
+- Bard Levitation is now working as intended.
+- A number of spears are now available to the Shaman class.
+- Dazzle and Entrance (enchanter) have had their casting times reduced.
+- A number of NPC guards have received an increase in stats.
+- Screaming Terror is now functioning as intended.
+
+*Zone Specific Enhancements*
+
+As previously mentioned, Paw becoming a mid-level dungeon is imminent. 
+So heed our earlier warning!
+
+Both Fear and Hate planes have been enhanced, in terms of how often 
+loot is dropped by NPCs.
+
+*Race Enhancements*
+
+Barbarians, Ogres and Trolls may now slam magic mobs when equipped with 
+magic shoulders.
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+December 14, 1999
+------------------------------
+
+- A revision was made to a bug with Dragons, which was introduced with 
+the patch last week.
+- The new Necromancer spell, Summon Corpse, is now live and functioning 
+as intended.
+
+
+.....................................................................
+
+
+------------------------------
+December 21, 1999
+------------------------------
+
+After a week of thorough testing, the Summon Corpse spell is now 
+functioning properly (we promise!), and available on all servers.
+
+- In addition, it is now possible to cast Cancel Magic on non-grouped 
+players on the PvP and PvP-teams servers.
+- All changes were made on the server-side, therefore no patch is 
+required.
+
+From everyone on the EverQuest team, and Verant Interactive, we would 
+like to wish all of you safe and happy holidays.
+
+.....................................................................

@@ -1,0 +1,1073 @@
+.....................................................................
+
+
+------------------------------
+January 22, 2004
+------------------------------
+
+We have made a few changes to remove some exploits in our continuing effort to remove any loopholes in EverQuest. 
+In this update we have removed the charm exploit in Plane of Tactics by changing the way that charm works. This 
+change should not affect those who use charm in the manner for which it was intended. We have also changed the 
+profit margin of many tradeskill items when sold to NPC vendors. It is our hope that these changes and your 
+continued community efforts will help to put a stop to those who do not wish to play fairly. 
+
+- Changed Charm spells so that NPCs spell use will now be interrupted once the charm has expired. 
+
+- We have modified the sell back value on many tradeskill items to prevent excessive profit. 
+
+- Please note that many items will now show as being usable by berserkers. This does not necessarily mean the items 
+will be equippable by berserkers when Gates of Discord launches. 
+
+
+** Gates of Discord ** 
+www.gatesofdiscord.com 
+The latest expansion to EverQuest - Gates of Discord - is available for pre-order and incremental download! 
+Be the first in your guild to pre-order Gates and begin the incremental download now! This new expansion boasts: 
+-100 new Alternate Advancement abilities. 
+-Leadership experience to unlock many group- and raid-enhancing tools. 
+-20 new zones -- 10 new instanced zones and 10 new traditional zones, including a huge ship city zone to gather 
+your party and launch expeditions. The new combat zones are for characters level 50 and over. 
+-New Berserker class -- ravage your enemies with two-handed axes or by hurling large objects. 
+-Discover the newly found continent of Taelosia and discover the secrets of Norrath's future! 
+-20 all-new NPC models make for hundreds of challenging encounters unlike anything seen before in EverQuest. 
+-New Tribute System to enhance gameplay with beneficial attributes, skills, or effects. 
+-Dozens of new and exciting story-driven quests and content for the hardy adventurer. 
+-New tradeskill recipes to produce hundreds of new items. 
+-Unearth arcane spells, mighty weapons, and other hidden treasures! 
+
+Pre-order yours today by pressing Pre-order at the server select screen, or at https://store.station.sony.com! 
+
+** Incremental Download for Gates of Discord ** 
+We have begun introducing the Gates files in small bits. This is the most convenient way for you to get the files 
+you'll need for the new expansion. It is a lot easier to download these files in smaller chunks than to download 
+them all on the day of release. 
+You can get the files incrementally from the EverQuest updater. The obvious way to begin downloading the files is 
+to click "yes" when the dialogue box pops up asking you if you'd like to incrementally download Gates. If you've 
+already told that dialogue never to appear again, you can get the files in a few easy steps: 
+- Run the EverQuest Updater 
+- Click the Advanced button 
+- Click the checkbox next to Gates of Discord 
+- Click Save 
+- Click Download. 
+This will catch you up on the downloads you have missed and will update you as we add files to the updater. 
+This will make your download much smaller the day Gates launches, or the day you purchase the digital version 
+of the expansion. 
+
+The anticipated release date -- February 10th, 2004 -- is subject to change. If the anticipated release date 
+changes, we will announce a revised release date via a patch message.
+
+
+.....................................................................
+
+
+------------------------------
+January 30, 2004
+------------------------------
+
+Tonight we have a small update to fix some general bugs. We are again changing charm (in exactly the way we thought 
+we had last week) No this is not deja vu. You should also look for changes in that evolving zone of Nedaria's Landing. 
+I wonder what is going on there? 
+
+- An update to the zone, Nedaria's Landing. Make sure you check it out. 
+
+- Charm spell change: If an NPC is in the middle of casting a spell when charm is broken, it will interrupt the spell. 
+
+- Some general bug fixes. 
+
+Make sure you log onto the Test server to see what other changes we are cooking up. Our next Scheduled update is 
+planned for February 10th. 
+
+Remember Gates of Discord is coming soon. Go to www.gatesofdiscord.com or EQlive.station.sony.com for more information.
+
+
+.....................................................................
+
+
+------------------------------
+February 3, 2004
+------------------------------
+
+LIVE CHAT with the EQ Development Team 
+
+Tonight, February 3rd 6PM PST, the EQ Dev team will be holding an EverQuest: Gates of Discord live chat. Go 
+to EQlive.station.sony.com for details. 
+
+One week left to Pre-order EverQuest: Gates of Discord, the next exciting expansion for EverQuest. Make sure you 
+check it out.
+
+
+.....................................................................
+
+
+------------------------------
+February 10, 2004
+------------------------------
+
+Greetings Norrath, 
+
+Highlights for today's update: 
+
+* EverQuest: Gates of Discord goes live! 
+* The Casino is back and waiting for you high rollers. Go to Shadowhaven to try your luck. 
+* Tradeskillers rejoice, the new UI is here! 
+* Nedaria's landing has evolved further. 
+
+Gates of Discord Launches! 
+------------------------- 
+
+EverQuest: Gates of Discord Available Now! 
+
+Epic adventures now await you in EverQuest: Gates of Discord, the seventh expansion pack now available for EverQuest. 
+Discover the lost continent of Taelosia and come face-to-face with invaders from the realm of chaos. Join armies of 
+adventurers on their quest to unearth long-hidden artifacts of power from temple ruins, secret catacombs, dank sewers 
+and vast marshlands. Should you fail, Norrath, its inhabitants, and its gods may fall under control of the forces 
+of Discord! 
+
+Gain Entry into the Gates of Discord! 
+Download now direct from the Station Store 
+Purchase at your local retailer (retail boxed version includes special in-box and in-game item, while supplies last) 
+
+Exciting New Features! 
+100 new AA abilities 
+20 new zones with all-new NPCs 
+New Tribute System and Leadership Experience 
+Ravage your enemies with the Berserker 
+
+Purchase EverQuest: Gates of Discord now and receive great discount offers from Creative Labs and Kingston. 
+Special restrictions apply. (visit www.everquest.com for more details) 
+
+Return of the Casino 
+------------------------ 
+
+** Play King's Court in Shadowhaven! ** 
+
+Shandeling's Roost in Shadowhaven again houses a game of chance. To play you will need to buy a King's Court Token. 
+You then take this token and turn it in to any of the dealers. Based on what your hand turns out to be, you will be 
+awarded a prize. The highest hands will return a gold ticket as the prize. This Ticket can be turned in to win 
+prizes such as a Guise of the Deceiver, Fungus Covered Great Staff, or Holgresh Elder Beads. Good luck to all that play! 
+
+Tradeskill UI now live 
+------------------------ 
+
+Opening a tradeskill container will now open a new user interface. In the window you will find an area that has 
+all recipes that are currently available to you. This includes recipes that are at your skill level as well as 
+some above it. Clicking on a recipe will display what items are necessary for its completion. Clicking the "combine" 
+button will extract those required items from the player's inventory, and perform the recipe combine, placing the 
+results on the player's cursor. The new system is nice and neat, with no dragging and dropping unless you want to 
+try a combine that is way out of your league, which uses the old style of combination. 
+
+Item Changes 
+------------------------ 
+- The name of Berserker armor has been changed to Bladesmans armor. 
+- The beastlord epic weapon will no longer "proc" for wielders below the 46th level. 
+- Many text changes in item descriptions. 
+
+General Bug Fixes 
+------------------------ 
+- A Tormentors hoof is now flagged as a tradeskill item. 
+- Chaotic Stab, a rogue AA, will no longer cause full damage on frontal attacks. 
+- Altered some NPC factions in the Plane of Tactics arena to prevent a problem with charm. 
+
+Combat Abilities 
+------------------------ 
+- Fixed some text on the Focus Will Discipline. 
+- Assassins Strike should now work correctly. 
+- Sneak Attack should now work correctly. 
+- Thief's Vengeance is now working correctly. 
+- Indirection should now work as intended. 
+
+Spells 
+------------------------ 
+- Corrected a few spell descriptions. 
+- Corrected some spell sound effects. 
+- Arachnae Venom and Fellspine should now stack with the warriors provoke abilities.
+
+
+.....................................................................
+
+
+------------------------------
+February 11, 2004
+------------------------------
+
+-Corrected an issue with Qinimi that would not allow characters lower than 60th level to enter the zone. 
+
+-Addendum to 2/10/2004: No change was made to the Chaotic Stab ability.
+
+.....................................................................
+
+
+------------------------------
+February 12, 2004
+------------------------------
+
+Tribute Update
+
+The Tribute system as it was released has caused a greater variance in favor distribution than was intended. 
+In order to make the system more healthy, fair, and balanced, there will be changes made over two updates -- 
+one today and one next week.
+
+The following changes have been made today:
+
+- Favor Maximum: There will be a maximum limit of 200,000 favor that a player character can have available at 
+any time. If a player has accumulated more than 200,000 favor at the time of this change, the character will 
+retain its favor, but will not be able to add to it until it falls below 200,000.
+
+- Favor Value Adjustments to Items: Some items have had their favor value adjusted to be more appropriate. For 
+this update, this will not affect the favor amount that a player has gained by handing in items that have had 
+their favor values adjusted.
+
+For next week's update, we will be adjusting each character's favor amounts based on any items that were handed in 
+to Tribute Masters that have had their favor values adjusted.
+
+We hope you continue to enjoy the benefits of the Tribute system and Gates of Discord.
+
+In other words: Play, raid and be merry, for tomorrow we nerf.
+
+.....................................................................
+
+
+------------------------------
+February 18, 2004
+------------------------------
+
+We found a bit of code that was, occasionally, causing random zone crashes and corrected it. We are still working 
+on the second part of the 1017 problem and hope that many of you found some relief in the changes we made last night. 
+Thanks again for your patience. We're working hard to solve the problem. 
+
+Monks once again irresistible. (Phantom abilities should no longer be resisted.) 
+
+Small change to berserker epic text.
+
+
+.....................................................................
+
+
+------------------------------
+March 10, 2004
+------------------------------
+
+Headlines 
+------------------------ 
+Combines work again! 
+Melee Part II! 
+A new story has been added to your storybook! 
+
+
+The grammar police have invaded EQ and they have made many minor spell, item and quest text fixes that are too 
+numerous to list here. 
+
+We'd like to thank all of the players that took time to provide feedback regarding the melee changes. We'd also 
+like to send a special thanks to all of the players that helped us test the additions on the Test and Beta servers. 
+All of the input we received helped to shape the improvements you've seen in the melee classes. 
+
+Please continue to give your feedback on the melee system or anything else that you feel requires attention. 
+It does make a difference. 
+
+Over the last several months there have been several new additions to EverQuest aimed at increasing the desirability 
+and relative power of pure melee classes. 
+
+- Discipline timers were revamped, allowing greater freedom and frequency of use. 
+- Endurance bar was added as a limited resource to power melee abilities and disciplines. 
+- Warriors received an innate 5 percent increase in their ability to absorb damage. 
+- Warriors received the Incite line of abilities, giving them a new tool for aggro management. 
+- Monks received the Phantom Call line of abilities, giving them a new tool for pulling. 
+- Several new disciplines were introduced for all three classes. 
+
+The endurance system and the separation of the discipline timers have provided us with new tools to add interesting 
+and powerful abilities in the future for melee classes. You can count on seeing new disciplines and abilities as the 
+game progresses and as situations arise that require new abilities to effectively balance class power. We will 
+continue to evaluate the melee system for both balance and enjoyment. 
+
+We will also continue to review and make changes to each individual class as needed. Class balance is an important 
+part of any multiplayer game and requires constant attention. 
+
+Thanks for helping make EverQuest a great game. 
+
+
+Items 
+------------------------ 
+We have replaced the spell-like effects on items which produced the following effects: Attack, HP Regen, Mana Regen, 
+Haste and Damage Shield with actual statistics. The effects on the item have not changed they are just set up in a 
+new way that we hope will allow for more item functionality in the future. 
+
+Several Gates smithed weapons have had their damage and delay adjusted to be more in line with the difficulty in 
+crafting them.
+ 
+The Copper Hammer of Striking will no longer proc for wielders below level 50. 
+
+The Wailing Coral Staff is now two handed blunt. 
+
+Bolas are now one-handed projectile rather than ammo. 
+
+Bola ranges have been adjusted slightly. 
+
+All bolas that can proc will now do so. 
+
+All items that had the "Cleave" series of effects removed, have had them returned. 
+
+The drop rate for the following Epic Quest items has been increased slightly: 
+
+- Essence of a Vampire 
+- Decrepit Hide 
+- Staff of Elemental Mastery (earth) 
+
+
+Expedition zones 
+------------------------- 
+You will now have to wait 5 minutes before you are able to accept another expedition zone. 
+
+
+Tradeskills 
+------------------------- 
+In order to correct many of the issues with the new tradeskill interface it was necessary to remove all learned and 
+favorite recipes. However the system should now work better overall. 
+
+The sell prices for Saltwater Tuna and Saltwater crab, as well as the price for any item made from them, have been 
+reduced. 
+
+Rainbow Trout should now be tradeable. 
+
+If you are not a gnome, you should no longer be able to tinker with a deluxe toolkit kit. If you are a gnome, 
+please tinker away. 
+
+You should now be able to properly search for recipes. 
+
+The trivial level for brewing Fish Wine has been adjusted. 
+
+
+Berserkers 
+------------------------- 
+Some berserker abilities have had their endurance cost changed. 
+The duration of Confusing Strike has been reduced. 
+Berserkers should no longer be told that they can bash at level 6. 
+The berserker guildmaster in the Plane of Knowledge has been taught throwing and parry and is ready to train 
+berserkers in their use. 
+
+
+Spells 
+------------------------- 
+Some Gates of Discord spells should now drop a little more often. 
+Several heal spells for Gates of Discord have been modified slightly. 
+The shadow knight Ancient Spell: Bite of Chaos should now work as intended. 
+
+
+NPC's 
+------------------------- 
+Hierophant Granix should now give the correct text in Cabilis. 
+Trimdet Trueheart in Abysmal Sea is less of a snob and should now speak with you correctly. 
+If you tell Brevik Kalaner in Abysmal what items you [need back], he will return to you any items you've just given him. 
+
+
+Tribute 
+------------------------- 
+A few items have had their tribute value adjusted. 
+Gift of the Enchanters should now work correctly. 
+You should no longer be able to donate containers with items inside for favor. 
+Persistent Boon should now give the proper effect. 
+
+
+Alternate Advancement 
+------------------------- 
+Dire Charm will no longer reset after being resisted as the ability was successfully initiated. 
+Dire Charm should now reset when used on an NPC that is too high in level. 
+
+
+Miscellaneous 
+------------------------- 
+Corrected a faction issue with the wizard epic. 
+
+The monk "Phantom" line of abilities should no longer be resisted in the level 65 "hard" LDoN Adventures. 
+
+The rogue's "Assassin's Strike" skill line ability will be re-introduced with the next update. 
+
+The Shining Bloodstone will now be restricted to 2-handed weapons. Any who have placed this augmentation in a 
+1-handed weapon will find the augmentation on their cursor when they log in. If you find that you have no practical 
+use for the 2-handed augmentation, please petition and a suitable 1-handed replacement will be made available to you. 
+
+
+- The EverQuest Team 
+
+
+.....................................................................
+
+
+------------------------------
+March 16, 2004
+------------------------------
+
+*Highlights*
+
+EverQuest 5th Anniversary 
+Return of the Casino (Again) 
+Check with the Town Criers for the latest edition of the Norrath newspaper! 
+
+EverQuest Celebrates Five Years. Join us for the 5th Anniversary in-game celebrations for EverQuest. Over the 
+course of the next few weeks you will be able to join in a massive scavenger hunt, battle fabled NPCs with upgraded 
+loot, experience enormous firework displays and defend your city against armies of skeletons. 
+
+*It's Back! (Again)*
+
+The Casino is back and ready for you to try your luck. You can check it out in Shadowhaven. Good luck! 
+
+*Spells*
+
+Added a new magician spell, Elemental Draw, which is available in the East Commonlands. 
+
+Changed the following shaman healing spells. 
+-Daluda's Mending - previously Plague of Daluda 
+-Breath of Trushar 
+-Quiescence
+
+
+.....................................................................
+
+
+------------------------------
+March 23, 2004
+------------------------------
+
+Headlines
+DirectX 9 is now REQUIRED to play on all SOE EverQuest servers and Venril Sathir!
+Stormhammer received a new adventure zone. 
+Another story for you to peruse in your storybook.
+Screenshots in .JPG? What will they think of next!
+More Grammar changes (no not Grandma, Grammar)
+
+
+DirectX 9
+-We have added more detail to the gamma correction slider, which means you may need to adjust your gamma settings 
+which are located under video options
+-All zones will temporarily have the same sky while we refine DirectX 9 functionality.
+-Corpses should now be easier to target.
+-We have added a new command, /rewind, which should free your character if they become stuck in geometry.
+-There are now independent window resolutions for full screen and windowed mode.
+
+
+
+Stormhammer
+If you are a Legends subscriber you can visit the Lost Pyramid of Galuuk Korr. This midlevel adventure zone will 
+allow you to explore a monument from the lost elvish city of Takish Hiz!
+
+Now you must find what was left beneath the sands. Good luck.
+
+
+Screenshots
+-Screenshots will now save to a "Screenshot" folder in your EQ directory
+-You can now change the format your screenshots are saved in by adding the "ScreenshotType=" line in your eqclient.ini 
+file, which is in your EverQuest directory. To save in jpg format you would change or add the line to read 
+"ScreenshotType=jpg". Supported formats are bmp, jpg, tga, dds and png. Screenshots will continue to save in bmp 
+format unless this line is added.
+
+
+Items
+-More items have had endurance added to them.
+-Some Fabled items have been tweaked a bit.
+-Added recommended levels to some fabled items.
+-You will now need to be of at least the 50th level to complete the beastlord epic.
+
+NPC
+-Guards in Everfrost Peaks will once again help those in trouble.
+-Soulbinders should now show in the Find window.
+-Fabled NPC's will now appropriately reflect their difficulty.
+
+Spells
+-Elemental Draw will no longer Crit on your pets.
+
+Miscellaneous
+-Uqua should be a bit more playable now.
+-Ikkinz raids have been upgraded slightly.
+
+
+.....................................................................
+
+
+------------------------------
+March 25, 2004
+------------------------------
+
+Headlines 
+
+-Refining some DX9 functionality. 
+
+-Some adjustments have been made to pets. 
+
+-Some general bug fixes. 
+
+-Added a new rogue discipline line, Assassins Strike. The tomes can be found in the East Commonlands and the 
+Plane of Knowledge. 
+
+
+DirectX 9 
+-The center of collision for all players 
+-We have made improvements to position processing which should alleviate some of the problems related to getting 
+stuck in geometry. 
+-Improved collision and movement when near overhangs. 
+-The auto-duck mechanism is now an user-enabled option. It can be set in the General tab of the options window. 
+This feature forces your character to duck automatically to get into small places. If set to off, you will need 
+to manually duck to enter those places. It is "on" by default. 
+-Warping of very small NPCs (e.g., giant rats in Qeynos) has been resolved. 
+-Rain now has visible weather. 
+
+
+Pets 
+60+ player pets have been improved in a number of ways. Most notably, the effects of pet foci will be more 
+dramatic as a player progresses with more powerful equipment. There have also been a number of inconsistencies 
+between different tiers of pet foci that have been fixed. All of the existing foci should never show a power 
+decrease in any aspect when upgrading from a lower tier foci to a higher tier foci. The most dramatic changes 
+in pet stats are in the following aspects: 
+
+Level - Most tiers of Foci will add one level to the pet. 
+
+Max HP - Most tiers of foci will add max hit points to the pet, some tiers are more dramatic than others and follow 
+a similar rate of progression to player characters as they gain equipment equivalent to the pet focus items. 
+
+Mitigation (AC, Agility) -- Most tiers of foci will add mitigation to the pet. Some tiers are more dramatic than 
+others and follow a similar rate of progression to player characters as they gain equipment equivalent to the pet 
+focus items. 
+
+Damage Output - Generally the pets did not receive a significant change in their damage output, although there are 
+certain pets that have had their max hit and offense increased. 
+
+Overall, the player pets have received a significant boost. There are instances where you will see no change in a 
+specific aspect of a specific pet. For example, the Rathe’’s Son pet summoned with Minion of Eternity has not received 
+an improvement in max hit points, but it has received a significant mitigation improvement. 
+
+These changes affect the pets summoned by the following spells: 
+
+Ward of Xegony 
+Child of Ro 
+Servant of Marr 
+Rathe’s Son 
+Legacy of Zek 
+Saryrn’s Companion 
+Child of Bertoxxulous 
+Spirit of Sorsha 
+Spirit of Arag 
+
+The most profound changes were made to the magician pets as they were most in need of improvement to maintain class 
+balance. Beastlord and necromancer pets also received upgrades, but not of the same magnitude. 
+
+-- The EverQuest Team 
+
+
+.....................................................................
+
+
+------------------------------
+April 13, 2004
+------------------------------
+
+The Graveyard zone, Shadowrest, is now live!
+
+We have introduced the new graveyard zone, Shadowrest, to the live servers. The zone will allow adventurers whose 
+corpse has decayed, after 7 days, to retrieve it. They will merely have to greet the appropriate NPC in one of the 
+following zones to activate their transport to Shadowrest;
+
+East Commonlands
+The Plane of Knowledge
+Toxxulia Forest
+Qeynos Hills
+The Feerrott
+Butcherblock Mountains
+The Field of Bone
+Shadeweavers Thicket
+Misty Thicket
+
+We hope you enjoy this new addition to EverQuest!
+
+The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+April 14, 2004
+------------------------------
+
+Headlines! 
+- You can now set hot keys to cycle through targets! 
+
+Collision and Targeting 
+- We have improved Collision. 
+- We have improved targeting. 
+- Auto-rewind has been disabled. Auto-rewind has been disabled. Auto-rewind has been disabled. 
+- Short races should be able to manage steps and slopes more easily, so gnomes and halflings will again be under foot. 
+- Arrows should no longer make NPCs look like porcupines. Please note that we have nothing against porcupines and 
+consider them a fine animal. 
+
+You will now have the option to bind cycle through PC and NPC targets to a hot key of your choice. You can hit your 
+select nearest target key at any time, during cycling, to reset the cycle. 
+
+Quests 
+Some changes have been made to the "Breakdown in Communication" quest. Drops should be more plentiful but may come 
+from different NPCs. 
+
+Hide and Invisibility 
+- There are now fewer mobs that can see through invisibility and detect rogues in Ferubi and Barindu. Go rogues! 
+- Smith Rondo should ignore players that are invisible or hidden. 
+
+Lost Information from previous updates 
+- 60+ focused mage pets are now summoned with a full set of phantom plate equipped. 
+- Guildmasters and Merchants in Knowledge are now findable. 
+- The Succor point in Ferubi has been moved to the Qinimi zoneline.
+
+
+.....................................................................
+
+
+------------------------------
+April 21, 2004
+------------------------------
+
+Headlines! 
+- Boat Gnomes are now available all the time. (and I thought gnomes were only good as appetizers) 
+- A new edition of the newspaper is available in your home town. Come and get it! 
+
+Boat Gnomes 
+The boat gnomes and other alternate means of travel are now available. During this period of gnome servitude, the 
+boats will be in drydock and receiving some much needed repairs
+
+.....................................................................
+
+
+------------------------------
+April 28, 2004
+------------------------------
+
+Headlines! 
+
+- A new storybook has arrived! Make sure you read it to find out what Tondal is up to now. 
+- A new adventure zone is live on Stormhammer! 
+- A new adventure zone has moved from Stormhammer to Live! 
+- What are the "HOT SPOTS"? 
+- Plane of Knowledge open to everyone! 
+
+New Adventure Zone goes to Stormhammer 
+- We have added a new adventure zone which should be a challenge for 2 groups of about 50th level. 
+A party of adventurers is missing and was last seen working with the undead. Will you brave the catacombs to find them? 
+
+New Adventure Zone moves to Live 
+- The adventure zone currently on Stormhammer will move to live servers. You can visit the Lost Pyramid of Galuuk Korr. 
+This midlevel adventure zone will allow you to explore a monument from the lost elvish city of Takish Hiz! Now you 
+must find what was left beneath the sands. Good luck. 
+
+Hot Spots 
+Try out the new Hot Spot zones which give a boost to Experience while adventuring in them, in a similar manner to 
+Paludal Caverns. The current Hot Spots are: 
+
+- The Castle of Mistmoore (20th to 30th level) 
+- The Lair of the Splitpaw (35th to 45th level) 
+- Dulak's Harbor (40th to 45th level) 
+- The Tower of Frozen Shadow (30th to 35th level) 
+- The Gulf of Gunthak (35th to 40th level) 
+- Hate's Fury (55th to 60th level) 
+- The Crypt of Nadox (50th to 55th level) 
+- The Torgiran Mines (45th to 50th level) 
+
+These Hot Spot zones are generally aimed at characters level 20 to 51. The Hot Spot zones will shift from time to 
+time, so watch for messages giving clues as to where the new ones may be. 
+
+Plane of Knowledge 
+All EQ characters can now access the Plane of Knowledge whether they have purchased Planes of Power or not! 
+
+General 
+- We have decreased load times when zoning. 
+
+Gates Sewers and Vxed 
+- Rare NPCs in the Gates sewers and Vxed will not spawn at the creation of the expedition zone. They will now 
+spawn after the zone has been occupied for some time. 
+
+Items 
+- Skill percent-mods now work for Ammo slot items. 
+- Grand Tunic of the Oracle and the Grand Robe of the Oracle have had a type 7 augmentation slot added to them. 
+- Lungi of the Forbidden will display a robe graphic once again. Monks and Beastlords will be able to swap the 
+robe in for a leather looking BP with the same stats by visiting Garath the Trader in East Wastes. You will be able 
+to swap the items back and forth with Garath for your desired look. (Lungi? Lungi? What is a Lungi?) 
+
+Spells 
+- Characters in illusion form can again be targeted. 
+- Bull Rush is now a magical resist. Please do not use in a china shop. 
+- Balance of the Nihil has had its Mana and Slow percentage increased. 
+
+Tracking 
+- More NPC's in Qinimi now leave tracks for trackers to find. 
+
+Firiona Vie 
+- The Shuriken of Eternity and Ton Po's Mystical Pouch are now no-drop.
+
+
+.....................................................................
+
+
+------------------------------
+May 5, 2004
+------------------------------
+
+Happy Cinco De Mayo! 
+
+EverQuest 2 Beta Sign Ups are now open! 
+
+Make sure you sign up for the exciting EverQuest 2 beta! Join the folks who have already added their name to the 
+rapidly growing list for this amazing beta opportunity. 
+
+Go to www.everquest2.com and click on the beta link to get your chance at a beta slot! I hope to see you in the beta! 
+
+Sign up now, tomorrow may be too late. 
+
+
+Headlines! 
+- You now have the ability to remove your own surname! 
+- All characters will regen HP faster when sitting! 
+- /rewind is back and ready for action! 
+
+
+Surnames 
+You can now use the /surname command to remove your own surname and add a new one. Please remember to read the 
+naming policy as listed on EQlive.station.sony.com as it applies to both first names and surnames. You will still 
+need to ask for CS assistance if you wish to have a name with double capitals or special characters. Please note 
+that this command can only be used to remove or change your surname once per week. 
+
+HP Regen 
+- All characters should now regenerate HP faster when sitting. The longer you sit, the faster you regenerate! 
+- You will not receive increased regen while under the effects of a DOT or while feigned. 
+- You can now bandage yourself up to 70% of your HP. Folks with the appropriate AA abilities can bandage above 70%. 
+- You can now bandage while sitting. 
+
+
+/rewind 
+/rewind is back and should help if you find yourself stuck. This is not an automatic rewind, you will have to 
+execute the command. We are continuing to work on other collision issues and hope to no longer need /rewind in the 
+near future. This command is only able to be used once every 30 seconds, and in order to make use of it, your character
+will need to be stationary for at least 30 seconds. 
+
+
+.....................................................................
+
+
+------------------------------
+May 12, 2004
+------------------------------
+
+Headlines! 
+Gates of Discord content retuned! 
+
+Gates of Discord 
+- Zone experience modifiers were increased in all zones from Tipt/Vxed and beyond. 
+- Natimbi, Qinimi, Barindu, Riwwi, and Ferubi should be tuned more appropriately for their intended level ranges. 
+- NPCs will no longer hit for max damage as often. Knights in particular should find it easier to tank the NPCs 
+they previously had difficulty with. 
+- Ikkinz -- Guilds no longer have to flag every member in order to complete the Ikkinz trials. Only one person needs 
+to complete all events/raids to start the seventh Ikkinz trial. At that point, all players who complete the seventh 
+trial will get full credit for the zone. 
+- NPC innates have been adjusted to behave a little more reasonably. 
+- Zone travel has been made easier. Animal aggression was lowered by changing their faction and See Invis percentages 
+were reduced on several NPCs. 
+- Spell drops have been increased. 
+- Increased the rate of cash drops. 
+- The mini bosses in Qvic now have a more appropriate respawn rate. Their item drop rate has been increased to 
+compensate for this. 
+- Breakdown in Communication quest now has improved rewards! 
+
+Collision 
+More improvements to the collision system should make it a lot more difficult to get stuck. 
+
+Misc. 
+The Eye of Zomm will once again open closed doors.
+
+
+.....................................................................
+
+
+------------------------------
+May 27, 2004
+------------------------------
+
+Omens of War has a new expected live date of August 31, 2004. We appreciate your pre-order and if you wish to 
+leave it in place, you do not need to do anything. We will not charge your credit card until the day the expansion 
+actually goes live. 
+
+If you wish to cancel your pre-order you may follow the steps below. You may cancel your pre-order at any time prior 
+to the live date. 
+
+Directions to Cancel Pre-Order 
+1. Visit Station Store https://store.station.sony.com/index.jsp 
+2. Go to Billing Info and sign in 
+3. View Current pre-orders 
+4. Click Cancel button; you will receive a cancellation email 
+5. Return to Station Store and re-purchase this product using the most up to date information. 
+
+Thank you! 
+
+
+Headlines! 
+Exclusive in-game Shield in July 2004 issue of PC Gamer 
+New Tutorial now live! 
+CS Assist allows use of Knowledge Base in-game 
+
+
+Exclusive Shield from PC Gamer 
+Attention EverQuest Players! Exclusive in-game EQ Shield in the July 2004 issue of PC Gamer! 
+You can now claim this special shield by picking up the July issue of PC Gamer. Go to the box on page 33 and use 
+the TOP code to redeem your special shield. To claim this prize, simply log into EverQuest, click on accounts, 
+click the special button and then enter the shield code in the space provided. 
+
+Tutorial 
+- Does your significant other find EQ too hard to learn? Our new Tutorial is Live and ready to teach them to play. 
+Creating a new character will give you the option to go through the new tutorial. You can choose to leave the tutorial 
+at anytime and can return until your character reaches level 5. The tutorial will walk you through gameplay with easy 
+to follow instructions in text and voice. 
+- Hybrids will now receive mana at level 1 as they now receive a spell in the tutorial. 
+
+CS Assist 
+A new CS tool is available for use and should provide you with a better interface when petitioning. You can also 
+access our self help option through the knowledge base. You can bring up the new window by pressing the 'P' key, 
+typing /petition, or clicking the "Customer Service" button from the help window. 
+
+Cabalis Quests 
+Iksar Warriors and Necromancers have some quests to finish! 
+Iksar Beastlords have a new quest. 
+
+
+UI Changes 
+- There's a new button in the Options->Display tab to toggle between full screen and windowed mode. 
+- Presto Change-O! There's a new button on the bazaar window to hide all traders. Clicking a trader in the search 
+window will make them appear (limited to the last trader you clicked) 
+- New text filters have been added for Pet Crits, Pet Rampage/Flurry, System Messages, Focus Effects, Exp Messages, 
+and Who list. 
+- The Guild Management window should be better organized. 
+- There's a new /outputfile command to allow creation of text-file dumps of your Guild, Raid, Inventory and spell books. 
+
+
+Improved Collisions 
+- Most collision issues should now be resolved. 
+- Collision system improvements have made elevators much safer. 
+- Getting out of water should be a little easier for short races. We wouldn't want all those Halflings to drown, now 
+would we? 
+- Rogues should be able to more easily exit water while sneaking, although I think it would be hard to sneak with wet 
+trousers. 
+
+Misc. 
+- You now have the ability to "AutoBank" in the Bank Window. 
+- Casting a spell while sitting will stand you up. 
+- Camping while standing will sit you down automatically. 
+- NPC's will not begin regenerating immediately if fleeing or combat ends. 
+- Improved the Iqthinxa Karnkvi event in Qvic
+
+
+.....................................................................
+
+
+------------------------------
+June 2, 2004
+------------------------------
+
+Collision fixes collide with servers! 
+
+
+Collision 
+- When you are summoned by NPCs or players smaller than you, the collision system will now scan a limited area near 
+the destination to find a place to put you so that you will not be stuck in the terrain. 
+
+- A problem related to collision data being out of sync on the client and server has been corrected and should solve 
+the problems many of you have been seeing with NPCs being pushed into walls. 
+
+- The sunken NPC and character problem has been much improved. You will still find the occasional NPC at a spawn point 
+that is sunk or elevated slightly, but the NPC should move normally once engaged. 
+
+
+Cabilis Quests 
+- The Battle plans from Dalnir should be a little easier to obtain. 
+- The loyal follower in Dreadlands should no longer be a merchant with an empty inventory. 
+- The traitor necromancers seek should be a little easier to find. 
+- Wyzith's belongings should now combine correctly. 
+
+-- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+June 16, 2004
+------------------------------
+
+Headlines! 
+
+-Collision sees more improvements. 
+-A portal to Gunthak has been added to the Plane of Knowledge. 
+-/guidehelp is now available! 
+-Gates of Discord sees more changes. 
+
+
+Collision Updates 
+Many remaining collision issues have been fixed. 
+-Floating NPCs in the Plane of Disease should be more down to earth. 
+-NPC warping should be reduced. 
+-The Emerald Jungle should no longer have NPCs below the world 
+-You should once again collide with the dock in Natimbi. 
+-The entrance to Najena should be easier to navigate. 
+
+Gunthak Portal 
+-We have added a tome to the Plane of Knowledge to allow for faster travel to and from Gunthak. Enjoy. * 
+
+Gates of Discord 
+-Increased the drop rate of quest items, for the Breakdown in Communication quest, in the sewers and mountain passes 
+and Ikkinz. * 
+-Increased the number of items that drop from the Qinimi and Barindu events for the Breakdown in Communication quest. * 
+-Increased the drop rate of Breakdown in Communication quest items off the Yxtta bosses as well as making it possible 
+to get them off other NPCs in the zone. 
+-The Ikkinz Chamber of Might and Tipt boss mobs will now behave a little smarter when facing a strong defense. Beware! 
+-Some tuning changes have been made to the Ikkinz single group trials and Tipt. 
+-Changed the NPCs that guard Txevu so they are a longer re-spawn allowing you to get stragglers thru the zone much 
+easier once you kill them. 
+-Pathing in Txevu should be better. * 
+-The bonus reward at the end of Inktu`ta will spawn in a chest instead of being handed directly to the player that 
+triggers the dialogue. 
+-Gates NPCs that dropped spells will now drop a token, which can be turned in for a class appropriate spell. * 
+
+The Plane of Time 
+-We have made changes to the scripting for the Plane of Time, which will allow the server to shut down unused instances 
+of the zone. This will remove the problem of waiting for an instance that another group has finished to shut down, 
+before you can start your attempt. * 
+
+The Plane of Hate 
+You can now access the Plane of Hate by talking to Relm M'Loch in the Plane of Tranquility and handing her a Fuligan 
+Soulstone. * 
+
+Items 
+----------------------- 
+-The Tainted Axe of Hatred has had its damage increased. 
+-Many Gates items have had their weight reduced. * 
+-The Muramite Death Shroud is now equipable by beastlords and has a wind instrument modifier. * 
+-The Onyx Ring of Prayer now has a stringed instrument modifier. * 
+-The drop rate has been increased for the following items in the Plane of Hate * 
+The Shattered Emerald of Corruption 
+Decrepit Hide 
+Staff of Elemental Mastery: Earth 
+Essence of Vampire 
+Eye of Innoruuk 
+-The Diamond Tipped War Javelin should now look more javelin like. * 
+
+Berserkers 
+-Berserker snare now has a set duration. * 
+-Berserkers should no longer get stuck during their epic quest. 
+-The following effects now lower hate instantly rather than over time: * 
+Diversive Strike 
+Distracting Strike 
+Confusing Strike 
+
+Guidehelp 
+-The "/guidehelp" command is now available. The /guidehelp command is for quest/event feedback, wedding requests 
+and questions regarding quests/events. Please be aware that all Customer Service issues must go through /petition 
+for resolution. There may only be 1 request in the guidehelp queue at a time for each player. 
+
+Raid Management 
+-Raid leaders now have the ability to add notes to the raid window. There is now a tabbed window in the Raid window, 
+clicking on the Notes tab will show all the raid members in a single list, with notes next to their name. The Raid 
+leader can click on a player, and change that player's note in the edit box below the list. The note will show on 
+all raid members' raid windows. * 
+
+-Added an MOTD to Raid Window. On the Notes tab there is a window for an MOTD at the bottom. The Raid leader can 
+edit this MOTD, and the new text will show on all Raid members' Raid windows. * 
+-The escape key will now close your Raid Window. 
+-Raid Leaders can now remove members from the raid, even across zones. * 
+
+Tradeskills 
+-There have been several upgrades to Gates Tradeskilled items. * 
+-Gates smithed weapons have been adjusted. * 
+-Gates fletched arrows have had their damage increased and are now magical. * 
+-Tradeskill drinks from Gates of Discord have had their duration enhanced. * 
+
+Stopcasting 
+We have added a /stopcast command -- This command will not work when riding a horse. * 
+
+Undead Pets 
+Pets no longer go away after their master has feigned death for more than 2 minutes. * 
+
+Lay on Hands and Harm Touch 
+Lay on Hands and Harm Touch will no longer affect corpses. * 
+
+Corpse Dragging 
+We have increased the range of the /corpse command * 
+
+Spells 
+Many damage shields have had their damage and duration increased. * 
+Increased the regeneration rate on the following spells: 
+-Regrowth of the Dar Khura 
+-Regrowth of the Grove 
+-Regrowth 
+-Replenishment 
+-Blessing of Replenishment 
+
+Modified the heal rate for the following spells: * 
+-Supernal Elixir 
+-Quiescence 
+-Holy Elixir 
+-Breath of Trushar 
+-Supernal Cleansing 
+
+Lowered the mana cost on the following spells: * 
+-Black Steel 
+-Ancient: Chaos Vortex 
+-Sun Vortex 
+
+Increased the duration and mana cost on the following spells. * 
+-Falcon Eye 
+-Eagle Eye 
+-Hawk Eye 
+
+Bards 
+Bards should no longer use instrument animations when wielding items other than instruments. (No more stabbing 
+yourselves in the head with your Epic!) 
+
+Character Creation 
+The character creation process now has Voice Over to guide you through new character creation. 
+
+Mouselook 
+Mouselook is much smoother and variable via a slider in the options window. If you use mouselook, make certain 
+you adjust the new settings. 
+
+Tutorial 
+All characters should start with the tutorial bank items. 
+
+
+Filters 
+-The Focus effect should now filter haste messages. * 
+-The Damage Shield filter should now work correctly. 
+
+-- The EverQuest Team 
+
+* Denotes an item that was requested by the EverQuest community.
+
+.....................................................................
+
+
+------------------------------
+June 30, 2004
+------------------------------
+
+Headlines 
+
+Download EQ Trilogy and play for 30 days free! 
+
+EverQuest: Platinum offers EQ and all 7 expansions in one box. 
+
+The Guide Program is looking for volunteers. 
+
+EQ Trilogy. 
+Have friends interested in EQ? Have them try the new EQ Trilogy download. You can now download EQ Trilogy and try out 
+an EQ account for 30 days free. See www.everquest.com for more on this exciting offer. 
+
+EverQuest: Platinum 
+EverQuest: Platinum is the most comprehensive collection of EverQuest expansions yet! It includes Classic EverQuest 
+and all seven expansion packs! Go to www.everquest.com for details on the complete EQ collection. 
+
+The Guide Program is looking for volunteers 
+A new era dawns for the EverQuest Guide Program! Magic and fun shall be spread throughout the world like you have 
+never seen before. The EverQuest Guide Program has a new focus creating and participating in dynamic content such 
+as quests, events, and other role-playing activities. Are you prepared to join us? 
+Visit https://guide.everquest.com/guideapp/ for your application today!
+
+
+.....................................................................

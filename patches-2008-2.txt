@@ -1,0 +1,1154 @@
+Patch Messages from July 2008 to December 2008
+
+
+.....................................................................
+
+------------------------------
+July 9, 2008
+------------------------------
+
+*** Highlights *** 
+
+- A series of quests have been created within and around the Secrets of Faydwer expansion. See Fenden Helter in the Ladies of the Light tower for more information. These tasks include various Secrets of Faydwer faction rewards as well as a new currency that can be used to purchase items from Fenden. 
+
+- The spell information window has been changed. For buffs that are on you or your pet, you will be able to see the name of the caster, the full duration of the spell, the level required to cast the spell, the skill required to cast the spell, the mana cost of the spell, and the spell description. Non existing buff based spells will display the total duration of the spell in a new format, hours, minutes, and seconds.
+
+- New visual indicators have been added to the buff window icons, and short duration buff window icons. Additionally, the spell counter information has been moved to facilitate the visual display of the buff timer on the respective buff icon. There have been four pieces of visual information added to the buff icons. This includes a visual indicator to show each of four possible pieces of information. The new pieces of information are Buff Timer, Buff Counters, Song Timer, and Song Counters. 
+
+- With the description changes added, all relevant counter information for BARD songs, all short duration effects, and regular buffs in either the spell window buff icon or short duration buff icon respectively will also be displayed. 
+
+- The buff icon will now display the time remaining in the form of hours (h), minutes (m), or seconds (s) whichever is greater. This significantly reduces the amount physical space used on the icon to print out the remaining time, in effect showing more of the buff or short duration buff icon to the print out the remaining time, in effect showing more of the buff or short duration buff icon to the player. 
+
+- Several NPCS in the Barren Coast, The Buried Sea, Attiki, Katta Castrum, and Goru'kar Mesa have been lowered in difficulty to help facilitate easier soloing for many players. These NPCs will have a special consider message to indicate they are easier than your average NPC. 
+
+*** Returning Players *** 
+
+- If you're returning to the game following a break, be sure to visit the Scholars in the northeast portion of the Plane of Knowledge. They can help guide you through the many changes to the land of Norrath over the years. 
+
+*** Items *** 
+
+- Fixed some typographical errors in a few instruction manuals. 
+- Ornament Mutation Tools are now available for purchase from Magus Alaria in the Guild Lobby. They can be used to permanently change Ornament items into single use Ornamentation containers. 
+- Secrets of Faydwer monk armor will now have the special monk appearance. Armor that monks share with other classes was unchanged. 
+- Added Battlerager's Strength to SoF Raid Tier 3 and 4 Berserker Class Gloves. 
+- Changed the colors on the Bridles of the Commanded and Ferocious Ferans to match the image on their cards. 
+
+*** Quests & Events *** 
+
+- A series of quests have been created within and around the Secrets of Faydwer expansion. See Fenden Helter in the Ladies of the Light tower for more information. These tasks include various Secrets of Faydwer faction rewards as well as a new currency that can be used to purchase items from Fenden. 
+- The bears in Wulfnor the Gladiator's event in Frostcrypt will once again look like bears. 
+- Eron in the Dragonscale Hills has figured a slightly better method for making spools of energized brownie hair. You can now make it if the denizens of the zone are nearby. It still requires that you be by the specific energy charge within the main power room, and not any of the auxiliary power rooms. Be aware that being in the energy charge is painful and not compatible with invisibility or stealth. This new method will also not work if you are lying down. You will not need to go back to him to get the new method, as he has communicated it to everyone. 
+
+*** NPC *** 
+
+- Brinda's assistant, Findlewill, has returned from a restful vacation and can now be found in the Mansion. 
+- Several golems have had their body type switched to Construct. 
+- Fixed several minor text errors on various NPCs. 
+- Several NPCS in the Barren Coast, The Buried Sea, Attiki, Katta Castrum, and Goru'kar Mesa have been lowered in difficulty to help facilitate easier soloing for many players. These NPCs will have a special consider message to indicate they are easier than your average NPC. 
+
+*** Spells *** 
+
+- Made a change to all spells and abilities that use Fade-like functionality to no longer kill your pets, auras and familiars when the Fade-like ability is used.- Fixed an issue causing negative focus effects to not function correctly (sorry!)- With the changes made for displaying the spell decriptions, there may be some NPC spells that display incorrect data. We will be adjusting these descriptions at a later time. The description shoud not affect gameplay.- The shadowknight Decrepit Skin line, paladin Ward of Tunare spell line, and druid Skin of the Reptitle spell line have been adjusted.- Upon death, Divine Arbitration should no longer split the influence to the group members.- Shaman spell Ancestral Intervention and the druid spell Survival of the Fittest should be able to produce a crit again. 
+
+*** Tradeskills *** 
+
+- NPC pricing of powersources have been altered. 
+
+*** Tasks *** 
+
+- Fixed one of the chests in the Uncovered Treasure task that was spawning under the world. 
+- Fixed various issues in the new Secrets of Faydwer tasks that start with Fenden Helter in Dragonscale Hills. 
+
+*** AA *** 
+
+- Changes have been made to the Harm Touch ability for Shadow Knights. The Ranks of Harm Touch that are purchased via AA points (and not automatically granted) will now have an immediate amount of damage as well as a Damage Over Time component. The Damage Over Time component is in addition to the damage that Harm Touch previously did. The Damage Over Time will scale along with the maximum value of the instant damage for each rank. 
+- Increased the duration of Pact of the Wurine AA. 
+- A number of AA lines that had a previously meaningless recast delay have been changed to have no recast delay. This is to address larger-than-intended returns on Heal Amount mods being applied due to how the calculations for those spells work. The AA lines changed include: Act of Valor, Hand of Piety, Lay on Hands, Mend Companion, Rejuvenate Companion, Replenish Companion, and Touch of the Divine. 
+
+*** Zones *** 
+
+- We've adjusted the fog settings in all zones to allow for better visibility.- Adjusted pathing around the Goblin huts in the Buried Sea. 
+
+*** Miscellaneous *** 
+
+- More fixes for corpse looting problems when using /hidecorpse looted.- Added the Background FPS slider to the Options->Display window. Allows setting the frame rate for the EQ window when it is not the foreground window. Sliding all the way to the left (the default) will use "Min. CPU" mode. Increasing this above "Min. CPU" can improve auto-follow behavior when the client is not in the foreground.- 'alpha' and 'ralpha' added to /tracksort command.- Added new SoF stats to the bazaar search options.- Fixed a problem causing a client disconnect when consuming or using the last item in a stack.- Made an optimization that will slightly improve lag in loping plains. This is not a full fix.- Changed the way CPU affinity assignment works so that when you have multiple clients running and exit one and restart it, you still get correct distribution of CPU assignment. Previously, this could cause both clients to be assigned to the same CPU. 
+
+*** User interface *** 
+
+- Moved the Max FPS and Max background FPS sliders to the advanced display options window.- The spell information window has been changed. For buffs that are on you or your pet, you will be able to see the name of the caster, the full duration of the spell, the level required to cast the spell, the skill required to cast the spell, the mana cost of the spell, and the spell description. Non existing buff based spells will display the total duration of the spell in a new format, hours, minutes, and seconds. 
+- New visual indicators have been added to the buff window icons, and short duration buff window icons. Additionally, the spell counter information has been moved to facilitate the visual display of the buff timer on the respective buff icon. There have been four pieces of visual information added to the buff icons. This includes a visual indicator to show each of four possible pieces of information. The new pieces of information are Buff Timer, Buff Counters, Song Timer, and Song Counters. 
+- With the description changes added, all relevant counter information for BARD songs, all short duration effects, and regular buffs in either the spell window buff icon or short duration buff icon respectively will also be displayed. 
+- The buff icon will now display the time remaining in the form of hours (h), minutes (m), or seconds (s) whichever is greater. This significantly reduces the amount physical space used on the icon to print out the remaining time, in effect showing more of the buff or short duration buff icon to the print out the remaining time, in effect showing more of the buff or short duration buff icon to the player. 
+
+- Changed - 
+EQUI_AdvancedDisplayOptionsWnd.xmlEQUI_OptionsWindow.xml 
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+July 17, 2008
+------------------------------
+
+*** Highlights *** 
+
+- Spells and procs will no longer reset swing timers for any class, PC or NPC. 
+
+*** NPC *** 
+
+- The NPCs that were made easier in our previous patch will now have their proper consider message.
+
+*** UI *** 
+
+- Fix a problem that was causing some custom UIs to crash while drawing buff icons. 
+
+*** Miscellaneous *** 
+
+- Spells and procs will no longer reset swing timers for any class, PC or NPC. 
+- Improved an issue that was causing poor performance in outdoor zones. 
+- Fixed an issue that was causing poor performance when switching between background and foreground modes. 
+
+*** Previously Updated *** 
+
+- Laiyken should once again allow you in to Crystallos if you're on the proper step of his quest. If you were refused access before, hailing him again should allow you to enter the zone. 
+- Laiyken will no longer consume your Oil-Covered Crystal if you are not yet at the correct point of his quest. 
+- The Kirkoten Minders will now update the Combat task given by Fenden Helter for the Brownie Rebels. 
+- Beltron in Frostcrypt will once again take damage from Banish Shadows procs. 
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+August 20, 2008
+------------------------------
+
+*** Highlights *** 
+
+- New Hot Zones: Franklin Teek has arrived in the Plane of Knowledge and will be happy to point you to the current location of a Hot Zone appropriate for your level. Franklin also has a series of tasks that can be done in each of the current Hot Zones. Each task can only be completed one time each day and you can only complete one of Franklin's Tasks. The following zones are now Hot Zones with increased experience and rewards:
+
+
+
+20 Lake of Ill Omen 
+25 Feerrott 
+30 Frontier Mountains 
+35 Tower of Frozen Shadow 
+40 Lower Guk 
+45 Wakening Lands 
+50 Old Sebilis 
+55 Blackfeather roost 
+60 Plane of Storms 
+65 Sunderock Springs 
+70 Riftseeker's Sanctum 
+
+- Final Living Legacy Rewards: Living Legacy Augments are now available by right-clicking the Abacus you obtained when doing any of the raids you participated in. If you have lost or deleted your Abacus (or need a replacement for any reason) see Distribution Facilitator XCV in the Plane of Knowledge. 
+
+*** Items *** 
+
+- Moved Battlerager's Strength from Prismatic Savage-Caller's Gloves (Beastlord) to Prismatic Enrager's Gauntlets (Berserker).
+- Bard instrument modifiers have been added to many items from Living Legacy group zones. 
+- The Darkened Enameled Black Chestplate and Darkened Shining Metallic Robes are now infusible, matching the rest of their armor sets. 
+- The Prismatic Glyph of Loyalty is now usable by High Elves and Erudites. 
+- Added tribute values to most SoF dropped items. 
+- Increased the AC for Ring of Molten Alloy and Perpetually Spinning Gear. 
+- The Blackburrow Hunting Bow now has a range. It appears the gnolls rather missed the point of a having a bow in the first place. 
+- Swapped the incorrect AC values for Ancient Husk Leggings and Steel-Studded Leather Leggings. 
+- Living Legacy Augments are now available by right-clicking the Abacus you obtained when doing any of the raids you participated in. If you have lost or deleted your Abacus (or need a replacement for any reason) see Distribution Facilitator XCV in the Plane of Knowledge. 
+- Fixed an old issue that prevented several helms from being tinted with dye. 
+- The ranked Augmentation Solvents on vendors throughout the world have been replaced with a standard unranked solvent. 
+- The Ornate Gnoll Hide Lariat has had its spell proc replaced with one that does not have a knockback. It will not stun as long as before, but will do more damage. 
+- The Skullstepper has had its race restrictions removed. Any race with classes that can use it will be able to equip the item. 
+- A handful of previously broken spell effects on items have been changed to function properly. 
+
+*** Quests & Events *** 
+
+- Reduced the lockout timers for the Soulbleeder and the Bloodmoon Prophet raid from 5.5 days to 4.5 days. This will not change for those that currently have lockouts, but will affect any new lockouts given for those raids. 
+- The scarecrows in Hills of Shade have found their straw at last. 
+- The "crystal phases" in Big Bynn's raid should now last a full minute in duration. 
+- 'The Broodmother Event' in Crystallos will now move all corpses to a safe location when the event resets. 
+- The search for Donna in Hills of Shade has become a bit more complex. 
+- The chest reward for 'The Three Brothers' event in Frostcrypt will no longer look like a person. The bears in Wulfnor's event will continue to look like bears. Snozzberries will remain unaffected. 
+
+*** NPC *** 
+
+- Many NPCs that previously had corpses that would never "unlock" to allow people who did not get kill credit to loot them no longer have that restriction and will now unlock normally. 
+- Distribution Facilitator XCV in the Plane of Knowledge will be happy to replace any Living Legacy Abacus items you may have lost or may be missing. 
+- Kalim'Kar the Gold in Dragonscale sells a container that can be used to convert Glowing Prismatic Runes into Whirring Clockwork Runes, and/or convert Whirring Clockwork Runes into Humming Finsternacht Runes. 
+
+*** Spells *** 
+
+- SoF Rank II global spells now drop more frequently. 
+- SoF Rank II global spells are now weighted to drop more often for classes with a higher population. 
+- The Whirl till you hurl spin stun line is now linked on the same timer. 
+- The Mana Flare spell proc line is now linked on the same timer. 
+- Aurora of Morrow has been modified. It now heals all members of the Paladin's group, consuming no more mana than is necessary (up to the cap) to heal the group members, and preferentially apportions healing to group members that need it the most. 
+- Battle Frenzy now correctly checks the health of the Berserker using the ability, not their target. 
+- Tears of Qandieal now destroys the target's mana and inflicts damage based on the mana destroyed. 
+- Nature's Burning Wrath damage over time spells will now stack, in the same manner as Nature's Blazing Wrath. 
+- Speed Focus Discipline has been moved from reuse timer 2 to timer 10. 
+- The heal over time component from the Ward of Tunare and Skin of the Reptile lines should no longer have stacking conflicts. 
+- Unholy Aura Discipline will now double the damage of lifetap spells for its duration. 
+- The duration on all versions of Necromancer and Shadowknight Lich spells have been changed to a standard one hour. 
+- The damage over time component of Harm Touch will no longer "stack" with other Harm Touches. 
+
+*** Tradeskills *** 
+
+- All tradeskill recipes intended for Seeds of Destruction have been disabled until Seeds of Destruction is released. 
+
+*** Tasks *** 
+
+- Fenden Helter in Dragonscale has received new instructions from some of his clients and some of his combat related tasks have been modified. 
+
+*** Zones *** 
+
+- The level requirement for Theater of Blood has been lowered back to 68. 
+- Franklin Teek has arrived in the Plane of Knowledge and will be happy to point you to the current location of a Hot Zone appropriate for your level. Franklin also has a series of tasks that can be done in each of the current Hot Zones. Each task can only be completed one time each day and you can only complete one of Franklin's Tasks. The following zones are now Hot Zones with increased experience and rewards: 
+
+
+20 Lake of Ill Omen 
+25 Feerrott 
+30 Frontier Mountains 
+35 Tower of Frozen Shadow 
+40 Lower Guk 
+45 Wakening Lands 
+50 Old Sebilis 
+55 Blackfeather roost 
+60 Plane of Storms 
+65 Sunderock Springs 
+70 Riftseeker's Sanctum 
+
+*** Previously Updated *** 
+
+- The Kirkoten Miners will now update the Combat task given by Fenden Helter for the Brownie Rebels. 
+- Several NPCs from the tasks given by Fenden Helter in Dragonscale Hills are now listed on the Find window in their respective zones. 
+- Beltron will once again recognize Banish Shadows procs. 
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+September 3, 2008
+------------------------------
+
+*** Highlights ***
+
+- Station Voice: Station Voice is a voice chat service powered by Vivox and included with certain SOE game subscriptions. Station Voice allows players to talk person-to-person in-game at no additional cost. Players can go far beyond basic real-time chat with the usual headset and microphone setup that is commonly used today, and will be able to access a suite of voice communication tools.
+
+Upcoming features are scheduled to include voice mail, the ability to receive external calls, and voice fonts to synthesize player voices into in-game character voices. Station Voice will be hosted and managed on the Vivox Network. Game software and headsets sold separately. Station Voice is also present in EverQuest II and Star Wars Galaxies.
+
+Features at Launch in EverQuest include:
+
+-- Talk person-to-person in game with any microphone and headset combo. 
+-- Chat with your party, guild or any other group in game. 
+-- Create automatic channels for guilds, raids and groups. 
+-- Play and communicate without worry of a significant increase in game lag. 
+-- Manage group/user participation with moderator controls. 
+-- Individually mute and set volume per user Create automatic channels for guilds, raids and groups. 
+-- Set up easily without the need for separate software, accounts or registration.
+
+(For details on Station Voice see below under the UI changes.)
+
+- Group Merge Ability: Looking to fill the last few spaces of your group? Groups now have the ability to merge with each other without disbanding from their own group!
+
+With this new feature, the group leader of one group can invite the group leader of another group to join his/her group. If the invitation is accepted, the two groups will merge together to form one group.
+
+This change merely allows groups to merge without having to make everyone drop out of their current group. All other group functionality should work as it did in the past. It does not increase the six person group maximum for groups.
+
+- Weightless Coinage: Coinage no longer adds to the weight of player characters. Adventurers all across Norrath rejoice... especially monks!
+
+
+*** Items ***
+
+- The spirit of Dain Frostreaver will be very angry if the Ancient Frostreaver or Ancient Longhandled Frostreaver are used by anyone else.
+- The Skullstepper should be usable by any race that includes the classes on it. Really.
+
+*** Spells ***
+
+- Tears of Qandieal returns to its changed state. It now destroys the target's mana and inflicts damage based on the mana destroyed.
+
+
+*** NPC ***
+
+- A recast timer has been placed on the NPC version of Lay on Hands. The player version of this spell is not affected by this change.
+
+
+*** Quest & Events ***
+
+- The Demi-Plane version of Mayong's swipe attack will now properly ignore the top player of his hatelist.
+- The lockout from Bimbalicus the Soulbleeder's event will be 4.5 days from now on.
+
+
+*** Miscellaneous ***
+
+- Guild Banners will again be sustainable with only one guild member in the zone.
+- Weightless Coinage: Coinage no longer adds to the weight of player characters. Adventurers all across Norrath rejoice... especially monks!
+- The timer for returning to the game after going linkdead with a character has been reduced from 3 minutes to 1 minute.
+
+
+*** UI ***
+
+- Station Voice Comes to EverQuest!
+
+- How does it work in EverQuest? -
+To begin using voice chat, verify the feature is enabled by opening the Option window (Alt+O) and navigating to the Voice tab. This feature will be turned off by default.
+
+Devices: Once Voice Chat is enabled EverQuest will attempt to connect to the correct hardware.
+
+Push-to-talk key: Initially the voice chat system uses Ctrl+Tab as the push-to-talk key. This can be reconfigured to any available key from the Options window, Keys tab.
+
+Output volume: Master volume for all incoming Voice Chat traffic. This setting is independent of music and sound effect volume settings. Setting this to high results in distortion of incoming speech.
+
+Input volume: The relative sensitivity of your microphone. Turning it up means your microphone picks up quieter sounds. Setting this to high results in distortion of your outgoing speech. The sound indicator gives an estimate of the distortion. Red signifies high distortion, yellow medium distortion and green low distortion.
+
+Testing your setup with Echo channel: The echo channel allows you to get an idea of your settings by broadcasting what you say back to you after a short delay. 
+
+- The Voice Bar -
+Once Voice Chat is enabled and has successfully connected the Voice Bar will automatically be shown. The Voice Bar by default will remain active as long as voice chat is enabled. A hot key may be mapped to open and close the Voice Bar.
+
+The Voice Bar offers a push to talk button, a list of users of the current channel, what channels are available, a link to Options, and indication of who is currently talking.
+
+The Talk button is simply a push-to-talk button that is mouse activated instead of keypress activated. 
+The Voice Users button presents a list of the users of the current channel. Clicking on the speaker by any user allows you to adjust the volume of that player relative to your master volume. A particularly loud player can be turned down relative to other voice chat traffic Moderators for a channel are given additional options of muting a player for the entire channel, banning a player from the channel and kicking a player from the channel.
+
+The channel button pulls down a menu of channels available to you. The currently selected one is shown in green if connected. Red if the connection has failed. Unselected but available channels are shown in white. 
+
+Voice chat has been integrated into some other interfaces in the game. Speaker icons show up for players that have voice chat active. The speaker icons behave as they do in the Voice Users window, giving access to Voice Chat options specific to that player.
+
+There is currently an issue with leaving a private channel making you unable to invite someone to a new private channel. We are working on resolving this issue, but until then, logging out and back in should clear your channel status.
+
+- Using the /voicechat Command -
+The /voicechat command offers the following options:
+
+-- on: activate voice chat (ex. /voicechat on) 
+-- off: deactivate voice chat 
+-- Moderator Controls: 
+-Mute <player> - mutes a player for everyone in the current channel
+-Unmute <player>- unmutes a player for everyone in the current channel
+-Kick <player>- kicks a player form the current channel
+-Ban <player> - bans a player from the current channel and kicks them if they are present
+-Unban <player> - unbans a player from current channel
+
+
+- New -
+
+EQUI_VoiceActionBarWnd.xml
+EQUI_VoiceNoticeWnd.xml
+EQUI_TopLevelScreens.xml
+VChat.tga
+
+- Changed -
+
+EQUI.xml
+EQUI_Animations.xml
+EQUI_FriendsWnd.xml
+EQUI_GroupWindow.xml
+EQUI_GuildManagementWnd.xml
+EQUI_OptionsWindow.xml
+EQUI_PlayerWindow.xml
+EQUI_RaidWindow.xml
+SIDL.xml
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+September 30, 2008
+------------------------------
+
+The Tides of Anachronism
+
+All across Norrath and beyond, the boundaries between past and present and between parallel realities seem to be fraying. 
+
+Within the normally peaceful Plane of Knowledge, three heralds of Druzzil Ro entered the realm; bringing warnings of troubled and dangerous times ahead.
+
+"Danger has arrived! Our time is very short! Time is ticking and our doom may have arrived! As it passes, time takes with it portions of our lives. Well, your lives. And now it threatens to take all of our lives. Powers of chaos and destruction are taking their time, taking our time! Go quickly, time is so very short."
+
+Meanwhile, over in the Dreadlands, a retired scholar named Deckarn Mystglade is seeking someone to help keep him from losing his mind.
+
+A few years back when the Plane of Time was first breached by Norrathian adventurers, Deckarn warned his fellow scholars that interfering with the realm of time would only lead to disaster. After continuously trying to prophesize his unproven theories, he was forcibly requested to retire. Since then, Deckarn has been a bit unsure of anything around him.
+
+Over the past few weeks, Deckarn has been feeling a strange shift in time and began to have visions of epic battles, re-building, corruption, decay, and war. Uncertain of himself, he needs someone to investigate the mysterious occurrences in his visions to confirm that he isn't going insane.
+
+Curious adventurers begin to travel to the Plane of Knowledge and the Dreadlands to hear the rumors first hand.
+
+
+*** Items ***
+
+- The Raging Taelosian Alloy Axe and the Vengeful Taelosian Blood Axe have been modified. The Strike of Savagery effect will no longer have a chance to proc itself. Instead, the duration of the effect has been increased to 1 minute.
+- The tribute value of the mass enchant spells has been adjusted. It is not intended that infinitely purchasable items have a tribute value greater than their platinum cost.
+
+
+*** Spells ***
+
+- Tears of Qandieal and similar spells can now only be cast on NPCs to address a stability issue. The ability to use it against players will return with our next code update.
+
+
+*** Upcoming UI Changes ***
+
+- Message to custom UI users: With the next Game Update, we will be releasing several extensive changes to the User Interface (UI). Some of these changes can currently be found on the Test Server and additional changes may be released throughout the week. Please take a moment to visit the Test Server so that you can prepare ahead of time for these changes.
+
+ 
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+October 7, 2008
+------------------------------
+
+*** Highlights ***
+
+- Seeds of Destruction Zone Sneak Preview: All active EverQuest subscribers with accounts in good standing will be able to experience all new EverQuest Seeds of Destruction zones two week before commercial release! During this special event players can participate in quest lines and group encounters as they assist Antonius Bayle and preserve the future of Qeynos! Zones include the eerie devastation of the Void, the lush wilderness of Oceangreen and the perilous Temple of Bertoxxulous. Beginning October 7, 2008 seek out the herald of Druzzil Ro in the Plane of Knowledge to be transported to a time rift that leads to the preview content!
+
+- Group Merge Ability: Looking to fill the last few spaces of your group? Groups now have the ability to merge with each other without disbanding from their own group! With this new feature, the group leader of one group can invite the group leader of another group to join his/her group. If the invitation is accepted, the two groups will merge together to form one group. This change merely allows groups to merge without having to make everyone drop out of their current group. All other group functionality should work as it did in the past. It does not increase the six person group maximum for groups.
+
+- Group Window Enhancements: The following changes have been made to improve the Group Window - We've added mana and endurance gauges for group members. We've added a Group Roles infrastructure. When right-clicking on a member of the group, a leader will now have the roles sub-menu for role administration. If currently the leader of a group, right-clicking the player's health / mana / stamina window will also show the same role administration menu. We also added in the /grouproles command. A group role indicator was also added to the Player Info window.
+
+- Target Window Enhancements: The following changes have been made to improve the Target Window - The target window will now display the buffs on target players, pets, and in the future mercenaries. The Inspect Buffs leadership ability is still needed to view NPC buffs. The target's buff timers displays in hours, minutes, seconds. We've added the ability to remove buffs from yourself, your pet, and in the future mercenaries from the target window. The ability to block buffs on you and your pet has also been added to the target window. The Target Window is now resizable.
+
+- More Firiona Vie Character Slots: We've extended the amount of character slots available on the Firiona Vie server to 3 characters.
+
+- Message to Custom UI Users: Due to the amount of changes being made to the user interface with this game update, custom UI users are advised to switch to the default before attempting to log in or if you experience difficulties when logging in.
+
+
+*** Fan Faire Requests ***
+These changes were made due to some of the feedback received at the 2008 Las Vegas Fan Faire.
+
+-Added the ability for players to target nearest corpse and cycle through the nearest corpses via hotkeys. These will need to be set in the options menu to be used. 
+-Increased the range of emotes to match the range of say. 
+-Fixed an issue with damage shield mitigation on items. 
+-/target will now target the player instead of their familiar, as long as the player is within a reasonable distance of their familiar. 
+- We now display all bind points for a player when using /charinfo.
+
+
+*** Spells ***
+
+- A new resurrection spell has been added for Druids and Shaman. Wanderer Astobin and Mystic Abomin in the Plane of Knowledge library have the scroll for sale. The spell returns 90% of a player's lost experience and can only be used while out of combat.
+
+
+*** AA ***
+
+- Removed the group leadership AA Designate Main Assist since this functionality is given to all groups through the new Group Role system. Leadership AAs spent on this ability have been refunded in the form of regular AAs.
+- Certain AA's that added extra riposte chances will no longer cause your non-rogue enemies to backstab you.
+
+
+*** Quest & Events ***
+
+- Monks should no longer get left behind after completing the Seventh Hammer portion of their Epic quest.
+- Paladins should no longer get left behind after completing the Mujaki the Devourer event for their Epic quest.
+
+
+*** Miscellaneous ***
+
+- Items and coin are no longer left on a corpse upon death. The items will remain equipped and in their respective containers.
+- Spells will now remain memorized on a character upon death.
+- Players should now be able to equip items for which they don't meet the required level. In the inventory window, the item will be highlighted in yellow if the required level is not met. No benefits will be granted from this item other than being able to equip it.
+- Added the concept of revive effects. When you respawn, you will receive negative effects for a while to compensate for having all your equipment and spells still memorized.
+- /target will now choose PCs over NPCs when using a partial name.
+- If you have a familiar buff but no familiar, it should no longer destroy any other pets you have when you remove the buff.
+- All classes now keep their familiar buffs when the familiar is killed or dismissed, not just wizards.
+- Fixed a problem with familiars for pet classes. If you have a pet, then summon a familiar, then zone, it will now keep your pet properly with only the familiar buff.
+- Fixed some problems with the muted friends list for voice chat.
+- Corrected a few issues with group and raid management functions.
+- Groups are now somewhat persistent. If you log out and log back in you will still be in your group. Offline players should still be able to be kicked out of groups.
+- Fixed a problem with /hidecorpse looted where the client and zone could get out of sync and keep you from looting for a while after that.
+- Added /hidecorpse npc which works just like /hidecorpse all except it only hides NPC corpses.
+- Drakkin rogues will now sneak at the correct speed when over level 50.
+- Added in Group Roles infrastructure. When right-clicking on a member of the group, a leader will now have the roles sub-menu for role administration. If currently the leader of a group, right-clicking the player's health / mana / stamina window will also show the same role administration menu. Also, added in the /grouproles command. A group role indicator was also added to the Player Info window.
+- Group members in other zones will now be notified when their group member (that previously logged off) logs back in (grey when they're offline, white when they're online). Their name in the group window changes color as indicated for online/offline status.
+
+
+*** Voice Chat ***
+
+- Slash versions of the commands are effective on playername for the channel you are in and only if you are the moderator (raid/guild/group leader)
+- Unban only works via slash command since there the banned player is no longer in the channel and therefore no longer available to click on.
+- /voicechat unban playername
+-Unban only works to unban playername in the channel you are currently in, and only if you are the moderator (raid/guild/group leader)
+
+
+*** UI ***
+
+Several changes have been made regarding the design of user interface windows. Some of the changes are noted below:
+
+- The group leader will now be displayed in a different color in the group window and player window. This will work in addition to /groupleader to find out who the group leader is.
+- Updated the pet window to display timers in hours, minutes, seconds like the buff window.
+- "Caster:" in the buff info window will now display the user name. Also, if there is no caster information available, the "Caster:" line should not appear.
+- Added the ability to click on a group member and target out of zone / link dead group members. Using the function keys by default should also bring up the players in the target window.
+- Invite, follow and disband/decline buttons are no longer required in the group window.
+- Modified the spell gem window to auto-resize based on the number of spell gems activated via Mnemonic Retention.
+- Added the ability when using custom UI's to target out-of-zone group members by clicking on their EQType's gauge.
+- Fixed a bug seen in custom UI's where the spell name in the buff and short term buff windows would be "Unknown Spell" when there was no buff in that slot.
+- In the group window, the gauge size can now be used by custom UI modifiers to set the size for gauges instead of having to change the background size.
+
+- New -
+
+EQUI_MercenaryManageWnd.xml
+EQUI_MercenaryInfoWnd.xml
+EQUI_MercenaryMerchantWnd.xml
+EQUI_TopLevelScreens.xml
+
+- Changed -
+
+EQUI.xml
+EQUI_Animations.xml
+EQUI_FriendsWnd.xml
+EQUI_GroupWindow.xml
+EQUI_GuildManagementWnd.xml
+EQUI_OptionsWindow.xml
+EQUI_PlayerWindow.xml
+EQUI_RaidWindow.xml
+EQUI_TargetWindow.xml
+EQUI_BreathWindow.xml
+EQUI_CastingWindow.xml
+EQUI_CombatAbilityWnd.xml
+EQUI_EQMainWnd.xml
+EQUI_CompassWnd.xml
+EQUI_HotButtonWnd.xml
+EQUI_LeadershipWnd.xml
+EQUI_PetInfoWindow.xml
+EQUI_TrainWindow.xml
+EQUI_Inventory.xml
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+October 21, 2008
+------------------------------
+
+A sneak peek of the patch message to go with the launch of Seeds of Destruction: Note this message will probably receive a few additions before the Game Update goes live. 
+
+*** Highlights *** 
+
+*** Seeds of Destruction *** 
+
+Welcome to EverQuest Seeds of Destruction, the 15th expansion for EverQuest! 
+
+A new rift has opened in the Plane of Time. This rift leads to a bleak prophecy of the end of existence. The world of Norrath lies in ruins. The planet has shattered into millions of shards, spinning in a silent void around the rapidly blackening star of Ro.
+
+In the wreckage on a small shard of the world, a lone figure sits quietly tending a small seedling growing between the rocks. The lone figure is none other than the fallen god Zebuxoruk. 
+
+Zebuxoruk is certainly insane, but has a unique insight into the current state of the world and possibly might hold the knowledge to guide adventurers in the quest to prevent the destruction of Norrath. Only he can direct adventurers towards specific moments in time where the armies of Discord were able to disrupt the timeline. 
+
+If they are able to stop the forces of Discord, the destruction in The Void will slowly be repaired. If not, all hope will be lost. 
+
+- Level Cap Increase: Players can now achieve level 85. New high level item sets, new Alternate Advancement ability lines, new spells, and new skill caps come with this increase. 
+
+- New Content: New themed realms for adventurers to explore including Oceangreen, Bloody Kithicor, Field of Bone, Invasion of Earth, Kuua, and Discord. Travel through the rift in Time solo, with a group, or in raids to complete new quests, tasks, and events to acquire new items, spells, tradeskill recipes, and abilities. 
+
+- Mercenaries: Mercenaries are NPCs for hire that will aid adventurers in their heroic endeavors. Their levels and abilities will scale appropriately and they will think and act for themselves with limited player guidance. They are designed for extra support or extra muscle in PvE encounters. 
+
+Unlike player pets, these NPCs are not directly controllable by players, though the player can give them general orders, but rather function like a normal party member including taking up a group slot and taking a share of the experience. 
+
+Mercenary Liaisons can be found in all starting cities and will allow you to hire mercenaries based on their race. The Liaisons within the Plane of Knowledge and Oceangreen Village will allow you to hire mercenaries of any player race. These merchants can be found using the Find ability. 
+
+Before purchasing a mercenary be sure to read the descriptions, cost value, and restrictions. There are different levels and tiers available. Some mercenaries may not available until you have completed certain content but there are some apprentice and journeyman ones available to all. 
+
+There are two classes of Mercenaries available - Tank and Healer. 
+
+Healer Mercenary: Healer mercenaries prefer to heal their owner and others in the group rather than engage directly in combat. These mercenaries can also resurrect players upon death. 
+
+Tank Mercenary: Tank mercenaries prefer to melee. They will taunt if it is set to the main tank role. Though it will still attack and behave as a secondary tank if it is not set as main tank. 
+
+Mercenaries can be suspended like a pet. There are some zones that will automatically suspend your mercenaries upon entering the zone. 
+
+*** Live Highlights *** 
+
+- New Statue in Guild Hall: As a part of SOE's EverQuest and EverQuest II Living Legacy celebration that took place this summer, SOE and the Legends of Norrath team searched for two enthusiastic players who have what it takes to be immortalized in their favorite MMOs! Everyone was invited to submit their photos for this special contest. Out of all the submissions, Khyandys Aramyndan of the Altruistic Valorians guild on the Erollisi Marr server was selected as the winner for EverQuest! Her photo was transformed to a Legends of Norrath card and a statue of her character was placed within the Guild Hall in EverQuest! Congratulations Khyandys! 
+
+*** Items *** 
+
+- Altered the merchant value of the unfired and sealed Energeian Orbs. 
+
+*** AA *** 
+
+- The "Elemental Form" AA lines have had their reuse delay reduced to 30 seconds. 
+- Added Cleric, Paladin, Druid, Beastlord and Ranger to the Quick Buff line. 
+- Changed Spell Casting Deftness to a 10%, 25% and 50% cast time haste to match Quick Buff. 
+- Focused Paragon of Spirit now requires players to purchase rank 3 of Paragon of Spirit before they can purchase the Focused Version. This will not impact anyone who currently has Focused Paragon. 
+
+*** NPCs *** 
+
+- Citizens of Shadowhaven now proudly advertise the services they offer. 
+- Raid NPCs are now immune to Song of the Highsun. 
+- All guildmasters will now train research to skill 20 if the player is the appropriate level to gain the research skill. 
+
+*** Tradeskills *** 
+
+A few new sets of items and recipes have been created for Tradeskills along with a few standard upgrades. 
+
+- Alchemy potions have been upgraded to level 85 and a few more illusion potions have been added. 
+- Baking received a new meat, with recipes to go along with it. 
+- Absinthe and another high-powered drink have been added in for Brewing. 
+- Jewelcraft received a new metal for the next power level of jewelry. There is also a new type of base jewelry for gold and up. 
+- Jewelcrafting, fletching, and pottery now play a major support role for smithing and tailoring. 
+- All Energeian power sources can now be made with pottery, including the raid power sources. 
+- New weapon recipes have been added for Smithing and Tailoring. These weapons are similar to cultural armor, but without the race/deity restrictions. 
+- A few new recipes have been added for Tinkerers to create some handy devices. 
+- Many spells have been added for Research, up to TSS Rank 2. 
+- Tome research has been implemented, which means that melee classes will be able to research tomes. All classes now have access to the research skill. 
+-- Int caster classes will still be able to research all spells and songs for all classes. They are not able to research melee tomes. 
+-- Pure melee classes will be able to research all tomes for all classes. 
+-- Priest classes will be able to research spells that are usable by any priest class. 
+-- Hybrid classes will be able to research any spell or tome that can be used by any hybrid class. 
+-- Bards will be able to research any spell, tome, or song that can be used by any hybrid class. 
+
+*** Miscellaneous *** 
+
+- Corpses will now automatically decay after you receive an experience-granting resurrection while in hover mode. 
+- Corrected an issue that caused NPCs to not receive full damage when multiple projectiles hit them at the exact same time. 
+
+*** UI *** 
+
+- Things that shouldn't have a con color (corpses, boats, etc.) will no longer display with a white con in the target window. 
+- Re-arranged the General Options tab to allow for more options. 
+
+- Changed - 
+
+EQUI_OptionsWindow.xml 
+EQUI_GroupWindow.xml 
+EQUI_ConfirmationDialog.xml 
+
+*** Previously Updated through Hotfixes *** 
+
+- The Darkpaw quest givers in Oceangreen Hills are now marked as such. 
+- Oceangreen Hills: Fixed an issue with Captain Hiran Tillin where players could do his quests out of order and potentially cause progression problems with their characters. 
+- Apothecary Cadmael in Oceangreen Village no longer stocks Black Pearls, Black Sapphires, Diamonds or Quintessences of Knowledge. 
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+October 29, 2008
+------------------------------
+
+*** Highlights *** 
+
+The Haunting of Norrath continues until Novemeber 7th. 
+
+October 31st marks All Hallows' Eve, the night when spirits rise at night and the begging for treats is deemed appropriate. Whether you celebrate this spooky holiday or not, it is the perfect excuse for dressing up in strange clothing, telling scary stories, decorating your house, bobbing for apples, and eating lots and lots of yummy candy. 
+
+Here are the Halloween Activities you can participate for EverQuest this season! 
+
+*** Items *** 
+
+- Fixed an issue that was preventing many players from redeeming their SoD claimable bonus items. All claimable items should now be available upon logging in a character. 
+- Altered the merchant value of the unfired and sealed Energeian Orbs. 
+- The Geerlok Automated Quill can now be used by all classes. 
+- Fixed the compartmented jewelry to properly give the stats to the gems inserted into each slot. 
+- Seal of Captured Fire, Seal of Captured Ice, Seal of Captured Earth, Seal of Captured Air and Seal of Prismatic Power are now slot 12 augments as intended. 
+- Corrected a spell description error with the Ornate Gnoll Hide Lariat. The proc had been labeled incorrectly as a DoT.
+
+*** Spells *** 
+
+- Spells purchased from the Void are no longer tradable. 
+- Several enhancements to spell lines have been retroactively applied to Secrets of Faydwer spells. 
+- - Global spell recast timers for these lines have been reduced from 2.25 seconds to 1.5 seconds. 
+- - Druid heals, Shaman heals, and Paladin group heal yield and efficiency have been increased. 
+- - Many DoT spells have had their cast time reduced and some had a recast time increased. 
+- - Many DD spells have had their cast time reduced and their recast time increased. 
+- - Some regeneration effects (Hit points and Mana) were increased. 
+
+*** NPCs *** 
+
+- Fixed a requirements issue with type 3 augments. 
+- Changed the power of several rare NPCs in SoD to properly match the intended difficulty for each rare. 
+- Added Brimstone Coal and Faysilk Filament to the appropriate merchants throughout the world of Norrath. 
+- Flavin Deeppockets is loafing about in the Guild Lobby ready to hold on to your Seeds of Destruction component items... for a small fee. 
+- Added Balanced Axe Components to the Veteran Reward merchant. 
+- Fixed some rare NPCs in Toskirakk that were spawning far too often. 
+- Fixed some rare NPCs in Kuua and the Korascian Warrens that were not spawning often enough. 
+- Corrected a faction issue that was causing some rares to be killed if they spawned in the wrong spot. 
+
+*** Quest & Events *** 
+
+- The quest "Rain of Ruin" should be worded a bit more clearly now. 
+- Requesting the Bloody Kithicor raid will now result in the proper instance. 
+
+*** Tribute *** 
+
+- The personal benefit Aura of Clarity Tier 7 now costs the appropriate 86pp. 
+
+*** Tradeskills *** 
+- The Research Trophies and Ethereal Quill can now be equipped by all classes. 
+- Fixed an error in the book "The Drink of Timeless Energy." 
+- Made a minor change to the text in the book "Clockwork Protection Volume I." 
+- Changed the recipe for Vow of Valor Rk. II to use inks of Pain, Tunare, and Zek rather than two Inks of Pain. 
+- Changed the recipe for Moonshadow to use mitigating thickener instead of talisman thickener. 
+- Burning Aura now uses Invigorating Thickener. 
+- Aura of Life now uses Ink of Tunare as well as Ink of Bertoxxulous. 
+- Added the level 69 DoD spells and the TSS Magician item summoning spells to research. 
+- Fixed some errors in the note “Spiced Wind Willow Acorn Recipe.” 
+
+*** Zones *** 
+
+- Increased the Zone Experience Modifier of most SoD zones. 
+- Fixed a few zone stability issues. 
+- Fixed a pathing bug in West Karana that was causing scarecrows to be far too scarce. 
+** AA *** 
+
+- Corrected an AA timer conflict with Phantasmal Opponent (Enchanter) and Companion’s Blessing AAs. 
+- Corrected an AA timer conflict with the AA Teleport Bind (Druid) and Call of the Wild (Druid). 
+- Adjusted several activated AAs to resolve stacking conflicts. 
+
+*** Mercenaries *** 
+
+- Mercenaries should no longer break mez when using their AE offensive abilities. 
+- Mercenaries are now allowed in Qeynos Catacombs. 
+- Fixed an issue that caused healer mercenaries to react incorrectly if a familiar they were buffing was summoned. 
+- Casting a spell on a mercenary will now give a downtime timer. This is based on the difficulty of the most difficult NPC on the mercenary is engaged with. Spells cast on the mercenary when not in combat should not generate a downtime timer. 
+- NPCs fighting a mercenary should now correctly call for help from their friends. 
+- Damage from mercenaries is, like pet damage, no longer considered as "NPC damage" for purposes of calculating if an NPC did more damage than PC groups 
+- They will no longer steal credit for your kill! 
+
+*** Miscellaneous *** 
+
+- A dead player's corpse will no longer steal the credit for a kill due to DoT spells of the player in hover mode. 
+
+*** UI *** 
+
+- Clicking on the Bloodfields and Commonlands on the Atlas while on the "The Void" map should now bring up the correct zone maps. 
+- Highpass Hold should now be listed correctly on the Atlas. 
+- While in windowed mode, changing to another application (clicking or alt-tabbing) should no longer cause the target to clear or change. 
+- Fixed an issue with toggling between the last two targets. 
+- Escaping the loot window while looting should no longer cause the client to crash. 
+- Clicking an empty spell gem slot should no longer cause the client to crash. 
+- Fixed issue with not selecting the correct target when clicking on the group gauges. 
+
+- Changed - 
+
+EQUI_CastSpellWnd.xml 
+Void.xml 
+Void01.tga 
+
+*** Previously Hotfixed *** 
+
+- Corrected an issue where base population in Field of Scale was not respawning. 
+- Merchant Woad now carries the four new Energeian sketches. 
+- Added Brimstone Coal and Faysilk Filament to the appropriate merchants in Plane of Knowledge. 
+- The Queen Malarion raid should now properly apply its success bit and when completed. 
+- Corrected a faction issue with Rongol and Anderia that was preventing some races from getting their quests. 
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+November 14, 2008
+------------------------------
+
+From the patcher:
+
+*** Hotfix *** 
+
+*** Tradeskills *** 
+
+- Merchant Woad now carries the new energeian supplies. 
+
+*** NPCs *** 
+
+- Wisps in Oceangreen Hills will no longer assist catapults and should be slightly less common than before. 
+- Poachers and diseased animals should be more commonly found in Oceangreen Hills. 
+- Javrik K`Than is no longer immortal. 
+
+*** Quests *** 
+
+- Fixed a bug with Captain Tillin in Oceangreen Hills. He will now always give out his tasks in order. 
+- Reanimated Bone Dust should be slightly more common than before. 
+- Made several tuning changes to the Safe Passage mission. 
+
+*** Events *** 
+
+- The dwarves in the Showdown at the Crystal Core raid now insist on staying near their post and will no longer chase players too far from their camps. 
+- The adds in the “Showdown at the Crystal Core” raid will now spawn a bit more quickly. This is to boost the difficulty closer to the intended difficulty. 
+
+~ The EverQuest Team
+
+.....................................................................
+
+------------------------------
+November 21, 2008
+------------------------------
+
+*** Hotfix *** 
+
+*** Quests *** 
+- Corrected an issue with the task Beat the Blackburrow Boss that could cause some players to not get task updates. 
+- Corrupted Beguilers in the “The Price of Knowledge” mission will now chose the most hated player to update the task instead of the most hated entity, which might have been a pet or a mercenary. 
+- The tormentors in the task “Inside information” take longer to arrive once their numbers begin increasing. 
+- Ganak's advisors will now assist each other in a manner that does not alert as many of their allies. 
+- Added the rank XIV potions to the appropriate vendors. 
+- Fixed a bug with Captain Tillin in Oceangreen Hills. He will now always give out his tasks in order. 
+- The necromancers in the Drake Scourge task will update the group's task more reliably now.
+
+~ The EverQuest Team 
+
+11/20/2008 
+
+*** Test Server *** 
+
+- HP, Mana, and Endurance calculations have been adjusted to address a few unintended inconsistencies. 
+
+We've identified the unintended inconsistencies in the HP/Mana/Endurance formulae that were causing inflated values. We've readjusted the values to be more in line with expectations and to help prevent problems like this in the future. 
+
+The net result of these adjustments will be that everyone should see a benefit Over the values present at the launch of Seeds of Destruction, although you will notice a drop from the most recent values if you're level 81+. 
+
+This change is now available for testing over on the Test Server. You can use /testcopy on the live servers to get your character copied to the Test Server to check out the changes. 
+
+*** Live Servers *** 
+
+*** Hotfix *** 
+
+- The Dragorn in Kuua have become strangely weaker. It appears the Muramite forces may have gained the upper hand. 
+- The Venomlord's event will now start over if players fail to engage him again within one minute of him becoming idle. 
+- Pallorax in discord will now start over if the players take too long to engage him after he moves between portals. 
+
+~ The EverQuest Team
+
+.....................................................................
+
+------------------------------
+December 9, 2008
+------------------------------
+
+Here is the patch message from this morning. It's a big one, so get settled:
+
+*** Highlights *** 
+
+- Frostfell: As the air starts to chill and the frost begins to cover the ground, the season of Frostfell begins. No holiday season is perfect though and a couple of your fellow Norrathians need your help to make Frostfell a merry holiday for all! Visit your favorite major city and the Plane of Knowledge to find out how you can help. The season of Frostfell will embrace Norrath from December 9th through January 8th. Various events new and old will be available at different intervals throughout the season. So make sure you join in the fun before Frostfell is over for another year. 
+
+- New Hot zones: The following Zones are now "Hot" with additional experience and item rewards. Additionally Franklin Teek in Plane of Knowledge will be happy to remind you of the current Hot Zones! 
+
+Level 20: Stonebrunt Mountains 
+Level 25: Crystal Caverns 
+Level 30: The Overthere 
+Level 35: Mons Letalis 
+Level 40: Great Divide 
+Level 45: Nagafens Lair 
+Level 50: Plane of Innovation 
+Level 55: Sshraeshza Temple 
+Level 60: Crypt of Decay 
+Level 65: Stoneroot Falls 
+Level 70: Valdeholm 
+Level 75: Dreadspire Keep
+
+*** Items *** 
+
+- Added backstab skill modifiers to Seeds of Destruction Piercing weapons. 
+- Adjusted the nomenclature for some SoF items with corruption damage foci. The focus percentages did not change, only the names. 
+- Altered the required level for the procs on the "fine weapons" to match the required level of the symbol instead of the recommended level. The exceptions to this are the Blessed symbols which require level 11. 
+- Changed the appearance of the player-crafted "fine" long hammers. 
+- Changed the focus effect on the Gleaming Ursine Fang to match the focus on the base item. 
+- Class-specific armor for Clerics, Druids, and Shaman has had healing foci added to match the SoD armor. Clerics and Shaman will now have healing foci on their arms, while Druids will have healing foci on their wrists. 
+- Druadic Frostlinked Leggings and Necrotic Chillsteel Greaves have had a detrimental spell haste focus added to match the other elemental leggings. 
+- Fixed an issue with the Familiar of the Emerald Jungle that was causing it to behave differently from other familiars. 
+- Many Elaborate Defiant weapons have been upgraded slightly to follow the group item changes. 
+- Many SoF and all SoD group weapons have received a damage upgrade. Please be aware that some of these items are still being adjusted and may change further in a subsequent patch. 
+- SoD weapons with elemental damage did not all have the element that was intended. These have been changed to the intended element. 
+- The Bloodreaper has changed appearance and effect. 
+- The click effect on Darkened Shining Metallic Robes now uses its own recast timer and will not interfere with other effects. 
+- The Crystal Dewdrop will now have some benefit even when it is not raining or snowing. 
+- The Dagger of Darkflaying's appearance has changed. 
+- A new set of Defiant armor has appeared. 
+
+*** Spells *** 
+
+- Corrected an issue that was causing the focused versions of pets summoned by the beastlord spell "Spirit of Hoshkar" to take more melee damage than they were intended to. 
+- Dropdown category for Spell Damage and Haste combination songs is now "Haste/Spell Focus" instead of either or both. 
+- Paladin and Shadowknight damage reduction disciplines should now stack with all other spells that use the same effect. This change applies to the "Armor of " and " Carapace" lines. 
+- Range on Rogue targeted abilities has been increased. 
+- Range on the Necromancer's Withering Decay and Enchanter's Dominating Aura effects has been increased. 
+- Tempest Blade is now an aura named Aura of Rodcet that mimics the functionality of the Cantata of Rodcet. 
+- The damaging proc effect from Bard's Tempest Blade song has been consolidated with Arcane Arietta. 
+- The global cooldown for spells previously set between 1.5 to 2.5s has been reduced to 1.5s. 
+- The hate reduction effect from Mindfreeze should no longer have stacking issues with other effects. 
+- The Malo and Tash lines should no longer interfere with out of combat regeneration. 
+- The Mindfreeze hate reduction effect will now stack with the Bazu Bellow line. 
+- The Necromancer SoF robe clicky now spawns a short duration pet instead of bestowing casting haste. Higher tier versions of the click increase the pet's lifespan. 
+- The Rogue SoF breastplate clicky has had its average damage increased slightly. Higher tier versions of the effect now increase the damage done per proc, instead of the increasing the effect's duration. The duration on both versions is now 2 minutes. 
+- The Wizard SoF robe clicky will now work on higher level spells, albeit at a reduced effectiveness. 
+- Type 3 augmentation bonuses should no longer benefit additional spells. For example: Icesheet Cascade / Klixcxyk's Fire improving the damage of Ethereal Conflagration. 
+
+*** Quests *** 
+- Addressed some faction issues that were causing NPCs in the Safe Passage mission to assist the wrong group. 
+- Fixed a bug with Captain Tillin in Oceangreen Hills. He will now always give out his tasks in order. 
+- Fixed the reset issues with the task in Old Bloodfields called Supply Interruption. If the task is not completed within 20 minutes of the flags being placed, the event will clean up and the task is failed. 
+- Guards in missions in Toskirakk and Kaesora will not be so easily fooled by hiding from them. 
+- Heralds in each of Seeds of Destruction's five eras will now offer a new quest. Each day the heralds will select one mission and grant players a bonus for completing that mission, as long as they have accepted the new quest from the Heralds. 
+- Killing Silliv` Host will now properly update the task "The Cabilisian Trade Route." 
+- Malaurin V`Kon will now reset much more quickly after a failure of the Disruptive Influences task. 
+- Modified the quest Favors of the Hopelost in City of Dranik to remove unwarranted faction hits. 
+- Navrn K`Val, Thaliv T`Kysh and Vyntal Zintha now carry the false orders. 
+- People on the "Let my people go" task must now complete the first two elements before speaking with Lymrit again to complete the task. 
+- Reduced the number of Army of Light Longswords needed to complete the Take Everything task in Bloody Kithicor. 
+- Reduced the number of Poachers that need to be killed for Poach the Poachers in Oceangreen Hills to 4. 
+- The necromancers in the Drake Scourge task will update the group's task more reliably now. 
+- The quest "Disruptive Influences" is now much less likely to get out of sync, so should be much easier to complete. Malaurin V`Kon will also only wait for a quest update for 20 minutes at a time. If this time elapses Malaurin V`Kon will go home, resetting the task. 
+- The Seeds of Destruction Quest buy back merchant now uses Chronobines instead of Doubloons. He will also buy any of his quest items from you for 1 Chronobine. 
+
+*** Raids *** 
+
+- Added an additional reward to the Field of Scale raid "Jaled`Dar's Sacrifice" 
+- Emperor Ganak has decided to try a new tactic for using his spells during the Jaled`Dar's Sacrifice raid. 
+- Fixed an issue that would not allow players to get the second Rathe Council raid. 
+- Upon completion, the Fall of Toskirakk event should now show "The Fall of Toskirakk" as the lockout name instead of "Unknown Event". 
+
+*** NPCs *** 
+
+- Adjusted the spawn rate for rare NPCs in the Rathe Council Chambers. 
+- Rathework guardians have moved out of the inner sanctum of the Rathe Council Chambers. 
+- Removed the remaining unkillable NPCs from the Safe Passage mission. 
+- The Dragorn defending Dranik have become strangely weaker. It appears the Muramite forces may have gained the upper hand. 
+
+*** Tradeskills *** 
+
+- "Fine" Inured one handed, non-piercing weapons, and Exalted Nimble symbols had a change in their damage to fix an upgrade path issue. The damage will be very close to what it currently is, just distributed differently. 
+- Added Paladins and Shadow Knights to the "Fine" maces made via tradeskills. 
+- All "fine" elegant and stalwart weapons, along with their corresponding sublime and venerable symbols, received an upgrade in overall damage. 
+- All spells and tomes that are tradable on regular servers should now be tradable on the Firiona Vie server. 
+- Altered the recipes for Wishka's Favor Rk. II and Tome of Aura of Draconic Runes Rk. II. 
+- Baublie Diggs, outside of West Freeport, now will give a quest to any researcher, no matter their class. 
+- Changed Faceted Blue Diamond to Mounted Blue Diamond in the recipe for Fizzlesprocket's Forceful Discharging Apparatus. 
+- Chronal Resonance Dust has become more common. 
+- Created a new instruction book for research that can be found on some research vendors. 
+- Immaculate Silk is now tradable on Firiona Vie. 
+- Made appropriate changes to the following research recipes: Spell: Aura of the Grove, Tome of Crippling Strike, Spell: Summon Aenda's Trinkets, Spell: Summon Plate of the Elements, Spell: Summon Elemental Armaments, Spell: Nectar of Pain, Spell: Spear of Ro, Spell: Rathe's Strength, Spell: Grave Pact, Spell: Death Rune, Spell: Dark Rune, Spell: Spirit of the Stoic One Rk. II, Spell: Ancestral Bargain Rk. II, Spell: Blacktalon Bite Rk. II, Spell: Terror of Vergalid Rk. II, Spell: Venin Rk. II, Spell: Elemental Symbiosis Rk. II, Spell: Shield of the Crystalwing Rk. II, Tome of Tendon Cleave Rk. II, Spell: Silent Piety, and Pack Shrew (added prayer writing kit to shaman version) 
+- Modified the recipe for "Spell: Tortugone's Drowse Rk. II" to make it more properly fit the spell research system. 
+- Some "fine" simple weapons received an upgrade in damage. 
+- The Drink of Timeless Energy is now made with simmering fairy drake dust, and can also be made with any of the elemental spirit dusts (earth, air, fire, water). 
+- The level 69 Dragons of Norrath spells and tomes created through research are now tradable on all servers. 
+- The Researcher Charm can now be used by all classes. 
+- The slot 12 seals from Crystallos have been made to fit in the seven visible armor slots, and are no longer agnostic only. 
+
+*** AA *** 
+
+- A new AA has been added to the Seeds of Destruction List for Bards - Sionachie's Crescendo. 
+- Adjusted the slot order on the Ranger AA Group Guardian of the Forest to prevent a stacking conflict with other spells that have a Chance Spell. 
+- Adjusted the spell casting range of Fog of Memories (Enchanter AA). 
+- Adjusted the stacking of Second Spire of Enchantment (Enchanter AA). 
+- Re-enabled the SoD AA Extended Ingenuity. Bards, Monks, Warriors, Rogues and Berserkers will now be able to purchase this AA. 
+- The AA Fortified Entanglement (Wizard) now requires the purchase of Hastened Root 4 to resolve a conflict between these two AAs, making your roots less reliable if you had not purchased both. 
+- The heal over time component of the highest ranks of Lay on Hands will now go to the short buff window. 
+- The Ranger AA Hastened Trueshot will now focus the Sureshot Discipline. 
+- The Rogue AA Sleight of Hand should now stack with the Envenomed Blades AA. 
+- Veil of Mindshadow spells will now have a wear off message. 
+
+*** Zones *** 
+
+- Replaced the missing door on the merchant vs. merchant ship instances in the Buried Sea. 
+- Savet Ironstove now properly advertises what he sells. 
+
+*** Mercenaries *** 
+
+- Healer mercenaries will give less priority to healing shamen that are not flagged as the main tank role and that are not being directly attacked. This should allow them to be a bit friendlier with regards to cannibalize. 
+- Mercenaries should be friendlier to feign splitting techniques. If the puller feigns in camp before the merc has a chance to react, the merc will not attack the mobs hostile only to the puller. 
+- Mercenaries will no longer attack enemies that are currently engaging targets outside their group (or group's pets). 
+- The camp radius now scales somewhat dynamically in that if your group is widely spaced, the radius around the group's center considered "in camp" to the AI is increased to avoid a situation where you've pulled an NPC past one of the group's members, but the AI still does not react to it. The minimum camp radius from group center is still 50feet as it was before. 
+- Healer mercenaries will no longer cast heal spells on themselves that have an invulnerability component, as the AI was never tuned to do this at the right time, and it leads to problems with the mercs appearing to be unresponsive. 
+- Increased the timer for how often a merc will attempt to resurrect a corpse when the res is not accepted from 2 minutes to 5 minutes. 
+- The ability to suspend/un-suspend a mercenaries is now locked when in combat and when the player still has a cool-down timer on PvP servers. For standard rule servers, the cool-down timer still does not factor into this, suspend/un-suspend can be done immediately after the hatelist is cleared. 
+- Tank mercenaries will now default to following their owner (or group) when there are no melee targets even when in combat. 
+- Mercenary Clerics should no longer cast their spell haste buff on classes that have no mana. 
+- Mercenaries now appear with a ':' before their name in the tracking window, similar to pets. 
+- Fixed a bug that allowed a mercenary to keep the effects of an aura permanently after the aura was no longer present. 
+- Fixed a problem that caused some players that zoned slowly to not be able to unsuspend their mercenary after they zoned. 
+- Mercenary healers will now only dispel buffs on enemies when in aggressive stance. Since aggressive stance isn't currently in the game (though it may return at some point) healer mercs will no longer be dispelling for now. 
+- Mercenaries should no longer become bald after various illusions. 
+- Added a new "Assist" stance for Journeyman and above tank mercs that allows them to operate in essentially a DPS mode. If the tank merc is in Assist stance and not designated the main tank it will not use any off-tanking behavior like it does when in Aggressive stance. It will attack whatever the main assist is targeting (or whatever it last attacked it there is no main assist) and continue to do so until the main assist switches targets. If in Assist mode and designated the main tank the tank merc should behave the same as it does in Aggressive stance. 
+- Fixed a problem where if you had maxed out your buff slots, healer mercenaries would no longer heal you. 
+- Fixed a problem that caused the AI to be blind to damage taken from certain spells like Blood Magic or Divine Arbitration. 
+- Fixed a problem where mercenaries were counting toward the hit limit for rain type spells, causing them to have fewer pulses when in the area of effect. 
+- Merc healers will no longer cure charmed pets. 
+- Mercenary "in camp" radius is no longer a sphere. It is now more of a disc to help with problems of mercs healing, etc. when a puller is on a floor above or below. 
+- Merc healer AI will no longer cast cure spells if somone in the group is at lower than 50% health. 
+- Mercs will no longer move out of melee range of their target if they are casting a beneficial spells (heals, buffs). This should cut down on a fair amount of unnecessary movement. 
+- Mercs should no longer run off to follow someone across the zone when their owner is set as puller. They will only follow another group member other than their owner if that other group member is within their awareness radius (about 200 ft.). 
+- Fixed an issue with out of combat healing AI doing a lot of over healing. 
+- PvP spell resist and duration values are now used when hostile spells are exchanged between a merc and a PC (for non PvP servers this only applies to the Arena). 
+- Fixed an issue with merc suspend timers counting down too fast if a custom UI had multiple instances of the timer display. 
+- Fixed a problem where mercenaries would go bald when removing an illusion and zoning. 
+- After carefully watching mercenaries since SoD launch some balance changes are being made: 
+-- You will no longer be able to suspend or unsuspend your mercenary while you are in combat. 
+-- Journeyman mercenaries will now cast 96% resurrection. Apprentice mercenaries are limited to 90% res. 
+-- Increased the stats of the Tank Mercenaries starting at the Journeyman tier. The values are tuned to be less than what an equivalently geared player would be but is higher than previous values for various mitigation and avoidance stats useful for a tank. 
+
+*** Miscellaneous *** 
+
+- Corrected a few Stability issues. 
+- Implemented new Hot Zones! Franklin Teek in Plane of Knowledge will be happy to remind you of the current Hot Zones. 
+- Modified the pathing in the old commons zone. 
+- Fixed a bug that was causing power sources to only be drained when out of combat. Now they only drain while in combat instead. 
+- The NPC buy/sell/bank window will no longer disappear when the game client is re-sized. 
+- Made tuning adjustments (downward) on many NPCs that had higher-than-expected resistances to Physical Attacks (Such as the Monk Eye Gouge attack). These attacks should be much more reliable now. 
+- Rathework guardians have moved out of the inner sanctum of the Rathe Council Chambers. 
+- Guards in missions in Toskirakk and Kaesora will not be so easily fooled by hiding from them. 
+- Players can now decline a group invite when they own a mercenary. 
+- Fixed a problem that caused player traps (e.g., fadelure, fire rune, bonestitch fetish) to trigger on pets/mounts/mercs, causing all kinds of havoc. 
+- The incorrect boosts to HP/mana/endurance have been brought back in line with what they should have been. Please see other posts on this subject for more information. 
+- Fixed a bug that caused stun effects to wear off the moment mez effects did. This meant that if you stunned a mezzed mob, it would wake up immediately. Now it will not wake up until the stun wears off. 
+- Fixed a bug that caused certain spells that triggered casting of more spells (like Spectralside and Unity of Spirits) to overwrite each other even though that was not intended. 
+- Power sources will once again change the color of the affected stats in that slot. 
+- The potion belt now conveys the cool down timers on potions. 
+- The Emerald Sokokar will now behave like other familiars. 
+- NPC Strikethrough will no longer penetrate defensive disciplines like Weapon Shield, Deflection, Deftdance, etc. 
+- Fixed a client crash for the quest Arachnophobia. 
+- Fixed an issue with proximity aggro. 
+- Fixed a problem with certain AAs with illusion components that allowed them to be used with no reuse timer if you had another illusion on you. 
+- Fixed a client crash when your pet got more than 30 effects on it. 
+- Corrected an issue that caused guilded characters to be forcably placed in the guild voice channel upon zoning. 
+- Changed the way charges are deducted from consumable click items. Now, if the spell on the item is beneficial and it does not land, the charge will not be consumed. 
+- Drakkin should now revert to a walk/run animation after dismounting. 
+
+*** Previously Hotfixed *** 
+
+- Added the rank XIV potions to the appropriate vendors. 
+- The Dragorn in Kuua have become strangely weaker. It appears the Muramite forces may have gained the upper hand. 
+- Fixed the ability for many NPCs in Korafax, both mission and base zone, to allow them to summon as intended. 
+- Ganak's advisors will now assist each other in a manner that does not alert as many of their allies. 
+- Increased the spawn rate of many rare NPCs in Kuua. 
+- Most rare ("named") NPCs in Seeds of Destruction zones will now summon players they hate. 
+- Corrupted Beguilers in the "The Price of Knowledge" mission will now chose the most hated player to update the task instead of the most hated entity, which might have been a pet or a mercenary. 
+- The "Holding the Fort" mission will now not spawn the attack until you first speak with General Vurig. 
+- The tormentors in the task "Inside information" take longer to arrive once their numbers begin increasing. 
+- Pallorax in discord will now start over if the players take too long to engage him after he moves between portals. 
+- The adds in the "Showdown at the Crystal Core" raid will now spawn a bit more quickly. This is to raise the difficulty to be closer to the intended difficulty. 
+- The dwarves in the Showdown at the Crystal Core raid now insist on staying near their post and will no longer chase players too far from their camps. 
+- The Venomlord's event will now start over if players fail to engage him again within one minute of him becoming idle. 
+- Merchant Woad now carries the new energeian supplies. 
+- Replaced Broken Battle Blades with Sundered Blade Shards on forage tables. 
+- Fixed an issue that prevented some items from being placed in the potion belt. 
+
+*** UI *** 
+
+- The target window should now align with bottom of the player window. 
+- The font combobox in the options window should no longer be overlapped by the label "Confirmations". 
+- Added Style_Tooltip to SIDL.xml this now allows for turning on or off the tooltip window for certain UI elements. 
+- Alt + Left clicking buff icons should now display the information correctly. 
+- Buff icons should now tile correctly in the Buff Window. 
+- Added the ability for scroll bars to automatically hide when not needed (See Style_AutoVScroll and Style_AutoHScroll) 
+- Tabs can now be hidden on tab boxes. 
+- Added "TileLayoutBox" which allows for automatically laying out components in both the vertical and horizontal directions at the same time. This is similar to the Horizontal and Vertical layout boxes. 
+
+- Changed - 
+
+EQUI.xml 
+EQUI_Animations.xml 
+EQUI_BodyTintWnd.xml 
+EQUI_BuffWindow.xml 
+EQUI_OptionsWindow.xml 
+EQUI_PetInfoWindow.xml 
+EQUI_PotionBeltWnd.xml 
+EQUI_SelectorWnd.xml 
+EQUI_ShortDurationBuffWindow.xml 
+EQUI_TargetWindow.xml 
+EQUI_Templates.xml 
+SIDL.xml 
+
+~ The EverQuest Team
+
+.....................................................................
+
+------------------------------
+December 23, 2008
+------------------------------
+
+Here is the patch message from today (as outlined by Jourdian on the EQ Forums):
+
+*** Highlights ***
+
+Happy Holidays from the EverQuest Team!
+
+A Frosty Experience Bonus: To help them celebrate the season of Frostfell, adventurers will be surrounded by a frosty bonus experience increase of twenty-five percent starting with Tuesday, December 23, 2008. The frosty bonus experience will remain until the end of Frostfell, Tuesday January 6, 2009. Enjoy the holidays!
+Fan Faire Workshop Quests: At the 2008 SOE Fan Faire in Las Vegas, several EverQuest players got a chance to participate in a Quest Workshop where members of the EQ Development team walked them through the quest creation process. The following quests have been implemented this update:
+Gyrospire Relocator: Researcher Stripcog has unearthed a device that will allow a being to teleport to the top of each of the gyrospires. Unfortunately, he needs the assistance of others to help get the device working again. This quest was implemented with the assistance of Shadowkiller of Stromm, Ledau of Prexus, and Brasse, Cheremoya, Palarran, Starrla, Xapp, Sumdaye and Numayre from The Tribunal.
+Kicking Tail: Scribe Choone’s party, attempting to help Choone research a story for Gimblefixx, was ambushed and nearly wiped out, save Scribe Choone himself. Choone wants the players to thin out the minotaur warriors enough for his mission to continue, and especially to kill the big mean taskmaster known as Higoren. See Scribe Choone in Dragonscale Hills to find out more. This quest was implemented with the assistance of Hellbent of Firiona Vie, Nizgog, Aroraskie, Indico, and Rigss of Erollisi Marr, and Hulkling of The Tribunal.
+Improved linkdead Recovery: We've decreased the amount of time linkdead players will have to wait to log back in because of a stuck character.
+Improved camera control: We added the ability to rotate the 3rd person camera (the one you get when you use the mousewheel) using the left mouse button. This allows you to move the camera around your character without rotating the character.  This is very similar to the way 3rd person cameras work in many other games.
+Hot Zone Tasks: In addition to reminding players about the current Hot Zones, Franklin Teek in Plane of Knowledge now offers tasks for the most recent Hot Zones.
+TSS Flag Requirements Removed: Removed the flag requirements for The Serpent Spine (TSS) expansion raids to enter the raid zones as long as you are level 74 or higher. The person requesting the raids will still be required to have the proper flags to request the raid.
+SoF Crystal Drops Increased: Increased the number of Oil Stained Crystals that are dropped at the conclusion of the final event in Meldrath’s Mansion from six to twelve. 
+Lesson of the Devoted Improved: The Veteran AA Lesson of the Devoted will no longer be removed by death.
+Bard Type 3 Augments: Added Bard type 3 augments to SoF and SoD faction vendors.
+Weapon Ratio Changes: Some of the Seeds of Destruction (SoD) group weapons had their ratios further tweaked. This is a completion of some previous changes that didn’t quite make last Update.
+New Icons for the Original Epics: With the newly discovered old set of icons, we gave the original epic 1.0s their intended art (for the original 1.0 epics that had one made).
+Physical Resist Changes:  Made tuning adjustments (downward) on many NPCs that had higher-than-expected resistances to Physical Attacks (Such as the Monk Eye Gouge attack). These attacks should be much more reliable now.
+*** Items ***
+
+Added Bard type 3 augments to SoF and SoD faction vendors.
+Some of the SoD group weapons had their ratios further tweaked. This is a completion of some previous changes that didn’t quite make last Update.
+With the newly discovered old set of icons, we gave the original epic 1.0s their intended art (for the original 1.0 epics that had one made).
+The Master Artisan Satchel should no longer display haste effect information when a haste item is placed inside it.
+*** Spells ***
+
+Made more tradeskill-created spells tradable on Firiona Vie.
+Swapped the Earthen Embrace and Serpent Vines spells back to their proper items.
+The effect from the Aura of Rodcet will now pulse every 6 seconds instead of being a persistent effect, allowing its effect to stack with Lich and Clarity lines.
+The mana boost from the Aura of Rodcet now mimics the effect of Cantata / Chorus of Rodcet.
+Puratus, Fulkitcher Weave, and Cantata of Courage spells should now work properly.
+Bards will no longer have their mana drained by the spell Mana Ignite, though they should still take damage from the spell.
+*** NPCs ***
+
+Added some of the special resistances, like mez and stun, on the rare/named NPCs in Korafax, Field of Scale and Old Bloodfield.
+Fixed an issue that was causing some mobs in Old Bloodfield to despawn unexpectedly.
+Physical Resist Changes: Made tuning adjustments (downward) on many NPCs that had higher-than-expected resistances to Physical Attacks (Such as the Monk Eye Gouge attack). These attacks should be much more reliable now.
+Rathework Guardians are now a good deal faster than they were before.
+*** Quests ***
+
+Implemented the Fan Faire quest "Kicking Tail." See Scribe Choone in Dragonscale Hills to find out more.
+The Fan Faire quest Gyrospire Relocation has been implemented. Find Researcher Stripcog in Mechanotus for more information.
+In addition to reminding players about the current Hot Zones, Franklin Teek in Plane of Knowledge is pleased to once again offer tasks that take place in these zones.
+The Old Bloodfields quest called "Deliver the Message" is now a shared task. We also fixed issues that could cause it to fail to update.
+Slowed down the respawn rate in the Permafrost Frostfell mission.
+*** Raids ***
+
+Increased the number of Oil Stained Crystals that are dropped at the conclusion of the final event in Meldrath’s Mansion from six to twelve. 
+Removed the flag requirements for TSS raids to enter the raid zones as long as you are level 74 or higher. The person requesting the raids will still be required to have the proper flags to request the raid.
+The Stasis room raid reset should no longer get stuck in a loop.
+The Kaesora raid will now reset after 15 minutes or if all council members are idle.
+The Ritualists in the second phase of the Kithicor raid will no longer damage the storyline NPCs while they are idle.  It should still be necessary to engage the correct group of ritualists shortly after the message: “A dark energy begins to build to the *direction* of the combatants.”  However, it should no longer be necessary to engage all of them simultaneously.
+The area near the entrance doorway will no longer be a safe spot during the Mindblight raid.
+*** AA ***
+
+The Veteran AA Lesson of the Devoted will no longer be removed by death.
+The Enchanter AA Self Stasis should be more reliable at removing players from combat as they enter stasis.
+*** Mercenaries ***
+
+Added a new /merclog command that logs information for the player's mercenary (if they have one) to MercenaryAILog.txt. This command can only be executed once per minute. Also, added a new "mercenaries" bug type to the /bug window. Any bugs submitted with this type also generates the MercenaryAILog.txt file (if the player owns a merc and the merc is not dead/suspended).
+Unshrouding should no longer require an upgrade cost in cases where you have not gained a level.
+Fixed an issue that caused a healer mercenary not to heal you if you temporarily interrupted the incoming damage (say, with weapon shield). 
+*** Miscellaneous ***
+
+Improved linkdead recovery: We've decreased the amount of time linkdead players will have to wait to log back in because of a stuck character.
+If you attempt to login to the world when that account is already logged in, you will now be prompted as to whether you wish to kick off the currently logged in player.   The logged in player (if it is truly logged in and not link dead) will be prompted whether they wish to allow themselves to be kicked off.
+When going linkdead in combat, a 30 second delay is enforced before the kick is executed.
+When going linkdead while out of combat a 5 second delay is enforced before the kick is executed.
+Improved camera control: We added the ability to rotate the 3rd person camera (the one you get when you use the mousewheel) using the left mouse button. This allows you to move the camera around your character without rotating the character.  This is very similar to the way 3rd person cameras work in many other games.
+Corrected an issue that prevented further purchases after opening a Consigned Armor Bundle in the marketplace.
+Corrected an error message if an account does not have a credit card on file for the marketplace.
+Modifications have been made to messaging in order to remove the redundancy of messages popping up for funding the wallet.
+*** UI ***
+
+Buff icons from effects that are not removed by death should no longer disappear after receiving a resurrection.
+Fixed an issue preventing targeting players or entities by clicking on their HP gauges.
+Changing the volume in the in-game music player should now work correctly again.
+ 
+
+- Changed -
+
+EQUI_Animations.xml
+EQUI_GroupWindow.xml
+EQUI_MusicPlayerWnd.xml
+EQUI_PlayerWindow.xml
+EQUI_TargetOfTargetWindow.xml
+
+~ The EverQuest Team
+
+.....................................................................

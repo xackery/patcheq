@@ -1,0 +1,1520 @@
+.....................................................................
+
+------------------------------
+January 26, 2005
+------------------------------
+
+Mistmoore and SplitPaw revamps live for all servers
+New and improved Lavastorm!
+
+Item Changes
+________________________ 
+
+- Many Epic 2.0 effects have been modified. Please see the EQforums at 
+Eqforums.station.sony.com for details.
+- These items are now primary and secondary slot usable:
+Totem of Shattered Hope 
+Wand of Twisted Fate 
+Infernal Staff of Fiery Fate 
+Bazu Claw Hammer
+
+- Increased the drop rates on some items from Planes of Power zones 
+that were too rare.
+- The ending effect (casts when the rune wears off) of the Enchanter 
+1.5 and 2.0 epics has been changed so that it won't cause initial aggro 
+on surrounding NPCs. It will only lower the enchanter's hate on NPCs in 
+the area of effect that are already aggro on him/her.
+- Mace of Grim Tidings is now No-Drop 
+- Added a Globe of Discordant Energy drop to Anguish.
+- Fixed the combine for the cleric epic 1.5, AA points should now be 
+rewarded. People who missed their AAs can hail Tavon to receive their 
+AAs, if they have spoken to Natvil already.
+- Revised the various Anguish armor sets. Some pieces now have effects 
+added. 
+- Earring of Eternal Flame - This item now has the focus effect of 
+Flame of the Lightbringer 
+- Anuek Dagger of Eye Gouging - This item now has a +12% mod to 
+backstab. 
+- Upgraded the +damage augments from Tacvi
+
+Spell, Discipline & AA Changes
+________________________
+
+- The skills windows will now show the modified skill of the player, 
+including buffs/item mods, etc.
+- Added a negative resist modifier to Crippling Strike, Stunning Kick, 
+and Eye Gouge.
+- Modified Hastened Purification of the Body to reduce the base time.
+- The spell, Elemental Simulacrum Recourse, should no longer be removed 
+when the recipient is hit in melee.
+- Hide will work while levitated again.
+- Tiny companion will again switch target to the pet correctly.
+- An exploit with Lifeburn has been corrected.
+- /stopsong, /cast, and anything starting a song other than /melody now 
+clears the /melody buffer as intended.
+- Bard Chants should once again generate the correct amount of hate.
+- Fixed problem with the Ranger AA Guardian of the Forest where if you 
+had maxed buffs this AA would not reset if it did not take.
+- High level shaman pet should now automatically dual wield.
+- Modified the effect slots for Hobble of Spirits so that it will stack 
+with other contact innates.
+
+Code Changes
+________________________
+
+- Players will now receive a message when they are too close for ranged 
+weapons to be used when /autofire is being used.
+- Ranged weapons are no longer subject to additional z-distance limit 
+checks.
+- Server side collision fixes have corrected various problems in 
+certain areas in new zones such as the ramp entering Abysmal that was 
+causing warping problems for NPCs.
+
+Event Changes
+________________________
+
+- Players can now select a type of LDoN Adventure (Rescue, etc.) when 
+requesting one from the Recruiter.
+- Lowered combat regeneration of the Dragorn and Bazu forms in the 
+Trial of Adaptation.
+- Modified the spawn timer on the Tyrant of Nightmare in the Plane of 
+Nightmare and the Decaying Lightcrawler in the Plane of Disease. Both 
+should make more frequent appearances.
+- Lowered spell resists significantly in all MPG Raid and Single Group 
+trials.
+- Fixed some oddness that happened sometimes when Memblurring Hanvar.
+- The non-loot dropping version of Arch Magus Vangl will be easier than 
+the loot dropping version.
+
+Miscellaneous
+________________________
+- Changed the level 70 bard /who title from Performer to Harold, er, 
+Herald.
+
+-- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+February 15, 2005 
+------------------------------
+
+** Welcome to Dragons of Norrath! ** 
+
+A series of events has transpired across the world of Norrath and the 
+familiar faces of Firiona Vie and her nemesis Lanys T'Vyl return to 
+find themselves at the forefront of the events. Unbeknownst to them, a 
+dark influence has seeped into the world of Norrath causing new 
+tensions to arise and conflicts to intensify as the dawn of a new age 
+emerges. The Age of War is upon the people of Norrath and heroes return 
+in this ultimate, unending battle between good and evil. 
+
+Prepare for EverQuest: Dragons of Norrath and return to the lands 
+between Halas and Lavastorm as you seek out the Nest, the ancestral 
+birthplace of all dragons, long sealed away and hidden from the eyes of 
+Norrath. But beware, if the Nest is exposed too early during the Brood 
+Dawn, all dragons and their eggs will be cursed for eternity and death 
+will storm down on all Norrathian's not in their service. 
+
+Featuring new lands with enhanced graphics, bold new storylines, and 
+updated creatures including goblins, drakes, dragons and the ominous 
+Frost Giant! EverQuest: Dragons of Norrath is the next great expansion 
+pack for the fantasy saga that is EverQuest. Make ready with new 
+features such as the interactive world map, use your potion belt to 
+access magical items quickly, and swap between weapon sets using the 
+bandolier. Plus, with the all new guild hall you can easily get your 
+guild ready to encounter anything that comes your way! EverQuest: 
+Dragons of Norrath is bursting with new adventures and intense battles 
+for players of all levels. 
+
+
+** Features ** 
+
+* Bandolier * 
+
+To open the Bandolier window use the 'B' key. 
+
+The bandolier will provide you with a quick and easy way to wield your 
+weapons in different predefined combinations. When a weapon set is 
+activated, the bandolier switches the currently equipped weapons with 
+as many of the weapon set items it can find in your inventory. To add a 
+bandolier, first click on the slot that you want to fill. Then click 
+the add button. You can name each set. The weapon set that will be 
+saved as the weapons you currently have in your inventory (primary, 
+secondary, range, and ammo slots). You can make hotbuttons out of the 
+weapon sets for easy, quick swapping. 
+
+* Potion Belt * 
+
+To open the potion belt window use 'shift P'. 
+
+The Potion Belt allows for quick use of inventory items, such as 
+potions or magical devices. To add a potion belt enabled item to the 
+potion belt, simply put the item on your cursor and click in one of the 
+belt slots. Then simply right click on the item to use it. Please note 
+that not all clickable items are usable from the potion belt. 
+
+* The Barter Zone * 
+
+The entrance to the Barter Zone is in the western section of the Plane 
+of Knowledge. The default in-game map has the location marked on it 
+(this may not be true if have a custom map). To setup your character as 
+buyer, use the /buyer command to bring up the Buyer Barter Window. When 
+you'd like to sell an item quickly without heading to the bazaar, use 
+the /barter command to bring up the Barter Window. Please refer to the 
+context tips or the manual for more information. 
+
+* The Guild Lobby and the Guild Hall* 
+
+The entrance to the Guild lobby is also in the western section of the 
+Plane of Knowledge. The Guild Hall entrance is at the back of the Guild 
+lobby accessible by active guild members. 
+
+Guild Lobby: 
+
+- Looking for Guild and Looking for Guild Member tool: You can use the 
+looking for guild tool or the looking for a guild member tool by 
+clicking on the note boards. In the Guild Lobby use your map to find 
+the note boards. 
+
+- Corpse Summoning: Speak to a Disciple of Luclin. This Disciple can 
+sell you a level appropriate soulstone. Take the soulstone to a nearby 
+Priest or Priestess and they'll summon all of your existing corpses in 
+Norrath directly to your feet (except those corpses that are in 
+Shadowrest). Be sure you loot your corpses quickly because they won't 
+be there long! 
+
+Guild Hall: 
+
+- Guild Portal: The guild portal is activated by speaking to the gnome 
+in the Guild Hall. You will need to purchase a focus stone from him and 
+then hand it back in order to focus the portal on a specific location. 
+Once the portal is focused, step on the crystal platform to bring up a 
+yes/no dialog box. Clicking yes should teleport you away. 
+
+- Mana/Health regen pool: Walking into the back right room in the Guild 
+Hall will cause you to regenerate health, mana, and endurance at twice 
+your normal rate. You should see a text message when you enter the area 
+of the pool as well as a particle effect on your character. 
+
+- Buff Timers: Buff timers are paused while in the Guild Hall. 
+
+- Guild Tradeskill Objects: Various tradeskill tools are located in the 
+Guild Hall for easy access by guild members. 
+
+* Missions * 
+
+Mission givers for Dark Reign and Norrath's Keepers can now be found in 
+Lavastorm. These mission givers offer quests for groups of 3 to 6 
+players that take you into the Dragons of Norrath. Only a few missions 
+are available at first, but as you gain faction and earn their trust, 
+more missions will open up. Missions make use of a new shared task 
+system that shares space with the Task window (Alt-Q). You can manage 
+the players in your shared task from the new Shared Task tab in the 
+Task window. 
+
+Successful completion of a mission will reward you with crystals that 
+can be redeemed at mission vendors in the two camps. Each side has 
+their own crystals that they award and their mission vendors will not 
+accept crystals from the opposing side. You can create stacks of 
+crystals for trading to other players by clicking on the crystals 
+display in the inventory window. The reclaim tab under the crystals 
+display will add any crystals you have in your inventory. You can only 
+spend crystals that are listed in the display, so be sure to reclaim 
+before visiting a vendor. 
+
+** Live Patch Information ** 
+
+The EQ Mail System! 
+
+EQ players now have the ability to send persistent messages to players 
+who are not logged in! To use this new feature, take a look at the new 
+icon that has been added to the window selector. This icon will change 
+color when you have unread messages. It also blinks for a short period 
+of time when new mail arrives. To open the mail window, click on the 
+icon or use CTRL-M. Here are a few other helpful hints. 
+
+Sending Messages - To send a message, press the "Compose" button. Enter 
+the character name of the recipient in the "To" field, a subject and 
+the message itself. Press the "Send" button and mail icon of the 
+recipient will start blinking! Please be aware that you can currently 
+only email one recipient at a time. 
+
+Receiving Messages- If you are online, new mail is delivered to you 
+immediately without delay. When you open the mail window, the number of 
+unread messages is put between square brackets close to the "Inbox" 
+list title. In the mail window, your messages usually appear sorted by 
+date. You can click on the column header to change the sort type and 
+order. You can also resize the width of a column with the mouse, just 
+click and drag a column header separator. 
+
+Viewing Messages - To view the body of a message, select it in the 
+list. The message text window displays the message fields in a 
+different color, followed by the text of the message. 
+
+Managing Messages- When a message is selected you can reply to the 
+sender or forward the message to another player by pressing the 
+corresponding button. An appropriate default subject will be inserted 
+for you and a copy of the original message is added to the mail 
+composition window. 
+
+Deleting Messages - You can also delete messages, in which case they 
+will be placed in your "Deleted Items" folder. To select multiple 
+messages for deletion you can use SHIFT-click and CTRL-click. The 
+"Deleted Items" list is where your deleted messages go. The total 
+number of messages in that list appears in the title. Two additional 
+actions are available to you when managing your deleted messages: you 
+can restore deleted messages using the "Undelete" button, and you can 
+permanently delete all the messages by click on the "Empty Trash" 
+button. 
+
+NOTE: You can send a message to yourself. You can also send a message 
+from the command line using the "[mailto" command. Syntax: [mailto If 
+the subject contains whitespace, you must enclose it in double 
+quotation marks. Example: [mailto LadyCandy "You are so sweet!" Dear 
+LadyCandy, etc. etc. 
+
+- The "M" key now opens the map. 
+
+- Fixed the following Omens augmentation combines: 
+
+Aug Inlay Titanite of Quickness 
+Aug Inlay Brilliant Titanite of Quickness 
+Aug Inlay Radiant Titanite of Quickness 
+Aug Inlay Titanite of Pure Quickness 
+Aug Inlay Brilliant Titanite of Pure Quickness 
+Aug Inlay Radiant Titanite of Pure Quickness 
+Aug Inlay Tourmaline of Quickness 
+Aug Inlay Brilliant Tourmaline of Quickness 
+Aug Inlay Radiant Tourmaline of Quickness 
+Aug Inlay Tourmaline of Pure Quickness 
+Aug Inlay Brilliant Tourmaline of Pure Quickness 
+Aug Inlay Radiant Tourmaline of Pure Quickness 
+
+- Modified the Hammer of the Dragonborn so that it has an instant 
+casting time, but a 10 second recast. 
+
+- Dagger of Evil Summons now has a 120 second recast time. 
+
+- Increased the range on Blood Pact. 
+
+- Pristine Purifying Sapphire is now no-drop. 
+
+- Assistant Researcher's Symbol now has the focus Quickening of the 
+Anuek. The Hit Points, mana and end have been adjusted to 285. Added +
+20 attack, 2 hit point regeneration, 2 mana regeneration. Added +3 to 
+combat effects, strikethrough, and accuracy. 
+
+- The following Anguish armor pieces have been upgraded: 
+
+Gladiator's Plate Sleeves of War 
+Faithbringer's Armguards of Conviction 
+Dawnseeker's Sleeves of the Defender 
+Bladewhisper Chain Sleeves of Journey 
+Duskbringer's Plate Armguards of the Hateful 
+Everspring Sleeves of the Tangled Briars 
+Fiercehand Sleeves of the Focused 
+Farseeker's Plate Armbands of Harmony 
+Whispering Armguard of Shadows 
+Ritualchanter's Armguards of the Ancestors 
+Blightbringer's Armband of the Grave 
+Academic's Sleeves of the Arcanists 
+Glyphwielder's Sleeves of the Summoner 
+Mindreaver's Armguards of Coercion 
+Savagesoul Sleeves of the Wild 
+Wrathbringer's Chain Sleeves of the Vindicator 
+
+- The low level quests in the new Lavastorm had their requirements 
+lowered. They were previously set to high for their intended level. 
+
+- Lowered the agro range on NPC's in Lavastorm. 
+
+- Certain NPC's in Lavastorm will no longer assist each other. 
+
+- The Goblin runner in Lavastorm should no longer run past the zone 
+line into Nektulos Forest. 
+
+- The Goblin Messenger in Frontier Mountains should get stuck in the 
+geometry and disappear much less often now. 
+
+- Moved the spawn location of Valorian Guardian Florik in Halls of 
+Honor A to an easier to get to location. He was previously spawning in 
+a location that was harder than the intended level of the quest. 
+
+- Shifted the focus on the Bladewhisper Chain Wristband to the 
+Bladewhisper Chain Boots. 
+
+- The focus on the Paladin Epic 1.5 is no longer restricted to only 
+group heals. 
+
+- The Wand of Wintergrip can no longer be equipped in the secondary 
+slot. 
+
+- The click effect on the Beastlord and Magician epic's has had its 
+duration increased to 20 minutes. 
+
+- Kraylor Nalsiv in Plane of Knowledge no longer requires you to hand 
+him your epic to receive your title. He now responds to dialogues 
+instead of item turn-ins. 
+
+- The Mirrored Mask from Anguish now has a half second cast time and an 
+80 second recast. Reflective skin also now has an 18 second duration. 
+This should make the mask easier to use when used correctly. 
+
+- Fixed a bug with the Zun Muram in Txevu. Previously he was not 
+dropping his signet for the alternative access to Tacvi 100% of the 
+time, due to a bug. This has now been corrected. 
+
+- Karsor the Mad returns. 
+
+
+-- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+March 3, 2005 
+------------------------------
+
+*** Bazaar & Barter Zone *** 
+--------------------------------- 
+
+We have made the Bazaar zone free for everyone. 
+
+In addition to this, we have consolidated the Barter zone and the Bazaar 
+zone into one hybrid zone, which uses the existing Bazaar zone. You will 
+now be able to activate both the /buyer commands and the /trader commands 
+in the Bazaar zone. In addition to this change, we have made a few other 
+changes for your convenience. 
+
+- Removed the zone line from the Bazaar to the Barter zone. 
+- Added a zone-line from the Bazaar to the Plane of Knowledge. 
+- The Barter zone entrance in the Plane of Knowledge will now teleport 
+you to the Bazaar zone. 
+- Barter search on Firiona should not filter the NODROP items that aren't 
+NODROP on Firiona. 
+- Right-clicking on a merchant-name in the UI will now create a find-path 
+to the merchant. 
+- Right-click in the Bazaar / Barter search now closes your current find 
+path, and if the timer has expired, generates a new find path to the 
+Buyer / Trader indicated on the line which was right-clicked. 
+- The map has been updated with more information, specifically which areas 
+of the zone allow you to be a /buyer and which allow you to be a /trader. 
+
+The Barter zone is still active, so those of you who are camped out in the 
+zone will be able to log in just fine, though you will want to migrate to 
+the Bazaar in order to set up your buyer. Please make sure that you are not 
+weighed down with coin and items before leaving the zone, or you may find 
+yourself unable to move. 
+
+*** Spell & Skill Changes *** 
+--------------------------------- 
+
+- Moved the contact abilities on spells Spirit of the Leopard and Spirit of 
+the Panther to avoid a stacking conflict with the berserker epic effect. 
+- Monk Return Kick and Double Riposte AAs can now be triggered on the same attack. 
+- Combat abilities will now always hit creatures that require magical weapons. 
+- The Berserker ability Rage of Volley has been modified so that it will hit 
+magic required NPCs regardless of the axe that's equipped. 
+- Increased the charges on the items summoned by Molten Orb and Lava Orb from 
+3 to 10, and increased the mana cost on the spells that summon them. 
+- Summoned Lava Orbs, Molten Orbs, Shadow Orbs, and Soul Orbs are now no drop 
+on the Firiona Vie server. 
+- The recourse effect of the shadow knight epic 1.5 and 2.0 effects should now go 
+to the short duration buff box. 
+- The monk 1.5 and 2.0 effects will now heal for approximately as many hit points 
+as the buff adds to your maximum hit points. 
+
+*** Item changes *** 
+--------------------------------- 
+- The following items have been made No-Drop: 
+
+
+Potted Dark Lady 
+Ancient Tooth of Archanalia 
+Scrap of Dark Cloth 
+Deformed Dragon Embryo 
+Silvery Dragon Scale Fragments 
+Golden Dragon Scale Fragments 
+Metallic Dragon Shell Fragments 
+Ruined Dragon egg 
+Desiccated Drake Corpse 
+Shattered Draconic Symbol 
+Dark Dragon Scale 
+Cracked Lavaspinner Egg 
+Fragments of Zebeker's Bone Chips 
+Black Wing Drake Talons 
+Egg of a Saved Clutch 
+Frothing Drake Blood 
+Mottled Goblin Meat 
+Lavaspinner's Silk 
+
+- The crystals used as points for Norrath's Keepers and Dark Reign are once 
+again tradeable on all servers. 
+- Hammer of Delusions effect has been changed to Euphoria. 
+- Shadow Orb can now be in a stack of 5. 
+- Chests in Skyfire for the Veeshan's Peak access quests should now be available 
+for 30 minutes after being dropped by the defeated NPC. 
+- Harbinger Spire Blueprints now drop more often. 
+- Stone of Marking will no longer be used if a player can not bind in that area. 
+
+*** Quests, Missions & Events *** 
+--------------------------------- 
+- Added a quest to Corrigan Hawthorne in the Bazaar to award PvP points for 
+legacy Sullon Zek insignias. 
+- Decreased difficulty of the Megalodon encounter in Lake Rathe. 
+- NPCs will now offer you missions based on your average group level rather than 
+the level of the player requesting the mission. 
+- Added a fix for the problem of a player in the process of zoning when the 
+mission is completed not being given the reward; when finished zoning he will 
+then receive the reward. 
+- We've changed the way that corpse lock works when an NPC is killed by someone 
+in a shared task. You should no longer see corpses locked to a shared task when 
+you are killing NPCs not related to a shared task. 
+
+*** Tradeskills *** 
+--------------------------------- 
+- The trivial values of many tradeskill recipes have been modified, please make 
+sure to check your recipe lists. 
+- The Dragons of Norrath Tradeskill Quest NPC's will now accurately recognize 
+your ability to wear the armor they're helping you craft. 
+
+*** Email *** 
+--------------------------------- 
+- We will now be using the mail system to send players notifications. The first 
+use of this is with the messages you get when you reach certain levels. 
+- Mail composition window gives focus to the first empty field (To, Subject, Msg, 
+in that order). 
+- The delete action now reselects the position of the first item in the deleted 
+selection. Same for undelete. 
+- Players may now map a key to toggle the display of the mail window. 
+
+*** Guild Hall *** 
+--------------------------------- 
+- You can now assign guild banker status even if the guild member is not online. 
+- The merchant music will stop when you close the guild bank window now. 
+- Guild bank lists are now sortable (note that the permissions field sorts by 
+permission type from most public to least public and vice versa, not alphabetically) 
+- If you logged out in the guild hall, it will no longer send you to last your 
+adventure/expedition zone in point. 
+
+*** Miscellaneous *** 
+--------------------------------- 
+- Guild masters will once again allow to you get started with your training in 
+Research, Alchemy, Poison Making, and Tinkering. 
+- Hastening of the Aneuk had a typo in the name. Anuek has been changed to Aneuk. 
+- The boats in East Cabilis should look like boats again. 
+- The Bandolier and Potion Belt window shortcuts/binding will now save properly. 
+- The map window will properly tint the map area again on the map tab. 
+- We've made significant changes to the fog and rain settings in all original 
+EverQuest zones. Visibility should be greatly improved in many of these zones 
+and rain will generally be more infrequent. Seasonal changes from rain to snow 
+have also been incorporated into these zones as appropriate. In addition, we've 
+increased the visibility in all zones when it is raining or snowing. 
+- Added a new command, /tasktimers, which will display a list of shared tasks 
+and how long you must wait before you can undertake that shared task again. This 
+will be incorporated into the task window in the near future but we wanted to make 
+the functionality available to players as soon as possible. 
+- Fixed the bug where players would appear with someone else's pet after zoning. 
+- Fixed an issue where a Link Dead player is killed, the killer will no longer be 
+able to loot an item. 
+- Zek players will now be able to begin the process of selecting a new server to 
+have all characters on their account moved to. 
+
+Those Zek players who have already executed the /movelog command will be moved to 
+the server they chose, unless that server was Solusek Ro or Kane Bayle. Zek players 
+who chose either of these servers will need to execute the command again, choosing 
+a new server. 
+
+If you have changed your mind as to which server you would like to move to, the 
+/movelog UI (after Thursdays update) will have a disregard button. Using the 
+disregard button will cancel any pending movelog requests and allow you to execute 
+a new movelog request. 
+
+We will begin processing the movelog requests on Friday night (March 4th) and 
+will continue nightly for a period of 30 days. Any accounts that have executed 
+the movelog request will need to make certain they have no corpses in the world. 
+If you have a shared bank already in use on your destination server, you will need 
+to empty either shared bank out as only one will be available after the movelog 
+is complete. 
+
+-- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+March 16, 2005 
+------------------------------
+
+EverQuest's 6th Anniversary 
+-------------------------------------- 
+To help celebrate the 6th Anniversary of EverQuest, a fresh scavenger hunt has been 
+added. Check in Firiona Vie, Overthere, or Dreadlands for more on this quest. Finish 
+this challenging hunt and you will receive a potion that doubles your experience for 
+30 minutes and comes with 10 charges. 
+
+Your old friends, the Fabled NPCs have returned to Norrath and bring the fabled versions 
+of their items with them. Look for new Fabled NPCs in your favorite Kunark zones. 
+
+
+General 
+-------------------------------------- 
+- Increased the spell rune drop rates for Greater Muramite Runes and Glowing 
+Muramite Runes in Muramite Proving Grounds and Riftseeker's Sanctum. 
+- Reduced the number of mobs that will summon in Veksar. 
+- Volkara in the Volkara's bite mission has been made a little more challenging. 
+- The fight against Vishimtar has been made more challenging. 
+- The Citrine Spell Stone has been renamed to Citrine Spell Bauble. 
+- Level 20, 40 and 60 Tradeskill Pattern Book Quests for Wood Elves, Kelethin Half-Elves, 
+Dwarves, High Elves and Gnomes have been altered slightly to make them a bit friendlier 
+to complete. 
+- The encounter with Grinbik in Bloodfields for the Ranger epic has been made a bit 
+less confusing. 
+- "A shady Highpass citizen" in Highpass will look kindly on you and spread the word 
+on your increased friendship if you complete his tasks. 
+- Several missions have been tuned to bring their completion time on par with the 
+other DoN missions: 
+Diving for Lavarocks 
+Dragon Eggs 
+Diseased Pumas 
+- When the task "Keeping the Goblins Out" has been finished you should now get the 
+completion text. 
+
+Items 
+-------------------------------------- 
+- The Icefloe Hammer is no longer a 1 handed piercing weapon, it is now 1 handed 
+blunt and the bonus to backstab has been removed. 
+- The Lance of Engulfing Flame now has a proc instead of a worn spell. 
+- The Robe of Transcendent Thought has been changed to Drape of Transcendent Thought. 
+- Various Anguish class leg pieces have been altered. 
+- Academic's Pants of the Arcanists now has the focus effect "Frost of Anguish". 
+- The mana preservation focus on several Tacvi chest pieces has been increased slightly. 
+
+
+-- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+March 17, 2005 
+------------------------------
+
+*** Missions ***
+---------------------------------- 
+
+- Added the ability to see invisible to some of the NPCs in The Nest instances. 
+- Set some of the boss NPCs in Dragons of Norrath missions to summon. Being kited 
+was making them sad. 
+- Removed a bug in the Rivals mission in The Nest that allowed groups to complete 
+the mission more than once without speaking to the quest-giver again. 
+
+*** Tradeskills ***
+----------------------------------
+- Added some missing Troll cultural items to vendors in Neriak. 
+- Added a book to outline the creation of the new cultural sewing kits. 
+- All of the new cultural sewing kits can now be traded in to Caerlyna in the Bazaar 
+for tokens. 
+- Meeka Diggs in Rivervale no longer sells Iron Thread and should now sell the three 
+sizes of Mercurium Thread. 
+- Changed the text on Culturally Inspired Armor - part 3 to accurately reflect the 
+pelts used for Half Elven cultural tailored armors. 
+- There was a new "Chunk of Ice" created for the Dragons of Norrath expansion. This 
+new "Chunk of Ice" has been removed and replaced with the old "Chunk of Ice" on the 
+forage tables for all Dragons of Norrath zones. They should also now drop off some 
+of the colder dervishes. All of the new Dragons of Norrath drink recipes that used 
+"Chunk of Ice" (Curdled Cream, Iced Coffee, Iced Tea and Iced Mountain Tea) now use 
+the old "Chunk of Ice".
+- Fixed a bug with the recipe for creating Barbarian cultural leather swatches. The 
+recipes were mistakenly using the "Norrathian Needle" instead of the "Northman Needle".
+- Fixed a bug in the recipe for creating the Dragons of Norrath cultural armor patterns 
+that could allow a player to recover their ruined book with a successful salvage. Sorry, 
+that was unintentional. 
+- Removed the Erudite Sewing Kit from vendors. The new kit is created by players and 
+should replace the old kit. 
+- Fixed the Feir'Dal Fletching Kit. Really, we did. 
+- Fixed the Surefall Fletching Kit. (This was actually fixed with the last update). 
+- Fixed the Reinforced Jeweler's Kit. (This was actually fixed with the last update). 
+- Changed the Dragons of Norrath cultural recipes that used "Quill" to now use "A Quill" 
+(used in research recipes). "A Quill" is also now sold on the appropriate vendors. (This 
+was actually changed with the last update). 
+
+*** Ranger Epic ***
+----------------------------------
+- Modified the encounter with Grinbik in Bloodfields for the Ranger epic slightly. Previously 
+he could respond with the phrase "I wish to speak with the one that freed me." when he was 
+not actually free (for example, if the Marshal was still alive). Now he will not give that 
+response until he has actually been freed. Hopefully this will remove some confusion from 
+the event. 
+- A Ranger at the proper stage of the quest will now only trigger the Herrian Warfrost 
+encounter if he or she goes down the corridor near where he hangs out and is at the proper 
+stage of the quest with the necessary item on them. (This change actually went in with our 
+last update). 
+
+*** Fabled Item Changes ***
+----------------------------------
+- The Fabled Mrylokar's Bracer has been made lore. 
+- Several Fabled NPC's have had their difficulty modified. 
+- The Fabled Glowing Kunzar Amulet will now be equippable in the neck slot. 
+- The Fabled Incarnadine Breastplate has had Iksar added to the race-usability list. 
+- Several Fabled Items have been returned to their previously tradable status on the 
+Firiona Vie server. 
+- The following items have had their stats modified: 
+
+Fabled Jaundiced Bone Greaves
+Fabled Insignia Protector
+Bracelet of the Corrupter
+Wristband of Spectral Corruption
+Bracer of Corrupted Souls
+Bracer of the Debauched 
+
+- The following items have had recommended levels added to them: 
+
+Fabled Necklace of Superiority
+Fabled Rod of Mourning
+
+.....................................................................
+
+------------------------------
+April 12, 2005 
+------------------------------
+
+*** Headlines *** 
+------------------------------------ 
+- A new button has been added to character select: Return Home. If a character 
+has not been played in the past 6 hours, this button is enabled and pressing it 
+will log the character into the game in their starting city. 
+- If a character is logged out for more than an hour, full health, mana, and endurance 
+will be granted upon logging in. This is still a bit under development. You may not be 
+quite at 100% but very close. 
+- Re-envisioning has begun! 
+- Over 600 Spell modifications. 
+- New zone art for the character select screen and character creation. Crossing the 
+bridge while in Explore mode will allow you to enter the world. Note that all characters 
+are in the same area now. There are no longer class specific areas. 
+- New Hot Spots!* 
+The Warrens 
+Netherbian Lair 
+Echo Caverns 
+The Scarlet Desert 
+The Tower of Frozen Shadow 
+The Hole 
+The Grey 
+Howling Stones 
+The Halls of Betrayal (Chardok B) 
+- There are 2 new keyboard shortcuts in the Command section in the Options menu, Open 
+Inventory Bags and Close Inventory Bags. Setting these, then using them will open/close 
+all your general inventory slot bags (bag1-bag8). 
+- Added a teleportation stone to Arena in Plane of Knowledge.* 
+
+
+*** Re-envisioning Specifics *** 
+------------------------------------ 
+- Many modifications have been made to the cast times, recast times, mana costs, and 
+damage potential of many single target direct damage spells. The largest changes have 
+been in level 1-50 spells, but many 50+ spells have been adjusted as well. These changes 
+have caused the damage-per-second potential and/or the damage-per-mana values of these 
+spells to be increased and should benefit the classes who use these spells in nearly 
+all cases. Note that this also includes special purpose spells such as undead and 
+summoned direct damage spells. Please check the in game descriptions for specific 
+changes.* 
+- The 750 cap on mana increase spells has been removed.* 
+- The hard-coded level 52 NPC cap on Fear spells has been removed. We will be adding 
+new fear spells in the near future which will allow players to fear higher level NPCs.* 
+- Assassin’s Feint will now work on NPCs level 60 and higher.* 
+- Spells with poison counters no longer have innate agro added. The spells themselves 
+still generate aggro based on their other properities, but you will see a reduction 
+in the amount of aggro generated in many cases.* 
+- NPC’s innate 20% resistance against rain spells has been removed.* 
+- You will now receive messages in your chat window when you are healed by any 
+heal-over-time spell. This includes both short term HOT spells as well as long term 
+regen spells. You will receive the message if the spell actually gave you health back, 
+so will not receive messages when at full health. These messages can be turned off 
+through a new filter in the options window.* 
+- Ranger, Beastlord, and Paladin heals have been upgraded. See the spell descriptions 
+in game for details.* 
+- The AC cap and percentage return on AC over the cap for monks has been increased.* 
+- Increased the knock back effect on the Warrior AA Press the Attack. 
+- Theft of Thought will no longer return only partial mana from NPCs over level 52. 
+In addition, the spell was changed so that it will only return as much mana as the NPC 
+has if that is less than the amount that the spell is trying to steal. So it will 
+steal 400 mana from an NPC that has 1000 mana, but it will only steal 100 mana from 
+a NPC that has 100 mana.* 
+
+
+*** Spells, Skills & AAs *** 
+------------------------------------ 
+- Increased the effectiveness and decreased the casting time of the Ranger AA 
+Auspice of the Hunter.* 
+- Increased the amount of damage absorbed by the Bard AA Shield of Notes.* 
+- Increased the damage done while using the Bard AA Dance of Blades.* 
+- Added a negative resistance mod to the Shaman AA Virulent Paralysis so it is 
+more likely to land on NPCs now.* 
+- Modified the proc chance on spell Lightning Channeling and Storm Channeling. 
+Both of these spells now have an increased proc chance. 
+- Sound of Divinity and Sound of Might will now use their own separate shared spell 
+timer. 
+- The spell enhanced learning can no longer have its duration increased by Alternate 
+advancement skills and/or focus effects. 
+- Flames of the Valiant and Flames of Redemption should now proc more often and be 
+resisted much less often. 
+- Protection of the Wild should no longer be overwritten by Strength of the Hunter.* 
+- Spirit of the Panther and Spirit of the Leopard have been modified. NPCs were 
+able to trigger the effects of these spells at a much higher rate then players. 
+The rate of NPCs triggering these effects has been lowered to match PCs. Additionally, 
+the base damage of the effect has been lowered, and the spell will now only land on 
+PCs and pets that are a part of your group. 
+- Removed the focus effect limiters from Persuasive Gaze, the focus effect found on 
+the enchanter epic 1.5. It now works on any detrimental spells up to level 70 the 
+same way the focus effect on the enchanter epic 2.0 does.* 
+- Fixed a problem with focus effects that reduce hate. It was not using the highest 
+effect if more than one focus effect was worn. 
+- Dragon Fang and Leopard Claw will now generate less hate. 
+
+
+*** Items *** 
+------------------------------------ 
+- Items that have a combat or clickable spell effect that was changed due to the spell 
+changes in this patch have either had their proc rate adjusted to compensate or use a 
+new spell to maintain their damage potential. 
+- The Anguish chest pieces now have additional worn mods and a new spell focus effect. 
+- The Anguish wrist pieces now have additional worn mods. 
+- Mirrored Mask will no longer conflict with other recast timer based items such as the 
+Soul Orb. 
+- Hammer of Rancorous Thoughts is now a 39/25 weapon with a 225pt proc. 
+- Dragonkiller is now a 34 (+2 magic)/21 weapon. 
+- Mace of Grim Tidings is a 32/22 weapon. 
+- Broken Mandible of the Broodqueen is now a 12/18 weapon and has a +5% mod to backstab. 
+- Fang of Kessdona now has +12% mod to backstab. 
+- Crescent Palemoon now has the focus Aneuk Glare. It also has +15 avoid, +4 spell 
+rune and +4 regen. 
+- Aegis of the Amber Moon now has +3 shielding, +4 dot rune, +6 regen. 
+- Bladewhisper Chain Gloves of Journeys now has Cleave V as the worn effect. 
+- Bladewhisper Chain Legguards of Journeys now has the focus of Alacrity of the Ikaav. 
+- Summoned: Burning Shank should proc more often. 
+- Eye of Yar`Lir is now called “Oculus of Yar`Lir”. 
+- Bracelet of the Corrupter now has +2 mana regen. 
+- Wristband of Spectral Corruption now has +2 mana regen and +20 attack. 
+- Bracer of Corrupted Souls now has +2 mana regen and +20 attack. 
+- Bracer of the Debauched now has +2 mana regen and +20 attack. 
+
+
+*** Missions, Quests & Events *** 
+------------------------------------ 
+- Added the following new Dragons of Norrath missions 
+House of the Autumn Rose (Norrath's Keepers Only) 
+Plunder the Hoard (Dark Reign Only) 
+A Goblin's Escort 
+Halfling's Treasure Map 
+Signal Fires 
+Sudden Tremors 
+These will show up on the usual mission givers once you have enough faction. 
+- Modified the shards awarded for many of the Dragons of Norrath missions to better 
+reflect how long they are taking to complete. 
+- Changed the adventure “The Gilded Scroll” to fix some situations that could cause 
+players to be unable to finish the mission. Now the Noble Kirin Scholar will not 
+spawn before the real scroll is found. We also fixed a problem that could, in very 
+rare cases, cause the real scroll not to be placed on an NPC. 
+- The corrupted drake adds in the Vishimtar encounter will now respawn correctly 
+after a failure. 
+- Made a change to Burning Woods that should reduce the number of NPCs that get 
+stuck under the world . This should make the hornets easier to find. 
+- Increased the drop rate for the Collector's Fire Hornet Wing and Collector's Iksar 
+Witch Doll. 
+- We've extended the 6th anniversary scavenger hunt so that it will be available 
+through Sunday, the 17th. 
+- Changes were made to all Muramite Proving Ground trials. The major changes are: 
+Adaptation is slightly easier, the trial of Ingenuity was significantly changed, 
+and NPC resists in all single group trials were lowered. 
+- Corrected a problem that was causing some NPCs in the Muramite Proving Grounds to 
+show up in the wrong part of the zone. 
+- In the Citadel of Anguish it's no longer possible to fight Arch Mage Vangl without 
+completing the Keldovan, Jelvan, and Hanvar events first. 
+- The Warden Hanvar encounter has been made more challenging; you may wish to bring 
+some extra allies with you. 
+- Beware, if you are too close to a wall the swarm adds in the Mata Muram encounter 
+will spawn directly on top of you. 
+- Increased the drop rate for the Tongue of the Zun’muram off Zun’Murum Tkarish Zyk 
+in Txevu. 
+- Changed the quest that gives alternative access to Txevu. When you hail the golem 
+at the end of Inktu`ta it will check your items and flags and do the following: 
+If you do not yet have a Qvic flag, the golem will give you the Splinter of the High 
+Temple. 
+If you do have a Qvic flag, the golem will give you whichever High Temple pieces you 
+are missing. 
+If you already have a Txevu flag, the Cipher of Txevu item, or all three fragments of 
+the High Temple, the golem will ignore you. 
+Likewise, when you complete the Qvic backflag, if you have the Splinter of the High 
+Temple from completing Inktu`ta you will automatically receive whichever High Temple 
+pieces you are missing. 
+This change allows the combination of Inktu`ta and the Qvic backflag quest to count 
+for Txevu access and the two can be completed in any order. This change is not retroactive. 
+- A bug was fixed so that Alkron Wyrmsong will no longer give bards a cloth cap when 
+an error is made during the quest for Epic 2.0 
+
+
+*** NPCs *** 
+------------------------------------ 
+- Modified King Xorbb in Beholder. He will now drop Slime Crystal Staff 100% of the time. 
+- Players can no longer attempt to give stacks of items to NPCs. The NPC would treat the 
+stack as one item and you would lose the rest. There is now a check to help with people 
+putting in a stack of items and losing them. 
+- Items given to an NPC by a PC will no longer count as a Task item when looted. 
+- NPC pathing code has been reviewed and some changes have been made which should 
+prevent NPCs from becoming stuck and eventually becoming invisible. Please let us know 
+if you see this happen any more. 
+- The Cube Fragments in the Gates of Discord Sewer trials will no longer get stuck in 
+the geometry. 
+- The Soulbinder at the Firiona Vie outpost is now able to bind you to that area. 
+
+*** Tradeskills *** 
+------------------------------------ 
+We have changed the chance to gain a skill up when using tradeskills. Previously there 
+was a large increase in the average number of combines needed for a skill increase for 
+skill values of 160 through 190. This made sense when 200 was the skill cap. We have 
+changed the algorithm to remove the harsh spike in combines required for skill ups 
+from 160 to 190, making it a more reasonable to increase all the way up to 300. For 
+more details please see the post here: 
+http://eqforums.station.sony.com/eq/board/message?board.id=Trade&message.id=5800 
+- Alabaster Beak and Ivory Stormrider Canine are now marked as usable in tradeskills. 
+- Dragons of Norrath brewing items now drop off NPCs. They were only available through 
+foraging before. 
+- Added the race name to the Unfired Cookie Cutters. New item names are: Unfired 
+Barbarian Cookie Cutter, Unfired Gnome Cookie Cutter, Unfired Troll Cookie Cutter 
+and Unfired Animal Cookie Cutter. 
+- Added the recipes for four cookie cutters for Luclin beasties. The sketches and 
+molds should be easily found on vendors. 
+- Added the appropriate effects to Dragons of Norrath potions. 
+- The recipe for dough made from Rock Hopper Egg now uses Rockhopper Egg. It turns 
+out that there were two items with similar names, but the one used in the recipe 
+doesn't drop in game. 
+- Removed the recipe for chain jointing that was used in Planes of Power armor. This 
+recipe was removed because the jointing is no longer used in any recipes. 
+- You will now only need to collect half the number of items for the level 65+ Vah 
+Shir racial armor pattern book quest. 
+
+
+*** Server stability *** 
+------------------------------------ 
+- We believe we have corrected the problem with the excessive server lag that has 
+been happening in most raid zones. A guild from one of our live servers was willing 
+to come over to our test server and verify the raid in pofire was working properly 
+without causing the zone to lag out. They were able to complete many of the stages
+of the raid successfully and even multiple times without issue. There was one instance 
+of a mob warping after getting in a bad location, but we have made vast improvements 
+from its current state. We have also improved our logging code to better detect similar 
+problems should they occur again in the future. Please let us know if you experience 
+any problems related to this. 
+- The memory leak problems that have recently been affecting the world servers has had 
+much progress. Several memory leaks related to the previous update have been corrected, 
+and server stability has improved measurably as a result. We will continue to monitor 
+the servers closely for memory leak issues. 
+- A zone crash in Chardokb related to the Korucust encounter has been fixed. 
+- A zone crash related to guild tribute being toggled while a player was being charmed 
+or feared has been fixed. 
+
+
+*** Chat filtering *** 
+------------------------------------ 
+- Pet responses to commands (except for /pet leader) are no longer broadcast, but go 
+only to the owner of the pet.* 
+- Pet responses to commands can now have a selected color and be redirected to any chat 
+window.* 
+- Pet spell-casting messages can now have a selected color, be redirected to any chat 
+window, and be filtered to not show at all.* 
+- Assassinate, Deadly Strike, Slay Undead, and Finishing Blow messages will now be 
+displayed in the Melee Critical message color and redirect/filter as other crits.* 
+
+
+*** Mail System *** 
+------------------------------------ 
+- You now have quick access to all of your character mailboxes on the current server 
+from any of your characters. 
+
+
+*** Title Suffixes *** 
+------------------------------------ 
+- The title system now supports title suffixes. The first use of this new feature are 
+the server titles. 
+
+
+*** Guild Hall (Guilds) *** 
+------------------------------------ 
+- Added a guild tribute master to the guild hall. 
+- The guild bank no longer accepts NORENT items. 
+- Fixed a bug that allowed players with out the proper flags to remove items from the 
+Guild bank. 
+- Using any Eye of Zomm type spells in a guild hall will no longer take the client to 
+server select. 
+
+
+*** Bazaar/Barter *** 
+------------------------------------ 
+- Added and Augment pool and Augment Solvent Merchant in the Bazaar. 
+- Added new search criteria to the Bazaar search: min level, max level. Any items 
+which match all other search criteria, yet have a rec or req level outside the boundaries 
+set in the new fields will not be returned by the search. 
+- The barter UI code has been improved. There were some issues related to keeping the 
+client properly synchronized with the server which have been fixed. It now more 
+accurately tracks changes in inventory when multiple players are interacting with a 
+buyer. Also, if a buyer has a LORE item, any buy-lines that require the LORE item will 
+now automatically disable because the buyer would not be able to complete the 
+transaction (because it would result in two lore items on the buyer). Previously 
+this was causing a client-server sync issue that would result in a player being 
+disconnected. 
+- Barter Search Window: Right-clicking on the item sought by Buyers found in a search 
+will display that item. You now have to right click on the Buyer's name to get the 
+search path. 
+
+
+*** UI *** 
+------------------------------------ 
+- Fixed an issue causing custom UIs to show bad data in unused buff slots. 
+- The Task display now properly displays tasks with a large number of elements. 
+- On character select, if you want to go back into the tutorial, just click the 
+tutorial button below the list of characters. It is no longer a toggle button. 
+
+
+*** Miscellaneous *** 
+------------------------------------ 
+- Increased the maximum level range spread for LDoN adventures from 7 to 10 so 
+you can now group with someone 10 levels above or below you. 
+- Critical heals now produce a message similar to other spells that crit. 
+- Fixed corpse looting bugs for corpses that have been summoned or moved out of 
+dynamic zones. 
+- Closing multiple bags while using the bank no longer causes the client to crash. 
+- The raid locking system had various bugs which are now fixed. Please let us know 
+if you encounter any problems with the raid tool. 
+
+
+* Denotes a community request. 
+
+
+-- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+April 20, 2005 
+------------------------------
+
+*** Events *** 
+---------------------------------- 
+
+* The Girplan Guardian encounter in the wizard epic had its difficulty lowered 
+to bring it more in line with other epic 1.5 fights. 
+* Rumors have been spread that the Ring of Scale have started to investigate the 
+new vampires of Mistmoore(RoS faction quest is in). 
+* Eryke Stremstin for the monk epic in the bazaar should no longer fall under 
+the world. 
+
+*** Items *** 
+---------------------------------- 
+
+* Changed the name of the Basilisk Tooth to be Great Reptile Tooth. 
+* Changed the name of Racnar Hide to Great Reptile Hide. 
+* Great Reptile Teeth can now drop off crocs in Plane of Earth and Plane of Nightmare. 
+* Great Reptile Hides can now drop off raptors in Cazic Thule. 
+* Pile of Gravel can now drop off Gargoyles in Plane of Nightmare and the Hole. 
+* Tribute values on certain Kunark chest and legpieces has been decreased . 
+* Horn of Doomcalling now has +2 mana regen. 
+* Supple Crimson Choker now has a +2 mana regen. 
+* Clawhammer is now a 70 damage, 32 delay weapon. 
+* Many items with over 160hp in DoN raids and small events were incorrectly marked 
+with type 4/7 augmentation slots. These now have type 8 augmentation slots. 
+* Shed Ikaav Skin drop rate/locations adjusted to include Ikaavs in the Ruined City 
+of Dranik. 
+* Mindreaver's Shoes of Coercion now has the focus of Alacrity of the Aneuk. 
+* Earring of Dragonkin is now called "Earring of Wurmkin". 
+* Mask of Forbidden Rites is now flagged all/all. 
+
+*** Item Spells *** 
+---------------------------------- 
+
+* Deafening Strike now increases the duration of Fellstrike Discipline. 
+* Ture's Anger now increases the duration of Blind Rage Discipline. 
+
+*** Spells *** 
+---------------------------------- 
+
+* Lowered the duration of many fear spells cast by NPCs. 
+* Reduced the number of NPCs who cast fear throughout the game. 
+* Changed all PC pets over level 52 so they are once again immune to fear. 
+* Several spells were not set to the correct proc values in the previous update 
+to compensate for the change in pet base proc rates. The following spells have had 
+their proc rates adjusted to be the same as they were before the previous patch: 
+
+Might of the Wild Spirits 
+Savage Wildcaller's Blessing 
+Hobble of Spirits 
+Primal Fusion 
+Elemental Conjunction 
+
+* Corrected the hate generated by the enchanter spell Howl of Tashan and the monk 
+ability Dragon Fang. 
+
+*** Miscellaneous *** 
+---------------------------------- 
+
+* Added level up text for all levels between 11 and 70. 
+* A bug affecting skilling up in combat skills at all levels and tradeskills at low 
+levels has been fixed. Skilling up at these levels should be back to normal. 
+
+-- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+May 11, 2005 
+------------------------------
+
+*** Headlines *** 
+
+-Many quests in city zones that give XP as a reward now give significantly more. 
+-Four new missions are available that take you back to Qeynos, Unrest, Befallen, 
+and Hate's Fury. 
+-Veteran's Rewards will be available on May 13th. You can find out more details about 
+these rewards here. 
+-The required levels on many spells level 50 and below have been changed so that all 
+casting classes will now receive at least 1 new spell every level. 
+-Great new functionality has been added to the mail system. Some of the major features 
+are listed below, but also check the bottom of the patch message for details. 
+-Multiple recipients, including a dynamically generated guild mailing list. 
+-EverQuest mail forwarding. You can now have your EverQuest mail forwarded to the e-mail 
+address registered with the station account of the character you are playing. NOTE: you 
+cannot reply to the forwarded mail. 
+-New Address Book. You can now setup mailing lists on your client and store your friend's 
+addresses in your address book. 
+
+*** Spells & Skills *** 
+
+-Players who only have the first two ranks of the Spell Casting Fury AAs will now do double 
+damage on a successful spell crit, the same as if they had the third rank. 
+-Players who only have the first two ranks of the Ingenuity AA will now do double damage 
+on a successful spell crit, the same as if they had the third rank. 
+-DoT spells for nearly all classes have been adjusted to scale better as players gain 
+levels. Additionally, most of these spells have had their casting time significantly 
+reduced. A number of additional changes have been made. Please see in game descriptions 
+for updated information. 
+-Pet heals are now generally more efficient, have shorter cast times, and will remove 
+poison and curse effects in addition to disease effects. 
+-Frost Guard now has a 1 hour duration. 
+-Rangers now gain the ability to triple attack starting at level 60. 
+-Berserker's Frenzy skill now has a minimum damage cap starting at level 51. 
+-The return on AC over the cap has been increased for monks, paladin, and shadowknights 
+of level 50 and higher. 
+-Based on player feedback, we have removed the notification to the caster that occurred 
+whenever a heal-over-time spell made an exceptional heal and added new functionality to 
+let the caster know when their spell has worn off. 
+-All caster, priest, and hybrid classes now learn Meditation at level 1. 
+-All priest and hybrid classes now learn Channeling at level 1. 
+-All detrimental spells that have a duration will now notify their caster when they wear 
+off. 
+-All hybrid classes now learn Abjuration, Alteration, Conjuration, Divination, and 
+Evocation at level 1. 
+-All buffs that last at least 24 seconds and do not go to the short buff window will 
+now notify their caster when they wear off. 
+-Share Wolf Form will no longer have its buff timer decremented in the Guild Hall. 
+-Shield of Notes and Dance of Blades will now properly reset if they fail to take hold. 
+-Lich Sting and Reaper Strike now grant a buff to the group as well as the Shadow Knight 
+triggering the effect. The benefit for the Shadow Knight will be significantly larger 
+then the benefit to the rest of the group. 
+-Kessadona's Flash of Insight is now known as Kessadona's Roar and has been changed to be a 
+direct damage cold based spell. 
+
+*** Items *** 
+
+-Seal: Mastery of All is now no-drop on the Firiona Vie server. 
+-A Gem-Etched Key was dropping off of common crocodiles in Plane of Earth. This erroneous 
+drop has been removed. 
+-The Rod of Shaded Wrath has been slightly upgraded. 
+-Many items with over 165 hps were given type 8 slots instead of type 7 slots. 
+-The Tainted Heartstone and Charm of Exotic Speech will now properly give full stats when 
+all uncommon languages are mastered. 
+-All flowers of functionality are now inventory clickable. 
+-All armor and weaponry on the Dragons of Norrath vendors now have an additional type 
+9 augmentation slot. 
+-New type 9 augments can now be found on the Dragons of Norrath vendors. 
+-Some additional weapons on the Dragons of Norrath vendors are now rogue usable. 
+-Blightbringer's Pants of the Grave now has the focus effect Venom of Anguish. 
+-Improved the damage/delay ratio of some of the weapons on the Dragons of Norrath vendors. 
+-Beaded Hoop of Demise now has +10 combat effects and +5 strikethrough. 
+-Chains of Anguish now has the focus effect Avariciousness of the Ikaav. 
+-Shroud of the Surging Storm now has the focus effect Avariciousness of the Ikaav. 
+-Ring of Deterrence now has the focus effect Avariciousness of the Ikaav. 
+
+*** Quests & Events *** 
+
+-When Brevik Kalaner combines the high temple pieces to form the Cipher of Txevu, the 
+player will now also receive Qvic access if they do not already have it. 
+-When zoning into Kod`taz, if a player has the Inktu`ta high temple piece as well as Qvic 
+access, they will now receive any other high temple pieces they may be missing. 
+-Removed the large particle effects from King Gelaqua's room in Riftseekers. This should 
+help with reported visual lag issues in that area. 
+-Fixed a spawn issue in Firiona Vie involving Hero Goxnok and a Drachnid spy. 
+-Guttertusk the Cruel has been spotted wandering the city of Dranik. 
+-Raids in Gates of Discord dynamic zones now require a minimum of 12 people to start. 
+-Corrected a problem that was causing the Kunark dragons to not drop their spells or, in 
+the case of Trakanon, his teeth. 
+-Vyril Nightfire in Mistmoore is seeking adventurers to help destroy the new inhabitants 
+of the castle. 
+
+*** Tradeskills *** 
+
+-Added a new alchemy recipe to create Essence of Froglok. It can be made in much the same 
+way as the other essences. 
+
+*** Missions *** 
+
+-We have made improvements to how mission rewards are given in situations where the mission 
+was completed while a member was zoning, charmed, feared, or dead. 
+-Your mission token or any item you receive at the completion of your mission will now 
+automatically go into an open slot in your inventory. You will not see it on your cursor 
+anymore. If your inventory is full then the token or item will be attached to your cursor 
+the next time you zone. 
+-Savil Tranquilsong has made an important breakthrough in his work uncovering the history 
+of Unrest and is looking for adventurers around levels 55 to 70 to assist him. Seek him 
+out in the Butcherblock Mountains if you are interested in helping. 
+-Rumors have been circulating of increased activity around Hate's Fury and a growing discontent 
+among the merchants of the Broken Skull Clan. A merchant in the Crypt of Nadox is looking 
+to hire a few hearty souls around levels 55 to 70 to help keep the Clan in check. 
+-Guard Freklin in Qeynos Hills has gotten himself into hot water after being caught sleeping 
+on the job and is now stuck on gnoll watch. He is looking for adventurers around levels 15 
+to 35 to help him get back into the good graces of the guard. 
+-The ancient necromancer Marnek Jaull has returned to the dark halls of Befallen and 
+kidnapped the daughter of a paladin of Prexus for use in his evil rituals. Derin Mausrel, 
+uncle of the kidnapped girl, has traveled to West Commons in search of adventurers around 
+levels 30 to 40 to help him rescue his niece and destroy the necromancer once and for all. 
+
+*** User Interface *** 
+
+-There is a completely new interface for the chat filter. 
+-The Bandolier "auto swap" will now maintain its state through relog. 
+-There is a new Merchant Interface window. Items are now displayed in more intuitive list. 
+
+*** Miscellaneous *** 
+
+-Added Label EQType 134 - Currently Casting spell. Added it to Casting window. 
+-Bug fix for entering the game by walking through the arch in explorer mode of character 
+selection. If you were logged out in an instanced zone, you will not see multiple of each 
+character if that zone was not up. 
+-For servers that have movelog command enabled, players will now see what servers have 
+their current name in use already. - We have changed the text description of certain flags 
+on the item inspection window. NO DROP is now NO TRADE and NO RENT is now TEMPORARY. 
+-Names above players/NPCs should now be visible at twice the distance they were before. 
+
+*** E-Mail Features *** 
+
+Audio and text notifications of new mail. 
+
+Mail Window 
+-New Options and Address Book buttons. 
+-The Options button brings up the options window (with the Mail tab selected). 
+-The Address Book button brings up the address book window. 
+-New "Reply All" button. 
+-New "TO" field visible in the view pane (where you read your email). It shows all recipients, 
+except those that are BCC. 
+
+Mail Composition Window 
+-New "From" field that shows you who you are when sending an email.(Useful now that you can 
+quickly switch between the mailboxes of your different characters on the current server). 
+-You can now send to multiple recipients at once, by separating them with comas. You can also 
+use an address book entry name. 
+-When pressing "Reply All" from the Mail Window, the lists found to match exactly (both name 
+and addresses) with an entry in your address book are compacted to the name only, other 
+entries are written in full. 
+-The Sync button is there to synchronize your TO field with your address book. This is mainly 
+useful when replying to all: it helps you add new entries to your address book or update old 
+ones. In the latter case, you will be notified of the differences: name differs by case, 
+addresses removed, addresses added. The note field is preserved during the update. 
+
+Address Book Window 
+-New window to edit your address book. 
+-Fields for name, addresses and note. 
+-Checkbox to make the entry name private, which means that during address expansion, the addresses 
+will be written as if you had selected them individually, not in the mailing list format. 
+-Automatic update of the "Guild" entry. [Transient (not saved) and read-only.] If you leave the 
+guild, the entry disappears. If someone is added/removed from the guild, your address book is updated. 
+
+New Options Tab for the Mail System 
+-Address book filename, configurable per character. 
+-If you select an existing address book file, it loads it. 
+-If you select a new filename, it creates it with the current in-memory address book state. 
+-The address book can be edited by hand, or copied between installations. 
+
+Mail Forwarding Option. 
+-When turned on, incoming email is forwarded to the email address you registered in your Station 
+Account. 
+
+Revised Command-Line Syntax for Sending Mail 
+-More than one recipient is now allowed. Use the comma to separate them. 
+-If you need a space, for an example if you are sending to a mailing list that contains a space 
+in its name, then you need to enclose the whole list of recipients between double-quotes. 
+-To make a recipient BCC, precede it with a -. 
+-Addresses written in the command-line are expanded according to the address book rules. 
+
+-- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+May 18, 2005 
+------------------------------
+
+*** Spells *** 
+
+- With the last patch, we made a change to the way that intoxication effects work so 
+you are no longer completely immune to them if you have maximum alcohol tolerance. 
+Instead, you now mitigate the effects based on your alcohol tolerance skill. Due to 
+this change, intoxication effects have been reduced or removed from a number of detrimental 
+NPC spells where they would now cause the encounters to be more difficult than intended. 
+- Storm Guard and Frost Shield now have 60 minute durations. 
+- Increased the range on Kessdona's Roar. 
+
+*** Missions *** 
+
+- Skrepiz Plaguebringer will now only appear when you have completed all previous requirements 
+in the Rise of Marnek mission. 
+- If you are on the mission to Unrest, Nisha Lightbrook will now respond to your first hail 
+instead of requiring two hails for a response. 
+- You will no longer be able to loot the notes for the Hate's Fury mission out of order. 
+
+*** Items *** 
+
+- Gloves of Wicked Ambition now have +5 to stun resist, +6 to dot shield, and +2 to mana regen. 
+- Mirrored Mask now has a type 8 augmentation slot, by request. Now players can bind a focus 
+augment to the item if they wish. 
+- Gem of the Spring Wind from the good DoN camp is now named "Shard of the Spring Wind" and is 
+now a type 7 and 8 augmentation. 
+
+*** Alternate Abilities *** 
+
+- Raised the cap on AA's so that those people who were maxed out can receive all of their 
+Vet rewards. 
+- The shape changing effects of the Jester of Bristlebane will now disappear after 10 minutes. 
+
+*** Code *** 
+
+Windows 98/ME: 
+- Users with these operating systems should no longer experience the bug where there UI 
+renders but the 3D scene does not when they first enter the game. 
+
+-- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+June 29, 2005 
+------------------------------
+
+A large patch was implemented today. Grab a coffee for this one. 
+
+================================== 
+
+*** Headlines *** 
+
+- Plane of Time Instancing! - Plane of Time has been fully instanced. Every raid that enters 
+the zone will now get its own instance of the zone. 
+- New Tutorial! - A new tutorial is now available, featuring new art, new models, new quests, 
+and a new player experience that will take you from level 1 to level 10. 
+- New Newbie Armor Quests! - New armor quests pick up where the tutorial leaves off, taking 
+players from 11 to 20. 
+- You can now invite players to your group across zones. We have enabled the ability to use 
+the /invite command with a players name to allow you to invite someone that is not in your 
+current zone. 
+- "Auto Consent Group", "Auto Consent Raid", and "Auto Consent Guild" buttons have been 
+added to the options window; when checked, your group/raid/guild will automatically be given 
+consent to move any new corpses you drop. 
+
+
+
+*** Items *** 
+
+- Ogre Femur Club is now monk and beastlord usable. 
+- The tier1 and tier2 quested breastplates in Omens of War now have click effects that are 
+usable from inventory. 
+- The Rod of Mystical Transvergance and Summoned: Modulating Rod now both have a 5 minute 
+item recast timer. This will give both items a visible indicator for the recast time of 
+the rods when used in the UI. 
+- The suffusive weaponry from the Trial of Ingenuity is now attunable. 
+- The Longbow of Chaos now has a type 4 augmentation slot. 
+- Haggard Trusik Shawl now has +15 int instead of +15 wis. 
+- Plaguebreeze now has +4 regen, +20 attack, +1 shielding, and +5 avoidance. 
+- The Dragonshade Mask now has the worn effect of Cleave V and the activatable effect of 
+Assassin?s Blood. The recast time on the activatable effect has been changed to two minutes. 
+- The Obsidian Battle Sword has a new graphic. 
+- The Blade of Vesagran is now a one-handed slasher. Please petition if you have an 
+augmentation that will not fit in your blade now that it has changed to a slasher. 
+
+
+*** Tasks, Missions, and Quests *** 
+
+- Increased the amount of time that a mission zone can be empty of players before it 
+shuts down from 15 to 30 minutes. This should help groups who completely wipe out get 
+back to the zone before it shuts down and resets. 
+- If you are on the mission to Unrest, Nisha Lightbrook will now respond to your first 
+hail instead of requiring two hails for a response. 
+- Sleeping on the job: Gnoll Archers will now call for reinforcements if you have killed 
+them before completing the previous elements in the task. 
+- Sleeping on the job: Holinix, Djerr, Grarrax, 
+- Fixed an error that was causing some tasks that had elements in Grimling Forest to be 
+impossible to complete. 
+
+
+*** Events *** 
+
+- The Specter of Rage in Uqua will now accept the Orb of Rage again. 
+- It should no longer be possible to get double-loot and double-lockout on the MPG 
+Trial of Endurance. 
+- The Vishimtar encounter has been retuned. Beware the cursed black dragon! 
+- After Vishimtar's demise, Creeping Doom will fade and skeletons will cease spawning 
+on player death. 
+- Standing directly under Rikkukin when he fires off a directional attack is now a bad 
+idea. 
+- Lockout timers for Anguish bosses are now 4.5 days long instead of 4.9166666 (repeating, 
+of course). 
+
+
+*** Skills, Spells 
+
+- Added new spells in the Spirit of the Panther line for Shaman at levels 50 and 57. 
+- Added new spells in the Ward of Righteousness line for Clerics at levels 50 and 57. 
+- Added new level 50+ fear spells for Clerics, Necromancers, Enchanters, Shadowknights, 
+Bards, and Druids. 
+- Added new melee guard Disciplines for Shadowknights and Paladins, both at level 56. 
+- Added a new Point Blank Enthrall spell for Enchanters at level 68. 
+- Added new spells in the Spirit of the Panther line for Shaman at levels 50 and 57. 
+- Added new spells in the Ward of Righteousness line for Clerics at levels 50 and 57. 
+- You'll have to convince Karsor the Mad to part with the above new spells. 
+- Storm Guard and Frost Shield now have 60 minute durations. 
+- Modified the Frenzied Burnout AA so that it now has a 15 minute reuse and will better 
+stack with other strength and attack enhancing effects. 
+- The mana regeneration portion of the Enchanter spell Breeze now scales from 5 at level 
+14 to 6 at level 20. 
+- Fixed a stacking problem with Shadowknight and Ranger Self buffs that were being 
+overwritten by the druid Hand of Ro line. 
+- Increased the innate AC bonuses granted to level 66+ pets by focus effects. 
+- Increased the melee damage bonuses provided by pet focus effects on level 66-70 pets. 
+- Lowered the endurance cost on many Berserker Axe abilities and the battle cry line. 
+- Refunded and removed Spell Casting Subtlety from Shadowknights. 
+- Shock of Lightning was recently changed into a new spell, Icicle Shock. In answer to 
+concerns from several players at the loss of Shock of Lightning, the spell has been returned 
+to it's previous form. 
+- Guard of Blood Recourse has been changed to a instant heal for 600 HP instead of 400 
+for 2 ticks. 
+- Alternate Ability timers for newly acquired activatable AAs will properly initialize 
+to allow for immediate use. 
+- Veteran rewards on accounts that have no expansions now work properly. 
+- Leadership assist ranges now have the same distance rules as the /assist command. 
+- When rogues using Shroud of Stealth /con an NPC that can see invis but not shroud of 
+stealth, they will now get a message telling them the NPC cannot see them but can see 
+normal invis players. 
+- Players will now receive 1 skill point in any new skills available when the reach a new level. 
+- Spell hate for spells with a fixed amount of hate now include hate-focus effects. 
+Previously, spells with fixed amount of hate assigned to them would disregard hate focus effects. 
+- Fixed the issue with Wrath of the Wild that caused it to last until a rune expired. 
+
+
+*** Tradeskills *** 
+
+- Added a minimum chance to gain a skill up on many of the Dragons of Norrath cultural 
+tradeskill recipes and many of the Omens of War augmentation recipes. This will make it 
+easier to gain an increase in skill when doing these recipes in most cases where the 
+character has a high skill. 
+- Some Velium weapons can now be converted into small Velium bars by smiths. You will 
+need to use the Velium Smithy Hammer in order to break down these weapons. 
+- Speckled Pine Fruit can now be foraged. 
+- Palm Leaf can now be foraged. 
+- Added a recipe to create Rainwater Dressing. 
+- Added a recipe to create Spiced Heartfruit Greens. 
+- Midnight Stones and Sandstone Pearls can now be crushed in a Mixing Bowl, not a Mortar 
+and Pestle. 
+- Increased the stack size of Dragons of Norrath cultural Patterns and Molds to 200 (400 
+for wrist patterns and molds). 
+- Caerlyna will now exchange Ice Cream Churns for tokens. 
+- Added information to bag tokens that will tell the player some of the information about 
+the bag they represent. 
+
+
+*** NPCs *** 
+
+- There is a new potion vendor in the Plane of Knowledge. He sells some nice new potions 
+as well as some of the ingredients that alchemists will need to make those potions. 
+- The Taskmistress Krisz encounter can now be triggered. Speak to the NPCs in Riwwi for more 
+information. 
+- Several NPCs in the Abysmal Sea are now more willing to chat. They no longer require proof 
+of dedication to their cause. 
+- New merchants have moved into Lavastorm. 
+- Some of the Ferans in Riftseekers will drop Softened Feran Hides more often now. 
+- Some of the Ferans in Riftseekers will drop Quality Feran Hides more often now. 
+
+
+*** Veteran rewards *** 
+
+- The Veteran Reward buffs are now immune to being dispelled. 
+- The Veteran Reward buffs will no longer freeze their timers in the guild hall. 
+
+
+*** Optimizations *** 
+
+- File caching has been enabled which should yield performance improvements, especially 
+on lower end systems when dealing with the UI (opening/closing windows, loading a UI, ...). 
+
+
+*** Exodus and Related Issues *** 
+
+- The exodus bug where a player could possibly die during the small amount of time after 
+the spell is cast but before they actually zone, should now be fixed. We did the best we 
+could trying to reproduce the situations that have been described to us and they have been 
+fixed in our test cases. Please let us know if you continue to experience an issue like this. 
+- Spells such as Exodus, have a chance to fail which happens for each person that gets hit 
+by the spell. This means each person has a chance to not get ported. If you fail to get 
+ported, you now receive a message notifying you of the failure. 
+- Teleport bind(AA) will no longer leave the caster behind. If the spell is successfully 
+cast, then everyone will be ported. Previously the caster had a 2% chance to not port. 
+
+
+*** Features Enabled for All *** 
+
+- The raid window is now available to all players. 
+- The LFGroup windows are now available to all players. 
+- Line-art mapping is now available for all zones. 
+
+
+*** UI *** 
+
+- The Potion Belt will now remain visible after zoning (if it was visible before zoning). 
+- The advanced display options window has been enhanced substantially. Please note that the 
+Advanced Lighting option is for video cards that support 1.1 Pixel Shaders and above. Also 
+note that the advanced lighting is still being tested with some of our known player hardware 
+configurations. If you experience any issues with it on, please turn it off. Not all hardware 
+combination have been verified to be fully functional. For those that can use it, check out 
+how cool the lighting looks in some of the old zones like the commonlands with the NPCs and 
+their spherical light influences. It looks great. 
+- The help window has been merged with the petition window. 
+
+
+*** Misc *** 
+
+- You will no longer get experience back from a corpse whose rez timer has expired when 
+using the Veteran AA Expedient Recovery. 
+- The level restriction for entering the tutorial has been changed to allow level 10 and 
+under. 
+- Fixed an old issue with particles. If you had your client running for 10 or so hours, 
+some particle emitters would start to show huge particles. 
+
+
+*** Chat Channels *** 
+
+- There are now system owned, persistent chat channels and players will auto join some of 
+these channels. Players level 20 and under auto join the "NewPlayers" channel, over level 20 
+auto join "General" and a class specific channel, and there are continent based channels as well. 
+Auto joining channels can be disabled under the options window. 
+
+
+*** Pet Commands *** 
+
+- The "/pet follow" command works properly again. 
+- The "/pet report" command works properly again. 
+
+
+.....................................................................

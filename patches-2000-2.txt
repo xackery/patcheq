@@ -1,0 +1,1588 @@
+.....................................................................
+
+------------------------------
+July 12, 2000  5:00 pm
+------------------------------
+
+*Karana Secondary Split*
+
+Hello all,
+
+In light of our plans to further balance prime-time population on the 
+servers, we're going to allow another group of players from Karana to 
+split off to Terris-Thule. 
+
+This Friday we will again open /movelog registration on Karana sometime 
+around 7pm PDT (GMT-8). The GMs will broadcast when registration is 
+open, and we will continue taking /movelog requests for 24 hours. 
+Players wishing to have their characters moved to the new split server 
+will need to run the command "/movelog yes" after registration is 
+opened. As we have identified a minor problem with the hundreds of 
+simultaneous uses of the /movelog command, it is recommended that you 
+wait a few minutes after registration is opened using it.
+
+Notes:
+
+- /movelog only needs to be run from ONE character, and will count for 
+all characters on that server on that account. 
+- Players who have requested a move should make sure all of their 
+corpses are looted by the time the server is brought down the following 
+Tuesday morning. Corpses will not be duplicated in the new world, and 
+anything left on a corpse left behind by anyone who moves will be lost.
+- We may or may not be able to move everyone who requests this action, 
+based upon the number of total requests that we receive. 
+- The GM/Guide staff will not be able to tell you whether or not you 
+have been selected until after the move is actually completed.
+- Karana and Terris-Thule will be down for several additional hours on 
+Tuesday, the day of the next patch. Updates will be given at that time. 
+
+
+.....................................................................
+
+
+------------------------------
+July 19, 2000  7:00 am
+------------------------------
+
+***Patch Day***
+
+*Miscellaneous Changes/Fixes*
+
+- The "Safe Points" have been moved in Field of Bone and Lake of Ill 
+Omen to someplace "safer".
+- You can no longer cast invisibility on any pet. 
+- Foul language issued through /emote will now be handled by the 
+profanity filter.
+- Corrected a bug that allowed linkdead players to walk through locked 
+doors.
+- Rangers above level 50 will now do double damage with Archery against 
+non-moving, non-rooted targets. These restrictions allowed us to 
+enhance archery without creating a new kiting problem.
+- Corrected a bug that had rangers doing less melee damage than was 
+intended except when fighting an NPC who was also a ranger.
+- Pets, both PC and NPC, will no longer cast "Gate".
+- A large rat says, "Hit by non-melee for XXX damage", is history. The 
+new message given probably isn't the source of never-ending humor that 
+the old one was.
+- Updated pathing information in Innothule Swamp.
+- Corrected many, many, MANY spelling and grammar errors in the world. 
+- Fixed a large number of spell gems and spellbook icons. Take care to 
+take a look at your spell lineup to familiarize yourself with the new 
+gems/icons.
+
+*Poison*
+
+- Implemented the high level Rogue poisons (level 51+).
+- Increased Rogue "Make Poison" skill cap.
+- Substantially reduced chance to fail "Apply Poison".
+- Rogues will now automatically sit when right-clicking on a poison.
+- Failure to make a poison will now return the vial.
+
+*General Crafts*
+
+- The Ant's Potion may now be used anywhere.
+- The small and large reinforced wristband may now be crafted.
+- The small and medium studded shoulderpads, cloak, and belt may now be 
+crafted.
+- The medium reinforced mask may now be crafted.
+- Sealed Poison Vials can now be crafted.
+- The Thermal Cloak may now be tinkered.
+- The "This item is trivial..." message in craft skills has been 
+replaced with "You can no longer advance in skill from making this 
+item". 
+
+*Items*
+
+- The Elven Paladin Newbie Tunic may now be worn by Half Elf paladins.
+- The Murky Vial will now properly affect the target instead of the 
+player.
+- Increased stats on many Plane of Sky items.
+- There was evidently more than one "Fine Steel Dagger" running around 
+in the world. Some of them have been renamed "Serpant's Tooth".
+- The effect on the Staff of Undead Legions has been changed to 
+something a bit more useful.
+- The Deepwater Helm now has a significant casting time. The function 
+of its spell allowed a mana-free heal even though it was intended to be 
+a buff.
+
+
+*/consent*
+
+Some people were spamming others with /consent, causing them to 
+disconnect. As a result, /consent can now only be done once every two 
+seconds. Should you be harassed via this tool, please use /report. 
+Also, please take care to avoid accidentally /consenting someone, as it 
+will be two seconds before you can undo it.
+
+*Cazic-Thule and the Feerrott*
+
+There has been a significant change to the factions in the Feerrott and 
+Cazic-Thule. Take care not to get killed by NPCs that previously left 
+you alone. The significant upside to this change is that the "Cazic 
+Gate/Portal" can be made much safer in nature for those who work on 
+their faction.
+
+*Regen Effects*
+
+This week we corrected a bug that caused regen-type spells (e.g. 
+Regeneration, Chloroplast, Regrowth, etc.) to overwrite DOT spells. As 
+a result of this fix, players can no longer accept a regeneration spell 
+while under the effect of a DOT. However, if the regen spell is already 
+in place, the DOT will stack, but not replace the regen spell. This 
+will allow users of beneficial DOTs, such as Call of Bones, to continue 
+using their DOT while under the affect of regen.
+
+*Keyed Dungeons*
+
+The key for Charasis (Howling Stones) is now NODROP per the patch 
+message from a couple of weeks ago. Furthermore, when your character 
+dies, keys for Charasis, Sebilis, and Veeshan's Peak, will no longer 
+remain with your corpse, but will instead return with your character to 
+its bind point. We made this change to reduce the difficulty and 
+corpse-loss potential of these zones, and eliminate the need to do the 
+key quests multiple times.
+
+*Barbed Scale Whip*
+
+In the last item patch, this item was changed from its original stats 
+to something inferior, as the game designer was not aware that it was 
+already in-game. It has been changed back to its original stats.
+
+*Hiding Corpses*
+
+A new command has been implemented in the EverQuest client. This 
+command (/hidecorpses) allows players to suppress the display of player 
+and NPC corpses on the screen. This can be very useful once you've 
+entered a zone with a large number of corpes, causing framerate to 
+decay. It will be particularly useful in the planes. The command 
+supports the following arguments:
+
+- ALL: Hides all corpses except yours.
+- ALLBUTGROUP: Hides all corpses except yours and those of people in 
+your group.
+- NONE: No longer hides corpses.
+
+For community reasons, this option must be set after entering each 
+zone, and will not affect corpses made after you enter the zone. You 
+can reset it while in the zone in order to suppress display of corpses 
+made since you originally set it. 
+
+*Resurrection*
+
+The resurrection confirmation box will now report the name of the 
+person casting the spell as well as what spell they are casting. 
+Furthermore, experience will not be "removed" from your corpse until 
+you accept the resurrection by choosing YES. Previously, any 
+resurrection spell, if declined, would cause the experience to be 
+unrecoverable.
+
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+July 26, 2000  12:00 pm
+------------------------------
+
+*Chat and Login*
+
+Today's patch contains some new features for the EverQuest chat and 
+login servers. In addition, it enables support for some international 
+keyboard layouts. 
+
+- Tab again switches between fields in login and registration.
+- #time will display a time/date stamp.
+- #reply will send a private message to the last person to message you.
+- Tab will cycle through the last few people to send you a private 
+message.
+- Rooms may now be closed by staff members. These rooms are in gray, 
+and no one will be able to enter them until a staff member opens them. 
+Attempting to enter a closed room will display a message.
+- EverQuest, including Chat and Login, now supports some international 
+keyboard layouts. Information can be found at 
+http://everquest.station.sony.com/s_keyboard.html. 
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+August 1, 2000
+------------------------------
+
+Greetings everyone! 
+
+Today's patch contains some changes that we are sure everyone will 
+enjoy:
+
+- Canned emotes (e.g. /point) now work on NPCs. In addition, the range 
+for canned emotes has been increased.
+- /who all "guildname" should now work for players who have /roleplay 
+turned on.
+- Preferences for the mouselook will be saved in your options file. 
+Those who turn mouselook off each time when starting EQ will only have 
+to do it once more.
+- The "Chat Filter" tab in "Options" now has an option to filter 
+messages caused by damage shields hitting others.
+
+*Fast Drop*
+
+Our most exciting change today is an option that allows players to 
+avoid accidentally dropping items on the ground. The new client allows 
+players to set "Item Dropping" preferences on the "General" options 
+tab. The three options that can be set are:
+
+- FAST DROP: Items are dropped without confirmation.
+- CONFIRM: A confirmation box will be displayed whenever you try to 
+drop an item.
+- NEVER: You are not allowed to drop items on the ground. 
+
+Alternatively, you can also set these options using the /fastdrop 
+command. The arguments are:
+
+- ON: Same as option "Fast Drop" on the General Tab.
+- OFF: Same as option "Confirm" on the General Tab.
+- NEVER: Same as above.
+
+Please note that whatever your setting, coin will always be dropped 
+without confirmation. Additionally, the FastDrop option only applies to 
+items being dropped upon the ground. Handing items to NPCs will still 
+work regardless of your FastDrop setting.
+
+It is highly recommended that you use option "CONFIRM", as GMs will not 
+reimburse any items that are accidentally dropped.
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+August 9, 2000
+------------------------------
+
+***Character Purge***
+
+Time has come to do some cleanup on character data across the servers. 
+On August 23rd (Pacific), we will be doing a system-wide cleanup of 
+level 1 characters. All level 1 characters that have not been played 
+within 30 days from the date of the purge will be deleted. As GMs will 
+not be able to restore any characters that are deleted, please be 
+certain to log in any level 1 characters that you wish to keep prior to 
+the purge.
+
+- The EverQuest Team
+
+August 9th, 7:00am 
+------------------
+
+*Guide Application*
+
+The Guide Application is now back up at http://guideapp.everquest.com. 
+If you are over 18 years of age, have a good customer-oriented 
+attitude, enjoy helping your fellow player, and are interested in 
+joining the Guide Program, we will be pleased to review your 
+application.
+
+*Kunark Users*
+
+A new file, emeraldjungle_chr.s3d, is included as part of today's 
+patch. This patch adds additional displayable NPCs to the Emerald 
+Jungle. Please run the "Kunark Patch" by pressing the "Kunark Patch" 
+button on the bottom of the patch program UI prior to entering 
+EverQuest.
+
+*Patch Day*
+
+Greetings everyone! Today's patch contains some exciting new changes. 
+
+*General Enhancements*
+
+- Text messages that wrap will be indented on subsequent lines. This 
+means that if a person or NPC says something that is more than one line 
+long, all subsequent lines will be indented a few spaces. This should 
+make it a lot easier to pick out separate messages.
+- The spells "United Resolve" and "Heroic Bond" had their levels 
+transposed accidentally. Rather than putting them back as intended, 
+United Resolve has been changed to Heroic Bond, which means you might 
+have two copies of that spell in your spellbook. Feel free to move one 
+to the back. Clerics get a new group spell at 58 to compensate.
+- The Wurmslayer is now a one-handed slashing weapon.
+- The /help command will now list all /-commands available to you.
+- Rangers, Paladins, and SKs now have mana equivalent to that of a pure 
+caster with the same stats. This will give those hybrids a good deal 
+more mana, regardless of their stats. 
+- NORENT items, items that disappear when you log out, will now show a 
+"NORENT" tag when inspecting the item.
+- Most summoned items now have the word "summoned" in their name.
+
+*Changes/Fixes*
+
+- Small Studded Tunic recipe now works
+- Scaler recipe now works
+- High Elves can now use the Moss Covered Twig and Branch
+- Iksar can now wear the Crescent headband.
+- The Shintl Lowbrew quest will now work
+- The Rusty Rapier now looks like a rapier.
+- Elven Wine can now be brewed
+- Some pelt-dropping animals were always dropping ruined pelts, rather 
+than pelts of quality. This has been repaired.
+- The Guild-invite toggle in display options will now work.
+- The faction problems with the Charasis Key Quest have been resolved.
+- Many pathing errors have been repaired.
+- Repaired a bug that caused some anomalies after being charmed or 
+feared.
+- Repaired a bug that kept the Unswerving Hammer of Faith and Flaming 
+Sword of Xuzl from disappearing.
+
+*Dragons?*
+
+Rumor has it that some new dragons have been spotted in Kunark. It 
+should be noted however that the dragons can be engaged from much 
+further away than is intended. Rather than hold off implementing these 
+dragons for another week, we've decided to implement them now and fix 
+the problem in the next patch. Enjoy :)
+
+*New Command For Tracking*
+
+New option for those with tracking: /trackplayers. The command will 
+work for all players with the tracking skill. The command has two 
+settings:
+
+- ON: Default setting, same as it is now. Players will show up in the 
+tracking window. 
+- OFF: Players will not show up in the tracking window.
+
+*Client Customizations*
+
+Upon starting EverQuest, a new file (EQCLIENT.INI) will be created in 
+your EverQuest directory. This file contains customizable settings for:
+
+- Colors for text messages in the in-game chat window 
+- Default screen viewing mode 
+- Default travel speed (run or walk)
+
+The documentation will be included in the online manual in your 
+EverQuest directory once the design is finalized over the next several 
+weeks, but the working document is posted below. We felt that people 
+would rather have access to the customizations right away while we're 
+in the process of building them. 
+
+Modifying this file is optional.
+
+*EQCLIENT.INI documentation*
+
+The [TextColors] section contains entries for various text colors in 
+the client. All colors are to be set with Red, Green, and Blue values, 
+in decimal. Valid settings for each color range between 0 and 255. 
+"Black" (0 red, 0 green, and 0 blue) will be white in overlay mode, and 
+black in normal mode.
+
+Here is a list of user colors to use as a guide when editing the file: 
+
+1 - Say 
+2 - Tell 
+3 - Group 
+4 - Guild 
+5 - OOC 
+6 - Auction 
+7 - Shout 
+8 - Emote 
+9 - Spells (meming, scribing, casting, etc.) 
+10 - You hit other 
+11 - Other hits you 
+12 - You miss other 
+13 - Other misses you 
+14 - Some broadcasts (duels) 
+15 - Skills (ups, non-combat use, etc.) 
+18 - Default text and stuff you type 
+20 - Merchant Offer Price 
+21 - Merchant Buy/Sell 
+22 - Your death message 
+23 - Others death message 
+24 - Other damage other 
+25 - Other miss other 
+26 - /who command
+
+The [Defaults] section contains some default setting for the client. 
+Here is a list of valid settings: 
+
+RunMode - TRUE for run, FALSE for walk. 
+ScreenMode - NORMAL for the default window view, FULL for the full view 
+with overlays
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+August 16, 2000  7:00 am
+------------------------------
+
+*File Patched*
+
+This patch contains eqmain.dll, which is used by the EverQuest 
+login/chat frontend. The following changes have been implemented:
+
+- #help now accepts arguments. #help #command will return help for the 
+requested command.
+- Errors issued within the chat/login server frontend now display an 
+"Error Number". Please have this error number ready when requesting 
+technical assistance.
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+August 23, 2000  7:00 am
+------------------------------
+
+- Corrected a bug that caused items that ran out of charges to 
+"disappear" when the last charge was used. The item never really 
+disappeared, and would reappear after re-logging. It no longer appears 
+to disappear.
+
+*Updated EQCLIENT.INI Documentation*
+
+If the file does not exist it will be generated by eqgame.exe with 
+default values. If an entry in the file is missing it will be added by 
+eqgame.exe with default values.
+
+The [TextColors] section contains entries for various text colors in 
+the client. All colors are to be set with Red, Green, and Blue values, 
+in decimal. Valid settings for each color range between 0 and 255. 
+"Black" (0 red, 0 green, and 0 blue) will be white in overlay mode, and 
+black in normal mode. 
+
+Here is a list of user colors to use as a guide when editing the file:
+
+1 - Say
+2 - Tell
+3 - Group
+4 - Guild
+5 - OOC
+6 - Auction
+7 - Shout
+8 - Emote
+9 - Spells (meming, scribing, casting, etc.)
+10 - You hit other
+11 - Other hits you
+12 - You miss other
+13 - Other misses you
+14 - Some broadcasts (duels)
+15 - Skills (ups, non-combat use, etc.)
+16 - Disciplines or special abilities
+17 - Unused at this time
+18 - Default text and stuff you type
+19 - Unused at this time
+20 - Merchant Offer Price
+21 - Merchant Buy/Sell
+22 - Your death message
+23 - Others death message
+24 - Other damage other
+25 - Other miss other
+26 - /who command
+27 - yell for help
+28 - Hit for non-melee
+29 - Spell worn off
+30 - Money splits
+31 - Loot message
+32 - Dice Roll (/random)
+33 - Others spells
+34 - Spell Failures (resists, fizzles, missing component, bad target, etc.)
+
+The [Defaults] section contains some default setting for the client. 
+Here is a list of valid settings:
+
+RunMode - TRUE for run, FALSE for walk.
+ScreenMode - NORMAL for the dafault window view, FULL for the full view 
+with overlays
+Log - TRUE for logging on, FALSE for logging off
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+August 30, 2000  8:00 am
+------------------------------
+
+*Today's Patch*
+
+Today we modified the EverQuest client to implement the following 
+changes:
+
+- Corrected a bug that would cause players to crash if they entered the 
+game, exited to the server selection screen, and tried to reenter the 
+game.
+- Corrected a bug that caused delays when switching between UI modes 
+due to the text wrapping change implemented last week.
+- The /book command (/book #) now accepts pages 1 through 50, and will 
+switch to the proper page.
+- Opening your spellbook will automatically cause you to begin 
+meditating providing that you have the skill.
+- Removed the /meditate command since it is no longer necessary.
+- You can now activate a hotkey while the spellbook is open by pressing 
+the corresponding number-key.
+- The "/target [name]" command can be used to target other players by 
+name. Please note that this ability is subject to the range to the 
+target.
+- EverQuest will now write the original default colors when creating 
+the EQCLIENT.INI file, rather than the new colors that were put in a 
+few weeks ago.
+- The @-character can be used in emotes to indicate a target. For 
+instance, if you target "a gnoll" and type "/emote laughs cruelly at 
+@", the output will be, "Playername laughs cruelly at a gnoll".
+- People with the /LFG (Looking for Group) flag set will now have their 
+over-head name prefixed with an asterisk. Remember that you can search 
+for people looking for a group by using the "/who" and "/who all" 
+commands. Typing "/who all ranger 40 50 lfg" will return a list of all 
+rangers between 40 and 50 that are looking for a group.
+- The "Sense" series (Undead, Animal, and Summoned) will no longer 
+point you towards people's pets.
+
+*Note on Voice Recognition*
+
+Last week we implemented voice recognition technology in EverQuest. To 
+use this new feature, please refer to the EQROKManualSupplement.doc 
+file in your EverQuest directory. Please note that you must already 
+have a voice recognition engine that is compliant with the Microsoft 
+Speech API (SAPI), version 4.0. The voice recognition technology was 
+tested with Dragon NaturallySpeaking(r) v4.0. Check with the developer 
+of your software to find out if it is SAPI 4.0 compliant.
+
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+September 12, 2000  3:00 pm
+------------------------------
+
+*Guild Maintenance*
+
+We are in the process of preparing to do maintenance on the guild 
+database. To that end, guild creation and activation will be on hold 
+for the next three weeks. After that time, we may be running a process 
+to remove inactive or under-subscribed guilds from the system. We would 
+ask and recommend that those in guilds with under 10 separate members 
+(on separate accounts) consider merging and deleting the under-
+subscribed guild. 
+
+In addition, it's apparently become common practice for people wishing 
+to register a guild to enter the chat server and advertise there for 
+help creating the guild. This will no longer be permitted. People 
+wishing to submit a guild must organize prior to entering the chat 
+server. Advertising for assistance within the chat server could result 
+in a short-term (24 hour) suspension for the account.
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+September 19, 2000  7:00 am
+------------------------------
+
+*Level 1 Character Purge*
+
+The Level 1 character purge announced several weeks ago will take place 
+on Wednesday, September 27, 2000, at 7:00am PST (GMT-7). Any level 1 
+characters that haven't been played within the previous 30 days will be 
+deleted. If you wish to keep any level 1 characters that you may have, 
+please log in and play them between now and 9/27. 
+
+***Patch Day***
+
+As a testament to our on-going goal to constantly provide more content 
+for EverQuest players, today's patch primarily consists of *many* 
+content-additions to the game. 
+
+*New Epic Quests*
+
+We are pleased to announce that we have implemented new "Fiery Avenger" 
+style quests for every class in the game (including paladins). The 
+ultimate reward for each quest boasts a custom model with unique 
+particle effects. We think that you will be pleased.
+
+Good luck to everyone on your quest.
+
+*Class Issues*
+
+Rangers:
+
+Last week we completed in-depth testing of melee and defensive skills 
+for all melee-centric classes. In the course of these tests we 
+determined that the ranger class was not performing to its intended 
+level, and have made the following changes:
+
+- The "Jolt" spell has had its casting time reduced.
+- The Skillcap on Dodge and Parry has been increased.
+
+Monks:
+
+High-level monks can now carry increased weight without penalty. The 
+additional allowance is granted at levels 55 and 60.
+
+Cleric:
+
+Celestial Elixir was failing due to multi-tick cure components that are 
+incompatible with that configuration. We have therefore removed the 
+cure components and increased the healing provided by this spell.
+
+After a great deal of consideration, we have concluded that the Mark of 
+Karn spell is imbalanced and requires correction. This spell's current 
+function makes melee classes without dual-wield far less desirable 
+members of the group. As such, the spell has had its duration 
+decreased, its recast-time increased, and its "heal per hit" value 
+decreased. 
+
+
+*Fungal Regrowth*
+
+"Fungal Regrowth" is now a self-only spell. It was being used as an 
+offensive spell by virtue of its "snare" effect upon the target. 
+Furthermore, we ruled out making it "group only" as with other spells 
+that have this issue, due to a class-balance concern. The spell was 
+reducing the group's desire for classes capable of casting regenerative 
+magic.
+
+*Attack Speed Buffs*
+
+In this patch we corrected a bug that would cause any "Haste" item 
+combined with any "Haste" spell to automatically yield maximum haste, 
+regardless of the level of "Haste" granted by each individual 
+component. This fix increases the usefulness of better "Haste" 
+equipment and spells. The downside to this is that those who usually 
+have both items and spells active will see a reduced attack-speed 
+unless outfitted with the best equipment and spells.
+
+*High-Level Dungeon Balancing*
+
+Veehshan's Peak and Sebilis have received loot adjustments in order to 
+address disparities in risk and reward. For the most part, the quality 
+of the "common" loot in Veeshan's Peak is at least as good as the 
+"rares" from Sebilis.
+
+*Low-Delay Weapons and Damage Bonus Changes*
+
+In accordance with our announcement several weeks ago, two low-delay 
+weapons can now only be equipped in the off-hand. Included in this 
+change are the Mosscovered Twig and the Barbed Scale Whip. The delay on 
+these weapons and the associated damage bonus to weapons in the primary 
+hand made these weapons much too powerful for their availability and 
+the risk associated with their acquisition.
+
+In addition, two-handed weapons have had their damage-bonus modified. 
+The damage-bonus for low-delay two-handed weapons (27 or below) created 
+a problem similar to the weapons above and has been reduced. The 
+damage-bonus has not changed for normal-delay (28-39) two-handed 
+weapons. The damage bonus for high-delay two-handed weapons (40+) has 
+been increased.
+
+
+*Server Selection Screen*
+
+It has come to our attention that new players often think that the 
+high-population servers are better, based upon the logic that if 
+everyone else is there, it must be a good server. However, in 
+Massively-Multiplayer games, less populated servers are often 
+considered superior for gameplay. Therefore we have marked servers that 
+would benefit from new characters as preferred servers, listing them in 
+"green" in the server selection window. The preferred servers have 
+populations such that an influx of new people would benefit the server 
+rather than cause overpopulation.
+
+
+*Custom Emotes and AFK*
+
+Animations with custom emotes have been implemented. Current canned 
+emotes such as /point allow a target other than the current target to 
+be specified. That will continue to work. So if you type "/point 
+Baobob", the usual text will come up. However, you can add custom text 
+to the emote, but you must specify the target as "say" as the target. 
+For instance: 
+
+/point say points at a gnoll, indicating that he is ready to kill it. 
+
+...your character will execute the /point animation, and the text 
+output will be: "CharacterName points at a gnoll, indicating that he is 
+ready to kill it." 
+
+Finally, you can now set a custom message for when you are /AFK. Type 
+"/AFK " (without the brackets) to set your custom AFK message. For 
+instance, if you type "/afk Grabbing a snack", you will reply with 
+"Grabbing a snack" when someone sends you a /tell.
+
+*Skill Gain*
+
+The skill-gain rate of many skills is now further modified by character 
+stats. This will allow those with natural affinities towards certain 
+skills to improve at a greater rate.
+
+*Trade Skills Enhanced*
+
+Many of the trade skills in game have received massive enhancements, 
+including dozens of new craftable items, new fishing and foraging 
+items, and other things to be discovered once in game. 
+
+In addition, trade-skill specialization has been implemented. Players 
+will be able to exceed 200 points of skill in ONE of the generally 
+available tradeskills. This includes: 
+
+- Baking
+- Blacksmithing
+- Brewing
+- Jewelcraft
+- Tailoring
+- Fletching
+- Pottery 
+
+Once above 200 points in one of these skills, no other skill will be 
+able to exceed 200. Specialization restrictions do not include class or 
+race-specific trade skills such as Alchemy, Make Poison, and Tinkering. 
+Players with race or class-specific trade skills will be able to exceed 
+200 points of skill in that skill, PLUS any generally available trade 
+skill. 
+
+The enhancement of trade skills is an on-going project. Further 
+enhancements will be made in the coming weeks.
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+September 28, 2000  7:00 am
+------------------------------
+
+***Patch Day*** 
+
+The following changes have been implemented on the production servers 
+as part of today's patch: 
+
+*General Changes* 
+
+- NPC corpses level 55 or over will now last 30 minutes before 
+decaying. This should help those on large multi-group encounters who 
+need some prep-time before looting items.
+- The item "Woe" has been repaired. If you receive the "Item out of 
+charges" message when your "Woe" attempts to fire its spell, please 
+contact a GM to trade out the item.
+- The spell "Mark of Karn" has been changed. The recast-time has been 
+reduced significantly and the Hitpoint-return is now scaled inversely 
+based upon the delay of the weapon. In addition, a hitpoint return will 
+only take place when the target is hit with a primary melee weapon, or 
+the primary hand if you are unarmed.
+- Some more tradeskill component vendors have been placed within the 
+world to make certain tradeskills easier to use in your home town.
+- "AFK" and "LD" status will now be reported above player's heads. 
+
+*Fleeing NPCs* 
+
+Last week's patch caused NPCs to flee more than before due to a bug 
+that was fixed. After evaluating the situation, we decided to reduce 
+the chance to flee, but not to the extent that it was reduced before. 
+NPCs were previously much more "brave" than they should have been. 
+
+As part of the same change, charmed NPCs also began fleeing when low on 
+health. We've determined that this is not a good situation for the 
+players. As such, we have stopped charmed creatures from fleeing per 
+player request. 
+
+*Level 1 Character Purge* 
+
+The Level 1 character purge has been completed. All level 1 characters 
+that have not been played within the past 30 days have been deleted. 
+
+*New Server Active* 
+
+Tholuxe Paells, a new server open to new characters only, is now active 
+and ready for play. Enjoy! As a reminder, /movelog registration will 
+take place on Mithaniel Marr and Tunare Friday evening from 6PM to 
+Midnight (PDT: GMT-7). 
+Registered characters will be moved to a second new server, Drinal, 
+early next week. 
+
+***User Interface Changes*** 
+
+Many UI enhancements were made in today's patch: 
+
+*Moving and Resizing Windows* 
+
+The data windows in the full screen "HUD" mode may now be moved by 
+clicking in the upper left-hand corner, moving them to where you want, 
+then clicking again. The "spell effect" and "chat" windows can be 
+resized by clicking on the lower right-hand corner, dragging to the 
+appropriate size, and then clicking again. Coordinates for window 
+locations in each resolution are stored in the EQCLIENT.INI file. 
+
+*Bugs with Several Commands Fixed* 
+
+We fixed a problem with /book, /sit, and /doability that allowed them 
+to be executed at inappropriate times, such as while charmed or feared. 
+They should now only function when the native button would have 
+functioned if pressed. 
+
+*Miscellaneous Additions* 
+
+Added the following /-commands: 
+
+- /camp: Causes your character to camp out. You must be sitting to use 
+/camp.
+- /disband: Will disband you from your current group, or turn down an 
+invitation to join another group.
+- /invite: Will invite the target into a group, or accept an invitation 
+if one is pending.
+- /attack: Will toggle the state of "Auto-attack". You may also add a 
+parameter of "on" or "off" to explicitly set the state. 
+
+In addition: 
+
+- CTRL-1 through CTRL-8 will cast the spell in the specified spell-
+slot.
+- ":" (colon: Short for /emote) and "'" (apostrophe: Short for /say) 
+will now bring up the chat line in the same fashion as the /-key and 
+ENTER.
+- The "R" key (by default) takes you into reply-mode as always, 
+bringing up a reply to the last person sending you a /tell. However, 
+you can now TAB and SHIFT-TAB to cycle through the last 10 people that 
+have sent you /tells. 
+
+*Pauses in Socials* 
+
+You may now enter pauses in social batches with the /pause command. 
+/pause takes an argument from 1 to 600, with the value being equal to 
+the number of tenths of seconds (i.e. /pause 100 will yield a 10 second 
+pause). 
+
+For example, a social consisting of: 
+/sit off /cast 1 /pause 100 /sit on 
+
+...would cause you to stand up, cast the spell in slot 1, wait 10 
+seconds after you've STARTED casting the spell, and sit down. 
+
+Furthermore, you can also use the /pause command on the same line as 
+another social by separating the commands with a comma. Even though the 
+pause command is specified first, it is executed AFTER the command on 
+the same line. 
+
+For example: 
+/sit off /pause 100,/cast 1 /sit on 
+
+...would have the same effect as the example above. It is important to 
+note that the comma can only be used to separate a /pause command from 
+another, and MUST be specified first on the line. 
+
+*Emote Codes* 
+
+The @ symbol has been replaced with a series of %-codes that expand 
+into various pieces of information, and now works in ALL chat channels 
+(emote, say, shout, ooc, auction, group, guild). 
+
+The new %-codes are: 
+%T - Returns the current target.
+%S - Returns the subjective gender-specific pronoun for the target (He, She, It).
+%O - Returns the objective gender-specific pronoun for the target (Him, Her, It).
+%P - Returns the posessive gender-specific pronoun for the target (His, Her, Its).
+%R - Returns the race of the target (only works on Player characters).
+
+For example, if you have a target of "a gnoll", the following emote: 
+/point say points at %T indicating that he is ready to kill %O. 
+
+...Your character will execute the "point" animation with a text output 
+of "CharacterName points at a gnoll indicating that he is ready to kill 
+it." 
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+October 3, 2000  4:00 pm
+------------------------------
+
+*Today's Patch*
+
+Today's patch consisted mostly of server-side changes, additions, and 
+fixes regarding NPCs and quests. The only item of public note is that 
+the Ragebringer can no longer be equipped in the ranged slot. A data 
+entry error caused it to be initially allowed it to be equipped in that 
+slot.
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+October 13, 2000  7:00 pm
+------------------------------
+
+*Important System Configuration Announcement*. As many of you know, 
+over the past couple of months we've made numerous enhancements to the 
+EverQuest client. In addition to things such as new /-commands and 
+other changes of that nature, we've enhanced the UI itself to allow 
+moveable and resizable windows, among other things. At the same time 
+we've been working on a brand new sound engine, and have been further 
+concentrating on optimizing and expanding the capabilities of the 
+EverQuest client.
+
+For most applications, the feature set of a version of DirectX is 
+limited to the lowest common denominator between the version that the 
+software is compiled under, and the version running on the client. This 
+means that though you may be running DirectX 7.0a already, and are 
+receiving advantages associated with the more advanced code, the 
+feature-set of DirectX used when in EverQuest is limited to version 
+5.2.
+
+This limits the type and breadth of enhancements that can be made to 
+the client. Given that we feel that EverQuest players would enjoy 
+continuing to see new enhancements for the client, we will soon begin 
+compiling the client under DirectX 7.0a, and implementing the feature-
+set available within that version. When we do this, everyone will need 
+DirectX 7.0a (or higher) to play EverQuest. 
+
+Here are some of the possible benefits from DirectX 7.0a:
+
+- Better performance (Graphics and Sound)
+
+- Gamma Correction working in D3D 
+- Proper Mip-Mapping in D3D 
+- Fixes fogging on some cards. (Some cards have no fogging at all and 
+look pretty bad) 
+- Allows us to use newer interfaces to support such features as full-
+screen anti-aliasing, and alternate Z-buffering methods, which tend to 
+look better.
+
+Changing to DX7 does have a potential downside. Those using older or 
+discontinued video or sound cards that do not have DX7 compatible 
+drivers may need to upgrade to continue playing. However, we feel that 
+the benefits that will come from upgrading to this newer version of 
+DirectX outweigh the potential problems.
+
+We plan to begin requiring DirectX7.0a when the EverQuest client is 
+next patched, in two or three weeks. We wanted to be sure to give 
+everyone enough time to check their version of DirectX and install the 
+newest version. You can run DXDIAG.EXE in your Windows\System directory 
+to check your DirectX version and get the newest version of DirectX 
+from here if it is needed.
+
+Please keep an eye on the patch message for further information 
+regarding the planned implementation of DX7.
+
+*Epic Quests*
+
+Due to some difficulties regarding the Epic Quests implemented two 
+patches ago, the epic quests for the Monk, Wizard, and Druid will not 
+be completable until the next patch. While we would like to have 
+implemented updates right away for these issues, we are mid-way in our 
+conversion to support the DirectX changes that have been announced. 
+
+We appreciate your patience.
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+November 15, 2000  3:00 am
+------------------------------
+
+***Patch Day***
+
+Today's patch includes the announced code-updates to use technology 
+included with DirectX 7. You MUST have DirectX 7 or higher installed in 
+order to play EverQuest. Please refer to 
+http://everquest.station.sony.com/f_requirements.shtml prior to 
+contacting technical support for procedures prior to contacting 
+technical support.
+
+Today's patch also includes the new "Sound Engine" that we've been 
+speaking about for some time. The new sound engine supports additional 
+EAX features and should address the concerns of SBLive users that have 
+been posted in the past.
+
+*Movelog for Povar and Tarew Marr*
+
+The /movelog window will be opened for Povar and Tarew Marr on Saturday 
+11/18 and Sunday 11/19 from 6PM PST (GMT-8) to Midnight. All players 
+wishing to have all of their characters moved (on a per-account basis) 
+from those servers to the new split-server should execute "/movelog 
+yes" during the windows.
+
+The physical character move will take place next week on Tuesday or 
+Wednesday. Please check the scheduled downtime page of 
+www.everquest.com for a firm time when it is decided. Remember that 
+corpses will not follow you to the new server, so anyone deciding to 
+move will want to be sure that all corpses are looted prior to the time 
+of the actual move. 
+
+As this patch features new /movelog logic to eliminate problems with 
+people being left behind, players should not count on customer-service 
+intervention after the physical move if they were unable to execute the 
+command during the window. You will need to be present and execute the 
+command in order to move.
+
+*Spell Changes*
+
+-- Pixie Strike: Made it less resistible by reducing the secondary 
+resist.
+-- Song of Twilight: Increased duration. Made less resistible by 
+removing the secondary resist. Allowed it to be cast at any time of 
+day.
+-- Fixed the effect on the Necromancer Epic Quest Item. The effect was 
+checking resist on each tick instead of running full course.
+-- Increased the duration of the effect on the Enchanter Epic Quest 
+Item.
+-- Fixed the "Modulating Rod" so that it can be used by the appropriate 
+races.
+-- Fixed the Lost Staff of the Scorned
+-- Maniacal Strength will now correctly overwrite the level 49 strength 
+spell.
+-- The Death Pact and Divine Intervention spells will now stack 
+appropriately with other spells that have similar effects.
+
+-- Modified the "Jonathan's" line of songs to remove the "skin" effect 
+in order to allow bards to use them more effectively in combat. In 
+addition, we made them "Self Only" spells rather than "Single Target" 
+spells in order to allow bards to remain in combat while singing them.
+
+*General Fixes/Changes*
+
+-- Fixed a bug that caused an NPC on "Sister's Isle" to attack people 
+who were fighting pirates.
+-- Removed Paladins as an authorized class for piercing weapons in game 
+since they do not have the piercing skill.
+-- The "Belt of the River" quest should now work correctly.
+-- Fixed all known problems with the class-specific epic quests.
+-- Implemented some new race-specific quests for Iksar.
+-- Positively modified most Epic Quest Items. Please check your items 
+to see your changes. Note: Not all changes will be evident by looking 
+at the item.
+-- Fixed the NPC bosses in the Plane of Sky that were not dropping the 
+correct loot.
+-- Your bread tin will now be returned when baking bread.
+-- Fixed the Wellford Fargin keyword problem in Firiona Vie.
+-- Made the "Gravebinder" a magic weapon.
+
+-- Repaired the Forager Bag. It was causing people to lose weight when 
+placing items in the bag. It is supposed to have a weight reduction 
+component, but was not supposed to cause weight loss.
+
+-- Taunt: Increased effectiveness above level 50. Previously, creatures 
+above level 50 could not be taunted by means of the taunt skill. Now, 
+most creatures below the character's level can now be successfully 
+taunted. As a note, the chance to taunt a creature above 50th level is 
+smaller than that of a creature below 50th.
+
+
+*Client Enhancements*
+
+-- You now have 10 pages of 10 hotboxes each when in full screen mode.
+-- You can now customize 10 pages of 12 socials each, increasing the 
+total number of available socials by 108.
+-- Fixed a bug with the keyboard.txt file causing some keys to 
+translate incorrectly.
+-- Fixed a bug that caused some window positions to save improperly at 
+higher resolutions.
+-- All key mappings are now stored in the EQCLIENT.INI file.
+
+-- Fixed all known problems with the clipping plane slider. Users 
+should now see differences for the entire range of adjustment in zones 
+that support an adjustable clipping plane.
+
+-- Players on PvP servers will no longer show "[LD]" over their heads 
+when linkdead. In addition, these same players will no longer show as 
+"LinkDead" in the /who list.
+
+-- Players can now set custom text colors while in game. /usercolor: 
+Usage "/usercolor UserColorNumber R G B" where "UserColorNumber is the 
+number of the color as indicated in the EQCLIENT.INI file, and R, G, 
+and B are red, green and blue respectively. All changes will be 
+automatically saved to your EQCLIENT.INI file.
+
+-- OPT files in your EverQuest directory now have a number after the 
+character name indicating the server number. As such, you will now be 
+able to have characters of the same name on two separate servers with 
+different custom options.
+
+-- The eqlog.txt file now has a name that includes the server number 
+and character name. For instance, if your character is named "Bobb", 
+and you are on Server 1, your log text file name would be 
+eqlog_01_Bobb.txt.
+
+-- Added two new entries to the "Defaults" section of the EQCLIENT.INI 
+file: AttackOnAssist=TRUE|FALSE - Sets whether or not your autoattack 
+turns on automatically when assisting. Defaults to "TRUE". 
+ShowInspectMessage=TRUE|FALSE - Sets whether or not you see the 
+"Soandso is inspecting you" message. Defaults to "TRUE".
+
+-- Custom key mappings have been greatly enhanced. You can now set two 
+keys, a primary and an alternate, for each function in game. In 
+addition, things that were previously not customizable can now be set 
+to a key of your preference. Left-click on the key identifier to set 
+the primary key, right-click to set the secondary.
+
+-- Added the /note command. /note will append the following text to a 
+file called "notes.txt" in your EverQuest directory. For instance, 
+typing "/note This is a note" will put "This is a note" on the next 
+line in the notes.txt file.
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+November 16, 2000  8:00 am
+------------------------------
+
+*Follow-up Patch*
+
+Today's follow-up patch addresses the following issues from yesterday's 
+patch:
+
+- The spell Torpor received an unintentional reduction in effectiveness
+- Illumination in game was not as bright as it should have been.
+- Pet using classes unintentionally gained the ability to summon 
+multiple pets.
+- Bard songs were reacting poorly with invisibility/hide/sneak.
+- Hitpoints were being reported incorrectly to clients.
+- Changing resolutions would cause some to crash.
+
+In addition, the following changes were left out of yesterday's patch 
+message:
+
+- Fixed a bug that would cause some to not be able to cast after being 
+feared.
+- Data for group members and targets will be updated more frequently. 
+This change should reduce complaints of warping and slow hitpoint and 
+other updates.
+- Bards received increases in the skill cap for their instrument 
+skills.
+- Changed the default combo for casting spells from CTRL-1:8 to ALT-
+1:8, as CTRL was interfering with players ability to strafe.
+
+Thank you for your continued patience.
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+November 21, 2000  3:00 am
+------------------------------
+
+*Patch Day*
+
+Today's patch addresses a few problems noted by customers since last 
+week's big patch. The following changes were made:
+
+- Fixed some problems with sound volume being set above the maximum or 
+below the minimum.
+- Fixed a problem that caused sound volume to be reset regardless of 
+the slider setting upon zoning or entering game.
+- Fixed a bug that would cause some sounds to be unduly amplified 
+whenever the volume slider was moved.
+- Fixed a bug causing pink fringes to show on whiskers in association 
+with mipmapping.
+- Fixed a bug with /usercolor causing settings to be saved in the wrong 
+slot.
+- Fixed weapon scaling problems with off-hand weapons and those carried 
+by dwarves. 
+- Fixed a bug that caused the client to display an amount of experience 
+in slight disagreement with the server.
+- Fixed the Paladin Epic Quest reward, which was procing a spell that 
+would do around one million points of damage if left to its own 
+devices.
+- Fixed a faction problem that made some quests designed to be doable 
+by anyone, regardless of race or class, undoable. 
+
+In other news, the Tarew/Povar split server, Xev, will be up following 
+the patch today. Xev is named for Xev Bristlebane, the god of fortune. 
+We would have named the new server under its full name if not for an 
+attempt to avoid confusion between the existing "Bristlebane" server 
+(named for Fizzlethorpe Bristlebane) and Xev.
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+November 29, 2000  3:00 am
+------------------------------
+
+*Patch Day*
+
+Today's patch includes updates to the client to address some problems 
+reported by people in regards to the DX7 update, as well as other 
+gameplay issues:
+
+- Corrected an older bug that would cause people to stop gaining or 
+losing faction with associates when the primary faction was at its 
+maximum or minimum. Players will now be able to further modify 
+associate factions in the appropriate direction.
+
+- Random-effects on weapons carried by pets will now behave as if the 
+pet is a player character rather than an NPC. The change last patch 
+reduced them to a rate below player characters. As part of this patch, 
+target-specific random effects will only work if the target is the 
+intended type. For instance, a weapon that processes "Dismiss Summoned" 
+will only "go off" on a summoned NPC instead of everything. 
+
+- Added some code that should address if not eliminate a problem 
+reported by people whereas the client would "freeze" for a second or 
+two every few minutes. For those who do not have IRQ sharing and/or 
+driver problems, this should address the issue.
+
+- Made final positive modifications to several Epic Quest rewards. 
+Included in these changes: the SK weapon will now allow you to bash 
+while carrying it. 
+
+- Fixed a problem that gave people problems when exiting the game and 
+attempting to get back in.
+
+- Added some code to address reports from people who find exiting from 
+the character-select screen back to the server-select screen rather 
+slow when mip-mapping is enabled. Most of this problem is due to 
+routines in DX required to release resources consumed by mip-mapping 
+and may not be addressable until the next version of DirectX is 
+adopted.
+
+- Changed customizable key mappings so that the ESC key will clear the 
+"NOKEY" setting instead of the "Backspace". This means that you can now 
+assign "Backspace" to a function in game.
+
+- Corrected a sound problem that would cause certain sounds to be 
+played "rapid-fire" under some circumstances. There is still a 
+potential for this to happen with some other sounds that will be 
+addressed in a patch in the near future.
+
+- Corrected a problem in Kedge Keep that made the top encounter more 
+difficult than intended after the server had been up for a while.
+
+- Higher level Magician, Necromancer, and Shadowknight pets now have 
+the ability to dual-wield without being handed weapons. The calculation 
+used to determine whether or not this ability exists takes several 
+things into account, but for the most part 39th level and above summons 
+(higher for the Shadowknight) will have this ability. It is possible 
+that you could get a "good" 34th level pet that will, or a "bad" 39th 
+level pet that will not have this ability. 
+
+- Bards of the land, hark unto me: The notes have been scribed on 
+tattered parchment, two score and nine, for you they are meant. Abandon 
+your mates, though they may fume, and follow the call of the seafarer's 
+tune.
+
+- The Monk's hand-to-hand skill cap has been raised to a level equal to 
+their one-handed blunt skill.
+
+Remember! Only a few days left until the launch of EverQuest: The Scars 
+of Velious. Reserve your copy at your local retailer today!
+
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+December 1, 2000  7:00 pm
+------------------------------
+
+*SBLive Soundcards and Hardware Acceleration*
+
+Due to some past problems with SBLive cards, users of those cards who 
+called into tech support were asked to turn "Hardware Acceleration" 
+down one notch in DXDIAG. The last patch corrected those problems and 
+most users should again increase hardware acceleration to maximum. 
+
+To do this:
+
+1. Click "Start"
+2. Click "Run"
+3. Type "DXDIAG.EXE" and press enter.
+4. Click on the "Sound" tab.
+5. Increase the "Hardware Acceleration" slider to maximum.
+
+Doing this should correct issues such as not hearing certain sounds or 
+sound volume disparities. 
+
+The only users who may not want to do this are Windows 2000 users. 
+Creative Labs is currently working on new drivers for Win2K, so you may 
+wish to wait until these drivers are completed prior to increasing 
+hardware acceleration.
+
+Finally, all SBLive users should get LiveWare 3.0 from 
+http://www.soundblaster.com/liveware/ After installing LiveWare, you 
+will then want to REINSTALL the latest drivers for your sound card. The 
+order of installation is important.
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+December 6, 2000  3:00 am
+------------------------------
+
+*Velious Patch*
+
+Today's patch requires that Velious subscribers press the "Velious 
+Patch" button on the patch program UI.
+
+*Emergency Patch* 
+
+We appreciate everyone's patience while we address a few issues as tens 
+of thousands of new players check out Velious. This emergency patch 
+addresses several issues:
+
+- The transparent inventory screen will no longer come up in 640x480 
+resolution. It was not supposed to come up as the available screen 
+space is not large enough to house the new screen. 
+
+- "Disabled" windows in full screen mode will no longer interfere with 
+mouse clicks.
+
+- Addressed some item drop bugs in Skyshrine that had the highest-level 
+loot dropping off of yard fodder. This has been addressed with a 
+retroactive item change. We apologize for the inconvenience.
+
+- Several disciplines (Resistant, Trueshot, Unholyaura, and Holyforge) 
+have been upgraded. Please read the updated EQManual_Supplement.doc (or 
+.txt) in your EverQuest Directory.
+
+- "Dragon Circles" have been fully implemented. In short, you will not 
+be able to receive a teleport to a dragon circle unless you've been to 
+the circle before and carry a soulbound souvenir that spawns at the 
+circle. Please read the updated EQManual_Supplement. 
+
+- Innate class-based resistances implemented a year or so ago did not 
+take into account levels 50 through 60 with exception to those provided 
+to the warrior. As such, each class that has class-based resistance 
+bonuses (with exception to the warrior) will get an additional bonus as 
+they level from 50 to 60.
+
+- The problem of blank faction messages being reported to the players 
+has been corrected. 
+
+- Screenshots are again enabled.
+
+Overall the Velious launch is going very well. We are happy to see that 
+the problems found so far are minor and that we can address them 
+quickly.
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+December 7, 2000  4:00 am
+------------------------------
+
+*Patch Day*
+
+Today's patch addresses a few issues brought up by players over the 
+last several days:
+
+- Fixed an issue with /split that would cause people to go linkdead in 
+the event that they used the command in quick succession.
+- Fixed a bug where you could not edit socials or skills (via the 
+hotbutton window right click) in fullview mode if you had hidden your 
+"MainMenu" window.
+- Fixed a bug where you would not see hotbuttons in "normal" mode if 
+you had hidden that window in fullview mode.
+- Fixed it so you can't use hotbuttons when looting, trading, banking, 
+or using a merchant in fullview mode (which is how it is in normal 
+mode, but with the inventory working in fullview mode now it wasn't 
+blocked properly for that).
+- Fixed the message for the /dynamiclights command to report properly.
+- Fixed a problem where INI setting were not being read properly if you 
+had camped or went LD to server select then reentered the game. This 
+was causing various UI problems with window positions and colors being 
+wrong.
+- Fixed a problem with Sirens Grotto - Some people entering the zone 
+were getting stuck.
+- Fixed a problem with passage from Skyshrine to Cobalt Scar. Travel in 
+that direction was supposed to require a key.
+- We believe we fixed a problem where NPCs sometimes would hit a pet-
+owner no matter how far away the owner was from the pet and the NPC. 
+- Corrected loot drops in Thurgadin.
+
+We again appreciate patience while we stabilize following Velious 
+launch.
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+December 8, 2000  3:00 am
+------------------------------
+
+*Velious Subscribers*
+
+Please run the "Velious Patch" off of the patch program.
+
+*New Patch*
+
+We appreciate everyone's continued patience over the past couple of 
+days, and are happy to see that the problems that have been experienced 
+are relatively minor compared to those of the past. Tonight's patch is 
+expected to be the last one we'll have to do for a while, so we hope to 
+have you enjoying Velious over the weekend non-stop.
+
+Today's patch corrects the following issues:
+
+- The user interface problems that occurred as of last night have been 
+addressed, such as window positioning and transparency. Also addressed 
+were problems with targeting, enabling and disabling windows, and 
+switching to and from resolutions above 1280x1024.
+- Corrected a problem that would cause some Voodoo card users to lock 
+up when killing giants.
+- Added messages for some new skills that some NPCs have (e.g. Rampage, 
+and Flurry). 
+- Fixed items and item drops in a number of zones.
+
+Enjoy your weekend!
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+December 12, 2000  2:00 pm
+------------------------------
+
+*New Velious Subscribers*
+
+Please don't forget to run the "Velious Patch" off of the patch 
+program.
+
+*New Server*
+
+We have a new server that will be coming up next week before the 
+holidays. It will be a split server for Solusek Ro, Karana, and Cazic-
+Thule. Solusek Ro (which had about 200 people moved off about 9 months 
+ago) and Karana (whose last split about 6 months ago did not go very 
+well) will be split again with Cazic-Thule. 
+
+Though the population of Solusek Ro and Karana at peak usage times is 
+not excessive, those two servers actually peak about 6 hours before the 
+other servers due to a large overseas population. This is why they are 
+being split as opposed to other servers.
+
+/movelog registration for the three servers being moved will open this 
+Saturday at 10am (GMT-8). It will remain open through 12 AM Monday, a 
+total of 38 hours. We apologize for the short notice but to delay the 
+move any longer would mean putting it off until well after the 
+Holidays. 
+
+By typing "/movelog yes" within the registration window, you indicate 
+that you would like all characters on the existing account moved to the 
+new server. The moves themselves will take place on Tuesday of next 
+week.
+
+We also have a new non-split server planned for the very near future as 
+well. It will most likely not go up until after the Holidays. If that 
+changes, we'll be sure to let everyone know.
+
+- The EverQuest Team
+
+
+.....................................................................
+
+
+------------------------------
+December 16, 2000  12:00 am
+------------------------------
+
+*Movelog Reminder*
+
+We want to remind players on Solusek Ro, Karana, and Cazic-Thule that 
+registration for move to the new split-server will open 10am PST (GMT-
+8) today and will remain open until 12:00am Monday. 
+
+To register all of your characters on those servers for the move, you 
+must type "/movelog yes" while in-game. Again, you only have to type 
+the command while logged in to *one* character. It counts for all 
+characters on that account and server.
+
+- The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+December 19, 2000  3:00 am
+------------------------------
+
+*Patch Day*
+
+Today's patch primarily consists of tuning of Velious zones as well as 
+content and other additions. In addition, the following changes have 
+been implemented on the Live servers:
+
+- High-end items that have a activatable (right-click) healing effect 
+have in several cases had their casting times increased. 
+- Factions for some of the higher end encounters in Velious have 
+received some adjustments. Basically, "bad acts" receive more weight 
+than "good acts". For instance, if "A" hates "B" and "B" hates "A", 
+killing "A" will hurt your faction with "A" more than it will help your 
+faction with "B".
+- The stamina reduction with "Resurrection Effects" has been replaced 
+by a slight attack-speed debuff.
+- The Ranger's Trueshot discipline now works correctly. It was 
+previously only working versus other player characters.
+- The Shadow Knight's "Unholy Aura" discipline has received an 
+enhancement. When in use, harmtouch resistances will be checked versus 
+disease instead of magic. In addition, harmtouch will resist in the 
+same fashion as lifetap spells, meaning that unless the creature is 
+immune to disease, you should get full damage most of the time.
+- The spell attached to the "Fiery Defender" can now be partially 
+resisted instead of being "all or nothing". The net result is that the 
+average damage will be higher.
+- The Paladin "Holy Forge" discipline will now give paladins triple the 
+normal chance of scoring a critical hit. Each critical hit has a 
+percent chance to be scored as a critical blow.
+- Added parameters to the /camp command (the command that will cause 
+you to camp out if you are already sitting). "/camp server" will take 
+you back to the server selection screen. "/camp desktop" will take you 
+out to the desktop following a successful camp. Despite popular 
+request, "/camp spawn" will not be implemented.
+- Walruses now indeed sound like they should.
+- Added the /chatfontsize [0 to 5] (default is 1) command. This command 
+will allow players to adjust the size of the font in the chat window.
+
+
+- The EverQuest Team
+
+.....................................................................

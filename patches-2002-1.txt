@@ -1,0 +1,1702 @@
+.....................................................................
+
+------------------------------
+January 8, 2002  3:00 am
+------------------------------
+
+** Items **
+
+- All beastlord-usable items are now useable by their requisite races
+- Regular, medium quality, high quality, mithril, brellium and 
+adamantite rings, as well as their enchanted versions are now 
+stackable. (this time we mean it)
+- Made Rune Encrusted Short Sword rentable (was No Rent, should not 
+have been)
+- Fixed Shadowscream and all related recipes so that they return the 
+correct mallet
+- Reduced the price of the Fuligan Soulstone of Innoruuk and Cloudy 
+Stone of Veeshan
+- Reduced the price of the first two keys for the Plane of Air
+- Coterie Mask of the Dead has been retroactively changed to have 5 
+charges as originally intended
+- Gauntlets of the Blood Fiend - Warrior has been removed from the 
+wearable classes
+- Shiny Trinket of Speed - An appropriate level of haste has been added 
+to this item
+
+** Interface **
+
+- Added /tgb as a short version of /targetgroupbuff
+
+- /shownames now works with the following parameters:
+no parameter = display the current setting.
+off = don't show player names over their heads
+1 = show only first names of players
+2 = show First and Last Name
+3 = show First, Last, and Guild (if any)
+4 = show Title (if any), First, Last, and Guild (if any)
+
+Also, the LFG, AFK and LD tags will always show if names are not off. 
+There will no longer be brackets around them, and LFG will now appear 
+at the end of the name with the AFK and LD tags (instead of being a * 
+at the beginning)
+
+- A player character will always have a name over its head, even if 
+they are skeletons (unless /shownames is off), with the exception of 
+some rare cases when players are turned into certain NPCs 
+- Added /ttell. This will send a tell to the player character that is 
+currently your target. The command will also allow corpses as a valid 
+target. /ttell'ing a player's corpse will auto-tell that player (this 
+was actually patched earlier along with an emergency patch)
+- Added IRC style '/me' as a synonym for /emote (this was actually 
+patched earlier along with an emergency patch)
+- Added '/send' as a synonym for /tell (this was actually patched 
+earlier along with an emergency patch)
+
+** Spells **
+
+- Necromancer Group spells should now be working, they were only 
+affecting the caster. This includes spells such as: Degeneration, 
+Succession of Shadows, Crippling Claudication, and Zavfeer's Theft of 
+Vitae. These spells have also had their duration increased. Mind Wrack 
+will be fixed soon.
+- Shadowknight "Torrent" spells have also been fixed and have had their 
+duration increased as well
+- Flowing Thought effects will now stack
+- Meditating on a horse occurs only while not in combat
+- Mark of Retribution should work as intended
+- The Decession spell now requires you to be in the same group
+- Levitation can no longer be used in The Deep
+- Fixed a problem that was still allowing people to Cast Eye of Zomm in 
+Ssra Temple
+- Fixed a problem that was still allowing people to cast Call of the 
+Hero in Ssra Temple
+- NPCs that cannot be stunned will once again take damage from damaging 
+stun spells (this was actually patched earlier along with an emergency 
+patch)
+- Critical heals and nukes now display damage numbers (this was 
+actually patched earlier along with an emergency patch)
+
+** Zones **
+
+- Characters will no longer take falling damage when in the Bazaar
+- Characters can now bind in the Nexus
+
+** Alternate Advancement **
+
+- Made it so the percentages of Spell Casting Fury Mastery scale a bit 
+more
+- Fixed Soul Abrasion to work with a few spells that it didn't work 
+with before
+- Dire Charm *should* no longer break (this was actually patched 
+earlier along with an emergency patch)
+- Mental Clarity and Body/Mind Rejuvenation now give mana regeneration 
+both when standing and medding, as intended
+
+** Miscellaneous **
+
+- Added a few new socials: /nudge, /pat, /flex, /fidget, /purr and 
+/smack
+- Changed the automatic targeting code so that it won't automatically 
+target someone that cast a beneficial spell on you
+- Adjusted the timing of the Luclin Spire activations to more closely 
+match the announcements by the Scions. This has the net effect of 
+reducing the time between portal activations
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+January 17, 2002
+------------------------------
+
+** Patch Update **
+
+Today we are sending you a couple of new DLL files that should do the 
+following:
+
+- May improve performance in indoor Luclin zones
+
+- Should improve zoning time in many cases, especially in zones with 
+many objects/trees. May also reduce the "hitch" when other players zone 
+in, though it probably won't remove it completely
+
+- May reduce the cases where some players experience a performance 
+reduction after being in a zone for a while
+
+- Fixed a bug that was causing some portions of spell effects and the 
+"bolts" in bolts spells to not show up.
+
+- Generally improve stability.
+
+How these changes affect individuals will vary, but we hope that this 
+will improve game performance a bit over all.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+January 23, 2002  3:00 am
+------------------------------
+
+*** Patch Information ***
+
+
+** Quests **
+
+- Ragefire portion of the Cleric Epic quest has been changed. Please 
+see the Developer's Corner on our web site for more details
+- Added Quest NPCs to Thurgadin, Kael and Skyshrine for Beastlord quest 
+armor
+- Gravel leaf tea will now fit in the combine container for the 
+associated quest
+- Grimling Blood should now be dropping
+- Idia in the bard guild in Kelethin was telling you to turn in a quest 
+item to the incorrect NPC. Changed quest text to reflect the correct 
+NPC to hand the item to
+- In Iceclad, Keref Spiritspear won't be so unreasonable when you 
+complete the task that he asks of you
+- Citizens in skyshrine no longer defend the 'vermin' spiders
+- Increased the drop rate of the Staff of Elemental Mastery: Earth
+- Bloody Shak Dratha Hearts should now be dropping
+- Quest of Nobility should now be working properly
+- Increased the spawn rate of Brother Qwinn tenfold
+
+
+** Items **
+
+- Adjusted statistics on equipment that was dropping in the Umbral 
+Plains. Many of the items had AC that was inconsistent with the armor 
+types of the classes. The AC has been reduced on some pieces and raised 
+on others. In all instances where the AC was dropped a different 
+statistic was raised. Several items received a significant upgrade 
+while others were downgraded
+- Also in regards to Umbral Plains armor, Ranger has been removed from 
+the plate class armor that was dropping and have been added to the 
+usable classes on the chain equivalent. Bards have been added to the 
+plate equipment list. This might mean that some Rangers will have armor 
+that they can't use. Our Customer Service personnel will trade out that 
+armor for the chain equivalent
+- Ghoulbane is now No-Drop
+- SoulFire charges can only be used by Paladins (though they can be 
+used from inventory)
+- Raised the armor value on many Beastlord specific armor pieces
+- Added effects to a few of the Wild Lord's armor pieces
+- Added Vah Shir to Imbrued Plate Mail useable races
+- Rhino Hide armor is now Druid and Monk usable
+- The Crustacean Shell Shield is now magic
+- Scroll of Knowledge can now be equipped in the primary, secondary, 
+and range slots
+- Scroll of Enlightenment can now be equipped in the primary, 
+secondary, and range slots
+- Thought Horror Fangs can now be thrown
+- Iron Scroll of War must now be worn to activate
+- Cloak of Thorns right click effect should work now
+- Runed Bone Fork is now equippable primary, secondary and ranged. The 
+"range" value has been removed to prevent people from accidentally 
+throwing them
+- Spider Fur Collar has been given weight 0.0 to be consistent with 
+other pieces
+- Dark Cloak of the Sky must now be worn to activate
+- Sage's Crown is now No-Drop to match every other Velious quest armor
+- Icicle Circlet is now No-Drop to match every other Velious quest 
+armor
+- Bone Collar of the Possessed should no longer cause players to crash 
+when inventory is opened
+- Idol of Rallos Zek can now be used by ShadowKnights
+- Helm of Grim Blessings can now be used by Wood Elves
+- Flayed Skin Bracer is no longer a Lore item
+- Greaves of Avoidance can now be used by all races
+- Steel Threaded Wrist Wraps are no longer lore
+- Bravado's Breastplate now grants a larger Hit Point bonus
+- Guise of the Hunter can now also be worn by human bards and rogues 
+- Primal Cudgel now has the proper effect
+- Added "Recommended Level" equal to the current item use level for the 
+several items. All of these items require the player to be level 51+ to 
+equip them and/or use their effects. Setting the "Recommended Level" 
+field like this just lets the player know what level they need to be to 
+use the item. The actual utility of the item was not affected in any 
+way, this change is purely informational
+- Several items have been changed to be not useable by Iksar. They had 
+been erroneously set as Iksar useable in the last item patch. These 
+were primarily items that were usable by Beastlords (and were therefore 
+changed to allow all Beastlord races to use them), but that had been 
+specifically restricted from use by Iksar due to their inherent armor 
+value
+
+** Zones **
+
+- Shades in Umbral, Maiden's Eye and Vex Thall are now considered 
+undead
+- Placed portals to and from Great Divide and Nexus
+- Added many new items to better round out the rewards for high-level 
+Luclin encounters
+
+** Horses **
+
+- Implemented horse trade in quests. There are now four stable hands 
+who will buy back specific colored bridles located in the stables in 
+the Bazaar
+- Being stunned will now stop players on horses. Not stopping them when 
+stunned was causing warping and other bad things
+- Knockback spells, and spells that throw you into the air, now affect 
+people on horses properly
+- Horses now levitate when their rider should.
+- Fixed a bug that was causing the client to crash when attempting to 
+follow someone while on a horse. /follow should also now work when the 
+person you are following is on a horse
+
+** Spells **
+
+- Wizard Familiar spell scrolls will now increase in purchase cost with 
+the spell level
+- Several spells will no longer be interrupted, spells such as the 
+'proc' generated by Instrument of Nife
+- Several spells that were not functioning in the planes have been 
+fixed and now work in the planes 
+- Bards should now gain singing skill when singing and should no longer 
+gain skill in an instrument when they are not using one.
+- Characters are no longer damaged by damage shields when using 
+throwing weapons
+- Atol's Spectral Shackles has had its casting difficulty reduced
+- Made some changes to Nature's Recovery to make it more stackable
+
+** Visual Issues **
+
+- Wolves and warders should no longer appear to be very small
+- Characters no longer lose their hair or beard when their illusions 
+wear off
+- Weapons should now appear properly (sometimes they wouldn't show up 
+at all) when a player zoned in
+- Characters in wolf or bear form (or other races that aren't player 
+races) should no longer have parts of them tinted based on the armor 
+the player was wearing
+- Bear form should now look correct to people that zoned in after the 
+spell was cast on them
+- May have fixed the problem with extra mouse cursor showing in game
+- Fixed a problem with NPCs, PCs and some objects not being visible in 
+some zones (Wakening Lands, Plane of Growth, Emerald Jungle and Swamp 
+of No Hope)
+
+** Performance Issues **
+
+- More work on reducing zone times for Luclin city zones
+- "Hitch" created when player characters enter a zone should be gone 
+now
+- Fixed a bug that could cause the client to crash in some cases where 
+a character tried to purchase an item from a vendor but didn't have 
+enough money
+- Characters with pets that zone (horses, familiars and warders) should 
+now be able to zone from North Qeynos to Qeynos Hills
+
+** New Features **
+
+- Holding shift while clicking the resolution in the options in game 
+will reduce the resolution. If you are already in 640x480 though, this 
+does nothing. Normal click increases the resolution as it always has 
+and still wraps back to 640 after the highest resolution your machine 
+supports.
+- Using 1280x1024 and 1600x1200 resolutions, the /wincolor command, and 
+getting the inventory window in fullview mode are now available to all 
+EverQuest players (these features were restricted only to Velious 
+owners) 
+
+** PvP **
+
+- It is no longer possible to bandage others of the opposing deity team 
+on Sullon Zek
+
+** Alternate Advancement Abilities **
+
+- Lowered the reuse time on Rampage AA ability from 15 minutes to 10 
+minutes
+- Rampage is now fixed. Previously was only hitting one target
+- Mass Group Buff button should work properly when zoning
+- Casting Reinforcement should now work on all buffs cast, not just 
+those cast on yourself
+- The Discipline Duelist should now be doing the correct damage when 
+using Chaotic Stab
+- LifeBurn should now reset properly after being interrupted
+- Dire Charm should now reset properly after being interrupted
+- Fixed the Quick Buff ability to work as described
+- Leech Touch should refresh properly now
+- Exodus and Nexus Gate now have a casting time of 1/10th of a second
+
+*** Do you want to join us? ***
+
+So you got your Epic weapon... and now spend your free time holding 
+weekly sight seeing tours to the Temple Veeshan, along with nightly 
+Luclin lunar dinners. If on top of all this you know the name of more 
+Dragons than relatives, we would like to invite you to apply to join 
+our San Diego EverQuest QA Team! For more info please go to our Job 
+Employment site ( http://www.station.sony.com ) to read up on all the 
+juicy details. If you're interested please submit a resume, including 
+your EQ playtime and information on characters owned.
+
+- The EverQuest Quality Assurance Team
+
+*** Fan Faire News ***
+
+* Congratulations to Union of Power! *
+
+The guild Union of Power has the most pre-registered players attending 
+the Fan Faire! This means that they will be given a two hour slot from 
+5-7:00 p.m. on Saturday in the Intel Arm Yourself for Adventure Game 
+Room! Everyone else will be limited to an hour of play time.
+
+* Walk-ins *
+
+Registration is closed, but we will be accepting walk-ins at the Dallas 
+Fan Faire! However, there is a limited number of spaces left! 
+Registration will be at 6:00 p.m. The cost for walk-in registration is 
+$95 to be paid at the door.
+
+Cindy Archuleta
+Community Relations Manager
+Sony Online Entertainment
+
+.....................................................................
+
+------------------------------
+February 1, 2002
+------------------------------
+
+On Monday the 5th we'll be making a change to the way our Live and Test 
+patching works.
+
+A little while ago we combined our Test patcher with our Live patcher. 
+The intent was to remove the confusion that having two patchers can 
+cause and to encourage more people to play on Test.
+
+Well, we're going back to the old way. We are going to split the Test 
+patcher and the Live patcher back into two separate programs.
+
+This means that in order to access the Test Server you will need to run 
+TestEverQuest.exe, which you will find in your EverQuest directory. To 
+play on the Live Servers just start EverQuest as you always have.
+
+There are a few advantages to separating the two patchers. Splitting 
+them up makes it a little easier, as a player, to be sure that you are 
+headed to the right server when you double click the icon. It's also a 
+little more intuitive for those that want to run the game in two 
+directories.
+
+Using two directories for EverQuest does use up a lot of hard drive 
+space. However, for those with enough space that play regularly on both 
+Test and on Live servers, this is a safer and faster way to work. Using 
+the same directory means that each time you change servers (Live to 
+Test or Test to Live) you will have to patch. The data on the Test 
+Server is very rarely the same as that on Live servers.
+
+And for us internally it makes it easier to test new patchers. It gives 
+us one more step for testing. Now we can push a patcher to the Test 
+Server and try it out there after internal testing and before it goes 
+to the Live servers.
+
+In any case, we've decided to move back to the old way. Starting on 
+Monday, February 5th, 2002 you will need to run TestEverQuest.exe to 
+patch and play on the Test server, and Everquest.exe to patch and play 
+on the Live servers.
+
+* Patch Message Addendum *
+
+The command line argument "/test" should no longer be used to play on 
+the Test Server. Anyone using this should remove this argument from 
+their shortcut. Please manually select "TestServer" from the Advanced 
+Options window to use the Test Server. On Monday, February 05, 
+TestEverQuest.exe will once again be used to patch and play on the Test 
+Server.
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+February 13, 2002  3:00 am
+------------------------------
+
+** General **
+
+- Improved sound for many users. Should eliminate a lot of the 
+"choppy" sound issues
+- Fixed one of the link-death-while-zoning bugs
+- Characters who disconnect while zoning shouldn't be 'stuck' for an 
+inordinate amount of time
+- Renamed all will-o-wisps and will o' wisps to Fred. 
+- Reconsidered and changed Fred to willowisp.
+- Pets no longer pace. Pets will now, when close to you, STOP.
+- Many higher level NPCs now have a random delay before they initially 
+spawn. This means that they will appear at a more random time interval 
+after servers or zones are brought up. This is designed to provide a 
+fairer distribution of these NPCs across all time zones
+- If you right click to auto-inventory an item that you are looting and 
+it will not fit into your inventory, the item will simply appear on 
+your cursor as if you had left clicked on it
+
+** Gameplay Related **
+
+- NPC and PC corpses can now be /considered to find out how long until 
+they decay, and PC corpses additionally tell you how long you have to 
+resurrect them
+- The timer for corpses is now seven days for any corpse over level 
+five, whether the player is on-line or off-line or any combination of 
+the two
+- Characters below level eight will no longer see light blue cons
+- Spires will no longer try to teleport you to Luclin if you do not own 
+the expansion, and therefore will no longer move you to the 'safe 
+point' in the zone when it can't take you to the Nexus
+- Pets can now be targeted by typing their full name after the /target 
+command (or at least enough of it to distinguish it from the owner)
+- Knockback now works correctly when on a horse
+- Summoning a horse in Plane of Sky will no longer allow you to 
+levitate
+- Gating when in the same zone that you are bound no longer causes 
+problems
+- Horses will no longer disappear when a character is moved to the 
+'safe point'
+
+
+** Trade Skill Related **
+
+- Added several trade skill items to Grobb; including a brewing supply 
+vendor, a brew barrel, a baking vendor, a standard forge, a pottery 
+cooking mold vendor, a kiln, a pottery wheel, and a sketch vendor.
+- Added water flasks to two merchants in the Bazaar
+- Added high quality ore vendors to Bazaar, Kaladim, and Qeynos that 
+sell a limited supply of HQ Ore
+- Fixed an inconsistency with the armor class of Enchanted Imbued 
+Dwarven Plate compared to the armor class of other Dwarven-smithed 
+plate armor
+- Batwing Pie, Bug Bites and Deadly Medley now exist
+- Repaired the recipe for Superior Gnomish Spirits\Gnomish Cleaning 
+Substance
+- Increased the drop rates of cultural armor temper components
+- Added hilt mold vendors to more cities
+
+
+** Quest Related **
+
+- Made adjustments to the Whistling Fists quest
+- Reduced the spawn time of the Zordak Ragefire in SoldungB. He will 
+now reappear every 24 hours
+- Repaired some problems with the Luclin Owlbear Dart and Vah Shir 
+Runed Totem quests
+
+
+** Spell Related **
+
+- Eye of Zomm and Eye of Tallon are now non-KoS in a fashion similar to 
+familiars
+- Koadic's Endless Intellect stacking has been fixed. If a player has 
+Koadic's Endless Intellect on them and anyone casts Breeze, Clarity, 
+Clarity 2, Boon of the Clear Mind, Gathering of the Mind, or Gift of 
+Pure Thought on them, it will fail and the Koadic's will remain.
+- Mind Wrack gives mana instead of taking mana away
+- Charm is immediately removed from charmed NPC's when the character 
+that charmed them casts invisibility
+- Made some small improvements to Marzin's Mark
+- Corrected some stacking issues with Nature's Recovery
+- Blast of Frost scroll has been made available for Beastlords
+- Self-only level 51+ spells will no longer fail to cast if the caster 
+has a lower level character targeted. 
+- Egress should once again force a 'zone' to clear aggro
+- The damage component of Elnerick's Entombment of Ice no longer causes 
+the spell to have a chance at breaking its root component
+- Snakes in Lavastorm and Paineel are now animals
+- Hammerheads are now animals
+- Treants in the Plane of Growth are now plants
+- Timorous Deep gators, fish, and raptors are now animals
+- Rock Hoppers in Hollowshade Moor, Shar Vahl and Shadeweavers are now 
+animals
+- Paludal and Fungusgrove Wetfang Minnows are now animals
+- Underbulks and Shik`Nar in Fungusgrove are now insects
+- Rhino Beetles in Shadeweavers Thicket and Hollowshade Moor are now 
+insects
+- Shrooms in Fungusgrove are now plants
+- Lightcrawlers in Mons Seru are now insects
+
+** Zone Related **
+
+- Fixed some of the pathing issues in Maiden's Eye
+- Dawnshroud Rockhoppers are now giving the proper faction hits
+- Fixed a pathing bug in Paludal Caverns that prevented NPCs from 
+pursuing characters up cavern walls
+- Fixed a bug with the clipping plane in outdoor Luclin zones
+- The Oggok guards will be less friendly to Marsh Bears
+- Fixed some bugs in the Umbral Planes that were causing NPCs to get 
+stuck
+- Added content in the Umbral Planes to make it more... entertaining
+
+** Alternate Advancement Related **
+
+- Act of Valor should now work properly
+- Re-implemented the Improved Familiar ability. It will now summon an 
+improved familiar that is better then the greater familiar and is very 
+resistant to all spells. It is not immune to spells though, just 
+extremely resistant.
+- Warcry should now work properly
+- Life Burn now considers hit points from items and should no longer be 
+interrupted
+- Area Taunt should be no longer affect creatures on heights or floors 
+above and below the warrior
+
+** Discipline Related **
+
+- Added the following /disciplines for Beastlords: 
+Level 51: The Discipline of Resistant
+Level 54: The Discipline of Fearless
+Level 55: The Discipline of Protective Spirit
+Level 60: The Discipline of Bestial Rage
+
+** Item Related **
+
+- Expendable items no longer use mana when 'casting' a spell
+- Extra damage from either elemental or bane damage should now work for 
+special attacks like backstab
+- Shield of Auras can now be used by Necromancers
+- All pieces of Black Pantherskin Armor are now Beastlord useable
+- Steelsilk Helm should now be visible when using the new models
+- Windspeeder's haste is now a permanent effect
+- Shield of Mental Fortitude is now actually a shield and also has a 
+different graphic
+- Drape of the Deep Thinker now has a robe texture when equipped
+- Orb of Lost Souls can no longer be "Held"
+- Dark Cloak of the Sky from 'worn to activate' to 'Race/Class to 
+activate'. The previous change that made it 'worn to activate' was an 
+error. 
+- Items that add bonuses to the Lock Pick skill should function 
+properly now
+
+** Firiona Vie **
+
+- The Trivial Loot Code present on the Roleplaying server will no 
+longer affect items that are marked solely with the No-Drop flag. No-
+Drop items that are also Magic or Lore will continue to behave as they 
+did prior to this patch.
+
+- The EverQuest Team
+
+** Tales **
+
+Grand Master Glox sat silently staring into the black waters of the 
+Cabilis aqueducts, his thoughts tracing and retracing the recent 
+visions that had upset his nights. The Lord Cazic was trying to tell 
+him something, but he could not yet decipher what it was. The hand on 
+his shoulder startled him and he turned quickly, striking the intruder 
+with a quick blow to the chest. The figure crumpled to the cold ground.
+
+Glox stood over him with a look of horror, it was one of his own pupils 
+he had struck. He lay bloodied and bruised at Glox's feet breathing 
+heavily with much effort, he was obviously dying. The pupil reached up 
+toward Glox with something in his hand. Glox took the items from his 
+hand and peered at them intently. There were two items, one was a 
+glistening serpentine scale, the other an ancient stone symbol. Glox 
+recognized the symbol almost immediately with horror. It was the symbol 
+of the Soriz, the ancient Iksar tribe that had been the slaves of the 
+Shissar empire. Glox looked down at his pupil again. "Where did you get 
+this?" The dying Iksar used his last ounce of energy to point up toward 
+the night sky and the moon of Luclin. "sSs... Ssraeshza... has... 
+returned..."
+
+** A Call to Arms! **
+
+Have you long dreamed of aiding your fellow adventurer? Do you enjoy 
+travelling the world and meeting new and interesting people? Are you 
+over the age of 18 with an EverQuest account in good standing and some 
+free time? If so, then the EverQuest Guide Program may be for you! If 
+you feel compelled to join our ranks, point your web browser to 
+https://guide.everquest.com/guideapp/ and fill out an application!
+
+.....................................................................
+
+------------------------------
+February 17, 2002  3:00 am
+------------------------------
+
+- Increased the drop rate on some 55-60th level Kunark spells that were 
+overly rare. 
+- Added water and high quality ore to vendors in the Bazaar, as 
+promised in the Feb 13 patch. 
+- Fixed a spawn problem in north Temple of Veeshan. 
+- Fixed a few minor issues with the Whistling Fists quest. 
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+February 25, 2002  3:00 am
+------------------------------
+
+- Fixed a problem with the Gnome sitting animation
+
+- Fixed a bug that was causing some people to crash when repeatedly 
+right-clicking spell gems
+
+- Made adjustments for Quellious monks attempting to do Iksar Shackle 
+quests
+
+- Fixed a bug in the way that Alternate Experience was being 
+distributed. Extra experience was being generated for an ungrouped 
+character with all experience going to the Alternate Experience pool. 
+Too little experience was going into the Alternate Experience pool for 
+people grouped that were applying less than 100% of their experience to 
+the Alternate Experience pool.
+
+- Fixed stacking issues with Circle of Seasons and Talisman of 
+Epuration
+
+- Wild Lord's armor effects are now level restricted
+
+- Fixed a bug with necromancer pets that was preventing them from 
+gaining the healing benefit of lifetaps. It turns out that this was 
+affecting all NPCs. It should now be working properly for both pets and 
+NPCs.
+
+*** Fan Faire Registration is Open ***
+
+Registration has opened for the Seattle Fan Faire! We will be at the 
+Doubletree Seattle Airport Hotel on April 19-20. Register early and 
+join us for a great time! Visit 
+http://everquest.station.sony.com/fanfaire/en/index.jsp for 
+registration and all of the details!
+
+.....................................................................
+
+------------------------------
+March 7, 2002
+------------------------------
+
+** Patch Information ***
+
+- Fixed a problem with Alternate Advancement ability Combat Fury that 
+was causing rangers using archery and rogues using throwing to have a 
+lesser chance to critical than normal. This did not affect warriors
+
+- We think we've fixed many of the issues that were causing 1018 
+errors. At the very worst players should be able to log back in faster 
+now 
+
+- Fixed a problem that was causing quests to give no Alternate 
+Experience to a character when that character had all experience going 
+into their Alternate Experience pool
+
+- Fixed a bug that was causing Claw of the Savage Spirit, Earthen Band 
+and Breastplate of Day to show a negative statistic modifier
+
+- Fixed an issue with some ATI-based video cards that was causing the 
+inventory screen to flash
+
+- All Levitation spells will now be stripped when entering a no-
+levitation zone. There was a bug that caused the game to only strip the 
+first Levitation spell found
+
+- Earrings of Endless Speed are now no-drop
+
+- Fixed a bug that was displaying erroneous and duplicate faction 
+messages
+
+- Also added some Tradeskill recipes for items dropping in Akheva and 
+Maidens eye
+
+- Tradeskills (including Alchemy and poison) now take %skill modifying 
+items and buffs into consideration
+
+- Scallywag's Arm Plates (Legends Only) are now wearable in the arms 
+slot (was errantly flagged for the chest slot)
+
+- All soft wicker pieces are now wearable by Beastlords
+
+** A Tale **
+
+Prime Heirophant Vek leaned over and looked into the jeweled case 
+silently. The young mystic behind him nervously fingered the cudgel 
+hanging from his belt. He knew what was coming. The hold of the 
+faceless had firmly taken hold of his heart and was beginning to 
+squeeze.
+
+Vek turned to him quietly and simply said, "Find them." He then walked 
+silently out of the room.
+
+Hierophant Zand turned to the young Mystic, "Do as he has asked. Do not 
+return until you have the skulls of the ancients in your possession." 
+The young Mystic stumbled as he ran out of the room, visibly shaking.
+
+Zand looked down into the empty skull case. Something glittered softly 
+in the corner of the case. Zand reached in and picked up a small 
+earring, emblazoned with the symbol of the Kunzar.
+
+Zand walked quietly out of the room, and somewhere the soul of a dead 
+emperor laughed with unholy malice.
+
+** Another Tale **
+
+Halor slashed frantically at the creature before him. He swung down 
+hard, cleaving the great worm in two. Unfortunately there were many 
+more were that came from. Bauric climbed over a rock and stood next to 
+Halor, fighting off another of the worms.
+
+Halor suddenly felt a sharp pain in his right heel and spun violently 
+around, causing his journals to fly out of his pack and onto the hard 
+stone floor. He swung at the worm larva with his sword knocking it 
+away, but too late. The worm had wounded him badly, he could no longer 
+hold himself up on the wounded ankle and he fell to the floor with a 
+crash. Bauric cried out in pain as one of the larger worms bit into his 
+arm. That was the last thing Halor saw before the horde of worms 
+squirmed across the stones and overcame them.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+March 19, 2002
+------------------------------
+
+We wanted to start by letting everyone know how grateful we are for all 
+of the suggestions for improvements that we've received both in EMail 
+and on the various class and server boards. We appreciate all the help 
+you've provided us. 
+
+** Changes for Low Level Characters ** 
+
+- Characters no longer lose experience for death below level 11 
+- Characters now begin first level with a stack of 20 food and drink 
+- Items no longer appear on a corpse if you are below level 10, they 
+reappear with the character 
+- When a character "dings" level 10 you will be informed that your 
+items will now be on your corpse 
+- Characters will no longer appear with a Tome of Discord. They must 
+get one from the Priest of Discord 
+- New resurrection, evacuate and corpse summoning spells have been 
+added at lower levels 
+- We've moved the newbie bind points closer to where characters first 
+start out, not outside in their newbie areas 
+- Halflings and Gnomes have new classes available to them: Halfling 
+Rangers and Paladins as well as Gnome ShadowKnights and Paladins. All 
+of the necessary NPCs and items should be available for these new 
+classes 
+
+** Alternate Advancement Abilities ** 
+
+- Divine Stun is now an activated ability on a 30 second reuse timer 
+with a chance to interrupt NPCs up to level 60 
+- Most targeting issues with Alternate Advancement abilities should be 
+fixed 
+- Rampage should now consider all viable targets, including PvP targets 
+- Metabolism should be working properly now 
+- Scribble Notes should reduce memorization times to an even greater 
+extent than it did before 
+
+** Spells/Songs ** 
+
+- Fixed a bard lockup bug that would occur randomly with during cast 
+time 
+- Fixed a song bug that was causing songs to be stuck on, triggered by 
+contact proc buffs procs (such as Boon of the Garou) 
+- The new Cleric and Paladin Resurrection line of spells are now 
+available on vendors 
+- The new corpse summoning spell is now available on vendors, as are the appropriate coffins 
+- The new Evacuate spells are now available on vendors 
+- Memory Blur, Mind Wipe, Blanket of Forgetfulness, Memory Flux, 
+Glamour of Kintaz and Rapture have been given a greater chance of 
+clearing the 'hate list' 
+- Glamour of Kintaz and Rapture also have longer durations 
+- Egress and Abscond have a reduced mana cost and a lesser chance to 
+fizzle 
+- Judgement has been improved to make it a better upgrade from the 
+previous spell in the spell line 
+- Shaman group buff spells (Tumultuous Strength and the Talisman 
+spells - Cat, Brute, Rhino, and Raptor) have been improved to be more in line 
+with the single target versions of those spells. 
+- Added a new line of spells for Magicians that summons focus items 
+- /pet get lost will now kill the buff as well as the familiar 
+- Marzin's Mark now stack with Protection of the Glades 
+- Improved the way that Abolish Disease/Poison and Counteract 
+Disease/Poison work 
+- Fixed it so that whenever a player loses the chance to click on a 
+resurrection dialogue box (such as entering the inventory screen), the 
+game will react as if the user had clicked "no". This should prevent 
+cases where the player can not be resurrected unless they logged out 
+- "Sense" spells should now work while on a horse 
+- Shield of Auras effect has had a stacking issue with Clarity fixed 
+and the component removed 
+- Skin of Shadow has had its night only restriction removed 
+- Demi Lich is now a level 56 spell 
+- Arch Lich has been improved 
+- Translocate spells no longer require that the target be grouped with 
+the caster. Also, the dialog box for this spell will remain longer 
+- Added Sicken and Tainted Breath to a merchant in Shar Vahl 
+- Levitation spells now check to see if you have a second Levitation 
+type spell when it wears off before hurling you to the ground 
+- Eye of Tallon has a longer duration 
+- Spell memorization speed should now take +Meditate% skill items into 
+account 
+- Bard song memorization time should now be faster and is affected by 
+attributes 
+
+** Zones ** 
+
+- Changed safe spot in Kedge Keep to actually be a safe spot 
+- The Beastlord trainer in Firiona Vie is now more friendly to 
+Beastlords of all types 
+- Vyzh`dra the Cursed has been adjusted to help balance the risk versus 
+reward associated with the encounter 
+
+** Items ** 
+
+- Sleeper's Tomb Key is now Soulbound 
+- Wand of Casual Blessings is not longer usable by Half-Elves, and is 
+usable by Dark Elves and Gnomes. It also now looks like a staff and not 
+a bag 
+- Corrected some of the Velious quest helm graphics. All helms of this 
+type are no longer displaying a graphic (as intended) and the 
+'customized' plate helms should all now have graphics (also as 
+intended) 
+- Custom Malevolent Crown should now be the same color as the rest of 
+the armor set 
+- The Beastlord Epic item has been changed to be more in line with 
+other epic items 
+- Grimling Tribal Headdress is now a "head" item and should be 
+equippable 
+- Thexian Loop has had its Haste increased 
+- Headband of Many Visions now grants Deadeye instead of See Invisible 
+- Shield of the Swamp should now have a graphic 
+- Shield of Auras should now have a graphic 
+
+** Combat ** 
+
+- Pets are now more likely to avoid NPC ripostes 
+- Wizards now have an inherent chance to score a critical blast with 
+their damage spells after 11th level. This ability does not lessen the 
+chance of scoring a critical hit with Alternate Experience abilities 
+that grant criticals 
+
+** Client/Interface ** 
+
+- Added /dopropertinting command. This command allows you to turn on 
+and off the "DoProperTinting" option in the eqclient.ini file. 
+Activating this command should correct most tinting issues (such as 
+armor tint also tinting the character's skin). But if it causes issues 
+you can toggle it off by using /dopropertinting off 
+- Added /chat commands, that allow players to create their own chat 
+channels. Please read the eqmanual_supplement.doc in your EverQuest 
+directory for more information 
+- Added /hitsmode command. This command allows you to more finely 
+control how you see hits, including seeing them in a window other than 
+your chat window. Please see the eqmanual_supplement.doc for more 
+details 
+- Added /clearhits to clear the current hits in the M2-M5 modes of the 
+/hitsmode command. Again, please see the eqmanual_supplement for more 
+information 
+- Added /showgrass command. This toggles the radial flora (Luclin only) 
+on and off 
+- Added options in the Options screen (under Chat Filter) for filtering 
+out Melee and Spell criticals. Options are All/Me/Off. These can also 
+be activated using the /filter command, and will affect critical hit, 
+critical blast, exceptional heal, and crippling blow messages 
+- Changed /filter to allow you to toggle the various chat filter 
+settings (still also lets you toggle the badwords filter) 
+- Changed /channel to allow you to set your default chat channel. It 
+also now saves this setting in the INI file 
+- Changed the /targetgroupbuff command to be 'persistent'. The state of 
+the switch will be stored in the eqclient.ini file and will be 
+remembered when you log out or zone 
+- Fixed the double messages received when "Soandso's song ends" 
+- Mend should be working properly. "Can not use Mend for x seconds" can 
+still appear, but you now should be able to use mend at the appropriate 
+time 
+- Fixed bug in the client that caused a "You are out of Ammo message" 
+even when you still had ammo 
+- Messages should no longer be lost while you are zoning 
+- Corpses that are made to appear at the "safe spot" of a zone for any 
+reason can now be moved using /corpse as long as the person using the 
+command has /consent for that corpse 
+- Added "AllLuclinPcModelsOff" line to the eqclient.ini file which, if 
+set to TRUE, will skip the loading of all of the Luclin PC models 
+(except the Vah Shir, which always gets loaded no matter what this is 
+set to). This should allow players to set the loading of each race and 
+sex individually for their normal game play, but then quickly turn all 
+models off for a raid or other such circumstances 
+- Added /rtarget function (can be used as /rt). This function targets 
+the last character to send you a /tell. It follows all of the rules for 
+/target 
+- Messages sent to you while you are zoning should be saved and sent to 
+you when you reach the other side of the zone. Messages should no 
+longer be lost while zoning (unless zoning takes more than about 10 
+minutes for any reason) 
+- You should be able to keep typing whatever you were in the middle of 
+typing when you zoned... but it might not be processed till you're in 
+the new zone 
+- If someone is on your ignore list and they do a /random, you 
+shouldn't see it anymore 
+
+** Pathing ** 
+
+- Corrected some pathing in Ak'Anon that was preventing some NPCs from 
+reaching certain areas 
+- Corrected some pathing issues in Acrylia Caverns 
+- Corrected a problem with the entrance from Hollowshade Moor into 
+Paludal Caverns that was preventing Beastlord Warders from entering the 
+zone 
+
+** Miscellaneous ** 
+
+- Many cases where characters would stab themselves with their weapons 
+when sitting should have been eliminated.
+- Player characters no longer broadcast their location when they are 
+stationary. This should reduce the resources used and improve gameplay.
+- Fixed a problem that was causing some users to see blocky, unblended 
+terrain where terrain types meet.
+- Critical hit messages from spells now take into account PvP damage 
+calculations. The actual damage was calculated correctly, it was just 
+displaying wrong on the critical message.
+- Fixed canoes, they should move forward and backwards normally again.
+- We have been working to prevent characters from being stuck in the 
+game after link death in such a way that prevents the player from 
+logging back in. Players should be able to log back in no more than 5 
+minutes after going link dead in all situations.
+- Added Sharvahl as a "home zone" for Vahshir when taking PvP racial 
+faction hits into account .
+- We have fixed the ATI flashing problem that some players with certain 
+cards were having when inventory window was up.
+
+.....................................................................
+
+------------------------------
+March 21, 2002  3:00 am
+------------------------------
+
+Contact buffs have once again been disabled for bards to prevent songs 
+from locking up 
+
+- Fixed a bug that was causing the "Soandso begins to cast a spell" 
+message to not display 
+
+- Fixed the bug that was causing the last hit message for another 
+player to be displayed even if you had other's hits off 
+
+- Added more info to the /hitsmode help 
+
+- Added another option to the /hitsmode command to allow users to force 
+the windows to be displayed even if empty 
+
+New Hitsmode Usage: /hitsmode    
+   
+    
+
+Where:  is 1 to force the window to draw even if empty. 
+
+- Changed it so hitsmode windows do NOT draw when in "normal" old UI 
+mode (e.g. spellbook) 
+
+- Fixed a bug that was giving bards an error message related to 
+/targetgroupbuff every time they zone. ("This ability does not work 
+with bard songs.")
+
+.....................................................................
+
+------------------------------
+April 5, 2002  3:00 am
+------------------------------
+
+** Graphics Engine Update **
+
+- S3 video cards: We've worked around a shortcoming in the S3 drivers 
+that fixes the overlapping or "cutout" looking interface graphics.
+
+- All Hardware TnL cards: More optimizations and performance increases.
+
+.....................................................................
+
+------------------------------
+April 9, 2002
+------------------------------
+
+** EverQuest Pricing Increase **
+Due to the increased costs of running the EverQuest game service, we 
+will be increasing our subscription rates in April. Effective April 25, 
+the new monthly subscription rate will be $12.95/month. 
+
+We will continue to offer discounts from the new rate plan on multi-
+month subscriptions. The new price for a 3-month subscription will be 
+$35.85 and a 6-month subscription will now be $65.70. 
+
+You don't have to do a thing; you will automatically be migrated to the 
+new billing structure under your current subscription plan when your 
+current subscription plan expires.
+
+HOWEVER, for a limited time only (from April 10 through April 24, 
+2002), you may extend your current subscription for an additional 12 or 
+24 months by signing up for the new EQ 12 or 24 month plan - and reap 
+great savings off of the new rates:
+
+* Extend for 12 months for $109 US - and get a 30% discount off of the new monthly rates!
+
+* Extend for 24 months for $190 US - and get a 39% discount off of the 
+new monthly rates!
+
+Now is the time to lock in these rates, so don't miss out.
+
+For more information visit www.everquest.com/rates
+
+** NPCs and Items **
+
+- Non-pet NPCs will start to return items they don't care about. This 
+will occur over time as zones are updated. 
+
+** Spells **
+
+- Pet healing spells now have a Cure Disease effect
+- Cancel Magic is now available to Beastlords
+- Fixed the research recipe for Nullify Magic to match that listed in 
+Lore Malignancy
+- Spell icon for Mental Corruption is now yellow (self only)
+- Spell icon for Valor of Marr is now yellow (self only)
+- Spell icon for Bonds of Tunare is now green (AoE)
+- Spell icon for Engorging Roots is now red (consistent with other 
+druid root spells)
+- Omakin's Alacrity now shows a spell message when cast
+- Chilling Embrace should now be 'curable' with spells that cure poison
+- Druid Ancient Spell scrolls should now scribe the correct spells in 
+your spellbook
+
+** Items **
+
+- Tarmok Battlestaff now looks like a staff in inventory
+- Shield of Mental Fortitude should now have a visible graphic
+- Aqualung has been changed. It should have 20 charges, and it 
+shouldn't suddenly drop to one charge. If you have one of the broken 
+aqualungs, you may contact your GM for a replacement
+- Sathir's Wand should be working
+- Tishan's Kilt is wizard usable only (it was never intended to be used 
+by druids)
+- Shield of Auras should now stack with Clarity and will no longer 
+require a component. It should also be usable by Iksar
+- Venomous Axe of the Velium Brood proc effect is now level restricted
+- Necrasaur Hide Boots and Petrified Wood Great Staff have had some 
+stat modifiers changed, previous modifiers were invalid values
+- Spider Silk Whip and Spider Silk Handwraps are now primary and 
+secondary equippable
+- Sigil Earring of Veracity effect is now a right-click effect
+- Flute of Eternal Night is now usable by the Vah Shir
+- Deepcarver Plate Bracer can now be equipped
+- Pearl of Dread should no longer look like a bag when equipped
+- Twisted Bone Earring can now be used by Gnomes, Dwarves and Half 
+Elves
+- Everriculum can now be used by Barbarians
+- Changed the name of the scroll for Bond of Death to match the name of 
+the spell
+- Changed the name of the scroll for Renewal to match the name of the 
+spell
+- Shield of the Creator can now be used by Iksar and Dark Elves
+- Rod of Identification should be working now
+- Tribal War Mask and Boots should be usable by the same races and 
+classes that can use the rest of the armor
+
+** Zones **
+
+- Warders and Familiars should now be able to zone from the Bazaar to 
+the Nexus
+- Fixed a 'safe spot' in Paludal Caverns
+- Fixed a few pathing issues in Sebilis
+- Fixed a 'safe spot' in Chardok
+- Fixed a pathing issue in Tenebrous
+- NPCs in Sanctus Seru no longer show fear (or are affected by such 
+spells)
+- You should now be able to zone from Marus Seru to Mons Letalis while 
+on your horse
+- Familiars should be able to zone from the Qeynos catacombs to the 
+city with their master.
+- Delival in Shar Vahl should be a lot less violent
+
+** Trade skills **
+
+- Gnomish spirits are now available in Shadowhaven
+- Added a few trade skill vendors to Rivervale
+
+
+** Miscellaneous **
+
+- Skiffs were fixed with an earlier patch and should be working now
+
+- The EverQuest Team
+
+
+*** News from the Vale ***
+
+Clan Death Fist has long had a minor presence in the Misty Thicket, 
+preying on the Halfling farmers and tradesmen. Recently the Death Fist 
+Clans numbers in the thicket have increased and the Orcs are cutting 
+down trees and mining the rock of the nearby mountains. Reports have 
+come in to Rivervale that the Orcs are shipping the lumber and ore to 
+the commonlands and stockpiling it for an unknown purpose. Whatever the 
+Deathfists agenda, their increased presence has made the thicket a more 
+dangerous place beyond the protective wall. 
+
+Not far from the tunnel that leads from the Misty Thicket to Rivervale 
+lie mysterious cursed ruins. All that remains of what once stood at 
+these sites are fragments of walls that are presumed to have been 
+constructed around the same time as the nearby ruined tower. An ancient 
+magical scarecrow stands at the center of one of these ruins and warns 
+passers by that the place is cursed. It is a popular belief among the 
+halflings of Rivervale that the crumbled walls once surrounded 
+beautiful and fruitful gardens that were cursed when their owner and 
+caretaker offended the Gods. Whether or not this story is true, the 
+scarecrows warning is true as the gardens are host to diseased vermin 
+and the animated corpses of fallen halflings who were brought to the 
+there and buried after their death by an unknown evil.
+
+With the Goblin Clan Pickclaws now occupying a portion of Runnyeye 
+Citadel the number of Goblins now residing in the Misty Thicket has 
+grown. These somewhat exiled Runnyeye Goblins have been mining Crude 
+Iron Ore from the nearby mountains and are most likely attempting to 
+forge weapons and armor to use in a goblin revolt to reclaim all of 
+Runnyeye Citadel from the Pickclaws. With enemies to all sides these 
+semi-exiled goblins are being far less troublesome than they have the 
+potential to be.
+
+.....................................................................
+
+------------------------------
+April 23, 2002  3:00 am
+------------------------------
+
+NOTE: We are unable to patch "code" right now because we are in the 
+middle of making some changes to the basic structure of the game. This 
+will delay fixes for system bugs and updates (such as Alternate 
+Advancement Abilities and /commands). Please be patient until we can 
+get these much-needed changes finished. Because these changes affect 
+things such as the database that stores player characters, we're taking 
+care to make these changes the right way.
+
+** Items **
+
+- Faun hooves are now stackable
+- Storm Reaper Initiate Scimitar is now magic
+- Moss Toe Bracer is no longer Lore
+- Bracer of the Stoutdeacon is no longer Lore
+- Infected Rat Livers are no longer No-Drop
+- Shadowsong Cloak now also grants a hit point bonus
+- Sambata Boulder now has a range value and can be thrown
+- Spear of Foresight no longer has a range value (it is primary hand 
+only)
+- Rod of Identification now has 20 charges
+- Patriarch Claws can now be used by Beastlords
+- Crystalline Silk Threads are now stackable.
+
+** Spells **
+
+- Casters of slow spells recently given a disease component (such as 
+Shiftless Deeds and Turgur's Insects) should no longer attract undue 
+attention to themselves. 
+- Raised the price to purchase Phantom Plate scroll to be more in line 
+with others of that spell line
+- The following Spells are now usable by Beastlords: Serpent Sight(19), 
+Enduring Breath(29), Levitate(39) and Talisman of Tnarg(53)
+- Changed the way Circle of Summer stacks with other spells
+- Changed Torrent of Fatigue so that it actually replenishes stamina 
+for the caster instead of taking it away
+- Cure Blindness should work now
+- Changed Koadic's Heightened Focus to better stack with other mana 
+regeneration spells 
+
+** Trade Skills **
+
+- Cazic Thule tradeskill items are no longer No Drop 
+
+** Quests **
+
+- Halfling Toes should now be available
+- The Dark Elven Cleric Guild Summons should show the proper text now
+- The Dark Elf Wizard Guild Summons should show the proper text now
+- Unholy Silk Bracer recipe should be correct now
+
+.....................................................................
+
+------------------------------
+May 8, 2002  3:00 am
+------------------------------
+
+** Items **
+
+- We've made some changes that will cause a few proccing items to be 
+out of charges after the patch. Players with such items will need to 
+petition and ask a GM to swap the item out with a new one
+- Focus items using the "Naki's Pernicity" effects should now be 
+working as intended
+- Focus items that affect a spell's duration should now work for 
+clickable items
+- It should be impossible to equip an item that will reduce your hit 
+points by more than your maximum hit points. Also, hit point reduction 
+items should not lower hit points below 1
+- Tinkered Compass now adds the appropriate bonus to the sense heading 
+skill
+- Hit point bonuses on food items should be working
+
+** Spells **
+
+- Higher level familiars should once again survive when their masters 
+go invisible, Abscond or Evac
+- Fixed a bug that was preventing the Lesser Familiar mana regeneration 
+component from working
+- Familiars no longer cause damage to their master upon death
+- Familiar buff remains after the caster uses the /pet get lost command 
+to remove the visual representation
+- Torrent of Fatigue should be working properly now
+- Allure of the Wild has had its level cap raised to make it a useful 
+upgrade 
+- Umbra has been improved to give a slightly higher AC benefit 
+- A character can no longer trade with an NPC when invisible. Character 
+must turn visible before starting the trade
+- Characters can no longer scribe a scroll that they can't cast due to 
+deity restrictions
+- Invisibility should now remain after a link death
+- Theft of Thought will no longer give mana when cast on PC classes 
+that do not have mana (in PvP or in a duel)
+- Drain/Share spells can no longer be cast on players on blue servers, 
+and can no longer be cast on group members on PvP servers. Spells 
+Affected: Succession of Shadows, Crippling Claudication, Mind Wrack, 
+Degeneration, Zevfeer's Theft of Vitae, Torrent of Hate, Torrent of 
+Fatigue, Torrent of Pain
+- Spirit Armor scroll no longer lists Shadowknights as a class that can 
+use it (they couldn't anyway)
+- Bard AE songs now have vertical limit of 50 feet. This is also the 
+case for Mass Group Buff
+- Gating and porting while in tree form should no longer cause crashes
+- Removed all "Begins to cast X spell" text from procs
+- Resurrection request box will now reset if you open another window 
+while it is up, preventing a problem where a character is unable to be 
+resurrected if he has the res box up and he loots a mob or opens a 
+trade window
+- Fixed a bug with lifetaps that would cause people around a lifetap to 
+see, "You feel drained..." instead of "Fippy feels drained..."
+- Issues with Healing seeming to be delayed have been fixed (see Spell 
+Filters)
+- Fixed a bug that was causing "soandso's song ends" to show up as 
+"he's song ends" if the bard was targeted, "it's song ends" if not 
+targeted 
+- Divine Glory received a small upgrade to make it more in line with 
+the spell series
+
+** Spell Filters **
+
+- Issues with healing seeming to be delayed should be fixed. The 
+problem was with filters that allowed players to ignore spells that 
+were hitting them. The following changes were needed to fix this issue
+- Player characters will now always see spells that hit them and spells 
+they cast
+- Players with the Group option set for PC spells will see the start 
+spell casting messages for people in their group and they will also see 
+when member of their group are hit with spells
+- Players with the ALL option will still see all PC spells and spell 
+hits
+
+** Spell Stacking **
+
+General stacking changes: Some buffs were not being allowed to stack 
+which now will stack, and other buffs were being allowed to stack which 
+should not have. 
+
+For example, many stacking problems with spells that have a See 
+Invisible or Levitate component are now gone (e.g. Dead Man Floating), 
+while a number of stacking exploits that granted too much regeneration, 
+too much offense (ATK), too large of a damage shield, or too many hit 
+points have been fixed. Here are some of the details:
+
+- Vision abilities (natural or spell-granted) should no longer cause 
+spells to fail to take hold
+- Bard songs should in general overwrite fewer spells
+
+- Harness of Spirit no longer stacks with spells that grant Strength or 
+Dexterity boosts. It was never intended to do so
+- Harness of Spirit and Avatar should now stack properly
+- Call of the Predator and Warder's Protection should no longer stack
+- Arch Lich should no longer overwrite innate racial vision abilities
+- Levitate and Dead Man Floating should no longer conflict
+- Dead Man Floating should no longer conflict with any vision abilities 
+(natural or spell granted)
+- Spirit of Eagle should no longer cancel Levitation/Levitate spells
+- Fixed a stacking exploit with Armor of Protection and Armor of the 
+Risen
+- Focus of Spirit should no longer overwrite Visions of Grandeur
+- Focus of Spirit should now stack with the Whistling Fists effect
+- "Circle of" Druid spells should no longer stack with their Resist 
+counterparts. 
+- Shroud of Spirits and the Cloak of the Akheva should stack properly 
+now
+- Cantata of Soothing should no longer overwrite Clarity spells
+- Cantata and Chorus of Replenishment should no longer overwrite Acumen
+- Bladecoat no longer overwrites Clarity II
+- Lower level druid group buffs should now be less likely to overwrite 
+higher level buffs
+- Avatar and Force of Nature will no longer stack
+- Ancient Feral Avatar should now stack properly
+
+** Alternate Advancement **
+
+- Improved Familiar should now be better than Greater Familiar
+- Fixed a bug with Permanent Illusion that was causing the caster to 
+see his illusions drop when zoning, even if others continued to see the 
+illusion
+- Trolls and Iksar no longer receive double regeneration ability from 
+AA abilities
+- The Archetype skill Casting Deftness will no longer supercede the 
+Class specific Quick Buff casting time reducing skill. Note that at 
+this time there is a maximum benefit to casting time bonuses of a 50% 
+reduction
+- Casting deftness was changed to reflect the increases presented by 
+the in-game help (5, 15 and 25%)
+- Turn Summoned should now work on all summoned creatures, not just 
+pets. The text should correctly say that there is only one level for 
+this ability
+- Improved Reclaim Energy now works with the epic pet
+- Fixed a crash bug caused by Call Corpse
+- Alternate Advancement abilities that affect a spell's duration should 
+now work for clickable items
+- Quick Summon should now work for Call of the Hero and Manifest 
+Elements
+- Quick Summon also changed to match the benefits presented by the in-
+game help
+
+** Skills **
+
+- Increased the velocity tolerance for the Hide skill. This may 
+slightly improve the functionality of the Evade skill
+- Poison should no longer be interrupted
+- Sneak only breaks when a character is hit, not when he hits someone
+- Fixed a bug that was causing a problem when Pick Pockets was used 
+before Beg had refreshed. Beg and Pick Pocket use the same timer, so 
+now using Beg or Pick Pocket will cause both buttons to gray out
+- A message is now displayed and skills are properly reset when a rogue 
+breaks sneak and/or hide because he is looting a corpse
+- Beastlords should function like other hybrids when casting in melee
+
+** Zones **
+
+- The Hole now uses Kunark-level Mez/Charm/Taunt rules
+- Petrified humerus should now be available
+- Zones where mounts cannot be summoned will now remove mounts when 
+they enter the zone
+- High level NPCs can now be taunted in Cazic Thule
+- Random frame lag in Guktop and Oasis should be fixed
+- Fixed a pathing problem in Tenebrous Mountains
+- Fixed a pathing bug in Paludal Caverns
+- Fixed pathing exploits in Chardok
+- Fixed a pathing exploit in Cazic Thule
+- Fixed a pathing exploit in Acrylia
+- Fixed a pathing bug in the Tower of Frozen Shadow
+- Fixed a pathing bug in Fungus Grove
+- Fixed a spot where characters could get stuck in Twilight Sea
+- Moved the Permafrost 'safe point' closer to the zone line
+- Addressed an issue with an aggressive NPC that appeared outside of 
+the Arx Building in Sanctus Seru
+-Modified the Vyzh`dra the Cursed spawn trigger to make the various 
+incarnations more accessible
+-Modified several NPCs in the temple of Ssraeshza to address the 
+disparity between melee and caster effectiveness in the zone
+
+** Quests **
+
+- Adjustments have been made to the 8th Coldain Prayer Shawl quest
+- High Priestess Alexandriana should be working properly now
+
+** Tradeskills **
+
+- Added over 1,000 new tradeskill recipes for all levels of skill, 
+along with many recipe books. A few of the vendors of Norrath might be 
+able to get you started on your way 
+- Added Mortar and Pestle to a Thurgadin merchant
+- Rubbing Alcohol is now available from a vendor in Thurgadin
+
+** Guilds **
+
+- Fixed many bugs with the guild system, for example: GMs can now 
+rename guilds without the need to destroy and recreate them, guilds can 
+have names that share the first 15 characters with another guild (they 
+couldn't before) and people should no longer experience random guild 
+kickouts when a guild on their server is deleted/reformed.
+
+** Pets **
+
+- A character may now have a horse, a pet and an Eye of Zomm at the 
+same time
+- /pet attack range has been limited to prevent its use as a targeting 
+tool. Asking pets to attack targets outside the range will generate a 
+"not a legal target" message
+- Pets will once again tell you who they are attacking by sending its 
+master a /tell
+- Pet attack animations should now be working for all pets
+
+** Chat Channels **
+
+- Players can specify a chat channel as their default channel using the 
+/channel commands (e.g. /channel chat mychannel)
+- The 'old' method for setting the default channel is also now saved in 
+the INI file
+- Kick and Invite should be working for chat channels
+
+** Horses **
+
+- Potions now work while on a horse
+- Skeletons can now ride horses (meaning: PCs should be able to mount 
+and ride horses while changed into a skeleton)
+
+** Miscellaneous **
+
+- Fixed a bug that was causing the AFK flag to sometimes not be visible 
+to players entering a zone after it was turned on
+- Made some adjustments to factions to make Beastlords, Druids and 
+Rangers (as well as small adjustments for Vah Shir) a little better 
+liked by animals (those that don't adhere to a faction)
+- No updates are sent when the player character is not moving, saving 
+resources. We've also increased the rate that position updates are made 
+by moving player characters, using up some of those saved resources but 
+making movement a bit smoother
+- Stationary NPCs should no longer warp when they aggro/summon
+- NPCs who shout names while they Death Touch should be fixed
+- Teleports arriving in some zones should spread the arrivals out a bit 
+more. Affected zones are Nexus, Skyfire, Emerald Jungle, Butcherblock 
+Mountains, South Ro, Greater Faydark, Tox, North Karana, West Commons 
+and Lavastorm
+- Fixed the bug that was preventing players from seeing the "your spell 
+is interrupted" or the NPCs spell interruption message
+- Fixed the issue with boats depositing players at the safe point of 
+the zone after zoning
+- Fixed the strange floating NPC bug (seeing NPCs floating in the air 
+after zoning)
+- /cry is now working
+- /consent %t should allow the consented character to drag your corpse
+- Target Nearest NPC (F8 by default) has been fixed.
+
+** Sullon Zek Rules Change **
+
+We have increased the number of character that can be created on an 
+account to three. These characters, however, must be on the same team
+
+** Firiona Vie Rules Changes **
+
+Since the launch of Firiona Vie we have had tremendous support for this 
+special server from players who want a very roleplaying immersive 
+environment. Players have made numerous suggestions to tweak the 
+ruleset a little more. We have taken many of those suggestions and made 
+changes accordingly. 
+
+We will be keeping the following rules intact: 
+
+* /ooc will remain unavailable to remind people that acting in 
+character is strongly recommended. 
+* The Common language will remain out, to help maintain the feeling of 
+race-based community and to allow people to continue to roleplay 
+someone with a native tongue. 
+* The Trivial Loot Code and all of the special rules for no-drop items 
+will remain. This has worked out nicely for the sense of community on 
+the server. 
+* The one character per account restriction will remain.
+
+However, we will be removing the following restrictions:
+
+* Anonymous/roleplay flags will no longer be required. They will remain 
+available, but forcing anonymity on characters was causing undue 
+problems finding groups and other such things that are essential to 
+enjoyable gameplay. 
+* The language learning limit/speed restrictions will be removed. While 
+the idea of limited languages seemed like a good idea, this is another 
+item that was just making it too hard to actually play the game. 
+Roleplayers that don't want their characters to be overly literate 
+always have the option to play their characters that way. 
+* /shout and /auction have returned to unrestricted use to allow easier 
+grouping and selling. People are welcome to filter those channels if 
+they prefer not to see them, but the benefits of having them availabe 
+is just too great. /ooc will remain disabled on this server. Obviously, 
+acting in character on any channel is strongly recommended. 
+* Alignment restrictions has been removed. Forced restrictions for 
+grouping make playing the game too much of a chore. Characters, 
+however, may always decide who they wish to group with based on any 
+factors the character perceives. If your Dark Elf won't group with a 
+paladin, he doesn't have to (and shouldn't). If your cleric of 
+Quellious wants to heal a necromancer because healing people is the 
+right thing to do for him, then you should be able to do so. But not 
+allowing these things is a restriction on your ability to play that 
+character 'in-character', and a real hindrance to general gameplay.
+
+Again, it's important to understand that this is still a roleplaying 
+preferred server. The rules that we are changing were often as much of 
+a restriction to one's ability to roleplay as they were a help. And the 
+artificial barriers to grouping, especially the trouble created in just 
+finding a group, needed to be removed to allow people to actually play 
+the game.
+
+.....................................................................
+
+------------------------------
+May 10, 2002  2:00 am
+------------------------------
+
+- Bard instruments should once again improve the effects of their 
+songs.
+- Corrected issues with a few of the recently added trade skill 
+recipes.
+
+.....................................................................
+
+------------------------------
+June 6, 2002  3:00 am
+------------------------------
+
+** Gameplay **
+
+- In hopes of providing more things for more people to do, certain raid 
+level encounters in the world now return to existence a small amount 
+faster than they used to. This was actually included in lastnight's 
+patch but was not mentioned.
+
+- To address the competition between epic-seeking bards and other 
+classes, the infamous White Dragon Scale is no longer used in the quest 
+given by Karam Dragonforge in Rathe Mountains. The quest now requires a 
+White Dragon Hide. We did not reduce the rate at which White Dragon 
+Scales enter the world, but rather added new potential for the new 
+White Dragon Hide to be found.
+
+** Focus Items **
+
+- Spell casting time foci should report their new casting time 
+properly.
+
+- Spell duration foci designed to affect DoTs (the Affliction line) 
+should now work reliably.
+
+- Spell duration foci affecting beneficial spells are no longer random. 
+They now always extend the affected buffs for their maximum. (We never 
+wanted to make it harder to time your buffs.)
+
+- The Affliction focus line should now only be affecting spells that do 
+damage.
+
+- Bards should no longer get focus item messages that weren't actually 
+affecting them.
+
+- We've re-assigned quite a few of the focus items to have their 
+originally intended effect. 
+
+All of the same items have focus effects. However, as many people 
+noticed, quite a few effects were mis-assigned due to a tools error. 
+(Common, mid level items were frequently being assigned high level 
+effects, and vice versa.) 
+
+This situation has been fixed, and the items now have the effects that 
+we originally planned for them.
+
+** Firiona Vie **
+
+- Your server should once again have Trivial Loot Code enabled. Sorry 
+for changing the rules on you.
+
+** Chat Channels **
+
+- Should once again work reliably for people who are using NAT or IP 
+Masquerading via certain networking devices.
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+June 12, 2002
+------------------------------
+
+** NPC Spell Caster Changes **
+
+- NPCs are now bound by spell casting distance rules, meaning that an 
+NPC's spell will no longer connect from halfway across the zone 
+- NPCs now have a chance to be interrupted by normal combat when 
+casting newer spells
+- NPCs that are much lower level than their target have had their 
+potential casting damage reduced using a similar mechanic to the one 
+that player characters' level differences use
+- NPC Wizards no longer have an inherent bonus to their fire and cold 
+based spells 
+- Most NPCs that had previously had their spellcasting level inflated 
+to make up for poor spell selection have been brought back into line 
+with their actual level
+- NPCs no longer automatically get free access to rarely dropped 
+spells, such as Garrison's Superior Sundering and Funeral Pyre of 
+Kelador.
+
+** Spells **
+
+- True North now works while on horseback
+- "Harmonize" songs should now last 12 minutes
+- PC Enchanters will always resist their own single-target 
+mesmerization spells.
+- Player characters will no longer use mana on targeted spell casts 
+that do not connect due to Line of Sight
+- The Bind/Cast Sight line of spells now works as it used to. You do 
+not need to have line of sight to your target to use this spell.
+- The sight effects granted by illusions should now remain when someone 
+with permanent illusion zones
+
+** Items **
+
+- Stanos' Pouch has had its charges increased to 20
+- Blessed Knight's Mask is now tradable
+- Mask of the Grimling Hunter is now wearable
+- Faun Flute is now usable by Vah Shir
+- Shrouded Boots are now magical
+- Pickbringers Chainmail is now usable by Gnomes
+- Acrylia Reinforced Armor is now usable by short races
+- Crystal Chitin Leggings can now be used by rogues
+- Sacred Grimling Fishing Spear can now be used by all rogue races and 
+can no longer be used by bards
+- Dark Animist Gloves can now be used by Vah Shir
+- Kylong Chestplate can now be used by Rangers, Dwarves, Halflings and 
+Gnomes
+- All Kylong armor is now usable by Vah Shir, Barbarians, Trolls and 
+Ogres
+- Marr's Sustenance should provide the proper effect now
+- Shadowhaven Faction Amulet should be more useful now
+- Wind Spirits armor can now be worn by Half Elf bards
+
+** Pets **
+
+- Familiars and Warders will once again disappear when their buff is 
+clicked off
+- Restored the range limit on /pet attack
+- '/pet notaunt' and '/pet no taunt' turn taunt off
+- '/pet taunt off' turns it off as well
+- '/pet taunt on' turns taunt on instead of toggling it
+NOTE: '/pet taunt' still toggles taunt as it did before
+- '/pet health report' reports a pet's health
+- '/pet health' also reports a pet's health
+- '/pet stand' causes the pet to stand up
+- '/pet sit' causes the pet to sit down
+
+** Quests **
+
+- Loremaster Borannin should be responding properly again
+
+** Trade Skills **
+
+- Improved many of the smithed Acrylia items
+- Large Blocks, Blocks, and Small Blocks of Magic Clay are now 
+stackable
+- Brick of Deathsteel Ore is now stackable
+- Several blacksmithed cultural armor set pieces have received a slight 
+improvement to their armor class.
+- Tarnished and Fine Steel Weapons may now be recycled into ore by 
+placing them into a forge with a water flask.
+
+** Miscellaneous **
+
+- Resurrection timers have been fixed, they count down as normal
+- NPCs that began regenerating too fast after the last patch have been 
+fixed
+
+
+- The EverQuest Live Team
+
+.....................................................................
