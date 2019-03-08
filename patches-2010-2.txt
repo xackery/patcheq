@@ -1,0 +1,902 @@
+Patch Messages from July 2010 to December 2010
+
+
+.....................................................................
+
+------------------------------
+Hotfix for July 8, 2010
+------------------------------
+
+From the patcher, here is a hotfix message with corrections to two Convorteum raid events:
+
+    *** Hotfix ***
+    Unstable Creation - Corrected a timer issue that was causing the Unstable Creation to activate itself early.
+    Magus Sisters - The chests from this raid have moved further away from the center, close to the passage that leads to the top floor of the temple.  This should prevent them from being noticed by the First Creation if you trigger his event but fail to kill him or flee.
+
+.....................................................................
+
+------------------------------
+July 14, 2010
+------------------------------
+
+Here are the patch notes for tomorrow's game update as posted by Kiara over on the EQ Forums:
+
+    *** Highlights ***
+
+        Resurrection and Revival Sickness will no longer trigger OOC timers on their own. They will still have their normal detrimental effects on resurrected or revived players, however.
+        There is a new 3D preview window available for seeing what items will look like on your character. See the UI notes below for details.
+
+    *** Items ***
+
+        Increased the HP, mana, and proc on the Unholy Deepwater Maul to bring in line with other weapons in the same tier.
+        The "Which Came First" item can be activated more quickly than it could before. It still needs to rest between uses.
+        Items from Convorteum raids will focus spells up to level 90.
+        The tank versions of the Blessed Serilis Prayer Shawl and Sacred Serilis Prayer Shawl will now be able to receive Efficacy of Brell focus effect. To receive the focus, you must exchange your shawl with Chamberlain Thoridain.
+
+    *** Tradeskills ***
+
+        Fixed an inconsistency in the required levels for Underfoot's raid dropped seals.
+        Visited the farm where superfluous letters play all day long and brought back an "L" to add to "Ralos' Ink Additive." Rallos (and everyone around him) is now much happier with the name.
+        Fixed an inconsistency with tradeskilled weapon ornamentations. Scribing the appropriate sketchbook is no longer required for you to craft Black Acrylia or Ceramic molds.
+        Those proficient in archery may want to see what the Useful Automated Vendor has to offer in the way of quiver crafting.
+
+    *** Quests & Events ***
+
+        Fixed issues with Hot Zone tasks in Broodlands, Elddar Forest, and Old Blackburrow.
+        Removed two NPCs in The First Corruption mission that would attack characters still zoning in.
+        Fixed an issue where the Clockwork Magma Meter MCMXCIX would lose track of what it was supposed to do when it reached its destination if its owner had died previously.
+        Cliknar Queen Removed the knockback from the Chitin Shards spell.
+        Unburrowning the Sandbound spell is now a root as intended.
+        Trial of Creation Brell will no longer be impressed with crafted items that were not created with items harvested during that attempt.
+        Made some changes to the Contagious Pustules spell. It should now be less dangerous outside of the Magus Sisters raid it appears in.
+
+    *** Spells ***
+
+        Resurrection and Revival Sickness will no longer trigger OOC timers on their own. They will still have their normal detrimental effects on resurrected or revived players, however.
+        Corrected the right click memorization category for Second/Third/Fourth wind so it matches the new timer.
+
+    Beastlord
+
+        Decreased the cast time and increased the recast time on all ranks of Salve of Reshan.
+        Increased the heal amount of all ranks of Salve of Reshan.
+        Increased the HP granted by all ranks of Focus of Yemall.
+        Increased the duration of the Unrivaled Rapidity haste recourse to match the duration of the base buff.
+        Increased the duration of Spirit of Vaxztn to 60 minutes.
+        Friendly Pet's healing procs will now affect the pet's target's target rather than the pet only.
+        Moved the proc on Friendly Pet to slot 8 to avoid interference with other pet buffs.
+
+    Berserker
+
+        Axe of Rallos has been converted to a single target melee range ability and has had its endurance cost lowered significantly.
+        The damage portion of Axe of Rallos has been reduced in number but had the target race requirements removed. All damage strikes can now hit any race or class.
+        Altered the resist types and modifiers on all Axe of Rallos components so they are more consistent.
+        Doubled the limit use counters available on Axe of Rallos Dread Effect.
+        Axe of Rallos' stun component will generate a lower amount of hate.
+
+    Druid
+
+        Added a resist modifier to the Blast of Sporali Venom spells cast via Blast of Hypergrowth.
+
+    Enchanter
+
+        Lowered the cast time of Rune of Yozan.
+
+    Magician
+
+        Moved magic rain spells to their own timer, allowing them to be cast alternately with fire rain spells.
+
+    Paladin
+
+        Raised the base healing amount of Devout Cleansing.
+        Added a hate override for Splash of Sanctification so it will no longer generate as much hate in raid situations.
+        Increased the number of curse counters removed by Splash of Sanctification.
+
+    Ranger
+
+        Corrected a percentage modifier on Storm of Arrows Rk. III that was too low.
+
+    Shadowknight
+
+        Altered the spell icon and particles for Curse of Frailty to reflect its nature as a debuff.
+
+    Wizard
+
+        Corrected an issue that prevented Funnel of Frigidity Rk. II from being cast while in combat.
+
+    *** NPC ***
+
+        Corrected an issue allowing some goos in Cooling Chamber to spawn under the world.
+        The Mistress of Pain's minions should be easier to dispatch now.
+
+    *** AA ***
+
+    Bard
+
+        Renamed Identity Crisis to Lyrical Prankster due to it being more... Bard-y.
+
+    Beastlord
+
+        Adjusted Pact of the Wurine to resolve some stacking issues with the Enchanter 2nd Spire and some Geomantra clickies.
+
+    *** Mercenaries ***
+
+        Base HP and AC of mercenaries have been evaluated, all DPS mercenaries have been increased, while healer and tank mercenaries are only increased at the high end. Mercenaries are still weaker than the classes they resemble.
+        Melee Damage and Damage Caster mercenaries generate less hate.
+        Melee Damage mercenaries can accept speed and attack buffs.
+        Damage Caster mercenaries have a new Burn AE stance which allows them to cast AE spells.
+
+    *** Achievements ***
+
+        Corrected issues with the achievement Slaughter is as Slaughter Does and raised the time allowance to 90 minutes.
+
+    *** Marketplace ***
+
+        Re-arranged the Marketplace UI for better navigation.
+        Added ability to see Marketplace items in icon or list view.
+        Added ability to sort Marketplace items.
+        Added ability to see item stats for Marketplace items.
+        Added ability to bring up Marketplace items in the 3d Preview window.
+        Added ability to search for an item by name.
+
+    *** Welcome Screen ***
+
+        Re-arranged the Welcome Screen for better navigation.
+        Added an uncompleted achievements section.
+        Added an events calendar.
+
+    *** Miscellaneous ***
+
+        Fixed an issue causing the "auto-hater" state in the extended targeting window to not be saved properly.
+        Fixed an issue that could cause players with specific video cards to crash if they had several reward sets queued.
+        Fixed an issue where the game client was not being removed from sneak/hide state when it was broken via spell casting.
+        Fixed several issues where skills were available to characters at incorrect levels.
+        The Plane of Knowledge book in Blightfire Moors has moved much closer to Crescent Reach.
+
+    *** UI ***
+
+        Added a new 3D preview window. Items with visible appearance or visible effects may now be previewed by alt-right-clicking on the item or on the item's icon in the item window. Use the scroll wheel and the right mouse button when over the window to change the window's viewpoint.
+        Fixed an issue with the spell list while scribing spells using the right click menu.
+        Fixed an issue causing the spent AA total to display improperly.
+        Added background drawing options for window draw templates. Backgrounds can now be drawn (Tiled(default) = 0, Normally = 1, Stretched = 2, Centered = 3, Centered Vertically = 4, and Centered Horizontally = 5).
+        Fixed an issue with scroll bars not properly appearing in combo boxes.
+        Added Files
+            EQUI_ObjectPreviewWnd.xml
+        Changed Files
+            EQUI.xml
+            EQUI_AAWindow.xml
+            EQUI_Animations.xml
+            EQUI_MarketplaceWnd.xml
+            EQUI_MerchantWnd.xml
+            EQUI_Templates.xml
+            SIDL.xml
+
+    *** Previously Updated ***
+
+        Made some changes to the Cliknar Queen Raid. Adds will no longer spawn while she is not in the room. Removed the Unstable Pabulum.
+        Unstable Creation Corrected a timer issue that was causing the Unstable Creation to activate itself early.
+        Magus Sisters The chests from this raid have moved further away from the center, close to the passage that leads to the top floor of the temple. This should prevent them from being noticed by the First Creation if you trigger his event but fail to kill him or flee.
+
+    The EverQuest Team
+
+.....................................................................
+
+------------------------------
+July 28, 2010
+------------------------------
+
+Here are the patch notes from a game update pushed live this morning (from the patcher):
+
+    *** Highlights ***
+
+        All Underfoot zones have had a temporary 20% increase in experience granted when killing NPCs.
+
+    *** Items ***
+
+        Recent marketplace items and all marketplace mount saddles are now Heirloom.
+        The Bridle of King Kalakor will once again summon a lion with a full mane.
+
+    *** Quests & Events ***
+
+        The Hot Zone tasks in the Firiona Vie zone now give the proper updates.
+
+    *** Miscellaneous ***
+
+        The Welcome Screen now displays only if it hasn't been seen by any character on the current account in the past 22 hours.
+
+    *** UI ***
+
+        Corrected issues with the 3D preview window where it would not show proper coloring on tinted mounts or illusions.
+        Corrected issues with the 3D preview window where it would not show illusions that were triggered by spells (such as the Fabled Ball of Golem Clay).
+        Fixed issue causing your buff window to reset to 2 columns wide in some cases when you had set it to 1 column wide.
+        Fixed issue with the map window where the minumum window size was hard coded into the window. It now is represented in the xml file.
+        Changed
+            EQUI_BuffWindow.xml
+            EQUI_Inventory.xml
+            EQUI_MapViewWnd.xml
+            EQUI_ShortDurationBuffWindow.xml
+
+    *** Previously Updated ***
+
+        The gnomes that made the Clockwork Magma Meter have made further adjustments to its design that should make it even less likely to lose track of its owner.
+        Unstable Creation Corrected an issue that could potentially have caused the loot chest to despawn early.
+        Unstable Creation Fixed an error with the Creation's non-overloaded spell selection and timing.
+        Magus Sisters Sisters who absorb the essence of a fallen sister will receive more benefits than they did previously.
+        The First Creation decided that he has been a bit too easy on adventurers that dare to threaten him. He has decided to pick up his pace a bit.
+
+     - The EverQuest Team
+
+.....................................................................
+
+------------------------------
+August 18, 2010
+------------------------------
+
+Here are the patch notes from a game update pushed live today (from the patcher):
+
+    *** Highlights ***
+
+        We were able to make several changes in response to feedback we received at Fan Faire. These changes are noted with an asterisk. Additional changes are scheduled for upcoming updates. Thanks to everyone who joined us and participated at the event!
+
+    *** Items ***
+
+        In-game rewards from this year's Fan Faire are now Heirloom items.
+        The Draught of the Craftsman buff will now tick down in the guild lobby and guild hall.
+
+    *** Quests & Events ***
+
+        Beware! Unrest, Cazic-Thule, Blackburrow and Lower Guk will be getting more dangerous for a while!
+        The bonus experience modifiers have been removed from Underfoot zones. We hope you enjoyed them.
+        A Cunning Plan Reduced the damage done by the Minions, Keyholders, Architect and Monarch slightly.*
+        The Cliknar Queen In order to avoid having two pabulums stack on top of each other, they will now be spawned one at a time (but twice as often).*
+        Magus Sisters Corrected an issue with the raid reset.
+
+    *** Spells ***
+
+        Beastlord Corrected a skill issue for Spirit of Hoshkar pets focused by Enhanced Minion IX, X, and XI. They had several skills set too low.
+        Beastlord Raised the AC of Spirit of Hoshkar pets focused by Ritual Summoning, Minion of Discord, Servant of Chaos, Spire Servant, and Servitor of Scale.
+        Beastlord Swarm pets summoned by Bestial Empathy, Howling at the Moon, and Bark at the Moon lines will now be much smaller.*
+        Enchanter The effect from the Aura of Abstract Acumen will now go to the short duration buff box.*
+        Magician Reduced the recast time on Summon Ring of Flight.
+        Magician Renamed the Ring of Levitation to Ring of Flight so that it matches the name of the spell that summons it.
+        Necromancer Restored the innate lifetap proc to necromancer pets focused by Enhanced Minion V and above.
+        Paladin The global cooldown for the Burst of Dawnlight spell has been reduced to three seconds.*
+
+    *** Miscellaneous ***
+
+        Fixed a crash issue when clicking on Achievement links in the Welcome Screen.
+
+    *** UI ***
+
+        Fixed issue with Effects and Short Duration buff windows vanishing when minimized.
+        Added "Is Lore" and "Has Lore Augment" to the Recover tab.
+        Added ability to inspect the items in the Recover tab.
+        Changed
+            EQUI_MerchantWnd.xml
+
+    - The EverQuest Team
+
+.....................................................................
+
+------------------------------
+August 23, 2010
+------------------------------
+
+Several adjustments to Tier 7 Underfoot raids were pushed live in a hotfix yesterday (from the patcher):
+
+    *** Hotfix ***
+
+    Changed several Underfoot raids to make them easier. Many of these changes came from feedback we received from the community.
+
+        The Death Beetle The type and number of hatchlings that spawn from the Death Beetle will no longer be randomly decided. The same hatchlings will spawn each time they spawn. The hatchlings have also been renamed.
+        The Death Beetle Rapid hailing of the elder sporali will no longer cause the event to advance phases.
+        The Death Beetle Reduced the number of fungi (and their equivalent sporali) that spawn at the beginning of the raid by half, but increased their HP. Overall there are fewer targets and less total damage to deal in order to kill the waves.
+        The Death Beetle The raid event will reset if the Death Beetle is left idle for more than 60 seconds after it is first aggroed.
+        The Death Beetle Hatchlings will now spawn less often and at a more reliable interval. Instead of spawning every 10 percent (with some variation) they now spawn every 15 percent.
+        Masked Invaders A message will now reveal the character responsible for causing the greken to be healed.
+        A Cunning Plan Further reduced the DPS of the mephit keyholders and minions for a total of about 20 percent.
+        A Cunning Plan Reduced Taskmaster Yeorick's DPS slightly.
+        Trial of Destruction Reduced the DPS of the rotocopter, gnomework, and skittering sentinels.
+        Trial of Creation Many enemies in this trial have had their DPS reduced.
+        Trial of Creation Many enemies in this trial have had their hit points reduced by approximately 10 percent.
+        An Audience with Brell Brell and his Armored Visage have had their DPS reduced.
+
+    - The EverQuest Team
+
+.....................................................................
+
+------------------------------
+September 8, 2010
+------------------------------
+
+Here are the patch notes from this morning's game update as posted by Kiara on the EQ Forums:
+
+    *** Highlights ***
+
+        Norrathians are losing sleep. Fear is losing its hold over people. Keep your eyes open for events happening throughout Norrath.
+        The Loyalists of EverQuest program is now live! All subscribers will get weekly rewards for having an active subscription see the special section below for details.
+        We are continuing to implement requests we received at Fan Faire. These are marked with asterisks below.
+
+    *** Loyalists of EverQuest ***
+
+        Loyalists of EverQuest is a program for our loyal EverQuest customers. For simply continuing to subscribe to our game you will gain a special currency (crowns) every week that can be spent on items to improve your game play. There is no additional charge for the items you find on this vendor. You will not need to spend station cash, nor buy Legends of Norrath packs to gain these items. Simply continue to play our game. Seek out Alerynril the Loyal in Plane of Knowledge for the current loyalty items.
+        The amount of crowns you gain each week will increase for every month that you have a continued subscription to EverQuest. This increase in points per week caps out after 12 months. This is the "Velocity" you see on the welcome screen. The specific method of subscription is not important, as long as you continue to stay subscribed each month. Additionally, long term subscribers will gain an initial bonus of crowns, depending upon the duration of their subscription. For each month your subscription lapses, you will lose three months of velocity.
+        NOTE: Loyalty points are shared across all your characters on all servers. Choose which character gets the rewards carefully!
+
+    *** Items ***
+
+        Several Underfoot Cosgrove raid seals have had their focus effects increased to bring them in line with the rest of the raid seals.
+        Whirlwind now has a level cap on its stun component.
+
+    *** Quests & Events ***
+
+        Trial of Creation Lowered the radius on the Jeweled Golem's AE spell by 33 percent.*
+        Unstable Creation Corrected errors in the challenge mode transition for this event. Restored the second chest when it is defeated in challenge mode.
+        The First Creation The First Creation has had his wild rampage damage reduced. His normal rampage damage was not changed.*
+        The First Creation Once the healing phase of his event begins, The First Creation will summon skirmishers less often.*
+
+    *** Spells ***
+
+    Paladin
+
+        The Aurora line of spells will now generate a minimal amount of hate when used. They should be otherwise unaffected.
+
+    Shaman
+
+        Feralization will now reduce target accuracy for all melee skills rather than just one hand blunt.
+
+    *** Miscellaneous ***
+
+        Improved the pathing in Discord to help reduce warping issues with Pallorax and other NPCs in the zone.*
+
+    *** UI ***
+
+        Updated icon files.
+        Changed
+            EQUI_Animations.xml
+
+    *** Previously Updated ***
+
+        Changed several Underfoot raids to make them easier*.
+
+
+    The EverQuest Team
+
+.....................................................................
+
+------------------------------
+September 15, 2010
+------------------------------
+
+From the patcher, here are the update notes from a hotfix pushed live today:
+
+    ***Hotfix***
+
+    *** Highlights ***
+
+        Fixed several issues with the Loyalists of Norrath program.
+
+    *** Quests & Events ***
+
+        Long Live the King and I Want to Conquer the World Corrected issues causing some ground spawns and NPCs involved in these launch events to fail to respawn.
+
+    *** Spells ***
+
+        Paladin Aurora heals have been changed back to self-target so they will work as they did before. They now trigger a small group heal that will add a minimal amount of hate to the caster.
+
+    *** Loyalists of Norrath ***
+
+        Fixed the loyalty velocity gauge to display the correct range (0-120).
+        Removed single stack limitations on purchasing items. You can now purchase more than one stack of an item.
+
+    *** Previously Updated ***
+
+        The Lair of the Risen is currently unavailable while undergoing changes. It should be ready soon!
+
+    The EverQuest Team
+
+.....................................................................
+
+------------------------------
+October 21, 2010
+------------------------------
+
+Here are the patch notes from this morning's game update (from the patcher):
+
+    *** Items ***
+
+        Lowered the prices of many older Guild Hall teleport stones.
+        The Doll of Character is no longer tradable.
+        Corrected the AC values on Abstruse Soulreaper Robe and Lucid Soulreaper Robe.
+        Ranger breastplates from House of Thule should now grant the correct amount of damage from their click effects.
+        Changed the focus names on several HoT raid rings to reflect the actual focus present on the items.
+        Coin weight reduction bags have had their capacity increased.
+        Corrected the descriptions on the Hedgerow Leaf items so they correctly describe the mount they summon.
+        Claiming the Slashing or Crushing Emerald Dragon Ornament should now grant the correct item.
+        Mixing Bowl, Ice Cream Churn, and Fly Making Bench are now purchasable from the furniture crafting supplies vendor in the neighborhoods.
+        Corrected several typographical errors in item names.
+        Corrected several typographical errors in the new housing items.
+        Changed the name of several stone housing items to reflect what they actually look like.
+        The Sword of Truth is now placeable in real estates.
+
+    *** Tradeskills ***
+
+        Tradeskill crafted furniture had incorrect sellback values. They have been corrected.
+
+    *** Quests & Events ***
+
+        The Research Assistant quest will now accept all custodians.
+        Blood Mad The task should now require two Fetid Blood to be turned in, instead of four. The listless madwoman should also no longer be referenced as a "he" in the quest text.
+        Corrected text errors in The Last One, It Only Gets Worse, and A Tearable Fear.
+        The Gardener Fixed an instance where Deceiver Aeriht could depop and not allow the mission to be completed.
+        By the Stones! Fixed several issues with the task.
+        Tick Tock Lowered the damage of the living armor adds.
+        Torches of Truth Corrected a bug with the Elimination of Nightmares spell.
+        Ritual of Terror Corrected bugs with Forced Displacement and Shin Kick.
+        The Force of Eternity Corrected the Synarcana's protection from physical damage.
+        Islands of Sand Corrected the 'time out' message.
+        Enemies in some of the hard missions have become more challenging.
+
+    *** Spells ***
+
+        Casters Increased the HP, AC, and magic resist granted by Shield of Dreams.
+        Beastlord Increased the damage modifier on the pet buff portion of Incomparable Velocity.
+        Beastlord Increased the attack and HP granted by Spiritual Valor.
+        Beastlord Corrected the duration of Callous Ferocity to 12 minutes.
+        Cleric Increased the damage and mana cost of Rebuke.
+        Cleric Removed the distance modifiers on Celestial Contravention. Increased the damage on Celestial Contravention Strike and increased mana cost slightly.
+        Cleric/Druid Increased the damage and mana cost of Tectonic Shock.
+        Druid Corrected the damage cap on Remote Sunflare.
+        Enchanter Spectral Unity can now be modified by Quick Buff.
+        Enchanter Added the triple attack chance from Speed of Novak to Hastening of Novak.
+        Enchanter Increased the radius of Bucolic Aura.
+        Enchanter Adjusted Curtailing Helix to be able to overwrite Splintered Consciousness.
+        Magician Increased the damage modifier on Burnout IX.
+        Magician Corrected the proc from the Jolting Mindblade to reduce hate as it was intended.
+        Magician Fire pets above level 50 will now properly restore their extra damage spell if they zone or are suspended with Frenzied Burnout on them.
+        Paladin Blessing of Light will now properly be triggered from Earnest Fury Strike. Gift of Mana will not.
+        Shadowknight Corrected the duration base of Banshee Skin so that it will last for a base of an hour as intended.
+        Shaman Reduced the healing on Ascendant's Intervention to match Survival of the Propitious.
+        Ranger Increased the AC and damage shield on Quillcoat.
+        Ranger Increased the HP regenerated by Stalker's Vigor.
+        Ranger Increased the damage shield on Protection of the Vale.
+
+    *** NPC ***
+
+        Corrected a typo in Rupkerr’s hail dialog.
+        Corrected typos in dialogue in The Grounds.
+        Corrected the appearance of leprechauns in Sanctum Somnium missions.
+        Corrected some graphical errors on the new Centaur models.
+        The Compendium of Nightmares' spell Time of Death will no longer reapply itself if it is cured.
+        Ardull the Watcher in the Library will no longer go no-combat when you are fighting him. He will also leave a corpse.
+        Arenrhaed in the Grounds will no longer try to infinitely cast his buff spell on himself.
+        Beget Cube in the Grounds will no longer reflect proc spells back at players.
+        Gilibus the Unseen will no longer reset himself when in combat.
+        The powers of rares in the Grounds and Library have been weakened.
+        Moved a terror guard away from the entrance to the Library in the House of Thule zone.
+        Removed some errant NPC spawns in the Feerrott that should only have been triggered via the Protecting the Weak (Minded) quest.
+
+    *** AA ***
+
+        The minimum level for all Dreamlike stat AAs has been increased to level 85. All levels of each stat are now purchasable at level 85 as well.
+        Bard Cacophony now has the correct number of ranks available.
+        Bard Extended Ingenuity will no longer extend songs.
+        Beastlord Rank 1 of Beastial Bloodrage should now work on your warder.
+        Cleric Bestow Divine Aura is castable again.
+        Druid Survival of the Felicitous AA has been refunded and removed. It was never intended to be live.
+        Magician Refunded all ranks of Elemental Spell Fury since they don’t do anything. Sorry.
+        Rogue Created 3 new ranks of Hasty Exit.
+
+    *** Achievements ***
+
+        Corrected the achievement "It's Dangerous to Go Alone (Group)" so No Freedom in Death updates it when completed.
+        Corrected a typo in the 'Savior of' achievement descriptions.
+        Some Ranger Specialized Proficiency achievements were removed as they were redundant. Sneak was the only skill in these achievements, and it was capped at a low level.
+
+    *** Miscellaneous ***
+
+        Rotharran Radhelm will now properly acknowledge No Freedom in Death as part of progression and offer his wares accordingly.
+        Some future use poison components were dropping from NPCs. The correct components should now be dropping.
+        Removed Distillate of Alacrity XV from Ralkor Stoneclaw because it doesn't work and wasn't intended to be live.
+        Tinkering Tables, Ice Cream Churns, Fly Making Benches, and Mixing Bowls are now available for use at the neighborhood community center building.
+        Fixed an issue causing items within houses to be lost when transferring characters between servers.
+        Changed a check that was causing items that were only tradable on Firiona Vie to not be movable by other players in housing plots.
+        Corrected some crashes and other issues when selling more than 80 items in the Bazaar.
+        Fixed a potential client crash with computers that can not use pixel shader 2.0.
+        Fixed an issue that required players to zone before they could place housing items purchased from the marketplace.
+        Placeable items that are also equippable (swords, shields, bows, etc) can now be dropped by clicking on the ground in a non-real estate zone.
+        Placeable items that are also equippable can now be dropped in real estate zones by holding ctrl when clicking on the ground.
+        Lowered the intensity of the bloom effect in Everfrost, Relic, Kernagir, and the Guild Lobby.
+        Fixed some issues with the /who command involving people in housing zones.
+        Fixed some issues with post processing effects and bloom lighting.
+
+    *** UI ***
+
+        Fixed some resizing and default window size issues for container windows.
+
+    Changed
+
+        EQUI_BazaarWnd.xml
+        EQUI_Container.xml
+
+    *** Previously Updated ***
+
+        Rend in the Grounds will no longer become permanently invulnerable.
+        Fallen Soul in the Well should no longer be attackable.
+        Corrected the appearance of the dead NPCs in the Pit of All Fears mission.
+        Ritual of Terror Fixed a bug that could cause the raid to stop working once Kerchak was killed.
+        Zeflmin will now tell you which zone the Guild Hall portal is aligned to when you enter your Guild Hall.
+        The Lost One Weaver's Bodyguards will now spawn correctly on live servers.
+
+    The EverQuest Team
+	
+.....................................................................
+
+------------------------------
+November 10, 2010
+------------------------------
+
+Here are the patch notes for Wednesday's game update (the sneak peek version from the patcher):
+
+    *** Highlights ***
+
+    - Fan Faire Request - Auras will no longer cancel each other out when multiple people in a group use the same aura.
+    - Fan Faire Request - Guild banners are now un-targetable.  The Legendary Norathian Standard no longer requires you to target the guild banner - it will work automatically if you are in the same zone as your guild's banner.
+    - A new tradeskill trophy carry-all is available for the highest tradeskill trophies. You can either trade in the temporary bag to Jolum as with the others, or simply use the temporary bag in place of the essence in an appropriate tradeskill container.
+
+    *** Items ***
+
+    - The outdoor items available from Lorekeeper Arbel Neklene can now be traded.
+    - The "Box of" place-able items that show a particle effect now have no collision on the box.
+    - The ice cream churn, mixing bowl, and fly making bench intended for housing placement are now able to be placed properly.
+    - Corrected the description of the Alleviating Burst item spells.
+    - In order to prevent looting problems, Tangible Dream Fragments (for rank III spells) will no longer stack.
+    - Added the Twist of Nightmares IV focus that is present on the Ritualistic Doll to Sharra's Ritualistic Doll as well.  Corrected the spelling of both item names.
+    - Corrected the appearance and name of "All Rare Ear."  It is now named Engraved Prayer Earring.
+
+
+    *** Tradeskills ***
+
+    - Tradeskill vendors Rathen, Graylenn, and Trepek have moved closer to the gates of the House of Thule.
+    - A new tradeskill trophy carry-all is available for the highest tradeskill trophies. You can either trade in the temporary bag to Jolum as with the others, or simply use the temporary bag in place of the essence in an appropriate tradeskill container.
+    - Fixed a crash that could occur when opening tradeskill containers if too many recipes were memorized.
+
+
+    *** Quests & Events ***
+
+    - Looting the Rod of the Sandmen and Buckets of Timekeeping sand should now properly update "A Few Buckets of Sand" when looted from any sandman in Morell’s Castle.
+    - The task steps to loot the tomes should now be active at the same time the task step to kill the heretic pillagers is active for the "Raiders of the Sacred Tomes" task in Erudin Burning.
+    - Corrected the description of the loot task step in "Raiders of the Sacred Tomes."
+    - The Tattered Expedition Journal from the task "Uncovering the Truth" will no longer disappear when used outside of the Feerrott.
+    - The zone-in location for the Redemption mission from the first floor of the House of Thule has been moved to a safer location.
+    - Corrected text errors in the mission An Offering to Thule.
+    - Corrected an error that could cause players to not get credit for defeating the final encounter in the mission An Offering to Thule.
+    - The new cowardly shade in the mission Miragul's Vendetta now provides a way to leave the mission.
+
+    - The Librarian's Nightmare - When the raid resets, all players will be returned to the starting area.
+    - Ritual of Terror - Added new reset mechanisms to the raid.  If the Tae Ew leaders are left alone for too long the event will reset.  If the major terrors from Plane of Fear (Grime, for example) look for someone to kill and can’t find anyone in the area, the event will reset.  Also, the mechanic that reset the event if it had gone on too long was tightened up and you have 25 minutes to finish the event once you get to the final stage.
+
+
+    *** Spells ***
+
+    - Increased blocked buff slots from 20 to 30.
+    - Fan Faire Request - Auras will no longer cancel each other out when multiple people in a group use the same aura.
+    - Bard - Added Wave of Dreams to the same option as Denon's Dirge of Disruption for Glowing Dream Fragments.  If you already turned in a fragment for Denon's Dirge of Disruption alone you will need to choose that option again to get Wave of Dreams.  You should have a new Glowing Dream Fragment in your possession if this happened to you.
+    - Bard - Added Sotor's Chant of Flame to the same quest option as Lyssa's Lively Crescendo for Glowing Dream Fragments.  If you already turned in a fragment for Lyssa's Lively Crescendo alone you will need to choose that option again to get Sotor's Chant of Flame.  You should have a new Glowing Dream Fragment in your possession if this happened to you.
+    - Beastlord - Changed the Growl of the Tiger pet buff from a reflected spell to a triggered spell.  This should allow it to affect your pet correctly.
+    - Beastlord - Increased the damage done by Spirit of Kron Strike.
+    - Beastlord - Increased the attack and AC portions of Incomparable Velocity.
+    - Berserker - For legal reasons, Slap in the Face can now only be used on NPCs.  It's a... well, you know.
+    - Cleric - Removed the mana cost from Fintar's Retort Effect.
+    - Cleric - Moved Healing Splash from the cure category to the normal healing category.
+    - Druid/Shaman - Increased the HP regenerated by Spirit and Talisman of the Relentless.
+    - Druid/Shaman - Increased the Corruption counters removed by Chant of the Tae Ew.
+    - Druid - Adjusted the stacking blockers for Timbercore Skin and Blessing of the Timbercore so that the group version can overwrite the single version (of the same rank).
+    - Druid - Corrected the illusion component of Arboreal Absolution.
+    - Druid - Increased the AC debuff on Argent Frost.
+    - Druid - Increased the AC and damage shield granted by Bonebriar Coat.
+    - Magician/Shaman - Increased the resistance debuffs of Malosene.  The spell damage modifiers were not changed.
+    - Magician - Increased the damage absorption cap of Tellurian Stance.
+    - Monk - Increased the damge done by ranks I and II of Dreamwalker's Synergy.
+    - Monk - Increased the endurance returned by ranks I and II of Five Breaths.
+    - Necromancer - Removed the lifeshard requirement from Dismay.
+    - Necromancer - Moved Burlabis' Swift Venom from the corruption memorization category to the poison category.
+    - Paladin - Corrected the description for one of the spell options for the Minor Dream Fragments.  This now correctly lists Earnest Purity and Propitiate rather than Earnest Fury and Respite.
+    - Ranger - Increased the AC on Protection of the Vale to match Cloak of Quills.
+    - Ranger - Called Shots is now located on the right click menu under Direct Damage-Physical.
+    - Ranger - Rotharran Radhelm has added Spell: Summer's Storm to his list of wares.
+    - Shadowknight - Increased the AC on Drape of Fear to match Cloak of Quills.  Increased the HP granted by the spell.
+    - Shadowknight - Reduced the cast time and increased the recast time of Touch of Dyalgem.
+    - Shadowknight - Gorgon Lifedraw and Gorgon Shattering will no longer be able to trigger Gift of Mana.
+    - Warrior - Resolved a conflict between Flash of Anger and Weapon Affiliation.  They should no longer interfere with each other.
+
+
+    *** NPC ***
+
+    - Fixed some flag issues with Buck Witherspoon and Salvonius in Sanctum Somnium.
+    - Professor Glumb in the Library will now call for help instead of running away from you. This change should prevent cases where he could fail to leave a corpse when killed.
+    - Wolves in Fear Itself now give the proper experience.
+    - The population of the new Feerrott should be more static now.
+    - Corrected several NPC text errors.
+
+
+    *** AA ***
+
+    - Enchant Feymetal and Mass Enchant Feymetal should now work at the correct level for each, and will appear in your AA window correctly.
+    - Wizard – Pyromancy Ranks 13 and 14 should now work correctly as described.
+
+
+    *** Player Housing ***
+
+    - Added code to allow placement of stationary pets on top of furniture without them falling through it.  Moving pets may still fall through.
+    - Added in 3 new mappable item placement hotkeys: Rotate Pitch 90 Degrees, Rotate Roll 90 Degrees, and Rotate Heading 90 Degrees. Rotate Pitch 90 Degrees has a default value of Shift-D. Rotate Roll 90 Degrees has a default value of Shift-F. Rotate Pitch 90 Degrees has a default value of Shift-G.
+
+
+    *** Miscellaneous ***
+
+    - Fan Faire Request - Guild banners are now un-targetable.  The Legendary Norathian Standard no longer requires you to target the guild banner - it will work automatically if you are in the same zone as your guild's banner.
+    - Evacuating in Miragul’s Nightmare should no longer place you next to an ooze.
+    - Moved the safe spot in Fear Itself to a safer location.
+    - Made several refinements to pathing in the upper floor of the House of Thule.
+
+
+    *** UI ***
+
+    - Added in the "Done" button ability to the container window.  It can be activated per type (standard, augment, combine) in the right click menu.  Note when it is set it will close all of the currently opened windows.
+    - Fixed an issue where augment and tradeskill containers were not properly storing their sizes in the UI ini file.
+
+    - Changed -
+    EQUI_BlockedBuffWnd.xml
+    EQUI_BlockedPetBuffWnd.xml
+    EQUI_Container.xml
+
+    *** Previously Updated ***
+
+    - Returned missing cultural items to vendors in the Plane of Knowledge.  Corrected problems with the Halloween quests involving the Plane of Knowledge.
+    - Removed see-invis flags from NPCs in the upper floor of House of Thule as it is primarily a travel zone.
+    - Tick Tock - Corrected an issue that was causing the raid to hang before getting to the clock phase.
+    - Tick Tock - Fixed an issue that was causing NPCs in the to reset and lose agro.
+    - Tick Tock - Added a reset mechanism to the raid.  Leave any of the NPCs alone too long after getting them angry and the event will reset.
+    - Tick Tock - Fixed an issue that could spawn multiple copies of Gananorn.
+    - A Cunning Plan - Reduced the damage done by the Architect, Monarch and Taskmaster slightly.  Also, the Taskmaster’s Bullwhip Grab will no longer hit his most hated.
+    - Trial of Creation - Reduced the hit points of the insubstantial force.
+    - Death Beetle - Hatchlings will no longer spawn as a big group and will spawn in slightly varied locations.
+    - An Audience with Brell - Lowered the damage done by Armored Visage of Brell and Brell himself.  Also set up a check to ensure that if somehow both the Arcane and Armored visages have the same person as their most hated target directly after they swap who they hate most, Arcane Brell will find a new person to hate most.
+    - Increased the number of Tangible Dream Fragments that will appear in House of Thule raid chests from 1 to 4.
+    - Increased the experience modifier in the following House of Thule instances that were set too low: Feerrott, House of Thule Second Floor, the Grounds, the Well, the Library, Erudin Burning, Al'Kabor's Nightmare, Miragul's Nightmare, Fear Itself, and Morell's Castle.
+    - NPC Trebor Ollijurt should now respawn in Field of Scale.
+    - All task NPCs for Halloween 2010 quest "Terror of Illis Taberish" should now repop after 7.5 minutes
+    - A few missions were displaying generic names upon zone in.  Each of the zones associated with these missions now have new long names.
+
+    - The EverQuest Team
+
+.....................................................................
+
+------------------------------
+Hotfix for November 16, 2010
+------------------------------
+
+A few bugs in the Feerrott's "Ritual of Terror" raid were corrected in a hotfix today (from the patcher):
+
+    *** Hotfix ***
+
+    - Ritual of Terror - Fixed an issue that could cause the raid to reset if players didn't engage the mini bosses fast enough.
+    - Ritual of Terror - The runes looted from the raid will no longer be deleted from players zoning in once they can be legitimately looted in the event.
+
+    - The EverQuest Team
+
+.....................................................................
+
+------------------------------
+Hotfix for November 20, 2010
+------------------------------
+
+Here are the update notes from a hotfix that was pushed live this morning (from the patcher):
+
+    *** Hotfix ***
+
+    - Kyluc in the Feerrott has added Spell: Protection of the Vale to her list of wares.
+    - Some of the inhabitants of Morell's Castle and Sanctum Somnium have become more resistant to slows.
+    - Zonoraz in The Grounds will no longer heal herself or wipe her hatelist if you damage her too quickly.
+    - Ambushers will now correctly spawn at certain points of the quest Dissolution of Reason.  These ambushers will now depop if left idle long enough.
+    - Alys, an unknown entity, and Piper Nasscul should no longer assist other NPC's in the Hippity Hoppity Kill mission.
+    - Creatures in the Hippity Hoppity Kill mission will no longer summon at 100% health.
+    - Creepy Alys should no longer despawn if she's left idle too long.
+    - Added key drops to the Fear Itself raid that will be needed for further raid access in the House of Thule expansion.
+
+.....................................................................
+
+------------------------------
+December 8, 2010
+------------------------------
+
+Here is a preview of the patch notes for Wednesday's game update (as posted by Aristo over on the EQ Forums):
+
+    *** Special Ruleset Server Changes ***
+
+    - The first round of changes for our special ruleset servers are complete - stay tuned for more to come:
+
+    Firiona Vie
+    - This server will have a permanent 50% experience bonus.
+    - We have removed the character slot limit - you are now allowed the same number of characters on this server as you are on standard servers.
+
+    Zek
+    - This server will have a permanent 50% experience bonus.
+       
+    *** Highlights ***
+
+    - A new set of Hot Zones have been created.  Visit the zones below for additional experience and items.  Franklin Teek and Skal Nethus in the Plane of Knowledge will have new tasks for you as well.
+
+    - - The City of Guk
+    - - Solusek's Eye
+    - - The Crystal Caverns
+    - - Kaesora
+    - - The Ruins of Old Guk
+    - - The Howling Stones
+    - - The Crypt of Nadox
+    - - Ssraeshza Temple
+    - - Bastion of Thunder
+    - - Drunder, the Fortress of Zek
+    - - Vergalid Mines
+    - - Zhisza, the Shissar Sanctuary
+    - - Toskirakk
+    - - Kaesora Library
+          
+
+    *** Items ***
+
+    - Fixed an issue where items added to the limbo buffer as a result of a canceled trade were having their contained items destroyed.
+    - Corrected errors in several item names.
+    - Quentin's Outfit has a more appropriate icon.
+    - Cosgrove Powder and Dream Dust are now flagged as all/all.
+    - Antheia Bloom Seed is now flagged as all/all.
+    - High Priest's Leggings, Soulmage's Leathers, Warden's Vest, Chestplate of the Manipulator, and Guardian's Greaves now have focus effects.
+    - Corrected the focus effect description on mage robes in House of Thule.
+    - Changed the name of Isabeaux' Ring of Dark Tidings to Isabeaux' Loop of Dark Tidings.
+    - Hardened Dragon's Tear, Chipped Shard of Appeasement, Shard of the Deep Blue Sea, and Venomous Shards of the Damned should now fit in bows as intended.
+    - Tier 1 caster armor for House of Thule had its AC lowered to bring it in line with the intended values.
+    - Cultural Charms in House of Thule should now have the appropriate sockets and grant stats for wearing cultural armor.
+    - House of Thule raid shields now have type 3 augmentation slots.
+    - The majority of mounts and familiars are now placeable as house pets.
+    - Most belts from House of Thule will now increase potion slots.
+    - Enigmatic Gloves of the Sorcerer now have the proper cold damage focus.
+    - Some House of Thule Soloist seals have had their focus effects properly updated to level 90.
+    - The Perfected Augmentation Distiller should now be available to all classes when using the "Show only items I can use" filter while browsing Alerynril the Loyal's wares.
+    - The Nighttime Nostrum drink now has an effect associated with consuming it.
+    - Corrected the damage bonuses on the Death and Decay Nimbus and the Path of Fire Nimbus.
+    - Abstruse Stealthinfused Leggings and Enigmatic Leggings of the Swift will now properly summon Consigned Bite of the Shissar XV.
+    - Removed the deprecated tradeskill flag from Desiccated Dust.
+    - Added the tradeskill flag to Goblin Parts.  Many parts are useful.  
+    - Ferocity VIII and IX have had an additional triple attack chance added to their normal effects.
+    - Items with limited charges that summon pets will no longer use a charge if you have a pet when you attempt to use the item.
+    - Added a cap of level 86 to some Underfoot mana proc augments that were missed earlier.
+          
+
+    *** Tradeskills ***
+
+    - The Unexpanded Tailored Legendary Backpack is now a large size item instead of giant.
+    - Spell Research: Added in the ability for players to craft Charta Arcanum Solutions.
+    - Tradeskill trophies can now be placed in real estates as tribute-trophies. They will grant you the option of activating a tribute effect equal to the power of the placed trophy.
+
+
+    *** Quests & Events ***
+
+    - Fixed a bug where players were only receiving experience and not the full task reward if they leveled up when they claimed their reward.
+    - Corrected text errors in several House of Thule quests.
+    - Noble Sivrn in Atiiki will be more honest in his approval of your ability to speak the names of the mighty Sphinxes.
+    - Corrected the entry requirements on the missions Catastrophic Power, Redemption, and Miragul's Vendetta to check for No Freedom in Death instead of What Lies Below.
+    - Skeletons will no longer ambush you on the quest The Fallen Citadel.   The update for finding Translocator Enila will trigger more easily.
+    - Khalis' guards are now normal spawns with a quick respawn time.  To speak to Khalis you must first dispose of his guards.
+    - The chest in The Gardener mission can now be looted immediately after opening.
+    - Garden bandits, outlaws, and hooligans will no longer stay around forever after spawning.  They will now ambush the players they were intended to ambush during the Dissolution of Reason quest.
+    - Playful Alyss should no longer despawn without updating the Hippity Hoppity Kill mission.
+    - Alyss, an unknown entity, and Piper Nasscul should no longer assist other NPCs in the Hippity Hoppity Kill mission.
+    - Players should now correctly receive a quest update even if they all die after Matilda dies in the Stuff of Dreams mission.
+
+    - Terror in the Dark - Raiders may find the denizens are a bit more aggressive than in the past.
+    - The Force of Eternity - Fixed an issue with the reset mechanism not triggering properly when fighting the split Miragul.
+    - The Force of Eternity - Corrected an issue causing one of the raid auras to fail to respawn when the raid reset.
+    - The Force of Eternity - It is no longer possible to transport into the heart of the Phylactery during an event reset.  You will have to defeat the events to move on.
+    - Guardian of the House - Fogweaver should no longer aggro through a door during the fight with Spineslicer.
+    - Implemented the correct progression requirements for the raids in Morell’s Castle and Sanctum Somnium.  Note that the Cloudgate Key is no longer needed and will no longer drop.
+    - Raid-specific auras in the Torches of Truth, Ritual of Terror, and Cazic's Final Stand events will now be visible to players who have auras turned off otherwise.
+
+
+    *** Spells ***
+
+    - Fixed an issue with DoT stacking that would cause the second DoT to have the incorrect duration.
+    - Cone spells with hit limits will no longer count invalid targets towards that limit.
+    - Corrected grammar errors in several House of Thule spells.
+    - Corrected a typo in the reward description for Shaman spells in the Median Nebulous Dream Fragments quest.
+    - The Sympathetic Alleviation spell line now has a maximum level of 86.
+    - By request, Respite will now tick down in zones with frozen spell timers.
+    - Bard - Moved Lyrin's Spiteful Lyric to the Short Duration Buff Box.
+    - Necromancer - Moved Cascading Deathshield to the Pet-Block memorization category.
+    - Necromancer - Moved Call Skeleton Swarm and Call Skeleton Crush to the Pet-Sum: Swarm memorization category.
+    - Necromancer - Corrected the recourse of Dunkelnacht Orb so that it will create the correct item.
+    - Paladin - Remorse for the Fallen will now focus two heals as described.
+    - Ranger - Added Spell: Summer's Storm to Gonop's list of wares.
+    - Shaman - Moved Undaleen's Venom to the Damage Over Time-Poison memorization category.
+    - Warrior - Flash of Anger's mechanics have been changed.  It now a 1-tick self buff rather than a 1-tick discipline.
+    - Fixed and issue with timers on stuns and PvP combat.
+
+
+    *** NPC ***
+
+    - Odium in Fear Itself should no longer drop players out of combat.
+    - Braelin Arden in Morell's Castle can no longer attack or be attacked.
+
+
+    *** AA ***
+
+    - Paladin/Shadowknight/Ranger - Mastery of the Past should now properly affect fizzles up to and including the level indicated in the AA.
+    - Warrior - Warlord's Tenacity Rk 15 should no longer overwrite Clerics' Reliance buff.
+
+
+    *** Achievements ***
+
+    - The Challenge of Toughness achievement in the Morell Ascendant mission can now be completed.
+    - The Challenge of Toughness achievement in The Gardener mission will correctly fail if players have died.
+    - The 1H Blunt skill should now be visible in the Weapon Proficiency Level 90 achievement for all classes who can use it.
+    - The Fast Talker achievement should update more reliably now.
+    - You can now get the Arachnophobia achievement when you kill more than 5 spiders.  Overachiever.
+    - For consistency, many of the Underfoot achievement names and icons were changed to match those in House of Thule.
+    - Corrected many minor spelling errors in Achievements.
+       
+             
+    *** Miscellaneous ***
+
+    - Fixed issue where too much text sent to a minimized chat window would cause a client crash.
+    - Fixed a problem where textures would become temporarily corrupted after logging out to server select, then logging back into the game.
+    - Fixed an issue where the targeting ring would occasionally turn into a gray disc.
+    - The /outputfile command will now properly list the information stored in the 9th and 10th inventory slots.
+    - The inspect window will now show the final stage of evolving items when clicking on an item link.
+    - Tribute effects are now factored in when determining the item skill mod for a player's skill.
+    - Fixed a couple of small memory leaks and one large memory leak that occurs while zoning.
+    - Fixed some issues regarding character transfers.
+    - Trees should now allow you to place them with their branches overhanging the edge of a plot as long as the trunk is within the plot boundary.  They should also default to placing with the roots below ground.  Note that the aged grand elm does not do this.  This is an art bug that should be addressed soon.
+    - Modified world containers so that only empty containers can be added to them (world containers now function like containers in the inventory in this regard).
+    - Fixed bug with placeable npc items that were equippable in the primary, secondary, or ranged slot having odd rotations while being placed.
+    - Fixed an issue causing some NPCs with many loot items to not have their full inventory available when killed.
+    - Legendary Illusionist Bindral Argaff in the library of New Tanaan is looking for enchanters who may have an excess of illusionary items to help him search for a cure to his curse (Enchanters can now obtain spell versions for many illusion item effects they possess).
+    - Restored several doors in Howling Stones that had been moved inadvertently.
+    - The moving crates should now be returned to the merchant house in the Neighborhood zone.
+    - Alerynril has stocked a few Frostfell items.
+    - Fixed several container bugs that resulted in items in containers disappearing.
+    - Implemented some server optimizations to help address lag issues (not a complete fix).
+    - Updated to the latest voice chat SDK which fixes some voice chat issues that were occurring.
+    - When /assist is on, it will auto attack the group's main assist when using /assist group.
+    - Improved the zoning code when you first log in.
+
+
+    *** UI ***
+
+    - Fixed a bug where only a max of 80 items were showing for buyers in the bazaar.
+    - Fixed a bug where if the Set Price was pressed for a bazaar item, but the item was not changed, previously the item would appear as not for sale anymore and the "Unable to add item to bazaar list" error would appear.
+    - Custom UIs will now be able to use Label EQTypes 570 through 579 to display the buff name for blocked buffs.
+    - The guild bank list will no longer spring to the top when other people add/remove items.
+    - The Extended Target Window will now stay off upon zoning or logging.
+    - Pressing "Escape" to clear the target window will no longer also close the Bandolier window.
+    - Corrected a bug that was showing the title screen in some cases when zoning when the loading screen option was turned off.  It should now only appear when logging in.
+
+
+    - Changed -
+    EQUI_Animations.xml
+
+
+    *** Previously Updated ***
+
+    - Fixed issue where housing item trees were appearing as black boxes.
+    - Ritual of Terror - Fixed an issue that could cause the raid to reset if players don't engage the mini bosses fast enough.
+    - Ritual of Terror - The runes looted from the raid will no longer be deleted from players zoning in once they can be legitimately looted in the event.
+    - The Librarian's Nightmare - Fixed an issue that was causing the Librarian's book adds to spawn repeatedly.
+    - Creatures in the Hippity Hoppity Kill mission will no longer summon at 100% health.
+    - Creepy Alyss should no longer despawn if she's left idle too long.
+    - Zonoraz in The Grounds will no longer heal herself or wipe her hatelist if you damage her too quickly.
+    - Kyluc in the Feerrott has added Spell: Protection of the Vale to her list of wares.
+    - Some of the inhabitants of Morell's Castle and Sanctum Somnium have become more resistant to slows.
+    - Added key drops to the Fear Itself raid that will be needed for further raid access in the House of Thule expansion.
+
+
+    - The EverQuest Team
+
+.....................................................................
