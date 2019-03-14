@@ -1,0 +1,661 @@
+Patch Messages from July 2011 to December 2011
+
+
+.....................................................................
+
+------------------------------
+July 1, 2011
+------------------------------
+
+Here are the patch notes from this morning's emergency game update (taken from the patcher):
+
+    *** Double XP Weekend ***
+    - Enjoy double XP through the 4th of July!
+
+    *** Experience Fixes ***
+    - Fixed an issue when you have members of two or more fellowships with experience sharing enable (sic) in a single group.  Members of fellowships after the first one would receive no experience (group experience or shared fellowship experience).
+    - Shared fellowship experience will now only be reported once per granting period.
+    - You will no longer receive incorrect messages about receiving experience for killing gray con NPCs.
+
+.....................................................................
+
+------------------------------
+July 6, 2011
+------------------------------
+
+Here are the patch notes from this morning's emergency game update (as posted by Aristo over on the EQ Forums):
+
+    *** Emergency Update ***
+
+    - Colonel Thalan should once again give updates when reaching the Army of Light camp in the Bloody Kithicor portion of Safe Passage.
+    - Ambushers will once again spawn in the Studying the Portal mission.
+    - Crushbone - Lord Darish should be more receptive of visitors. Even those he doesn't like very much.
+    - Emperor Crush should now drop raid loot in the Hardcore Heritage raid.
+    - Emperor Crush raid loot in the Hardcore Heritage raid will now have appropriate names and appearances.
+    - Anyone should be able to gain access to Vox's Lair if A Guardian of Vox has been defeated.
+    - Polymorph Wands Simple Gnomework and Flame Telmira now have the correct effects.
+    - Fixed the overly high experience gained from some NPCs in the Permafrost event zone.
+
+
+    - The EverQuest Team
+
+.....................................................................
+
+------------------------------
+July 20, 2011
+------------------------------
+
+Here are the patch notes from this morning's game update (taken from the patcher):
+
+    *** Highlights ***
+
+    - The Weapon Crate of the Mercenary, Traveler's Rucksack, Journeyman's Rucksack and Journeyman's Pocketed Rucksack now have a chance to drop from rare mobs in House of Thule zones.
+    - Items with appearances from the Hardcore Heritage events can now be placed in housing.
+
+    *** Items ***
+
+    - A heal focus has been added to the Neckguard of Earthen Geomancy.
+    - Mercenary crates purchased from the marketplace are now heirloom.
+    - The Weapon Crate of the Mercenary, Traveler's Rucksack, Journeyman's Rucksack and Journeyman's Pocketed Rucksack now have a small chance to drop from rare mobs in the House of Thule.
+    - Stats and focus effects on the Warhammer of Divine Grace and McVaxius` Horn of War from Hardcore Heritage zones have been switched so that the items work as intended.
+    - The Executioner's Crimson Trophy should now be somewhat more forgiving in the distance it allows from healers.
+    - Items with appearances from the Hardcore Heritage events can now be placed in housing.
+
+    *** Tradeskills ***
+
+    - A new recipe to create large blocks of magic clay has been discovered.
+
+    *** Quests & Events ***
+
+    - Crushbone's raid will no longer allow mercenaries.
+    - Wu the Enlightened will now ask for the correct items when giving the Test of Tranquility.
+
+    *** Spells ***
+
+    - Most raid boss NPCs have developed a stronger immunity against fast-acting DoT spells.  Other NPCs (including non-boss raid NPCs) are unaffected and will still take full damage.
+    - Necromancer - Lowered the mana cost for Burlabis' Swift Venom, Ninavero's Swift Deconstruction, Tenak's Flashblaze, Rilfed's Swift Sickness, and Ninavero's Swift Lifedraw.
+    - Shaman - Lowered the mana cost for all ranks of Nargul's Malady and Undaleen's Venom.
+    - Fixed an obscure issue relating to resurrection and spell recast timers.
+
+    *** NPC ***
+
+    - Maldeny Gredlong no longer wanders around Ak'Anon.
+
+    *** AA ***
+
+    - Fixed a bug that was allowing Powerful Elixirs to extend some abilities that it shouldn't have.
+    - Shadowknight - Reduced Harm Touch damage on Progression servers for ranks 3 through 15.  Regular servers are unaffected.
+
+
+    *** Progression Servers ***
+
+    - Spell research merchants in home cities have had their inventories unrestricted.
+    - A number of spell research recipes, including Oil of Vitriol and Celestial Cleanser, are now available.
+    - An Iksar Slave is now available in Frontier Mountains.
+    - Shadowknight - Reduced Harm Touch damage on Progression servers for ranks 3 through 15.  Regular servers are unaffected.
+
+    *** Misc ***
+
+    - Changed the display of the entitled time from just years to years and days.
+    - Optimized some server processing code that could cause lag in highly populated zones.
+
+    *** UI ***
+
+    - Made numerous preview window fixes relating to displaying models.
+    - The preview window will now allow you to shift the object in the display by holding down the right mouse button over the object.
+    - Added buttons to the preview window to shift, zoom in/out, rotate, and reset the image.
+    - Cleaned up some XML in the map window and commonized the arrow buttons.
+
+    - Changed -
+
+    - EQUI_Animations.xml
+    - EQUI_MapViewWnd.xml
+    - EQUI_MarketplaceWnd.xml
+    - EQUI_ObjectPreviewWnd.xml
+    - EQUI_Templates.xml
+
+
+    - The EverQuest Team
+
+.....................................................................
+
+------------------------------
+July 26, 2011
+------------------------------
+
+From the patcher, here are the patch notes from this morning's game update:
+
+    *** Emergency Patch ***
+
+    - Corrected a script that was sending incorrect messages to players looting items in the Western Wastes.
+    - Fixed an issue that unexpectedly shortened a number of beneficial melee abilities for several classes.
+    - Druid - Fixed an inadvertent change that caused Convergence of Spirits to stop functioning.
+    - Shadowknight - Corrected an issue with Harm Touch on Live servers.
+    - Shadowknight - Harm Touch damage has been readjusted to account for differences on Progression servers.
+
+    - The EverQuest Team
+
+.....................................................................
+
+------------------------------
+August 10, 2011
+------------------------------
+
+Here are the patch notes from this morning's game update (taken from the patcher):
+
+    *** Highlights ***
+
+    - Seek out Meeka Gharn in the Plane of Knowledge and learn of an ancient book thought to lead to many treasures.
+    - Rare NPCs in "House of Thule" now drop tradable large bags.
+    - The Dwarven Axe, Dwarven Two-Handed Axe, Bloodruned Mallet, and Fellwinter can now be placed in your house.
+    - The click effects on Shellscale Bone Fetish Necklace, Silbacle's Rosary of Conquest, and Carved Bone of the Nighthowler no longer share a timer with Geomantra click effects.
+
+    *** Items ***
+
+    - The Dwarven Axe, Dwarven Two-Handed Axe, Bloodruned Mallet, and Fellwinter can now be placed in your house.
+    - Rare NPCs in "House of Thule" now drop tradable large bags.
+    - The click effects on Shellscale Bone Fetish Necklace, Silbacle's Rosary of Conquest, and Carved Bone of the Nighthowler no longer share a timer with Geomantra click effects.
+    - All items with a Geomantra click effect now share a timer.
+    - The Bard Arpeggio breastplate spells now have a limited number of counters for the melee damage they provide.
+    - Hardcore Heritage chest armor no longer has type 15 augment slots. These were removed because the items do not support emblems.
+    - The Lump of Obsidian's unusable augment slot has been removed.
+    - Fixed a preview window bug that "locked" an item into place when the viewing angle was rotated all the way to the top or bottom of the item.
+
+    *** Tradeskills ***
+
+    - Many additional tradeskill components have been marked as ALL/ALL.
+
+    *** Quests & Events ***
+
+    - Seek out Meeka Gharn in the Plane of Knowledge and learn of an ancient book thought to lead to many treasures.
+    - "Librarian's Nightmare" - You will no longer have to restart the event if the person carrying the Words of Opening dies before turning it in.
+    - "At World's End" - Fixed an issue that would cause the event to to reset improperly if players failed at the ice giant fight.
+
+    *** Progression Servers ***
+
+    - Certain tradeskill research recipes are no longer available too early on Progression Servers.
+
+    *** Marketplace ***
+
+    - Fixed a bug that caused Potion of Companion Amnesia and Potion of Mercenary Amnesia to not function correctly.
+    - Items that are on the marketplace or on sale for a limited time now display a timer.
+
+    *** Miscellaneous ***
+
+    - Fixed a bug that caused large zone lag spikes when doing player trades with large stacks of items.
+    - Pets and mercenaries will no longer try (and fail) to follow you while you are on a boat.  They will wait at the dock until you disembark before teleporting to you.
+    - If you die while on a boat, your corpse will now be moved to the safe point in the zone.
+
+    *** Test Server ***
+
+    - Playing on the test server now grants loyalty crowns over time.  You need to be actively playing to receive loyalty crowns.
+    - The Test server is now set to begin and end events two weeks before they will happen on live servers.
+    - Alternate currency and some disallowed spell components can now be copied when a player uses the /testcopy command.
+
+    *** UI ***
+
+    - Changed -
+    - EQUI_BarterSearchWnd.xml
+    - EQUI_EQMainWnd.xml
+    - EQUI_MarketplaceWnd.xml
+
+    *** Previously Updated ***
+
+    - Fixed an issue with barter search window where it forgets the vertical size of one of the panes and doesn't display it at all.
+
+    - Changed -
+    - EQUI_BarterSearchWnd.xml
+
+
+    - The EverQuest Team
+	
+.....................................................................
+
+------------------------------
+August 17, 2011
+------------------------------
+
+It was just a small patch message for this morning's game update (taken from the patcher):
+
+    *** Emergency Patch ***
+
+    - Corrected issues encountered with mercenary contracts. Any existing contracts should now work correctly.
+    - Recruit-a-Friend: The recruiter and the recruit now receive the expected experience bonuses when both are logged in at the same time.
+
+
+    - The EverQuest Team
+
+
+.....................................................................
+
+------------------------------
+August 31, 2011
+------------------------------
+
+It's just a small patch message for today's game update (taken from the patcher):
+
+    *** Emergency Patch ***
+
+    - Corrected an error in the reward system that was granting lore items to players even if they already had one, which could cause item loss.
+    - Extended the Only the Blind will See event until September 6th.
+
+
+    - The EverQuest Team
+
+	
+.....................................................................
+
+------------------------------
+September 15, 2011
+------------------------------
+
+Here are the patch notes from this morning's game update (taken from the patcher):
+
+    *** Highlights ***
+
+    - Something is about to happen in Steamfont.  Gnomes are running all over the place, babbling about "the project".
+    - The current method of fellowship experience sharing has changed. See the "Fellowships" section below for more details.
+    - Larger bags can now be found in some House of Thule raid chests. The drop rates of other items in the chests were not reduced in order to add the bags.
+    - The Potion of Adventure will now persist through death.  It continues to be a 30 minute duration potion, so you do need to get back in the action quickly.
+
+
+    *** Fellowships ***
+
+    - The current method of experience sharing has been changed to a vitality system:
+       - Experience splitting for fellowship members that have sharing enabled remains the same. However, rather than going directly into the receiving player's experience, the shared experience goes into two vitality pools, one for regular experience and one for AA experience.
+       - When a player with vitality in their pools plays, they gain regular and AA experience at a significantly increased rate for kills.
+       - The bonus is up to 5x for regular experience and up to 3x for AA experience.  Normal per-kill caps on experience apply.
+       - The vitality pools have caps:  approximately enough for 10 levels of regular experience, and enough to reach your AA cap for AA experience.
+       - When a receiving player's vitality becomes capped, their experience sharing is automatically disabled (this is displayed in the fellowship window).  It automatically re-enables if some of that vitality is used.
+       - Messages about when you receive, use, and deplete your vitality pools are given in chat.  Eventually these will be augmented and/or replaced with visual vitality indicators on your experience bars.
+    - You may now join a fellowship only once every 20 hours.
+
+
+    *** Items ***
+
+    - Larger bags can now be found in some House of Thule raid chests.  With the inclusion of these new bags, the drop rates of other items in the chests have remained the same or increased slightly.
+    - The Potion of Adventure will now persist through death.  It continues to be a 30 minute duration potion, so you do need to get back in the action quickly.
+    - Inviting Ornate Marble Fireplace, Ornate Marble Fireplace, and Chimney Smoke can now be placed indoors as well as outdoors.
+    - The Verdant Selyrah Whistle is now heirloom.
+    - An Ancient Text now has a focus and click effect.
+    - The icons of several House of Thule items and the Polymorph Wand: Simple Gnoll have changed to match their appearances.
+    - All Polymorph Wands can now be equipped in the ranged slot.
+    - Terror Infused Linked Coif and Vambraces now have bard focus effects.
+    - Grak's Crude Stein and Clurg's Prized Stein now require a little more throwing skill to reach maximum stats.
+    - Personal trophies will not be placeable in guildhalls.  Item descriptions on the trophies have been changed to reflect this.
+    - The Ruler Ornamentation will now use the correct icon after transforming a weapon.
+
+
+    *** Tradeskills ***
+
+    - The difficulty of making Nighttime Nostrum has been increased.
+
+
+    *** Quests & Events ***
+
+    - Something is about to happen in Steamfont.  Gnomes are running all over the place, babbling about "the project".
+    - "The Arms of Brell" and "Brell's Will Be Done" - Corrected a problem with the rewards granted by these tasks.
+    - The rogue epic step in Hate Plane can now be started with only one person.
+    - "Murdunk's Last Stand" no longer requires three players to trigger the arrival of reinforcements.
+    - Fixed a bug in the "Terror in the Dark" raid that prevented adds from spawning.
+
+
+    *** Spells ***
+
+    - Cleric - Adjusted stacking blockers on Reliance and Hand of Reliance so that they will no longer be overwritten by Druid Skin buffs.
+    - Druid - Adjusted stacking blockers on Timbercore Skin and Blessing of the Timbercore so that they will no longer be overwritten by Cleric Aegolism buffs.
+
+
+    *** Progression Servers ***
+
+    - The Sealed Journal now spawns in Nurga on the Progression Servers.
+
+
+    *** Miscellaneous ***
+
+    - Added more precision when when calculating certain numbers.  This fixes a number of graphical issues including flickering in newer zones.
+    - Modified the /testcopy prompt to warn that items in real estates won't be copied.
+    - Fixed an error in the potion belt help window.  The command to remove a potion from the potion belt is not "/potionbelt remove". It is "/potionbelt delete".
+    - Fixed a server transfer bug with real estates.
+    - Made some NPC enhancements to in-game languages.
+    - Modified in-game notes, books, etc. to support languages.
+
+
+    *** Previously Updated ***
+
+    - Corrected issues encountered with mercenary contracts. Any existing contracts should now work correctly.
+    - Recruit-a-Friend: The recruiter and the recruit now receive the expected experience bonuses when both are logged in at the same time.
+    - Corrected an error in the reward system that was granting lore items to players even if they already had one, which could cause item loss.
+    - Extended the "Only the Blind Will See" event until September 6th.
+
+
+    - The EverQuest Team
+
+.....................................................................
+
+------------------------------
+September 21, 2011
+------------------------------
+
+Here are the patch notes from this morning's game update (taken from the patcher):
+
+    *** Emergency Patch ***
+
+    - Fixed several issues with the upcoming launch events that were reported by players on Test.  Thanks for the help!
+    - Fixed a crash bug related to languages.
+    - Fixed an AA experience text bug where it would give unnecessary warnings in certain instances.
+    - Fixed a bug that could display your other characters guild information when switching characters.
+    - Zlandicar will now appear in the correct time period on progression servers.
+
+
+    - The EverQuest Team
+
+	
+.....................................................................
+
+------------------------------
+October 12, 2011
+------------------------------
+
+Here are the patch notes from this morning's game update (taken from the patcher):
+
+    *** Highlights ***
+
+    - All currently active accounts and some recently lapsed subscriptions will be granted a one-time gift of 250 Station Cash the next time they log in!
+
+    *** Items ***
+
+    - Berserker leg armor from House of Thule now has the proper Frenzy mods.
+    - The Ancient Text from the Veil of Alaris launch event can now be read. Be sure to read it before the expansion launches!
+    - Fixed an error that was causing Ranger breastplates to no longer focus the effects of the Focused Tempest of Arrows spell line.
+    - The Polished Crystalline Jewel augmentation will now properly fit into armor.
+    - The minimum mana required for spells to trigger focus effects on the Underfoot shawls has been increased.
+    - Rocketeer Boots now share a common cooldown timer.
+
+    *** Tradeskills ***
+
+    - Bile Spines now stack.
+
+    *** Quests & Events ***
+
+    - House of Thule Raid Completion titles have been added, including the server first titles.  They will be available immediately to anyone who has earned them.
+    - Fixed a potential crash that could occur in the mission "Hippity Hoppity Kill."
+
+    *** Spells ***
+
+    - Bard - Added minimal mana costs to Dirge of Dreams and Noira's Song of Suffering to allow them to be used more easily in melodies.
+    - Corrected a data error that was causing fizzled spells to cost an indeterminate amount of mana (but usually 0).
+
+    *** Progression Servers ***
+
+    - The Veil of Alaris launch event NPCs should no longer be present on Progression servers.
+
+    *** Miscellaneous ***
+
+    - Resolved some remaining pathing issues in the upper floors of the House of Thule.
+    - Game cards can now be redeemed in game in the Marketplace for Station Cash.
+    - "Fellowship MOTD:" will no longer appear when there isn't a message but you are in a fellowship.
+    - Fixed a crash when leaving certain items in augmentation sealers.
+    - Added a new "move down" key with default keyboard binding of the "END" button.  Holding this key down while levitating will cause the player to move downward, even while in 3rd person camera modes.
+    - Changed jump button behavior for mounts.  Previously, jump was disabled for players on mounts.  Now if you are mounted the jump button will work.  Mounts, like players, can not jump when they are levitating.
+    - Mounts will no longer be dismissed in very shallow water.  They will still be dismissed if the water is deep enough to allow players to swim.
+    - Corrected the appearance of the Sirensbane in Qeynos.
+
+    *** UI ***
+
+    - Added vitality bars to the experience and alternate experience gauges in the inventory window.  They appear as a green bar at the bottom of the experience bars.  The bars represent the percentage of available vitality compared to the vitality cap.  When they are full of vitality, the bar will be full.  When they have no vitality (or when the max is 0) they will have an empty bar.
+    - Fixed an issue with the Extended Target Window where marking a target slot as My Mercenary's Target was not always displaying the mercenary's target.
+    - Items with a negative faction skill mod will now display as having a faction skill mod in the item display window.
+
+    - Changed -
+    EQUI_Animations.xml
+    EQUI_Inventory.xml
+    EQUI_MarketplaceWnd.xml
+    EQUI_RealEstateItemsWnd.xml
+
+    *** Previously Updated ***
+
+    - Fixed several issues with the upcoming launch events that were reported by players on Test.  Thanks for the help!
+    - Fixed a crash bug related to languages.
+    - Fixed an AA experience text bug where it would give unnecessary warnings in certain instances.
+    - Fixed a bug that could display your other characters' guild information when switching characters.
+    - Fixed a crash bug related to some trigger and chance spells.
+    - Emissary Grusal should no longer be on vacation within the Dragons Dragons Dragons zones.
+    - Lowered the purchase price on plots and all real estate upkeep costs by 90 percent.  Houses and other such items have the same purchase price.  The minimum cost of any non coin based currency is still 1.
+
+    - The EverQuest Team
+
+.....................................................................
+
+------------------------------
+November 18, 2011
+------------------------------
+
+Here are the patch notes from this morning's emergency game update (taken from the patcher):
+
+    *** Emergency Patch ***
+
+    - Corrected a problem that could cause NPCs to respawn more slowly than intended in zones with heavy server load.
+    - Corrected a problem causing the potion belt to be unusable by players who do not own Veil of Alaris.
+    - Corrected an issue that was causing increased zoning time for players in large guilds.
+    - Corrected an issue that was causing players to be unable to remove lore items from their shroud bank.
+    - Merchants in the neighborhood zones will no longer sell you guildhall items you can not use if you do not own Veil of Alaris.
+    - All VoA raids - Corrected a problem that was only giving raid progression rewards to 53 people rather than the full 54.
+    - Cleric - Fixed a problem that was causing most rank 1 spells to have the wrong requirements.  There should be many more spells available to purchase with lower requirements now.
+    - Newly-Researchable spells from Seeds of Destruction can now stack to 20.
+
+More after the jump.
+
+    *** Previously Updated ***
+
+    - Corrected a problem that prevented players from getting enough Alaran language skill to progress past Sarith, City of Tides.  New language requirements are as follows:
+    --- Argath and Valley of Lunanyn missions require 10 Alaran language skill.
+    --- All Sarith tasks and missions require 70 language skill (quests that take place in Rubak have Rubak requirements).
+    --- Beast Domain, Rubak Oseka, and Resplendent Temple tasks and missions require 73 language skill (instead of 75).
+    --- City of Bronze, Pillars of Alra, and Windsong Sanctuary tasks and missions require 81 language skill.
+    --- Sepulcher of Order tasks and missions (all 3 zones) require 88 language skill.
+
+    - The EverQuest Team
+
+
+.....................................................................
+
+------------------------------
+November 22, 2011
+------------------------------
+
+Here are the patch notes from this morning's emergency game update (taken from the patcher):
+
+    *** Highlights ***
+
+    - Corrected an issue that was causing mercenary writs to fail.
+    - Knowledge of Alaran Culture should now be available at level 90.
+    - Corrected a particle issue that could cause some clients to crash in the Valley of Lunanyn.
+    - Veil of Alaris Tier 1 group and raid armor now has level 95 focus effects.
+    - Valley of Lunanyn - All tasks in this zone have had their minimum level requirement reduced to 90.
+    - Valley of Lunanyn - Pest Control, Fertilizer for the Crops, and Reaping the Harvest were not correctly counting towards your total number of completed kill quests to gain language skill.  If you have already completed these tasks re-reading any language book should now set you to the correct skill amount.  If you completed five or more other kill quests you may already have learned as much as you can from this type of quest.
+
+    *** Items ***
+
+    - Veil of Alaris Tier 1 group and raid armor now has level 95 focus effects.
+    - Removed the Feign Death option from the Desert Kangon and Forest Kangon when placed in real estate.
+
+
+    *** Tradeskills ***
+
+    - The ability scrolls for enchanting the new Alaran metal will no longer be consumed when a character does not meet the ability requirements. Instead, they will now get an error message telling them what abilites they need.
+
+
+    *** Quests & Events ***
+
+    - Argath - Reclaiming Argath - Corrected issues that could result in duplicate airships and tower defenders in this mission.
+    - Valley of Lunanyn - The Herald of Oratory - Players in the mission and raid will now receive damage messages when enemies are attacking them.
+    - Valley of Lunanyn - Kill quests in this zone should now grant the book Eltarki's Diary - Life and Death to you if you do not already have it.
+    - Valley of Lunanyn - All tasks in this zone have had their minimum level requirement reduced to 90.
+    - Valley of Lunanyn - Pest Control, Fertilizer for the Crops, and Reaping the Harvest were not correctly counting towards your total number of completed kill quests to gain language skill.  If you have already completed these tasks re-reading any language book should now set you to the correct skill amount.  If you completed five or more other kill quests you may already have learned as much as you can from this type of quest.
+    - Beasts' Domain - Trial of the Beast - It should now be a bit easier to obtain the Dark Ape's Head for this task.
+    - Beasts' Domain - One to Lead them - Increased the drop rate for the raptor bones for this task.
+    - City of Bronze - Stop the Dreams - You should no longer see a red zone wide pop-up message when you hand in a Potion of Dreamless Sleep for this task.
+    - Windsong Sanctuary - Winds of Change - You should no longer see a red zone wide pop-up message when someone explores sections of the zone for this task.
+    - Rubak Oseka - Tides of Change - Corrected an issue causing cursed water elements to ignore players in this quest.
+    - Rubak Oseka - Soothing the Spirits - Corrected an issue where agitated water spirits could not be soothed.
+            
+
+    *** Spells ***
+
+    - Berserker - Updated the description for Early Retaliation so that it properly mentions its HP requirement.
+    - Enchanter - Corrected an error in the spell description for Sedative Stare.
+    - Magician - Corrected the resist types on ranks II and III of Strike of Sand and Burst of Sand.
+
+
+    *** NPC ***
+
+    - Aedros in the Valley of Lunanyn has learned the common tongue.
+    - Empowered beasts in the Beasts' Domain will give less experience because they can respawn so quickly.
+
+
+    *** AA ***
+
+    - Knowledge of Alaran Culture should now be available at level 90.
+    - Berserker - Juggernaut Surge now has the illusion separated into a separate buff called Juggernaut Form.
+    - Berserker - Frenzied Volley ranks 5, 6, and 7 are fixed and ready for purchase.
+
+
+    *** Achievements ***
+
+    - Achievements for gaining maximum skills at Level 95 are now available.
+
+
+    *** Miscellaneous ***
+
+    - Corrected a particle issue that could cause some clients to crash in the Valley of Lunanyn.
+
+
+    *** Previously Updated ***
+
+    - Miragestones and Alaris Gemstones now stack up to 100.
+
+
+    - The EverQuest Team
+
+
+.....................................................................
+
+------------------------------
+December 14, 2011
+------------------------------
+
+Here are the patch notes from this morning's game update:
+
+    *** Highlights ***
+
+    - You can now add more mercenaries to your roster!  Unlock slots in the Marketplace and keep the mercenaries with you for when you need them!
+    - All classes now have a new group of Alternate Advancement abilities available in Veil of Alaris.
+    - New Hot Zones have arrived! You can now augment your adventuring experience in Crescent Reach, Blightfire Moors, The Great Divide, Stone Hive, Dranik's Scar, Goru`kar Mesa, Plane of Disease, Blackfeather Roost, Sunderock Springs, The Steppes, Vergalid Mines, Direwind Cliffs, Ashengate, Korascian Warrens, and the dreamscape of The Feerrott. To find out more, speak to Franklin Teek and Skal Nethus in the Plane of Knowledge.
+    - Frostfell has arrived again in Norrath, and Santug's helper is looking for assistance in the Plane of Knowledge!
+    - Tanya Bekines in Sunrise Hills has a new Guild Hall for sale.
+
+    *** Items ***
+
+    - Corrected the focus effects on some Soloist Ascension cultural armors.
+    - The price of House of Thule armor templates has been reduced by half.
+    - Veil of Alaris armor combine items now have the proper icons.
+    - Heroic charisma has been removed from Veil of Alaris Enchanter visible armor. Other heroic stats have been increased.
+    - Guild trophies obtained from Veil of Alaris raids now have new appearances.
+    - Several house items which were only placeable outdoors can now be placed indoors.
+    - The charms An Ear for Languages and Forked Tongue of the Polyglot will now always have stats, regardless of how fluent your Alaran is.
+    - Corrected some discrepancies with resonance focus effects on bard armor.
+    - Veyer's Stud now has the Enhanced Minion XIV focus instead of Tenacity of Kolos.
+
+    *** Tradeskills ***
+
+    - Lowered the difficulty for creating a Mounting Board.
+    - New fletching and research tradeskilled items drop will drop on appropriate creatures in zones outside of Veil of Alaris.
+    - XVI Distillates are now priced higher than XV Distillates.
+    - Varlad Rahnta is again selling Metal Hinges in the neighborhoods.
+
+    *** Quests & Events ***
+
+    - New Hot Zones have arrived! You can now augment your adventuring experience in Crescent Reach, Blightfire Moors, The Great Divide, Stone Hive, Dranik's Scar, Goru`kar Mesa, Plane of Disease, Blackfeather Roost, Sunderock Springs, The Steppes, Vergalid Mines, Direwind Cliffs, Ashengate, Korascian Warrens, and the dreamscape of The Feerrott. To find out more, speak to Franklin Teek and Skal Nethus in the Plane of Knowledge.
+    - Frostfell has arrived again in Norrath, and Santug's helper is looking for assistance in the Plane of Knowledge!
+    - Resplendent Temple - Plannty of Tricks - Players will no longer be able to get the update for handing in a bone marrow to Plann if they are not on the correct step of the quest.
+    - Valley of Lunanyn - It's a Dog-Eat-Cat World Out There - Corrected the number of Wicked Grendlaens requested in the task description.
+    - Sepulcher - Breaching the Barrier - Revised the mission to ensure the correct makeup of characters is in play.
+    - Sepulcher - The Triune God mission will now allow 12 players to enter.
+    - West Sepulcher - Filthy Lure - The Decaying Pumpkins will now lure swinetor when used.
+    - Corrected an issue that could prevent Thurgadin and Icewell Keep from ever recovering from a failed ring war.
+
+    *** Spells ***
+
+    - Shadowknight - Added Tome of Gouging Blade to the correct vendors and quest rewards.
+    - Beastlord - Natural Collaboration will now place an effect called Forecasted Aid on your pet when it is triggered.  This is a small damage absorption spell that will trigger Companion's Aid when it is broken.
+    - The Interceptors in the Beasts' Domain have made a discovery and will now offer type 3 augmentations to those who are able to understand them.
+    - Virulent Pustules is now removed when zoning.
+
+    *** Skills ***
+
+    - Fixed an issue where dodge skill caps were set incorrectly for a few classes.
+
+    *** NPC ***
+
+    - Parcel Merchants now have the word "Parcel" at the beginning of their tag under their name. This makes it easier to navigate to the merchants using the "Find" window.
+
+    *** AA ***
+
+    - All classes now have a new group of Alternate Advancement abilities available in Veil of Alaris.
+    - Shadowknights have received a new mount AA: Battle Armored Onyx Skystrider.
+    - Paladins have received a new mount AA: Parade Armored Pegasus.
+    - Wizard - Prolonged Destruction and Sustained Destruction have had their mana penalty reduced to account for their conflict with the Gift of Mana line of abilities.
+    - The warning for having more AA points banked than allowed will now display properly when the limit is over 30.
+
+    *** Achievements ***
+
+    - The Shatter the Veil achievement now counts for all versions of the Engine Trouble mission.
+
+    *** Housing ***
+
+    - Tanya Bekines in Sunrise Hills has a new Guild Hall for sale.
+
+    *** Marketplace ***
+
+    - Watch the Marketplace for the return of Big Bags this month!
+    - The Celestial Skystrider mount will be descending upon the Marketplace later in December!
+
+    - Mercenary Roster -
+    - Players can now buy extra mercenary slots on the Marketplace and keep a roster of mercenaries that they can switch between.  Mercenaries operate the way they used to, except that if you purchase another mercenary, it will become active and replace the mercenary you had active before (if any).  Dismissing a mercenary will cause the first remaining mercenary in your roster to become the active mercenary (though suspended).  Transferring a mercenary will cause the target player's active mercenary to be suspended and the newly transferred one to become active.
+    - To switch mercenaries in your roster, open the Mercenary Management UI.
+    - Added the new command /mercswitch.  With no arguments, it lists the current roster of mercenaries and displays the one that is currently active.  Adding a parameter allows switching between mercenaries in the roster.
+
+    *** Miscellaneous ***
+
+    - Added the "View Only" guild bank item setting (that does not allow for withdrawal).  When you promote an item this is the default setting.  To withdraw the item, the permission must be changed to a different item setting.
+    - Manage access in guild plots is no longer tied to VoA ownership.
+
+    *** UI ***
+
+    - Made the map window resizable.
+    - Added the key map option in Options -> Keys for Potion Belt Slot 5.
+    - Fixed a minor issue with a stretched arrow in the guild management window.
+    - The Mend button will now properly depress and un-depress, and will no longer disappear when zoning.
+    - Fixed an issue where in full screen mode a 3x4 hot bar would resize to a 2x6, and then 1x12, every time the UI was reloaded.
+    - Changing the ranks of guild members in the access tab should no longer cause the alphabetical ordering to swap.  Additionally, issues with the access tab when members are removed should no longer occur.
+    - Fixed a bug that was causing the guild access list to not update when the hide alts or show offline buttons were enabled or disabled.
+    - The options window now displays its options as checkboxes instead of large buttons. Clicking on the boxes or label text will enable or disable the options. When an option is enabled, its text is highlighted.
+
+    - Changed -
+    EQUI_CharacterCreate.xml
+    EQUI_GuildManagementWnd.xml
+    EQUI_MapViewWnd.xml
+    EQUI_MercenaryManageWnd.xml
+    EQUI_NameChangeMercWnd.xml
+    EQUI_OptionsWindow.xml
+    EQUI_Templates.xml
+
+    *** Previously Updated ***
+
+    - Corrected a problem that could cause pets and mercenaries to depop unexpectedly in Sarith, City of Tides.
+
+
+    - The EverQuest Team
+
+.....................................................................
