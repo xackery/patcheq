@@ -1,0 +1,987 @@
+Patch Messages from January 2012 to June 2012
+
+
+.....................................................................
+
+------------------------------
+January 11, 2012
+------------------------------
+
+Here are the patch notes for this morning's game update (from the patcher):
+
+    *** Highlights ***
+
+    - Mercenary Roster Quest - A new tradeskill quest is available to obtain a mercenary slot for your roster by adding Hero's Barracks as a reward, if it has not been maxed at 4. See Mercenary Captain Cecille in the Plane of Knowledge. You must have mastered all basic tradeskills to take this quest.
+    - The achievement "Master of Alaris" now grants Hero's Barracks as a reward, which grants an additional mercenary slot, up to the maximum of 4.
+    - Players who participated in Beta can now Claim their reward!
+
+    *** Items ***
+
+    - Vyer's Stud is now usable by beastlords.
+    - Prescient Fleeting Quiver now has 39% haste.
+    - Rustic Coat of Carnage and Modest Warmonger Coat now have Sundering Discipline Quickening.
+    - Rustic Coat of the Assassin and Modest Carnifex Coat now have Eradicator Discipline Quickening.
+    - Empowered Trophies now have their intended graphics.
+    - The Token of Fanfare should now be far less intrusive.
+
+    *** Tradeskills ***
+
+    - Some tradeskilled ornamentations were showing the incorrect icons. These have been fixed.
+    - Soloist Ascension Sleeve Seal of the Warchief now correctly has String Resonance.
+
+    *** Quests & Events ***
+
+    - Mercenary Roster Quest - A new tradeskill quest is available to obtain a mercenary slot for your roster by adding Hero's Barracks as a reward if it has not been maxed. See Mercenary Captain Cecille in the Plane of Knowledge. You must have mastered all basic tradeskills to take this quest.
+
+    *** Spells ***
+
+    - Scent of Terris should now correctly modify corruption resists instead of counters.
+
+    *** NPC ***
+
+    - Krongar the Enrager may now appear after killing Rallosian defectors in the Valley of Lunanyn.
+    - Prowlers in Beasts' Domain will no longer remain in the same spot where they lose agro.
+
+    *** AA ***
+
+    - Origin is now auto-granted at level 5 to all players. The reuse time has been lowered to 18 minutes.
+    - Hastened Origin has been refunded, as it is no longer relevant.
+
+    *** Achievements ***
+
+    - The achievement "Master of Alaris" now grants Hero's Barracks as a reward, which grants an additional mercenary slot, up to the maximum of 4.
+    - The achievement "Make Haste" for the mission "Secrets of the Stones" now requires the fragment delivery within 15 minutes, as intended, rather than 8 minutes.
+    - Fixed a bug that would prevent the completion of the "Pillars of Success" achievement during the mission "The Growing Threat."
+
+    *** Progression Servers ***
+
+    - Sooty Fine Runic Papyrus is now dropping on progression servers.
+    - Unfired Shade Summoning Figurine and Shade Summoning Figurine, for the quest "Vampyre Troubles," can now be combined on progression servers.
+
+    *** Miscellaneous ***
+
+    - Changed the default window size for EQ on a fresh install to default to the current desktop resolution.
+    - Made a change to prevent out-of-memory crashes on 64-bit systems.  On 64-bit operating systems, EverQuest will now use 4GB of address space instead of only 2GB.
+    - Changed the default display for chat filters to automatically hide SPAM marked messages.
+
+    *** UI ***
+
+    - Added the ability to tint any control a certain color from the UI XML.  The new property is called BackgroundTextureTint.
+    - Converted the button tinting from the "Buy Slot" button in the Mercenary window to use the new tinting option.
+
+    - Changed -
+    EQUI_MercenaryManageWnd.xml
+    SIDL.xml
+
+    *** Previously Updated ***
+
+    - Corrected a flag that was hiding Veil of Alaris type 3 augment spells on live servers.
+    - Corrected a bug that was causing players to fall through the world in the air maze portion of the East Sepulcher of Order.
+    - Sarith City - Rebel Assault - Experience for most opponents in the mission has been reduced.
+    - Sarith City - Rebel Assault - Riago Barthes no longer summons extra sets of NPCs when spam-hailed.
+    - Resplendent Temple - Two Sides of the Stone - The raid should now reset properly during the second phase.
+    - Resplendent Temple - Two Sides of the Stone - Vision of Splendor should no longer heal itself during the second phase if all players manage to remove the spell “Filth” within the time limit.
+    - Resplendent Temple - Two Sides of the Stone - The split portions of the event (Shadow/Vision) should now reset the raid if they are idle for more than 5 seconds after being aggroed.
+    - Quests - Frostfell - The "a hungry predator" mobs will now return to their spawn points when idle.
+	
+.....................................................................
+
+------------------------------
+February 8, 2012
+------------------------------
+
+Here are the patch notes from this morning's game update (taken from the patcher):
+
+    *** Highlights ***
+
+    - Healer Mercenaries now have improved behavior and performance in their Reactive stance.
+    - Many NPCs in House of Thule and Veil of Alaris zones no longer see through Shroud of Stealth.
+    - In the Rubak Oseka raid "Time and Tides," High Priests and Templars will now wait a brief period before beginning to cast their snare spells.
+    - Kal'ture Ashan has arrived in Sunrise Hills to sell Alaran furniture.
+
+    *** Items ***
+
+    - Elegant, Stately, and Ostentatious Warmonger Leggings now modify the Frenzy skill.
+    - Some Veil of Alaris warrior and knight weapons had their AC increased.
+    - Kal'ture Ashan has arrived in Sunrise Hills to sell Alaran furniture.
+    - The Secondary Anchor can now be placed on guild plots.
+    - An Ancient Artifact now fits in type 20 slots in addition to 4,7,and 8.
+    - Bags of currency sold on the loyalty merchant are now lore.
+
+    *** Quests & Events ***
+
+    - Quest - Tides of Change - When accepting the quest, players will be given the necessary items if they do not have them.
+    - Quest - The Key to Freedom - You should now have more time to hail Silbek after you free him from his bonds in Rubak Oseka.
+    - Raid - Time and Tides - High Priests and Templars will now wait a brief period before beginning to cast their snare spells.
+    - Raid - The Triune God - Most of the Triunity’s messages can now be seen throughout the entire zone.
+
+    *** Spells ***
+
+    - Shadowknight - Reduced the mana cost of Sholothian Skin significantly.
+
+    *** NPC ***
+
+    - Many NPCs in House of Thule and Veil of Alaris zones no longer see through Shroud of Stealth.
+    - Deathleaper's ability Earsplitting Howl now uses the magic resist type, and the damage has been lowered slightly.
+
+    *** AA ***
+
+    - Monk - Suppressive Strike has been changed to Distant Strike. The silence has been removed, but the rest of the ability is unchanged.
+    - Enchanter - Fixed a timer conflict issue with Glyph Spray and Divine Companion Aura.
+    - Druid/Shaman - Fixed a timer conflict issue with Silent Casting and Paralytic Spores.
+
+    *** Mercenaries ***
+
+    - Several changes have been made to Healer Mercenaries:
+    - After level 85, healer mercenaries no longer cast the Promised or Elixir lines of spells. These spells may return in the future when mercenaries learn to cast them more effectively.
+    - After level 75, healer mercenaries no longer cast Complete Heal.
+    - When at full health and mana, healer mercenaries will no longer sit.
+    - Healer mercenaries now respond more quickly when the main tank in their group enters combat.
+    - The power of the healer mercenaries' spells have been slightly increased.
+    - The Reactive stance has been modified to favor constantly casting direct heals without regard for mana cost.
+    - Note: At the moment, mercenaries have trouble healing players that have high-HP regen buffs on them. Until this changes, avoid using spells such as Splendrous Guardian, Spiritual Enrichment, or Promised Renewal if you want your mercenary to heal you.
+
+    *** Previously Updated ***
+
+    - Corrected a pathing problem in Veeshan's Peak that caused a number of its denizens to wander the lava pool near the entrance.
+
+
+    - The EverQuest Team
+
+.....................................................................
+
+------------------------------
+March 16, 2012
+------------------------------
+
+Here are the patch notes (taken from the patcher) for today's ("tomorrow's") game update as EverQuest launches its Free-to-Play program, celebrates its 13th anniversary, and embarks on a Hero's Journey:
+
+Note: As of this news posting, servers are still locked. They are not expected to open up until midnight Pacific Time tonight.
+
+    *** Highlights ***
+
+    - Begin the Hero's Journey!
+    --- All players are now given a Tome of the Hero's Journey which will guide them with suggested tasks to complete along their journey from 1 to 85.  Many of these tasks have been revamped and rebalanced.
+    --- A set of achievements have been added for the Hero's Journey which will grant rewards along the way.
+
+    - Added and improved a number of features regarding navigation.
+    --- Added a zone guide.  This window is a quick way look up zones in the game by level, zone connections, and other data about the zone.  This is also the starting point for the zone path finder.  The zone path finder generates a path between any chosen zone and any other zone in the world.
+    --- Find tracking is now visible in the map window.  You'll be able to see your find wisp in the map window and it will auto center around the path and zoom in and out so you can see the whole path.
+    --- Maps now support custom map directories.  Previously if a map was one of the patched maps it would get overwritten when patching.  Now we support sub directories in the maps directory for custom maps.  The game will now look for a map in the chosen custom map directory (at the top of the map window) and if it can't find one it will look in the default directory.
+    --- Added label searching.  Now you'll be able to search through all of the labels on the map and select one to mark on the map.
+    --- Added the ability to right click on any point on the map to attempt to bring up a Find Path wisp to it.
+    --- Added zone connections to the Find window.
+
+    - Revamped the tutorial zone and quests within it.  To enter the tutorial, select the "Tutorial" button from the character select screen.  Your character must be level ten or below to enter the tutorial.
+    --- New quests have been created to explain important new features such as Mercenaries and Augmentations.
+    --- All existing quests have been updated with new information.
+    --- New rewards have been added to the tutorial quests, which should provide new characters with a much better set of starting armor.
+
+    - Created a new set of tutorials for advanced game concepts such as Alternate Achievements and Guildhalls.  These tutorials are available at level 50 in the Plane of Knowledge.  Seek out Secalna Galnor to begin them.
+
+    - It's EverQuest's 13th Anniversary! Seek out Sam Napth in the Plane of Knowledge for more information.
+
+    - Most Veil of Alaris rares have had their HP reduced by 10% or more. Many overly-difficult rares have had their damage outputs or mechanics altered.
+
+    - There were many changes made to the User Interface.  If you are unable to log in to a character using a custom UI, contact your UI maker for an update or rename your custom UI's folder (in \EverQuest\uifiles\) to force the character to load the default UI again.
+
+
+    *** Items ***
+
+    - Changed the name of Valthon's Shard to Valthun's Shard. Valthun Woodswatcher was upset that people kept getting his name wrong.
+    - Housing anchors are no longer restricted to one per plot.
+
+
+    *** Quests & Events ***
+
+    - It's EverQuest's 13th Anniversary! Seek out Sam Napth in the Plane of Knowledge for more information.
+    - The Mechanical Fortune Teller in the Plane of Knowledge can give you directions on where to find previous anniversary quest givers for your level.
+    - All quest givers for anniversary tasks can now be found via the Find window.
+    - The elusive Iksar Lieutenants in the Field of Scale now have heralds which can be killed in their place in order to satisfy the requirements of Gorenaire's task "Cutting Off The Arms".
+    - Corrected a mix-up between the names Tynn and Marthor in Phara Dar's "Evil Afoot" task.
+    - Corrected a problem that could cause melee characters to be unable to exit certain Lost Dungeons of Norrath adventures.
+    - Erillion, City of Bronze - The first step of the mission "The Traitor Revealed" should now update properly when entering the prison.
+    - Venorin in Skylance may now use his intended knockback effect.
+
+      
+    *** Spells ***
+
+    - Bard - Reduced the focus cap, Triple Attack Chance, and Flurry Chance added by the Arias, Auras, and Echoes of the Composer and the Orator.
+    - Melee classes - Increased the range of Throw Stone to 70 feet.
+    - Melee classes - Added an additional ability at level 5 named Elbow Strike.  This ability is available in the Plane of Knowledge and anywhere else low-level melee tomes are sold.
+    - Player pets will no longer ignore their target's immunities when casting or proccing spells.
+    - The scholars of the Library of Myrist in the Plane of Knowledge have expanded their inventories.  They now carry most spells, tomes, or songs that an adventurer will need.  They do not carry ancient spells or advanced spell ranks.
+
+
+    *** NPC ***
+
+    - Most Veil of Alaris rares have had their HP reduced by 10% or more. Many overly-difficult rares have had their damage outputs or mechanics altered.
+    - Killing the helpless citizens in Argath will be less rewarding than it was before.
+    - The scholars of the Library of Myrist in the Plane of Knowledge have expanded their inventories.  They now carry most spells, tomes, or songs that an adventurer will need.  They do not carry ancient spells or advanced spell ranks.
+    - Merchants will now "Show Only Items That I Can Use" by default.  Also spells that the character already has scribed and lower rank spells of the same spell group are now filtered out with the "Show Only Items That I Can Use" option.
+
+
+    *** AA ***
+      
+    - Cleric - Corrected an issue with Battle Frenzy that was causing some damage spells to fail to crit.
+    - Enchanter - Unlinked the timers for Glyph Spray and Divine Companion Aura.
+    - Necromancer - Perfected Dead Man Floating will no longer conflict with the Mass Group Buff timer.
+    - Ranger - Corrected a problem that linked the Spirit of Eagle and Volatile Arrow abilities.
+    - Shaman - Restored the DoT proc on Languid Bite ranks 7-9.
+    - Shadowknight - Thought Leech has been changed to share a timer with Leech Touch instead of Harm Touch.
+    - Shadowknight - Explosion of Hatred should no longer affect the caster.
+    - Warrior - Warlord's Tenacity should no longer conflict with Druid HP buffs such as Stonebark Skin.
+    - Cleric, Druid, and Shaman - Corrected the Copious Healing effect of Abundant Healing ranks 21-25.
+    - Druid and Shaman - Silent Casting should no longer interfere with Paralytic Spores.
+    - Fixed many AA descriptions that were out of date.
+    - The next Veteran's Reward has been created.  Blessing of the Devoted, which reduces the reuse time of all other Veteran's Rewards by 25 percent, will be available to players as it is earned.
+    - A new AA ability in the special tab called "Summon Tome of the Hero's Journey" has been created. This ability will allow you to summon a book that offers information on what quests you might want to work on.
+         
+
+    *** Achievements ***
+
+    - A new category of Achievements has been created called the Hero's Journey.  Many existing quests have had achievements added to them in this category.
+    - Created a set of Achievements to help you track your progress through the new advanced tutorials given in and around the Plane of Knowledge.
+    - Added a set of Achievements to track progress through our Anniversary quests and events.
+      
+         
+    *** Mercenaries ***
+
+    - The initial price to hire a mercenary has been significantly reduced.
+    - Improved the AI for healer mercenaries.  In certain cases, they will now heal you even if you have heal over time spells or deferred heals on you.
+
+
+    *** Progression Servers ***
+
+    - Speaking to a Priest of Discord should now correctly allow you to change your vote when there is an active poll for expansion unlocks.
+    - Due to the recent unlock of Lost Dungeons of Norrath on Fippy Darkpaw, we have increased the experience modifier on both servers so that it will match standard servers.
+
+
+    *** Miscellaneous ***
+
+    - Right-clicking on an item that you cannot use now gives the specific reason why you cannot use the item (whether it be level, race, class, deity, or membership level).
+    - Changed the default memory management mode to Balanced and removed original memory mode.  This should prevent many of the crashes that were occurring in large zones.
+    - Increased the targeting range on PCs through /target from 70 to 200.
+    - Many in-game help files have been updated with new information.  Even veteran players will probably find something new in the command lists.
+    - Weapons will no longer go through the head of female Vah Shir and Barbarians when previewing them in the preview window.
+    - Players that are zoning when their raid expedition is acquired will now receive credit for completing the raid where appropriate.
+
+
+    *** UI ***
+
+    - There were many changes made to the User Interface.  If you are unable to log in to a character using a custom UI, contact your UI maker for an update or rename your custom UI's folder (in \EverQuest\uifiles\) to force the character to load the default UI again.
+    - Fixed a bug where all two-handed weapons, shields, and augments would have a green name when the equipping player was below the required level, while one-handers and armor had red names. They now all have red names when they are not usable.
+    - Added the ability to buy additional character slots and other account-based features from character select.
+    - Merchants will now "Show Only Items That I Can Use" by default.  Also spells that the character already has scribed and lower rank spells of the same spell group are now filtered out with "Show Only Items...".
+    - The alarm window is no longer a pop-up.  It is now accessible from the EQ menu button (EQ -> Actions -> Alarm) or the /alarm command.
+    - Added a new set of loading screens which feature helpful tips and concept art.
+    - Added an option to map the "Toggle Bank Bags" feature to a key on your keyboard.
+    - Added a new window for Alerts and an Alert History window to show any that you have viewed previously.  The history window is accessible from the EQ button.
+    - Altered the EQ main window (the cascading popup window that opens when you click the EQ button) so that shortcut key combinations appear next to the item commands in the window.
+    - Updated the "Create Character" button on the Character Creation screen to read "Enter World" instead. The functionality of this button remains the same.
+    - Converted all of the buttons that were individually declaring the exact "A_BtnNormal" style to use the common "BDT_Normal" template.
+    - Converted all of the buttons that were individually declaring the exact "A_SmallBtnNormal" style to use the common "BDT_SmallNormal" template.
+    - Converted all of the buttons that were individually declaring the exact "A_SquareBtnNormal" style to use the common "BDT_Square" template.
+    - Converted all of the buttons that were individually declaring the exact "A_BigBtnNormal" style to use the common "BDT_BigNormal" template.
+    - Converted all of the arrow buttons to use the common template.
+    - Converted all checkboxes where appropriate.
+    - Added a new template type for buttons that display a color in them such as the tint window, and converted all references to use this style.
+    - Added new template types for buttons that display coin with a recessed button around them such as the inventory display of money, and converted all references to use this style.
+    - Added a new template type for buttons that display items in them such as the container window, and converted all references to use this style.
+    - Removed the Voice Chat Notification window.
+    - The Welcome Screen will no longer open automatically when zoning into the first tutorial instance.
+    - Made it so that the newbie character no longer shows when the player is at the character select screen and has no characters.
+    - Changed the Journal button in the Window Selector window to open the Quest Journal window when clicked.
+    - Greatly increased the 'highlight' area around label points on the map and changed the highlight code so that only the nearest label point will highlight rather than all that fall within the range.
+    - Added the ability to change the color of the player on the map window from black.  The ini for it (MyColor) is found in the [MapViewWnd] section of your character's ini file and defaults to blue.  Additionally, the ability to change the group color, the local player color, and the find path color is now available through the Map Toolbar window.  Added new buttons in this window to allow easy modification of each of the color options.
+    - Modified the map window highlight functionality while the toolbar is active so that either a line or a label will be highlighted but not both.  This should make modifying the map easier since it'll be easier to highlight the one thing that is intended to be modified. 
+    - Marked labels no longer show in the map window when the toolbar is not active (this mimics the functionality of marked lines).  Fixed a bug where marked labels were not highlighted while the toolbar was active.
+    - Increased the number of buy lines in the Barter Buyer Window from 50 to 200.
+
+
+
+    - Added -
+    EQUI_AlertStackWnd.xml
+    EQUI_AlertWnd.xml
+    EQUI_AlertHistoryWnd.xml
+    EQUI_HelpWnd.xml
+    EQUI_ZoneGuideWnd.xml
+    EQUI_ZonePathWnd.xml
+
+    - Changed -
+    EQUI.xml
+    EQUI_AAWindow.xml
+    EQUI_ActionsWindow.xml
+    EQUI_AdvancedDisplayOptionsWnd.xml
+    EQUI_AdventureLeaderboardWnd.xml
+    EQUI_AdventureRequestWnd.xml
+    EQUI_AdventureStatsWnd.xml
+    EQUI_AlarmWnd.xml
+    EQUI_AlertWnd.xml
+    EQUI_AltStorageWnd.xml
+    EQUI_Animations.xml
+    EQUI_AudioTriggersWindow.xml
+    EQUI_BandolierWnd.xml
+    EQUI_BankWnd.xml
+    EQUI_BarterMerchantWnd.xml
+    EQUI_BarterSearchWnd.xml
+    EQUI_BarterWnd.xml
+    EQUI_BazaarSearchWnd.xml
+    EQUI_BazaarWnd.xml
+    EQUI_BigBankWnd.xml
+    EQUI_BlockedBuffWnd.xml
+    EQUI_BlockedPetBuffWnd.xml
+    EQUI_BodyTintWnd.xml
+    EQUI_BookWindow.xml
+    EQUI_BuffWindow.xml
+    EQUI_BugReportWnd.xml
+    EQUI_CharacterCreate.xml
+    EQUI_CharacterListWnd.xml
+    EQUI_CharacterSelect.xml
+    EQUI_ChooseZoneWnd.xml
+    EQUI_ClaimWnd.xml
+    EQUI_ColorPickerWnd.xml
+    EQUI_CombatAbilityWnd.xml
+    EQUI_CombatSkillsSelectWindow.xml
+    EQUI_ConfirmationDialog.xml
+    EQUI_Container.xml
+    EQUI_DynamicZoneWnd.xml
+    EQUI_EditLabelWnd.xml
+    EQUI_EQMainWnd.xml
+    EQUI_FeedbackWnd.xml
+    EQUI_FellowshipWnd.xml
+    EQUI_FileSelectionWnd.xml
+    EQUI_FindLocationWnd.xml
+    EQUI_FriendsWnd.xml
+    EQUI_GemsGameWnd.xml
+    EQUI_GiveWnd.xml
+    EQUI_GroupMentorWnd.xml
+    EQUI_GroupSearchWnd.xml
+    EQUI_GroupWindow.xml
+    EQUI_GuildBankWnd.xml
+    EQUI_GuildCreationWnd.xml
+    EQUI_HelpWnd.xml
+    EQUI_HeritageSelectionWnd.xml
+    EQUI_HtmlWnd.xml
+    EQUI_IconSelectionWnd.xml
+    EQUI_InspectWnd.xml
+    EQUI_Inventory.xml
+    EQUI_ItemDisplay.xml
+    EQUI_ItemExpTransferWnd.xml
+    EQUI_JournalCatWnd.xml
+    EQUI_JournalNPCWnd.xml
+    EQUI_LargeDialogWnd.xml
+    EQUI_LeadershipWnd.xml
+    EQUI_LFGuildWnd.xml
+    EQUI_LoadskinWnd.xml
+    EQUI_LootWnd.xml
+    EQUI_MailAddressBookWindow.xml
+    EQUI_MailCompositionWindow.xml
+    EQUI_MailIgnoreListWindow.xml
+    EQUI_MailWindow.xml
+    EQUI_MapToolbarWnd.xml
+    EQUI_MapViewWnd.xml
+    EQUI_MarketplaceWnd.xml
+    EQUI_MeleeBuffWindow.xml
+    EQUI_MercenaryMerchantWnd.xml
+    EQUI_MerchantWnd.xml
+    EQUI_MIZoneSelectWnd.xml
+    EQUI_MusicPlayerWnd.xml
+    EQUI_NameChangeMercWnd.xml
+    EQUI_NameChangePetWnd.xml
+    EQUI_NameChangeWnd.xml
+    EQUI_NewPointMerchantWnd.xml
+    EQUI_NewUserWalkthroughWnd.xml
+    EQUI_NoteWindow.xml
+    EQUI_OptionsWindow.xml
+    EQUI_PetInfoWindow.xml
+    EQUI_PlayerCustomizationWnd.xml
+    EQUI_PlayerWindow.xml
+    EQUI_PointMerchantWnd.xml
+    EQUI_ProgressionSelectionWnd.xml
+    EQUI_PvPLeaderboardWnd.xml
+    EQUI_PvPStatsWnd.xml
+    EQUI_QuantityWnd.xml
+    EQUI_RaceChangeWnd.xml
+    EQUI_RaidOptionsWindow.xml
+    EQUI_RaidWindow.xml
+    EQUI_RealEstateItemsWnd.xml
+    EQUI_RealEstateLayoutDetailsWnd.xml
+    EQUI_RealEstateNeighborhoodWnd.xml
+    EQUI_RealEstatePlotSearchWnd.xml
+    EQUI_RespawnWnd.xml
+    EQUI_RewardSelectionWnd.xml
+    EQUI_Screens.xml
+    EQUI_SelectorWnd.xml
+    EQUI_SendMoneyWnd.xml
+    EQUI_ServerListWnd.xml
+    EQUI_ShortDurationBuffWindow.xml
+    EQUI_SkillsWindow.xml
+    EQUI_SocialEditWnd.xml
+    EQUI_SpellBookWnd.xml
+    EQUI_SpellDisplay.xml
+    EQUI_StoryWnd.xml
+    EQUI_TaskSelectWnd.xml
+    EQUI_TaskTemplateSelectWnd.xml
+    EQUI_TaskWnd.xml
+    EQUI_TCGStartupWnd.xml
+    EQUI_Templates.xml
+    EQUI_TemplateSelectWnd.xml
+    EQUI_TextEntryWnd.xml
+    EQUI_TipWnd.xml
+    EQUI_TitleWnd.xml
+    EQUI_TrackingWnd.xml
+    EQUI_TradeskillWnd.xml
+    EQUI_TradeWnd.xml
+    EQUI_TrainWindow.xml
+    EQUI_TributeBenefitWnd.xml
+    EQUI_TributeMasterWnd.xml
+    EQUI_VideoModesWnd.xml
+    EQUI_VoiceActionBarWnd.xml
+    EQUI_VoiceMacroWnd.xml
+    EQUI_VoiceNoticeWnd.xml
+    EQUI_VoteWnd.xml
+    EQUI_ZoneGuideWnd.xml
+
+    - Removed -
+    EQUI_VoiceNoticeWnd.xml
+
+
+
+    - The EverQuest Team
+	
+.....................................................................
+
+------------------------------
+March 22, 2012
+------------------------------
+
+Here are the patch notes for today's game update (as posted by Zatozia over on the official EQ Forums):
+
+    *** Highlights ***
+
+    - Defiant augments are no longer prestige-flagged.
+    - Power sources should no longer cause armor to be unusable by Silver or Bronze players.
+    - Fixed several issues in 13th Anniversary content.  Please see the Quests and Events section for details.
+
+    *** Items ***
+
+    - Corrected an issue with the Polymorph Wand: Lightning Warrior item that could allow people to grow to immense sizes.
+    - Defiant augments are no longer prestige-flagged.
+    - Power sources should no longer cause armor to be unusable by Silver or Bronze players.
+
+    *** Quests & Events ***
+
+    - Corrected a few issues with the Spider's Bite 13th Anniversary quest that could force players to start over or have other issues advancing.
+    - Fixed a problem in the Summoning the Master task that could cause one of the ritual areas to be unreachable.
+    - Changed the 13th anniversary raid to allow teleporting to banners that you place in the Tower of Frozen Shadow instance.
+    - Corrected a problem with the final turn-in for the quest Heads Above the Rest in Blightfire Moors.
+    - Corrected a problem where Valdoon Kel`Novar was instantly wiping out raid forces. He will now be a bit more judicious in who he targets with his AE lifetaps.
+    - Corrected an issue with the mission The Sound of Silence that caused players to get stuck when trying to use the Harmonic Disruptor on the active sentry stones.
+
+
+    *** Miscellaneous ***
+
+    - Modified the notice that players receive when losing inventory slots.  Players will now be referred to a parcel merchant to retrieve their items.
+    - Mail items in parcels no longer expire.
+    - Duplicate lore items are no longer destroyed when in a parcel.
+    - When a player loses access to bag slots, we will now attempt to move the item in the inaccessible bag slots to open bag slots (if they exist).  If they do not, then the items will be mailed back to them, however in the case of special no storage items they will be placed in any open inventory slot or on the cursor if there is no other space.
+    - Removed the ability to redeem head start characters on the Vox server.  Players who have already redeemed head start characters on Vox will have those characters moved to a different server of their choice.
+    - Fixed two separate crashes that could occur when players opened certain merchant windows.
+
+
+    *** UI ***
+
+    - Removed the expiration date on parcels in the parcel merchant window because mailed items no longer expire.
+    - Changed the default behavior for the zone path finder window.  "Include Bind Zone" is now off by default.
+
+    - Changed -
+
+    EQUI_MerchantWnd.xml
+
+
+    *** Previously Updated ***
+
+    - Players who fail to zone out of the first section of the tutorial will now be able to attempt to do so again.
+    - Corrected a problem that was allowing players to request the task A Different Perspective without having completed the other 13 anniversary quests.  All players will still be able to join the task once someone with the correct requirements requests it.
+    - Corrected a problem that was causing Grobb to endlessly repop itself on some servers.
+    - Corrected an issue that was activating the 13th Anniversary banners and booths on Progression servers when the 13th Anniversary events are not yet available.
+    - Removed a section of the Guild Lobby that doesn't connect to anything.  You will have to re-run your patcher to see this change.
+    - Corrected an Achievement error that could cause some players to crash when they updated.
+
+     
+
+    - The EverQuest Team
+
+.....................................................................
+
+------------------------------
+April 11, 2012
+------------------------------
+
+Here are the patch notes for Wednesday's game update (as posted by Naylie over on the EQ Forums):
+
+    *** Highlights ***
+
+    - Destrea Kinmare in the Plane of Knowledge needs your help to stop the cruel experimentation that is underway within The Hatchery. Completing this mission provides a health and mana boost to the Dragonscale Skystrider Mount, which can be purchased in the Marketplace.
+    - Modified the functionality of prestige items so that armor or weapons with prestige augments inserted do not become prestige.
+    - Made numerous changes to Tier 3 and Tier 4 Veil of Alaris raids.
+    - Most items with activated spell effects can now be triggered from within your inventory.
+    - Maxed tradeskill trophies now produce a 24 slot tradeskill component bag in addition to the 12 slot general carry-all.
+    - You can now create an Extraplanar Trade Satchel using Extraplanar Silk.
+    - Reduced the number of players required to experience several older raid events.
+    - Secalna Galnor can now send you to the tutorial if you are level 10 or lower.
+    - Corrected an issue where players who had completed non-repeatable tasks in the past were not receiving achievement credit. This should clear up many issues where players were unable to complete the Hero's Journey meta-achievements.
+    - You can now ask Arias to send you to a different instance of the second Tutorial zone, if the initial instance is too full and another one is available.  Just tell him that you [wish] to go.
+
+
+    *** Items ***
+	
+    - Nearly all items that previously needed to be equipped in order to activate their spell effect should now be useable from your inventory if you are capable of equipping that item. These changes intentionally exclude a number of quest and bane items.
+    - The Rod of Alsa Thel can now be placed in your bank.
+    - The Midnight Veil can no longer be stored in banks or real estates.
+    - The Woodwind Finesse effect on the Twisted Reed Flute will no longer affect PBAE songs.
+
+ 
+    *** Tradeskills ***
+
+    - Maxed tradeskill trophies now produce a 24 slot tradeskill component bag in addition to the 12 slot general carry-all.
+    - You can now find Extraplanar Silk in Veil of Alaris and House of Thule zones. To find instructions on how to use it to craft an Extraplanar Trade Satchel, visit Bookseller Shoden in Argath or Sherin Matrick in the Plane of Knowledge.
+    - Looted cultural crafting components now have small coin and tribute values.
+    - Added a coin or tribute value to many looted poison and jewelry tradeskilling components.
+
+     
+    *** Quests & Events ***
+
+    - Destrea Kinmare in the Plane of Knowledge needs your help to stop the cruel experimentation that is underway within The Hatchery. Completing this mission provides a health and mana boost to the Dragonscale Skystrider Mount, which can be purchased in the Marketplace.
+    - Time and Tides raid - Lowered the initial DPS of High Priests within the raid. 
+    - Time and Tides raid - Those who are currently on top of a High Priest’s hate list should no longer receive a whirlpool emote.
+    - Time and Tides raid - Increased the amount of time characters have to respond to the whirlpool emote.
+    - Time and Tides raid - Decreased the radius of the whirlpool effect.
+    - Two Sides of the Stone raid - Significantly lowered the amount of HP Vision or Decay will heal when a condition is "failed".
+    - Two Sides of the Stone raid - Characters who are dead and unable to follow the "jump" emote will no longer trigger the fail condition.
+    - Two Sides of the Stone raid - Characters now have a little more time to execute their "jumps" and remove "filth".
+    - Unearthing Alra raid - Clarified the effect of each tower.
+    - Unearthing Alra raid - Made a number of changes to the messaging to better explain some previously ambiguous mechanics.
+    - Cacophony of Power raid - Decreased the mana drain on Dissonance of Depletion.
+    - Order of Three raid - Removed an unnamed exploit.
+    - Order of Three raid - Decreased the melee damage of all three main bosses.
+    - Order of Three raid and mission- The long-term debuffs (Life Enhancing Light, Coat of Oilflowers, Song for the Sea, and Coat of Roiling Water) no longer prevent out of combat regen.
+    - Order of Three raid and mission - Reduced the radius of Bonds of Guilt and changed the spell's effect from a long snare to a short stun.
+    - Fumerak the Quintessence raid - Fixed a number of bugs, reduced the damage output of Fumerak and its adds, and improved the messaging.
+    - The Triune God raid - Prevented the Blinding Lights from moving in a cluster and affecting avatar pathing.
+    - The Triune God raid - Reduced the sphere of influence sizes for Blinding Lights, Filth Clouds, and personal charm effects. Blinding Lights no longer has a knockback component, and its damage has been reduced. 
+    - The Triune God raid - In the first phase, now only 4 of 8 crystal shards need to be destroyed. You also can damage the Triunity for up to 10% of its health, instead of 5%, on each vulnerability window.
+    - The Triune God raid - Charmed avatars will now stay focused on attacking crystal shards.
+    - The Triune God raid - In the second phase, the HP of crystal relics has been reduced by 30%, and their vulnerability window has lengthened.
+    - The Triune God raid - A checkpoint has been added after the second phase.
+    - The Triune God raid - The length of time between several emotes and their consequences has been increased.
+    - The number of players needed to start the following raids has been reduced to 6: Ancient Heroes - Lady Vox, Ancient Heroes - Lord Nagafen, Big Bynn's Return, Crazok Moonfang, Fippy's Revenge, Ralkor's Crystals, The Fanged Moon, and The Soulbleeder Must Bleed.
+    - Reduced from 4 to 1 the number of players required to be at each altar in the "exiles" portion of the Inktu'ta, the Unmasked Chapel raid.
+    - The number of players required for the following events has been reduced from 18 to 6: Muramite Proving Ground raid trials, and Erdna the Sleeping Giant in The Steppes.
+    - 13th Anniversary quests - Removed the option for 1 AA point as a reward. The quests now grant a small amount of experience upon completion.
+    - 13th Anniversary quests - Lowered the re-use time of the mining pick used in "Responsible Mining".
+    - 13th Anniversary quests - Corrected a few issues with "Ferocious Feralings" and "Rumor Has It...".
+    - 13th Anniversary quests - Added an achievement related to the missions.
+    - 13th Anniversary mission - The AA reward has been increased to 5 AA points, but may now only be selected once.
+    - 13th Anniversary raid rewards - Players who have already completed the raid should be granted a reward set via their raid achievement. The reward set allows you to select either augmentation that drops from the event. This choice is only granted once. Subsequent victories will allow you to choose between receiving factions or experience.
+    - Quests granting reward sets that offer faction gains will now adjust opposing factions accordingly.
+     
+
+    *** Spells ***
+
+    - Enchanter - Increased the damage on Mana Reiteration Strike and Mana Repercussion strike.
+    - Magician - Exigent Minions and Exigent Servants have discovered a new ability that will only work against certain strong raid targets.
+
+     
+    *** NPC ***
+
+    - Fixxin is in a great mood due to the 13th anniversary and will be more likely to chat with folks that he normally does not like.
+    - Geniveve, the Tribute Master in Crescent Reach, will now accept the tribute of any race, not just Drakkins.
+    - Laurentiu and Marilena in Goru`Kar Mesa are more willing to accept the help of higher level adventurers undertaking the Hero's Journey.
+    - Secalna Galnor can now send you to the tutorial if you are level 10 or lower.
+    - Corrected an issue where Cook Idriak was not accepting the Ripe Bixie Heads for his task "Heads Above the Rest".
+
+     
+    *** AA ***
+
+    - Enchanter - Mesmerization Mastery is now restricted to single-target mez spells only. Area-of-effect spells are not extended.
+     
+
+    *** Achievements ***
+
+    - To complete the "7th Anniversary Tasks" achievement, you now only need to finish one of the three tasks.
+    - Added a list of tasks to the Alaran Language Master achievement that shows the language points for the completion of various task groups.
+    - Corrected an issue where players who had completed non-repeatable tasks in the past were not receiving achievement credit. This should clear up many issues where players were unable to complete the Hero's Journey meta-achievements.
+     
+
+    *** Progression Servers ***
+
+    - Small Grease Jar Sketches are now available.
+
+     
+    *** Mercenaries ***
+
+    - Bloodbone Skeleton tank mercenaries will now keep the attention of their targets as reliably as other mercenaries.
+    - The following caster DPS mercenaries now cast at the same speed and generate the same amount of hate as other mercenaries - Amygdalan, Aviak, Bloodbone Skeleton, Dragorn, Gingerbread Man, Girplan, Hadal, Marionette, Rallosian Ork, Sarnak, and Swinetor.
+
+     
+
+    *** Miscellaneous ***
+
+    - Added two small signs in the Guild Lobby to signify which door will take you to a standard guild hall and which door will take you to a real estate guild hall.
+    - You can now ask Arias to send you to a different instance of the second Tutorial zone, if the initial instance is too full and another one is available.  Just tell him that you [wish] to go.
+    - Made it so that members that do not have access to prestige items will no longer be able to insert a prestige augmentation into an item.
+    - Modified the functionality of prestige items so that armor or weapons with prestige augments inserted do not become prestige.
+    --- The item slot now appears purple when an item has an augment that is prestige (but the item itself is still enabled).
+    --- When examining the item, the item name will appear purple, and any augments that are disabled as a result of being prestige appear red.
+    --- If the item itself is prestige, and disabled as a result, then prestige augments are factored into the item display stats.
+    --- If the item itself is not prestige, then disabled prestige augments are not factored into the item display stats.
+
+     
+    *** UI ***
+
+    - Made it so that every UI window will have the "Help" option in its right click menu.
+    - Fixed an oversight where the "Style_Qmarkbox" didn't actually make the window display its "?" in the title bar.  Now it will.
+    - Converted all the locations from defining the visibility of the "?" in code to the XML file instead.
+    - Added the "DecalSize" and "Location" properties to the ListboxColumn UI type.  This allows custom UI designers to specify the size and positioning of graphical elements within list boxes.  This has been implemented in the EQUI_MarketplaceWnd.xml for an example.
+     
+
+    - Changed -
+
+    EQUI_AAWindow.xml
+    EQUI_AdventureLeaderboardWnd.xml
+    EQUI_AdventureRequestWnd.xml
+    EQUI_AdventureStatsWnd.xml
+    EQUI_AlertHistoryWnd.xml
+    EQUI_AltStorageWnd.xml
+    EQUI_AudioTriggersWindow.xml
+    EQUI_BandolierWnd.xml
+    EQUI_BankWnd.xml
+    EQUI_BarterMerchantWnd.xml
+    EQUI_BarterSearchWnd.xml
+    EQUI_BarterWnd.xml
+    EQUI_BigBankWnd.xml
+    EQUI_BodyTintWnd.xml
+    EQUI_ClaimWnd.xml
+    EQUI_CombatAbilityWnd.xml
+    EQUI_DynamicZoneWnd.xml
+    EQUI_FellowshipWnd.xml
+    EQUI_FriendsWnd.xml
+    EQUI_GiveWnd.xml
+    EQUI_GuildBankWnd.xml
+    EQUI_GuildManagementWnd.xml
+    EQUI_HotButtonWnd.xml
+    EQUI_Inventory.xml
+    EQUI_ItemExpTransferWnd.xml
+    EQUI_JournalNPCWnd.xml
+    EQUI_LeadershipWnd.xml
+    EQUI_LFGuildWnd.xml
+    EQUI_LootWnd.xml
+    EQUI_MailAddressBookWindow.xml
+    EQUI_MailCompositionWindow.xml
+    EQUI_MailWindow.xml
+    EQUI_MarketplaceWnd.xml
+    EQUI_MerchantWnd.xml
+    EQUI_NewPointMerchantWnd.xml
+    EQUI_PetInfoWindow.xml
+    EQUI_PlayerCustomizationWnd.xml
+    EQUI_PointMerchantWnd.xml
+    EQUI_PotionBeltWnd.xml
+    EQUI_PvPLeaderboardWnd.xml
+    EQUI_PvPStatsWnd.xml
+    EQUI_QuantityWnd.xml
+    EQUI_RaidWindow.xml
+    EQUI_RealEstateItemsWnd.xml
+    EQUI_RealEstateLayoutDetailsWnd.xml
+    EQUI_RealEstateManageWnd.xml
+    EQUI_RealEstateNeighborhoodWnd.xml
+    EQUI_RealEstatePlotSearchWnd.xml
+    EQUI_RealEstatePurchaseWnd.xml
+    EQUI_SendMoneyWnd.xml
+    EQUI_SkillsWindow.xml
+    EQUI_SpellBookWnd.xml
+    EQUI_StoryWnd.xml
+    EQUI_TaskSelectWnd.xml
+    EQUI_TaskTemplateSelectWnd.xml
+    EQUI_TaskWnd.xml
+    EQUI_TitleWnd.xml
+    EQUI_TradeskillWnd.xml
+    EQUI_TradeWnd.xml
+    EQUI_TrainWindow.xml
+    EQUI_TributeBenefitWnd.xml
+    EQUI_TributeMasterWnd.xml
+    EQUI_TributeTrophyWnd.xml
+    EQUI_VoiceMacroWnd.xml
+    EQUI_VoteResultsWnd.xml
+    EQUI_VoteWnd.xml
+    EQUI_ZoneGuideWnd.xml
+    EQUI_ZonePathWnd.xml
+    SIDL.xml
+
+     
+
+    *** Previously Updated ***
+
+    - Corrected an issue that could prevent players from requesting Bobo Gleemaker's mission 'This Ain't Right'.
+     
+
+    - The EverQuest Team
+
+
+.....................................................................
+
+------------------------------
+May 9, 2012
+------------------------------
+
+Here are the patch notes (as posted by Piestro on the EQ Forums) for today's game update:
+
+    *** Highlights ***
+
+    - Hardcore Heritage zone revamps begin with Blackburrow and the Temple of Cazic Thule on May 11th, 2012! Lower Guk and Unrest will transform on June 1st, and Crushbone and Permafrost will transform on June 22nd.
+    - Existing Lost Dungeons of Norrath adventures can now be obtained and completed by players above level 80. The Wayfarer's Brotherhood has not found any more challenging adventures, however.
+    - A variety of achievements are now available for Seeds of Destruction.
+    - Healer mercenaries level 85 and above can once again cast the Promised and Elixir lines of spells.
+    - Healer mercenaries now regenerate their mana faster in and out of combat.
+    - The first player-generated maps have been added. See below for a list of the included maps.
+
+
+    *** Items ***
+
+    - All Legends of Norrath claim items are now heirloom.
+    - The dropped furniture items found in Sarith City and Pillars of Alra can now be traded.
+
+     
+
+    *** Quests & Events ***
+
+    - The Triune God raid - Corpses of players who die in the third phase will now be teleported to the proper location if the raid resets.
+    - Existing Lost Dungeons of Norrath adventures can now be obtained and completed by players above level 80. The Wayfarer's Brotherhood has not found any more challenging adventures, however.
+    - Hardcore Heritage zone revamps begin with Blackburrow and the Temple of Cazic Thule on May 11th, 2012! Lower Guk and Unrest will transform on June 1st, and Crushbone and Permafrost will transform on June 22nd.
+    - The Triune God mission - The Triunity and its relics will clear themselves of detrimental spells when going invulnerable.
+    - The Triune God mission - The Shard Explosion spell no longer damages Relics or the Triunity.
+
+
+    *** Spells ***
+
+    - Bard - Reduced the amount of flurry chance given by Aria, Aura, and Echo of the Composer and Aria of the Orator.
+    - Bard - Increased the instrument modifier cap on Aria of the Composer and the Orator.
+    - Beastlord - Reduced the amount of flurry chance given by Nature's Fury and Kolos' Fury.
+    - Beastlord - Increased the damage modifier of Bestial Vivisection and Bestial Rending.
+    - Beastlord - Increased the speed of Spirit of Kolos summoned with Enhanced Minion VII through Enhanced Minion XII to match the speed of pets summoned by higher foci.
+    - Berserker - Reduced the amount of flurry chance given by Avenging Flurry Discipline ranks 2 and 3.
+    - Enchanter - Added the effects from Speed of Aransir to Compelling Edict and Enforce. Creatures you charm with these spells will now have all the benefits of a haste spell while under your control, but the haste effects will drop when the charm is broken.
+    - Magician - All level 91-95 non-swarm pets now come equipped with a Summoned: Visor of Vabtik in addition to the other armor and jewelry they already had equipped.
+    - Magician - Increased the innate run speed of all level 91-95 pets that are summoned with an applicable focus.
+    - Magician - Increased the resist modifier and damage dealt by Servant Slay and Minion Slay.
+    - Magician - Increased the damage dealt by all components of Strike of Many.
+    - Necromancer - Level 92 and 95 pets summoned with Enhanced Minion XIII and up have had their proper appearance restored.
+    - Rogue - Smokeblind traps have been set to no longer trigger when touched by mercenaries.
+
+     
+
+    *** Achievements ***
+
+    - A variety of achievements are now available for Seeds of Destruction.
+    - Secalna Galnor now offers the Achievements Tutorial in the Plane of Knowledge.
+
+     
+
+    *** Mercenaries ***
+
+    - Healer mercenaries level 85 and above can once again cast the Promised and Elixir lines of spells.
+    - Healer mercenaries now regenerate their mana faster in and out of combat.
+    - Mercenaries will no longer trigger Smokeblind traps (or other such traps).
+
+     
+
+    *** Maps ***
+
+    - The first player-generated maps have been added:
+    -- Acrylia Caverns map by Cardiac of Drinal
+    -- Al'Kabor's Nightmare map by Cardiac of Drinal
+    -- Ashengate map by Blindheart of Drinal
+    -- Crystallos map by Blindheart of Drinal
+    -- Goru`kar Mesa map by Zigie of Povar
+    -- Harbingers Spire map by Zigie of Povar
+    -- Hills of Shade map by Blindheart of Drinal
+    -- Icefall Glacier map by Zigie of Povar
+    -- Kaesora Library map by Jyve of Antonius Bayle
+    -- Korafax map by Danille of Bristlebane
+    -- The Steppes map by Jyve of Antonius Bayle
+    -- Stone Hive map by Blindheart of Drinal
+    -- Sunderock Springs map by Jyve of Antonius Bayle
+    -- Toskirakk map by Blindheart of Drinal
+
+     
+
+    *** Miscellaneous ***
+
+    - Fixed an issue that caused some players to be unable to remove their shroud forms.
+    - Fixed issue with pets and mercenaries not properly gaining effects from their worn items. This will prevent melee DPS mercenaries from generating too much hate, among other issues.
+    - Fixed a crash issue related to selling items while in a shroud.
+
+     
+
+    *** UI ***
+
+    - Added a tip file for the evolving item XP transfer window.
+    - The item display window will only display its scroll bar on the augmentation section when it needs it now (instead of all the time).
+
+    - Changed -
+    EQUI_ItemDisplayWnd.xml
+
+     
+
+    *** Previously Updated ***
+
+    - Hatching a Plan - Characters should now receive credit for either destroying eggs before they hatch, or killing the hatchlings that hatch from the eggs.
+    - Hatching a Plan - The character who has an Empty Vial should now receive a Blood-Filled vial when all eight creatures have been killed, regardless of who killed the final creature.
+    - A Different Perspective - This mission is now available to all adventurers on non-progression servers regardless of expansions purchased.
+    - The Triune God raid - Prevented players from having a charm aura placed on them without warning.
+
+     
+
+    - The EverQuest Team
+
+
+.....................................................................
+
+------------------------------
+June 27, 2012
+------------------------------
+
+Here are the patch notes for this morning's game update (as posted by Piestro over on the EQ Forums):
+
+    *** Highlights ***
+
+    - Modified how we handle memory management to help reduce our memory footprint.  This affects all of the models and animations for everything in the game.  This will also help with current systems that are currently crashing due to out of memory issues.
+
+    - Changed the AA experience boost for low AA counts from 2500 to 4000 AA.  The bonus now tapers linearly from 1000% to normal experience over this new range.  Progression servers will not get this bonus until Veil of Alaris is unlocked.
+
+    - Fixed a bug that could cause some fast bows to lose speed when at maximum haste and using a haste quiver.
+
+ 
+
+    *** Items ***
+
+    - Most beds now offer the ability for you to take a nap on them when placed in real estate zones.
+
+    - The Ethereal Dreamweave Satchel and Dreamweave Satchel are no longer tradable on Firiona Vie.
+
+    - Tweaked the archery minimum delay regarding quivers.
+
+    - Prescient Fleeting Quiver is once again 90% weight reduction. 
+
+     
+
+    *** Tradeskills ***
+
+    - Improved the healing focus on all Veiled Seals of the Healer. 
+
+    - Added the tradeskill useable flag to a large number of items, such as non-placeable tradeskill containers, items that modify your skill levels, and tradeskill tools. 
+
+     
+
+    *** Quests & Events ***
+
+    - Xanuusus should be more responsive to multiple rangers attempting to demonstrate an act of faith as part of their epic 1.5 pre-task. 
+
+    - Bristlebane has been shuffling his Deck of Spontaneous Generation and has thrown in a few new tricks. (Five previously unobtainable items that resulted from combinations of mischief cards can now be created.) 
+
+    - A previously unobtainable item that Einhorst McMannus has been after for many years can now be found. 
+
+    - The shadows in Innothule Swamp have come alive once again.  Ssynthi in Castle Mistmoore might be interested in this. 
+
+    - Two Sides of the Stone (Raid) - Reduced the detrimental effect of many spells within the raid. 
+
+    - Two Sides of the Stone (Raid) - "Blobs" now wait a small amount of time before doing damage. 
+
+    - Two Sides of the Stone (Raid) - Reduced how often adds spawn during the Avatar fight. 
+
+    - Two Sides of the Stone (Raid) - The amount of recovery time allowed between split phases has been increased. 
+
+    - The Triune God (Raid) - The Triunity will no longer choose pets as targets when casting Erasure or Mind Strip. 
+
+     
+
+    *** Spells ***
+
+    - Fixed a problem that was causing all rune spells (or spell shields) on an entity to break when any one broke.
+
+    - Fixed a problem that was causing unexpected effects when some spells were cured, such as creating throwing daggers.
+
+     
+
+    *** NPC ***
+
+    - Alinai Kaneriti in Butcherblock Mountains should now have a more appropriate title. 
+
+    - Corrected an outstanding issue with the appearance of mountain giants in Kunark and Basilisks in Jaggedpine Forest. 
+
+    - Sylisa Cogsworthy and Gaelsori Heriseron in the Bazaar are now happy to help you with delivering and receiving parcels. 
+
+     
+
+    *** AA ***
+
+    - Changed the AA experience boost for low AA counts from 2500 to 4000 AA.  The bonus now tapers linearly from 1000% to normal experience over this new range.  Progression servers will not get this bonus until Veil of Alaris is unlocked.
+
+     
+
+    *** Achievements ***
+
+    - Corrected an issue that prevented the "Hero of Bloody Kithicor" achievement from being completed. 
+
+    - Added a list of tasks to the Alaran Language Master achievement that shows the language points for completion of various task groups.  You may need to close and re-open your Achievements window after completing a task to force an update.
+
+     
+
+    *** Progression Servers ***
+
+    - Corrected an erroneous "vote failed" message that could appear midway through a voting cycle.
+
+    - Improved messaging when a vote to unlock an expansion wins, loses, or ties.
+
+    - Corrected several spells that were not available on the updated Plane of Knowledge vendors at the appropriate time. 
+
+    - The neighborhood should no longer be accessible on Progression servers until the House of Thule expansion is unlocked. 
+
+     
+
+    *** Miscellaneous ***
+
+    - Fixed a crash that sometimes occurred on a progression server when clicking on the atlas button in the map window.
+
+    - Fixed a graphics engine issue that potentially causes the alt-tab crashes.
+
+    - Reduced the overall memory consumption used when zoning by no longer pre-loading textures that aren't currently in use.
+
+    - Fixed a bug that could cause some fast bows to lose speed when at maximum haste and using a haste quiver.
+
+    - Corrected the path of the Sirensbane through Erud's Crossing.
+
+     
+
+    *** UI ***
+
+    - Added the ability to inspect and preview reward items in the Reward Selection Window both by using the Inspect and Preview buttons and by alt-left and alt-right clicking the item icon in the window.
+
+    - Fixed a bug that could cause the selected reward option to reset to the top option when selecting a reward item for the first time.
+
+     
+
+    - Changed -
+
+    - EQUI_RewardSelectionWnd.xml
+
+     
+
+    *** Previously Updated ***
+
+    - Removed several NPCs from progression servers that should not have been active until much later. 
+
+    - The EverQuest Team
+
+.....................................................................

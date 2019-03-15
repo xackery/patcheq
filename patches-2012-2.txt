@@ -1,0 +1,899 @@
+Patch Messages from July 2012 to December 2012
+
+
+.....................................................................
+
+------------------------------
+July 18, 2012
+------------------------------
+
+Here are the patch notes for this morning's game update (from the patcher):
+
+    *** Highlights ***
+
+    - Changed the "Return Home" time to 18 minutes since the last time you logged in.  Previously you had to wait 6 hours to use this button.  Now it's set to the same time as Origin without any use of the hastened AAs.
+
+    *** Items ***
+
+    - Fixed an issue that was causing the tiger raptor to load textures that were not on it before.
+
+    *** Quests & Events ***
+
+    - Corrected several script errors that had been causing the Grimling War in Grimling Forest to fail.
+    - Corrected a door script in Thundercrest Island that had not been functioning.
+    - Order of Three (Raid) - Reduced the mana drain effects of Mindshock and Bonds of Guilt.
+    - Order of Three (Raid and Group) - Corrected a problem with Procedural Failure and Peerless Procedural Failure that was causing daggers to be summoned when casting with those effects.  The intended effect is... less pleasant.
+
+    *** Spells ***
+
+    - Bard - Adjusted values on bard overhaste songs to match the values at which they are actually capped by code.
+    - Ranger - Corrected a scaling error in Sand Wasp Swarm that made this component of Swarm of Sand Wasps deal less damage than its predecessor.
+
+    *** AA ***
+
+    - Enchanter - Moved the root effect of Beguiler's Banishment Root from slot 3 to slot 12 to avoid conflicts.
+
+    *** Progression Servers ***
+
+    -  Tribute masters should now be available at the appropriate time.
+
+    *** Miscellaneous ***
+
+    - The teleportation crystal at the outpost in Jaggedpine Forest should now send you back to Surefall Glade.
+    - Changed the "Return Home" time to 18 minutes since the last time you logged in.  Previously you had to wait 6 hours to use this button.  Now it's set to the same time as Origin without any use of the hastened AAs.
+    - Fixed an error that was causing certain plate armor types to appear as chain. They should now correctly appear as plate.
+    - Fixed some display problems on armor with Velious textures.
+    - Heroic Dexterity will no longer incorrectly affect all damage types.  It should now affect ranged damage only.
+    - Fixed several sources of client crashes.
+    - Improved our internal logging for client crashes.  Players can now choose to add additional information about what they were doing when they crashed.
+    - Character transfers that fail will now inform you of the reason why they failed in most cases.
+
+    *** Previously Updated ***
+
+    - Corrected a broken particle that was causing blue effects to appear over players in auras, causing performance issues.
+    - Corrected the appearance of the Animated Armor mercenaries.
+    - Corrected a problem that caused many objects to fail to load when a player changed servers.
+    - The restless wraith in Txevu will now properly summon the Vrex Invokers.
+
+    - The EverQuest Team
+
+
+.....................................................................
+
+------------------------------
+August 3, 2012
+------------------------------
+
+It was just a small patch message for this morning's game update, but hopefully it corrects some lag problems in game (posted by Piestro over on the EQ Forums):
+
+    *** Emergency Update ***
+
+    - Corrected an issue that was causing server CPU use to spike and adversely affect game performance.
+
+
+    *** Previously Updated ***
+
+    - All players who are level 91 or above will be granted Knowledge of Alaran Culture - Advanced upon zoning in to any Veil of Alaris base zone.
+
+    - The EverQuest Team
+
+.....................................................................
+
+------------------------------
+August 15, 2012
+------------------------------
+
+Here are the patch notes for this morning's game update (as posted by Dexella over on the EQ Forums):
+
+    *** Highlights ***
+
+    - The Hero's Forge is now live!  Players who purchase the Hero's Forge armor feature will be able to equip new armor ornaments that are found throughout Norrath.
+
+    - All augmentations can now be added to or removed from items directly from the item window now, without the use of an Augmentation Sealer.  You will still need to have augmentation distillers or solvents in your inventory to remove those augments that require them.
+
+    - Players can now choose to post updates to Facebook or Twitter from within EverQuest!  You can enable this option in the Share tab of the Options window.
+
+
+    *** Items ***
+
+    - Reduced the cost of all Augmentation Distillers. 
+
+    - Several potions that grant a bonus to experience gain have had their effects changed to persist through death. 
+
+    - Augments can now be directly swapped in a piece of armor by clicking on an inserted augment with another augment on your cursor.  Distiller requirements will still apply.
+
+    - Fixed the missing spell descriptions on the Glob of Oil, Handful of Coal, and Burning Ember quest items used in and around the Gyrospires. 
+
+    - Corrected the name of Keremar's Wand to Keramar's Wand. 
+
+    - Keramar's Crystal-Chain Belt is now using a more appropriate icon. 
+
+     
+
+    *** Quests & Events ***
+
+    - The Order of Three (Raid) - Corpses left on the roof should be teleported out to the starting area on reset.
+
+    - The Order of Three (Raid) - Archers on the roof should no longer be attackable until the fight at the city hall has started.
+
+    - Time and Tides (Mission and Raid) - Fixed an issue where High Priest Xalziks would sometimes not spawn. 
+
+    - Time and Tides (mission) - the Whirlpool spell effect is now a single-target effect and should now only strike players who are inside the whirlpool aura.
+
+    - Defeating the Triunity will now have a visible impact within the Sepulcher. 
+
+    - Updated the augmentation tutorial to reflect the new changes to augments. 
+
+    - Hill giants in The Steppes should now drop an Ancient Parchment more frequently.
+
+    - A Book for Toegnasher - Ancient Parchments required for this quest should now be easier to acquire.
+
+     
+
+    *** Spells ***
+
+    - Druid - Added new Zephyr spells to Lavastorm, Dawnshroud Peaks, Plane of Knowledge, Wall of Slaughter, Undershore, and Arcstone.  These spells are available alongside their personal and group versions. 
+
+     
+
+    *** Achievements ***
+
+    - Added savior achievements for Underfoot and Seeds of Destruction content for better organization of tasks in these expansions. 
+
+    - Included achievements to help track the collection of Hero's Forge armor. These new achievements will be displayed under the General -> Class tab if you have purchased access to the Hero's Forge feature.
+
+    - The achievement "The Hitchhiker's Guide to the Past" should now update properly when "Audience with the Warmaster" is completed. 
+
+    - Removed the erroneous achievement "The Precipice of War Traveler." 
+
+     
+
+    *** Progression Servers ***
+
+    -  Handful of Prism Grains will be available on Progression Servers on the normal merchants when Omens of War is unlocked. 
+
+     
+
+    *** Miscellaneous ***
+
+    - Fixed a problem that was causing some characters on Free or Silver accounts to die when using the /quit or /exit commands.
+
+    - Added code to prevent several apparent freezes when zoning or entering the game in Windows 7.
+
+    - Added more server side performance enhancements to better mitigate usage spikes.
+
+     
+
+    *** UI ***
+
+    - All augmentations can now be added to or removed from items directly from the item window now, without the use of an Augmentation Sealer.  You will still need to have augmentation distillers or solvents in your inventory to remove those augments that require them. 
+
+    --- To add an augment to a piece of equipment, pick up the augment on your cursor and click on the desired augment slot.
+
+    --- To remove an augment from a piece of equipment, left click on it.  If the augment requires a solvent to remove, it will ask you for confirmation before removing it.
+
+    --- To destroy a non-removable augment that is in a piece of equipment, right click on the augment and select the Destroy option.
+
+    - Added the ability to set the visibility level of new armor in the Display Tab of the Options Window.  You can choose to have it on for everyone (default), your raid, your group, yourself, or no one at all.
+
+    - Added the ability to enable Facebook or Twitter updates from within EverQuest.  These are enabled via the Share tab of the Options Window and can be accessed by the EQ -> Players -> Social Sharing button or with the following commands:
+
+    --- /tweet
+
+    --- /twitter
+
+    --- /facebook
+
+    --- /fb
+
+    --- /share
+
+     
+
+    - Added -
+
+    EQUI_ShareWnd.xml
+
+     
+
+    - Changed -
+
+    EQUI.xml
+
+    EQUI_Container.xml
+
+    EQUI_Inventory.xml
+
+    EQUI_ItemDisplay.xml
+
+    EQUI_OptionsWindow.xml
+
+     
+
+    *** Previously Updated ***
+
+    -  All players who are level 91 or higher will receive Knowledge of Alaran Culture - Advanced automatically upon entering any Veil of Alaris base zone. 
+
+    - Fixed a problem that was causing server performance issues.
+
+     
+
+     - The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+August 17, 2012
+------------------------------
+
+Here are the patch notes from this morning's game update (taken from the patcher):
+
+    *** Items ***
+
+    - New color variations for Hero's Forge plate, chain, and leather armor are now available.  Some can be found on any level 10+ NPCs, and some only in hotzones.  Cloth armor variants will be available in the same manner in an upcoming update.
+    - Hero's Forge ornaments now have new icons to make them easier to differentiate from standard armor.
+    - Removed the Insidious and Eternal Grove items from the Veil of Alaris raid merchants until those items are ready for release.  Any items that have already been purchased will still be valid once the armor sets are available.  You may have to remove and replace the augment when this occurs.
+
+
+    *** Tradeskills ***
+
+    - The Firepride Secret of Heroes has been discovered.  Skilled crafters should seek out this new tome available from tradeskill vendors around the world.  It contains recipes for creating another color variation of plate, chain, and leather armor.  Cloth recipes will not function yet.
+
+
+    *** Miscellaneous ***
+
+    - Corrected an issue that was causing the wrong preview to show for the Armor Appearance Slot in the Marketplace.
+    - The Armor Appearance Slot will no longer appear in the Marketplace if you have already purchased it for your current character.
+    - Fixed several bugs with social integration features and added more informative error messages.
+
+
+    *** UI ***
+
+    - Improved tooltips related to adding and removing augments from the item window.
+    - Fixed a bug in the Options window that could cause some custom UIs to crash if they didn't have social integration buttons.
+    - Checking the 'Include Screenshot' checkbox in the EQ Share window will now automatically re-take the screenshot if there is not one present.
+    - Toggling the 'Hide UI' checkbox in the EQ Share window will now automatically re-take the screenshot.
+    - Moved the 'Send an Update' button in the Share tab of the Options window closer to the Enable EQPlayers Updates checkbox for improved clarity.
+    - Cleaned up some unnecessary XML in the Options window.
+
+    - Changed -
+    EQUI_Animations.xml
+    EQUI_OptionsWindow.xml
+
+
+    - The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+September 19, 2012
+------------------------------
+
+Here are the patch notes for this morning's game update (taken from the patcher):
+
+    *** Highlights ***
+
+    - Three new Hero's Forge armor sets are now available! Keep an eye out for Sylvan, Insidious, and Eternal Grove ornaments.
+    - Cloth ornaments are now available for Ebon, Viridian, Violet, Beryl, and Auburn Hero's Forge armor sets.
+    - Beryl Hero's Forge ornaments can now be obtained from light-blue or higher difficulty NPCs in Hot Zones.
+    - The Hero's Forge Leather Chest Ornaments can now be used on robes.
+    - Activating the new social integration feature will automatically display many of your in-game achievements on Twitter and Facebook.
+    - Level 91+ players on non-progression servers who have not received the Knowledge of Alaran Culture - Advanced alternate ability will now receive it automatically upon entering the game.
+    - Players who have not yet received the Hero's Journey book and alternate ability will receive both upon entering the game.
+    - Added the ability to turn in stacks of items to NPCs.
+    - Players who are dead or in the process of zoning when their raiding party completes a raid will now receive credit for the completion.
+
+
+    *** Items ***
+
+    - Three new Hero's Forge armor sets are now available! Keep an eye out for Sylvan, Insidious, and Eternal Grove ornaments.
+    - Cloth ornaments are now available for Ebon, Viridian, Violet, Beryl, and Auburn Hero's Forge armor sets.
+    - Beryl Hero's Forge ornaments can now be obtained from light-blue or higher difficulty NPCs in Hot Zones.
+    - The Hero's Forge Leather Chest Ornaments can now be used on robes.
+    - Alligator Egg, a summoned item, no longer has a coin value.
+    - The Which Came First snake item now looks like a snake.
+    - Grizznot's Claws, Polished Obsidian Claws, Claws of the Huntress, Patriarch Claws, Stormclaws, Claws of the Disciple, and Pale Platinum Inlaid Claws now curve the correct direction in both hands.
+    - The Golden Ticket now explains where to go to use it.
+    - Augments that do not have a solvent listed can now be removed only by using Perfected Augmentation Distillers.
+
+
+    *** Tradeskills ***
+
+    - Resin is now recognized as a tradeskill item.
+
+
+    *** Quests & Events ***
+
+    - The Order of Three (Mission) - The debuffs cast by the mini-bosses in will not trigger the raid-level out-of-combat timer.
+    - The Order of Three (Raid) - Moderately reduced the power of the large towers.
+    - Morell Ascendant (Mission) - It is no longer possible to accidentally kill Morell Thule.
+    - A Death Sentence - Handing in items while surrounded by hostile NPCs will no longer cause those items to disappear.
+    - No Freedom in Death - The lost souls will now begin going insane after 35 minutes.
+    - Dissolution of Reason - Vorga will now respawn near the lake if you lose your Profane Heart and are unable to defeat him.
+    - The Gardener - The zone-out point now places you next to the mission giver.
+    - Have Note Will Travel - The letter-collecting step is now easier to understand.
+    - Screw Loose - This task in Mechanotus now requires a fifteen minute wait before getting the task again after completion.
+    - Clearing the Vermin Nests - This task in Gloomingdeep no longer gives updates for killing more vermin nests than required.
+    - Spider's Eye - For evil factions, you now have to turn in the stones to Pericolo instead of Gordish.
+    - Rain of Ruin - The task can be completed now if Pyrrdan dies before the ambushers are killed.  You will have to wait for him to come back before trying again.
+    - Bile From Below - Corrected an issue that occasionally caused the quest to become gated.
+    - Players who are dead or in the process of zoning when their raiding party completes a raid will now receive credit for the raid completion.
+
+
+    *** Spells ***
+
+    - Bard - Moved the song Chant of Battle to the Statistic Buffs -> Armor Class right-click category.
+    - Beastlord - Empathic Fury has been updated to behave like Savage Fury.  It no longer requires targeting your warder.
+    - Druid - Corrected spell descriptions for the healing portions of Bracing Breath and Encompassing Breath.
+    - Enchanter - Twincast Aura will now refresh itself if the effect is overwritten.
+    - Magician - Updated the spell descriptions for Kindle and Blazing Stance to indicate which fire pets they can affect.
+    - Paladin - Corrected the spell descriptions for Purify and Cleanse to reflect that they are group cures.
+    - Shadowknight - Cloak of Discord will now properly overwrite Cloak of Luclin.
+    - Shaman - Corrected the cast/recast times of Fury, Rage, and Voice of the Berserker so they don't lock out other spells.
+    - Warrior - Corrected the spell descriptions for Bracing Defense and Staunch Defense.
+    - Wizard - Corrected the spell descriptions for Blazing Beam Refraction and Beam of Rime Crystals Feedback.
+    - Wizard - Corrected a problem that caused Concussive spells to enhance only two spells rather than three.
+    - Updated the descriptions of all PC spells that are restricted by zone type to indicate what zones they can be used in.
+    - In multiple spell descriptions, corrected the misspelling "firey" with "fiery."
+    - Visage of the Hideous Harpy and Visage of the Siren Enticer no longer overwrite Familiar of the Emerald Jungle.
+    - The Little Black Book and Solusek Ro Puppet familiars now leave when their buffs are removed, though they might remain an extra few seconds before leaving.
+    - The spells Morell's Compulsion and Vision Jolt no longer leave a particle on the player when the effect ends.
+    - Pets that have Divine Aura or similar spells on them can no longer attack.
+
+
+    *** NPC ***
+
+    - Broodmother can now be triggered and made active.
+    - Vergalid can now be triggered and made active.
+    - Queen Klaknak's placeholder guard no longer spawns under the world in Al`kabor's Nightmare.
+    - Alchemist Krizzia in Stone Hive now returns to her spawn location if she's not attacking anyone.
+    - The looters in Argath now give a small amount of experience when killed.
+    - Merchants in Lavastorm Mountains are now findable.
+    - Bella Straw is significantly harder to harm than she was.
+    - Armsmaster Vohlen in Old Kithicor no longer responds positively to players that do not have the proper faction.
+    - The guildhall merchant Yenny Werlikanin will now be able to help you send and receive parcels.
+
+
+    *** AA ***
+
+    - Enchanter - Enchant Feymetal now has the correct level requirement of 80.
+    - Paladin - Divine Stun AA will no longer trigger Healing Light procs. This change is temporary until an exploit can be resolved in code.
+    - Wizard - Fixed the spell description of Kerafyrm's Prismatic Familiar Rank 2 to correctly reflect its effects.
+    - Fixed a bug with Companion's Blessing Ranks 14 & 15 that was causing these ranks to be shorter duration than previous ranks.
+    - Summon Resupply Agent, Clockwork Banker, Permutation Peddler, and Tribute Master veteran rewards now have their reuse timers properly reduced by Blessing of the Devoted.
+    - Level 91+ players on non-progression servers who have not received the Knowledge of Alaran Culture - Advanced alternate ability will now receive it automatically.
+
+
+    *** Achievements ***
+
+    - Activating the new social integration feature will automatically display many of your in-game achievements on Twitter and Facebook.
+    - Players who have not yet received the Hero's Journey book and alternate ability will receive both upon entering the game.
+    - Players will now receive credit for non-repeatable tasks they completed before beginning the Hero's Journey.
+    - Fixed a bug in "The Triune God" mission preventing the Divine Charm achievement from being completed.
+
+
+    *** Zones ***
+
+    - The evacuation point in Fear Itself is now safer than it was before.
+    - House of Thule, Upper Floors is now considered an "indoor" zone.
+
+
+    *** Progression Servers ***
+
+    - The Harm Touch ability will now function similarly to the ability on standard servers once Gates of Discord has opened.
+
+
+    *** Miscellaneous ***
+
+    - Dragons and other various NPCs will no longer "bounce" when moving. This also fixes issues where some NPCs and their events could not be activated by player proximity.
+    - Added the ability to turn in stacks of items to NPCs.
+    - When wearing visible wrist armor, the right wrist is now the only wrist slot that affects appearance.
+    - Players who possess a large number of items when they unshroud will no longer crash.
+    - Players will no longer be dropped from the "General" chat channel when leveling from 90 to 91.
+    - Casting Path of Tunare while under certain illusions will no longer cause the caster or nearby players to crash.
+    - In the Map window, if editing mode hasn't been entered, the map will no longer be saved to disk unnecessarily.
+    - Real estate plot layouts are now automatically saved whenever you place an item in your plot.
+    - In the bazaar, you can no longer set up buy lines if your inventory is full. If you have buy lines active when your inventory becomes full, the lines will be deactivated.
+    - Renamed the "Gukta Portal" label on the Plane of Knowledge map to "Grobb Portal."
+    - Players with both Dragons of Norrath factions above the point where the factions grant alternate abilities will now have their factions adjusted, if they have not been adjusted already.
+    - Corrected an issue where pre-Luclin human and half elf helmets no longer had transparencies on their visors.
+    - Corrected an issue where a number of pre-Luclin character models were incorrectly displaying black textures or splotches of black on their otherwise working textures. This was most noticeable on dark elf and halfling breastplates, and on nearly every model's boots.
+    - Corrected an issue where the Eye of Zomm had been changed from white to black.
+
+
+    *** UI ***
+
+    - Changed tooltips for augment slots to show hints on adding, removing, and purchasing ornamentations.
+    - Added logic preventing players from entering the game from the character select screen, or remaining in-game, if they have removed portions of any of the alert windows from their UI. This change also prevents some cases of crashing when logging out of the game.
+    - Corrected a problem where the Achievement window would display the wrong achievements as having been completed until the window was closed and reopened.
+    - Removed an extra newline character in the skill mod string of the item display window.
+    - Added dragitem115.tga to the animations file.
+    - Augments that do not have a solvent listed now display text indicating they can only be removed using Perfected Augmentation Distillers.
+    - Added text that displays plot expiration times at the bottom of the real estate management and purchase windows, indicating that plots will expire after a certain number of days.
+    - Changed the default buy quantity for spells/songs from the max stack size to 1. This should prevent accidentally purchasing 20 copies of a spell when the intent was 1.
+
+
+    - Changed -
+    EQUI_Animations.xml
+    EQUI_MarketplaceWnd.xml
+    EQUI_RealEstateManageWnd.xml
+    EQUI_RealEstatePurchaseWnd.xml
+
+
+    - The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+September 25, 2012
+------------------------------
+
+Here is the patch message for this morning's game update (taken from the patcher):
+
+    *** Spells ***
+
+    - Enchanter - Removed the sound effect and particle effects from Twincast Aura.
+
+    *** AA ***
+
+    - Necromancer - Reluctant Benevolence has been changed to self-only for the buff while retaining the group target for the effects.
+
+    *** Progression Servers ***
+
+    - Pathfinder Arelat is now available on Progression Servers when Omens of War is unlocked.
+    - Grand Librarian Maelin now accepts the Gelatinous Murkglider Egg on Progression Servers when Omens of War is unlocked.
+    - Treanik Ireblade is now available on Progression Servers when Kunark is unlocked.
+    - Fine Potion Vial is now available on Progression Servers when Omens of War is unlocked.
+
+    *** Miscellaneous ***
+
+    - Fixed an issue where turning in a stack of items on tasks would only take half of the items at once.  It will now properly take the full amount and return the rest if there are extras.
+
+    - The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+October 16, 2012
+------------------------------
+
+Here are the patch notes for this morning's game update (as posted by Piestro on the EQ Forums):
+
+    *** Highlights ***
+
+    - Look to the sky! While the sky itself is not falling, parts of it may seem to be. Magus Burlshin, who has hidden himself in the lands around Erillion, has a curiosity about these things. If you share that curiosity, you may want to seek him out.
+    - In celebration of Harvester's Haunt, look for new items and ornamentations on creatures throughout Norrath.
+    - The traditional Harvester's Haunt events will run from October 19th to November 7th.
+    - Hero’s Forge robes have arrived! The Cloth Robe Ornament is granted as a reward set to cloth wearing classes when first purchasing the Hero’s Forge feature. If you already own the Hero's Forge, you can purchase the robe ornaments from Keliss Arden in Plane of Knowledge.
+
+
+    *** Items ***
+
+    - In celebration of Harvester's Haunt, look for new items and ornamentations on creatures throughout Norrath.
+    - Hero’s Forge robes have arrived! The Cloth Robe Ornament is now available from Keliss Arden in Plane of Knowledge. It is also granted to cloth wearing classes when purchasing the Hero’s Forge feature.
+    - The Guild Hall Anchor Package is now listed as Druid- and Wizard-only on the loyalty merchant.
+    - Removed errant stats on a number of unequippable or quest items.
+    - Boots with Hero’s Forge ornaments now display the correct appearance when a robe is worn.
+    - Adjusted the amount of experience required for the Tears of Alaris evolving item to reach level 20. The amount of experience required to reach level 20 is about what it previously took to reach level 16. At level 20 you can now right click the item to transform it into an augmentation.
+
+
+    *** Quests & Events ***
+
+    - Look to the sky! While the sky itself is not falling, parts of it may seem to be. Magus Burlshin, who has hidden himself in the lands around Erillion, has a curiosity about these things. If you share that curiosity, you may want to seek him out.
+    - The traditional Harvester's Haunt events will run from October 19th to November 7th.
+    - Breaching the Barrier - Blood Servants should now be affected by snares.
+    - Fumerak the Quintessence - Made several adjustments to the difficulty of the Sepulcher 3 Raid.
+    -- When the crystals visibly glow they should now display a message.
+    -- Reduced the rate at which the statues naturally power up over time.
+    -- Significantly reduced the rate at which the statues power up from spells being cast.
+    -- Reduced the range on Brilliant Purification from 25 to 10 and lowered its duration from 30 seconds to 18 seconds.
+    -- Reduced the range on Allure of Darkness from 12 to 8.
+    -- Reduced the amount of damage it takes to break Fumerak's Focus of Power, and reduced the amount by which the spell increases Fumerak's damage output.
+    -- Reduced the melee damage done by Fumerak.
+    -- Reduced the total HP of Fumerak and the various Devotees by about 15%.
+
+
+    *** Spells ***
+
+    - Beastlord - Adjusted the Hundred Hands effect on Kolos' Fury Rk. II and III.
+    - Enchanter - Compliant Lurch will no longer affect targets above level 100.
+    - Paladin - Corrected an error in the spell description for Preservation of Oseka Effect.
+    - Shaman - Corrected an error in the spell description for Vengeance of Sholoth.
+    - Wizard - Malediction, Denunciation, and Vilification of Havoc are now on timer 11.
+    - The illusion spells Simple Bellikos, Iksar Skeleton, and Sarnak can now be cast in combat as intended.
+
+
+    *** NPC ***
+
+    - Garjah Zotaki Is no longer worth much experience, and no longer leaves a corpse.
+
+
+    *** AA ***
+
+    - Druid - Wrath of the Forest Walker now stacks with other buffs.
+
+
+    *** Achievements ***
+
+    - Added the God Learner achievement, completed by finding some secret lore in Veil of Alaris.
+    - Moved the achievement "Twelve Days of Frostfell" from the "General" category to the "EverQuest -> Special" category.
+    - Added in missing Hero's Forge achievements for Sylvan, Insidious and Eternal Grove armor sets.
+    - Corrected the icons for the Viridian and Auburn Hero’s Forge achievements.
+
+.....................................................................
+
+
+------------------------------
+November 7, 2012
+------------------------------
+
+Here are the patch notes for this morning's game update (taken from the patcher):
+
+    *** Miscellaneous ***
+
+    - Made several changes to the way EverQuest is compiled. Please keep an eye out for any strange behavior. If you see any, please use /bug, or leave feedback in the update thread posted in the Developer Roundtable at http://forums.station.sony.com/eq.
+    - Increased the length of a friend's name that could be added using /friends.
+    - The command /language will now display the current language for the chat window.
+    - Petamorph wands now work on familiars.
+    - Fixed an issue with the in-game mailbox that was preventing the display of more than 10 characters.
+    - The "/outputfile spellbook" command will now properly output all spells in your spell book.
+
+    *** UI ***
+
+    - Added the ability to add friends from other servers in the Friends Window.
+    - Also made it so that the contact button in the Friends Window will operate for friends on other servers.
+    - Fixed a hot button text cut-off issue for Reprieve Rk. III. This also fixes some AAs with a similar issue.
+    - Fixed a comment typo in EQUI_Inventory.xml.
+    - The states of toggled buttons in the Pet Window will now persist through pet or player death.
+    - Added a "required level" column to the Merchant Window.
+    - Changed several key mapping names from "toggle (windowfunction) window" to "(windowfunction) window toggle." For example, "Toggle Party window" will now be "Party window toggle."
+    - Added a checkbox for audio triggers so that players may turn them off and on without deleting them.
+    - Fixed a visual bug with the "Hunter" button in the Achievements Window.
+    - Fixed a text clipping issue in note windows.
+
+    - Changed -
+    EQUI_Animations.xml
+    EQUI_AudioTriggersWindow.xml
+    EQUI_Inventory.xml
+    EQUI_MerchantWnd.xml
+    EQUI_NoteWindow.xml
+
+    - The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+November 27, 2012
+------------------------------
+
+EverQuest: Rain of Fear, EQ's 19th expansion, is all set to launch!
+
+As of this posting, servers are expected to be down until around 10:00 A.M. Pacific Time (1:00 P.M. Eastern Time). (We all know that could be +/- a few hours, of course.)
+
+In the meantime, you may want to check out some tips for getting started in Rain of Fear (with links to our posted guides) and read over the game update notes posted below here (these are taken from the patcher):
+
+    *** EverQuest: Rain of Fear ***
+
+    - The power of Fear, captured from its home plane by the Alarans and now freed from the grasp of the Triumvirate, is falling back to Norrath's surface in crystallized form.  The largest fragment of this power crashed on Alaris, very near to Erillion, the City of Bronze, but other powerful shards are falling elsewhere across the continents.  A new pathway is open outside of Erillion that leads to Shard's Landing, where followers of Cazic-Thule vie with other power-seekers in an attempt to restore their god.  Norrath's heroes are called into this conflict to prevent the rise of an even greater danger than the Triumvirate.
+
+    *** Highlights ***
+
+    - EverQuest's 19th expansion, Rain of Fear, has launched!  You can reach Shard's Landing by traveling through Erillion, the City of Bronze, or seek out new lands that other crystal impacts have revealed around the globe!
+    - Rain of Fear raises the level cap to 100.
+    - Added Slayer and Collection Achievements.  Slayer achievements will update when you kill the listed NPC.  Collection achievements will update when you right click the item.
+    - Added the Aggro Meter to display your current aggro rating in comparison to the most hated on an NPC.
+
+    *** Slayer / Collect Achievements ***
+
+    - When killing an NPC that is part of a Slayer achievement, you'll automatically get updated and your current kill counts can be viewed in the achievement window.
+    - A collectible item will have the "Collectible" tag in the item display window.
+    - To collect an item, right click on the item. When collecting an item you'll receive a notification message.
+    - Added "Collectible" as a filter option for "Select by Type" in the bazaar window and also alphabetized the type list.
+
+    *** Aggro Meter ***
+
+    - The new Aggro Meter displays your current percentage of hate compared to the entity that is most hated by the NPC that is the focus of the meter.  By default, this shows your current target, but the current aggro target can also be locked so that it won't change when you change your current target.
+    - The meter can be toggled open and closed using the EQ button, /aggrometer, or by assigning a key binding to it.
+    - Aggro meter displays can be toggled in the Player, Group, Target, and Extended Target Window using the right click menu for each window.
+    - Added the ability to set the low, warning, and most hated colors for the aggro ratings.  By default they are green, yellow, and red for low, warning, and most hated.
+    - Added the slash command /aggrolock that functions just like "Set Aggro Target" on the Aggro Meter.
+
+    *** Autonomous Brokering ***
+
+    - You will now be able to purchase items from a bazaar trader directly from the Bazaar Search Window if you own Rain of Fear.
+    - You will now be able to barter using the Barter Search Window if you own Rain of Fear.
+    - You will now be able to open The Bazaar Search and Barter Search windows using key bindings, EQ button commands, and the slash commands from any zone.
+    - You can now enter Offline Mode when in buyer or trader mode using the slash command or the "Offline Mode" button in the UI.  This will allow you to remain in this mode while EverQuest is not running.
+    - Offline transactions for each purchase / sale will output when you return from offline mode.
+    - Added in a confirmation for going into Offline Mode.  You can turn off this confirmation in the Options window.
+    - Added in key bindings, EQ button commands, and removed UI restrictions on opening the Bazaar / Trader Search window.
+    - Each trader item will now appear as the stack size that is for sale.  Previously the search results would return the total count of all of that item for sale in one line in the window.
+    - Implemented a max results per trader filter in the Bazaar Search window.
+    - Made some changes to the Bazaar Search window to make it look more like the Merchant window.
+     - - Added a "Preview" button.
+     - - Shortened "Inspect Item" to "Inspect" and put it at the top of the window.
+     - - Quantity is now its own column.
+     - - Added icons to the display (and made them follow the preview / inspect rules for right / left click).
+     - - The cost display now uses coin columns.
+     - - Made the "Find Trader" button only work when the highlighted item is being sold from a trader in the zone you are currently in.
+     - - Alt-left clicking the item line will now bring up the item inspect window for that line.
+    - Made some changes to the Barter Search window to make it look more like the Merchant window.
+     - - Added a "Preview" button.
+     - - Changed "View Item" to "Inspect" and put it at the top for compensation items.
+     - - Added an "Inspect" button for buy lines.
+     - - Quantity is now its own column.
+     - - Made the "Find Buyer" button only work when the highlighted item is being bought from a buyer in the zone you are currently in.
+     - - Made the icons follow the preview / inspect rules for right / left click.
+
+    *** Items ***
+
+    - Additional Hero's Forge robes have arrived! They are now available for the Ebon, Viridian, Violet, Beryl, and Auburn armor sets.
+    - Removed erroneous text from some augments which stated a solvent was required to remove them.
+
+    *** Tradeskills ***
+
+    - Hero's Forge violet cloth robes are now able to be crafted.
+    - Recipes that require a container as a component will now allow for auto-combine when the required container is in any container.
+
+    *** Quests & Events ***
+
+    - Increased the drop rate of the fear shards collected by Magus Burlshin.
+    - The Chaotic Vortex used in the Agnarr event in the Bastion of Thunder should once again teleport you when you right click it.
+    - Frostfell events will run from December 7th, 2012 to January 8th, 2013.
+
+    *** Spells ***
+
+    - Created hundreds of upgraded spells from level 96 to 100.  Rank I spells can be found on merchants in Shard's Landing, while higher ranks can be obtained from Tomekeeper Kirkaz, who is also in Shard's Landing.
+    - Beastlord - Corrected the spell description for Focus of Klar.
+    - Beastlord - Corrected the spell description for Spirit of Bale.
+    - Necromancer - Changed all "Scent of X" debuffs to match the icons and particle effects of Scent of Terris.
+    - Ranger - Corrected the spell icons for the "Swarm of X" DoT and Damage Shield spells.
+    - Wizard - Updated the fiery sword created by Burnmaster's Pyroblade.
+
+    *** AA ***
+
+    - Hundreds of Alternate Advancement upgrades are now available for levels 96 to 100.
+    - Warrior "Gut Punch" has had the accuracy debuff reduced in power for all ranks.
+    - Finishing Blow no longer requires the NPC to be visibly fleeing to activate.
+
+    *** Achievements ***
+
+    - Added Slayer and Collection Achievements.  Slayer achievements will update when you kill the listed NPC.  Collection achievements will update when you right click the item.
+
+    *** Progression Servers ***
+
+    - Fixed a problem that could cause an expansion to open without a vote.
+
+    *** Miscellaneous ***
+
+    - Fixed an issue where if you tried to go into full screen mode on a resolution that your monitor didn't support, it would previously crash the game.
+    - /log will now persist across logins.
+    - Added new tribute upgrades for level 96 to 100.  Some tribute types had new lines added to extend them past 10 ranks.
+
+    *** UI ***
+
+    - Added artwork for the Slayer and Collection buttons.
+    - Created new label EQTypes for the primary aggro rating, secondary aggro name, and secondary aggro rating.  They are:
+       AGGRO_TARGET_NAME    302
+       AGGRO_MOST_HATED_NAME    303
+       AGGRO_MOST_HATED_NAME_NO_LOCK    304
+       AGGRO_MY_HATE_PCT    305
+       AGGRO_MY_HATE_PCT_NO_LOCK    306
+       AGGRO_MOST_HATED_HATE_PCT    307
+       AGGRO_MOST_HATED_HATE_PCT_NO_LOCK    308
+       AGGRO_GROUP1_HATE_PCT    309
+       AGGRO_GROUP2_HATE_PCT    310
+       AGGRO_GROUP3_HATE_PCT    311
+       AGGRO_GROUP4_HATE_PCT    312
+       AGGRO_GROUP5_HATE_PCT    313
+       AGGRO_EXT_TARGET1_HATE_PCT    314
+       AGGRO_EXT_TARGET2_HATE_PCT    315
+       AGGRO_EXT_TARGET3_HATE_PCT    316
+       AGGRO_EXT_TARGET4_HATE_PCT    317
+       AGGRO_EXT_TARGET5_HATE_PCT    318
+       AGGRO_EXT_TARGET6_HATE_PCT    319
+       AGGRO_EXT_TARGET7_HATE_PCT    320
+       AGGRO_EXT_TARGET8_HATE_PCT    321
+       AGGRO_EXT_TARGET9_HATE_PCT    322
+       AGGRO_EXT_TARGET10_HATE_PCT    323
+       AGGRO_EXT_TARGET11_HATE_PCT    324
+       AGGRO_EXT_TARGET12_HATE_PCT    325
+       AGGRO_EXT_TARGET13_HATE_PCT    326
+       AGGRO_EXT_TARGET14_HATE_PCT    327
+       AGGRO_EXT_TARGET15_HATE_PCT    328
+       AGGRO_EXT_TARGET16_HATE_PCT    329
+       AGGRO_EXT_TARGET17_HATE_PCT    330
+       AGGRO_EXT_TARGET18_HATE_PCT    331
+       AGGRO_EXT_TARGET19_HATE_PCT    332
+       AGGRO_EXT_TARGET20_HATE_PCT    333
+    - Created a new gauge EQType(149) for the aggro gauge.
+    - Fixed an issue where automatic vertical scroll bars were sometimes overlapping text.
+    - Changed the Note window to automatically scroll if the text is too long.
+    - Changed the buttons in the Achievements window from plain blue to stylized versions.
+    - Fixed a bug with Merchant windows where the quantity window for purchase would always default to max stack even if the merchant didn't have that many available.
+    - Added a way to reset the your current UI to the default UI in the Character Select Screen.
+
+    - Added -
+    EQUI_AggroMeterWnd.xml
+    EQUI_BazaarConfirmationWnd.xml
+
+    - Changed -
+    EQUI.xml
+    EQUI_AchievementsWnd.xml
+    EQUI_AchievementWnd.xml
+    EQUI_Animations.xml
+    EQUI_BarterWnd.xml
+    EQUI_BarterSearchWnd.xml
+    EQUI_BazaarWnd.xml
+    EQUI_BazaarSearchWnd.xml
+    EQUI_CharacterListWnd.xml
+    EQUI_ExtendedTargetWindow.xml
+    EQUI_GroupWindow.xml
+    EQUI_LFGuildWnd.xml
+    EQUI_NoteWindow.xml
+    EQUI_OptionsWindow.xml
+    EQUI_PlayerWindow.xml
+    EQUI_TargetWindow.xml
+
+    *** Previously Updated ***
+
+    - Corrected a bug that prevented some players with older processors from launching the game.
+
+    - The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+November 30, 2012
+------------------------------
+
+It was a small game update today, but an important one if you use healer mercenaries! Here are the patch notes (from the patcher):
+
+    *** Mercenaries ***
+
+    - Healer mercenaries above level 95 will now cast heals of appropriate power.
+
+    *** Items ***
+
+    - Weapons which could not be equipped in the secondary slot have had the Secondary tag removed.
+
+    *** Spells ***
+
+    - New tribute effects should now be working correctly.
+
+    *** AA ***
+
+    - Magician - Rank 10 of Force of Elements should now be working properly.
+
+    *** Progression Servers ***
+
+    - Restricted Rain of Fear claimable items to only be available once that expansion is unlocked on the progression servers.
+
+    *** Previously Updated ***
+
+    - Fixed an issue where the Shard's Landing raid was not accessible due to a zone filter.
+
+
+    - The EverQuest Team
+
+.....................................................................
+
+
+------------------------------
+December 12, 2012
+------------------------------
+
+Here are the patch notes for this morning's game update (taken from the patcher):
+
+    *** Highlights ***
+
+    - New hats have arrived in celebration of Frostfell! Adventurers with the Hero's Forge feature can now wear a variety of hat ornamentations that have a chance to drop from all mobs in non-raid zones.
+    - Player Studio Items will be live on December 13th! Check the Marketplace then to see what's new!
+    - Fixed an issue that was causing the Small Bright Fear Shards in Shard's Landing to become unavailable over time. These shards will also spawn more frequently.
+    - New AA upgrades have been added. See the AA section below for more details.
+
+
+    *** Items ***
+
+    - Player Studio Items will be live on December 13th! Check the Marketplace then to see what's new!
+    - New hats have arrived in celebration of Frostfell! Adventurers with the Hero's Forge feature can now wear a variety of hat ornamentations that have a chance to drop from all mobs in non-raid zones.  
+    - Fixed an issue that was causing the Small Bright Fear Shards in Shard's Landing to become unavailable over time. These shards will also spawn more frequently.
+    - All Rain of Fear equipment with appearances can now be placed in housing.
+    - Bard focus spells have been added to several armor pieces that were missing them.
+    - Several missing spells have been located and returned to their items.
+    - Corrected several item naming errors.
+
+
+    *** Quests & Events ***
+
+    - Subdued Subjects - Luring a subdued spinechiller to Veldmir should now properly update the task, regardless of whether you have brought him a subdued orc already.
+    - Shard Experiences - Chunks of Alaran Flesh will now be available from the intended NPCs.
+    - A Feast Fit for a Coldain - Baffod now asks for Juicy Bunny Meat and Fresh Snow Griffin Eggs.
+    - Paradise Lost - Task credit is now only rewarded when handing in the item to the proper NPC.
+    - Deliver Us Unto Evil - Drjek will now give you a new Large Sliver of Fear if you happen to lose yours.
+    - Coveted Rubbish - Selya should now respond correctly when approached about its obsession.
+
+
+    *** Spells ***
+
+    - Cleric - Corrected the spell landed message of Symbol of Gezat.
+    - Ranger - Removed the Grasping Spurcoat spell since it had no better effect than Grasping Nettlecoat but cost more mana. It should no longer be for sale or selectable as a reward and can safely be deleted from your spellbook.
+    - Wizard - Removed Firetree's line of familiar enhancing spells because familiars are no longer hit by spells and do not need the buffs. The spells should no longer be for sale and can safely be deleted from your spellbook.
+
+
+    *** NPC ***
+
+    - Magus Burlshin has solved his quandary of duality and will only appear in Shard's Landing now.
+    - The imposter drolvarg captain commonly seen in Karnor's Castle has been demoted to lieutenant. The real captain was not pleased with his subordinates taking his title.
+    - Corrected grammar errors in Breeding Grounds, Crystal Caverns: Fragment of Fear, the Valley of King Xorbb, Kael Drakkel: The King's Madness, Shard's Landing, and East Wastes: Zeixshi-Kar's Awakening.
+    - Mobs in Rain of Fear that con as "easy" no longer reject all slow spells, which will now allow spells with a slowing component to land. However, ninety-nine percent of the slowing component will be mitigated.
+
+
+    *** AA ***
+
+    - Berserker - Created 3 new ranks of Hastened Self Preservation.
+    - Druid - Vinelash Assault has been added to Extended Vinelash Cascade.
+    - Druid - Survival of the Fortuitous has been added to Fortified Survival.
+    - Monk - Created 3 new ranks of Hastened Speed Focus.
+    - Paladin - Created a new rank of Disruptive Persecution.
+    - Rogue - Created 3 new ranks of Extended Envenomed Blades.
+    - Rogue - Created 3 new ranks of Precision.
+    - Shadowknight - Terror of Poira has been added to Quickened Terrors.
+    - Warrior - Created 5 new ranks of Phalanx of One.
+    - Warrior - Krondal's Roar will now correctly be affected by Hastened Bazu Roar.
+
+
+    *** Skills ***
+
+    - Fixed an issue with skill caps on Forage for levels 96 to 100. The cap has been returned to 200 for all classes with the Forage skill.
+
+
+    *** Achievements ***
+
+    - Corrected an error that granted a blank achievement upon logging in to the game.
+
+
+    *** Collections ***
+
+    - Collection items should no longer spawn in positions that lure you into portals. Offending spawns have been punished for their treachery.
+
+
+    *** Miscellaneous ***
+
+    - Fixed some issues related to memory handling. Crashing after zoning multiple times in a play session should be less frequent now.
+    - Fixed an issue with emitters that was causing unnecessary memory consumption.
+    - Optimized a processing and memory issue with the Pet Info window.
+    - Fixed an issue related to particle density where it wasn't properly using the settings in the Options window.
+    - Fixed a mercenary leveling issue. You should no longer have to zone to get your mercenary to use its proper focus items after you have just leveled up.
+    - Fixed an issue with the AA slider and the new Rain of Fear-style rewards. You will now receive all of the level experience that is intended even if the AA allocation is set to 100 percent.
+    - Added some additional client logging to track down crashing issues. Please keep sending in reports!
+
+    *** UI ***
+
+    - Modified the Item Inspect window and the Marketplace window to support Player Studio items.
+    - Changed some text related to bazaar delivery to no longer reference "mailbox" when it should be "parcels."
+    - Fixed a merchant stack issue where selling an item to a merchant that already has the item was using the stack size as the quantity that the merchant had.
+
+    - Changed -
+    EQUI_Animations.xml
+    EQUI_BazaarConfirmationWnd.xml
+    EQUI_ItemDisplay.xml
+    EQUI_MarketplaceWnd.xml
+
+
+    *** Previously Updated ***
+
+    - Fixed an issue that was causing the first raid event in the Valley of King Xorbb to crash.
+    - Noel Gladestrider in Shard's Landing has restored his stock of scrolls for the Druid spells Spikethistle Bulwark, Granitebark Skin, and Granitebark Blessing.
+    - Fixed a problem where Xorbb Raid 2, Yymp the Abyssal, would not start properly in a new dynamic zone.
+
+
+    - The EverQuest Team
+
+.....................................................................
