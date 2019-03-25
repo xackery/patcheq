@@ -1,0 +1,784 @@
+Patch Messages from January 2015 to June 2015
+
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: January 8, 2015
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-january-8-2015.217011/
+
+*** Hotfix ***
+
+- Changed the way success is granted in the Arx Mentis progression raids, hoping to prevent false wins.
+- Fixed a bug in the final raid in Arx Mentis that would allow Firiona and Galeth to tank for the players. Now if no players engage, the event will reset if Calix can’t find a player character to beat up.
+- Entering Plane of Knowledge while on the last step of M.C. Tinkerton's tasks or with a reward from M.C. Tinkerton's tasks will update the achievement to complete that task. 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: January 12, 2015
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-january-12-2015.217130/
+
+***Hotfix***
+
+-The NPCs related to M.C. Tinkerton's events will now spawn for the duration of the New Year's events. 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: January 21, 2015
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-january-21-2015.217248/
+
+    *** Highlights ***
+
+    - If you give an item to your pet that it can't equip, the item will now be returned to you.
+    - Further lowered resist modifiers for all melee abilities from The Darkened Sea. They should land more reliably now.
+    - Increased the HP on mercenaries of level 101 and above by 10 percent.
+    - Arx Mentis Hero's Forge Ornaments now drop from raid chests in Arx mentis. Prices on most pieces from Researcher Orbiana have been reduced.
+    - Focus effects on early The Darkened Sea group items now cap at 103 instead of 100.
+    - Made an adjustment to the way that NPC character models created prior to the Omens of War expansion are loaded and displayed. This change coincides with a number of graphical updates and fixes to these models.
+    - The bag opening sound effects have had their volume reduced significantly.
+    - Sound effects for treading water, entering water, leaving water, and being underwater have been improved.
+
+
+    *** Items ***
+
+    - The Empowered Dragonscale Skystrider Saddle now correctly grants an additional mount slot.
+    - Focus effects on early The Darkened Sea group items now cap at 103 instead of 100.
+    - Bags of Silver and Gold Tokens are now available from Alerynril in Plane of Knowledge. On progression servers, Rain of Fear must be open to purchase these bags.
+    - Corrected several issues with The Darkened Sea cultural armor stats.
+    - August Bounder armor now has a required level of 101 and a recommended level of 105.
+    - Cultural charms now increase in power wearing August cultural armor.
+    - August Cultural armor pieces have had their Emblem slots removed.
+    - Corrected an issue that prevented the Trophy of the Seafarer from granting its intended stats.
+    - Arx Mentis Hero's Forge Ornaments now drop from raid chests in Arx Mentis. Prices on most pieces from Researcher Orbiana have been reduced.
+
+
+    *** Tradeskills ***
+
+    - Blackwort is now flagged as a tradeskill item.
+    - Master's Preservation bonus now decays on spells over level 105.
+    - A text error in the book "Adventures in Woodworking" has been fixed.
+    - Boundless Reaching Symbols for jewelcraft are now properly scribed from the Boundless Jewelcraft Weapon Augments book.
+    - Additional clarifying text for the tradeskill "Test" trophy quests has been added.
+    - Mariner's Alacrity bonus now decays on spells over level 105.
+    - Energized Clay Goo Pot now improves the pottery trophy when crafted.
+    - The August Lorekeeper Sleeves recipe is now labeled as such instead of as "August Lorekeeper Robes."
+
+
+    *** Quests & Events ***
+
+    - Castle Relic - This Heroic Adventure is now more lenient about giving the key bit to players. Players outside the zone will now receive the key. Also, even if you do not have the key, if you are in the Heroic Adventure instance and have defeated Commander Degmar, the safe room will allow you entry. Note: As part of this change, this task will now lock when the Commander runs from players after their first engagement with him.
+    - Fixed a bug in Arx Mentis raids that could cause the chest to be removed when the event cleans up.
+    - They're Everywhere - Reduced the number of injured bixies you need to revive from 15 to 10.
+    - The Avalanche raid in Icefall Glacier can now be triggered by one person. On progression servers, Seeds of Destruction must be unlocked before it can be triggered solo.
+    - LDoN quest messages will no longer be sent to players after the Omens of War expansion is enabled on a server.
+
+
+    *** Spells ***
+
+    - Multiple Classes - Further lowered resist modifiers for all melee abilities from The Darkened Sea. They should land more reliably now.
+
+
+    *** NPC ***
+
+    - Made an adjustment to the way that NPC character models created prior to the Omens of War expansion are loaded and displayed. This change coincides with a number of graphical updates and fixes to these models.
+    - Reduced the agro and assist radii on most NPCs within Combine Dredge and the Combine Dredge Heroic Adventure. As part of this change, also marked the NPCs in the quarry as "indoor" so they will have further decreased agro and assist radii.
+    - Haunted Jack and Spooky Sally will no longer spawn in cities unless the Nights of the Dead event is active.
+    - Increased the HP on mercenaries of level 101 and above by 10 percent.
+
+
+    *** AA ***
+
+    - Wizard - Quick Damage will now work on Ethereal Fuse.
+    - Wizard - The description on Quick Damage now indicates the cast time bonus for ranks 4 and 5.
+    - Wizard - Ethereal Manipulation will now work on the latest ethereal spells: Ethereal Flash, Ethereal Rimeblast, and Ethereal Skyblaze.
+
+
+    *** Achievements ***
+
+    - Frostfell: Missing Gifts - Fixed the two incorrect references to Elba Straw. The achievement now references the appropriate NPCs: Cordys Leaflighter and Rellith Akkanar.
+    - Frostfell: Lost Toymakers - Changed the references of Dreadlands to the proper zone of The Great Divide.
+    - Frostfell: Gathering Jollies - Fixed the typo of "Knopwledge" to "Knowledge."
+    - New Years: Frostbeard - Fixed the issue with the tasks from M.C. Tinkerton not being flagged as completed, preventing this achievement from completing.
+    - Upon login, characters will receive achievement credit for the Frostfell tasks "Saving Santug" or "Searching for Clues" if these tasks were previously completed.
+    - Corrected an issue that prevented Halius Goldenthorn from selling the Statue of Silisia to players that had completed the achievement "Cavern Collectibles."
+
+
+    *** Miscellaneous ***
+
+    - NPC pathing in Bixie Warfront should be more reliable.
+    - The bag opening sound effects have had their volume reduced significantly.
+    - Sound effects for treading water, entering water, leaving water, and being underwater have been improved.
+    - If you give an item to your pet that it can't equip, the item will now be returned to you.
+    - Fixed a crash that could occur sometimes when going to character selection.
+    - Fixed an issue that was causing some sounds to ignore your sound volume settings in the Options window.
+
+
+    *** Previously Updated ***
+
+    - The Cost of Balance - When entering the instance, you will no longer appear under the world.
+    - All Rivers Lead to the Sea - You can no longer spawn multiple copies of Holmein by spam-hailing the Unseen, Unheard Helper.
+    - In Combine Dredge, moved Pria the Penitent and her placeholders down the ramp, away from Amlis the Torturer. This will make it safer for players trying to speak with Amlis. Additionally, NPCs on Pria's encounter will be less observant and not see as far.
+    - Kedge Counterblow - The rare NPC High Guard Vnayyanye or its placeholder, "a restive guard," will no longer spawn early in this Heroic Adventure.
+    - Argin-Hiz - Burn Out (Raid and Mission) - The Balance and Unbalance achievements are given out appropriately now.
+    - Changed the way success is granted in the Arx Mentis progression raids, hoping to prevent false wins.
+    - Fixed a bug in the final raid in Arx Mentis that would allow Firiona and Galeth to tank for the players. Now if no players engage, the event will reset if Calix can't find a player character to beat up.
+    - Entering Plane of Knowledge while on the last step of M.C. Tinkerton's tasks or with a reward from M.C. Tinkerton's tasks will update the achievement to complete that task.
+    - The NPCs related to M.C. Tinkerton's events will now spawn for the duration of the New Year's events.
+
+
+
+    - The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: January 23, 2015
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-january-23-2015.217300/
+
+- Fixed an issue where Emblems inserted in August cultural armor were being deleted rather than removed to your cursor.
+- Fixed an issue that prevented Froglok August Bounder cultural armor from accepting seals.
+- Fixed an issue that prevented cultural charms from working with Froglok cultural armor.
+- Fixed the Cleave IX - 42 effect on Cultural Raid Elder Chest Seals.
+- All Cultural Raid Elder Seals "of the Oracle" should now decay at level 105, instead of just some of them.
+- Fixed an issue where the netstat window was not being correctly toggled via its mapped hotkey (Default: F11).
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: January 28, 2015
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-january-28-2015.217421/
+
+- Fixed an issue where some NPC models were showing up as default humans instead of their intended appearance. This applied to Zebuxoruk in The Void, and Dragons and Chromadrakes in Skyshrine.
+- Removed some zone_assets.txt files that contained no entries which could cause client memory problems.
+- Restored missing particle effects on Arx Mentis raid weapons.
+
+.....................................................................
+
+------------------------------
+Game Update Notes: February 25, 2015
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-february-25-2015.218059/
+
+*** Highlights ***
+
+- EverQuest's 16th anniversary is approaching soon! Look for new and old celebration events appearing in the Plane of Knowledge starting on March 16th! As always, the Mechanical Fortune Teller can direct you to events that are available.
+- As requested at SOE Live 2014, a new item has been added to the marketplace: Hero's Forge Armor Crate! Combine a full matching suit of Hero's Forge Armor (Helm, Chest, Arms, Wrist, Hands, Legs, Feet) in the Hero's Forge Armor Crate to receive a single, stackable item. The Hero's Forge Armor Crate can only be used once.
+- Tricorne hats are now available for participation in The Darkened Sea beta. The hat can be converted into an ornament if you have Hero's Forge.
+
+
+*** Items ***
+
+- As requested at SOE Live 2014, a new item has been added to the marketplace: Hero's Forge Armor Crate! Combine a full matching suit of Hero's Forge Armor (Helm, Chest, Arms, Wrist, Hands, Legs, Feet) in the Hero's Forge Armor Crate to receive a single, stackable item. The Hero's Forge Armor Crate can only be used once.
+- Bayle Marks can now be traded.
+- August Bounder armor now has a required level of 101 and a recommended level of 105.
+- Tricorne hats are now available for participation in The Darkened Sea beta. The hat can be converted into an ornament if you have Hero's Forge.
+- Greatly increased the drop rates of Briny Essences from rare NPCs and mission chests.
+- Greatly increased the drop rates of Castaway, Tideworn, and Highwater armor pieces.
+- Made the following modifications to the Decorative Dummies sold by Brent Harnak in Sunrise Hills:
+- - The Combat Dummies can now be placed inside personal housing in addition to guildhalls.
+- - The Combat Dummies can now have their level, armor class and body type modified.
+- - Three new ranks of Combat Dummies that coincide with the most recent difficulty types of NPCs (Rena, Sana, Taza) are now for sale.
+- - All ranks of Combat Dummies now have lore text that should better describe their intended level of power.
+- Replaced all Call of the Forsaken gemstone drops with Rain of Fear gemstones in the Heart of Fear zone.
+- Moved the Spell Guard component of the Geomantra line to slot 7 so that it will stack with other Spell Guard effects.
+- Corrected an error that prevented Bags of Doubloons from being opened.
+
+
+*** Tradeskills ***
+
+- August Bounder armor now has a required level of 101 and a recommended level of 105.
+- AC on The Darkened Sea cloth cultural armor and seals is now more consistent.
+- Consolidated most of the tradeskill vendors in the Plane of Knowledge. All of the items that were sold are still present, just on fewer vendors.
+
+
+*** Quests & Events ***
+
+- Captain Tita's Ghost (Raid) - Fixed a bug that was causing the Phasmia Ledalus to do considerably more melee damage than was intended.
+- Captain Tita's Ghost (Raid) - Adjusted Tita's melee damage increase to occur more quickly only if the majority of her reinforcements are "Annoyed" rather than just "Bored."
+- Captain Tita's Ghost (Raid) - Adjusted the Phasmia Vitali so that their use of Pillar of Claws more closely matches their behavior in raid 1.
+- Defense of the City (Raid) - This raid will no longer drop spell essences other than Minor Essence of the Citadel.
+- Principal Vicarium Noma (Raid) - Fixed a problem that could cause this event to reset if it was successfully beaten very close to the hard reset timer (45 minutes).
+- All progression raids in Arx Mentis now drop four to eight Essences of the Citadel.
+- A Cunning Plan (Raid) - Mephit minions in this Lichen Creep raid now send their target a message when using their Clawed Swipe ability from afar.
+- Corrected an issue with the achievement 'The Tavern at the End of Norrath (Raid).' It now correctly checks for the completion of 'Field of Scale - Confrontation.'
+- Those seeking the elusive sphinx Isilisinisusurpa should inquire with Noble Sivrn as to her whereabouts.
+
+
+*** Spells ***
+
+- Added an additional restriction to all Twincast effects that allows specific spells to be fully damage focused but not Twincast. Existing abilities were not changed except where noted below.
+- Druid - Winter's Wildflame Frostbite and Burn can now be fully focused, but excluded them from being Twincast individually. The base spell can still be Twincast.
+- Magician - Added a restriction that prevents Remorseless Servant and Remote Remorseless Servant from using Twincast counters.
+- Ranger - Flusterbolt and Blusterbolt now scale their resistance modifiers as you level. High level mobs should no longer resist these abilities as often.
+- Ranger - Summer's Cyclone Burn and Splash can now be focused fully but will not be Twincast individually (Summer's Cyclone can still be Twincast).
+- Shaman - Renamed the version of Mammoth's Force and Preeminent Foresight given by all ranks of Unity of the Doomscale to Mammoth's Force III and Preeminent Foresight III to signify that the buffs given by all three ranks are equivalent and at maximum effectiveness.
+- Wizard - Modified Wildflash Barrage subcomponents so that only the base spell will use Twincast counters.
+
+
+*** NPC ***
+
+- Researcher Orbiana will now sell all Essences of the Citadel if you have completed the raids they drop from.
+- Vendors around Norrath have agreed to accept less profit when selling Nobles to adventurers. You can now purchase them for a closer amount to their selling price than before.
+- A Priest of Discord has taken residence in the northwestern section of the Guild Lobby. All Priests of Discord have readopted their old habit of destroying items that are handed to them.
+- The Animated Tomes in the Dreadspire library will now respawn much more quickly.
+- Corrected the appearance of Raveners in Kaesora.
+
+
+*** AA ***
+
+- Beastlord - Modified Bestial Alignment to change wood elf characters into treants instead of wolves.
+- Enchanter - Mana Overburn will now work on Mana Repercussion, Mana Reverberation, and Mana Reciprocation.
+
+
+*** Progression Servers ***
+
+- Extra mercenary slots can now be purchased on Progression servers.
+
+
+*** Miscellaneous ***
+
+- If a player picks up a lore ground spawn item they already own, they can now again see the item without requiring that the player change zones or log out and back in.
+- Fixed a building in Nedaria's Landing which had missing geometry.
+- Fixed various links inside the help and petition system to point to daybreakgamecompany.com instead of SOE.com.
+- Changed some of the references to Sony Online Entertainment to Daybreak Game Company and from SOE to DBG.
+- Summoned wolves will now run instead of slide.
+- Removed the restriction on opening help windows within the Tutorial zone.
+
+
+*** UI ***
+
+- Fixed an issue with popup windows where the text on buttons and window heading text was sometimes displaying old data.
+- Fixed a grammatical issue in the race change window from "and your bind location to be changed" to "and your bind location will be changed".
+- The dynamic zone and guild management window minimum sizes can now be changed in the xml files.
+- Fixed an issue with list windows when clicking column headers when not scrolled to the top of the list.
+- Fixed a bug where some text could overlap in the item window.
+- Fixed social integration sync.
+- The Looking for Guild window will now use total assigned AA points rather than the total number of AA points spent.
+
+
+- Changed -
+
+- EQUI_DynamicZoneWnd.xml
+- EQUI_GuildManagementWnd.xml
+- EQUI_RaceChangeWnd.xml
+
+
+*** Previously Updated ***
+
+- Fixed an issue where some NPC models were showing up as default humans instead of their intended appearance.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: March 5, 2015
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-march-5-2015.218401/
+
+*** Hotfix ***
+
+
+- All Arx Mentis progression raids will now only pull people from the raid areas to their safe points rather than everyone in the zone.
+- Praetor Captain Tita (Raid) - Fixed an error that was causing her to cast the wrong spells on the wrong targets and preventing the Slapstick achievement from being completed. She will now correctly use her ability Shield Sweep, which does damage in a forward arc and a little knockback.
+- Principal Quastori Numicia (Raid) - Purple and Green golems will no longer regenerate while this event pauses. This should make the Balance of Power achievement a bit easier to complete.
+- Principal Indagatrix Lucia (Raid) - Fixed the messaging from the Humas Proloxis and Ignas Proloxis so that all players should be able to see the warning messages from their AoE spells.
+- Principal Indagatrix Lucia (Raid) - Principal Indagatrix Lucia will no longer jump to attack NPCs, including pets or Firiona. Also, when she warns about incoming parasites, she will shout so that all of her Magia can hear her.
+- Calix Quirinus (Raid) - Fixed a bug that prevented players from completing the Evil Ended achievement in this event.
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+Game Update Notes: March 11, 2015
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-march-11-2015.218647/
+
+*** Highlights ***
+
+- Experience in pre-CotF zones for characters over level 100 has been increased dramatically.
+- Mercenary experience gains from task rewards are no longer capped.
+- Heroic Adventure completion experience rewards will now be modified by Lesson of the Devoted, Bottles of Adventure, and other experience-modifying buffs.
+
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: March 17, 2015
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-march-17-2015.218807/
+
+*** Hotfix ***
+
+
+- Cleansing the Ground - Greatly reduced the number of infection hosts that spawn after the boss is defeated and lowered their levels by 5 to allow them to be dispatched more easily.
+
+.....................................................................
+
+------------------------------
+Game Update Notes: March 25, 2015
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-march-25-2015.218967/
+
+    *** Highlights ***
+
+    - The Advanced Loot System is here! See the section below for details.
+    - Added a prompt when deleting a character to make the player type the character's name as the confirmation instead of clicking a button.
+    - Most vendors from the Plane of Knowledge have returned from hiatus. They feel as though they can still compete with all-in-one vendors.
+
+
+    *** Advanced Loot System ***
+
+    - Please note that there are extensive help files available in the /advloot window. The following is an overview to help you get started.
+    - If you wish to disable the Advanced Loot System, type /advloot, click on the "Edit Filters" button, and then uncheck the "Use Advanced Looting" option there.
+
+    - When you are solo, any loot from NPCs you kill will appear in your Personal Loot List. You have these options with things that appear on this list:
+    - - Loot: Click the green check mark and this item will be placed in your inventory immediately.
+    - - Leave: Click on the red X and the item will be left on the NPC's corpse.
+    - - AN (Always Need): Check this box to say you always "need" this item. While solo you will always loot this item automatically (if you have Apply Filters checked).
+    - - AG (Always Greed): Check this box to say you always "want" this item. While solo you will always loot this item automatically (if you have Apply Filters checked).
+    - - Never: Click on this red X and the item will be added to your "never" filter, meaning it will never be added to your personal loot list again (if you have Apply Filters checked).
+    - - Loot All: If you choose this button, the system will attempt to move everything in your Personal Loot List in to your inventory.
+
+    - When you are in a group, the Master Looter's name will appear in the loot window, and the following options now appear in your Shared Loot List:
+    - - ND (Need): Indicate that this item will benefit you directly.
+    - - GD (Greed): Indicate that you would like this item.
+    - - NO: Indicate that you do not want this item.
+    - - AN (Always Need): If you select this, you will always roll "Need" for this item.
+    - - AG (Always Greed): If you select this, you will always roll "Greed" for this item.
+    - - NV (Never): Indicate that you never want this item.
+
+    - If you are the Master Looter, you have the following additional options:
+    - - Action: This is an icon that shows the current status of the item. It defaults to "Ask" (Question Mark) which will ask your group to speak up for the item. If you click this button, it will change to "Stop" (Red octagon), which will stop all action relating to the item.
+    - - Manage: If you click the gear icon, you open the Manage window. From this window you can choose the following:
+    - - - Leave On Corpse will leave the item on the corpse. Once the corpse unlocks, anyone is free to loot it.
+    - - - You can also choose a player in your group from the drop-down menu and click "Give." This will award the item to that player directly.
+    - - - If you check "Auto Roll," an automated random roll will occur whenever this item is seen again, awarding the item directly to the winner.
+    - - Roll: Check this box to initiate a roll for the item.
+    - - You can also right-click on the item for the following options:
+    - - - Free Grab: The first person to express interest in this item (by checking ND, GD, AN, or AG) will get it.
+    - - - Leave on Corpse: The item is removed from the Shared Loot List and anyone can loot it from the corpse.
+    - - - Give to: This option lets you give the item directly to a specific person in your group.
+
+
+    *** Quests & Events ***
+
+    - Artifacts of Great Importance - Made eating mushrooms a bit easier in this Heroic Adventure, and fixed a bug that could prevent the task from progressing if you ate the mushrooms too quickly. You no longer need to target yourself when using the Living Fungi (but if you want to, go for it).
+    - Liquid Courage - A Flask of Fire Water no longer incorrectly sends messages regarding a bonus objective. The real method to obtain the objective does not involve this item.
+    - Korucust's Royal Pain - Corrected a problem that could allow players to complete some task elements out of order and get stuck.
+    - Korucust's Royal Pain - Removed the requirement to have the key on your cursor when opening locked doors. It can merely be in your inventory.
+    - Korucust's Royal Pain - Reduced the number of kills necessary to complete those steps of the mission so you no longer have to track down everything in the zone.
+    - Korucust's Royal Pain - Changed the Key Teeth icon to use something more key-like than the salt and pepper shaker icon.
+    - Korucust's Royal Pain - Enemies in this Heroic Adventure now scale down in level more fairly.
+    - Pirates of Timorous Deep - Pirates you encounter in this mission will no longer enrage at low health.
+    - Pirates of Timorous Deep - Fixed a bug that could cause the buried treasure to not spawn in very rare circumstances.
+    - Pirates of Timorous Deep - Enemies in this Heroic Adventure now scale down in level more fairly.
+    - Cleansing the Ground - Fixed a bug that could cause far too many infected and hosts to spawn in this task.
+    - In the Plane of Fear, a harbinger of Fear can help adventurers get their epic 1.0 pieces that would normally drop from Cazic-Thule or the golems. These pieces cannot be multi-quested or traded. In addition, a harbinger of Fear can advance the Whistling Fists quest in the same way as Cazic-Thule.
+
+
+    *** Spells ***
+
+    - Druids - All spells in the Winter's Flame line have been changed to work like Winter's Wildflame. The component spells will now receive the full benefit of damage foci but will not use twincast counters on their own. The base spells can still be twincast as before.
+    - Magicians - Added "No Twincast" effects to all levels of Rampaging Servant. This allows the pet to be focused but prevents the single point of damage on this spell from using Twincast charges.
+    - Rangers - All spells in the Summer's Dew line have been changed to work like Summer's Cyclone. The component spells will now receive the full benefit of damage foci but will not use twincast counters on their own. The base spells can still be twincast as before.
+    - Spells that burn mana or endurance (such as the Tears of Qandieal line or Ignite Energy line) can now stack with each other on the same target.
+
+
+    *** NPC ***
+
+    - Brasse's beard has been located and returned to the correct location.
+    - Most vendors from the Plane of Knowledge have returned from hiatus. They feel as though they can still compete with all-in-one vendors.
+
+
+    *** AA ***
+
+    - Monk - Removed the knockback effect from Dragon Punch AA procs. Additionally removed the option to create an activation button for this ability because it is a passive effect.
+
+
+    *** Miscellaneous ***
+
+    - Changed the default file format for screenshots to JPG instead of BMP. You can change your screenshot format back to BMP or to PNG by placing the line "ScreenshotType=PNG" in the [Defaults] section of your eqclient.ini file.
+    - Disabled the force pop-up of the expansion at the login screen when you don't have the expansion.
+    - Removed the force pop-up of the Welcome Screen when logging in.
+    - Opening the petition window in your default browser should no longer point to an invalid page.
+    - /hidecorpse options: always, looted, listed and listedunlocked will now persist when zoning and logging off.
+    - Optimized the processing of long merchant lists. They should open more quickly now.
+
+
+    *** UI ***
+
+    - Added the new /autobank command. This will attempt to place any item on your cursor in your bank.
+    - The voice chat window is no longer active by default.
+    - /clearchat and /clearallchat now function while in hover mode.
+    - Fixed an issue with the Find window where scrolling to the bottom wouldn't stay there if you were in a group with 'show group' enabled.
+    - Added the ability for coin and point crystals to update when custom UIs move them to the alternate currencies tab.
+    - Added a prompt when deleting a character to make the player type the character's name as the confirmation instead of clicking a button.
+
+    - Many UI files have been changed. If you are unable to log in to a character with a custom UI, be sure to check the "Reset UI to Default" option just below "Enter World" on the Character Select screen.
+
+    - Added -
+    EQUI_AdvancedLootWnd.xml
+    EQUI_LootFiltersCopyWnd.xml
+    EQUI_LootFiltersWnd.xml
+    EQUI_ManageLootWnd.xml
+
+    - Changed -
+    EQUI_Templates.xml
+    EQUI_Animations.xml
+    EQUI_OptionsWindow.xml
+    EQUI_RaidWindow.xml
+    EQUI_Templates.xml
+    EQUI_TextEntryWnd.xml
+    EQUI.xml
+
+    *** Previously Updated ***
+
+    - Cleansing the Ground - Greatly reduced the number of infection hosts that spawn after the boss is defeated and lowered their levels by 5 to allow them to be dispatched more easily.
+
+
+
+    - The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: April 9, 2015
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-april-9-2015.219480/
+
+*** Hotfix ***
+
+- Korucust's Royal Pain - Lowered the difficulty of NPCs in this mission.
+- Liquid Courage - Fixed an issue that was causing the bonus objective to be awarded to the incorrect person (or nobody).
+- The triggered version of the Iksar broodling in the Plane of Fear that's spawned via the harbinger of Fear will now properly drop the Child's Tear instead of a citizenship token.
+- Fixed several epic 1.0 quest turn-ins that were made non-multi-questable in the last update.
+
+.....................................................................
+
+------------------------------
+Game Update Notes: April 22, 2015
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-april-22-2015.219770/
+
+*** Highlights ***
+
+- Advanced Loot System: Improved the performance of adding, deleting, and changing loot filter settings (AN/AG/Never).
+- Spells with resource tap components will now stack with each other as intended.
+- When you invite a non-grouped character to the raid it should now put them in "not in a group" and not as a group leader.
+
+
+*** Quests & Events ***
+
+- Cleansing the Grounds - Heavily modified this Heroic Adventure to make it a bit easier and more rewarding.
+- Principal Quastori Numicia - Fixed an error that prevented players from obtaining the Balance of Power achievement in this raid.
+- In Kedge Keep, a harbinger of the seas can help adventurers get their epic 1.0 pieces that would normally drop from Phinigel Autropos.
+- In Dreadlands, a harbinger of frost can help adventurers get their epic 1.0 pieces that would normally drop from Gorenaire.
+- In Skyfire Mountains, a harbinger of flame can help adventurers get their epic 1.0 pieces that would normally drop from Talendor.
+- All item drops from these harbingers (including those added in earlier updates) must now be converted via a right-click before they can be handed to the quest NPC.
+- These harbingers will not appear on Progression servers until House of Thule is unlocked.
+
+
+*** Spells ***
+
+- Spells that are triggered by doom effects will now check for stacking conflicts before they are applied.
+- Spells with resource tap components will now stack with each other as intended.
+
+
+*** NPC ***
+
+- Warrior guards in Neriak Commons and Third Gate are no longer flagged as Noble exchange merchants. Guard W`Selo by the bank will still be happy to take your business.
+
+
+*** Mercenaries ***
+
+- Fixed a problem that caused the game to repeatedly send messages in load balanced zones about suspending mercenaries even when there were no mercenaries to suspend.
+
+
+*** Miscellaneous ***
+
+- Advanced Loot System: Improved the performance of adding, deleting, and changing loot filter settings (AN/AG/Never).
+- Fixed a bug that wasn't allowing /autobank to put empty containers in containers in your bank.
+- Fixed a misleading message given to players when they attempted to create fellowship camps when three players weren't close enough to the camp.
+- When you invite a non-grouped character to the raid it should now put them in "not in a group" and not as a group leader.
+- Removed an errant text message when you enter an expedition (not an adventure) that launches with an LDoN switch.
+- Created new option for players to switch instances in load-balanced zones with the new /pickzone command. Once a flagged zone reaches a threshold of players, it will start another instance of of the zone which you will be able to go to. The goal of this functionality is to help reduce congestion in starting areas.
+- Corrected the order in which the current Progression Server poll questions appear.
+
+
+*** UI ***
+
+- If load balancing has created a new instance of a zone, you will see the ID of the instance you zone in to. It will also now appear at the top of the /pickzone window.
+- Convertible items now have an item link in the description window to show you what the item will be transformed into.
+- Fixed some confirmation popup windows that were asking for incorrect or irrelevant information. Deleting spell sets was one such example.
+- Made the Audio Triggers list window resizable.
+
+- Changed -
+
+EQUI_ItemDisplay.xml
+EQUI_MIZoneSelectWnd.xml
+
+
+*** Previously Updated ***
+
+- The triggered version of the Iksar broodling in the Plane of Fear that's spawned via the harbinger of Fear will now properly drop the Child's Tear instead of a citizenship token.
+- Several epic 1.0 quest turn-ins which were multi-questable until the most recent update are now multi-questable again.
+- Korucust's Royal Pain - Lowered the difficulty of NPCs in this mission.
+- Liquid Courage - Fixed an issue that was causing the bonus objective to be awarded to the incorrect person (or nobody).
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: April 29, 2015
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-april-29-2015.219944/
+
+*** Hotfix ***
+
+- Addressed an issue where the first stance in the Mercenary Manage window would not take effect when trying to set it as the active stance. 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: May 19, 2015
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-may-19-2015.220667/
+
+    *** Highlights ***
+
+    - Added a search function for advanced loot filters.
+    - Improved the load speed of characters into the world and when reloading UI.
+    - Moved the advanced loot settings from the Edit Filters window into a new window.
+    - Corrected a problem that caused some events that take place in instanced zones, such as the Arcane Fair for the Wizard step of "An Epic Request", to stop working.
+
+
+    *** Quests & Events ***
+
+    - Calix Quirinus (Raid) - Corrected a bug that caused messaging about Lanys' Area of Effect attack to fail. Cut the radius of her targeted Area of Effect knockback in half.
+    - Calix Quirinus (Raid) - Corrected a bug that caused Arc Worker adds to change targets every 5 seconds instead of every 20 seconds as intended.
+
+
+    *** Spells ***
+
+    - Corrected a bug that caused adjustments to critical chance to also affect critical amount.
+    - Spells with 'doom' effects, such as Promised heals and Kron's Maelstrom, should now stack more intelligently.
+
+
+    *** NPC ***
+
+    - All translocators can now see you if you are hiding or invisible.
+
+
+    *** AA ***
+
+    - AA abilities that place a 'doomed' effect on their target will now stack properly.
+    - Fixed a bug that allowed Enchanters to gain full control over summoned animations without purchasing the Animation Empathy AAs.
+    - Adjusted the way that the Eyes Wide Open line of AA abilities are granted to be more consistent between ranks. You will no longer be required to purchase any rank at a 0 cost. Additionally, all shrouds and template characters will have Eyes Wide Open granted to them innately so that all slots in the extended target window behave as expected, even in template form.
+    - Enchanter - Made the following adjustments to Gift of Hazy Thoughts:
+    -- 1. Increased the proc chance from 5 to 8 percent.
+    -- 2. The version of Chromatic Haze that is cast by Gift of Hazy Thoughts is now equivalent to rank 6 of the Chromatic Haze instead of rank 1.
+    -- 3. The spell can now only be triggered when casting 0-duration direct damage spells with a non-zero cast time, minimum level of 85, and a mana cost.
+    - Enchanter - Adjusted Sanguine Mind Crystal and Azure Mind Crystal in the following ways:
+    -- 1. Summoning a Mind Crystal now has a 1 second cast time.
+    -- 2. Summoning a Sanguine Mind Crystal now has a 5 minute recast timer.
+    -- 3. Summoning an Azure Mind Crystal now has a 5 minute recast timer.
+    -- 4. The Sanguine Mind Crystals summoned by the AA now share a lore group and 5 minute recast time.
+    -- 5. The Azure Mind Crystals summoned by the AA now share a lore group and a 5 minute recast timer.
+    -- 6. The mana cost for summoning a mind crystal is now twice the amount of hit points or mana returned by that crystal. In the case of rank 1 this is a mana cost reduction; for ranks 2-4 this is a mana cost increase.
+    -- 7. Corrected a typo in the description for the amount of mana returned by Azure Mind Crystals.
+    - Monk - Restored the knockback on the spell Dragon Force. The monk skill Dragon's Balance will now prevent Dragon Force from being cast while Dragon's Balance Effect is active.
+    - Shaman - Corrected Extended Languid Bite so that it now functions as described.
+    - Wizard - The critical chance reduction on Arcane Fusion no longer reduces the critical damage as well.
+
+
+    *** Progression Servers ***
+
+    - The new Plane of Knowledge vendors that consolidate all tradeskill items have been restricted to The Darkened Sea or later.
+
+
+    *** Miscellaneous ***
+
+    - If you die in a load balanced instance of a zone that you are bound in, you will now respawn in your former instance instead of respawning in the base instance.
+    - Grouped players who are feared when an NPC that drops loot dies will now correctly see the items without having to re-login or re-zone.
+    - Fixed a bug with advanced looting occasionally not updating the window properly for non-master looters when an item is given to a player with many items in their shared list.
+    - Removed the 0.2 second weapon delay associated with using the /autofire command.
+    - Fixed an error that caused multiple polls to be listed in the incorrect order.
+
+
+    *** UI ***
+
+    - Fixed a crash with check boxes in the advanced loot system.
+    - Fixed a client crash involving reloading the UI and changing race.
+    - Replaced a few logos and text references to reflect our new company name.
+
+
+    - Changed -
+    EQUI.xml
+    EQUI_AdvancedLootWnd.xml
+    EQUI_Animations.xml
+    EQUI_CharacterListWnd.xml
+    EQUI_EQMainWnd.xml
+    EQUI_LootFiltersWnd.xml
+    EQUI_LootSettingsWnd.xml
+    EQUI_MarketplaceWnd.xml
+
+
+    *** Previously Updated ***
+
+    - Spider's Bite - The additional spiders in Dreadlands no longer leave a corpse, and there is now a limit to how many can spawn simultaneously.
+    - Corrected an issue that caused mercenaries to remain in their passive state when attempting to set them to other states.
+
+
+
+    - The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: May 28, 2015
+------------------------------
+https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-may-28-2015.222685/
+
+    *** Highlights ***
+
+    - Many more zones will spin up new instanced versions when they are populated by enough adventurers.
+
+
+    *** Spells ***
+
+    - Druids - All spells in the Winter's Flame line have been changed to work like Winter's Wildflame. The component spells will now receive the full benefit of damage foci but will not use twincast counters on their own. The base spells can still be twincast as before.
+    - Rangers - All spells in the Summer's Dew line have been changed to work like Summer's Cyclone. The component spells will now receive the full benefit of damage foci but will not use twincast counters on their own. The base spells can still be twincast as before.
+
+
+    *** NPC ***
+
+    - Soulbinders have discovered how to reliably bind the soul of all adventurers, even in non-city zones.
+
+
+    *** AA ***
+
+    *** Progression Servers ***
+
+    - Forged Firebrand weapon creation will be disabled on Progression Servers until Brunnel Kegstander appears to teach their recipes to the world.
+    - Kaxon Frennor should now appear on all Progression Servers, but will not offer his newbie weapon quest until the appropriate time.
+
+    *** Quests & Events ***
+
+    Fixed the Deepwater Harpoon quest. The missing sentries have returned to West Freeport, and Sentry Xyrin will again attack the nearby spectres on the island when inspired to do so.
+
+    *** Miscellaneous ***
+
+    - Fixed an issue where items intended for Ragefire were appearing on other servers.
+    - Corrected the navigation of boats through the Ocean of Tears. They should spend much more of their time in the water now.
+
+
+    *** UI ***
+
+    - Changed /pickzone so that it will show all of the available instances instead of just the first 10.
+    - Changed the messaging if you are in a login queue to signify you were already in the queue.
+
+
+    - The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: June 17, 2015
+------------------------------
+
+    *** Highlights ***
+
+    - Fixed an issue where a player could crash after logging back into a load-balanced zone (/pickzone) or gating to a point in a load-balanced zone when that particular instance had closed.
+    - Corrected an issue causing players entering mission instances of some zones to be teleported to the non-instanced versions.
+    - Fixed an issue regarding binding in a load-balanced zone; you should now properly be sent to an available zone when gating or returning to your bind point.
+    - Fixed an issue with the leave on corpse option in the manage loot window that could cause crashes.
+    - All Noble Exchange merchants can now be used to send or receive parcels. These merchants are available in every starting city, the Plane of Knowledge, the Bazaar, and other zones throughout Norrath.
+
+
+    *** Items ***
+
+    - Bard - Reduced the casting time of the Arpeggio spells on certain breastplates from 0.3s to instant.
+
+
+    *** Quests & Events ***
+
+    - Arx Mentis raids - Glowing Essences of the Citadel now have a small chance to drop in Tier 2 Arx Mentis raids and drop more commonly from Calix Quirinus.
+    - All Arx Mentis progression raids - Now drop exactly six Essences of the Citadel rather than between four and eight.
+    - Anniversary - The 5th-13th Anniversary events have been extended to run until July 15th.
+    - Heritage - The Crushbone and Permafrost Hardcore Heritage events have been extended by a week and will now end on 7/1.
+
+
+    *** Spells ***
+
+    - Buffs with limited charges that are consumed when their focus effect is applied now continue to apply their remaining effects until the spell that was focused by that buff is finished resolving. This corrects a problem where the critical chance portion of spells (like Chromatic Haze and Frenzied Devastation) was never applied during the buff's final charge, because the buff was removed after the focus effect was applied but before the critical chance modifier was checked.
+
+
+    *** NPC ***
+
+    - All Noble Exchange merchants can now be used to send or receive parcels. These merchants are available in every starting city, the Plane of Knowledge, the Bazaar, and other zones throughout Norrath.
+    - Added factions to many NPCs in newbie zones that did not have them before, causing guards to hate them once again.
+
+
+    *** AA ***
+
+    - Bard - Restored the doppelganger effect and removed the shadowstep component on the AA line "Lyrical Prankster".
+    - Beastlord - Corrected a bug with ranks 4-6 of the AA line "Nature's Salve" that caused them to cast the spell associated to rank 3 of the ability. Ranks 4-6 should now increase in power and trigger the effect on your warder as originally intended.
+    - Rogue - Corrected an issue that caused rank 6 of AA Extended Envenomed Blades to not function.
+    - Rogue - Corrected an issue that prevented all ranks of the AA Enduring Vision from working.
+    - Wizard - Arcane Fusion no longer deals damage to non-NPC targets. This should ensure that wizards who fail their Bucolic Gambit are slightly less likely to annihilate themselves.
+    - Corrected a typo in the description of the buff cast by the AA "Glyph of the Cataclysm".
+    - Corrected several inconsistencies with the casting level of AA abilities.
+
+
+    *** Progression Servers ***
+
+    - Restored the spell merchant Gadallion to the Southern Desert of Ro in all eras.
+    - The Wizard spell Rend is now available on Progression Servers in all eras.
+    - The Potion of Companion's Amnesia is now available for purchase in the marketplace on all Progression Servers.
+    - "an old froglok" in Upper Guk no longer spawns on Progression Servers until the Planes of Power expansion is unlocked.
+    - Luminescent Weapon Grade Ore is no longer be available for purchase on Progression Servers until Rain of Fear has unlocked.
+    - Some cookie molds that were not available at launch are no longer available on Progression Servers.
+    - Recipes that call for Thalium Ore are no longer visible on Progression Servers until Dragons of Norrath.
+
+
+    *** Miscellaneous ***
+
+    - Steamfont Mountains will now correctly use load balancing as intended.
+    - Corrected an oversight that prevented players that were created on the Vox server from being able to select the suffix "of Vox".
+
+
+    *** UI ***
+
+    - There is now a chat message of how much time you have before you can run /pickzone again, if you have a timer remaining.
+    - You now get a message in chat with what instance you are in when you run /pickzone in a load-balanced zone. This will only appear when it is possible for the window to open, meaning any circumstance where /pickzone won't function (such as combat) will prevent this message from appearing.
+
+
+    - Changed -
+
+    *** Previously Updated ***
+
+    - Fixed the Deepwater Harpoon quest. Returned the missing sentries to West Freeport, and Sentry Xyrin will again attack the nearby spectres on the island when inspired to do so.
+
+
+    - The EverQuest Team 
+
+.....................................................................
