@@ -1,0 +1,973 @@
+Patch Messages from July 2016 to December 2016
+
+
+.....................................................................
+
+------------------------------
+Game Update Notes: July 6, 2016
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-july-6-2016.233847/
+
+*** Highlights ***
+
+- Look to the marketplace this July for the Bird in a Cage. Each one contains a random adoptable bird familiar. Trade them to your friends or collect them all yourself, and keep an eye out for some rare and unique feathered familiars!
+- Lynea the pet collector in the Commonlands will purchase your excess adoptable pets for a unique currency. You can buy a random discontinued pet from her using this currency.
+
+
+*** Items ***
+
+- Corrected an issue with the Unwritten Glyph item that would allow the selection of invalid reward options.
+- Corrected the graphic of Confluence.
+- Corrected the graphic on several Player Studio robes.
+- Filthy Ape Livers no longer stack.
+
+
+*** Quests & Events ***
+
+- Eron Nurwistle will now allow you to start his series of quests over if you have somehow misplaced your jewelry.
+- An Epic Request - The Castle Mistmoore step of An Epic Request can now be completed if the Hardcore Heritage version of Castle Mistmoore is active.
+- The Ring War event in Great Divide should work more reliably.
+- Corrected a couple Hot Zone targets in the Resplendent Temple.
+
+
+*** NPCs ***
+
+- Corrected an issue that caused some NPC races to have smaller than intended melee ranges, most notably the dracoliche.
+
+
+*** AA ***
+
+- Bard - Adjusted ranks 1-6 of Extended Ingenuity so that spells with a mana cost can now be extended.
+- Beastlord - Consolidated Extended Bestial Bloodrage to be ranks 5-9 of Bestial Bloodrage and increased the amount of health drained from the warder while this ability is active. Beastlord - Consolidated Quickened Consumption of Spirit to be ranks 3-5 of Consumption of Spirit.
+- Beastlord - Consolidated Extended Bloodlust to be rank 2 of Bloodlust. Extended the base duration of the ability to be equal to the impact that Spell Casting Reinforcement has on the line and flagged the line as non-focusable.
+- Beastlord - Consolidated Extended Group Bestial Alignment to be ranks 2-6 of Group Bestial Alignment.
+- Beastlord - Consolidated Hastened Bestial Alignment to be ranks 4-7 and 12 of Bestial Alignment.
+- Beastlord - Consolidated Hastened Bite of the Asp to be ranks 3 and 9-10 of Bite of the Asp.
+- Beastlord - Consolidated Hastened Companion's Sacrifice to be ranks 4-6 of Companion's Sacrifice.
+- Beastlord - Consolidated Hastened Focused Paragon of Spirit to be ranks 4-6 and 16-18 and Quickened Focused Paragon of Spirit to be ranks 25-29 of Focused Paragon of Spirit. Additionally, ranks 13+ now offer endurance regeneration.
+- Beastlord - Consolidated Hastened Gorilla Smash to be ranks 2 and 9-10 of Gorilla Smash.
+- Beastlord - Consolidated Hastened Paragon of Spirit to be ranks 11-13, 23-25, and 38 and Quickened Paragon of Spirit to be ranks 26-28 of Paragon of Spirit.
+- Beastlord - Consolidated Hastened Possum to be ranks 2-6 and 10-11 of Playing Possum.
+- Beastlord - Consolidated Hastened Raven's Claw to be ranks 2 and 9-10 of Raven's claw.
+- Beastlord - Consolidated Hastened Thunder to be ranks 4-8 and 12-13 of Roar of Thunder. Additionally, increased the hate reduction for all ranks of Roar of Thunder.
+- Beastlord - Consolidated Hastened Warder's Gift to be ranks 7-9 of Warder's Gift and adjusted the amount of health absorbed from the warder to be a scaling percentage rather than a flat value.
+- Beastlord - Consolidated Quickened Nature's Salve to be ranks 7-10 of Nature's Salve.
+- Berserker - Consolidated Extended Tireless Sprint to be ranks 4-6 and Hastened Tireless Sprint to be ranks 10-15 of Tireless Sprint.
+- Berserker - Consolidated Hastened Absolution to be ranks 2-9 of Agony of Absolution.
+- Berserker - Consolidated Hastened Blood Pact to be ranks 16-18 and 28-29 of Blood Pact.
+- Berserker - Consolidated Hastened Cry of Battle to be ranks 2-10 of Cry of Battle.
+- Berserker - Consolidated Hastened Distraction Attack to be ranks 4-8 of Distraction Attack.
+- Berserker - Consolidated Hastened Juggernaut Surge to be ranks 7-14 of Juggernaut Surge.
+- Berserker - Consolidated Hastened Reckless Abandon to be ranks 4-12 of Reckless Abandon.
+- Berserker - Consolidated Hastened Resilience to be ranks 19-21 and 28-31 of Uncanny Resilience.
+- Berserker - Consolidated Hastened Savage Spirit to be ranks 7-18 of Savage Spirit.
+- Berserker - Consolidated Hastened Untamed Rage to be ranks 14-20 of Untamed Rage.
+- Berserker - Consolidated Hastened War Cry to be ranks 1-3 and Echoing Cries to be ranks 4-6 of a combined ability line named 'Improved War Cry'.
+- Berserker - Decapitation can now trigger off of Frenzy skill button presses.
+- Berserker - Increased the effectiveness of ranks 10-18 of Throwing Mastery.
+- Berserker - Moved the minimum damage effects of Two Hands, No Mercy to Juggernaut's Proficiency. Ranks 1-6 of Juggernaut's Proficiency are now ranks 12-17 with newly created ranks 1-11 becoming available at equivalent times that ranks 1-11 of Two Hands, No Mercy became available.
+- Berserker - Renamed the ability line 'Conservation' to 'Axemaker's Efficiency'.
+- Berserker - Renamed the ability line 'Frenzied Defense' to 'Frenzied Return Strike'.
+- Berserker - The ability 'Dying Blow' has been replaced with 'Death's Refusal' which provides 2% chance per rank to return to life with Touch of the Divine.
+- Cleric - Renamed the ability line 'Improved Atone' to 'Enhanced Forgetfulness'.
+- Enchanter - Consolidated Extended Dreary Deeds to be ranks 2-4 and 6-7 of Dreary Deeds. Additionally, added a mana cost to the ability line.
+- Enchanter - Consolidated Hastened Beam of Slumber to be ranks 5-7 of Beam of Slumber.
+- Enchanter - Consolidated Hastened Calculated Insanity to be ranks 7-11 and 21-22 of Calculated Insanity.
+- Enchanter - Consolidated Hastened Crippling Aurora to be ranks 3-5 and 8 of Crippling Aurora.
+- Enchanter - Consolidated Hastened Doppelganger to be ranks 4-6 of Doppelganger.
+- Enchanter - Consolidated Hastened Edict of Command to be ranks 7-12, 19-21, and 28-32 of Edict of Command.
+- Enchanter - Consolidated Hastened Eldritch Rune to be ranks 21-23 of Eldritch Rune.
+- Enchanter - Consolidated Hastened Gather Mana to be ranks 2-4 and 9-14 of Gather Mana.
+- Enchanter - Consolidated Hastened Glyph Spray to be ranks 3-8 of Glyph Spray.
+- Enchanter - Consolidated Hastened Illusions of Grandeur to be ranks 2-5 of Illusions of Grandeur.
+- Enchanter - Consolidated Hastened Mental Contortion to be ranks 3-8 of Mental Contortion.
+- Enchanter - Consolidated Hastened Mind Over Matter to be ranks 4-7 of Mind Over Matter.
+- Enchanter - Consolidated Hastened Phantasmal Opponent to be ranks 2-7 of Phantasmal Opponent.
+- Enchanter - Consolidated Hastened Veil of Mindshadow to be ranks 10-18 and 37 of Veil of Mindshadow.
+- Enchanter - Consolidated Pet Discipline to be rank 4 of Animation Empathy.
+- Enchanter - Consolidated Quickened Stasis to be ranks 16-18 and Hastened Stasis to be ranks 22-26 and 33 of Stasis. Additionally, the ability line has been renamed 'Noctambulate' in order to better differentiate it from the 'Self Stasis' and 'Friendly Stasis' ability lines.
+- Enchanter - Corrected an error that caused the 4th rank of Quick Damage not to be displayed.
+- Enchanter - Reduced the damage absorption percentage and hit limit on ranks 11-26 of Mind Over Matter.
+- Enchanter - Reduced the damage absorption percentage on all ranks of Veil of Mindshadow.
+- Enchanter - Renamed the ability line 'Mana Overburn' to 'Hastened Mana Flare'.
+- Magician - Consolidated Extended Frenzied Burnout to be ranks 2-7 and 9-11, Hastened Frenzied Burnout to be ranks 14-18, Quickened Frenzied Burnout to be ranks 22-26, and Reaching Frenzied Burnout to be ranks 28-32 of Frenzied Burnout.
+- Magician - Consolidated Extended Heart of Flames to be ranks 11-16 of Heart of Flames.
+- Magician - Consolidated Extended Heart of Ice to be ranks 8-13 of Heart of Ice.
+- Magician - Consolidated Extended Heart of Stone to be ranks 11-16 of Heart of Stone.
+- Magician - Consolidated Extended Heart of Vapor to be ranks 13-18 of Heart of Vapor.
+- Magician - Consolidated Extended Raging Servant to be rank 4 of Extended Swarm as the 9 second extension was not additive with the effects of Extended Swarm.
+- Magician - Consolidated Hastened Elemental Union to be ranks 4-6 and 16-19 of Elemental Union.
+- Magician - Consolidated Hastened Host of Elements to be ranks 16-20 and Quickened Host of the Elements to be ranks 21-25 of Host of the Elements.
+- Magician - Consolidated Hastened Virulent Talon to be ranks 3-8 of Virulent Talon.
+- Magician - Consolidated Quickened Call Hither to be ranks 4-5 of Call Hither.
+- Magician - Consolidated Reaching Shared Health to be ranks 6-8 of Shared Health.
+- Magician - Consolidated Summoner's Beckon to be rank 2 of Elemental Pact and renamed the ability line 'Conjurer's Efficiency'.
+- Magician - Corrected the implementation of the 'Bolt of Molten Shieldstone', 'Renewal of Calix', and 'Spear of Molten Shieldstone' focus lines to improve the base damage/healing of the spells by 2% per rank rather than add a flat amount of damage/healing.
+- Magician - Improved the damage of all ranks Steel Vengeance.
+- Magician - Renamed the ability line 'Companion's Gift' to 'Healing Gift' and moved the line to the Archetype tab.
+- Multiple - Consolidated Hastened Mass Group to be ranks 2-9 of Mass Group Buff (ranks 2-10 for Enchanters).
+- Necromancer - Consolidated Extended Gift of Deathly Resolve to be rank 2 of Gift of Deathly Resolve.
+- Necromancer - Consolidated Hastened Dying Grasp to be ranks 3-7 and 9 of Dying Grasp.
+- Necromancer - Consolidated Hastened Embrace The Decay to be ranks 3-6 of Embrace the Decay.
+- Necromancer - Consolidated Hastened Swarm of Decay to be ranks 7-11 and 15-16 of Swarm of Decay.
+- Necromancer - Consolidated Hastened Whisperwind to be ranks 2-6 of Whisperwind.
+- Necromancer - Consolidated Quickened Levant to be ranks 2-6 of Levant.
+- Necromancer - Increased the number of damage-over-time spells that Deathly Resolve (the effect triggered by Gift of Deathly Resolve) will twincast from 1 to 2.
+- Wizard - Added mana costs to Force of Will, Force of Flame, and Force of Ice.
+- Wizard - Consolidated Hastened Arcane Fury to be ranks 4-8 of Arcane Fury.
+- Wizard - Consolidated Hastened Beam of Displacement to be ranks 2-4 of Beam of Displacement.
+- Wizard - Consolidated Hastened Call of Xuzl to be ranks 9-14 of Call of Xuzl.
+- Wizard - Consolidated Hastened Force of Will to be ranks 4-8 and 15-17 of Force of Will.
+- Wizard - Consolidated Hastened Manaburn to be ranks 10-15 of Mana Burn.
+- Wizard - Consolidated Hastened Nexus Gate to be ranks 2-9 of Nexus Gate.
+- Wizard - Consolidated Hastened Strong Root to be ranks 2-11 of Strong Root. The component of ranks 4-6 of Hastened Strong root that reduced the likelihood that your target will break free from your root spells has been moved to newly created ranks 1-3 of Fortified Entanglement. Existing ranks of Fortified Entanglement are now ranks 4-9 of the line.
+- Wizard - Consolidated Quickened Harvest of Druzzil to be ranks 3-6 and Hastened Harvest of Druzzil to be ranks 10-12 and 16 of Harvest of Druzzil.
+- Wizard - Removed E'ci's Icy Blessing, Ro's Fiery Blessing, Druzzil's Mystical Blessing, and the 3 ranks of Kerafyrm's Favor. Kerafyrm's Prismatic Familiar now requires rank 5 of Ro's Flaming Familiar, E'ci's Icy Familiar, and Druzzil's Mystical Familiar. Each of the 4 ranks of Kerafyrm's Prismatic Familiar have had their cost increased by 3 AA points to match the removal of the Blessing lines.
+- Wizard - Renamed the ability line 'Spell Casting Fury Mastery' to 'Fury of Magic' and moved the line to the Archetype tab.
+Multiple - Reverted the consolidation of expendable Glyph AA abilities. 0Abilities that were previously consolidated have been renamed to convey their role as ranks in a line when sorted. Additionally, the hotkey names for these abilities have been adjusted to improve readability.
+
+
+*** Progression Servers ***
+
+- Removed the requirement of Rain of Fear to go into Offline Mode when selling things in the Bazaar.
+- The Spell: The Zephyr: Stonebrunt should not be available for purchase until Legacy of Ykesha has unlocked on the server.
+- The Spell: Hammer of Divinity is researchable in Luclin and later.
+- Melalafen will return to Western Wastes when the Planes of Power has unlocked and the Sleeper is awoken. He will depart once Lost Dungeons of Norrath has unlocked.
+
+
+*** Miscellaneous ***
+
+- Ah, Anguish. Is it a Citadel, an Asylum, or a Fallen Palace? The name will be handled more consistently now.
+
+
+*** Tradeskills ***
+
+- Corrected several research tradeskill recipes that required the use of defunct class specific lexicons. These recipes can now be completed in a standard research lexicon.
+
+
+*** UI ***
+
+- Corrected a typo in the description of the Charisma stat tooltip in the stats page of the inventory window.
+- Corrected an issue that caused the expedition window to pop up when a shared task spawned a dynamic zone.
+- Added an 'Activate All' button to the barter UI to allow you to attempt to activate all of your buy lines.
+- Added more icon sheets.
+
+
+- Changed -
+EQUI_Animations.xml
+EQUI_BarterWnd.xml
+EQUI_DragItems.xml
+EQUI_Inventory.xml
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+Game Update Notes: July 13, 2016
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-july-13-2016.234063/
+
+*** Highlights ***
+
+- The new Quarm Event Server is now available for all All-Access members! All members who create a character and log on to Quarm before July 27th at 11PM PDT get two Bottles of Shared Adventure III to claim! One can be claimed on Quarm and one can be claimed on any other server.
+
+
+*** Items ***
+
+- Corrected a bug that prevented items that grant passive AA abilities from functioning as intended.
+
+
+*** Quests & Events ***
+
+- Emollious (Raid) - Emollious' various forms will now be more consistently neutralized by Jerill's traps.
+- Fixed an issue that prevented Eron Nurwistle from allowing you to reset your progress on his tasks if you misplaced your jewelry.
+
+
+*** Spells ***
+
+- Bard - Corrected an issue that caused the Lively Crescendo line of songs to be focused for duration.
+- Druid - Nurturing Growth will now tick down in non-combat zones, and will display a message when it wears off.
+- Made many changes to smooth out and improve the availability of healing at low levels. These changes apply to all servers and rulesets.
+- - Cleric - Added a new direct heal, Healing Light, at level 45. The scroll is now available on any Cleric vendor that sells Superior Healing.
+- - Druid - Added two new direct heals: Nature's Renewal at level 39, and Forest's Renewal at level 49. These scrolls are now available on any Druid vendor that sells Superior Healing.
+- - Druid - Lowered the minimum casting level of Healing Water from 44 to 34.
+- - Paladin - Lowered the minimum casting level of Superior Healing from 57 to 48.
+- - Ranger - Lowered the minimum casting level of Light Healing from 21 to 20.
+- - Ranger - Lowered the minimum casting level of Healing from 38 to 32.
+- - Ranger - Lowered the minimum casting level of Greater Healing from 57 to 44.
+- - Shaman - Added two new direct heals: Spirit Salve at level 40, and Kragg's Salve at level 50. These scrolls are now available on any Shaman vendor that sells Superior Healing.
+
+
+*** NPC ***
+
+- Corrected the appearance of Gargoyles in the Ocean of Tears.
+
+
+*** AA ***
+
+- Berserker - Corrected an issue that prevented several ranks of Cry of Battle from being purchasable.
+- Magician - Corrected an issue that prevented Conjurer's Efficiency from functioning as intended.
+- Magician - Renamed the ability line 'Shifting Elements' to 'Hastened Heart of the Elements'.
+- Warrior - Corrected an issue with all ranks of Quickened Howl of the Warlord that prevented it from functioning as intended.
+- Wizard - The abilities Force of Will, Force of Flame, and Force of Ice will no longer consume counters on focus abilities.
+
+
+*** Progression Servers ***
+
+- Made many changes to smooth out and improve the availability of healing at low levels. These changes apply to all servers and rulesets. See the spells section above for details.
+- Spell: Strength of Nature will now become available when Scars of Velious has unlocked on the server, instead of Shadows of Luclin.
+
+
+*** Miscellaneous ***
+
+- Added a general world performance improvement when loading characters. In rare cases, when first entering character select your characters may take up to a few minutes to load. They will automatically appear when they're ready to enter the world.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: July 29, 2016
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-july-29-2016.234324/
+
+*** Hotfix ***
+
+- Overlord Mata Muram will no longer have incredibly high combat regeneration in the final phase of the fight.
+- Fixed a problem that would prevent players from leaving the area of a Muramite Proving Grounds trial after the event was over.
+- Fixed a problem that caused Erollisi's Passion Robe to display the wrong graphic when equipped.*
+- - *Exiting the game and re-running the patcher is required to see this change.
+
+.....................................................................
+
+------------------------------
+Game Update Notes: August 17, 2016
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-august-17-2016.234531/
+
+*** Highlights ***
+
+- Corrected several issues with the pet window. Existing pet command hotkeys will need to be recreated. See UI section for additional information.
+- Many AA consolidations. See AA section for additional information.
+
+
+*** Items ***
+
+- Items that adjust their stats under particular conditions (typically charm item mechanics) will now display spell effects when inspected.
+- The item conversion feature now requires the base item to be free of augments before attempting the conversion process.
+- The auras Circle of Power, Circle of Life, Circle of Mana, and Guardian Circle found on a number of rare items can now be activated and maintained regardless of other auras that you may have active.
+- Augmentations that only fit in 1H Piercing weapons now refer to 1H Piercing rather than "Piercing."
+- The Beastlord ornamentation 'The Warder' has had its Lore flag removed.
+- Corrected a problem that caused the Metamorph Totem: Murkglider to appear to be an ankylosaurus when previewed or placed in a house or yard.
+- Beastlords - Corrected an issue with the focus effect Frozen Miasma Fury found on Anthemion Jerkin, Crypt-Hunter's Dragonbrood Tunic, and Deathseeker's Dragonbrood Tunic that caused it to focus a number of spells and abilities that it was not intended to.
+- The foraged item Golanda Nut can now be traded.
+- The focus effect Sympathetic Remote Healing Surge XV is now a focus effect and the proc Remote Healing Surge XV is now a proc on the item Demagogue's Crutch.
+- The Quarm-Touched Feran Bridle now shows the correct version of the mount on preview.
+- Changed all items marked as Bard instruments so that they can be equipped in either the primary or secondary hand. Note that it intended that you are still only able to equip one instrument at a time.
+- Keliss Arden, the Hero's Forge Merchant in the Plane of Knowledge, now sells his Hero's Forge ornament offerings as full suits instead of individual pieces.
+
+
+*** Quests & Events ***
+
+- Grannus (Raid) - Grannus will stop sharing his pain with players once his hit points are below 5%. This should prevent uncontrollable failures of the Non-Transferable achievement.
+- Emollious (Raid) - Fixed an issue with All Must Fall in the Emollious event that caused it to be very hard to get.
+- Essence Lens (Group) - The quest rewards can now be cycled from the convert button on the item itself instead of handing it to the quest NPC.
+- The Hedge Event (Raid) - The Plane of Nightmare hedge maze escort has been improved.
+- - Thelin Poxbourne is now player friendly. He can be buffed and healed and is safe from accidental (or purposeful) attacks that would disrupt the escort.
+- - Saying "ready" to the character outside the maze with an ungrouped character will now teleport that single character into the maze instead of having no effect yet consuming a group count.
+- - All dialogue triggers are now [bracketed].
+- Nitram's Collection (Raid) - The Plane of Innovation gnome escort has been improved.
+- - Nitram Anizok is now player friendly. He can be buffed and healed and is safe from accidental (or purposeful) attacks that would disrupt the escort.
+- - All dialogue triggers are now [bracketed].
+- Corrected a potential bug where a player could fail to get their Quarm rewards if they were dead when earning the achievement. If this has happened to you, please contact Customer Service and they can grant you the item to flag your account for the prize.
+- Items that are delivered as part of classic quests that were not flagged as 'Quest' items have had their quest flag corrected.
+- Raid events from Planes of Power, Gates of Discord, and Omens of War will have their anti-exploit mechanic disabled once the server has unlocked Prophecy of Ro. With modern offensive and defensive capabilities, these often throw a false positive.
+
+
+*** Spells ***
+
+- Enchanter - Corrected a stacking issue that prevented more than one Enchanter from using the Baffling Constriction line of damage-over-time spells on a single target.
+- Beastlord - Made some adjustments to low-level healing spells:
+- - Light Healing is now available at level 18 rather than 20.
+- - Healing is now available at level 28 rather than 36.
+- - Greater Healing is now available at level 38 rather than 57.
+- - Spirit Salve is now usable by Beastlords at level 48 and is available where Greater Healing is available.
+- - Chloroplast is now available at level 59 rather than 62.
+- Cleric - Removed the requirement for targets of Healing Light to be in your group and in line of sight.
+- Druid - Removed the requirement for targets of Nature's Renewal and Forest's Renewal to be in your group and in line of sight.
+- Shaman - Removed the requirement for targets of Spirit Salve and Kragg's Salve to be in your group and in line of sight.
+- Bard - The Lively Crescendo line of songs will no longer be focused for duration. This corrects an issue where they were taking longer than intended to trigger Crescendo Effect on the bard's group.
+
+
+*** NPCs ***
+
+- Re-Labeled many merchants in Freeport so that their wares can be found more easily.
+- The "In Irons" banish spell used by the Praesertums in Sanctus Seru will now teleport the affected character to the jail in the same zone, not the base version of the zone. 
+*** AA ***
+
+All - A large number of ability lines have been moved from the Class AA window category to either the Archetype or Focus category.
+All - Consolidated Bandage Wound to be ranks 4-13 (4-18 for Berserkers and Warriors) of First Aid.
+All - Ranks 1-15 of the 5 general Innate Resist AA abilities have been consolidated into a single line that impacts the 5 basic resist types named Innate Spell Resistance. Consolidated Innate Corruption Protection to be ranks 16-20 of this combined line.
+All - Ranks 1-15 of the 7 general Innate Statistic AA abilities have been consolidated to a single line that impacts all 7 statistics named Innate Eminence. Ranks 16-55 of these abilities have been consolidated to be ranks 21-60 of Planar Power.
+All - Made the following adjustments to the First, Second, and Third Spire lines:
+- The Fundament line that was previously required to purchase the first rank of each Spire has had its cost and effects consolidated into the first rank of each Spire.
+- Classes that had a Spire hastening line for each spire have had these abilities consolidated to be ranks 4-8 of each spire.
+- Classes that had a Spire hastening line that applied to all three spires have had these abilities split and consolidated to be ranks 4-8 (5-9 for Rogues) of each spire.
+Multiple - Consolidated Elemental Agility to be ranks 1-3 of Companion's Agility, these ranks are now available to all classes that have access to Companion's Agility.
+Multiple - Consolidated Elemental Durability to be ranks 1-3 of Companion's Durability, these ranks are now available to all classes that have access to Companion's Durability.
+Multiple - Consolidated Hastened Forceful Rejuvenation to be ranks 2-10 of Forceful Rejuvenation.
+Multiple - Consolidated Hastened Improved Twincast to be ranks 5-12 of Improved Twincast.
+Multiple - Consolidated Planar Durability to be ranks 5-7 of Natural Durability. The portion of Physical Enhancement (and Improved Physical Enhancement for Rogues) that increases base hit-points by a percentage has been moved to be new ranks 4 and 11 (and 12) of Natural Durability.
+Multiple - Consolidated Spell Casting Fury to be ranks 1-3 of Destructive Fury and Fury of Magic. Moved the component of ranks 16+ of Fury of Magic that increased the damage of critical direct-damage spells to Destructive Fury so that all ranks of Fury of Magic impact only the critical direct-damage chance and all ranks of Destructive Fury impact only the critical direct-damage damage-multiplier.
+Multiple - Renamed Divine Companion Aura to Companion's Divine Aura.
+Multiple - Renamed Sturdy Companion to Companion's Sturdiness.
+Bard - Consolidated Hastened Shield of Notes to be ranks 16, 20, 24, and 28 of Shield of Notes.
+Bard - Consolidated Selo's Enduring Cadence to be ranks 6-8 of Innate Run Speed.
+Beastlord - Consolidated Warder's Alacrity to be ranks 1-14 and 18-26 of Companion's Alacrity.
+Beastlord - Consolidated Warder's Fury to be ranks 1-15, 19-23, and 27-29 of Companion's Fury.
+Berserker - Consolidated Hastened Binding Axe to be ranks 3, 5, and 7 of Binding Axe.
+Berserker - Consolidated Undaunted Fury to be rank 4 of Fear Resistance.
+Berserker - Renamed the ability 'Juggernaut's Proficiency' to 'Juggernaut's Weapon Mastery'.
+Berserker - Renamed the ability 'Two Hands, No Mercy' to 'Weapon Proficiency'.
+Berserker, Monk, Rogue - Reduced the amount of damage done by attacks triggered from Destructive Force, Rake's Rampage, and Furious Rampage.
+Berserker, Warrior - Consolidated Dauntless Perseverance to be rank 4 of Stalwart Endurance and made this rank available to Berserkers.
+Berserker, Warrior - Consolidated Hastened Rampage to be ranks 2-8 of Rampage.
+Berserker, Warrior - Consolidated Hastened Vehement Rage to be ranks 4-6 and 10-11 of Vehement Rage.
+Cleric - Consolidated Extended Healing Frenzy to be rank 7 of Healing Frenzy.
+Cleric - Consolidated Extended Shield of Reverence to be rank 4 and Hastened Shield of Reverence to be ranks 5-11 of Shield of Reverence.
+Cleric - Consolidated Hastened Blessing of Resurrection to be ranks 2-4 and Quickened Blessing of Resurrection to be ranks 5-7 of Blessing of Resurrection. Added a 600 point mana cost to this ability to match Reviviscence.
+Cleric - Consolidated Hastened Celestial Hammer to be ranks 16-21 of Celestial Hammer.
+Cleric - Consolidated Hastened Celestial Regeneration to be ranks 19-21 and 28-29 of Celestial Regeneration.
+Cleric - Consolidated Hastened Channeling the Divine to be ranks 2-6 of Channeling the Divine. Additionally, combined the effects of Price of Divinity into Channeling the Divine so that this ability will no longer take two buff slots.
+Cleric - Consolidated Hastened Divine Avatar to be ranks 10-15 and 22-24 of Divine Avatar.
+Cleric - Consolidated Hastened Divine Guardian to be ranks 6-8 and 10-11 of Divine Guardian.
+Cleric - Consolidated Hastened Divine Resurrection to be ranks 2-6 of Divine Resurrection.
+Cleric - Consolidated Hastened Divine Retribution to be ranks 7-9 and 13-15 of Divine Retribution.
+Cleric - Consolidated Hastened Focused Celestial Regeneration to be ranks 13-17 of Focused Celestial Regeneration.
+Cleric - Consolidated Hastened Group Purify Soul to be ranks 2-6 of Group Purify Soul.
+Cleric - Consolidated Hastened Purification of the Soul to be ranks 2-8 and 10-11 of Purify Soul.
+Cleric - Consolidated Hastened Turn Undead to be ranks 9-17 and 25 and Quickened Turn Undead to be ranks 20-22, 26, and 33 of Turn Undead.
+Cleric - Consolidated Quickened Call of the Herald to be ranks 2-5 of Call of the Herald.
+Cleric, Druid, Shaman - Consolidated Cascade of Life to be ranks 6, 12, 18, and 24 of Abundant Healing.
+Cleric, Druid, Shaman - Consolidated Hastened Curing to be ranks 4-6, 13-15, and 21 and Quickened Radiant Cure to be ranks 16-20 of Radiant Cure.
+Cleric, Paladin - Consolidated Extended Yaulp to be rank 4 of Yaulp (Lesser).
+Druid - Consolidated Hastened Nature's Boon to be ranks 15, 19, and 23-25 of Nature's Boon.
+Druid - Consolidated Hastened Swarm of Fireflies to be ranks 5-9 of Swarm of Fireflies.
+Druid - Reduced the base reuse time of Protection of Direwood from 15 to 2 minutes. Extended the duration from 18 seconds to 30 seconds.
+Druid, Ranger, Shaman - Consolidated Fortified Foraging to be ranks 2-4 of Foraging.
+Druid, Shaman - Consolidated Affliction Mastery to be ranks 7-15 and 19-27 of Critical Affliction.
+Enchanter - Consolidated Hastened Reactive Rune to be ranks 7-11 of Reactive Rune.
+Enchanter - Consolidated Hastened Soothing Words to be ranks 4-6 and 13 of Soothing Words.
+Enchanter - Ethereal Manipulation has been renamed Tashan's Lingering Cry and will now cause single target Tashani spells cast by the enchanter to trigger a debuff which increases the damage of direct-damage and damage-over-time spells that land on the target.
+Enchanter - Phantasmic Reflex will now only trigger on level 110 and lower spells.
+Enchanter - The various Enchant Metal abilities have been moved from the class category to the Special category of the AA ability window.
+Enchanter, Magician, Necromancer, Wizard - Intelligence casters have been given access to ranks 1-6 of Twinproc.
+Enchanter, Magician, Wizard - Consolidated Hastened Arcane Whisper to be ranks 8-12 of Arcane Whisper.
+Magician - Consolidated Elemental Alacrity to be ranks 1-14 and 18-37 of Companion's Alacrity.
+Magician - Consolidated Elemental Fury to be ranks 1-15, 19-38, and 42-46 of Companion's Fury.
+Magician - Consolidated Hastened Second Wind Ward to be ranks 4-8 of Second Wind Ward.
+Monk - Consolidated Weightless Steps to be ranks 6-8 of Innate Run Speed.
+Monk - The passive ability Dragon Punch has been changed to an activated ability named Dragon Force. Rather than augmenting your existing Dragon Punch skill to trigger a knockback effect on your opponent it will directly trigger the knockback effect when activated.
+Necromancer - Added 3 ranks of Fear Resistance to which Dread Incarnate is now rank 4.
+Necromancer - Consolidated Death's Fury to be ranks 1-5 and Death's Wrath to be ranks 6-15, 19-40, and 44-46 of Companion's Fury.
+Necromancer - Consolidated Greater Blood Tithe to be ranks 13-15 and 18-20 and Affliction Mastery to be ranks 7-12, 16-17, 21, and 25-33 of Critical Affliction.
+Necromancer - Consolidated Hastened Dead Mesmerization to be ranks 2-4, 6, 8, 10, 12, 14-15, and 17 of Dead Mesmerization.
+Necromancer - Consolidated Quickening of Death to be ranks 1-10 and 14-23 of Companion's Alacrity.
+Paladin - Consolidated Divine Fury to be ranks 12-14 of Divine Stun.
+Paladin - Consolidated Extended Blessing of the Faithful to be ranks 7-9 of Blessing of the Faithful.
+Paladin - Consolidated Extended Speed of the Savior to be ranks 2 and 7 and Hastened Speed of the Savior to be ranks 3-6 of Speed of the Savior.
+Paladin - Consolidated Hastened Armor of the Inquisitor to be ranks 16-18 of Armor of the Inquisitor.
+Paladin - Consolidated Hastened Beacon of the Righteous to be ranks 4-8, 12, and 17 and Extended Beacon to be ranks 13-14 of Beacon of the Righteous.
+Paladin - Consolidated Hastened Gift of Resurrection to be ranks 2-4 and Quickened Gift of Resurrection to be ranks 5-8 of Gift of Resurrection. Added a 700 point mana cost to this ability to match Resurrection.
+Paladin - Consolidated Hastened Hand of Piety to be ranks 7-9, 25-26, and 39-40 of Hand of Piety.
+Paladin - Consolidated Hastened Leap of Faith to be ranks 3-7 of Leap of Faith.
+Paladin - Consolidated Hastened Marr's Salvation to be ranks 2-6 and 8-9 of Marr's Salvation.
+Paladin - Consolidated Hastened Projection of Piety to be ranks 3-7 of Projection of Piety.
+Paladin - Consolidated Hastened Shield of Brilliance to be ranks 7-9 and 15-18 and Extended Shield of Brilliance to be rank 10 of Shield of Brilliance.
+Paladin - Consolidated Quickened Force of Disruption to be ranks 15-17 of Force of Disruption.
+Paladin - Consolidated Quickened Radiant Cure to be ranks 7-11 of Radiant Cure.
+Paladin - Reduced the base reuse time of Thunder of Karana to 9 minutes to match the reduction previously offered by Hastened Armor of the Inquisitor.
+Paladin, Shadowknight - Consolidated Fearless to be rank 4 of Fear Resistance.
+Paladin, Shadowknight - Consolidated Hastened Ageless Enmity to be ranks 4-8 of Ageless Enmity.
+Paladin, Shadowknight - Consolidated Quickened Helix of the Undying to be ranks 3-7 of Helix of the Undying.
+Paladin, Shadowknight - Reduced the effectiveness of Knight's Sedulity from 5% to 4%.
+Paladin, Shadowknight - The various Summon Mount abilities have been moved from the class category to the Special category of the AA ability window.
+Paladin, Shadowknight - Made a number of modifications to Shield Specialist:
+- Ranks 1-5 of Shield Specialist are now ranks 1-5 of Knight's Weapon Mastery, which increases the base damage of all weapon types wielded by the knight regardless of wearing a shield.
+- Added a 6th rank and increased the effectiveness of all ranks of this ability.
+Ranger - Consolidated Hastened Auspice of the Hunter to be ranks 13-15 and 30-32 and Quickened Auspice of the Hunter to be ranks 22-26 of Auspice of the Hunter.
+Ranger - Consolidated Hastened Grasp of Sylvan Spirits to be ranks 2-7 of Grasp of Sylvan Spirits.
+Ranger - Consolidated Hastened Group Guardian of the Forest to be ranks 4-6 and 13 of Group Guardian of the Forest.
+Ranger - Consolidated Hastened Guardian of the Forest to be ranks 16-20 and 29 of Guardian of the Forest.
+Ranger - Consolidated Hastened Harmonious Arrow to be ranks 2-4 of Harmonious Arrow.
+Ranger - Consolidated Hastened Imbued Ferocity to be ranks 2-7 of Imbued Ferocity.
+Ranger - Consolidated Hastened Outrider's Accuracy to be ranks 10-14 of Outrider's Accuracy.
+Ranger - Consolidated Hastened Outrider's Attack to be ranks 3-8 and 13 and Extended Outrider's Attack to be ranks 10-12 and 16 of Outrider's Attack.
+Ranger - Consolidated Hastened Outrider's Evasion to be ranks 3-5 of Outrider's Evasion.
+Ranger - Consolidated Hastened Protection of the Spirit Wolf to be ranks 13-17 and 24-26 of Protection of the Spirit Wolf.
+Ranger - Consolidated Pathfinder's Grace to be ranks 6-8 of Innate Run Speed.
+Ranger - Increased the critical chance for archery attacks granted by Combat Fury to equal the critical chance for melee attacks (~6% increase).
+Rogue - Consolidated Extended Thief's Eyes to be ranks 1-2 of Enhanced Thief's Eyes.
+Rogue - Consolidated Improved Physical Enhancement to be rank 3 of Physical Enhancement.
+Rogue - Consolidated Massive Strike Recurrence to be ranks 7, 12, and 18-19 and Flurry of Daggers to be ranks 8, 13, and 20-21 of Massive Strike.
+Rogue - Consolidated Speed of the Scoundrel to be rank 6 of Innate Run Speed.
+Rogue - Increased the critical chance for throwing attacks granted by Combat Fury to equal the critical chance for melee attacks (~13% increase).
+Rogue - The various Cunning Disguise abilities have been moved from the class category to the Special category of the AA ability window.
+Shadowknight - Consolidated Death's Fury to be ranks 1-5 and Death's Revenge to be ranks 9-21 and 25-27 of Companion's Fury.
+Shadowknight - Consolidated Hastened Hate Step to be ranks 2-4 and 6-7 of Hate Step.
+Shadowknight - Consolidated Hastened Projection of Doom to be ranks 3-7 of Projection of Doom.
+Shadowknight - Consolidated Hastened TVyl's Resolve to be ranks 3-7 of TVyl's Resolve. Reduced the incoming damage modifier of T`Vyl's Weakness I-III from 15, 30, 35% to 15, 17, 20% and removed the 1500 hit limit restriction on the ability.
+Shadowknight - Consolidated Hastened Thought Leech to be ranks 5-7 of Thought Leech.
+Shadowknight - Consolidated Hastened Visage of Death to be ranks 4-9 and 13-15 of Visage of Death.
+Shadowknight - Consolidated Hastened Visage of Decay to be ranks 4-6 of Visage of Decay.
+Shaman - Consolidated Hastened Call of the Ancients to be ranks 9-13 of Call of the Ancients.
+Shaman - Consolidated Hastened Spirit Guardian to be ranks 8-12 of Spirit Guardian.
+Warrior - Consolidated Extended Resplendent Glory to be ranks 6-9 of Resplendent Glory.
+Warrior - Consolidated Hastened Ageless Enmity to be ranks 4-6 of Ageless Enmity.
+Warrior - Consolidated Hastened Area Taunt to be ranks 2-7 and 9 of Area Taunt.
+Warrior - Consolidated Hastened Blast of Anger to be ranks 4-12 and 20-22 of Blast of Anger.
+Warrior - Consolidated Hastened Gut Punch to be ranks 4-8, 11-13, and 19-22 of Gut Punch.
+Warrior - Consolidated Hastened Mark of the Mage Hunter to be ranks 7-9 and 13-14 of Mark of the Mage Hunter.
+Warrior - Consolidated Hastened Press the Attack to be ranks 5-12 of Press the Attack.
+Warrior - Consolidated Hastened Projection of Fury to be ranks 2-4 and 6-9 of Projection of Fury.
+Warrior - Consolidated Hastened Rage of Rallos Zek to be ranks 2-6 of Rage of Rallos Zek.
+Warrior - Consolidated Hastened War Cry to be ranks 7-12 of War Cry.
+Warrior - Consolidated Hastened Warlord's Tenacity to be ranks 7-11, 21-23, and 31 of Warlord's Tenacity.
+Warrior - Consolidated Hastened Wars Sheol's Heroic Blade to be ranks 3-7 of Wars Sheol's Heroic Blade.
+Warrior - Consolidated Lasting Bravery to be ranks 2-4 and 11-13 and Hastened Warlord's Bravery to be ranks 7-9 and 14-18 of Warlord's Bravery.
+Warrior - Consolidated Mass, Affected to be ranks 11-13 of Sturdiness.
+Warrior - Consolidated Warlord's Resolve to be rank 4 of Fear Resistance.
+Warrior - Made a number of modifications to Shield Specialist and Improved Shield Specialist:
+- Ranks 1-13 of Shield Specialist and ranks 1-3 of Improved Shield Specialist are now ranks 1-16 of Warlord's Weapon Mastery, which increases the base damage of all weapon types wielded by the warrior regardless of wearing a shield.
+- The chance to trigger Strike of Ire when attacking that was previously granted by ranks 1-3 of Improved Shield Specialist is now granted by ranks 10-12+ of Infused by Rage.
+- Strike of Ire can now trigger when wielding either a shield or a weapon in your offhand.
+- The bonus chance to trigger weapon effects that was previously granted by ranks 1-3 of Improved Shield Specialist is now granted by the Defensive Proficiency buff triggered by using a shield with Weapon Stances activated.
+Wizard - Consolidated Hastened Ward of Destruction to be ranks 6-7, 13, and 15-16 of Ward of Destruction.
+Wizard - Corrected an issue where the swords summoned by ranks 21-23 of Call of Xuzl didn't take as much damage as was intended when they were the direct target of melee or spell attacks. The swords will retain their enhanced durability when hit by rampage or AE spells.
+
+
+*** Progression Servers ***
+
+- Phinigel - Added an instance of Howling Stones. You'll have to speak with the Agent of Change inside Howling Stones to get it.
+- The Plane of Mischief castle will no longer appear in Great Divide during the 10th Ring War, at least until LDoN has unlocked on the server (seriously this time).
+
+
+*** Miscellaneous ***
+
+- The way that spells and abilities that protect against a percentage of incoming spell or melee damage has been adjusted to more accurately calculate the amount of damage each buff will protect you from and select the best option.
+- - Previously, the buff with the highest percentage was always considered better, but this behavior did not account for the amount of damage being done by the hit relative to the maximum per-hit protection that these buffs offered.
+- Corrected an issue where spells that modify the body type of their target would cause problems with subsequent spells with the same effect.
+- Corrected a longstanding issue where killing a creature with a riposte would cause that creature's corpse to remain targeted.
+- Corrected an issue that caused abilities that increase your chance to riposte your opponent to negate your opponent's chance to riposte your attacks.
+- - Coinciding with this change, the damage that non-pet NPCs deal with riposte attacks has been globally reduced.
+- Fixed an issue with character deletion where the currently selected character would get deleted instead of the character that was prompted for if the selection changed while the prompt window was open.
+
+
+*** UI ***
+
+- Corrected an issue where the AA window would display Timer 0 for some passive AA abilities.
+- Adjusted the ornamentation label in the item display window so that visible ornaments do not cause the window to stretch horizontally.
+- Corrected several issues with hotkeys created from the pet window:
+- - NOTE: Hotkeys previously created from the Pet Info Window hotkeys will need to be recreated to be fixed.
+- - Hotkeys created from pet window command keys will now function if that command is no longer active in the pet window.
+- - Hotkeys created from pet window command keys will no longer change function if the slot they were created from changes function.
+- - Hotkeys created from pet window commands can be renamed and will now continue to function.
+- - Hotkeys can now be created without an active pet.
+- - Pet window command keys can now be changed without an active pet.
+- Fixed some pop up messages that used the color grey instead of the color selected in 'Event Messages' in the Options->Chat tab.
+
+
+- Changed -
+
+EQUI_ItemDisplay.xml
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+Game Update Notes: September 21, 2016
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-september-21-2016.235002/
+
+*** Highlights ***
+
+- Look to the marketplace this October for the Big Cat in a Bag. Each one contains a random adoptable big cat familiar. Trade them to your friends or collect them all yourself, and keep an eye out for some rare and unique feline familiars!
+- The Mount Key Ring will now be accessible on progression servers before The Darkened Sea, if you have purchased The Darkened Sea, The Broken Mirror, or the newly added Marketplace Mount Key Ring feature unlock.
+- - The Mount and Illusion Key Rings will no longer be included with expansion purchases after pre-orders begin for Empires of Kunark.
+
+
+*** Items ***
+
+- The particles on the weapons Dawn and The Warder have been adjusted.
+- Fixed a bug that caused the particles on the Battle Cat Mounts to not display.
+- Vergalid Slave Manacles now stack up to 20. They now can not be worn.
+- Look to the marketplace this October for the Big Cat in a Bag. Each one contains a random adoptable big cat familiar. Trade them to your friends or collect them all yourself, and keep an eye out for some rare and unique feline familiars!
+
+
+*** Quests & Events ***
+
+- Raid 6 in Discord Tower now has a more appropriate name: Brekt's Throne Room.
+- Berserker Epic 1.5 Quest - You will no longer need to be in a raid to get credit for testing all the axes against An Ancient Sebilite Protector in Sebilis. You do still have to kill the Ancient Sebilite Protector to get credit and you still have to kill his buddies first.
+- The Achievement description for "Finish What You Started" now has 0 typos instead of 2.
+- The Save the Scout event in Qinimi will correctly teleport you into the virtual area when the event starts if you are attempting the event solo.
+
+
+*** Spells ***
+
+- Buffs will no longer slow you down if you have a higher run-speed AA ability effect.
+- Spells and abilities that trigger effects when you block will now function with Staff Block and Shield Block.
+- Fixed an issue where a number of spells and abilities that return health, mana, or endurance based on the amount of damage done were not properly capped.
+- Corrected an issue that prevented Bard songs from costing endurance.
+- Bard - Raised the endurance cost of Dichotomic Psalm, increased the amount of damage it adds to spells and melee strikes, increased the amount it heals, and lowered the amount of mana and endurance that is restored.
+- Enchanter - Increased the mana cost and spell damage added by Dichotomic Reinforcement. Lowered the amount of mana returned to the group when it is cast.
+- Paladin - Changed Holy Guardian Effect so that it can now properly cast Holy Guardian Heal on successful shield blocks and ripostes in addition to bash attempts. Added a proc limit of 120 to the effect so that it is no longer as effective against large numbers of targets.
+- Shadowknight - Changed Unholy Guardian Effect so that it can now properly cast Unholy Guardian Lifetap on successful shield blocks and ripostes in addition to bash attempts. Added a proc limit of 120 to the effect so that it is no longer as effective against large numbers of targets.
+- The Presence of the Mighty spells no longer cause stacking issues with Wizard familiars.
+
+
+*** NPCs ***
+
+- Fixed the consider message for Marnek Jaull so that he will properly return your /con difference. Also fixed other NPCs that were previously returning 'NULL'.
+
+
+*** Tradeskills ***
+
+- The Aloe Tip will now show up on merchants even if the "Show only items I can use" box is checked.
+
+
+*** AA ***
+
+- AA abilities that allow your melee attacks to trigger spells will no longer report spell casting failures if either you or your target does not meet the requirements for the spell.
+- - Ex: Strike of Ire as triggered from the Warrior ability Infused by Rage 21 will no longer periodically display 'Your spell is interrupted.'
+- All - Several 'Hastened' abilities have been renamed to 'Improved' and several ability descriptions have been updated in preparation for Empires of Kunark.
+- Bard - Consolidated Hastened Deftdance Discipline to be ranks 2-8 of Extended Deftdance Discipline and renamed the line Improved Deftdance.
+- Bard - Consolidated Extended Thousand Blades Discipline to be rank 5 of Hastened Thousand Blades Discipline and renamed the line Improved Thousand Blades Discipline.
+- Bard - Consolidated Quickened Requiem of Time to be ranks 1-3 of Improved Requiem of Time.
+- Berserker - Furious Rampage will no longer reduce the damage of the 1-4 hits triggered by the Rampage activated ability.
+- Berserker - Furious Rampage will once again deal full damage to your primary target, the reduced damage per hit now applies only to other targets around you.
+- Berserker - Consolidated Extended Berserking to be ranks 4-5 of Hastened Berserking Discipline and renamed the line Improved Berserking Discipline.
+- Cleric - Consolidated Hastened Bestow Divine Auras to be ranks 2-6 of Bestow Divine Aura Azia.
+- Cleric - Reduced the initial reuse time of Bestow Divine Aura Beza to match the hastening previously provided by rank 3 of Hastened Bestow Divine Auras. Added new ranks 3-4 to Bestow Divine Aura Beza to match the hastening previously provided by ranks 4-5 of Hastened Bestow Divine Auras.
+- Cleric - Consolidated Hastened Sanctuary to be ranks 2-7 and 9 of Sanctuary (Improved).
+- Cleric - Reduced the initial reuse time of Blessing of Sanctuary to match the hastening previously provided by rank 6 of Hastened Sanctuary. Added a new rank 2 to Blessing of Sanctuary to match the hastening previously provided by rank 7 of Hastened Sanctuary.
+- Cleric - Consolidated Hastened Wards to be ranks 9-13 of Exquisite Benediction.
+- Cleric - Added new ranks 13-17 of Ward of Purity to match the hastening previously provided by Hastened Wards.
+- Druid - Removed ranks 1-2 of Hastened Entrap and granted access to ranks 1-3 of the Ranger Hastened Entrap line that has been consolidated to be ranks 3-5 of Entrap.
+- Druid - Consolidated Hastened Spirit of the Wood to be ranks 19-24 of Spirit of the Wood.
+- Druid - Added new ranks 19-24 of Peaceful Spirit of the Wood to match the hastening previously provided by Hastened Spirit of the Wood.
+- Druid - Consolidated Extended Spirit of the Wood to be ranks 28 and 35 of Spirit of the Wood.
+- Druid - Added new ranks 28 and 35 to Peaceful Spirit of the Wood to match the extension previously provided by Extended Spirit of the Wood.
+- Druid - Consolidated Hastened Lycan Soul to be ranks 3-6 and 10 of Spirit of the White Wolf.
+- Druid - Added new ranks 3-6 and 10 of Spirit of the Black Wolf to match the hastening previously provided by Hastened Lycan Soul.
+- Druid - Reduced the initial reuse time of Group Spirit of the White Wolf and Group Spirit of the Black Wolf and adjusted rank 3 of each line to require rank 10 of the self-only line.
+- Druid - Consolidated Hastened Storms to be ranks 13-18 and 25 of Storm Strike.
+- Druid - Reduced the initial reuse time of Fire Storm to match the hastening previously provided by Hastened Storms.
+- Druid - Consolidated Hastened Convergence of Spirits to be ranks 13-18 and 29 and Extended Convergence of Spirits to be ranks 22 and 30 of Convergence of Spirits.
+- Druid - Added new ranks 13-18, 22, and 29-30 to Peaceful Convergence of Spirits to match the extension and hastening previously offered by Hastened Convergence of Spirits and Extended Convergence of Spirits.
+- Monk - Consolidated Hastened Scaledfist Discipline to be ranks 2-6 of Extended Scaledfist Discipline and renamed the line Improved Scaledfist Discipline.
+- Monk - Consolidated Hastened Speed Focus Discpline to be ranks 3-8 of Extended Speed Focus Discipline and renamed the line Improved Speed Focus Discipline.
+- Monk - Renamed Hastened Synergy to Improved Synergy and added the ability lines Improved Step Pattern and Improved Sting of the Wasp.
+- Monk - Consolidated Hastened Destructive Force to be ranks 4-12 of Destructive Force.
+- Monk - Added new ranks 4-12 to Focused Destructive Force to match the hastening previously offered by Hastened Destructive Force.
+- Monk - Destructive Force will once again deal full damage to your primary target, the reduced damage per hit now applies only to other targets around you.
+- Paladin - Consolidated Hastened Divine Stuns to be ranks 2-4 of Divine Stun.
+- Paladin - Reduced the initial reuse time of Force of Disruption and Disruptive Persecution to match the hastening previously provided by rank 3 of Hastened Divine Stuns.
+- Paladin - Consolidated Hastened Lay on Hands to be ranks 14-16, 20, and 25 of Lay on Hands.
+- Paladin - Reduced the initial reuse time of Gift of Life to match the hastening previously provided by rank 4 of Hastened Lay on Hands. Added a new rank 2 of Gift of Life to match the hastening previously provided by rank 5 of Hastened Lay on Hands.
+- Paladin - Consolidated Hastened Purification to be ranks 2-9 of Purification.
+- Paladin - Reduced the initial reuse time of Blessing of Purification to match the hastening previously provided by rank 8 of Hastened Purification.
+- Paladin - Renamed Hastened Sanctification Discipline to 'Improved Sanctification Discipline' and consolidated Extended Sanctification Discipline to be rank 6 of this line.
+- Ranger - Consolidated Hastened Entrap to be ranks 3-5 of Entrap.
+- Rogue - Consolidated Extended Frenzied Stabbing Discipline to be rank 1 of Hastened Frenzied Stabbing Discipline and renamed the line Improved Frenzied Stabbing Discipline.
+- Rogue - Rake's Rampage will once again deal full damage to your primary target, the reduced damage per hit now applies only to other targets around you.
+- Shadowknight - Consolidated Touch of the Wicked to be ranks 14-16, 22, and 25 of Harm Touch. Added new ranks 2, 4, 6, 13, and 26 to Leech Touch to match the hastening previously provided by Touch of the Wicked.
+- Shadowknight - Consolidated Hastened Explosion of Hatred to be ranks 3-4 of Explosion of Hatred. Added new ranks 2-4 of Explosion of Spite to match the hastening previously provided by Hastened Explosion of Hatred.
+- Shadowknight - Consolidated Quickened Demand for Power to be ranks 1-3 of Extended Provocation for Power and renamed the combined line 'Improved Demand For Power'.
+- Shaman - Adjusted the stacking on Pathosis and Wind of Pathosis so that it will better coexist with the Shadowknight Blight line of DoTs.
+
+
+*** Progression Servers ***
+
+- The Mount Key Ring will now be accessible on progression servers before The Darkened Sea, if you have purchased The Darkened Sea, The Broken Mirror, or the newly added Marketplace Mount Key Ring feature unlock.
+- - The Mount and Illusion Key Rings will no longer be included with expansion purchases after pre-orders begin for Empires of Kunark.
+- Scribe Zikett will begin selling his wares in the Plane of Knowledge once Call of the Forsaken has unlocked on the server.
+- The Presence of the Mighty spells no longer cause stacking issues with Wizard familiars.
+
+
+*** Miscellaneous ***
+
+- Added an option to the display tab of the options window that allows you to see pre-Luclin PC characters on mounts. The ability to summon and ride mounts is no longer disabled on pre-Luclin PC character models.
+- Non-melee damage dealt by player pets will now display to all players around the victim, rather than just the pet's owner.
+- Fixed an issue where fellowship vitality would drop to 0 when you logged out if you had a high raw vitality number stored on the character.
+- Fixed a client crash with shrouds when opening a merchant with spell scrolls.
+- Addressed an issue where LDoN leaderboards would show the same person multiple times in the list.
+- Fixed an issue where bandoliers with empty sets would break any sets following the empty set.
+- Fixed an issue that prevented Drogmor mounts from functioning.
+
+
+*** UI ***
+
+- Added a third pane to the claim window that contains additional information about a claim (if there is any).
+- Fixed a tab title typo in the credits section on the login server.
+- Disabled the Welcome Screen and removed the ability to open it.
+- Added the ability to opt in or out of Guild Trophy Tribute when not currently in a guild hall.
+- Modified the Actions window so it can support nested controls in custom UIs. The controls were originally only working on the top level tabs in the Actions window.
+
+
+- Changed -
+EQUI_ClaimWnd.xml
+EQUI_OptionsWindow.xml
+
+
+*** Previously Updated ***
+- Moved one of the collection locations in Sul Vius: Life and Sul Vius: Decay to prevent them from appearing out of reach.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: October 19, 2016
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-october-19-2016.235819/
+
+*** Highlights ***
+
+- Modified NPC pathing logic when an NPC is in combat against a PC. See NPC section for details.
+
+
+*** Items ***
+
+- Increased the rank of Form of Endurance on Mask of Immortal End and Hardened Mask of Immortal End from 25 to 30.
+- Placing Jade Tiger in your real estate will no longer place Schrodinger and vice versa.
+
+
+*** Quests & Events ***
+
+- Karam Dragonforge's quests should now work correctly and not eat valid items. His dialogues will indicate which items he needs.
+- - On servers that have unlocked Secrets of Faydwer, Karam Dragonforge will require "Square Cut Black Sapphire", "Marquise Cut Alexandrite", "Platinum Trio Ring", and "White Dragon Hide" in order to create a White Dragonscale Cloak.
+- - On servers that have not yet unlocked Secrets of Faydwer, Karam Dragonforge will require "Platinum Diamond Wedding Ring", "Black Sapphire Platinum Necklace", and "White Dragon Hide" in order to create a White Dragonscale Cloak.
+- Deaths of the Unliving - Made some changes to this task in Sul Vius: Life that might prevent it from being broken at the "examine the body" step. Internally this has never been reproduced, so please let us know if you still encounter issues.
+- It should no longer be possible to spawn multiple versions of the Caller event NPCs in Fungus Grove by force-feeding the trigger dozens of Blargrot beverages. In addition, the event versions of the Caller NPCs are now PC friendly.
+
+
+*** Spells ***
+
+- Necromancer - Moved Dichotomic Paroxysm from timer 18 to timer 20.
+- Bard - Lowered the endurance cost of Dichotomic Psalm, increased the amount of damage it adds to spells and melee strikes, and changed the HP, Mana, and Endurance return amounts to match the proportions granted by Crescendo songs.
+- Casting Call of the Hero in Acrylia will again summon A Grimling Hero.
+
+
+*** NPC ***
+
+- Modified NPC pathing logic when an NPC is in combat against a PC.
+- - NPCs will now be less inclined to stop short of a moving target, which should result in high speed NPCs more consistently catching and attacking PCs.
+- - Fixed a visual bug where an NPC moving toward a player would move, then teleport forward a short distance a second later.
+
+
+*** Progression Servers ***
+
+- Bartering will now unlock when the Shadows of Luclin unlocks instead of waiting until Dragons of Norrath.
+- In the instanced version of the Accursed Temple of Cazic-Thule, the bosses will now correctly use Mitigation of the Mighty IV.
+- Darrisa Nyny in West Freeport and Celni Pawfoot in Commonlands will begin spawning when the Shadows of Luclin has unlocked. They offer Beastlord discipline tomes. Darrisa Nyny is also another source of hybrid discipline tomes.
+- The shissar wraiths that spawn after Emperor Ssraeshza's death in Ssraeshza Temple instances will no longer be subject to the loot lockout for the basepop, but instead will be linked to the lockout for the emperor himself.
+- Praetorian Myral's extensive beard grooming appointment has completed. He will again spawn in Grieg's End.
+
+
+*** Miscellaneous ***
+
+- Fixed a few bugs with the advanced looting system.
+- - Zones which have been repopped will now properly work with advanced looting.
+- - Fixed a crash which could happen when items are removed from the personal loot list.
+- - Fixed a problem with multiple of the same item dropping on an npc/chest.
+- Fixed the excessive vertical camera bounce that occurred for Frogloks introduced in the last update.
+- Fixed an issue that would disable entire accounts from logging in if one of the characters on an account is corrupted. The non-corrupted characters will appear roughly 10 minutes after login if this is the case. Players experiencing this should contact Customer Support to get the corrupted characters removed or fixed.
+- Fixed a client crash when the total number of Traders in the bazaar is more than 600.
+- Upgraded some internal graphics libraries. Please let us know if you can no longer reach character select.
+- Reduced the number of Alternate Advancement Point achievements. Achievements are granted for every 500 points spent between 5000 and 10000 and for every 1000 points spent between 10000 and 20000.
+- Characters will no longer receive the achievement "Whispers of Kunark."
+
+
+*** UI ***
+
+- Corrected issues with the reward selection window that would cause rewards to fail to preview and sort correctly.
+- Fixed an issue where Pet Rename reminders were not properly being disabled.
+- Paste from clipboard will now default to Ctrl-V.
+- Removed the allowing / disallowing of Pixel Shaders 1.1 and Pixel Shaders 1.4. The Pixel Shaders 2.0 control will now handle allowing / disallowing of those because all pre-2.0 Pixel Shaders are now treated as 2.0 Shaders.
+
+
+- Changed -
+
+EQUI_AdvancedDisplayOptionsWnd.xml
+
+
+*** Previously Updated ***
+
+- Zones that have areas with restrictions on corpse summoning, Call of the Hero, Bind Affinity, or similar effects, will work the same way in the instance as the base zone. The Emperor's Room in Ssraeshza Temple is one example.
+- Sage Vindillar will no longer attempt to send live test subjects to a place that doesn't exist yet. He will return when Planes of Power is unlocked.
+- Locked doors and portals inside Ssraeshza Temple and Vex Thal will now work correctly inside the Phinigel instance.
+- All teleportation stones except for the stone to Qeynos in the Plane of Knowledge will be disabled until the Planes of Power launches.
+- Being in the Emperor's room in Ssraeshza Temple without the key will kick you back to the Nexus. The key requirement for Emperor's room is removed once Gates of Discord has unlocked on the server.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: October 21, 2016
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-october-21st.235960/
+
+*** Hotfix ***
+
+- Resolved some issues with Felwithe, Nagafen's Lair, and other zones that would cause the NPCs to be the wrong size, untargetable, and other random issues.
+
+.....................................................................
+
+------------------------------
+Game Update Notes: November 16, 2016
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-november-16-2016.236577/
+
+After decades of slumber, Imperator Tsaph Katta awakens and vows to reform the Combine Empire. With the former glorious capital of his nation rebuilt in the treacherous lands of Kunark, Tsaph Katta vows to cement his place in the annals of history as The Great Unifier. Not all are ready to bend to the will of Katta and his allies, least of all the current inhabitants of Kunark.
+
+Make haste and return to the ruins of Kunark to play your part in the coming turmoil!
+
+
+*** Highlights ***
+
+- EverQuest's 23rd expansion, "Empires of Kunark" is out now!
+- With the expansion comes an exciting new feature - the Familiar Key Ring!
+- Added the Task Overlay Window.
+
+
+*** Items ***
+
+- Added the Familiar Key Ring feature.
+- - The Familiar Key Ring provides 10 slots for you to store your familiar friends! Familiars can be added or removed from the Key Ring at any time, making it easy to organize the companions you want to have in your pack. In addition to freeing up precious bag space, the Familiar Key Ring also provides you with the ability to apply the stats of one familiar to the appearance of another, giving you more ways to customize your companion in-game.
+- - In addition to this, pet classes that previously had to decide between having a familiar or a combat pet specific to their class can now have BOTH out at the same time!
+- - Each character on your account will be granted a Familiar Key Ring with 10 slots. Need even more room than that? To unlock additional slots on your Key Ring, you can purchase them in the Marketplace or get them by upgrading your expansion to the Collector’s Edition or Premium Edition.
+- Inspecting a recipe book will now display 'Scribed' if you have learned all of the recipes the book is able to teach you and 'Not Scribed' if scribing the book would teach you new recipes.
+
+
+*** Spells ***
+
+- If you own the Familiar Key Ring feature, any illusion spells on summoned pets will persist when you zone.
+- Corrected a number of visual issues related to height and illusion spells:
+- - Applying and removing an illusion after having your height modified should now consistently return you to your adjusted height. Previously some illusion spells would return you to your racial default height rather than your shrunk/grown height.
+- - Players under the effects of an illusion should now consistently appear to be the correct height to other players. This should reduce the likelihood of seeing 6-foot-tall gnomes.
+- The initial damage or healing on certain spells that have a duration can now land critically. Previously, spells that healed a target or dealt damage when they landed but also had a duration would not roll a critical chance.
+- Improved how buffs stack when checking spell effects that modify particular skills. If two buffs use the same spell effect in the same slot but impact different skills, they will now be allowed to stack.
+- - Example: Previously, if a Monk had activated Steelfist Discipline (which increases Round Kick damage by 270% in slot 5) and a Beastlord activated Group Bestial Alignment (which increases all melee damage by 30% in slot 5) the Beastlord's effect would not have taken hold on the Monk. Under the new rules, the abilities are allowed to coexist because they are modifying different skills.
+- Added the ability for Warlowe Rida in the Plane of Tranquility to help you [remember] your progressive spell progress and make sure you have the highest rank available. If you have lost ranks of these abilities due to race changes or other errors, please consult her.
+- Increased the base accuracy of all pets summoned by spells between levels 101 and 105. This should help them hit NPCs, particularly raid targets, much more often.
+- Ranked pets in these levels now gain much more accuracy per rank than they did before.
+- Boosted the base accuracy of all unfocused pets.
+- Boosted the rate of accuracy gain per focus level for focused pets.
+- Several buffs that increase the damage of a limited number of spells have been adjusted so that they will only focus spells that deal more than 100 points of damage. This should prevent cases like the Magician Rampaging Servant line of spells from consuming charges from Flames of Power.
+- Changed all healing spells that formerly would have given additional bonus healing under certain conditions to now heal for either their base amount or a larger bonus amount. The following spells were changed:
+- - All Cleric spells that gave bonus healing for targets at low health
+- Changed all damage spells that formerly would have dealt additional bonus damage under certain conditions. They will now deal a base amount of damage or a larger amount of damage with bonuses. These bonuses were increased over their former amounts of damage to account for the loss of additional spell damage effects on each "line." The following spells were changed:
+- - All Cleric/Paladin/Druid spells that dealt additional damage to undead or summoned creatures
+- - All Shadowknight/Necromancer spells that dealt additional damage to plants
+- - All Magician spells that would hit multiple times based on the number of pets active on the target's hatelist
+- Beastlord - Removed push from the Envenomed Breath line of DoT spells.
+- Berserker - Moved Dichotomic Rage from timer 18 to timer 21.
+- Druid - Changed Nurturing Growth so it will function correctly if you have a familiar or pet active when you cast it.
+
+
+*** NPC ***
+
+- Added the ability to rename your familiars. To bring up the familiar name change window, use the command "/changefamiliar." This will require the new item Potion of Familiar's Amnesia on the marketplace. Familiars will now also have a tag under their name to indicate their owner if their names have been changed.
+- Beastlord warders who have their names changed will now display their owners' names.
+- A Grimling Hero in Acrylia will now despawn if he's been up and idle for several minutes.
+
+
+*** Progression Servers ***
+
+- Karam Dragonforge will spawn correctly on servers that have not yet unlocked Secrets of Faydwer. Like Praetorian Myral, he also has returned from his beard grooming appointment.
+
+
+*** Miscellaneous ***
+
+- You may now have a pet and a familiar summoned at the same time. The familiar has been removed from the pet window and the command "/pet leave" will no longer function for familiars.
+- Added a slash command "/familiar leave" to tell the familiar to go away. Also added a button to the Familiar tab in the Key Rings window to tell the familiar to leave as well.
+- Corrected a visual bug that could cause some Luclin PC models to appear to be standing up rather than riding when running while mounted.
+- Statistic buffs have been split from familiar buffs and dismissing a familiar will now also remove the 'Summon Familiar' buff.
+- Fixed an issue where players did not receive a reduced lockout timer when they were invited to an expedition that had reduced lockout timers.
+- Addressed an issue that would cause fellowship leaders to sometimes change randomly.
+- Fixed an issue that would sometimes block completion of task elements in Heroic Adventures when they required completing the element multiple times.
+
+
+*** UI ***
+
+- Added the task overlay window. This window is on by default and its behavior is slightly different from other windows in the UI:
+- - It defaults to 0% opacity. This can be changed using the right click menu.
+- - It defaults to allowing clicks through. This can also be disabled using the right click menu.
+- - The window is locked by default, preventing accidental moves.
+- - You can click on task names to pop up and hide the full quest window.
+- - In addition to "/taskoverlay," you can show/hide the window using the EQ button or via a hotkey.
+- - Mouse scroll is active on the window to allow you to quickly scroll through your active and shown quests.
+- - Tasks can be shown and hidden easily using the new checkboxes in the quest window.
+- Added some options for the task overlay window:
+- - Automatically add new tasks to task overlay (defaulted to on).
+- - Show only open steps for the task (defaulted to on).
+- - Add most recent task to top (defaulted to off).
+- Added an "Auto Leave" toggle to the Familiars tab of the Key Rings window to make most familiars automatically leave when you are summoning a familiar or when zoning. This will not affect any buffs that a familiar will provide. Note that certain familiars will not be automatically dismissed even if this is checked (for example, the banker).
+- Fixed an issue where the pet window will show a pet's corpse name when zoning.
+- Added a new map for the Empires of Kunark, accessible through the main Atlas map under "Empires of Kunark".
+- - The continent of Kunark in the main Atlas map has been split up so that clicking on the top portion of the Kunark continent will bring up the old Ruins of Kunark map, while clicking on the bottom will bring up the new Empires of Kunark map.
+- - Added a new link from the Luclin Underground map to the new Empires of Kunark map.
+
+
+- Added -
+EQUI_TaskOverlayWnd.xml
+
+
+- Changed -
+EQUI.xml
+EQUI_Animations.xml
+EQUI_ItemDisplay.xml
+EQUI_KeyRingWnd.xml
+EQUI_OptionsWindow.xml
+EQUI_TaskWnd.xml
+
+
+*** Previously Updated ***
+
+- Resolved some issues with Felwithe, Nagafen's Lair, and other zones that would cause the NPCs to be the wrong size, untargetable, and other random issues.
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: December 1st, 2016
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-december-1st.236945/
+
+ *** Hotfix ***
+
+    The Summoning of Droga (raid) - The Incarnate Droga will no longer cast Blood Splash without an associated warning and a way to avoid the effect.
+    On Behest of the Emperor - Fixed a problem that prevented Dread Overseer Akalod and Royal Guard Kakator from leaving corpses.
+
+.....................................................................
+
+------------------------------
+Game Update Notes: December 14, 2016
+------------------------------
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-december-14-2016.237218/
+
+*** Highlights ***
+
+- Look to the marketplace this December for the Frostfell Familiar in a Box!
+
+
+*** Items ***
+
+- Look to the marketplace this December for the Frostfell Familiar in a Box. Each one contains a random adoptable familiar. Trade them to your friends or collect them all yourself, and keep an eye out for some rare and unique Frostfell familiars!
+- Removed backstab from the various Sulstones of the Thoughtful as these are caster only augments and are not usable by Rogues. Similarly, removed backstab from the various Sulstones of the Fighter as these are slashing only augments, and backstab requires piercing weapons.
+- Corrected the description for the Visage of the Hideous Harpy.
+- Icesprite Familiar will now summon a familiar and fit in the keyring.
+- Master's Token of Command will properly scale as you kill rare NPCs in Empires of Kunark.
+- Sathir Trade Gems and Ancient Sebilisian Coins are now Tradable on the Firiona Vie server.
+- Duffel of the Di`Zok is now Heirloom and No-Destroy.
+- Bridle of Queen Velazul's Sokokar is now Heirloom.
+- Petamorph Wand items can now summon a familiar if you do not have a pet or change your pet's visual if you do have a pet.
+- Some missing Empires of Kunark items are now dropping on the appropriate NPCs and chests. Some items are now available only from the intended channels instead of also dropping from specific NPCs.
+- Invested Small Manisi Branch will now convert if you are a Cleric, Druid, or Shaman.
+- Crackjaw and Mad Researcher now drop Selrach's armor instead of Cohorts.
+
+
+*** Tradeskills ***
+
+- Corrected a bug that prevented ranks 4-13 of Brewing Mastery from functioning as intended.
+
+
+*** Quests & Events ***
+
+- Atrebe's Vault (Raid and Group Mission) - The spells used in these events now have appropriate descriptions.
+- Of Pirates and Men (Task) - The compass will again be granted for completing the first three steps to kill pirates and open crates in the ship's cargo hold.
+- Captain Krasnok (Seventeenth Anniversary) - Made several changes to the 17th Anniversary Event:
+- - Krasnok and the Fists of Hate summon only after they have been damaged, rather than immediately.
+- - Fixed a bug with the spell Hate's Furies: increased recast time from 7.6 seconds to 46 seconds.
+- - Sweeping Scimitar radius reduced from 150 to 120. Two more people can stand safely inside each bubble. Bubbles should always appear inside the playable area. Added a decal to the bubbles to make them a bit more visible.
+- Kod'Taz Summoner Ring (Event) - Repaired a bug that could cause the event to fail when deranged golems would spawn under the world.
+- Curing the Cure (Group) - Fixed an issue that would prevent the final step from working in any zone.
+- S.H.I.P. Workshop (Group) - Fixed an issue that could cause The Mechalossus to die and not give task credit.
+- Ring of Fear (Solo) - The ring event in Cazic-Thule should now respawn properly (every 6 days).
+- The Cost of Balance (Mission) - Fixed this mission in Arx Mentis. Now the key generators can be picked or fought to be destroyed.
+- Other's Things (Group) - Fixed the lack of crystals in this adventure.
+- Fixed a bug that allowed Aura of the Kar`Zok to land on pets and mercenaries.
+- Emollious (Raid) - Fixed an issue with the Half Traps achievement. It was possible to fail the achievement by using the same trap multiple times. It was counting each use of any trap, rather than whether or not you used two distinct traps.
+- Rivervale - Fixed a dialogue problem with Kizzie Mintopp.
+- Hunting Leather Leggings (Solo) - This quest for saurek scales in Shadeweaver's Thicket can now be completed.
+
+
+*** Spells ***
+
+- Fixed an issue that prevented invisibility from breaking charm spells if a player had a familiar buff active.
+- Druid - Sharp Eyes and Eyes of the Winter Hawk can now allow you to see invisible level 3.
+- Magician - Worlu's Prying Eyes now allow the user to see invisible level 3.
+- Magician and Wizard - Aspect of Zomm will allow you to see invisible level 3.
+- Ranger - Skylight Sagacity will allow you to see invisible level 3.
+- Enchanter - Removed incorrect references to damage risk on Perilous Disorientation Reprisal and Perilous Bafflement Reprisal.
+- Magician - Corrected Chaotic Fire Jolt so that it will correctly lower your opponent's hatred for you.
+- Enchanter - Spells in the Strangle line and the Baffling Constriction line will now do less initial damage than before since that initial damage can now hit for critical values.
+- Beastlord - Lowered the amount of initial damage dealt by the Scorpion Venom and Edoth's Chill spell lines since they can now hit for critical damage.
+- The following spells now have casting text: Summon Armored Frontier Rhinoceros, Wurmslayer's Guard, Scale Gnashing, Obulous Strike, Obulous Soothing, Gather Umbra, Binding Leaf, Manisi Balm, Woven Thorns, and Summon Golden Frontier Rhinoceros.
+
+
+*** AA ***
+
+- Fixed an error with Essence of the Dragon that prevented it from working for Bards, Monks, Rogues, and Warriors.
+
+
+*** NPCs ***
+
+- Boss spawn times in Vex Thal are now persistent for all servers. There is no longer an initial delay after the zone comes up before the bosses will spawn.
+- Male Dark Elf guards in Neriak - Fourth Gate will no longer vocalize as if they were undead.
+
+
+*** Progression Servers ***
+
+- Bosses in Vex Thal will spawn twice as often, on average, for Progression Servers.
+
+
+*** Miscellaneous ***
+
+- Fixed a typo that still stated in the error message that you need The Darkened Sea to use the stat slot for the mount key ring instead of stating the need of the mount key ring feature.
+- Addressed an issue that caused Guild Looking for Players to no longer function.
+- Addressed an issue where some high-hitpoint NPCs were giving no experience when they were supposed to give more than the previously current cap of experience in one kill.
+
+
+*** UI ***
+
+- Fixed an issue with advanced looting that was causing the wrong items to be left on the corpse since the previous patch.
+- - This also fixes an old issue that would rarely cause one of the never marked items to not 'leave on corpse.'
+- Dynamic zone replay times not associated to a particular event will now display 'Replay Timer' in the Event Name column of the expedition window rather than a blank space.
+- Sorted the entries in the EQ-button menu alphabetically and created a new category for the 10 hotkey windows.
+- Added a 'Print Items' button to the Item Display window which will print the names of items inside housing crates to the chat window. Note that this button will only show up if an item contains real estate items.
+
+
+- Changed -
+EQUI_ItemDisplay.xml
+
+
+*** Previously Updated ***
+
+- The Summoning of Droga (Raid) - The Incarnate Droga will no longer cast Blood Splash without an associated warning and a way to avoid the effect.
+- On Behest of the Emperor (Group Mission) - Fixed a problem that prevented Dread Overseer Akalod and Royal Guard Kakator from leaving corpses.
+
+
+- The EverQuest Team 
+
+.....................................................................
