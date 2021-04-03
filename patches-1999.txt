@@ -33,10 +33,12 @@ later this week.
 
 .....................................................................
 
+------------------------------
+April 28, 1999  News Bit from John Smedley
+------------------------------
+Hello All,
 
-------------------------------
-April 29, 1999  News Bit from John Smedley
-------------------------------
+I waited until it was 7:30pm pst tonight to write this update. I wanted to make sure things were stable before I wrote this. Lately every time I give an update something bad happened right after I sent it.
 
 Here's a summary of what was done in the last 2 days
 
@@ -63,6 +65,77 @@ are having a problem we will do our best to look into it. It doesn't
 mean we can always get the reaction we want (some networks are just 
 plain bad) but many times we can help find a legitimate problem and 
 help correct it.
+
+Some of you may also not realize what the network statistics we have in game actually are for:
+
+The left hand number is your ping to the server in milliseconds.
+
+The left-middle number (percentage) is your packet loss to the server.
+The right-middle number (percentage) is your packet loss from the server.
+The right hand number is the data rate. THIS IS NOT THE PING. - I love hearing about the "terrible" pings in game of 3000.
+It is my strong belief (forgive me for this rant) that EVERY online game should have this type of meter so that you are getting real feedback about the network status.
+
+John Smedley
+
+Thanks! 
+
+.....................................................................
+
+------------------------------
+April 29th, 4:00pm
+------------------------------
+As posted yesterday, we will be bringing down all of the servers at midnight tonight PDT, for a server-side update. Our estimated downtime is should be less than two hours. The fixes/changes are listed below.
+
+1) Traveling by boat should be much more stable.
+2) A few various zone crashes.
+3) The corpse class tag will not be listed as "Unknown".
+4) Players will be given text messages for items that they cannot obtain while looting a corpse, instead of the item disappearing.
+5) A number of quests and combat related exploits were fixed.
+6) Characters are no longer able to use the disarm command while using feign death.
+
+We will also be putting up a new client patch on Monday at Midnight as well. A list of the client-side changes will be posted on Monday morning.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+May 3rd, 5:00pm
+------------------------------
+
+We will be patching a new version of the EverQuest client executable tonight at Midnight PDT. One of the significant additions is the option to utilize auto mip-mapping in Glide mode. Mip-mapping may be activated in the Display menu, located within the Options directory. In addition, we have made numerous bug fixes and game play adjustments, of which are listed below.
+
+1) If you have participated in a fight against an NPC, you will take a faction hit.
+2) Players may no longer disarm an NPC that has a magical weapon armed.
+3) Safe-fall is now working as intended, however, damage from falling is required to advance in the skill.
+4) Players should not see other characters "popping" around while riding the boats.
+5) Trades will properly cancel out when the characters involved walk away.
+6) The Friend's List is now functioning as intended.
+7) A few crash bugs related to failed font calls have been resolved.
+8) Creature and Player corpses should no longer draw into the overlays.
+9) Vampiric Embrace has been modified from it's original design to improve game play.
+10) A number of quest were implemented.
+
+Included in tonight's update is a major enhancement to the populations of both Solusek's Eye and Mistmoore.
+
+Tomorrow night, a revised version of the EverQuest Manual will be patched. The revision will include a new section which outlines the spells and skills that have been modified from their original design to enhance game play.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+May 4th, 8:30pm
+------------------------------
+
+The login difficulties that you may have been encountering over the past 1.5 hours have been resolved. We were able to pinpoint and fix
+a major bug which has been plaguing the login procedure for quite some time. Now that this problem has been addressed, the login
+process should be carried out much more swiftly. We apologize for the inaccessibility of the EverQuest servers for this short time,
+however, this fix should insure future stability.
+
+We have included a revised version of the EverQuest Manual in this patch which includes an amendment to various skills, spells and other game play releated features. The section briefly outlines the modification, introduction, and removal of various features found in EverQuest. This information may also be found at www.everquest.com in the "In Development" section located in "Features". Both of these will be updated on a regular basis.
+
+- The EverQuest Team
 
 .....................................................................
 
@@ -291,6 +364,101 @@ duration.  Burnout III has also had its casting cost reduced.
 .....................................................................
 
 ------------------------------
+October 28th, 7:00am
+------------------------------
+
+*General Enhancements*
+
+User Adjustable Clipping-plane
+
+We have recently implemented a user adjustable clipping-plane. This will allow players with higher-end hardware to move out the distance at which the 3D world geometry is drawn into view, as well as the ability for players with lower-end hardware to pull this distance in, to further improve frame-rate. To utilize this new feature, you may do so by adjusting the clipping-plane slider bar located in the "Options"-"Display" directory, in-game. Sliding the bar left will reduce the distance at which the geometry is drawn in to view, whereas sliding the bar to the right will expand this distance. The following rules apply as to which zones the adjustable clipping-plane may be used in:
+
+- The clipping-plane can be pushed back in outdoor zones only.
+- Zones designed with heavy fog (e.g. tox, innothule, etc), the clipping-plane can only be adjusted slightly.
+
+- If the "Misses" chat filter is set to "off", Dodge, Parry, and Reposte messages will be filtered accordingly.
+
+Additional chat filters have been added to filter out any unwanted text.
+
+*Zone Enhancements*
+
+Kedge Keep has been enhanced with both new items and creatures. Please keep in mind, Kedge Keep was tested thoroughly in-house only, therefore, some additional tuning enhancements may need to be made now that it is available on the live servers.
+
+*Class Enhancements*
+
+Warrior - % increase on critical hits
+Rogue - +8 poison resistance
+Paladin - +8 disease resistance
+Ranger - +4 Fire +4 Cold resistance
+ShadowKnight - +4 Poison +4 Disease resistance
+Monk - +8 Fire resistance
+
+Shadowknights may now use the following spells:
+
+- LifeTap may now be cast at level 9.
+- LifeSpike may now be cast at level 15.
+- LifeDraw may now be cast at level 30.
+
+The LifeTap, LifeSpike, and LifeDraw spell scrolls may be purchased from any ShadowKnight spell vendor.
+
+To make room for these new spells, the following spells are no longer available for ShadowKnights:
+
+- Reclaim Energy
+- Mend Bones
+- Voice Graft
+
+*Spell Enhancements*
+
+- Level 35+ casters will now automatically meditate while sitting.
+
+- Invoke Fear (Necromancer, Enchanter, SK, and Cleric) has both had it's casting time and mana cost reduced.
+- Charm spells now message the message when they break (Enchanter, Bard, Necromancer, Druid)
+- Magician pets now have new spells.
+- Ensnare (Druid) has had it's casting time reduced.
+- High level Necromancer and Magician pets now look different.
+- Illusions (Enchanter) have had their duration increased.
+- Tishan and Markar's Clash spells (Wizard) have had their casting times reduced.
+- Some in-game Bardic instruments have had their stats increased to appropriate levels. Items effected are the Minotaur horn, Small Brass Trumpet, and the Drum. Some non-magic instruments have been made magic. These are the Mistmoore Battle Drums, the Lute of the Gypsy Princess and Kelin's Practice Lute.
+- Bards with magic gloves and magic instruments may now punch creatures that require magic to damage.
+
+*New Emote Animations*
+
+The following emotes now have unique animations:
+
+/bored /yawn /agree /amaze
+/boggle /gasp /apologize /plead
+/grovel /applaud /clap /bleed
+/hungry /blush /cackle /chuckle
+/giggle /snicker /cough /burp
+/cringe /duck /curious /puzzled
+/stare /dance /veto /disbelief
+/snarl /glare /peer /whistles
+/drool /kneel /point /shrug
+/ponder /raise /ready /salute
+/shiver /tap /thanks /bow
+
+*Item Enhancements*
+
+- A number of existing high-level weapons models have been replaced with new, much more visually appealing versions.
+
+*Trade Skill Enhancements*
+
+Enhancements have been made to the Tinkering trade skill to facilitate underwater breathing.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+October 29th, 3:30pm
+------------------------------
+Today several people were banned for using "Hack" programs and attempting to cheat in EverQuest. This sort of activity will not be tolerated in EverQuest. We won't have mercy on people who try and cheat. There will be no exceptions. When you are caught, you will be banned on the first offense.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
 November 1, 1999
 ------------------------------
 
@@ -303,7 +471,7 @@ Zones and an Enhanced 3D Engine -
 FOSTER CITY, Calif., November 1, 1999 -
 
 989 Studios, a Sony Computer Entertainment Group Company, announced 
-today that its highly anticipated EverQuest®: The Ruins of Kunark™ 
+today that its highly anticipated EverQuestÂ®: The Ruins of KunarkÂ™ 
 expansion pack, which is an add-on to the most successful online role 
 playing game ever released - EverQuest -will be available in March 
 2000. The expansion pack will provide the more than 225,000 current 
@@ -374,17 +542,43 @@ EverQuest.
 
 989 Studios, a Sony Computer Entertainment Group Company, is a wholly-
 owned division of Sony Computer Entertainment America Inc. and is the 
-third-largest PlayStation® software publisher in North America. 
+third-largest PlayStationÂ® software publisher in North America. 
 Headquartered in Foster City, California, with additional development 
 studios in San Diego and Santa Monica, 989 Studios develops software 
 for the PlayStation game console and online markets. 989 Studios is a 
 recognized leader in the entertainment software industry, with top 
-franchise titles such as NFL GameDay™, Twisted Metal®, Jet Moto®, Cool 
-Boarders® and EverQuest™.
+franchise titles such as NFL GameDayÂ™, Twisted MetalÂ®, Jet MotoÂ®, Cool 
+BoardersÂ® and EverQuestÂ™.
 
 
 .....................................................................
 
+------------------------------
+November 3rd, 7:00am
+------------------------------
+
+Listed below are the enhancements introduced in this patch.
+
+*Item Enhancements*
+
+The entire set of the Armor or Ro (Paladin class specific armor) and Darkforge (ShadowKnight class armor) has received an increase in AC.
+
+*Class Enhancements*
+
+Rogue Specific
+
+- The minimum backstab damage is now same as their level.
+- Rogue poison now procs on first chance after it is applied - it is no longer random.
+
+*Zone Enhancements*
+
+Following the Halloween event which took place on Sunday night, the Plane of Hate was officially opened with new unique armor, weapons, and items.
+
+In addition, the EverQuest patch program has been altered such that there is no longer a seperate "Optional Patch" request window. The Optional patch may now be selected via a button on the standard patch window.
+
+- The EverQuest Team
+
+.....................................................................
 
 ------------------------------
 December 1, 1999  7:00am
