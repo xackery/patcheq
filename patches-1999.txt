@@ -1,7 +1,40 @@
 .....................................................................
 
 ------------------------------
-April 6, 1999  News Bit from John Smedley
+April 6, 1999
+------------------------------
+
+We will be opening up a new section on the EverQuest website solely dedicated to the Test Server. Once the Test Server section is available, changes and bug fixes made to the Test Server will be documented, so that you may help us test the changes.
+As for server updates, from this day forward, we will be updating the regular EverQuest servers every Tuesday morning at 3:00am Pacific Standard Time.
+
+We will be performing a patch and server update at 3:00am Pacific Standard Time on Tuesday, April 6th. The patch contains the following additions and fixes;
+
+1. Crashing while giving newbie items to NPCs.
+2. Going link-dead would cause the character to regenerate extremely quickly.
+3. Various sound related crashes were fixed.
+4. Created items disappearing from characters after zoning.
+5. Characters able to use skills, which are not allowed for their specific class.
+6. A limit to the successful hit and spell messages has been implemented that should reduce the number of unneeded messages sent to the players.
+7. After slaying a creature, the player will receive a proper faction hit.
+8. Occasionally, after being disconnected, users would crash upon re-logging into the server.
+9. The DLS sound system is now enabled.
+10. A new text command, "/reply " has been implemented. This will allow players to reply to the last character that sent a private tell message.
+11. Many adjustments to the faction system were made.
+12. Multiple quest-related bugs were fixed.
+13. A slew of quests were added.
+14. A number of new music tracks were added to various zones.
+15. Occasionally, sound settings would reset to default, while graphically, the slider bars appeared to be correct.
+16. Various safe zones were eliminated to prevent exploitation.
+17. Some equipped weapons and items would draw into the user interface overlays, which would result in the client crashing.
+18. It was possible to strafe at normal speed while rooted or sneaking.
+19. All hybrid classes now receive meditate at level 12.
+20. Experience over level 30 will now be reflected properly on the user's experience bar.
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+April 6, 1999
 ------------------------------
 
 Music works on all sound cards. If you still aren't getting music, 
@@ -33,10 +66,55 @@ later this week.
 
 .....................................................................
 
+------------------------------
+April 12th, 7:00pm
+------------------------------
+We will be updating the servers at 3:00am Pacific Standard Time on Tuesday, April 13th. A patch is required.
+The following changes were made:
+
+1) The proper model will appear while selecting a previously created character in the Character Selection screen.
+2) Players will be properly notified when entering a PK(Player Kill) region.
+3) Users should no longer fall through the world.
+4) The Sun and Moon are now visually back.
+5) Glide 3 has been enabled for use with Banshee boards (please note that the 3dfx Glide drivers required can be found at www.everquest.com).
+6) Character corpses should no longer abruptly disappear or decay extremely quickly.
+7) Player's corpses should now appear at the feet of the NPC that dealt the deathblow.
+8) Various crash bugs.
+
+- The EverQuest Team 
+
+.....................................................................
 
 ------------------------------
-April 29, 1999  News Bit from John Smedley
+April 14th, Noon
 ------------------------------
+1) Two server side zone related crashes have been resolved.
+
+2) A bug with the charm spell which caused players to be killed.
+3) A small number of players were having their characters become corrupt -- additional safeguards have been implemented to prevent against this occurring, however, we feel that the changes made eliminated the problem.
+4) A few minor NPC combat related exploits have been rectified.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+April 15th, 5:00pm
+------------------------------
+The server update last night went flawlessly, and has appeared to resolve a zone crash problem which was occurring. Our next server update is scheduled to take place on Tuesday, April 20th at midnight Pacific Daylight Time. An updated list of changes and bug fixes will be posted on the EverQuest news section on the login server.
+
+UUnet has informed us that they will be performing an upgrade to their San Diego router at 3:00am on April 20th.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+April 27, 1999
+------------------------------
+Hello All,
+
+I waited until it was 7:30pm pst tonight to write this update. I wanted to make sure things were stable before I wrote this. Lately every time I give an update something bad happened right after I sent it.
 
 Here's a summary of what was done in the last 2 days
 
@@ -63,6 +141,543 @@ are having a problem we will do our best to look into it. It doesn't
 mean we can always get the reaction we want (some networks are just 
 plain bad) but many times we can help find a legitimate problem and 
 help correct it.
+
+Some of you may also not realize what the network statistics we have in game actually are for:
+
+The left hand number is your ping to the server in milliseconds.
+
+The left-middle number (percentage) is your packet loss to the server.
+The right-middle number (percentage) is your packet loss from the server.
+The right hand number is the data rate. THIS IS NOT THE PING. - I love hearing about the "terrible" pings in game of 3000.
+It is my strong belief (forgive me for this rant) that EVERY online game should have this type of meter so that you are getting real feedback about the network status.
+
+John Smedley
+
+Thanks! 
+
+.....................................................................
+
+------------------------------
+April 28th, 1999
+------------------------------
+
+Citizens of Norrath,
+
+We are pleased to announce that the hardware upgrade that was performed on our router this morning has appeared to resolve the severe packet loss problems that many players were encountering over the past week. We have been, and will continue to monitor the load on the new hardware to assure that the packet-loss problems will no longer occur on our end. During the router upgrade we transported the Karana server farm to the AT&T CerfNet facility to further reduce the load on our router. Also, the new "Rodcet Nife" server was just brought up to accommodate the additional users that have joined over the past few weeks.
+
+After thoroughly testing changes made only for Rallos Zek (PK server), we have activated the new code for the PK server ONLY. The changes include the following;
+
+1) Pets will no longer kill themselves if their master has invisibility cast on them.
+2) Pets will no longer attack other players while they are in guard mode if their master goes link-dead.
+3) Pets will now attack opposing combatants while their master is dueling.
+4) NPCs will no longer respond to invisible PCs.
+
+Other fixes and changes include:
+
+1) The corpse class tag will not be listed as "Unknown".
+2) Players will be given text messages for items that they cannot obtain while looting a corpse, instead of the item disappearing.
+3) A number of quests and combat related exploits were fixed.
+4) Characters are no longer able to use the disarm command while using feign death.
+
+At Midnight, on Wednesday the 28th, the servers will be brought down for an update.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+April 29th, 4:00pm
+------------------------------
+As posted yesterday, we will be bringing down all of the servers at midnight tonight PDT, for a server-side update. Our estimated downtime is should be less than two hours. The fixes/changes are listed below.
+
+1) Traveling by boat should be much more stable.
+2) A few various zone crashes.
+3) The corpse class tag will not be listed as "Unknown".
+4) Players will be given text messages for items that they cannot obtain while looting a corpse, instead of the item disappearing.
+5) A number of quests and combat related exploits were fixed.
+6) Characters are no longer able to use the disarm command while using feign death.
+
+We will also be putting up a new client patch on Monday at Midnight as well. A list of the client-side changes will be posted on Monday morning.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+May 3rd, 5:00pm
+------------------------------
+
+We will be patching a new version of the EverQuest client executable tonight at Midnight PDT. One of the significant additions is the option to utilize auto mip-mapping in Glide mode. Mip-mapping may be activated in the Display menu, located within the Options directory. In addition, we have made numerous bug fixes and game play adjustments, of which are listed below.
+
+1) If you have participated in a fight against an NPC, you will take a faction hit.
+2) Players may no longer disarm an NPC that has a magical weapon armed.
+3) Safe-fall is now working as intended, however, damage from falling is required to advance in the skill.
+4) Players should not see other characters "popping" around while riding the boats.
+5) Trades will properly cancel out when the characters involved walk away.
+6) The Friend's List is now functioning as intended.
+7) A few crash bugs related to failed font calls have been resolved.
+8) Creature and Player corpses should no longer draw into the overlays.
+9) Vampiric Embrace has been modified from it's original design to improve game play.
+10) A number of quest were implemented.
+
+Included in tonight's update is a major enhancement to the populations of both Solusek's Eye and Mistmoore.
+
+Tomorrow night, a revised version of the EverQuest Manual will be patched. The revision will include a new section which outlines the spells and skills that have been modified from their original design to enhance game play.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+May 3rd, 5:00pm
+------------------------------
+
+We will be patching a new version of the EverQuest client executable tonight at Midnight PDT. One of the significant additions is the option to utilize auto mip-mapping in Glide mode. Mip-mapping may be activated in the Display menu, located within the Options directory. In addition, we have made numerous bug fixes and game play adjustments, of which are listed below.
+
+1) If you have participated in a fight against an NPC, you will take a faction hit.
+2) Players may no longer disarm an NPC that has a magical weapon armed.
+3) Safe-fall is now working as intended, however, damage from falling is required to advance in the skill.
+4) Players should not see other characters "popping" around while riding the boats.
+5) Trades will properly cancel out when the characters involved walk away.
+6) The Friend's List is now functioning as intended.
+7) A few crash bugs related to failed font calls have been resolved.
+8) Creature and Player corpses should no longer draw into the overlays.
+9) Vampiric Embrace has been modified from it's original design to improve game play.
+10) A number of quest were implemented.
+
+Included in tonight's update is a major enhancement to the populations of both Solusek's Eye and Mistmoore.
+
+Tomorrow night, a revised version of the EverQuest Manual will be patched. The revision will include a new section which outlines the spells and skills that have been modified from their original design to enhance game play.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+May 4th, 8:30pm
+------------------------------
+
+The login difficulties that you may have been encountering over the past 1.5 hours have been resolved. We were able to pinpoint and fix
+a major bug which has been plaguing the login procedure for quite some time. Now that this problem has been addressed, the login
+process should be carried out much more swiftly. We apologize for the inaccessibility of the EverQuest servers for this short time,
+however, this fix should insure future stability.
+
+We have included a revised version of the EverQuest Manual in this patch which includes an amendment to various skills, spells and other game play releated features. The section briefly outlines the modification, introduction, and removal of various features found in EverQuest. This information may also be found at www.everquest.com in the "In Development" section located in "Features". Both of these will be updated on a regular basis.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+May 19th, 1999
+------------------------------
+
+We will be updating the servers tonight at Midnight PDT, which will require a minor client side update. A few of the notable changes are listed below.
+
+2) While taking part in a guild war, if killed, members of the opposing guild may only loot one item off the corpse.
+3) A crash bug related to removing guild members was fixed.
+4) A number of new items and quests have been implemented.
+
+The follow changes have been made to spells:
+
+The Effect of Vampiric Embrace (necromancer and shadowknight) effect has been increased.
+
+Spell names changed:
+
+Summon Blade to Summon Fang
+Summon Spear to Spear of Warding
+Summon Mystic Dagger to Dagger of Symbols
+
+You can no longer be charmed or feared while invulnerable (divine aura)
+
+Hammer of Requital (Cleric & Paladin) now summons a Hammer of Requital
+
+High level creatures get a better save vs. Memory Blur (Enchanter) and Atone (Cleric) spells
+
+Magician pets will no longer run away from combat.
+
+Crission's Pixie Strike (Bard Song) works better now.
+
+Selo's Accelerando and Spirit of Wolf will no longer leave ghost icons of each other.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+May 25th, 1999
+------------------------------
+
+The servers will be coming down as scheduled tonight at Midnight PDT. The following changes/bug fixes have been made.
+
+- Players will no longer crash when an extremely long group message is received.
+- Added the ability to pull one item "charge" from a stack by holding down the "Control" key when left-clicking on the stack.
+- After casting a spell at an NPC, if the target were lost before the spell made contact, the caster would crash.
+- The "/ignore" command will now ignore emotes also.
+- The chat command "/e" will trigger "/emote" instead of exiting to the character selection screen.
+- We have added new sound tracks to the Planes, Crushbone, Guk, Mistmoore, Steamfont, and the Estate of Unrest.
+- We have reduced the amount of experience lost when dying by 50%.
+- A number of new quests have been added to various zones.
+- Magician pets (elemental) will now cast minor spells (to make up for their lack of kick)
+- New Magician spells on vendors and some Magician spells have moved to different vendors
+- New Magician weapons for Summon Fang & Spear of Warding & Dagger of Symbols
+- New enchanter whirl spell (check the vendors)
+- Whirl now works on MOBS better than it did on the last patch.
+- The saving throw against Memory Blur and Atone was reduced (harder to save against) from the last patch.
+- AC added to the Rune Series (Enchanter)
+- Alliance series works better (Enchanter)
+- Enchanter Attack Speed spells now have longer durations (Quickness, Alacrity, etc.)
+- Tashan (the entire Enchanter series) is now quicker to cast, costs less mana, and is harder to save against.
+- New bard songs have been added to the vendors
+- Paladins lose the spell Bravery, and gain the spell Valor
+- ShadowKnights and Necromancers gain the Word of Spirit spell (replacing Word of Shadow for the ShadowKnight)
+- ShadowKnights lose Haunting Corpse and gain Summon Dead
+- Necromancers and ShadowKnights get a new spell - Shadow Vortex.
+- ShadowKnights lose Intensify Death (replaced by Shadow Vortex)
+- Rangers lose Shield of Barbs and gain Shield of Brambles
+- Shorter stun effects will no longer remove longer stun effects (Bash won't get rid of whirl, for example)
+- Spell components are now stackable
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+June 8th, 1999
+------------------------------
+
+The EverQuest servers will be coming down tonight at Midnight PDT for a client and server-side update. Listed below are the newly implemented features and bug fixes which will be updated.
+
+
+General Changes
+
+- Scrolls are no longer lore items - this means that you can have more than one.
+- Research components were made more accessible on higher level mobs
+- Several items will now appear as "Pending Lore" and will become "Lore" in a subsequent update. The servers will only allow ONE 'Lore' item in a character's inventory (that includes the bank) - please make note of any items you own that are 'Pending Lore' - it is YOUR responsibility to have those items sold or traded by the time (approximately one week) we change them to 'Lore.' We will not be responsible for items lost when this change is made.
+
+Zone Enhancements
+
+- Additional treasure has been added to Permafrost Keep, and some of the items already there have been enhanced - now is the time to plan that Permafrost excursion!
+- The bandits of West Karana are increasing their presence! You'll find more bandit camps there, as well as bandits traveling between those camps and elsewhere.
+- The spawn rates in many outdoor areas has been increased - this should make it easier to find things to kill.
+
+Bug fixes and newly implemented features
+
+- Charmed and Feared characters can no longer use skills.
+- The appropriate text message is given while attempting to attack while charmed.
+- 'Procing' (items that cast spells) weapons no longer break Bard's singing.
+- Players vision will now return to normal if killed while drunk.
+- Tree Form spells will change the caster into a human male in a zone without trees.
+- Red and Blue armor will now appear the proper color for AMD users.
+- While accessing the /bug screen, the in-game chat bar will no longer remain active.
+- If the inventory window is up and the spell book is open, the user will not remove items from their inventory when clicking on the spell book.
+- A number of quests were fixed as well as implemented.
+- A Bad language filter has been implemented. Typing "/filter" will toggle it on and off.
+- Pets that have been commanded to sit will no longer to appear to stand up while they are supposed to be seated.
+- While in the full screen view, users may now toggle the translucent overlay backgrounds on and off by pressing the "~" key.
+- Players may now loot corpses in shallow water or lava by typing "/loot" while the corpse is targeted.
+- We have implemented an Auto-follow command. To auto-follow another player, target the character, then type "/follow". You must be grouped with the character in order to successfully carry out the command.
+- A Role Playing switched has been added so that players may identify other characters who wish to make known they are Role Playing. To activate the Role Playing switch, target your character and type "/roleplay", if the character is +PvP, the name tag above their head will appear as a darker shade of Red, whereas a non-PvP players name will appear purple.
+- If the user drops a backpack containing spells on the ground, the spells will no longer disappear.
+- Medicine Bags, when dropped on the ground, will no longer vanish.
+- The proper text is given when a trade window is canceled between players.
+- Arrows will now be drawn from the quiver is the ammo slot is empty.
+
+Spell Changes
+
+- The Bard spell "Denon's Desperate Dirge" will now require the use of Mana.
+- No spell or effect that accelerates the process of mana regeneration will work on a Bard.
+- '/pet report health' will now have your pet message you with a health report.
+- Lightning Blast (Druid) has been modified to its intended form of finishing the Invoke Lightning series.
+- When you fizzle, you will lose a less mana then before. The fizzle rate has NOT changed.
+- There is now a CAP on the amount of mana lost from any single fizzle.
+- Spell Scrolls are no longer lore items. This means you can hold more than one.
+- Tuyen's Songs now have range.
+- Eye of Zomm will no longer work in conjunction with pets - you can now have one or the other. Sorry.
+- Wave of Enfeeblement (now Vampiric Curse) and Circle of Death (both Necromancer) will not work for the next week or so while we make a fix on them.
+
+Trade Skill Changes
+
+Jewel Craft - All of the jewelry has had increased magical properties (pre-existing jewelry items remain unchanged).
+Fletching - When fletching arrows, they will be produced in sets of 5, instead of 1.
+Baking, Blacksmithing, Brewing, and Pottery have been changed to either return items on failure and be able to produce multiple items and quantities on success.
+Example:
+Baking muffins, success means the player will receive three muffins and retaining the muffin tin, however, when unsuccessful, the player will still get the muffin tin back and lose all other components. Another example would be if a player wishes to sharpen a rusty short sword. If the player succeeds, they will receive a tarnished short sword, however, failure will result in retaining the rusty weapon but losing the sharpening stone.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+June 25th, 1999
+------------------------------
+
+To support the additional number of new users, a new server was brought on-line at approximately 9pm on Wednesday the 23rd. The "Quellious" server is named after the god of tranquillity.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+June 27th, 1999
+------------------------------
+
+Due to the situation which occurred on the CerfNet servers on Tuesday and Thursday night, we have had to place most of our resources towards rectifying the problem on the live servers. However, we were able to make a few various changes to the Test server, some of which will be propagated to the live servers on Monday. The features and bug fixes are listed below.
+- Currently, when a character dies, they return with 25% of their Mana and Health, in addition, they have a massive hit to their stats. - This will NOT remain true, and we will be removing it next week.
+
+- Nagafen's Lair and Permafrost have been revamped with new treasure, items, etc. In addition, changes have been made to NPC spawning to the them.
+
+- A number of fixes were made to Research.
+
+The following fixes have been made to spells.
+
+Vampiric Curse / Bond of Death (formerly Circle of Death) now work with their new effects
+
+Fufil's Curtailing Chant (BARD) now works on monsters
+
+Magician pet attack spells have been slightly increased.
+
+Incapacitate now works for Enchanters (lvl 44 spell)
+
+Wizard "Casting Times" for damage spells have been slightly reduced
+
+Necromancer poison spells have had their damage doubled and their duration cut in half. They will do EXACTLY the same amount of damage, but in half the pervious amount of time.
+
+Necromancer and Shaman disease spells have had their duration reduced. Their damage has been upped to compensate.
+
+Hungry Earth (Necromancer) is now researchable - check your book
+
+Research for Thunderclap (Wizard) is now correct - check your book
+
+Research for Fire Spiral of Al'Kabor (Wizard) is now correct - check your book
+
+The Magician Burnout series has been made a bit better.
+
+The reagent for Burnout III has been removed (Magician) Tuyen's Songs (Bard) have had their damage increased.
+
+New Bard Songs have been added to vendors.
+
+New Wizard Spell "Bonds of Force" on Wizard vendors.
+
+Mana Sieve (Enchanter) has been changed. It is now an instant spell (instead of a DOT) and costs less mana (with less effect).
+
+If all of the changes prove effective, we will be updating the live servers with this data on Tuesday morning of the 29th.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+July 13th, 1999
+------------------------------
+
+The Test Server will be down between the hours of 6pm and 6am PDT for internal testing purposes. This schedule for the Test Server will only occur for approximately 1 week, after that the Test Server will remain on-line 24 hours a day.
+
+UUnet will be performing maintenance at 3:00 AM, on July the 13th, which will result in players losing connection to the servers. Since this maintenance will be taking place, we have moved our regularly scheduled update time from 7:00am to 3:00am for tomorrow only. UUnet has given us an approximate downtime of 3 hours. A list of game play enhancements is listed below.
+
+Root spells will now overwrite spells with both positive and negative movement components in a more consistent pattern.
+
+Banish Undead and Banish Summoned (LVL 49 CLERIC, NECROMANCER, MAGICIAN, DRUID, etc.) have been changed from All or Nothing saving throws to a regular saving throws. This will make them easier to use against high level creatures.
+
+Magician summoning spells that produce multiple items have been changed to summon more items as the Magician's level increases.
+
+All Poison and Disease DOT spells have received tuning.
+
+Druid DOT's (stinging swarm series) has been adjusted to do more damage over a shorter period of time.
+
+Immolate (DRUID) now does more damage, but has a shorter duration.
+
+Mesmerization (ENCHANTER) has been changed to a straight AOE radius spell - it will no longer hang in the area. The AOE radius has been increased, as has the range.
+
+Ice (LVL 49 DRUID) has been changed from an AOE spell to a single target DD spell.
+
+Rage (SHAMAN) has been upgraded to a LVL 49 spell - Fury remains level 34.
+
+Invisibility spells (Invisibility, Gather Shadows, Camouflage, etc.) will now blink before they wears off.
+
+Hitting F1 twice, or /pet target will now target your pet.The Duration on Pack Regeneration (DRUID) has been increased.
+
+Shield of Lava (MAGICIAN) has had its mana cost reduced.
+
+The Research entries for Intensify Death and Hungry Earth (NECROMANCER) have been updated.
+
+New high level Necromancer spells have been added to vendors.
+
+A new Wizard spell Chill Sight has been added to the Wizard vendors.
+
+The Magician's Summon Heatstone and Summon Coldstone spells will now work as long as the Stone is held or worn (the spell effect will never wear off).
+
+The Insight spell (ENCHANTER) now adds Wisdom, not Intelligence. Brilliance still adds Intelligence.
+
+The Tashan series (ENCHANTER) has had the recasting time reduced.
+
+Research for higher level spells has been made a bit easier.
+
+Spells that Add HP now work better on pets.
+
+The Necromancer's replacement spell for Charm (Screaming Terror) is on the vendors. Play with this spell - it is different from any other spell of this type that you have ever seen.
+
+Shrink (SHAMAN) has been put in to the game. It is a Level 19 spell, and available in all Shaman starting cities. This spell will only be castable in dungeons. It will not leave an icon on your screen - Shrink will last until you zone.
+
+High level Bard song (LVL 40+) will be slightly easier to sing (less missed notes).
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+July 22nd, 1999
+------------------------------
+
+We have just activated the Guild submission forms in the EverQuest login server. For more information regarding the new guild submission process, please go to "Guilds" located in the "Players Guide" section of the official EverQuest web page (www.everquest.com).
+
+In addition to activating the new guild submission form, we have brought up a new server, Brell Serilis.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+July 27, 1999
+------------------------------
+The EverQuest servers will be coming down at 7:00 AM Pacific, tomorrow morning for an update. The estimated downtime is approximately 2 hours. This update will require a minor client-side download. The following enhancements and new features will be activated once the update is complete.
+
+*General Announcements*
+
+We are currently in the process of finishing up final internal testing for Tallon Zek, the new PvP-Teams server. We expect that it should be coming on-line this week. Once the date nears, a better estimate on the time of launch and further information regarding the Tallon Zek server will be made available.
+
+The Fear Plane is now on-line. However, before adventuring to the Fear Plane, we advise you to heed the following advice:
+
+Traveling the planes is not like visiting a dungeon. People die in dungeons.
+
+People die hard on the planes.
+
+Dying on a plane means that you might die in a place where your body may be extremely hard to recover, or in an area that you have no idea how to get back to. Big, nasty monsters will jump you at inopportune times, spells may work differently and once valid tactics might go right out the window.
+
+The planes are dangerous places to adventure, and massive player slaughter will happen on a regular basis.
+
+We are not saying this to goad you in to going - this is an honest disclaimer. So don't say we didn't warn you.
+
+*Trade Skill Enhancements*
+
+- Baking Chocolate and Fish Head Soup now work as designed.
+
+- Pottery has been enhanced by new items that can be made through the trade skill that will help the player-driven economy. Additionally, some of the profits of other pottery made items have been adjusted to facilitate this change.
+
+- Make and apply poison is now working in the game. To apply poison a Rogue must sit and click a piercing weapon on a poison to apply it. When the Rogue attacks there is a chance the creature will become poisoned. The poison will need to be reapplied if the player changes zones.
+
+*New Features*
+
+- The ability to report player whom are harassing has been implemented. This is done by typing "/report" - the previous 10 lines of text will be saved to the server for Customer Support representatives to review. This command may only be performed once while on-line, you must then log out and back in to use it again.
+
+- The "r" key will now initiate a reply to the last player whom sent the user a tell.
+
+- The /surname command has been added, which allows a player of 20th level or greater to issue his or her character a last name.
+
+- When a player consumes alcohol, a message will be given to players within the area.
+
+*Game Play Enhancements*
+
+- If a character is knocked unconscious, and has no stamina, the player will still regain consciousness.
+
+- Players are no longer able to cast Shadowstep next to a zone point and teleport to an area past the teleport region, which is inaccessible to other characters.
+
+- If a player is too far from a corpse while attempting to perform the /loot command, a message will now be given.
+
+- If the user was under the effect of either Treeform or Minor Illusion, then had Spirit of Wolf cast on them,
+the player would be able to move in their altered state - This is no longer possible.
+
+- If the Eye of Zomm makes contact with a zone-point, the spell will immediately wear off.
+
+- Players may now target Drakes much easier.
+
+- Several "Safe Zones" have been Fixed.
+
+- A number of quests have been both enhanced and added.
+
+- Helmet colors are now displayed properly on Barbarians.
+
+- If a character is blinded, the chat box will no longer flash.
+
+- If a shuriken or throwing knife is equipped, then unequipped, the weapon will no longer remain on the character model.
+
+- Monk trainers will now train Instill Doubt.
+
+*Spell Additions and Enhancements*
+
+- The Eye of Zomm now allows the caster to travel up and down.
+
+- When player dispels minor illusion, the character's weapons will no longer disappear from the character model.
+
+- Some 44th and 49th Damage spells have had slight modifications made to them:
+
+- Gasping Embrace (Enchanter) has been re-tuned in the style of other DoT spells to make it more party friendly.
+
+- Retribution (Cleric) has had a typo fixed, and does about ten percent less damage now.
+
+- Ice (Druid) has had its damage lowered by a few points to match the damage done by Starfire.
+
+- Rend (Wizard) is now available on certain Wizard vendors (lvl 49 spell)
+
+- Shock of Swords (Magician) now does more damage.
+
+- Succor's (DRUID) casting cost has been raised to match the casting cost of the Circle, Evacuate and Portal spells.
+
+- Wizard Portal and Evac spells have had their AoE radius range upped to match Druid Circle spells.
+
+- Necromancer research components that did not previously stack should now stack.
+
+- The Bug that allowed Screaming Terror to work Outdoors has been fixed.
+
+- Vampiric Curse (NECROMANCER) damage has been upped.
+
+- Share Wolf Form (DRUID) has had its Area Effect Radius reduced. This means that party members who want to be turned into wolves should stand near the caster, while those that do not should stand further away.
+
+- Hitting F1 twice, or /pet target will now target your pet.
+
+- The Duration on Pack Regeneration (DRUID) has been increased.
+
+- Shrink (SHAMAN) has been put in to the game. It is a Level 19 spell, and available in all Shaman starting cities. This spell will only be castable in dungeons. It will not leave an icon on your screen - Shrink will last until you zone.
+
+- A Quest for Ice Comet has been added.
+
+- A Quest to help casters with research has been added. Good aligned races should check North Karana, while those with a more malign disposition should check South Ro.
+
+- The EverQuest Team
+
+.....................................................................
+------------------------------
+July 31, 1999
+------------------------------
+
+* Tallon Zek Update - Please Read *
+
+Well, folks, we totally underestimated the number of people wanting to check out the PvP-Teams server and the demand is far too great for one server. Unfortunately, we were forced to bring Tallon Zek down soon after its launch because we had more than 5,000 people online at once. While the servers were still running, there was lag and the areas were simply too crowded - you players deserve a better environment than that. As a result, Tallon Zek will remain down until we can get an additional server (which will take at MINIMUM one week). I apologize for the inconvenience, and I'm sure many of you are frustrated by this. In the end, though, it's better to wait for more resources than to leave Tallon Zek up.
+
+Brad McQuaid
+Producer, EverQuest
+Vice President, Verant Interactive
+
+The Customer Service department will be staffed lightly on Sunday, August the 1st.
+
+- The EverQuest Team
+
+------------------------------
+August 31, 1999
+------------------------------
+
+We apologize for the short notice for this Server Update, but it was neccessary to correct some problems that had arisen.
+
+This server side patch contains the following:
+
+1. Rangers now get Critical Hits with Bows.
+2. Rogues now get Critical Hits with Thrown Weapons.
+3. Parry and Dodge Skill Caps for Rangers have been raised.
+4. The DoT bug realted to not getting experience or a corpse has been fixed.
+5. New PvP rules: You can no longer loot any weapons that the victim had equipped in his primary, secondary, or ranged weapon slots.
+
+Please note: This patch DOES NOT contain any changes to Necromancer's Pets, OR the Kiting/DoT changes. 
 
 .....................................................................
 
@@ -196,9 +811,39 @@ game, upon reentry to the game, the Minor Illusion icon will remain.
 - Summoned items will no longer remain indefinitely when placed within 
 a bag in the bank.
 
-
 .....................................................................
 
+------------------------------
+September 24, 1999
+------------------------------
+
+The following changes have been implemented with the latest patch, most importantly, changes to corpse resurrection. It should be noted that all corpses generated previous to this patch may not be resurrected, however, all corpses generated from this point forward may be resurrected with the changes listed below applying.
+
+- Corpses that are older than 2 hours cannot be resurrected.
+- Corpses that are produced from a duel cannot be resurrected after 10 minutes.
+
+General Enhancements
+
+- A Yes/No request window is now brought up when ever turning in the PK note to the Priest of Discord.
+- It is now possible to manually reorganize icons within the spell book.
+- Pet damage inflicted during PvP combat has been slightly reduced.
+- It is now possible to place items marked as "No Drop" in the bank.
+
+- The EverQuest Team
+.....................................................................
+
+------------------------------
+September 26, 1999
+------------------------------
+
+The EverQuest servers will be coming down on Tuesday, September the 28th at 7:00am Pacific. We are estimating that the update process will take approximately 4 hours. A list of changes will be patched the morning of the update.
+
+Due to a change with corpse resurrection, it should be noted that once this update is complete, all corpses generated previous to this patch may not be resurrected, however, all corpses generated from that point forward may be resurrected. The enhancements to resurrection are listed on the Test Server patch, and are currently implemented on the Test Server.
+
+- The EverQuest Team
+
+
+.....................................................................
 
 ------------------------------
 September 28, 1999
@@ -291,6 +936,110 @@ duration.  Burnout III has also had its casting cost reduced.
 .....................................................................
 
 ------------------------------
+October 14th, 10:00am
+------------------------------
+We will be bringing up a new server at approximately 11:00 am pacific, this morning. The server known as "The Nameless" will have a standard server configuration (i.e. not a pvp/pvp-team server).
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+October 28th, 7:00am
+------------------------------
+
+*General Enhancements*
+
+User Adjustable Clipping-plane
+
+We have recently implemented a user adjustable clipping-plane. This will allow players with higher-end hardware to move out the distance at which the 3D world geometry is drawn into view, as well as the ability for players with lower-end hardware to pull this distance in, to further improve frame-rate. To utilize this new feature, you may do so by adjusting the clipping-plane slider bar located in the "Options"-"Display" directory, in-game. Sliding the bar left will reduce the distance at which the geometry is drawn in to view, whereas sliding the bar to the right will expand this distance. The following rules apply as to which zones the adjustable clipping-plane may be used in:
+
+- The clipping-plane can be pushed back in outdoor zones only.
+- Zones designed with heavy fog (e.g. tox, innothule, etc), the clipping-plane can only be adjusted slightly.
+
+- If the "Misses" chat filter is set to "off", Dodge, Parry, and Reposte messages will be filtered accordingly.
+
+Additional chat filters have been added to filter out any unwanted text.
+
+*Zone Enhancements*
+
+Kedge Keep has been enhanced with both new items and creatures. Please keep in mind, Kedge Keep was tested thoroughly in-house only, therefore, some additional tuning enhancements may need to be made now that it is available on the live servers.
+
+*Class Enhancements*
+
+Warrior - % increase on critical hits
+Rogue - +8 poison resistance
+Paladin - +8 disease resistance
+Ranger - +4 Fire +4 Cold resistance
+ShadowKnight - +4 Poison +4 Disease resistance
+Monk - +8 Fire resistance
+
+Shadowknights may now use the following spells:
+
+- LifeTap may now be cast at level 9.
+- LifeSpike may now be cast at level 15.
+- LifeDraw may now be cast at level 30.
+
+The LifeTap, LifeSpike, and LifeDraw spell scrolls may be purchased from any ShadowKnight spell vendor.
+
+To make room for these new spells, the following spells are no longer available for ShadowKnights:
+
+- Reclaim Energy
+- Mend Bones
+- Voice Graft
+
+*Spell Enhancements*
+
+- Level 35+ casters will now automatically meditate while sitting.
+
+- Invoke Fear (Necromancer, Enchanter, SK, and Cleric) has both had it's casting time and mana cost reduced.
+- Charm spells now message the message when they break (Enchanter, Bard, Necromancer, Druid)
+- Magician pets now have new spells.
+- Ensnare (Druid) has had it's casting time reduced.
+- High level Necromancer and Magician pets now look different.
+- Illusions (Enchanter) have had their duration increased.
+- Tishan and Markar's Clash spells (Wizard) have had their casting times reduced.
+- Some in-game Bardic instruments have had their stats increased to appropriate levels. Items effected are the Minotaur horn, Small Brass Trumpet, and the Drum. Some non-magic instruments have been made magic. These are the Mistmoore Battle Drums, the Lute of the Gypsy Princess and Kelin's Practice Lute.
+- Bards with magic gloves and magic instruments may now punch creatures that require magic to damage.
+
+*New Emote Animations*
+
+The following emotes now have unique animations:
+
+/bored /yawn /agree /amaze
+/boggle /gasp /apologize /plead
+/grovel /applaud /clap /bleed
+/hungry /blush /cackle /chuckle
+/giggle /snicker /cough /burp
+/cringe /duck /curious /puzzled
+/stare /dance /veto /disbelief
+/snarl /glare /peer /whistles
+/drool /kneel /point /shrug
+/ponder /raise /ready /salute
+/shiver /tap /thanks /bow
+
+*Item Enhancements*
+
+- A number of existing high-level weapons models have been replaced with new, much more visually appealing versions.
+
+*Trade Skill Enhancements*
+
+Enhancements have been made to the Tinkering trade skill to facilitate underwater breathing.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+October 29th, 3:30pm
+------------------------------
+Today several people were banned for using "Hack" programs and attempting to cheat in EverQuest. This sort of activity will not be tolerated in EverQuest. We won't have mercy on people who try and cheat. There will be no exceptions. When you are caught, you will be banned on the first offense.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
 November 1, 1999
 ------------------------------
 
@@ -303,7 +1052,7 @@ Zones and an Enhanced 3D Engine -
 FOSTER CITY, Calif., November 1, 1999 -
 
 989 Studios, a Sony Computer Entertainment Group Company, announced 
-today that its highly anticipated EverQuest®: The Ruins of Kunark™ 
+today that its highly anticipated EverQuestÂ®: The Ruins of KunarkÂ™ 
 expansion pack, which is an add-on to the most successful online role 
 playing game ever released - EverQuest -will be available in March 
 2000. The expansion pack will provide the more than 225,000 current 
@@ -374,17 +1123,43 @@ EverQuest.
 
 989 Studios, a Sony Computer Entertainment Group Company, is a wholly-
 owned division of Sony Computer Entertainment America Inc. and is the 
-third-largest PlayStation® software publisher in North America. 
+third-largest PlayStationÂ® software publisher in North America. 
 Headquartered in Foster City, California, with additional development 
 studios in San Diego and Santa Monica, 989 Studios develops software 
 for the PlayStation game console and online markets. 989 Studios is a 
 recognized leader in the entertainment software industry, with top 
-franchise titles such as NFL GameDay™, Twisted Metal®, Jet Moto®, Cool 
-Boarders® and EverQuest™.
+franchise titles such as NFL GameDayÂ™, Twisted MetalÂ®, Jet MotoÂ®, Cool 
+BoardersÂ® and EverQuestÂ™.
 
 
 .....................................................................
 
+------------------------------
+November 3rd, 7:00am
+------------------------------
+
+Listed below are the enhancements introduced in this patch.
+
+*Item Enhancements*
+
+The entire set of the Armor or Ro (Paladin class specific armor) and Darkforge (ShadowKnight class armor) has received an increase in AC.
+
+*Class Enhancements*
+
+Rogue Specific
+
+- The minimum backstab damage is now same as their level.
+- Rogue poison now procs on first chance after it is applied - it is no longer random.
+
+*Zone Enhancements*
+
+Following the Halloween event which took place on Sunday night, the Plane of Hate was officially opened with new unique armor, weapons, and items.
+
+In addition, the EverQuest patch program has been altered such that there is no longer a seperate "Optional Patch" request window. The Optional patch may now be selected via a button on the standard patch window.
+
+- The EverQuest Team
+
+.....................................................................
 
 ------------------------------
 December 1, 1999  7:00am
