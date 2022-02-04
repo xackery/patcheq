@@ -181,6 +181,18 @@ unrecoverable.
 
 .....................................................................
 
+------------------------------
+July 20, 2000
+------------------------------
+ Emergency Patch
+
+Due to the problems encountered in yesterday's patch, some additional data has been moved to the live servers today. As part of this patch, three new changes are included:
+
+    /Consent no longer gives other players permission to loot your corpse. Instead, it only gives them the ability to drag your corpse using the /corpse command. This change is due to player request stemming from number of customer service issues raised by some players who were using /consent as a way to steal the belongings of other players. The change will eliminate those concerns and make the game more enjoyable for all of those involved.
+    Yesterday's patch changed the way spell-damage messages are reported to the caster. The new text was dark blue, making it hard to distinguish from the background when in HUD mode. The text color has been changed to "yellow" due to player request.
+    Duel messages will no longer be broadcast to the world unless the winner of the duel is over 10th level. This should greatly reduce the number of duels with inappropriate names that have been occurring in the game. 
+
+We would like to apologize to everyone for the problems stemming from yesterday's patch, and let you know that we have taken steps to greatly reduce the possibility that something of that nature could happen in the future. 
 
 ------------------------------
 July 26, 2000  12:00 pm
