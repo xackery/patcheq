@@ -276,6 +276,64 @@ for the benefit of the game as a whole.
 
 - The EverQuest Team 
 
+.....................................................................
+--------------------
+January 28th, 7:00pm Emergency Patch
+--------------------
+
+The servers are currently being brought down individually for an emergency update.
+This update is being done to correct a bug in the server code that led to the instability
+that the servers have experienced over the past week. We apologize for the inconvenience.
+
+Included with this patch are several changes that were not supposed to occur until the 
+regular patch next week. These changes are inseparable from the changes required to fix 
+the network problems, and as such are being implemented a little earlier than we would like. 
+There will be additional changes in the next patch that we wanted to include with the current 
+changes, however to reduce overall downtime and customer inconvenience, they are being postponed 
+until next week.
+
+*Changes in Current Patch*
+
+*Warriors*
+
+Warriors now have a chance to strike a "Crippling Blow" when berserk. "Crippling Blow" is much the 
+same as a "Critical Hit" with increased damage and an integral stun.
+
+*Magicians and Necromancers*
+
+We discovered a bug whereby all NPCs will not utilize their "Dual Wield" skill unless they have a weapon 
+equipped in their off-hand. This bug would not allow magician and necromancer pets to use their "Dual Wield" 
+skill unless handed two weapons by their masters. Since magician pets could not wield weapons at all, they 
+never used their "dual wield" skill.
+
+Correcting this bug would cause all NPCs above the mid-20s to suddenly begin using their "dual wield" skill to
+attack players with their off-hand. This would cause a drastic shift to game balance, as most non-pet NPCs are
+generally considered balanced.
+
+Magicians may now equip their pets with weapons. This will allow their pets to utilize their "dual wield" skill, 
+thus increasing the number of attacks that the pet can make per round.
+
+Since magician pets can now wield weapons, an ability previously reserved for necromancers, high level necromancer 
+summons (44 or above) will now randomly cast spell effects upon the creatures they fight.
+
+An additional change has been made to make it easier for necromancers and magicians to equip their pets. Previously, 
+necromancers had to equip their pets with two *different* weapons in order enable them to "dual wield". This change 
+allows magicians and necromancers alike to hand their pet two *identical* weapons, thus making it easier for them to 
+get their pet to "dual wield".
+
+These changes drew our attention to the disparity that exists between melee characters and caster pets. Both of these 
+pets, after the initial round of changes, could wield certain weapons that would significantly increase their attack 
+speed. We acknowledge that necromancers always had this ability, and apologize for our delay in addressing it, but 
+weapons will no longer increase the attack speed (lower the attack delay) of a pet.
+
+In the near future, several new spells are planned for necromancers of level 12 and above, including a new type of 
+necromancer-only spell that is very group-friendly. We were planning to include these new spells with the changes in 
+pet/weapon interaction, but those additions require downtime best restricted to the planned update schedule. We expect 
+to implement the new spell effects in the next patch, tentatively scheduled for next week.
+
+- The EverQuest Team 
+.....................................................................
+
 ------------------------------
 February 3, 2000  8:00 am
 ------------------------------
