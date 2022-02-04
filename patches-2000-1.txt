@@ -838,7 +838,28 @@ understanding in this matter.
 
 .....................................................................
 
+------------------------------
+April 28, 2000
+------------------------------
 
+*Spells*
+- "Scale of Wolf" is now group-only. You must be grouped with the target in order to cast this spell upon them. This change was made due to the fact that Scale of Wolf  overwrites Spirit of Wolf , which may be more desirable in some situations.
+- The "Cannibalize II" spell has been enhanced.
+- Corrected a bug with "Song of the Sirens" that caused an unintended level-cap to affect the spell. Bards should now be able to charm everything that they once could with this spell.
+
+*Binding in Timorous Deep*
+Due to a feature within the zone, players can no longer bind within Timorous Deep. This functionality was intended in the zone prior to launch, as binding presents a possible balance issue. Players who are already bound in this zone will retain their binding location until they bind someplace else.
+
+*Iksar Quests*
+A few items associated with the Iksar newbie warrior quests have been repaired. The EverQuest team would like to extend thanks to those who reported the problems.
+
+*Iksar Factions*
+As announced in the patch server message yesterday, this morning we corrected a bug in Iksar faction that allowed them to travel outside Kunark without fear of being attacked by most things. In the event that any young Iksar find themselves in a bind/death loop, please /quit, log in another character, and /petition for assistance.
+
+*Server Splits*
+The recently announced server splits will be completed roughly two hours after the other servers come up from this patch. Movelog registered accounts from Veeshan and Bristlebane will be moved to Saryrn, and Xegony and Bertox to The Seventh Hammer. As requests to move were very strong, we were not able to move everyone who requested. We appreciate everyone's understanding.
+
+.....................................................................
 
 ------------------------------
 May 16, 2000  10:00 am
