@@ -1,0 +1,96 @@
+8/5/98 7:34pm
+-------------
+Additional information is now provided when you consider (double-click on) an NPC that will
+undoubtedly prove useful in the game.
+
+8/6/98 8:17pm
+-------------
+We've implemented a new anti-vulch, anti-twink experience system -- he who does the most
+damage to an NPC gets the exp upon its death (or the group he's in).  Let us know how it
+works.  Also, expect some larger downloads short term -- the world of Norrath expandeth.
+
+8/11/98 5:15pm
+--------------
+South Ro and Oasis are online now -- please do not try to go further south than South Ro,
+in that that zone isn't up yet.  The world will continue to expand in that general direction
+(south of Freeport), and soon Trolls and Ogres will have their hometowns.
+
+8/22/98 8:00pm
+--------------
+Grobb, Oggok, Rathe Mountains, and Lake Rathetear are online now.  We will be starting
+Trolls and Ogres in their respective hometowns shortly, as well as relocating existing
+Trolls and Ogres there (ie. Neriak will no longer be your hometown).  Also, we've
+added a new warrior skill called Taunt -- this skill, when successful, will re-focus
+target NPC to attack you (ie. he will switch from his current target to you).  This is
+useful, for example, when an NPC targets a spellcaster or healer in your party, and
+you'd like him instead to beat on you.
+
+8/31/98 12:41pm
+---------------
+We've added a new command, /feedback.  Please use /feedback to leave us feedback and comments
+and only use /bug for bugs.  They are written to two separate files now, which will make it
+easier for us to get the information to the appropriate people.  Thanks.
+
+9/1/98 5:03pm (IMPORTANT - PLEASE READ)
+----------------------------------------
+We are starting to build up the Game Master (GM) infrastructure for EverQuest.  If you require assistance in-game, use the /petition <msg> command -- all GMs online will receive your message
+and you will be helped as soon as possible -- using the /tell command to solicit help from a GM is no longer legal.  Note that there are serveral kinds of GMs you might encounter in-game, but
+there are only two kinds responsible for helping testers -- GUIDES, and GM-Admin GMs.  Other GMs (coders, areas, etc.) are development team members and are not there to help you (sorry -- but
+they need to finish the game).  GUIDES are external (non-Sony) GMs who are there to help you and answer questions, but their power is limited (meaning they will often refer you to a GM-Admin).
+Our plan is to have GM-Admins in-game most of the time, all week, but it may take some time for this coverage to become complete.
+
+SOME NEW POLICIES:
+-- NO reimbursals of lost items, money, or experience will be made (sorry, but this is a BETA).
+-- Using the /tell command to solicit help from a GM is no longer legal -- use the /petition command.
+-- Using 'safe' areas (ie. areas where NPCs can't or won't go, even though it makes sense they could) is illegal.  Fighting NPCs, or using those areas to rest and heal, is not allowed.  An example would
+be areas near zone transition sections.  These problem areas are being fixed as quickly as possible, but in the meantime, testers caught abusing these areas won't be testers for long.
+
+9/4/98 6:35pm
+-------------
+There will be a player wipe (pwipe) Tuesday morning at approximately 10am pacific.  This is in preperation for Phase 2 of the EverQuest beta test, which begins early next week.  
+You may have ONE character's level re-imbursed, and you will be given some gold based upon that character's level.  
+To register one of your characters, use the /feedback command, and begin the message with REGISTER.  Make sure you
+are logged on as the character you want to save (we are recording your name, race, class, and level).  Once the
+pwipe is complete, we will post a message here explaining how to get re-imbursed.  Note that artificially 'buffed'
+characters are not eligible for restoration.  If possible, we reccomend using the /feedback command late Monday or so such that if you level over the weekend, it will be recorded.
+
+9/8/98 1:00pm
+-------------
+As you may well know, the player wipe (pwipe) has been performed.  There will be no reimbursment of items, weapons,
+or armor.  Character level and gold will be reimbursed to those who registered via the "/feedback" command, as stated in the
+previous announcement.  For those of you that did register your character, use the "/petition" command to notify a GM and you
+will be reimbursed.
+
+9/15/98 1:26am
+--------------
+Good morning citizens of Norrath!  The world will be expanding over the next few days.  Beginning this afternoon, we will be adding two new zones per day, everyday.  
+It would be wise for modem users to connect and patch at least once a day.  The majority of the zones which make up Faydwer will be added so elves, dwarves, and gnomes may begin in their
+respective homelands.  Shortly after this batch of zones are up, we will begin moving characters to the new continent.  We apologize for the large amount of data that will be required to download,
+but once complete the downloads will of course be kept to a minimum.
+
+9/28/98 4:00pm
+--------------
+We have recently added a bug discussion and entry forum, which can be found at "www.sonyinteractive.com/eqbugs/".  This forum can be accessed by using your EverQuest login ID and password.
+Team members will frequent this board often to post responses and updates regarding posted bugs as well as asking for assistance with specific bug and balance issues.  Also, in-depth game
+information, such as the "faction" explanation which was posted this weekend, will be available through the site.
+
+9/30/98 5:17pm
+--------------
+The "Bind Wounds"/Bandage skill will now only work on people who have fifty hitpoints or less remaining.
+The "Meditate" skill has been improved in regards to Mana regeneration times.
+
+10/1/98 2:00pm
+--------------
+A new command has been added:
+/Random <#> <#>  - This will give you a random number from # to # (i.g. "/Random 1 10" would give you a random number from 1 to 10 inclusive). If you only specify one number (i.e. "/Random 5") it assumes 0 to the number you supplied.
+The "/Who" command now has an additional option: "corpse" (i.e. "/Who corpse") allows you to see if any of your corpses are in your current zone.
+
+10/6/98 2:21pm
+--------------
+Anyone playing the game with a Diamond Viper V330 videocard should go to Diamond's webpage (www.diamondmm.com) and get the latest drivers.  Their newest drivers fix some crash bugs (like walking from one zone to another, and some random crashes) and should make EverQuest much more stable.
+With perhaps a few exceptions, it is generally a good idea to update to the latest release drivers for any videocard, or any other piece of hardware for that matter.
+
+10/17/98 7:23pm
+---------------
+Bards should now be able to sing their songs and fight at the same time (Bards are the only ones though).
+
