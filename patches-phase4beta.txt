@@ -1,0 +1,104 @@
+The following Beta 4 patch messages were sourced from:
+* https://web.archive.org/web/20001006113622/http://www3.jcss.net/~rpg/eqi/news/99-3-1.htm
+* https://web.archive.org/web/20010312012332/http://www3.jcss.net/~rpg/eqi/news/99-3-15.htm
+
+Friday, March 5, 1999
+------------
+Patch server message:
+
+With March 16 approaching, the EQ team is fixing various bugs and improving the game with fire cars throughout the night. A new "/corpse" command has been introduced to recover your items from corpses. You can use this command with a radius of 50' for your corpse to attract the corpse. However, the /corpse command cannot recover corpses from lava. In addition, we added a friends list and random number commands. Both of EverQuest_Manual.txt described in the file. The bugs that have been fixed are as follows:
+
+    * Minor Illusion magic now works normally. It becomes visible as the object that the person changed his appearance.
+    * Various modifications to boat travel.
+    * You will need food and drinks to recover From Stamina.
+    
+Saturday, March 6, 1999
+--------------
+Patch server message:
+
+Several Test server bugs have been fixed in this update:
+
+    * The bow pulls a line on the interface and sometimes crashes occur.
+    * The line goes down when using the "/corpse" command.
+    * Mesmerize's effect on Beard and Enchanter has been fixed and works as planned.
+    * When you go out of the character or server selection screen and press the "Play EverQuest" button, an illegal process occurs.
+    * If the HomePoint is down when the character dies, the user crashes. This time, you can now return to the character selection screen instead of crashing until HomePoint is back online.
+    * The equipped flying gear cannot be seen on the character's appearance until you set it up.
+    * Texts could spam a user's chat bar when giving instructions to a pet.
+    * If you jump into the water with Torch and remove it and have it again, the torch will not disappear even underwater.
+    * When using the magic of "Eye of Zomm", the eyes (*summoned by magic) turn only in a certain direction.
+    * If you receive a message that the Fishing pole is broken while fishing, it will not actually be damaged.
+    * If you buy more than one of the same magic scrolls, inventory will show only one scroll.
+    * When you give other players the right to secure their inventory from their corpses in the /content, they will be asked to use the "You are given permission to loop corp." I get a message.
+    * When I get on the boat, I can't hear the sound effects of the sea.
+    * Display mode settings are not saved.
+    * Text overlaps when the Spell book and options menu are open.
+    * Hotkeys cannot be used during Meditation.
+    * When a player has an option menu open in Anonymous (anonymous mode), the character is not actually anonymous.
+    * When using the Autosplit feature, when a party member recovers his or her items from his or her corpse, the money in the corpse is distributed.
+    * Various grammatic changes to the description of the race and class in the character selection screen.
+    * When you place an item that is "stacked" on the trade screen, the number of items is not displayed correctly on the screen on the receiving side.
+    
+Monday, March 8, 1999
+-------------
+Patch server message:
+
+The following fixes are in the latest patch:
+
+    1. Fixed an issue where a Dwarf man would look unusually large when holding a weapon in his left hand.
+    2. Gamma settings have been fixed and tested, and the in-game options menu can now be set again.
+    3. Fixed an issue where keys (Combat, Social, etc.) on the right side of the screen would sometimes crash.
+    4. Fixed an issue where accessing the options menu and dragging the mouse icon over it would appear in the graphic.
+    5. If you leave it in inventory, certain items that appear on your corpse will now disappear from Inventory.
+    6. Fixed an issue where the fruit would look the same as a Muffin.
+    7. Fixed an issue where an item would disappear when placed on the ground.
+    8. Various "safe zones" are gone.
+    
+Tuesday, March 9, 1999
+--------------
+
+Patch server message:
+
+Ladies and gentlemen of Norrath, it's coming to an end!
+
+EverQust Phase 4 beta testing ends Friday, Friday 12th at midnight.
+
+Last night's patch lag and line disconnection are likely to have been mitigated in this patch. Here are some fixes:
+
+    1. Players can now change the direction of the empty while root is no longer working.
+    2. Fixed an issue where the wizard could not see the magic on the target in a message.
+    3. Fixed an issue where eye of zomm magic would disappear when entering the water.
+    4. Fixed an issue where players who received the message would see extra characters when executing the /shout, /tell, /group command and typing 16 characters in a row (without spaces).
+    5. Fixed an issue where the food raised could not be stacked.
+    6. Fixed an issue where "Opal Sycthe" could not be caught from NPC corpses.
+    7. Fixed a dark issue with Diamond Viper V550 when the screen brightness changed to gamma settings.
+    8. Fixed an issue where stunned characters could be in that state forever.
+    9. Fixed an issue where players could not move when minor illustrator magic was hanging.
+    
+Thursday, March 11 1999
+------------------
+
+Fixed some major bugs related to sound and crashes. In addition, changes have been made to the decay system of corpses, which are described below;
+
+The next patch will be introduced immediately. It includes changes to the decay of corpses, and all corpses on the Test server are erased. This makes it much longer for corpses to rot if the player's account is not logged into North. If you don't mind losing a body due to this change, don't log out or let your character head to a place where you're at risk of dying. When you get a new patch, sacrifice your newly created and current characters to test this change.
+
+The fix is as follows;
+
+Level 1 corpses remain for an hour if they are not logged in with that account.
+
+Level 2-5 corpses remain for only 8 hours if they are not logged in with that account.
+
+Level 6 or higher corpses remain for only 7 days if they are not logged in with that account.
+
+The numbers above are related to the corpse and the items that remain, and do not include the item as needed. While the corpse's account is logged in, the decay time is as before.
+
+Other bug fixes:
+
+    * Fixed a bug where the connection would be lost after death and return to the character selection screen.
+    * Fixed a crash when switching zones.
+    * Fixed a lot of issues related to quests and NPC words.
+    * Fixed an issue where removing items from the trade window would not disappear.
+    * Fixed an issue where new characters could not get guild tunics for a class.
+    * Fixed an issue where creatures jumping over water would swim on the ground.
+    * Fixed an issue where characters would fly somewhere if they lost their mind when There was no food or water in Inventory.
+    

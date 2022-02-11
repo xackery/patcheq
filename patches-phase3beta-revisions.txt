@@ -1,0 +1,104 @@
+07/7/98 4:18PM
+---------------
+There is now a text file called "revision.txt", where you will find a more extensive list of changes that were made.  There has also been a large addition/update to the manual (Everquest_Manual.txt), check it out.
+
+07/13/98 5:00pm
+----------------
+Be careful! NPCs now use their skills properly if they have them, so you might just get
+kicked or bashed.  Only humanoid type NPCs (like Gnolls) use skills.
+
+Changes:
+  Bash no longer guarantees that something will be stunned, which means it is more
+            difficult to keep an NPC bashed, but the NPCs will also have a harder time keeping
+            YOU bashed.
+
+  The "N" key (Target nearest NPC) will no longer target NPC corpses, only living NPCs.
+
+Two new commands were added:
+  /split - Split a specified amount of money amongst your group members.
+              Format: /split <plat> <gold> <silver> <copper>
+             Example: /split 0 0 0 15 would split 15 copper amongst your group members.
+              which means split 0 plat, 0 gold, 0 silver, 15 copper. /split 1 5
+               would split 1 platinum, 5 gold, so trailing zeros are  not necessary,
+              but the preceeding zeros ARE necessary.
+  /autosplit - Toggle automatic splitting of money looted with your group ON and OFF.
+
+A few bugs were fixed:
+   Arrows will no longer become "supercharged" in damage over time.
+  "Shield of Brambles" type spells will no longer damage the thing they are protecting.
+  Spells like "Disease Cloud" no longer have unlimited range.
+  
+7/7/98 5:02PM
+-------------
+New keyboard shortcuts: (These work when the chatbar is NOT up, just like "Z" now)
+
+"T" = Target nearest entity (Player or NPC),
+"N" = Target nearest NPC,
+"U" = Use center of view, which is just like a double-left click at the center
+             of the 3dview.  Which has many uses, such as opening a door, starting a
+             transaction with a merchant or guildmaster, target and consider someone,
+             begin looting a corpse, and more...
+"1" - "6"                = Activate the six "Hotboxes" currently showing on your screen.
+"+" and "-" = Cycle up and down through the banks of "Hotboxes".
+CTRL + PGUP = Scroll the text window up one page.
+CTRL + PGDOWN = Scroll the text window down one page.
+
+Beware! You will now move slower when you have less than 1/3 of your total hitpoints
+left.  This change does not affect any characters below level 4 in order to give
+newbies a short grace period, but all characters over level 3 had best be wary.
+
+There has been a fair amount of tweaking done, especially to the Monk class, so be
+more careful than usual until you "feel out" the changes.
+
+Throwing weapons and bows should now be viable.  Arrows and thrown weapons will fall
+to the ground after they hit something/someone, and can be picked up.  Give them a try.
+
+A few bugs were fixed:
+  - Languages should now completely work, give them a try.
+  - Your corpses should still be where you left them, even after a crash now.
+  - The "Who" button was fixed, and should now show a list of who is in your zone.
+  - Many more small interfaces problems...
+  
+7/15/98 7:32pm
+--------------
+Added Halas (the Barbarian hometown) to the patch server -- new barbarians will start there within the next few days.
+
+7/16/98 6:16pm
+--------------
+Barbarians now start in Halas.  Neriak, Freeport, and Rivervale will be online soon.
+
+7/17/98 11:55am
+----------------
+There will be a player wipe tonight.  IF and only if you talk to Generyk the GM before the wipe, you will be reimbursed your level on ONE character, and you will be given 7 gold per level.  No other GM will help you in this matter, and this is not something negotiable.  PWipes are an unfortunate aspect of beta testing -- we do them as infrequently as possible -- please hang tough and bear with it.
+
+7/17/98 6:17pm
+-------------
+The player wipe is done.  IMPORTANT: When you create your new characters, either choose a fantasy sounding name or use the name generator -- if you are caught with a non-compliant name, you will be warned.  Lastly, one or more noticible changes we've made is that spell scrolls now cost more money, depending on their level.  Other more minor, albeit numerous, changes were made to weapon and spell damages.
+
+7/20/98 5:46pm
+--------------
+That nasty and evil download was brought to you by the dark elves (ie. Neriak is up!).  Within the next day or two dark elves, ogres, and trolls will start in Neriak, while dwarves, gnomes, and halflings will start in Rivervale (until all home towns are online).  Also, considering an NPC is now more accurate and clear -- descriptions are better and the text is now color coded such that green means no exp. for the kill, blue means the NPC is lower lvl than you, black the same level, yellow higher, and red...stay away from red :)
+
+7/22/98 1:37pm
+--------------
+Should be more faces in the game, as well as some updated characters -- that's the big file you just received.  Also, Glide support is now in the game.  Glide is an API from 3dfx that works with their Voodoo cards -- note that EQ uses Glide 3.0, which currently only works on Voodoo 2s, but should soon work on Voodoo 1s.  800x600 support is in with the Voodoo 2s under Glide.  Make sure you have the most recent drivers from www.3dfx.com.
+
+7/30/98 5:30pm
+---------------
+We've hopefully fixed a nasty bug that was causing a spell casting to crash -- let us know if you are still getting any crash bugs.  Also, the newbie zones adjacent to the newer cities are being turned -- both more and a better range of NPCs should be appearing in them over the next week.  Also, slowly but surely, more and more NPCs will talk and even give quests -- a good way to begin a conversation is to target the NPC, and /say hello <npc's name>.
+
+8/3/98 5:34pm
+-------------
+There is a bug we've discovered in the latest reference drivers for Voodoo 1 based cards in D3D mode.  If you are having severe video problems in-game, we reccomend you revert to either an earlier reference driver or use the card's manufacturer's driver (for example, the Diamond Monster drivers v.1.10 work fine).
+
+8/3/98 9:00pm
+-------------
+East Freeport is finally up -- the entire city of Freeport is online now.  Also, several of the crash bugs we've had should be fixed now -- let us know if you encounter any more and please attempt to make note of the circumstances and events immediately prior to the crash.  Lastly, an assist command has been added -- target a player, type /assist, and you should then target whoever he is currently fighting at that moment.
+
+8/4/98 4:44pm
+------------
+Note the changes to the previous entry regarding the assist command.
+
+8/4/98 5:55pm
+------------
+Hopefully the Voodoo 1 D3D bug has a workaround -- please let us know if you experience any additional problems.  Also, you can start a character (human, half-elf, wood elf, high elf) in Freeport now (in addition to Qeynos) -- give it a try.
