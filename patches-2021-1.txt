@@ -1,0 +1,651 @@
+.....................................................................
+
+------------------------------
+Game Update Notes: January 20, 2021
+------------------------------
+
+*** Items ***
+
+- Made changes to many items that have unlimited charges and instant-cast spells attached:
+- - Many items that previously had no cast or recast time now have a 1 second recast time.
+- - Many spells on these items, such as the Poison Fungus Skull Staff, Pale Dragon Bone Ring, and Aspect of the Brood, will no longer generate aggro.
+- - Items that cast player spells, such as Lute of the Flowing Waters, Rod of Insidious Glamour, or Robe of the Whistling Fists, will now cast new copies of those spells that do not generate aggro. The player-usable spells that were on them remain unchanged.
+- Added tribute to the Item Display Window.
+- Corrected an issue where the bandolier wouldn't allow you to swap between sets of lore equipped items that had a conflict with each other.
+- Many illusion potions have had their spell descriptions adjusted to make more sense.
+- Kitlaa's War Whip is now Kitlaa's War Blade.
+- Scroll: Illusion: Hooded Othmir can now be traded as intended.
+- Adjusted the AC stats on Claws of Veeshan ranged items to the intended values.
+- Reduced the drop rate of Crystallized Restless Ore on basepop.
+- - Added Crystallized Restless Ore to Claws of Veeshan rare NPCs and mission treasure chests.
+- Changed the focus effect on Claws of Veeshan Shaman chest items to Roar Duration.
+- Added descriptive text to Skyshrine Dragon Brazier to indicate it teleports you to Cobalt Scar.
+- Fixed an issue with the Contract of the Othmir where it wouldn't remove itself from your inventory after being used.
+- Claws of Veeshan Ranger bows have had their click effects attached.
+- Zieri's Shawl of Compassion now has the correct rank of Myrmidon's Skill.
+- The Warforged Emblem currency no longer has a double-space in its name.
+- Ornate Restless Shield and Bow ornamentations will now fit in the correct items.
+- The Warrior's Velium Threaded Broadsword no longer has Sympathetic Vampiric Draw.
+- Fixed a typo in the book 'Of Moving Ice Volume 7 - Weapons'.
+- Reactive Frozen Grommet, Complimentary Frozen Grommet, Reactive Velium Threaded Gem of Striking, Complimentary Velium Threaded Gem of Striking, Reactive Velium Threaded Gem of Devastation, and Complimentary Velium Threaded Gem of Devastation now fit in the appropriate items with the correct slots and have the intended spells attached.
+- Fixed many weapon ornaments that had incorrect restrictions or description text.
+- Changed the name of Knowm's Rod of Disempowerment to Mrtyu's Rod of Disempowerment.
+- Corrected the description for Velium Composite Scale.
+- Torment of Velious raid spells can now be found on Hrenvy Bloodyhand of East Wastes.
+- Claws of Veeshan raid spells will be available on Morton Stonebreaker of West Wastes after six months have passed from the launch of Claws of Veeshan.
+- Changed the Silver Spoon Ornament to work on bows exclusively.
+
+
+*** Quests & Events ***
+
+- Fixed a bug that would sometimes prevent players from zoning out of a dynamic zone.
+- The Conflagration Generals - Changed the filter for the zone-wide message that occurs when a whorling wildfire is hit with the proper spell. The message will now be displayed through the Direct Damage (Others) filter.
+- Zlandicar Reborn (Mission) - Basepop will not respawn within the event, and will no longer con higher than they should.
+- Aaryonar (Mission) - Fixed an issue that would leave the Echo debuffs on PCs when the event resets.
+- Aaryonar (Mission) - Fixed an issue that caused the Echo auras to despawn prematurely. Reduced the damage on the Intruder's Curse spell to be more reasonable. Fixed an issue that would cause the echo auras to fail to give their protective buffs. When the earthen orb is absorbed by the earthen echo, if there are no guardians to be destroyed, no message about destroying one will appear. Now only two orbs will spawn at a time. Racnar will no longer spawn in this event. Lastly, Aaryonar will not rejoin the fight until Grolik has been defeated.
+- The Call (Mission) - Fixed an issue that prevented all of the golems from spawning. This prevented successful accomplishment of the Let Them Go achievement.
+- The Call (Mission) - The worried golem will now send PCs back up to access the rest of the tomb, if they wish.
+- The Crusaders (Mission) - Many of the spells used by the NPCs in this event now have a chance to be resisted. Those spells have had their damage slightly increased. Dramatically reduced the damage on Dismal Fury of the Shrine (Sussarak's breath weapon). Reduced the damage on the spell cast by the foyer guardians.
+- Quincy Algernope (Dragon Necropolis) - Corrected an issue that prevented "sorry" when spoken in /say from progressing this quest giver's conversation.
+- The Coldain Ring War - Churn the Axeman, Kargin the Archer, Corbin Blackwell, Dobbin Crossaxe, and Garadain Glacierbane will now only give their rewards once at the end of the event.
+- Boridain Glacierbane has gone home, as his services are not needed. Speak with Essedera to obtain the same services.
+- Defenders of the Tomb - The drakes will be much harder to avoid now, they are much more aware of their surroundings.
+- The Call (Raid) - Fixed an issue with achievement messaging talking about the wrong achievements. Vulak will now have his HP locked until all of the tomb guardians are killed. Eliminated a couple of exploits.
+- Restless Assault (Mission and Raid) - Huntmaster Grondo will no longer sometimes cast Frozen Feet immediately when engaged.
+- Eye of Zomm will no longer break the "Others' Things" Heroic Adventure when clicking on crystals to cause them to disappear.
+- Resolved an issue in the Tower of Rot where Scions would create a mega train when a player completes a specific step of the quest "Narius' Plan."
+- 13th Anniversary (Raid) - Tserrina's Keepsake - Fixed an issue where defeating Lanys too quickly would cause the event to break.
+
+
+*** Spells ***
+
+- We removed Mount Blessing Kala from all players. If you are on live, or a progression server that has reached Torment of Velious, you may re-click your mount to gain the buff again.
+- Corrected an issue where Quick Time could sometimes cause spells to become locked out.
+- Magician - Fixed several errors in Claws of Veeshan spell descriptions that create items.
+
+
+*** NPCs ***
+
+- Updated basepop NPCs in Sleeper's Tomb, Dragon Necropolis, Western Wastes, and Skyshrine raid so they will drop their rare loot, including the luck augment.
+- "The Overseer Reborn" is now correctly listed as a hunt target, instead of "The Captain of the Guard" for the hunter achievement "Hunter of The Sleeper's Tomb."
+- - Fixed an issue that caused "The Captain of the Guard" to report being a rare spawn when /considered.
+- Fixed an issue with necromancers in the Dragon Necropolis where they could see through invisibility.
+- Sirens in the Cobalt Scar no longer see through invisibility.
+- Adjusted the bats in the Dragon Necropolis to behave correctly when pathing near water.
+- The terror of the flying sharks of the Cobalt Scar has been resolved. Sharks now stay in the water where they belong...for now.
+
+
+*** Mercenaries ***
+
+- Several new ranks have been added to the following mercenary AAs:
+- - Improved Health
+- - Improved Mana
+- - Improved Melee Defense
+- - Improved Spell Resistance
+- - Furious Wrath
+- - Steadfast Resolve
+- - Subtle Magic
+- - Healing Acumen
+- - Subtle Strikes
+- - Rising Fury
+- - Silent Arcanum
+- - Mystic Destruction
+
+
+*** Collections ***
+
+- Claws of Veeshan collection item achievement links should now work, and lore text should be more grammatically consistent.
+- Fixed an issue where some collectibles said they were from a different zone than they actually were.
+- Fixed a typo in the component name 'Don't be a Guppy' for the collection achievement "Cobalt Scar Scavenger."
+- Changed the component name "Journal of a Shadow Knight" to be more "Lost" to better match the other components for the collection achievement "More Lost Journals."
+
+
+*** Overseer ***
+
+- Made a speculative fix to prevent Overseer quests from failing to start.
+- Added in a message reporting when an Overseer agent has recovered.
+- The Conflagrant Platinum in the Ring of Scale worker reward is limited to The Burning Lands like the rest of the items in that reward option.
+
+
+*** Miscellaneous ***
+
+- "Watcher Scots" is now correctly listed as the mission giver for the mission achievement "Hero of Dragon Necropolis"
+- Corrected an issue where /testcopy would fail if you had no items in the Dragon's Hoard.
+- Addressed a client crash when unloading models during the zoning or camping process.
+- Addressed a client crash when rendering text.
+- Fixed a client crash that could occur when failing to initialize chat windows.
+- Added diagnostics to help prevent future zone crashes.
+- The pet who leader command should once again be usable by all players to find out the leader of a targeted pet.
+- Fixed a bug where the help message from /lootnodrop was being displayed incorrectly.
+- Server select and the old login screens will now properly use your default browser when opening a web page.
+- Improved pathing in the Claws of Veeshan version of Temple of Veeshan.
+- Corrected typos in the Dwarf Heritage Crate: Dwarf Art Collector achievement.
+
+
+*** UI ***
+
+- Removed the no longer in use embedded browser window.
+- Fixed an issue that could occur if you tried to deposit an item in your Dragon's Hoard before it completely loaded.
+- Corrected an issue where Task Overlay options weren't loading and saving correctly.
+- The Dragon's Hoard will now automatically re-sort stackable items so that the partial stack will always be on the top or bottom (depending on which way you have the window sorted).
+- Replaced the item filter type 'Combinable' with 'Tradeskill' which should prove to be a more useful search type.
+- Added a help window to the Dragon's Hoard window.
+- Added tribute as a search option to the Find Item Window and Bazaar Window.
+- Fixed the text description for augments that require using a Perfected Augmentation Distiller to remove.
+- Added the Zone Guide connections between Cobalt Scar and Kael Drakkel.
+
+- Changed -
+EQUI.xml
+EQUI_DragonHoardWnd.xml
+
+- Removed -
+EQUI_HtmlWnd.xml
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: February 17, 2021
+------------------------------
+
+*** Highlights ***
+
+- Changed some of the modern Spell Casting Proc items so they won't trigger from other proc effects or twincast. This is a step, but not the entire solution, to reduce raid lag. Recursive proc casting is causing a huge amount of spells to be cast in a short time.
+- Many changes have been made to Epic 1.0 quests. See the Quests & Events sections for details.
+- All wares sold by Morton Stonebreaker in Western Wastes have had a pricing decrease.
+
+
+*** Items ***
+
+- Marionette puppet familiars can now be placed in a real estate without looking like a brown bag.
+- Augments purchased from Tanin Gleamstone in Western Wastes can now be sold back to him for 70% of the purchase price.
+- Increased AC values for caster 2-handed blunt weapons from Claws of Veeshan.
+- Claws of Veeshan augments now have the correct Lore and Lore Equip groups attached.
+- Merchants that sell the 'Tracker's Water Extractor' will now carry an unlimited stock of this item.
+- Changed some of the modern Spell Casting Proc items so they won't trigger from other proc effects or twincast. This is a step, but not the entire solution, to reduce raid lag. Recursive proc casting is causing a huge amount of spells to be cast in a short time.
+
+
+*** Quests & Events ***
+
+- Aaryonar Raid - Made a speculative fix to a reported issue that would cause Grolik to lock his hit points.
+- Paladin and Rogue Epic: Reduced the respawn time for the Oracle of K'Arnon from about 7 hours to 2 hours.
+- Paladin Epic: Lich of Miragul will now spawn 35 hours after being killed. There will now be a delay for between 5 and 14 hours before it will spawn for the first time.
+- Druid and Ranger Epic: Venril Sathir's remains will spawn every 20 hours instead of just over 26 hours. This will increase the window to access this NPC for quest hand-ins.
+- Magician Epic: Undertow (and its placeholder) will spawn every 6 hours instead of just over 7 hours.
+- Monk Epic changes:
+- - Increased the chance for Targin the Rock from 5% to 15% and Raster of Guk from 2% to 10%.
+- - Brother Zephyl, Brother Qwinn, Ran'un, Brother Velan Torresk, and Thena Lonnes have grown in strength. They are much more dangerous. Also, persons killing these folks will be greatly disliked by monk factions.
+- Rogue Epic changes:
+- - Eldreth will now return after leaving for 1 hour rather than 8. He can no longer be killed by miscreants.
+- - Founy Jestands and Tani N'Mar will no longer have any parchment on their corpses if killed. They will, however, always have them in their pockets if someone happens to be clever enough to take them.
+- - Renux Herkanor will no longer carry a Jagged Diamond Dagger.
+- - General V'ghera will no longer carry a Cazic Quill.
+- - Karg IceBear will be a bit easier to find and will be carrying the Gigantic Zweihander more often.
+- Enchanter Epic changes:
+- - Vessel Drozlin and Wraith of a Shissar will now respawn 9 hours after being killed and from 5 to 14 hours after a zone or server reset.
+- - Verina Tomb will now respawn 13 hours after being killed and from 5 to 14 hours after a zone or server reset.
+- - The One Key, Lost Scroll, and Charm and Sacrifice have had their respawn time reduced from 24 to 5 hours.
+- Shadowknight Epic changes:
+- - Caradon will now spawn 8 hours after being killed and from 5 to 14 hours after a zone or server reset.
+- - Lhranc will now spawn 13 hours after being killed and from 5 to 15 hours after a zone or server reset.
+- - NPCs involved in the quest for Innoruuk's Curse can now see things that are invisible. They will only deal with people they like.
+- Wizard Epic: Broken golem will now spawn 8 hours after being killed and from 4 to 12 hours after a zone or server reset.
+
+
+*** Spells ***
+
+- Beastlord - Auspice of Kildrukaun Rk. II and Rk. III can now be selected as rewards from the Lesser Bloodmarked Velium Gem and Lesser Dragontouched Rune, respectively.
+
+
+*** NPCs ***
+
+- All wares sold by Morton Stonebreaker in Western Wastes have had a pricing decrease.
+
+
+*** Overseer ***
+
+- Changed how Overseer quests load and save as a speculative fix to the bug where Overseer quests sometimes disappear. As part of this change, all Overseer Active Quests have been deleted. For the inconvenience, all players who have used Overseer before should have an Overseer Agent Pack available in /itemoverflow.
+
+
+*** Miscellaneous ***
+
+- Made the following changes to guild halls to prevent them from being removed when a player deletes their character or server transfers:
+- - Placed guild halls no longer have an item owner, instead, they are owned by the guild.
+- - Only the guild leader will be able to put a placed guild hall in their inventory.
+- - Anyone with Move-Item access will be able to adjust a guild hall's placement.
+- Activated combat skills (ex: kick, bash) with reuse times affected by haste or slow effects can now only be slowed to a maximum of 2x their base reuse time.
+- - This ensures that skills activated while you are heavily slowed will no longer be locked out for exceptionally long periods of time.
+- Marketplace - Corrected an issue where additional Mount Key Ring Slots were not visible for purchase.
+- Fixed a bug that caused group invites to someone that has a shortened version of your name to not function.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: March 10, 2021
+------------------------------
+
+*** Highlights ***
+
+- March 16th marks EverQuest's 22nd anniversary! The Mechanical Fortune Teller in the Plane of Knowledge has information about new quests and a new mission. The Jubilant Merchant has new rewards to earn! We're grateful to all of you for an incredible 22 years of support, and we're excited for the future!
+
+
+*** Items ***
+
+- Proc chance increase is now correctly applied to Surge of Ice on the Velium Threaded Arcane Staff.
+- Volcanic Billow Shard can no longer be placed in a bank.
+
+
+*** Quests & Events ***
+
+- This Can't Be Good - Animated spell books will have Glowing Pages again.
+- Zlandicar Reborn Mission - Fixed an exploit that could grant an unearned chest.
+- Sontalak Raid - Both wing buffets are now chromatic resist.
+- Aaryonar Raid - The Echoes will no longer be removed when they block a spell. Consider that this will force a change of tactics to control which person has the highest rank of these spells.
+- Aaryonar Mission - Made the aura punishment effects less harsh. Root balls will no longer explode and will go away much faster. Reduced the damage caused by Pull of Sleet. Only one fireball will be fired at the target(s) with the highest rank of Echo of Fire.
+- Aaryonar Raid and Mission - Added a message when the smaller golems spawn.
+- Cleric Epic Changes
+- - Blood Soaked Prismatic Priest Robe can no longer be traded.
+- - Lake Rathe
+- - - Only someone that has handed Lord Bergurgle's Crown to Shmendrik can loot the Damaged Goblin Crown from the spirit of flame.
+- - - Once you hand the Damaged Goblin Crown to Natasha you will have to hand a new Lord Bergurgle's Crown to Shmendrik to loot the Damaged Goblin Crown again.
+- - - Natasha no longer despawns.
+- - - Most of the time Natasha cannot be attacked. She can only be fought when she engages with Shmendrik.
+- - - Shmendrik cannot be attacked until someone hands him Lord Bergurgle's Crown.
+- - Timorous Deep
+- - - Only someone that has handed Blood Soaked Plasmatic Priest Robe to Omat will receive the Ornate Sea Shell II when handing Lord Gimblox's Signet Ring to Natasha.
+- - - Once you hand the Lord Gimblox's Signet Ring to Natasha you will have to hand a new Blood Soaked Plasmatic Priest Robe to Omat for Natasha to accept another Signet Ring from you.
+- - - Natasha no longer despawns and cannot be killed.
+- - - Only someone that has handed Sceptre of Ixiblat Fer and Singed Scroll to Omat will receive the Shimmering Pearl when handing A Message to Natasha to Natasha.
+- - - Once you hand A Message to Natasha to Natasha you will have to hand a new Sceptre of Ixiblat Fer and Singed Scroll to Omat for Natasha to accept another Message from you.
+
+
+*** Spells ***
+
+- Necromancer and Shadowknight - Restored the effectiveness of Spell: Summon Corpse. Lowered its mana cost but it now only summons corpses up to level 60.
+
+
+*** AA ***
+
+- Wizard - Added 3 new ranks to Fury of Magic that will be auto-granted at levels 12, 30, and 50 to replace the previously hard-coded critical chance bonus wizards are granted at these levels.
+
+
+*** NPCs ***
+
+- During the Anniversary event, check out the Jubilant Merchant in Plane of Knowledge for some new celebratory goods!
+
+
+*** UI ***
+
+- Players should now only have to confirm the server ruleset on Aradune and Rizlona once per login.
+- Attempting to /consider the corpse of a player who has not yet returned to their bind point will no longer report that the corpse is invalid.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: March 16, 2021
+------------------------------
+
+*** UI ***
+
+- Fixed a string related to the anniversary promotion. You will need to re-patch to see this fix.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: March 18, 2021
+------------------------------
+
+*** NPCs ***
+
+- Guard Blevins will now spawn in pick zones for Qeynos Hills.
+
+
+*** Quests & Events ***
+
+- The Unity mission Commanders will now speak to you, no matter how much they hate you.
+- Items on the reward chest for Defenders of the Tomb will no longer be locked by the loot lock lockout.
+- Loot, including the luck and type 19 chase loot, will now drop on basepop in the Defenders of the Tomb raid.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: April 21, 2021
+------------------------------
+
+*** Items ***
+- Added Incense of Tranquility to the marketplace. This is available once Planes of Power opens on your server.
+- Increased the duration of the 22nd Anniversary food to match that of the drink.
+- Fixed a typo in Prismatic Lance Ornament's name.
+- Removed class restrictions on some items that drop from discordlings.
+
+*** Quests & Events ***
+- Amalgam Arbiter (Raid) - The retribution spectres will now float up into the center of the room instead of on the other side of the ice wall.
+- Vulak'Aerr (Raid) - Fixed messaging about the root balls that claimed way more targets than would be affected.
+- Restless Assault (Mission)- Changed the word 'axe' to 'weapon' in one of Narandi's messages because sometimes he's carrying a spear.
+- Unity (Anniversary Task) - Added a one hour request timer.
+- Guardian of the Sand (Task)- Corrected an issue where the task steps could be completed out of order.
+
+*** Spells ***
+- Druid and Wizard - Created teleport spells that teleport to the Plane of Tranquility. These are sold in Shadowhaven and are available once Planes of Power opens. Look for Ealerel Tidebringer and Goesl Sealsonich.
+- Enchanter - All spells in the Color Flux line now share the same timer.
+- Necromancer - Increased the damage done by Withering Decay, Sphere of Blight, Sphere of Withering, and Sphere of Dissolution. Decreased the damage done by Echo of Dissolution, Remote Sphere of Decay, Remote Sphere of Blight, and Remote Sphere of Withering. Increased the mana costs of the entire line.
+- Fixed a bug where group auras would not reapply if a player died, re-entered the zone, and was then resurrected within the area of the aura.
+
+*** NPCs ***
+- The efreeti in Western Wastes (CoV) will no longer death-touch their targets.
+- The razorgills in the Unity mission will now look like fish.
+- Audri Deepfacet in the Plane of Knowledge will now hand you the correct Legendary Jewel Crafting journal.
+- Milas An`Rev will no longer be able to be in the same place multiple times.
+
+*** Mercenaries ***
+- Fixed some missing text when hiring Othmir mercenaries from Iauld Atiqa in the Plane of Knowledge.
+
+*** Collections ***
+- Corrected an issue with collection items from Claws of Veeshan that did not have the attunable flag.
+
+*** Progression Servers ***
+- Corrected an issue where out of era AAs could be purchased on progression servers.
+- For the first two months after Planes of Power first opens on a server, the giants in the Plane of Storms that normally carry Esoteric Medallions will carry more of them, and other giants in that zone will have a small chance to carry their own medallion.
+
+*** Miscellaneous ***
+- Fixed a typo in the name of 'Captain Alron Cuppboard' for the achievement 'Mercenary of The Western Wastes'.
+- Fixed an issue where some players would be stuck loading indefinitely when attempting to enter the world. - 22nd Anniversary achievements have now been added.
+- Officers can now take leadership of the guild with the /usurp command if no leader or senior officers have been online in the past year.
+
+*** UI ***
+- Corrected a typo in the /usurp command.
+- Corrected an issue where the Message of the Day would display each time you zoned.
+- Adjusted the position of the 'Not Scribed / Scribed' and 'Collected' labels in the Item Display window to not overlap with the tribute values.
+- Added weapon ratio to the Item Display Window.
+- - Added weapon ratio, damage, and delay to the Find Item and Bazaar search.
+- Adjusted the default column widths in the Aura Window to reduce the likelihood that aura names will be cut short by the aura slot value.
+- Pet hold and ghold now correctly keep their states after logging out of the game.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: April 26, 2021
+------------------------------
+
+*** Quests & Events ***
+
+- Extended the first phase of the anniversary events by two weeks.
+- Fixed an issue in the mission A Different Perspective that prevented the 6th step "Unlock the way to the seventh floor element" from completing successfully.
+- Fixed an issue that was preventing all NPCs in the Plane of Time and some NPCs in other Planes of Power zones from becoming Fabled.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: May 19, 2021
+------------------------------
+
+*** Highlights ***
+
+- For the first time, you can quickly identify the gains and losses of equipping an item to determine if an item is an upgrade and by how much. See the UI section below for more information.
+- New Hunter Achievements have been added for expansions Gates of Discord through Underfoot. See the NPCs section for details.
+- Look to the Marketplace this month for the Halfling Heritage Crate. Each crate contains a random item. Trade these Halfling Heritage items to your friends or collect them all yourself!
+- Check out everquest.com/packs this month for the new Roguish Rapscallion Pack and Successful Shenanigan Bundle!
+
+*** Items ***
+
+- Descriptive text has been corrected for Outrider of Karana and Norrath Keeper's bundles.
+- Augmentation Distillers now stack up to 100.
+- Added missing descriptive text for the Evantil Guild Trophy.
+- Corrected an issue with the Legend of the Jarsath Destroyer pack that prevented it from giving the Visage of the Girplan as a prize. Replaced one chance at a Jester with Prize: Visage of the Girplan. The chance to get other items is unchanged.
+- Look to the Marketplace this month for the Halfling Heritage Crate. Each crate contains a random item. Trade these Halfling Heritage items to your friends or collect them all yourself!
+- Check out everquest.com/packs this month for the new Roguish Rapscallion Pack and Successful Shenanigan Bundle!
+
+*** Quests & Events ***
+
+- There will no longer be broadcasts about the tipsy gnome race. You can speak to Teena to get an idea of when it starts up again.
+- Fixed an issue that was causing some fabled NPCs to restore all of their health every tick. The following should no longer have this issue: The Fabled Manaetic Behemoth, The Fabled Saryrn, The Fabled Terris-Thule, and The Fabled Warlord Gintolaken. In the Plane of Time instance: The Fabled Tallon Zek, The Fabled Vallon Zek, and The Fabled Saryrn.
+- Fixed an issue with the Zlandicar Raid that could cause the dracoliches to spawn too quickly.
+- Fixed a reset issue with the Defenders of the Tomb raid that could cause the event to reset if all the drakes were killed. Also reduced the hit points and damage of the drakes by 20% or more.
+- Reworked the Rhag Cycle in Ssraeshza Temple using more modern techniques. Each boss should spawn reliably upon the death of the last.
+- Modified the fourth event in Deathknell. Ayonae Ro will now become "vulnerable" over time (and health) rather than all at once.
+
+*** Spells ***
+
+- Fixed the spelling of Root Ball Exlosion and Root Bundle Exlosion.
+- Corrected an issue where beam spells would sometimes try to hit mounts and targets out of line of sight.
+- Necromancer - The Necrotizing Wounds line of spells will no longer stack with itself if cast by the same caster. The spells will do more damage and cost more mana. The proliferation spells that are triggered by these spells are unchanged.
+- Necromancer - The Splurt line of spells will no longer stack with itself or with the Necrotizing Wounds line of spells. Higher ranks will deal more damage and cost more mana.
+- Necromancer - The Scourge of Fates line of spells will no longer stack with itself. Scourge of Destiny now deals more damage and costs more mana. The spell line no longer uses a shared timer.
+- Necromancer - Reduced the damage and mana cost for several DoT lines, including Pyre of Mori, Flashblaze, Searing Shadow, Pallid Haze, Curse of Mortality, and Swift Deconstruction. While these lines were individually not overperforming, in combination they resulted in far more damage than was healthy to allow to continue. Further changes to these or other lines may occur in the future.
+
+*** AA ***
+
+- Corrected an issue where the 'Buy All' button for Mercenary AA Abilities was not properly checking remaining points and prerequisite ranks.
+
+*** NPCs ***
+
+- A full set of Hunter achievements, including new titles and era-appropriate container rewards, have been added to the following achievement categories:
+- - Gates of Discord
+- - Omens of War
+- - Dragons of Norrath
+- - Depths of Darkhollow
+- - Prophecy of Ro
+- - The Serpent's Spine
+- - The Buried Sea
+- - Secrets of Faydwer
+- - Underfoot
+- The following Hunter achievement container rewards have had their capacity increased:
+- - Novice Dream Hunter's Satchel, from 15 to 26
+- - Adept Dream Hunter's Satchel, from 15 to 28
+- - Veteran Dream Hunter's Satchel, from 16 to 30
+- - Expert Dream Hunter's Satchel, from 16 to 32
+- - Satchel of the Dreamslayer, from 20 to 34
+- - Novice Veil Hunter's Satchel, from 16 to 30
+- - Adept Veil Hunter's Satchel, from 18 to 32
+- - Veteran Veil Hunter's Satchel, from 22 to 34
+- - Expert Veil Hunter's Satchel, from 24 to 36
+- - Satchel of the Veilslayer, from 28 to 38
+- - Adept Fear Hunter's Satchel, from 24 to 32
+- - Expert Fear Hunter's Satchel, from 28 to 34
+- - Expert Shadow Hunter's Satchel, from 30 to 36
+- - Satchel of the Fearslayer, from 32 to 40
+- All expansion achievement sub-categories have been re-ordered to be more consistent.
+- The Hunter achievement "Hunter of Gnome Memorial Mountain" has been moved from the Secrets of Faydwer category to The Burning Lands category as an optional component of the "Burnslayer" achievement.
+
+*** Miscellaneous ***
+
+- Fixed the exit from Velketor's Labyrinth in Torment of Velious to deposit folks in the Great Divide rather than Eastern Wastes.
+- Fixed a longstanding zone instability problem related to fellowship campfires.
+- Merged groups will no longer include offline members in the creation of a new group. They will need to be invited to the group again if they log back in.
+
+*** UI ***
+
+- Added in the Item Compare feature.
+- - You can now easily identify the gains and losses of equipping an item or which slot to equip it in to gain the most benefit.
+- - To use this, inspect any equippable or augment item and select the currently equipped item in the new dropdown box you want to compare to.
+- - This will allow you to see all the relevant equipment traits, stats, and effects that would be added or removed and any value differences.
+- - Your race, class, and deity must match on the item in order to compare.
+- Added two additional color options 'Item Stat Positive' and 'Item Stat Negative' which allow you to customize the colors used to display stat values in the Item Display Window.
+- Corrected an issue that allowed shared bank bags to be opened while shrouded.
+- Corrected an issue where weapon ratio would not accumulate damage correctly if the base item and an augment both had elemental or bane damage. Moved elemental damage to a secondary ratio that displays in parenthesis since it varies by NPC resistances.
+- Added a potential fix for the raid window sometimes causing the client to lock up when moving players into groups.
+- Messages about pending overflow items when logging in will now be displayed with the System Messages filter instead of showing up with Spell Failures.
+- Fixed a typo in the Server Transfer Window.
+- Corrected an issue that prevented Loot All in the Advanced Loot window from looting all.
+
+- Changed -
+EQUI_ItemDisplay.xml
+EQUI_Templates.xml
+
+*** Previously Updated ***
+
+- Extended the first phase of the anniversary events by two weeks.
+- Fixed an issue in the mission A Different Perspective that prevented the 6th step "Unlock the way to the seventh floor" element from completing successfully.
+- Fixed an issue that was preventing all NPCs in the Plane of Time and some NPCs in other Planes of Power zones from becoming Fabled.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: May 27, 2021
+------------------------------
+
+*** Progression Servers ***
+
+- Removed a number of out of era items that were dropping from randomized loot targets. Examples include rare creatures from The Feerrott, Freeport Sewers, Lavastorm Mountains, Rathe Mountains, The Plane of Fear, The Plane of Hate, and Temple of Cazic-Thule.
+- Corrected an issue where certain zones had NPCs who could not be targeted.
+
+
+*** Quests & Events ***
+
+- The mail delivery quests offered by members of the League of Antonican Bards have been changed to be non-repeatable.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: June 16, 2021
+------------------------------
+
+*** Highlights ***
+
+- Check out the new Past Expansion Collector's Edition Bundle in the Marketplace this month from June 16 to June 30! Available on servers with Underfoot unlocked. Individual items are available while the expansion they originally came with is active.
+- Made many changes to Gates of Discord through Underfoot hunter achievements. See the NPCs section for details.
+- Updated randomized loot tables for Mischief and Thornblade in Classic. See the Progression Servers section for details.
+- Granted The Burning Lands for free to Test Server and live players.
+
+
+*** Items ***
+
+- Starting bag, food, and drink on newly created characters is no longer tradable even on a free-trade server.
+- Check out the new Past Expansion Collector's Edition Bundle in the Marketplace this month from June 16 to June 30! Available on servers with Underfoot unlocked. Individual items are available while the expansion they originally came with is active.
+- Increased the size and the cap of the Dragon's Hoard for all players. The free to play limit has been increased from 25 to 40 slots, and the all access limit has been increased from 100 to 125 slots.
+- Guild Hall packages will now be available in the marketplace when the Veil of Alaris expansion is available, which is when neighborhood guild halls can be used.
+- Limited the purchase of Incense of Tranquility to ten per transaction, and altered the packages to match the same limit, keeping the same discount rates. You may purchase more, but doing so will require multiple transactions.
+
+
+*** Quests & Events ***
+
+- The reward chest for The Amalgam Arbiter will have all of its loot all the time.
+- The mail delivery quests offered by members of the League of Antonican Bards have been changed to be non-repeatable.
+
+
+*** Spells ***
+
+- Hate over time spells no longer apply hate to players after death or evac as long as you don't respawn in the same zone or evac in under 6 seconds.
+- Corrected an issue where certain types of healing and damage spells would display focus effect messages even if the Focus Effect filter was turned off.
+- Beastlord - The Trushar's Mending line of healing spells will now heal your target if it is an ally, or your target's target if it is cast on a foe.
+- Ranger - The Sylvan Light and Desperate Deluge lines of healing spells will now heal your target if it is an ally, or your target's target if they are cast on a foe.
+- Paladin - The Burst of Sunlight, Light of Life/Gleaming Light, and Ethereal Cleansing lines of healing spells will now heal your target if it is an ally, or your target's target if they are cast on a foe.
+
+
+*** AA ***
+
+- Corrected an issue where the 'Buy All' button for AA Abilities was not properly checking remaining points and prerequisite ranks.
+
+
+*** NPCs ***
+
+- Headshot will no longer work on the wyverns in Cobalt Scar (Claws of Veeshan).
+- The following incompletable hunter achievements have been removed:
+- - Depths of Darkhollow: Hunter of The Hatchery
+- - The Buried Sea: Hunter of Suncrest Isle
+- - The Buried Sea: Hunter of Jardel's Hook
+- Adjusted hunter achievement point values for Gates of Discord through Underfoot to better reflect their actual hunter target counts.
+- The following hunter achievement now grants a title reward:
+- - Prophecy of Ro: Hunter of Sverag, Stronghold of Rage (Rageslayer, and the Rageslayer)
+- The following hunter achievement components have been removed:
+- - Gates of Discord: Hunter of Qinimi, Court of Nihilia: Rarundel`s Memory
+- - Gates of Discord: Hunter of Barindu, Hanging Gardens: Colossus of War
+- - Omens of War: Hunter of Nobles' Causeway: a murkglider pup, Stone Thrower
+- - Dragons of Norrath: The Accursed Nest: Protector Kanadin
+- - Depths of Darkhollow: Adept Hunter of Depths of Darkhollow: Hunter of The Hatchery
+- - Prophecy of Ro: Hunter of Relic, the Artifact City: a raging spellstream, a relic crushpile, a walking bone pile
+- - Prophecy of Ro: Hunter of Sverag, Stronghold of Rage: Martihaz the Destroyer, Zaignoz the Insane
+- - The Serpent's Spine: Hunter of Goru`kar Mesa: Lup Calea
+- - The Serpent's Spine: Hunter of Blackfeather Roost: a harpy explorer
+- - The Serpent's Spine: Hunter of Vergalid Mines: Vegalak
+- - The Serpent's Spine: Hunter of Direwind Cliffs: Blackwolf, Direwing
+- - The Serpent's Spine: Hunter of Icefall Glacier: a dire wolf pup
+- - The Serpent's Spine: Hunter of Frostcrypt: Floe, Ice, Icefloe
+- - The Serpent's Spine: Hunter of Valdeholm: tornado servant
+- - The Buried Sea: Novice Hunter of The Buried Sea: Hunter of Suncrest Isle, Hunter of Jardel's Hook
+- - Secrets of Faydwer: Hunter of Fortress Mechanotus: Oxidilus the Junk Collector
+- - Secrets of Faydwer: Hunter of Meldrath's Majestic Mansion: Findlewill
+- Corrected a typo in the name Chieftain Darkmaw in Prophecy of Ro: Hunter of Sverag, Stronghold of Rage.
+- The following hunter achievement component names have been updated:
+- - Prophecy of Ro: Hunter of Sverag, Stronghold of Rage: Chieftain Darkmaw
+- - Secrets of Faydwer: Hunter of Fortress Mechanotus: Hardbottom, Recycler Union
+- - Underfoot: Hunter of Kernagir, the Shining City: A Shop Sweeper (Trelinna, Lady of Pain)
+- - Underfoot: Hunter of Kernagir, the Shining City: A Wary Guard (Sirana, the Knife Mistress)
+- Additionally, all hunter achievement component names now use the same casing as their targets.
+- The following hunter achievement components are now part of the following achievements:
+- - Prophecy of Ro: Slayer of Prophecy: Hunter of Sverag, Stronghold of Rage
+- - Prophecy of Ro: Veteran Hunter of Prophecy of Ro: Hunter of Theater of Blood
+- - The Buried Sea: Novice Hunter of The Buried Sea: Hunter of Thalassius, the Coral Keep
+- - The Buried Sea: Novice Hunter of The Buried Sea: Hunter of Jewel of Atiiki
+- - The Buried Sea: Hunter of The Buried Sea: Dreadclaw
+- - The Buried Sea: Hunter of The Buried Sea: Helushka
+- - The Buried Sea: Hunter of The Buried Sea: Blacksail Bob
+- - The Buried Sea: Hunter of The Buried Sea: Bloody Marc
+- - The Buried Sea: Hunter of The Buried Sea: Jelly Bones Bud
+- - The Buried Sea: Hunter of The Buried Sea: Tetraton
+- The following hunter achievement component is now optional:
+- - Prophecy of Ro: Slayer of Prophecy: Hunter of Sverag, Stronghold of Rage
+- The following hunter targets should now reliably spawn:
+- - Dragons of Norrath: Hunter of Stillmoon Temple: Jadewing, Wei Zhang, Stoneskin
+- - Dragons of Norrath: Hunter of Thundercrest Isles: Fersama, Fumi the Vigilant, Gox Ironmaw, Hidekazu, Hidetada, Hidetora, Kafu the Turbulent, Kodama the Voltaic, Kunz Boomsetter, Mihoko the Rector, Minoru the Crafty, Ninsei the Tempest, Rinako the Stalwart, Sor Stormreach, Sugita the Vicarious, Toshiharu, Toshinobu, Yoshiaga, Yoshihiro, Yukari the Enlightened
+- The following hunter targets can be killed in the given zone and correctly give hunter kill credit:
+- - The Buried Sea: Hunter of The Buried Sea: Dreadclaw, Helushka
+- The following hunter target can no longer be killed without spawning its adds, correctly spawns its adds at <=50% HP, and correctly gives hunter kill credit (and loot) when the loot granting add is killed:
+- - Underfoot: Hunter of The Convorteum: Animated Lava
+
+
+*** Progression Servers ***
+
+- Updated Phinigel to be a standard live server instead of a progression server, and enabled free to play.
+- Mischief and Thornblade now allow character transfers to Firiona Vie when characters have reached the requirements for transfers.
+- Made the following changes to randomized loot tables on Mischief and Thornblade in Classic:
+- - Moved spite golems to the same loot table as trash in Plane of Hate and Plane of Fear.
+- - Moved the Plane of Hate and Plane of Fear mini bosses to their own loot table.
+- - Removed the Plane of Sky azaracks from being randomized.
+
+
+*** Miscellaneous ***
+
+- Fixed an issue where %1 was being displayed when certain spells or combat abilities failed.
+- Added a message when security locked accounts log in without LaunchPad.
+- Added a message for all unhandled login errors that includes the error code.
+- All heroic stats now have diminishing returns for values over 4000.
+- Granted The Burning Lands for free to Test Server and live players.
+
+
+*** UI ***
+
+- Out of date custom EQUI_ItemDisplay files will no longer cause a client crash and instead will log an error.
+- Corrected an issue where only 85 debuffs would display in the target window instead of the total 97.
+- Invite all DZ in the guild interface now sends invites to people already in raid to the DZ.
+
+- Changed -
+EQUI_TargetWindow.xml
+
+- The EverQuest Team 
+
+.....................................................................
