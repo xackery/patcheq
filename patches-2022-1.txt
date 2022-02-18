@@ -1,0 +1,343 @@
+.....................................................................
+
+------------------------------
+Hotfix Notes: January 5, 2022 
+------------------------------
+
+*** Overseer ***
+
+- Corrected an issue where incapacitated agents would errantly display as ready.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+January 19, 2022
+------------------------------
+
+*** Highlights ***
+
+- AAs assigned to Ring of Scale will now correctly auto grant when Terror of Luclin is unlocked.
+- Corrected an issue that caused Claws of Veeshan raid targets to have increased HP coinciding with the launch of Terror of Luclin, these targets have had their HP reduced to pre-ToL values.
+
+
+*** Items ***
+
+- Attempting to enter a zone you do not have access to with the Fellowship Registration Insignia will no longer give you an item recast timer.
+- Two new sets of Hero's Forge armor are now available, and can be acquired through Terror of Luclin group and raid content.
+- Bow of Nightfall, Shade Bow, and Luclinite Ensanguined Longbow will now correctly grant Prismatic Ward AA ranks instead of casting Prismatic Ward.
+- The Servant's Sustenance augmentation has had its Heroic Stamina corrected.
+- Fixed the activated effect on raid tier Bard breastplates to correctly focus level 105-120 spells.
+- Blood-soaked weapons are now less icy in appearance.
+- Faded Waxing Crescent armor containers are no longer Lore or No Trade.
+- Removed the secondary equip slot from Ornate Restless Great Axe.
+- Rain of Fear Collector's Edition collection items now correctly state that you need to own Rain of Fear Collector's Edition or Painting: Shard's Landing in order to collect them.
+- The weapon ornaments offered in the Royal Antonican Weapon Ornament Pack will now have the option of exchanging them for any other ornament offered in that pack.
+- Improved the item descriptions for the Sword of Truth Template and Avanish weapon ornaments to correctly describe what types of weapons they work on.
+- The description for Secretion of the Mamba on Torment of Velious and Claws of Veeshan rogue pants now matches the rank of poison given.
+- Fixed spell description errors with Personal Hemic Source and several ranks of Alleviating Burst.
+- Fixed a typo on the Olive Branch Bow's name.
+- Fixed a typo in lore text for Shiny House Key.
+
+
+*** Tradeskills ***
+
+- Increased the drop rate of tradeskill components in Terror of Luclin zones.
+- Increased the odds that foraging for items in Terror of Luclin zones will result in items specific to Terror of Luclin.
+- Bloodied Luclinite Corrupted Garnets now have a chance to drop off more enemies in Terror of Luclin zones.
+- Small Twigs can no longer be fished in Terror of Luclin zones.
+- Fixed typos in the names of the 'Free Range Egg' and 'Snake Egg' variations of the 'Meet Lover's Omelet' recipe.
+- Terror of Luclin recipe names should now correctly match the name of the resulting item.
+- Corrected the recipe text in the book 'Of Flowing Blood Volume 09 - Runestones'.
+
+
+*** Quests & Events ***
+
+- Removed the replay timers on all Agent of Change instances. The lockouts will remain, of course.
+- Netherbian Swarm Commander (Raid) - Fixed a bug that would grant the 'Each in Turn' achievement under conditions where it had been failed.
+- Zelnithak (Raid) - The rumbling ground particle will now more closely match the area where the danger lies.
+- Doomshade (Raid) - Doomshade will now increase the number of doom targets by 1 each time it activates, instead of 2.
+- Shei Vinitras (Raid):
+- - Moved Shei Vinitras to the edge of the platform.
+- - Fixed the issue the kept Shei Vinitras locked at 2% health
+- - Changed Mark of Vinitras to be in the songs buff window. Also, made this change to the mission version of this spell.
+- - Fixed a typo in the enrage timer messaging.
+- Close the Gate (Raid):
+- - It will no longer be possible to reset the raid after it has been won.
+- - Kratakel, Lord Misery will no longer call out NPCs for nightmares.
+- - Increased the damage done by Never Awaken, Neck Slice, and Touch of Light.
+- Close the Gate (Mission):
+- - Improved the name and description of the following challenge achievement: Incomplete Shadows - Do not allow the light and dark orbs created by Pli Liako to overlap.
+- - Kratakel, Lord Misery will now choose proper targets for his daggers.
+- Aten Ha Ra (Raid and Mission) - Taking too long will now cause unstable shadows to appear as reinforcements.
+- Aten Ha Ra (Mission) - Fixed the min/max player count for the mission to be 1 to 6 instead of 6 to 54.
+- Oubliette of Light (Raid and Mission) - Made a speculative fix to issues that caused people to be teleported to odd places when falling off platforms.
+- Threading the Loop - Reduced the experience gained from NPCs spawned during the quest.
+- Free the Goranga - The pli senshali will now have to wait a little while after being called into the fight before they can start killing people.
+- Eliknot Terrilon's Shadow Valley quests: Tripled the drop rate of items needed to complete the tasks: A Taste of Venom, Hunting Beetles, and Terror Limbs for Firewood.
+- Basilica of Adumbration partisan quests now have 1 hour replay timers instead of 30 minutes.
+- Live as Brothers or Perish as Fools quest:
+- - Fixed an issue where stealth characters would cause the shimmering presence to not spawn.
+- - Fixed an issue with Terro Kai not continuing the quest as expected.
+- Corrected hail steps in the following tasks: 'Even If They Weren't So Great', 'Sincerely, Cissela', and 'When Soul Meets Soul'.
+- Gigglegibber goblins' Frostfell quests:
+- - Saga of the Empty Purse - Fixed a typo that referred to one of the dolls as 'Ticking' when it was intended to be 'Cicking'.
+- - An Adorable Yeti Doll - Belumb, the Yeti will no longer offer this quest until House of Thule is unlocked.
+- - Corrected the quest giver listed in the 'Frostfell: Braxi Roundup' achievement to be 'Santug Claugg's Helper'.
+- - Added an experience reward to the collection set 'Misplaced Dollies'.
+- The Journeyman's Compass now recognizes explorers who have ventured to every zone released with the Claws of Veeshan and Terror of Luclin expansions.
+- The Key of Veeshan achievement will now unlock under the same conditions as the Cipher of Veeshan achievement, removing the need to speak to Enrid Ebonclaw to re-obtain the original key.
+- Ring of Slime (Raid) - This Temple of Cazic-Thule raid event should now function properly in Agent of Change instances.
+- Vex Thal (Raid) - Corrected an issue where Agent of Change instances would contain akhevan warders for bosses that were not spawned due to event lockout timers.
+- Blessed Coldain Prayer Shawl - Only the person that hands the Runed Coldain Prayer Shawl to General Bragmur will be able to hand it to the Avatar of Below to obtain the final shawl.
+- Extended Target Window (Tutorial Quest) - Fixed text that was cut off in the the last dialog window of this quest.
+- Using the Marketplace (Tutorial Quest) - Updated the task to better reflect the current state of the Marketplace window.
+- Parcel Merchants (Tutorial Quest) - Improved the instructions offered by Caden Zharik to better describe the Parcel system.
+
+
+*** Spells ***
+
+- Added 20 pages to the spellbook.
+- Fixed cases where the word 'mesmerized' was misspelled in several spell descriptions.
+- Bard item benefit spells Niv's Melody of Preservation, Wind of Marr, and Doben's Spry Sonata Rk. II should no longer have stacking issues with other longer duration buffs.
+- Beastlord - Corrected the spelling of emnity in several spells in the Bestial Vivisection line. You may now growl with enmity.
+- Berserker - Corrected the name of Frothing Rage Rk. II. Previously both ranks II and III were named Rk. III.
+- Enchanter - Enchant Refined Velium now refers to the correct component of Refined Velium.
+- Druid - Added ranks II and III of Moonwhisper Crystals to the Glowing Etched Bloodstone and Glowing Shadowscribed Parchment reward sets. While Rank I now does slightly less damage, ranks II and III are more powerful.
+- Druid - Renamed Onyx Blessing to Luclinite Blessing to match the single target version of the spell.
+- Druid - Added the spell Howling Hail at level 116. It is available alongside Cinch of Ro.
+- Druid and Wizard - Corrected the spell descriptions for all spells that teleport to Shadow Valley.
+- Shaman - Renamed Antediluvian Interruption to Antediluvian Intervention.
+- Warrior - Fixed a misspelling in the worn off message of the Dichotomic shielding line.
+
+
+*** AA ***
+
+- AAs assigned to Ring of Scale will now correctly auto grant when Terror of Luclin is unlocked.
+- Updated the following Monk AAs:
+- - Weapon Mastery of the Katori - Increased the two-hand blunt damage modifier for ranks 70-75.
+- - Zan Fi's Whistle - Increased the hand-to-hand, one-hand blunt, two-hand blunt, and flying kick damage modifiers for ranks 31 and 32.
+- - Zan Fi's Whistle - Increased the skill attack damage percent modifier for ranks 31 and 32.
+- Updated the following Wizard AAs:
+- - Arcane Fury - Reduced the max level of spells that can be buffed by the rank 12 spell to 120.
+- - Arcane Fusion - Reduced the hate gain on the new rank.
+- - Mana Burn - Reduced the hate gain on the new rank.
+- - Focus: Evoker's Synergy - Updated rank 14 to only focus "Thaumaturgic Vortex".
+- Updated the following Necromancer AAs:
+- - Cascade of Decay - Updated ranks 38 and 40 to be actual upgrades over previous ranks.
+- - Gift of the Grave - Updated rank 12 to be an actual upgrade over previous ranks.
+- - Swarm of Decay - Updated the NPCs spawned by ranks 32-34 to use a new rank of "Dark Arrow".
+- - Wake the Dead - Updated the NPCs spawned by ranks 46-48 to use a new rank of "Spirit Claw".
+- Updated the following Magician AA:
+- - Flames of Power - Updated the counter increase on rank 8 to be 3 instead of 2.
+- Updated the following Shaman AA:
+- - Turgur's Swarm / Turgur's Virulent Swarm - Updated the description of rank 10 to correctly indicate that the strength debuff is slightly weaker than the dexterity and agility debuffs.
+- - Union of Spirits - Updated ranks 22-36 to have buff components comparable to ranks 30-42 of Ancestral Aid, which will once again let Union of Spirits correctly overwrite Ancestral Aid.
+- Added new ranks to the following Shaman AAs:
+- - Turgur's Swarm (Rank: 11) (Level: 120)
+- - Turgur's Virulent Swarm (Rank: 11) (Level: 120)
+- - Focus: Spiritual Swell (Rank: 10-11) (Level: 118-120)
+- Updated the following Druid AA:
+- - Distant Conflagration - Updated the AA description for ranks 6-7 to include a reference to "Remote Sunbolt" and "Remote Moonchill".
+- Added new ranks to the following Druid AAs:
+- - Blessing of Ro (Rank: 8) (Level: 116)
+- - Vortex of Ro (Rank: 5) (Level: 117)
+- - Wildtender's Survival (Rank: 16) (Level: 118)
+- - Focus: Plummeting Hail (Rank: 11-12) (Level: 118-120)
+- Added a new rank to the following Cleric AA:
+- - Yaulp (Rank: 9) (Level: 116)
+- Updated the following Enchanter AAs:
+- - Rune of Banishment - Updated the description string for all ranks to show the correct max target level that the activated spell can affect.
+- - Phantasmal Opponent - Updated the levels of the spawned NPCs for ranks 11 and 12 to be 115 and 120.
+- Added new ranks to the following Enchanter AAs:
+- - Beam of Slumber (Rank: 24-26) (Level: 116-120)
+- - Bite of Tashani (Rank: 8) (Level: 117)
+- - Focus: Gravity Twist (Rank: 15-16) (Level: 117-120)
+- Added new ranks to the following Bard AA:
+- - Focus: Tsaph's Insult (Rank: 11-12) (Level: 117-120)
+- Added new ranks to the following Shadowknight AAs:
+- - Gift of the Quick Spear (Rank: 2) (Level: 119)
+- - Focus: Focused Bites (Rank: 5) (Level: 116)
+- Added new ranks to the following Paladin and Shadowknight AA:
+- - Focus: Enduring Reproval (Rank: 4-6) (Level: 118-120)
+
+
+*** NPCs ***
+
+- Creatures introduced in The Burning Lands, Torment of Velious, Claws of Veeshan, and Terror of Luclin expansions now correctly count towards Slayer achievements and can be the targets of Banestrike.
+- Removed fling and knockback immunity from the majority of base population in Terror of Luclin raid instances.
+- Removed fling, gravitate, and shadowstep immunity from most standard NPCs in Ka Vethan, Basilica of Adumbration, Vex Thal, Maiden's Eye, and Umbral Plains. A few will have some, but not all of these immunities.
+- Corrected an issue that caused Claws of Veeshan raid targets to have increased HP coinciding with the launch of Terror of Luclin, these targets have had their HP reduced to pre-ToL values.
+- Charmed NPCs in Torment of Velious, Claws of Veeshan, and Terror of Luclin have been made stronger.
+- Bloodfalls - The bats of Bloodfalls are no longer displaying false modesty, and will now have weaker combat stats to match their '' consider description.
+- Ka Vethan - Fixed an issue that errantly caused some NPCs to give 5 minute out of combat timers.
+- Ka Vethan - Corrected the appearance of shades in Ka Vethan that were errantly displaying a human skeleton within their floating robes.
+- Maiden's Eye (ToL) - Added dialogues to the Spell and Augment vendors.
+- Basilica of Adumbration and Vex Thal (ToL) - Rare NPCs in these zones have been eating well and have grown tougher.
+- Vex Thal (ToL) - Akheva in Vex Thal can now be headshot.
+- Lavastorm - Solusek goblins no longer have expansive mana pools, and now have mana in line with similar level creatures.
+- Adjusted the area where the Stonegrabber NPCs can be targeted.
+
+
+*** Mercenaries ***
+
+- Restless Orc, Othmir, and Stonegrabber mercenaries will now equip proper focus items.
+
+
+*** Collections ***
+
+- Added Gnome Memorial Mountain collection items to the Overseer collection item dispenser.
+
+
+*** Overseer ***
+
+- Added the critical success rewards for Claws of Veeshan tradeskill items.
+- Fixed a bug where Overseer quests would sometimes stop rotating and max active quests would be stuck at 1.
+
+
+*** Progression Servers ***
+
+- Tagged the following Planes of Power items as Quest items: Mouths of Baraguj Szuul, Mystical Essence of Wind, Mystical Essence of Smoke, Mystical Essence of Mist, and Mystical Essence of Dust.
+- - This guarantees that the items will drop from their expected NPCs on servers with randomized loot.
+- Adjusted the rarity of Planes of Power raid NPCs. This will affect how much loot they get on Random Loot servers, not what loot they get. Also moved 15 NPCs to different buckets.
+- Added some additional items for Monks and Beastlords in the Shadows of Luclin era Umbral Plains.
+- Updated Miragul to be a standard live server.
+
+
+*** Miscellaneous ***
+
+- Fixed the zone line between Bloodfalls and the Castle Mistmoore so it will show on find and function properly in the zone guide. This is not a fix to the other way around.
+- Addressed an issue that could cause achievements to not properly allow for completion after a zone is repopped.
+- Corrected the appearance of the sky in Shadow Valley to look more shadowy, like it actually exists in the Plane of Shadow.
+- Renamed the "CPUAffinity" setting to "ClientCore" in the eqclient.ini file. The new default has been set to "-1" which allows the client to run on any and multiple cores. Setting a number other than the default will still force the client to run on a specific core.
+- Added a coin sound when you receive alternate currency.
+- Updated zoning logic to better balance players across a zone's available instances.
+- The 5 minute pickzone timer should now only apply when using /pickzone.
+- Added the "/kickplayers raid" command which allows a raid leader to remove everyone from their raid.
+
+
+*** UI ***
+
+- When receiving an AA experience reward, text will inform the player of any AA experience gained.
+- Fixed the Raid Window to save and persist the adjusted sizes of the 'Players in a Group' and 'Players not in a Group' lists.
+- Removed the auto consent options from the Options Window and turned them on by default. These options can still be disabled from within your character's INI file in the Defaults section with the property AutoConsentGroup, AutoConsentRaid, or AutoConsentGuild set to either 1 or 0.
+- Added an option to the chat context menu dropdown to allow users to change the font size in a specific window.
+- Fixed an annoyance where the reward selection window list would reset its vertical position each time a reward option was selected for preview.
+- Added a minimum required player count to the dynamic zone window.
+- Added a minimum, maximum, and current player count to the Shared Task tab of the task window.
+- Decreased the space that targets take up in the extended target window.
+- NPCs with locked HP will now report damage they are taking more accurately. Damage will include the (Locked) tag if it was a partial hit on an NPC with locked HP. If no damage occurred, it will not be reported.
+- Added the ability to sort the members in the Fellowship Window by any of the columns.
+- A message is now displayed when loot is left on a corpse after expiring from the Advanced Loot Window.
+- - Fixed messages from loot expiring from the Advanced Loot Window to not have an extra "a" or "an".
+
+- Changed -
+EQUI_DynamicZoneWnd.xml
+EQUI_ExtendedTargetWindow.xml
+EQUI_OptionsWindow.xml
+EQUI_TaskWnd.xml
+
+
+*** Previously Updated ***
+
+- Basic NPCs in the Terror of Luclin expansion will drop coins.
+- Live as Brothers or Perish as Fools (Quest) - Fixed an issue with Terro Kai not continuing the quest.
+- Corrected an issue where quests that awarded the same item you turned in would result in a lore item error.
+- Corrected an issue where the Teleportation Item Key Ring slots were not available for purchase.
+- Corrected an issue where items could not be removed from the Familiar or Illusion Key Rings.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+February 15, 2022
+------------------------------
+
+*** Highlights ***
+
+- Type 3 augments have been created for Terror of Luclin spells. They can be found on vendors in the new Maiden's Eye.
+- Made several improvements to the logic used when entering a zone with multiple instances. See the Miscellaneous section for details.
+- Ported the servers and clients to 64 bit versions. Now with more bit-ness!
+
+
+*** Items ***
+
+- Reduced the power of focus effects on Terror of Luclin blood-soaked items to match Claws of Veeshan raid item focus effects.
+- Augments awarded by Terror of Luclin achievements will now require a Class XXI solvent to remove them.
+- Shadow Broadsword Ornament no longer looks like a katar when applied to a hand-to-hand weapon.
+- Snowstorm weapon ornamentations now only have 1-hand, 2-hand, bow and shield requirements.
+- Many weapon ornaments will now fit in more items. Restrictions have been relaxed.
+- Type 3 augments have been created for Terror of Luclin spells. They can be found on vendors in the new Maiden's Eye.
+- Visage of the Faydark Forest Guardian illusion should now have a better camera height, and now also casts levitation.
+- Waning Gibbous Dragonbrood Wristguard should now have a more appropriate icon.
+
+
+*** Tradeskills ***
+
+- Luclin Sparkling Water can now be made with Ice or Chunk of Ice.
+
+
+*** Quests & Events ***
+
+- Shei Vinitras's corpse will no longer despawn with loot when defeated in Ka Vethan.
+- Corrected an issue where the quest "Organ Trail" would be impossible for a high level character to complete.
+- Doomshade - Put in a speculative fix for possible instance of Boom Shade being cast twice. Note that Shade's Doom is cast on two targets at a time, and so the spell can be doomed twice at the same time from different targets.
+- Rabbits found in The Eastern Wastes of modern Velious and the Basilica of Adumbration on modern Luclin now correctly count towards the Slayer achievement, Pesticide.
+- City zones - Fixed an issue with Santug Claugg spawning during the Frostfell celebration event.
+- Added a replay timer of 30 minutes to all Agents of Change instances.
+- Free the Goranga (Raid) - Corrected an issue where the chest would not always contain loot.
+
+
+*** Spells ***
+
+- Altered the stacking blockers on Persistence, Shadewell Keeper, Hand of the Dreaming Keeper, Luclinite Skin, and Luclinite Blessing so they stack in the preferred manner.
+- Beastlord - Increased the mana cost and damage dealt by Frozen Blight.
+- Berserker - The description for Axe of Xin Diabo now refers to the correct item name.
+- Druid - Slightly altered the AC of Opaline Blessing so it overwrites and blocks Opaline Skin. Adjusted the blockers so it will block Righteousness, Stormwall Keeper, and Hand of the Stormwall Keeper.
+- Druid - Players who have already claimed ranks 2 or 3 of Sootheseance will have the appropriate rank of Moonwhisper Crystals added to their spellbook. Players who have already claimed ranks 2 or 3 of Cinch of Ro will have the appropriate rank of Howling Hail added to their spellbook.
+
+
+*** NPCs ***
+
+- Ka Vethan raid basepop will no longer respawn.
+- Netherbians in the raid instance of Umbral Plains can now see invisible and not invisibility to undead, as befits the undead they are.
+- In many dialogues and task descriptions, our Faeries have taken a unified front in terms of the spelling of their people. Note that this does not include items or shrouds.
+- The faction for Faeries in the Greater and Lesser Faydarks now has the updated spelling.
+
+
+*** Progression Servers ***
+
+- Removed the player cap for Muramite Proving Grounds.
+- Players on Agnarr can now transfer to Mangler, Rizlona, and Aradune.
+
+
+*** Miscellaneous ***
+
+- Made the following improvements to the logic used when entering a zone with multiple instances:
+- - Players in a raid will be put into the base instance of a zone unless their reason for zoning requires otherwise, such as being resurrected or teleporting to a campfire.
+- - Players will enter the same zone as their group, even if no group member is in the destination zone. There is still a very small chance the group is split if a new instance spawns while the group is zoning.
+- - Teleportation spells such as Tranquility Portal will always send you to the base zone. Visions of Argan (cast by Baraguj Szuul in Plane of Torment) and Evacuation spells will send you to the same zone.
+- Increased the AC soft cap for levels 116 to 120.
+- Corrected an issue with the guild tribute "Aura of Preservation" where the AC was not increasing correctly with ranks XIII, XIV, and XV.
+- The zone line to Bloodfalls within the Castle of Mistmoore is now findable and will also function with the zone guide.
+- Activating familiar pet illusion items should now cast the proper effect depending on your target.
+- Corrected an issue that allowed NPCs to move if one of their root debuffs wore off, but they still had another active.
+- Corrected the position of the elevator in the Castle of Mistmoore.
+- Heroic characters can no longer be sacrificed for Essence Emeralds until they reach level 86.
+
+
+*** UI ***
+
+- The links generated from clicking Link All in the Loot Window are now complete and less broken.
+- Added additional loading screen tips to describe Membership Perks.
+- Updated the text of the help page for the server select screen's chat window.
+- Updated the Options window to consistently show the Target Extended Target keybinds.
+
+
+- The EverQuest Team 
+
+.....................................................................

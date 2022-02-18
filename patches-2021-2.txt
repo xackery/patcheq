@@ -1,0 +1,631 @@
+.....................................................................
+
+------------------------------
+July 21, 2021
+------------------------------
+
+*** Highlights ***
+
+- We've updated the Overseer system with new Agent Packs, quests, and traits. See below for more information.
+- Merged Selo onto Povar.
+
+
+*** Items ***
+
+- Rat Ears will no longer be available for purchase from merchants until The Serpent's Spine is active.
+- Items that are contained in the Past Expansion Collector's Edition Bundle are now flagged as Heirloom.
+- Added text to Guild Teleport items to indicate which zone each item will align the teleporter to.
+- Fixed a typo in the Velium Endowed Censer's name.
+- All past Heritage Crate wrapped furniture items can now be placed in neighborhoods without having been unwrapped. Restrictions to unwrap these items have now been removed, with the restrictions having been moved to the teleport spells when applicable.
+- Renamed the Masterwork Axe Components used for Berserker abilities to Fine Axe Components. Everything will be fine.
+
+
+*** Quests & Events ***
+
+- Reduced the respawn time for Kurron Ni from about 84 hours to about 4 hours.
+- Balls of Ice and Stone and an earthen prison in the Vulak and Aaryonar raid events can now be targeted by bolt spells.
+
+
+*** Spells ***
+
+- The /disc command has been updated to accept partial discipline names.
+- Fixed several instances where bolt-style spells were appearing as bags in flight.
+- DoTs and Hate-over-time spells no longer apply hate to players after death or evac.
+- Berserker - Corrected the progression of the riposte chance benefits on Ritual Scarification. The values for Rank I and Rank II were swapped.
+- Berserker - Raised the HP caps on all ranks of Ritual Scarification.
+- Necromancer - Corrected a bad description for Ashen Skin and Frozen Skin.
+- Paladin - Increased the stun level cap for Force of Orthiss and Force of the Jade Cohort by 5.
+- Rogue - Corrected an issue in the description for Dissident Weapons and Composite Weapons.
+- Rogue - Adjusted Pinpoint Defects to improve over previous abilities in the line. All ranks now reduce the target's evasion by 7 percent. The spell now adds an additional amount of damage to every melee strike from the rear arc of its target.
+- Multiple Classes - One-tick buffs that trigger other buffs (like Unity buffs or some progressive spells) will now count down in non-combat zones rather than blinking forever.
+
+
+*** AA ***
+
+- Warrior - The Combatant's Pact description now explicitly lists that it focuses both Druid and Cleric versions of promised healing spells.
+
+
+*** NPCs ***
+
+- Fixed an issue that prevented The Buried Sea Hunter achievement, Brineslayer, from being completable despite having already completed the Adept Hunter of the Buried Sea achievement.
+
+
+*** Overseer ***
+
+- New Overseer Agent Packs will be available in late July
+- - The Fighter Pack, Worker Pack, and Traveler Pack are coming to the marketplace
+- - These packs grant 3 uncommon agents with jobs that match the pack type:
+- - - The Fighter Pack can grant Marauders, Spies, or Soldiers.
+- - - The Worker Pack can grant Artisans, Harvesters, or Scholars.
+- - - The Traveler Pack can grant Diplomats, Merchants, or Explorers.
+- New Agents and Quests
+- - New Agents of all rarities have been added to the Overseer system.
+- - New quests of all levels and rarities, featuring new job and trait combinations exclusive to these new Agents, have also been added.
+- - New recruitment quests for new iconic Agents have also been added.
+- Quest Party Fixes
+- - Quest party slots with a combination of jobs/traits that necessitated using duplicates of the same iconic Agent have been adjusted to NOT have such job/trait combinations; this fixes a few quests that could not be started because of the iconic rule.
+- - Quest party slots with a combination of jobs/traits that necessitated using a particular Agent that lacked the requisite job rank have been adjusted to NOT have such job/trait combinations; this fixes a few quests that had a combination of jobs/traits that could not be fully matched.
+- - Quest party slots should no longer have duplicates of the same trait assigned to them.
+- Agent Lore/Trait Fixes
+- - Fixed a number of minor grammatical issues in the Agent lore text of several Agents.
+- - Resolved various shenanigans involving Agent lore text and quotation marks.
+- - Clockwork VIIX now has lore text calling out his disguise.
+- - Guard Orcflayer no longer has any references to Felwithe in his lore text and now has the Warrior trait instead of the Ranger trait.
+- - Inquisitive Wanderer now has the Cleric trait instead of the Monk trait.
+- - The Fairy trait has been renamed Faerie.
+- When choosing an Overseer quest, the window will show the full trait name and the trait will not wrap around to the next line.
+- Overseer items, such as Agent Echoes, now have descriptions explaining what they do.
+
+
+*** Progression Servers ***
+
+- Keys should now drop from the appropriate NPCs on randomized loot servers.
+- Removed the auto AFK kick from Aradune.
+
+
+*** Miscellaneous ***
+
+- Fixed a client crash related to spell particles that would occur most commonly in Claws of Veeshan raids.
+- The output from /who now includes the full zone name in addition to the short name.
+- Corrected an issue that caused Accuracy, Avoidance, Combat Effects, and Damage Shield Mitigation to be under calculated.
+- Merged Selo onto Povar.
+
+
+*** UI ***
+
+- Healing messages will now be displayed when a player casts a heal over time spell on a damaged pet.
+- The /alt list command will now display links correctly.
+- Fixed spacing of sections in Achievement_hunter_collect_*.tga.
+- Fixed reward window spell links not opening a spell window. Ctrl + click on a spell link the reward window now places a link in the chat window.
+- Fixed combat ability links not opening a spell window. Ctrl + click on a skill in the combat ability window or on a skill link now places a link in the chat window.
+- The entire armor ornamentation slot is now able to be interacted with.
+
+
+- Changed -
+EQUI_Animations.xml
+EQUI_OverseerWnd.xml
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+July 26, 2021
+------------------------------
+
+*** UI ***
+
+- Corrected an issue where DoTs displayed negative healing, and heal over time messages displayed for regen spells. All NPCs should display heal over time messages now (in addition to pets). Adjusted the heal over time messaging amount to a minimum of 10, to avoid displaying chat messages for certain buffs that have a low HP heal amount.
+- - This fix currently only applies to new zones that are launched, any existing zones will still see the same behavior.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+August 18, 2021
+------------------------------
+
+*** Items ***
+
+- Corrected an issue where many Scars of Velious quest items were not flagged as usable in quests.
+- Corrected a typo in the names of Cleaver of Vengeance and Endpoint, Greatbow of Vengeance Ornament.
+- Rat Ears have been removed from all merchants.
+- Updated the Misty Acorn to look like an acorn rather than a leaf.
+
+
+*** Tradeskills ***
+
+- Tradeskill Auto-combine will no longer stop randomly from lag.
+
+
+*** Quests & Events ***
+
+- Vulak`Aerr Raid (Sleeper's Tomb: The Call) - Fixed an issue that could cause the first instance of the auras on the central platform to appear at the same time as the message warning that they are about to appear. To help clarify, the messages are like this: The crystal over the central platform glows and sends power into the yellow crystal.
+- Dream Master (Sanctus Somnium Raid) - Fixed an issue where the puzzle grid was not visible.
+- Trial of Fire (Plane of Justice) - Added a speculative fix for an issue where this trial can fail to reset.
+
+
+*** Spells ***
+
+- Added a chat message if you attempt to use a spell or AA ability which triggers another spell that you don't have scribed.
+- NPCs that use Cazic Touch will no longer have numbers in their shout message when targeting mercenaries.
+
+
+*** NPCs ***
+
+- The weaker monsters in Heart of Fear will no longer drop valuable loot.
+- Fixed an issue that prevented Findlewill in Meldrath's Majestic Mansion from respawning, though you still have to kill "a crew chief" to actually get him to respawn.
+
+
+*** Overseer ***
+
+- Overseer quests meant for the infamous Clockwork VIIX no longer insist that he really IS a Clockwork when in fact he is very much a Gnome.
+
+
+*** Progression Servers ***
+
+- Phinigel Autropos and Drusella Sathir are no longer susceptible to mesmerization.
+
+
+*** Miscellaneous ***
+
+- Added a new command to allow dismissing your swarm pets: /pet swarmleave.
+- Corrected an issue where NPCs with low hatred for all their opponents would not always choose to attack a player that successfully used the taunt skill.
+- Made a speculative fix to a crash caused by real estate in a character transfer.
+- Corrected an issue that kept you in walk mode if your /follow target zoned.
+- Entering offline trader mode will now disable the LFG and AFK flags.
+- Moved all Gnome Memorial Mountain achievements to The Burning Lands category.
+- Added a new optional hunter achievement:
+- - The Serpent's Spine: Veteran Hunter of The Serpent's Spine: Hunter of Frostcrypt (Icefloe)
+- Added missing achievements for zones with huntable NPCs:
+- - The Buried Sea: Veteran Hunter of The Buried Sea: Hunter of Zhisza, the Shissar Sanctuary
+- - Secrets of Faydwer: Adept Hunter of Secrets of Faydwer: Hunter of Gyrospire Beza
+- - Secrets of Faydwer: Adept Hunter of Secrets of Faydwer: Hunter of Gyrospire Zeka
+- Increased the point values of two existing hunter achievements:
+- - The Buried Sea: Veteran Hunter of the Buried Sea (increased from 20 to 30)
+- - Secrets of Faydwer: Adept Hunter of Secrets of Faydwer (increased from 40 to 50)
+- Added missing hunter targets to their respective achievements:
+- - Gates of Discord: Hunter of Kod'Taz: Coerced Tiv Chanter, Subservient Punisher, and Subjugated Vrex Caller
+- - Omens of War: Hunter of Harbinger's Spire: Crafter Arvang
+- - Omens of War: Hunter of Catacombs of Dranik: High Sorceress Vi'tara
+- - Omens of War: Hunter of Sewers of Dranik: Craftsman Ferinio and Stonefoot
+- - The Serpent's Spine: Hunter of Blackfeather Roost: A Harpy Explorer and a violent harpy
+- - The Serpent's Spine: Hunter of Frostcrypt (Icefloe): Ice, Floe, Icefloe
+- - The Buried Sea: Hunter of Zhisza, the Shissar Sanctuary: Chitters, Copperfang, Defiler Jaziriiz, Elder Kazzi, Holloweyes, and The Stonecarver
+- - Secrets of Faydwer: Hunter of Gyrospire Beza: Chamberlain XI, Commander Gearmost, Commander Shockmore, Engineer Tristos, Fuelmaster XXI, Garden Keeper IXV, Lerosma, and Minotaur Warleader
+- - Secrets of Faydwer: Hunter of Gyrospire Zeka: Chamberlain VI, Commander Gearwell, Engineer LXII, Fuelmaster XI, Repair Steamwork XIV, Shocktroop Commander XIX, Zeka Repairer III
+- - Secrets of Faydwer: Hunter of Meldrath's Majestic Mansion: Findlewill
+
+
+*** UI ***
+
+- Corrected an issue where NPCs couldn't be rotated in real estates.
+- Corrected an issue where combat abilities that shared a reuse timer would not display a cooldown correctly on hotbuttons if you used the ability with a longer reuse timer first.
+- Corrected an issue with the bazaar window where the price and level-range fields would be reset each time the window was closed.
+- Corrected an issue with the bazaar window where the "Max Results Per Trader" field was not properly reset when using the Reset button.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+September 15, 2021
+------------------------------
+
+*** Highlights ***
+
+- Agents of Change are now available for All Access members on all servers.
+
+
+*** Quests & Events ***
+
+- Bloogy Shellcracker will no longer accept Water Dragon Meat. However, his brother, Roogy Shellcracker, will be able to help you with that.
+- NPCs that have an active loot lock will now only accept trades from players who belong to the credited party.
+- Cikdew has found her voice and will be looking for assistance during Nights of the Dead.
+- Arlien Browch has been seen hauling a large shipment of pumpkins. She should reach the Commonlands Tunnel just in time for Nights of the Dead.
+- The mission Gorowyn: Balance of Power now correctly references Gorowyn as the target zone in the Quest Journal, rather than Chardok.
+
+
+*** Spells ***
+
+- Fixed an issue where Steadfast Servants would refuse to cast Servant's Haste on players who have unlocked any ranks of the Item: Hidden Power / Ancestral Memories AA ability line.
+- Dark Rites charges are no longer consumed when memorizing spells.
+- Updated the confirmation popup box for translocation spells to not disappear if you enter combat.
+- - Updated the confirmation popup box for translocation spells to last for 2 minutes.
+- - Updated translocation spells to (once again) be cast by casters if they are in combat and land on targets that may be in combat.
+- Corrected an issue where the Gambit line of Wizard spells could cause the Wizard to damage themselves with an offensive proc.
+
+
+*** AA ***
+
+- Corrected an issue with the AA ability, Companion's Discipline, that granted the ability to use the /pet qswarm command at the wrong rank.
+- Corrected an issue where pet command hotkeys would issue the wrong command. Hotkeys for target, swarm, qswarm, resume, and swleave will need to be re-made.
+- Corrected an issue where the damage bonuses to Archery and Throwing from Weapon Mastery of the Scout and Weapon Mastery of the Juggernaut were giving only a small percentage of the intended bonus. They should now give roughly the same damage bonus seen for melee weapons.
+
+
+*** NPCs ***
+
+- Venril Sathir is no longer susceptible to mesmerization spells.
+- The Seeds of Destruction Hunter achievements now have appropriate completion rewards:
+- - The Voidslayer achievement now grants a 28 slot bag and the titles "Voidslayer" and "the Voidslayer"
+- - The Expert Hunter achievement now grants a 26 slot bag
+- - The Veteran Hunter achievement now grants a 24 slot bag
+- - The Adept Hunter achievement now grants a 22 slot bag
+- - The Novice Hunter achievement now grants a 20 slot bag
+- Added missing hunter targets to their respective achievements:
+- - Gates of Discord: Hunter of Riwwi: Pixxt Hihkx
+- - Gates of Discord: Hunter of Riwwi: Pixxt Kihkx
+- - Gates of Discord: Hunter of Kod'Taz: Enslaved Vrex Zealot
+- - Omens of War: Nobles' Causeway: Stone Thrower
+
+
+*** Overseer ***
+
+- Made a speculative fix to missing Overseer quests.
+
+
+*** Progression Servers ***
+
+- Fixed an issue with the loot on some prominent Velious raid targets that prevented proper randomization on Mischief and Thornblade.
+- Reduced the respawn time of Gloradin Coldheart by some amount.
+
+
+*** Miscellaneous ***
+
+- Corrected an issue where NPCs would drop you from their hatelist if you were too far away under the wrong conditions.
+- Agents of Change are now available for All Access members on all servers.
+- Login timeout errors no longer display the wrong error message, such as "String not found."
+- Added a chat message when receiving a translocate.
+- - The dialog box from the kickplayers command will no longer invalidate other dialog boxes, like those from translocation spells.
+- - Translocation spells can now be cast on yourself.
+- Broadcasts of system-wide messages will now always have a single space before the message is displayed.
+- Logging in with 500 or more items in your Item Overflow will now display a message, suggesting you collect your belongings.
+
+
+*** UI ***
+
+- Corrected a spelling error when a player is too low level to give PVP points.
+- Corrected an issue where heal-over-time spells would display negative values on NPCs.
+- Fixed an issue where the reuse time on activated items would sometimes fail to display correctly.
+
+- Changed -
+EQUI_Inventory.xml
+EQUI_LootWnd.xml
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: September 15, 2021
+------------------------------
+
+*** Quests & Events ***
+
+- The Seeds of Destruction Hunter achievements should now properly reward you.
+- Corrected an issue where certain players could not enter instances from an Agent of Change.
+
+
+*** NPCs ***
+
+- Added Agents of Change that were missing from the following zones: Lavastorm, Everfrost, Cauldron, Paineel, Arcstone, Feerrott, Freeport East, and South Ro.
+
+
+*** Miscellaneous ***
+
+- Fixed a critical zone crash.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: September 22, 2021
+------------------------------
+
+*** Quests & Events ***
+
+- Vulak can now be spawned in the Agent of Change instances.
+
+
+*** Miscellaneous ***
+
+- Addressed an issue that can cause the Agents of Change to not properly determine if players are able to enter zones in certain cases.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+October 20, 2021
+------------------------------
+
+*** Items ***
+
+- Look to the Marketplace this month for the Feir'Dal Heritage Crate. Each crate contains a random item. Trade these Feir'Dal Heritage items to your friends or collect them all yourself!
+
+
+*** Tradeskills ***
+
+- Updated the Combine button to show your chance of successfully combining the selected recipe.
+- Added a quantity label to the recipe's component icons in the Tradeskill window.
+
+
+*** Quests & Events ***
+
+- Changed the aura color used by the banish aura in the Claws of Veeshan Sontalak raid.
+- (Raid) Restless Assault - Changed the "melting" decal for Narandi the Restless back to blue.
+- Cikdew has found her voice and will be looking for assistance during the Nights of the Dead.
+
+
+*** Spells ***
+
+- Fixed a bug where Translocate: Primary Anchor and Primary Anchor Push would fail if the request was accepted after 40 seconds.
+- Fixed a bug where Translocate spells cast while you were in the same zone would fail to teleport you to the correct location.
+
+
+*** AA ***
+
+- Increased the cap on banked Mercenary AA experience points to one-half of your current level, every 10 levels, starting at level 50 (up from 10 at level 50, 15 at level 80, and 20 at level 100.)
+
+
+*** NPCs ***
+
+- The agents of change on live servers are no longer default humans.
+
+
+*** Mercenaries ***
+
+- Experience granted from quests, tasks, and rewards (non-kill sources) will now increase your Mercenary Alternate Advancement Experience regardless of whether your mercenary is currently active.
+
+
+*** Overseer ***
+
+- Corrected an issue with recovery quests not prioritizing the correct agent rarity and incapacitation type.
+
+
+*** Progression Servers ***
+
+- Resolved an issue on progression servers where Xon Quexill would tell the adventurers to go to someone who doesn't exist...yet. Once Planes of Power unlocks on a server, the text will reflect that the correct person is available.
+- Added a chance for all NPCs in appropriate zones to drop the pieces needed for the Key to Vex Thal. The droprate will be doubled for the first month of the release of Shadows of Luclin. After that month, it will still have an increased drop rate, however not as much.
+
+
+*** Miscellaneous ***
+
+- Any server other than Miragul, Mischief, Thornblade, and Firiona Vie can now transfer to Phinigel.
+- Guild members who are not really in a guild can now be removed.
+- Corrected an issue where an account would sometimes think a player was still online when going from character select to server select.
+- Updated the /usetarget command to work with traders and barterers.
+- Added the /waypoint command, which can be used to draw a find path to a specific coordinate location. This location is also marked on the map.
+- A successful strikethrough of a riposte no longer results in an additional melee hit.
+
+
+*** UI ***
+
+- Corrected an overlapping slot in the loot window.
+- The Marketplace at Character Select will now allow you to keep browsing after a purchase of any item and to make subsequent purchases. Mercenary slot items will be hidden from the Marketplace if they will take you over the maximum allowed feature slots.
+- Corrected an issue with the Item Display window having a repeating texture.
+- Added an option to the Map window that allows a label to show with your group's position.
+
+
+- Changed -
+EQUI_DragItems.xml
+EQUI_ItemDisplay.xml
+EQUI_LootWnd.xml
+EQUI_MapViewWnd.xml
+
+
+*** Previously Updated ***
+
+- The Seeds of Destruction Hunter achievements should now properly reward you.
+- Corrected an issue where certain players could not enter instances from an Agent of Change.
+- Added Agents of Change that were missing from the following zones: Lavastorm, Everfrost, Cauldron, Paineel, Arcstone, Feerrott, Freeport East, and South Ro.
+- Fixed a critical zone crash.
+- Vulak can now be spawned in the Agent of Change instances.
+- Addressed an issue that can cause the Agents of Change to not properly determine if players are able to enter zones in certain cases.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: October 21, 2021
+------------------------------
+
+*** Spells ***
+
+- Corrected an issue where translocate spells resulted in a message about the destination zone not being ready.
+
+
+*** Progression Servers ***
+
+- Fixed an issue with the Vex Thal Key Shard drops.
+
+
+*** Miscellaneous ***
+
+- Corrected an issue where NPCs could strike through a riposte even under the effects of a 100% avoidance discipline, such as Deflection or Deftdance.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: October 28, 2021
+------------------------------
+
+*** Miscellaneous ***
+
+- Corrected an issue where the Adventurer's Perk experience bonus didn't apply to AA.
+- Corrected an issue where the Merchant's Perk would sometimes display that you got a bonus tradeskill skillup, but the skillup chance had failed.
+
+
+*** Quests & Events ***
+
+- The Yxxta riddle should function in Avatar of Change instances.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+November 17, 2021
+------------------------------
+
+*** Highlights ***
+
+- Grab your bags for Black Friday and Cyber Monday. All bags sold for Daybreak Cash are 15% off from 11/25/2021 to 12/01/2021!
+- Priests of Luclin no longer require soulstones to complete their tasks. Speak with them instead.
+
+
+*** Items ***
+
+- Fixed a bug where selling a stack of items via barter would sometimes only sell partial stacks.
+- Fixed the recourse spell in Claws of Veeshan Bard breastplate click effects.
+- Lore items will no longer disappear from a cancelled trade when there is a lore item conflict.
+
+
+*** Tradeskills ***
+
+- Corrected multiple issues with the success chance label on the Tradeskill window.
+
+
+*** Quests & Events ***
+
+- Quests with rewards that will result in a lore conflict will now return your items.
+- Priests of Luclin no longer require soulstones to complete their tasks. Speak with them instead.
+- Fixed an issue with the To Kill a Thel Ereth Ril quest where turning in the quest item to Alchemist Vaskerin would result in getting the wrong quest item in return.
+
+
+*** Spells ***
+
+- Enchanter - The proc portion of Night's Endless Terror and Night's Perpetual Terror now have a unique buff icon. The illusion portion retains the standard illusion icon.
+- Corrected an issue where a combination of Troubadour's Synergy and Evoker's Synergy would proc Ignite Blood.
+
+
+*** Overseer ***
+
+- Corrected an issue where all available Agents would not always be listed when starting a new quest.
+- Fixed a bug that caused Overseer quest stats to sometimes be incorrect after zoning.
+
+
+*** Progression Servers ***
+
+- Found the missing Agents of Change on Phinigel and made them get back to work.
+- Cazic Cenobite will now have a chance to drop Rubicite Boots on Progression servers while in-era.
+
+
+*** Miscellaneous ***
+
+- The 500 free DBC reward will no longer display "Add Time" for Lifetime accounts as the default.
+- Fixed a bug that could cause a client crash when casting spells.
+- Added several new zone loading bar messages.
+- Corrected an issue with items being removed from the Advanced Loot Window prior to 15 minutes.
+- Corrected a bug that could cause the client to crash when zoning.
+
+
+*** Previously Updated ***
+
+- Corrected an issue where translocate spells resulted in a message about the destination zone not being ready.
+- Fixed an issue with the Vex Thal Key Shard drops.
+- Corrected an issue where NPCs could strike through a riposte even under the effects of a 100% avoidance discipline, such as Deflection or Deftdance.
+- Corrected an issue where the Adventurer's Perk experience bonus didn't apply to AA.
+- Corrected an issue where the Merchant's Perk would sometimes display that you got a bonus tradeskill skill-up, but the skill-up chance had failed.
+- The Yxxta riddle should function in Avatar of Change instances.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+December 7, 2021
+------------------------------
+
+*** Highlights ***
+
+- The shadows cast by the light of Luclin have been whispering of intrigues. The Akheva are on the move, striving to reassert their power and rebuild their moon-wide empire. Amidst the turmoil of their actions, rumors abound. Mayong Mistmoore has been seen on Luclin. The only known truth is that the master vampire has since disappeared into the shadows and even his devoted followers and sycophants have begun to worry.
+-- Reach the new maximum level of 120.
+-- Learn new spells, combat abilities, and Alternate Abilities.
+-- Find new items and learn new tradeskill recipes.
+-- Explore seven new zones.
+-- Participate in new raids and quests.
+-- Gain a new teleportation item key ring.
+-- Complete new achievements.
+-- To join the investigation, seek out a concerned shade in the Nexus.
+
+
+*** Items ***
+
+- Fixed lore text grammar issues for the Satchel of the Combine Hero.
+- Small Bottle of Soy Sauce can now be stacked.
+- Moved keys into achievements for easy tracking.
+- Fixed an issue that prevented the Hole Key from saving to your list of /keys.
+- Fixed an issue that prevented Veeshan's Key from saving to your list of /keys after the arrival of Dry Sapara.
+
+
+*** NPCs ***
+
+- New merchants have moved into the Guild Lobby.
+
+
+*** Progression Servers ***
+
+- Miragul will no longer show an unlock for Terror of Luclin on the calendar.
+- Fixed an issue with expansion unlock voting on Ragefire.
+
+
+*** Miscellaneous ***
+
+- Added a new key ring for Teleportation Items.
+- Addressed an issue with the Advanced Loot system where multiple counts of the same item couldn't be properly assigned to people or left on the corpse.
+
+
+*** UI ***
+
+- Changed /keys to toggle the display of the General > Keys achievements category in the achievement window, replacing the old behavior of listing key text in the chat window.
+- Fixed a custom UI crash when trying to render decal files that don't exist in the default UI.
+- Fixed a visual bug that could occur when moving items from inventory slots into key ring slots.
+- The "Players not in a group" section of the raid window can now be resized instead of having to scroll through it.
+
+- Changed -
+
+EQUI_Animations.xml
+EQUI_KeyRingWnd.xml
+EQUI_RaidWindow.xml
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: December 9, 2021
+------------------------------
+
+*** Items ***
+
+- Corrected an issue where the Teleportation Item Key Ring slots were not available for purchase.
+
+*** Quests & Events ***
+
+- Fixed an issue with Terro Kai not continuing the "Live as Brothers or Perish as Fools" quest.
+- Corrected an issue where quests that awarded the same item you turned in would result in a lore item error.
+
+
+*** NPCs ***
+
+- Basic NPCs in the Terror of Luclin expansion will now drop coins.
+
+
+- The EverQuest Team 
+
+.....................................................................
