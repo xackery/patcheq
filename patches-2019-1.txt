@@ -1,0 +1,839 @@
+.....................................................................
+
+------------------------------
+Game Update Notes: January 16, 2019
+------------------------------
+
+*** Highlights ***
+
+- Most NPCs in The Burning Lands group content will inflict less melee damage.
+- Lowered the damage dealt by the NPC spells Lava Ball, Breathe Fire, and Soul Burn.
+- Corrected errors with a number of achievements in The Burning Lands content. See the Quests and Events section below for details.
+- Fixed an issue with the Flowing Blue Ribbon collectible not spawning in Esianti.
+
+
+*** Items ***
+
+- Removed the tribute values from Scaled and Scaleborn Bracer Facets.
+- Added Duende Hero's Forge ornaments to The Burning Lands zones.
+- Altered the HP, Mana, and Endurance values of Secret Dawn Gem of Vigor and Secret Dawn Gem of Brilliance.
+- Corrected the proc and casting proc on Ascending Sun Bodkin to the one-handed version.
+- Corrected the AC on Ascending Sun Battle Rod.
+- Corrected the appearance of Ascending Sun Claws when equipped in the off-hand.
+- Fixed an issue where Secret Dawn Compound Bow, Secret Dawn Longbow, Ascending Sun Compound Bow, and Ascending Sun Longbow were not granting the passive AA ability Prismatic Ward.
+- Added the appropriate Disease/Corruption Damage focus to Secret Dawn Longbow and Ascending Sun Longbow.
+- Crystallized Luck can now be purchased from the NPCs that sell nobles.
+- The Torn Efreeti Boots and Tattered White Satin Gloves line will change worn looks to plate and chain as they turn more class specific. They both start with the leather/cloth look.
+- Fixed the icon and appearance of Fiery Quill of Rumination.
+- The Burning Lands items now have appropriate tribute values.
+- Fixed an issue where several ranks of the item effect 'Strike of the Archer' were not dealing archery damage.
+- Dark Water's Lifeblood, Flask of Evening Fog, and Essential Relentless Flames no longer look like bags.
+- Altered the hate inspired by some Breastplate click spells from recent expansions. This specifically affects Unleashed Fury, Demon Crusher, and Nature's Fury.
+- Corrected typos in the name of Lemon Breaded Primordial Filets and Purified Plasma Shot.
+- Nature's Destruction and Path of Destruction will no longer trigger on Damage over Time spells.
+- Fixed an issue with the Flowing Blue Ribbon collectible not spawning in Esianti.
+- Increased the drop rate of Dark Elf and Bixie Hero's Forge Ornaments. Bixie Ornaments can now drop from the bixies in Bixie Warfront.
+- Removed the tradeskill flag from Primordial Pod of Water.
+- Suits of Hero's Forge armor now have item information that describes what types of armor they'll fit into.
+
+
+*** Tradeskills ***
+
+- Changed The Burning Lands Purified Coal to Primordial Coal to differentiate it from the existing Purified Coal.
+- Updated the recipe for Secret Dawn Mace Muhbis to properly use Oval Cut Elder Mist Diamond and Trillion Cut Elder Mist Diamond.
+
+
+*** Quests And Events ***
+
+- Increased the drop rate of Fate's Accumulator and Blazing Euphoria augments in The Burning Lands raids.
+- Reduced the chance to get Mortal Corporeal Type 5 augments from NPCs and chests.
+- Contract of War - The Guarded achievement now requires facing seven or more mephits.
+- Crypt Robbers - Corrected several NPCs that were errantly on the Damsel of Decay faction.
+- Crypt Robbers - Fixed a bug that could prevent the event from completing successfully when making an accusation.
+- Fight Fire (Mission) - Fixed the requirements to obtain achievements in this mission.
+- Fight Fire (Raid) - Fixed a bug that was preventing the event from resetting in some situations.
+- Prince Ralaifin (Mission) - The giant lapillus lava spiderling NPCs no longer leave a corpse.
+- Prince Ralaifin (Mission) - Increased the power of enemies in this mission.
+- Prince Ralaifin (Raid and Mission) - Prince Ralaifin's Enfeeblement and Prince Ralaifin's Softening now explode from the target instead of the boss when they activate. Increased the power of the raid versions of these spells.
+- Prince Ralaifin (Raid) - The message about the Ralaifins filling with holy light will no longer display numbers in the text.
+- Sneaky Sarnak - Corrected an issue that could prevent Lcea from being present at the proper time.
+- Strange Magic - The Life and Death and Gathering Forces achievements should now work properly.
+- Relic Raider - The higher / lower emotes will no longer target player pets.
+- Relic Raider - The Perfect Timing achievement now grants properly.
+- Remodeling - It's now possible to receive the Unslug Hero achievement.
+- Remodeling - Fixed an issue that could cause the slugs and the throne guardians to tether oddly.
+- Remodeling - Blazing Sorrow's Darkness will hold up her end of the conversation with Fennin Ro now.
+- Trial of the Wending Ways - This trial will no longer give the Appointments Required achievement if the trial is done out of order.
+- Tyrant of Fire - It's now possible to receive the Swift Murder achievement.
+- Tyrant of Fire - The corpses of the vanquished defenders of the Plane of Fire can no longer be targeted.
+- The fling pad from the water room in the Plane of Smoke's arena should land you in a safer location.
+
+
+*** Spells ***
+
+- Fixed the cast message on Summon Stratos Carpet.
+- Fixed an issue that could cause progressive spells to fail to grant you their necessary component spells.
+- - Ex: Scribing Dissident Companion could fail to grant Dissident Companion 1-5.
+- Whispering Midnight Warding Fire, Whispering Midnight Warding Magic, Blazing Euphoria Warding Fire, and Blazing Euphoria Warding Magic now indicate which damage type they absorb in their spell description.
+
+
+*** AA ***
+
+- Bard - Fixed a bug where ranks 9-10 of Domination Mastery were not extending the duration of single target mesmerization songs.
+- Poison Mastery AAs now state that they effect Make Poison instead of Tinkering.
+
+
+*** NPCs ***
+
+- Most NPCs in The Burning Lands group content will inflict less melee damage.
+- Lowered the damage dealt by the NPC spells Lava Ball, Breathe Fire, and Soul Burn.
+- Sagacious Great Jade no longer sells Runic Sortilege Sheets or Fine Runic Sortilege Sheets.
+
+
+*** Miscellaneous ***
+
+- Fixed the typo in Then Eastern Plains of Karana.
+- Fixed an issue where some items in the Marketplace Window could not be inspected.
+- Fixed a bug that could cause the 'Add Funds' button in the marketplace purchase window to fail to work under certain conditions.
+- The game will now launch all external web pages in your default browser.
+- The default name of text files created when using the /outputfile command will now include a server name. Ex: Soandso_Test-Inventory.txt.
+- Added a hidecorpse alwaysnpc command, which hides current and future NPC corpses, but leaves player corpses intact.
+- - Corrected an issue where hidecorpse always would leave a phantom version of your corpse after being resurrected.
+- Entering a load balanced zone will now send you to the least populated instance of the zone (unless you are joining your group).
+- Added scheduled monthly updates to the calendar for the first half of 2019.
+
+
+*** UI ***
+
+- Charms will now display the correct luck for items when inspected.
+- Fixed an issue where you could not open your last two bags if you had 40 slot bags in every slot and had each of them open.
+- The Faction Window now allows you to sort entries by Reaction or Standing in addition to Faction Name.
+- Spell and combat ability resist messages will now include the name of the target (if you are the caster) or the name of the caster (if you are the target). The name of the spell will now function as a link to the spell description.
+- - Ex: 'You resist the Skunk Spray spell!' is now 'You resist a large skunk's Skunk Spray!'
+- - Ex: 'Your target resisted the Fireball spell.' is now 'A large skunk resisted your Fireball!'
+- Corrected an issue where pet damage wouldn't report at a large distance if you turned on other's hits.
+- Specifying an optional filename for /outputfile now automatically appends '.txt' to the end of the filename if it is not already specified.
+- Made the following adjustments to the Alternate Currency tab of the Inventory Window:
+- - Moved the 'maximum items in a stack' label and the 'Show currencies that you don't have' checkbox down so that they no longer overlap the currency list.
+- - Changed the Reclaim button to automatically reclaim the currency type on your cursor rather than requiring you to first select an entry in the currency list to reclaim to.
+- - Added a Reclaim All button that reclaims all currency items in your inventory.
+- - Adjusting the column widths of the currency list will now save per character.
+- The speed of your target's name flash is no longer dependent on FPS settings. Added a slider in the Advanced Options window to adjust the flash speed.
+
+
+- Changed -
+EQUI_AdvancedDisplayOptionsWnd.xml
+EQUI_Inventory.xml
+
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: February 20, 2019
+------------------------------
+
+*** Highlights ***
+- Dramatically increased the chance to gain skills when your current skill level is less than your class' skill cap from 5 or 10 levels less than your current level.
+- Made various changes to evolving items. See the Items section for details.
+- Made various improvements to the Coldain ring quests. See the Quests and Events section for details.
+
+
+*** Items ***
+
+- All equipped evolving items will gain full experience rather than splitting between them.
+- Corrected an issue where classes that were not plate couldn't claim the reward for several The Burning Lands evolving items.
+- The Burning Lands evolving item rewards will offer the correct items, and offer options if more than one item is available to your class.
+- The current fifth tier of The Burning Lands evolving items will have reduced stats and an attached reward set. This attached reward set will offer a sixth tier of items that have the stats that the old tier five had. You must have all The Burning Lands achievements to earn this sixth tier.
+- Corrected the reward set name offered by Silver Efreeti Boots.
+- Swapping augments no longer requires a specific solvent and instead looks for a solvent of equal or higher level, like removing an augment.
+- Items with spent charges that are sold to a vendor now display the correct amount of charges remaining in the purchase tab.
+- Increased the proc rate of: Ascending Sun Arcane Staff, Ascending Sun Devotional Staff, Ascending Sun Mace, Bloodstaff, Breaker Bar, Divine Bludgeon of the Inferno, Enraptured Bludgeon, Harmonious Tightener, Heavy Onyx Heart Scepter, Mute Spiral, Premier Staff, Ralaifin's Dogma, Rustdown, Secret Dawn Arcane Staff, Secret Dawn Devotional Staff, Secret Dawn Mace, Sun's Golden Orb, and Vanda Glow.
+- The Burning Lands charms that increase in power from class armor now benefit from The Burning Lands evolving boots and gloves at levels 3 and higher.
+- Added disease and corruption focus to Ice Star, Hoarfrosted Bow, and Arc of the Saffron Sky.
+- Added icons to Immortal Curio of Ondine Force and Elemental Curio of Ondine Force.
+- Updated the descriptions of the Whispering Midnight Casting spells on the items of the same name.
+- Added spaces to the name of the recourses of the Hand Of Holy Wrath spells on healer weapons.
+
+
+*** Tradeskills ***
+
+- Sagacious Great Jade no longer sells Etching Tools.
+
+
+*** Quests And Events ***
+
+- The Conflagration Generals (Raid) - Increased the size of the area that's checked when the bosses need to be positioned near the towers.
+- Tyrant of Fire - The mission will no longer be in an unwinnable state if one or more of the adventurer NPCs runs away.
+- Remodeling and Delivery - An update to these tasks will not happen when speaking to Unrepentant Sunrise or entering the instance. This was a bug and may have been a cause of other issues in these missions.
+- Prince Ralaifin (Raid) - Volcanic Billow Shards are removed from players when the raid resets, and must finish their casting time to activate a tower.
+- Prince Ralaifin (Raid) - Improved the messaging on the billow mechanic.
+- Prince Ralaifin (Raid) - All of the spiderlings will despawn on reset.
+- Prince Ralaifin (Mission) - Added a message when a player is struck by the billow, thus failing the All Safe achievement. Only one player is mentioned, even if more than one player is struck.
+- End of Empire (Raid) - Fixed a bug that could cause the Unhammered and No Outbreaks achievements to fail when they should not.
+- Brass Palace - Discipline of Flame will now shout a warning when casting Spreading Heat. This spell no longer targets pets.
+- Trials of Smoke - Trial of the Wending Ways: Added a message when failing the Don't Trip achievement.
+- Trials of Smoke - The reward chest in the Trial of Three will no longer try to appear over and over again (though it was failing to actually do so).
+- Trials of Smoke - The Trial of Three will no longer reset after success.
+- Trials of Smoke - Trial of the Ashes of Rusted Cliff's Glory: Fixed an error that would allow completion of the All Alone achievement when there were ashen elementals alive when Indomitable Onyx was defeated.
+- Trials of Smoke - If you have a lockout for any trial, you will no longer be able to loot items from the chest for that trial.
+- Contract of War (Raid) - The binding breeze NPCs will now spawn at the location of an adventurer near Radiant Fog Evening instead of a random person in the zone. In addition, the binding breezes will not choose to spawn at the location of the person tanking Radiant Fog Evening, unless there is no one else nearby.
+- The Rise of Smoke (Raid) - Leashing the mephits in the Trial of Three will now cause them to cast their spells faster.
+- Royal Visits - Fixed an error where Heart of Flawless Brass refers to Aalishai as the home of the djinn.
+- Relic Raider - Moving to the top of the steps will now be safe for everyone.
+- Sky Orchid Understanding in Esianti will now respond to [continue] properly.
+- All raid events in Underfoot will now drop more items, keys, and backflag items.
+- Spear of Fate - It is no longer possible to bypass steps in this epic quest by completing early steps multiple times.
+- - Hand-ins for this quest can no longer be multiquested.
+- 10th Ring Questline - Made the following changes:
+- - Hand-ins for the Coldain ring quests can no longer be multiquested.
+- - Key NPCs that are being protected or escorted are now flagged as PC Friendly. This applies to Boridain Glacierbane (2nd ring quest), Tain Hammerfrost (4th ring quest), Corbin Blackwell (7th ring quest), Gloradin Coldheart (8th ring quest), and Garadain Glacierbane (8th ring quest). Icefang (6th ring quest) was already set to friendly during its escort.
+- - Several dialogue triggers are bracketed that weren't previously.
+- - Fixed many minor bugs and typos.
+- - 2nd ring quest - It's now necessary to have the Copper Coldain Insignia Ring to receive the Dull Bladed Axe from Garadain Glacierbane.
+- - 4th ring quest - It's now necessary to have the Gold Coldain Insignia Ring to receive the Note to Tain from Garadain Glacierbane or to loot the Frozen Elixir. Tain Hammerfrost no longer drops the Note to Tain when killed. Handing the Note to Tain to Tain Hammerfrost now triggers the attack wave instead of one of his dialogues. The Note to Tain is now lore and no trade.
+- - 5th ring quest - It's now necessary to have the Platinum Coldain Insignia Ring to hand in the Ry`Gorr Invasion Plans to a coldain lookout. Only someone who has handed in the Invasion Plans can loot the Head of Scarbrow.
+- - 6th ring quest - It's now necessary to have the Obsidian Coldain Insignia Ring to loot the Note from Kromrif.
+- - 7th ring quest - Only someone who has handed in the Shackle Key and Mithril Coldain Insignia Ring to Corbin Blackwell can hand in the Mithril Coldain Insignia Ring to Dobbin Crossaxe.
+- - 8th ring quest - Only someone who has handed in the Adamantium Coldain Insignia Ring to Garadain Glacierbane can loot Chief Ry`Gorr's Head. Garadain Glacierbane now stays up after the attack on the Ry`Gorr fort much longer. Handing in Chief Ry`Gorr's Head to Garadain Glacierbane no longer despawns Garadain Glacierbane.
+- - 10th ring quest - Only someone who has handed in the Coldain Hero's Insignia Ring and the Declaration of War to Sentry Badain can loot Narandi's Head.
+
+
+*** Spells ***
+
+- Paladin - Corrected bad descriptions for several spells in the Ward of Tunare line.
+- Druid - Fixed a problem that prevented the enervation heals from the Remote Manaflux and Remote Moonfire lines of spells from landing on pets and mercenaries.
+- Enchanters - Corrected a problem that prevented the Arcane Disjunction Aura debuff from landing on most NPCs.
+- Fixed several spell scrolls from The Buried Sea that were not able to be scribed correctly.
+
+
+*** Mercenaries ***
+
+- Made a first pass at improving level 106 to 110 Mercenaries. There will be further tuning in future updates.
+
+
+*** Progression Servers ***
+
+- Drowned Katta Castrum Powerstone is now available when The Darkened Sea unlocks.
+- Erollisi Day - Fixed an issue that was preventing Gilbina from spawning while the event is running on servers that had not yet unlocked The Darkened Sea.
+- Released revamped poison making components and recipes when Seeds of Destruction opens.
+
+
+*** Miscellaneous ***
+
+- Dramatically increased the chance to gain skills when your current skill level is less than your class' skill cap from 5 or 10 levels less than your current level.
+- - Ex: A level 50 ranger with a 1-Hand Blunt skill less than 210 will gain skill at 16 times the normal rate.
+- - These bonuses do not apply to tradeskills.
+- The Broken Mirror and Empires of Kunark are now free to play on all servers.
+- Fixed an issue that could cause taunt to report that your target is too far away, despite being in melee range.
+- Names that were rejected when creating a new character will now display more information about why.
+- Removed some legacy experience code so that experience-per-level is now uniform for all races/classes. Warriors, Rogues, and Halflings will no longer gain experience faster than other classes/races.
+
+
+*** UI ***
+
+- Removed the evolving items tab in the inventory window now that the concept of 'active' vs 'inactive' evolving items has been deprecated.
+- Evolving items will now display their evolution progress percentage in the lower left corner of the item's icon, similar to activated items with charges.
+- Fixed a UI error regarding the shared bank window on progression servers.
+- Added a (Riposte) tag to hits and misses that occurred due to a riposte.
+- Throwing damage is now reported as a hit instead of a shot.
+- Updated the Alternate Currency page of the inventory window to include an expansion name and brief description for each of the point types.
+- You can now change the color and filter for faction links and messages. They will no longer go to the Other filter.
+- Added the spell name and resist type to spell damage messages.
+- Strikethrough messages are now reported at the end of a hit message instead of in a separate line. The Strikethrough chat filter has also been removed.
+- Mana and endurance regeneration from bard songs will no longer incorrectly display the focused amount in the Stats window.
+- Made the following changes to DoT reporting:
+- - DoT filters should be working again.
+- - If the caster of a DoT dies, their damage will now be reported as being cast by their corpse.
+- - If the caster zones or is charmed, their damage will be reported without a caster's name, and the damage will not be focused.
+- - If the caster returns to the zone or is resurrected, these DoT messages will once again associate with them and be focused.
+- - NPCs awakened by a DoT cast by someone who has left the zone or died will now display a message.
+
+- Changed -
+EQUI_Inventory.xml
+
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: February 27, 2019
+------------------------------
+
+*** Quests And Events ***
+
+- Trials of Smoke - Fixed an issue that prevented looting of the sigils in the Trial of the Speaker's Amphitheater.
+- Spear of Fate - Corrected an issue where Ooglyn would sometimes fail to initiate the Test of Patience. 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: March 13, 2019
+------------------------------
+
+*** Highlights ***
+
+- Added tabs to chat windows. See the UI section for more details.
+- Look to the Marketplace this month for the Gnomish Heritage Crate. Each crate contains a random item. Trade these Gnomish Heritage items to your friends or collect them all yourself!
+- Added new emotes. See Miscellaneous for more information below.
+- Updated the appearance of the Gloomingdeep Mines.
+- This Saturday the 16th, keep an eye out for brand new progression servers and new content featuring: Gnome Memorial Mountain!
+
+
+*** Items ***
+
+- Corrected the spell description of Drogan Goblin Familiar.
+- The evolving Efreeti Boots and White Satin Gloves will now accept Hero's Forge ornaments in their evolved state.
+- Look to the Marketplace this month for the Gnomish Heritage Crate. Each crate contains a random item. Trade these Gnomish Heritage items to your friends or collect them all yourself!
+- Corrected the cast proc on Bloodstaff to the higher damage Sympathetic Blaze of Fire VI.
+- Corrected both the proc and cast proc on Deep Cavern's Shard to the lesser Spike of Corruption VIII.
+- As a temporary solution until the core issues with real estate items can be solved we've implemented the following functionality for real estate anchors:
+- - Activating a Primary Anchor Transport Device or Secondary Anchor Transport Device without possessing the corresponding Anchor item will now give you a replacement Anchor.
+- - Druids and wizards whose Guild Hall Anchor has gone missing will be granted a replacement when logging in.
+
+
+*** Tradeskills ***
+
+- Secret Dawn Mace Muhbis will now return Trillion Cut Elder Mist Diamond and Oval Cut Elder Mist Diamond on failure.
+
+
+*** Quests And Events ***
+
+- Celestial Fists (Monk Epic) - The spawn in Karnor's Castle that has a chance to be a drolvarg pawbuster no longer shares an encounter with a drolvarg warlord. The remaining spawns in the room have a higher chance of being a drolvarg warlord.
+- Prince Ralaifin (Mission) - A Giant Lapillus Lava Spiderling no longer summons.
+- Lost but Not Forgotten - Added an out of character message when speaking to Dismas Kaneriti that indicates that Lost but Not Forgotten is a two group mission.
+- Death, Death, Death - This event will be available for four weeks a year now, up from two.
+- Unfettered Emerald Excellence - Removed particle effects from Unbearable Heat and Magnificent Presence.
+- Fight Fire - Fixed an issue that prevented the Leading a Charmed Life achievement from completing.
+- Delivery - The Duende Female Mold is no longer lost upon zoning.
+- Defending Knowledge - Fixed a problem that prevented the horn from appearing near Bjerg Sen the Tranquil.
+
+
+*** Spells ***
+
+- Changed Whispering Midnight Casting Fire, Whispering Midnight Casting Magic, Blazing Euphoria Casting Fire, and Blazing Euphoria Casting Magic to only work with spells that do damage.
+- Corrected the spell description for Hand of Holy Wrath VI.
+- Corrected a rounding error that caused critical spells to deal one less point of damage/healing than intended.
+- Percentage heal spells now display their name in healing messages.
+
+
+*** AA ***
+
+- Improved the rate that mercenary alternate advancement experience is gained.
+- - The mercenary AA experience granted by completing Clayton Teek's daily bonus tasks has been extended to cover levels 106-110.
+
+
+*** Progression Servers ***
+
+- Updated the expansion unlock dates for The Broken Mirror and onward to reflect the normal extra time in The Darkened Sea for a level increase expansion.
+
+
+*** Miscellaneous ***
+
+- The water in Trials of Smoke is now also stocked with Primordial Lion Fish.
+- Added the following new emotes: /airlute, /facepalm, /faint, /fight, /fistbump, /freakout, /growl, /maybe, /no, /pie, /pizza, /rps, /ttth, and /yes.
+- Fixed a bug when looting items in a raid that would display the number of items remaining on the body rather than the number of items looted.
+- Fixed an issue where the event calendar would report that events end 59 minutes later than their actual end time.
+- Corrected an issue where melee attacks against slain targets would sometimes report as misses.
+- Updated the appearance of the Gloomingdeep Mines.
+- Updated various character models to better reflect lighting and detailing.
+
+*** UI ***
+
+- Corrected an issue where DoT damage on players would display the victim's name instead of the caster's name.
+- Improved the layout of the Marketplace window.
+- Direct damage spells caused by a twincast now have a flag at the end of the damage message instead of a separate twincast message. Twincasts of melee abilities are now indicated as twinstrikes.
+- Added the option to blink the active chat window when you begin typing.
+- Added tabs for chat. All existing chat windows will be put into new tabbed chat windows and will appear where they were placed before.
+- - You can move tabs around in the existing windows, or send the tabs to other windows.
+- - When using tell windows, by default all of the tells will go into a single tell window in separate tabs instead of opening a new window for each tell.
+
+- Added -
+EQUI_ChatContainerWindow.xml
+
+- Changed -
+EQUI.xml
+EQUI_Animations.xml
+EQUI_ChatWindow.xml
+EQUI_MarketplaceWnd.xml
+EQUI_OptionsWindow.xml
+
+
+*** Previously Updated ***
+
+- Trials of Smoke - Fixed an issue that prevented looting of the sigils in the Trial of the Speaker's Amphitheater.
+- Spear of Fate - Corrected an issue where Ooglyn would sometimes fail to initiate the Test of Patience.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: March 15, 2019
+------------------------------
+
+*** Miscellaneous ***
+
+- Fixed an issue that caused the Tsaph Katta Leather Ornaments set to glow neon blue. 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: March 19, 2019
+------------------------------
+
+*** Quests And Events ***
+
+- Gnome Memorial Mountain - Removed chance that some items could spawn where characters could not go at the lowest level of the zone.
+- Gnome Mountain Raids - Fixed some errors that were preventing travel between the raids.
+- Gnome Mountain Raids - NPCs will no longer drop loot that they were not intended to drop. They will also not remain to hold loot between events that they should not. 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: March 28, 2019
+------------------------------
+
+*** Progression Servers ***
+
+- Increased AA experience rate on Selo. 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: April 1, 2019
+------------------------------
+
+*** Miscellaneous ***
+
+- Updated the loading screen in honor of all Vah Shir kind in Norrath (and Luclin). 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: April 17, 2019
+------------------------------
+
+*** Highlights ***
+
+- There are no longer Progression Server specific spawns in open world zones for Classic, Kunark, Velious, or Luclin bosses. These bosses now spawn at an accelerated rate on all servers, roughly twice the rate that they previously spawned on Live servers. Fabled versions of these NPCs should now work correctly on Progression Servers.
+- Added several statless mounts to the Marketplace for progression servers.
+- - These new mounts are available for purchase starting with the unlock of Shadows of Luclin and will remain available until Omens of War unlocks, at which point standard Marketplace mounts become available for purchase.
+- - These new mounts are equivalent in speed to silk bridles.
+- Removed the race specific restrictions on evolving items obtained from The Burning Lands. These evolving items will now gain experience from any experience-giving NPCs slain in The Burning Lands zones and Gnome Memorial Mountain.
+- Increased the range that direct-damage and damage-over-time spell messages are reported from 75 feet to 200 feet.
+
+
+*** Items ***
+
+- Added the correct version of Soothing Breath to Transverse Yaw Stabilizer and Mana Battery Pendant.
+- Fate's Accumulator and Blazing Utopia augments now drop in all The Burning Lands raid zones.
+- - The chance for each of these to drop per kill has been reduced.
+- Fixed the spelling of Exceptional-Quality Scrap Metal.
+- Removed the extraneous quest flag from the book Revenge on the Fallen.
+- Added a minimum level to trigger combat activated spells from a handful of weapons and augments that lacked an appropriate required level.
+- Added Cleave and Ferocity to The Burning Lands Cleric armor, and Ferocity to Shaman armor.
+- Added a chance for NPCs in some The Burning Lands zones to drop Whispering Midnight augments.
+- Added the appropriate click spells to The Burning Lands evolving ring and shoulder items that offer rewards.
+- Changed the cast proc of Ascending Sun Devotional Staff to Sympathetic Arms of Holy Wrath VI.
+- Attached the correct recourse to the Hand/Arms of Holy Wrath VI spells.
+- Fixed the roman numeral in the name of Arms of Holy Wrath VI Recourse.
+- Minion of Darkness effects will now work on Beastlord warders summoned between levels 56 and 75, when they previously only worked on warders summoned between levels 66 and 75.
+- Beastlords can now use the Gloves of Dark Summoning.
+- Added Ring of Scale power sources to The Burning Lands rares, and some basepop.
+
+
+*** Quests And Events ***
+
+- Sixth Anniversary Scavenger Hunt - Fixed a bug that prevented the Collector's Drachnid Web Sac from dropping from Dreadlands drachnids.
+- Bristlebane Events - These events will run for two more weeks in late April this year. The Mischief continues!
+- This Ain't Right - Bristlebane will appear when needed again.
+- Danger Zone - Player spells will no longer heal ballistae.
+- Danger Zone (Group mission) - It's again possible to request this task.
+- Danger Zone (Group mission) - This task now allows up to 6 characters and mercenaries to participate.
+- Dragon in the Works - Changed some of the warnings to use user event colors, and made the dragon immune to knockback effects.
+- Dragon in the Works - Added an enrage mechanic. After 30 minutes of fighting, the dragon will grow stronger.
+- Mechagnomic Whirlrender - Added an enrage mechanic. After 30 minutes of fighting, new enemies will begin to spawn.
+- Mechagnomic Whirlrender - Added logic to prevent the boss from being stuck in the sky.
+- Ironing Out the Legion - Allowing the Legendary Clockwork to be activated no longer has a chance to prevent the task from updating. All debuffs on the busy mechanics in the furnace room will be removed when they go back to work.
+- Ironing Out the Legion - Added loot to Consul of Cooperation.
+- Night at the Museum - Added a delay between when you get the warning that the roboboar is chasing you and the boar slams into you. This should allow you to get away if you are standing next to the boar when you get the warning.
+- Night at the Museum - Fixed an issue that could cause the rattling roboboar to kill a seemingly random character when it starts its chase.
+- Night at the Museum - Fixed a problem that prevented two of the large gold statues in the museum from respawning after an event reset.
+- Trial of Stoning - Fixed a problem that was preventing the pitiless avengers from shooting the accused prisoners during the trial.
+- Defending Knowledge - Removed erroneous particles from the zone.
+- Unfettered Emerald Excellence - Made the following balance changes to this raid event:
+- - Lowered the boss's regeneration slightly.
+- - Increased the damage done to mephits by bane abilities slightly.
+- - Increased the amount of time between mephit waves in the final phase of the encounter.
+- - Increased the amount of time between armor suit waves in the final phase of the encounter.
+- - Decreased the number of mephit spawns per wave in the final phase of the encounter.
+- The Mechanical Fortune Teller will now mention the cake-eating challenge if queried for details of 20th Anniversary events.
+- Added rewards for the 20th-anniversary challenge and some Gnome Memorial Mountain achievements.
+
+
+*** Spells ***
+
+- Damage-over-time spells once again display a twincast message when the spell first lands, and no longer reassociate with their caster if they zone or die.
+- PvP: Damage shield damage received from attacking players will now deal a maximum of 5% of the attacker's health per hit. Damage shield damage received from non-player targets is unchanged.
+- Beastlord - Ogre Beastlord warders are now a little bit larger by default.
+- Ranger - Corrected the name of the Irae Faycite Shard that adds damage to the Hornet Swarm spell.
+- Enchanter - Adjusted the stacking of Night's Endless Terror to better coexist with a number of other abilities.
+- Druid - Lowered the required level to cast Zephyr: Lavastorm to 47. Lowered the spell difficulty and price. Moved the scroll from Wanderer Frardok to Wanderer Qenda.
+- Reduced the effectiveness of Crippling Snare.
+
+
+*** NPCs ***
+
+- All racnors are now racnars.
+- Added coin to Gnome Memorial Mountain NPCs.
+- Tinzenwen Geargoggler has now been given the title 'Overseer of Repairs'.
+
+
+*** Mercenaries ***
+
+- Increased some of the statistics of The Burning Lands mercenary items.
+
+
+*** Progression Servers ***
+
+- Agent of Change instance in Great Divide - The 10th Ring War is now started by handing in the Declaration of War and the Coldain Hero's Insignia Ring to Sentry Badain in the instance.
+- The Blade of the Black Dragon Eye will be available for a brief period starting a few weeks after Ruins of Kunark launches.
+- Fabled NPCs are now eligible to spawn in Agent of Change instances.
+- Added the appropriate teleportation item to Collectors of Transference in the Nexus and Overthere on Selo.
+- Added vendors in Overthere and Firiona Vie that sell melee tomes for disciplines that were previously available in Kunark as commands.
+- Updated the dates for Legend of Ykesha unlock to run on the same day as the Planes of Power unlock on Mangler.
+- Changed a number of quest items to not drop until the proper expansion has unlocked:
+- - Ruined Blackburrow Gnoll Pelt drops have been restricted to the unlock of Planes of Power.
+- - Scalded Rat Skin drops have been restricted to the unlock of Gates of Discord. They will now only drop from rats in Dagnor's Cauldron.
+- - Essence of Shadow, Moonlight, Sunlight, and Winter drops have been restricted to the unlock of Shadows of Luclin.
+- - Quest drops for Escape to Norrath tasks no longer drop until Dragons of Norrath has unlocked on the server.
+- - Many quest items for Planes of Power era newbie quests no longer drop until Planes of Power has unlocked on the server.
+- - Removed many Planes of Power era quest items from low level zones.
+
+
+*** Miscellaneous ***
+
+- Corrected an issue where /nod would cause you to disagree wholeheartedly (/no).
+- Players who log in on their character's birthday will have a rainbow colored name for the day. Updated the /played command to include your age in Norrath.
+- Fixed spelling and grammar errors in the 20th Anniversary achievement challenge.
+- Fixed an issue with the Rallos Zek Puppet's name changing back after using a Potion of Familiar's Amnesia to change its name.
+
+
+*** UI ***
+
+- Attempting to open the Faction Window while shrouded will no longer cause a client crash.
+- If a task rewards a faction change, the Task Window will now correctly link to that faction in your Faction Window.
+- Disabled the context menu to move the main chat tab into another chat window.
+- Fixed an issue that prevented audio triggers from matching text that contains formatting data such as spell or item links.
+- Riposte messages are now reported before their resulting hit damage.
+- Added the ability to customize the color that chat windows are highlighted with when displaying a new message.
+- Dealing direct-damage with spells now reports the caster as 'You' rather than your name.
+- Fixed a messaging issue where non-song spells activated by bards would report as the bard 'singing' the spell.
+- Moved spell reflect messages to the spell failures chat filter.
+- Changed a number of places where the name of a spell is displayed in chat to have that name function as a link to the spell description:
+- - Spell interrupts, fizzles, and reflect messages now contain the name of the spell that failed.
+- - Messages indicating the start of a spell cast now include a link to the spell description.
+- - Messages indicating that a spell has worn off now include a link to the spell description.
+- - The spell name in damage reporting messages will now function as a link to the spell description.
+
+
+*** Previously Updated ***
+
+- Fixed an issue that caused the Tsaph Katta Leather Ornaments set to glow neon blue.
+- Fixed an issue where characters would fail to create but the name would still appear in use.
+- Gnome Memorial Mountain - Removed chance that some items could spawn where characters could not go at the lowest level of the zone.
+- Gnome Mountain Raids - Fixed some errors that were preventing travel between the raids.
+- Gnome Mountain Raids - NPCs will no longer drop loot that they were not intended to drop. They will also not remain to hold loot between events that they should not.
+- Increased the AA experience rate on Selo.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: April 19, 2019
+------------------------------
+
+*** Quests & Events ***
+
+- Defending Knowledge - Fixed a problem that prevented the horn from appearing near Bjerg Sen the Tranquil.
+
+
+*** Miscellaneous ***
+
+- Addressed an issue that would cause some machines to not be able to login. 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: April 23, 2019
+------------------------------
+
+*** NPCs ***
+
+- Temporarily, all beings in Gnome Memorial Mountain that have a chance to drop coin will also drop a pod of water.
+
+
+*** Progression Servers ***
+
+- Lord Yelinak will now spawn correctly in the Agent of Chance instance.
+- Yael will once again appear in the instanced versions of The Ruins of Old Paineel. 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: May 03, 2019
+------------------------------
+
+*** Quests And Events ***
+
+- Prince Ralaifin Raid: Made another speculative fix for the 'Success on aggro' bug. 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: May 15, 2019
+------------------------------
+
+*** Highlights ***
+
+- Mounts now show their speed in the item display window.
+- Progression servers that have not reached Underfoot now allow players at level 20 and higher to use the Extended Target Window.
+- Track now indicates whether your target is above or below you.
+
+
+*** Items ***
+
+- Fixed a client crash when inspecting items such as the Silkfang Pack.
+- Mounts now show their speed in the item display window.
+- Fragment of the Citadel Key, Fragment of the Apitarx Key, and Calix Quirinus' Key now stack to 100.
+- Set the luck on the tank-melee version of Djarn's Gold Amethyst Ring to 5 to match other rings.
+- Changed the Consigned Silken Bridle horses to the correct Silk speed.
+- Increased the drop rate of several pieces of gear that drop from rare monsters in the Plane of Disease.
+- Reduced the effect of Crippling Guard and Tendon Slicer.
+- Added a chance for Weeping Heaven augments to drop from standard mobs in some Burning Lands zones.
+- Removed Overdrive Boon from Dynamometric Timing Chain and Fractured Gear Set and added Overdrive Punch and Boon of the Seeress as separate spells.
+- Increased the AC on the rings from Gnome Memorial Mountain: Finger Band of Phases, Steel Banded Collar, Prime Healers Trinket, Whirling Torsion Spring, Fitted Rat-ling Control Board, and Etched Retention Bearing.
+- Improved the click area for the Hovering Ball Familiar.
+
+
+*** Quests And Events ***
+
+- Unfettered Emerald Excellence - Fixed a bug that was causing raid challenge achievements to always be granted.
+- Raid events from Veil of Alaris and later will now grant more progression keys after they have been open for 3, 6, and 9 months on all servers.
+- - Previously this would begin after 6 months. On progression servers these events will grant more progression keys as soon as the expansion unlocks, and add additional bonuses after each of the next two expansions unlock or at 3 month intervals, whichever is faster.
+- Dragon in the Works - Slowed the rate that the dilapidated mechanics spawn. Reduced the amount that they heal the dragon. Also lowered the hit points of the mechanics a bit.
+- Mechagnomic Whirlrender (Raid and Group) - Made a number of bug fixes, messaging improvements, and mechanic changes to this event.
+- - Fixed a bug that prevented simultaneously fired ballistae bolts from causing the boss to spend more time grounded.
+- - Fixed a bug that caused the boss to spam a message while he was grounded.
+- - Fixed bugs that caused some NPC models to look wrong.
+- - Fixed bugs that caused Whirlrender Mortar and Seeker Rocket to not work properly.
+- - Fixed a bug that caused the boss to cast Static Blast instead of Slashing Claws and vice versa.
+- - Changed the Claw Attack mechanic. The boss will now warn periodically that he is using a left or right claw attack, 10 seconds before hitting everyone on his left or right, respectively. The player tanking the boss should be immune to this attack.
+- - Changed the Static Blast mechanic. The ability will now land on a random character on the boss's hatelist, and will only choose the player tanking the boss if there are no other players on the boss's hate list. The player struck with the Static Blast spell will have a decal indicating the spread radius of Static Blast. Reduced the spread radius. Note that the duration of the decal is not associated with the duration of the debuff and the decal will not spread with the debuff.
+- - Improved messaging for the event. All important event messages should use the Event Messages filter. Added many messages, such as indicating how many ballista bolts struck the boss. Changed the rocket attack message to indicate to the entire zone who is being targeted. Fixed some typos. Any message sent to a pop up should also be sent to chat.
+- - Mechagnomic Whirlrender (Raid) - Increased NPC spell resistances, NPC melee damage output, and spell damage.
+- Raid chests in House of Thule will now drop more key items.
+- End of Empire (mission) - Fixed a bug that could prevent the soulfeasters from activating properly.
+- Greatest Gnome Hunters - The correct amount of parts will now always drop.
+- Spear of Fate - Lowered the Truespirit faction threshold required to speak to Spirit Sentinel after handing in the Sparkling Gem.
+
+
+*** Spells ***
+
+- Corrected an issue where spell guard effects were being applied to direct damage spells twice.
+- Fixed the spell description text for the Hovering Ball Familiar.
+
+
+*** AA ***
+
+- Necromancer - Added a passive component to Scent of Terris that improves the resist modifier of all Corruption, Fire, and Magic spells.
+- Wizard - Corrected an issue that prevented Arcomancy Debuff from triggering when using Arcomancy.
+- Shaman - Corrected a bug where rank 32 of Malaise was attempting to trigger the best known version of Malosinata rather than Malosenete.
+
+
+*** NPCs ***
+
+- The denizens of Gnome Memorial Mountain are no longer carrying pods of water.
+- Removed a stray NPC (Iceweaver Sjeon) from Stratos.
+
+
+*** Progression Servers ***
+
+- Progression servers that have not reached Underfoot now allow players at level 20 and higher to use the Extended Target Window.
+- Lord Yelinak should spawn properly in the open world and Agent of Change instances.
+- Restricted the spawns of a few Kunark era dark elves in Kithicor to the unlock of Ruins of Kunark.
+- The Emissaries that give out Sun Shard quests should be available and give out their quests as soon as Ayonae Ro has been defeated, and remain until the Two Gods raid has been completed.
+
+
+*** Miscellaneous ***
+
+- Many Veil of Alaris and Rain of Fear zones now have load balancing enabled.
+- Track now indicates whether your target is above or below you.
+- Corrected an issue where you would crash when attempting to convert an augment inside another item.
+- Fixed a problem that caused some of the Gnome Heritage armor textures to be brighter than intended
+
+
+*** UI ***
+
+- Adjusted the Tribute Master window to allow the description pane to be resized.
+- Items with limited charges will now display the remaining number of charges when placed in a keyring.
+- - Hotbuttons made from keyring items will now display recast time and remaining number of charges.
+- Added a message in the chat window when players are invited to an instance.
+
+- Changed -
+EQUI_TributeMasterWnd.xml
+
+
+
+*** Previously Updated ***
+
+- Defending Knowledge - Fixed a problem that prevented the horn from appearing near Bjerg Sen the Tranquil.
+- Addressed an issue that would cause some machines to not be able to login.
+- Temporarily, all beings in Gnome Memorial Mountain that have a chance to drop coin will also drop a pod of water.
+- Lord Yelinak will now spawn correctly in the Agent of Chance instance.
+- Master Yael will once again appear in the instanced versions of The Ruins of Old Paineel.
+- Prince Ralaifin Raid - Made another speculative fix for the 'Success on aggro' bug.
+
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+Game Update Notes: June 19, 2019
+------------------------------
+
+*** Items ***
+
+- Fixed an issue that prevented focus effects on items that increase incoming healing from functioning as expected. Ex: Whispering Midnight Soothing, Blazing Euphoria Soothing.
+- Stone of Tranquility will no longer drop from NPCs greater than level 114.
+- Changed the attack animation for Blueogre's Blue Bastard Of Heroism Ornament to 1 hand to better fit the fact that it works in any weapon.
+- Added Ondine Hero's Forge ornaments to Brilliant Jade.
+- Increased the drop rate of Exultant Inhabited Muhbis and the following augments: Fate's Accumulator, Weeping Heaven, Secret Dawn, Whispering Midnight, and Blazing Euphoria.
+- Increased the drop rate of several pieces of gear that drop from rare monsters in the Plane of Disease.
+- The Burning Lands version of Nature's Fury now generates less hate.
+
+
+*** Tradeskills ***
+
+- Specified the class on emblems to match the class of the armor it makes, for easier classification.
+- Adjusted old-style research drop tables.
+- - Increased the chance to receive recipe components.
+- - Decreased the chance to receive cash drops.
+- - For example: Words of Possession is more likely to drop and Exquisite Platinum Embossed Rune is less likely to drop.
+
+
+*** Quests And Events ***
+
+- Unfettered Emerald Excellence - Made the following changes to this raid event:
+- - Fixed a bug that incorrectly allowed slow, root, and snare effects to land on the mephits and armors.
+- - Reduced the melee damage output from the mephits.
+- - Waves of mephits will no longer spawn during the window of time when it's necessary to flee to the correctly colored wing to avoid being struck by Elemental Incompatibility.
+- Mechagnomic Whirlrender (Group and Raid) - Made the following changes:
+- - The ballistae can no longer be reduced to negative health by the aerial combatbots.
+- - Fixed a bug that shortened how long the boss was in its attackable state by 5 seconds.
+- - NPCs will no longer refer to the boss as the Mechagnomatic Whirlrender.
+- - Ratchet Bronzehead is now on beta neutral faction.
+- - Ratchet Bronzehead can no longer be attacked.
+- - Added a speculative fix to prevent the boss from tethering when it flies back into the sky.
+- Gnome Memorial Mountain: Danger Zone (Raid) - Entering the zone should now place you near the current raid.
+- The Darkness Howls and Ironing Out the Legion no longer share a lockout, so doing one will not prevent you from doing the other.
+- Spear of Fate - Added a new path to Erud's Crossing that Ooglyn will follow to get out into the ocean so that she doesn't meander around the island for several minutes, heading in the wrong direction, before her long swim.
+- Gram Dunnar no longer prevents adventurers from getting the benefits of telling him stories if the storyteller already has 30 or more AA points.
+
+
+*** Spells ***
+
+- NPCs will now remember damage credit when blurred or charmed.
+- When the owner of a charmed pet teleports, charm will break.
+- Translocation spells can no longer be activated or accepted while in combat.
+- Magician - Made the following changes to fire pets:
+- - While Frenzied Burnout is active, the pet will cast their Elemental Bolt spell additional times instead of casting Frenzied Elemental Bolt spells.
+- - Pets summoned with higher foci will do more damage with their Elemental Bolt spells.
+
+
+*** NPCs ***
+
+- NPCs spawned by old-style quests are now loot locked.
+- - An NPC that is loot locked is indicated by an asterisk preceding their name and an added '(loot locked)' to their consider message.
+- - The NPC is loot locked to the player who did the turn in for thirty minutes.
+- - During this window if the NPC is killed by anyone, the player who spawned it will be given kill credit and have access to the loot.
+- - These NPCs will not reward experience.
+- - If the player who spawned the NPC is not in the zone but is in a group or raid, then the group or raid will receive kill credit and the original player will have access to the loot when zoning back in.
+- - If the player is not in the zone and is not part of a group or raid, then kill credit is handled normally (as if the NPC is not loot locked). Normal loot rules apply after the NPC is killed.
+
+
+*** Progression Servers ***
+
+- Corrected an issue where you could not open the Extended Target Window after reaching level 20.
+
+
+*** Miscellaneous ***
+
+- Added a potential fix for corpses not saving properly when moved.
+- The Advanced Loot Window now displays the correct luck values when multiple copies of the same item with different luck values are listed.
+- Removed the no longer in use command /survey.
+- Relaxed some overly strict naming rules in regards to multiple consonants in a row.
+- The preview model displayed when placing an NPC in a real estate should now more closely match the appearance of the NPC when placed.
+- Moved a collectible spawn in the Temple of Droga so that it is accessible.
+- Fixed grammar and spelling in Arms of Power and Arms of Power II tribute descriptions.
+- Removed the word (Temporary) from the seasonal Appreciation Bonus achievements.
+- Made the following changes to Guild Banners and Fellowship Campfires in an effort to improve their usability and the desirability of the buffs they grant:
+- - Consolidated all buffs and tiers into a single 'empowered' banner/campfire that grants the combined effects of all the previous options; with the ability to choose whether you want the empowered banner/campfire to also offer an illusion effect.
+- - Increased the duration of the empowered banner/campfire from 1 hour to 6 hours to match the duration of the non-empowered version.
+- - Increased the distance that the empowered banner/campfire will grant its buff from 100 to 1000 feet.
+- - Simplified the various tiers and types of banner/campfire components down to 2 items: 'Guild Banner Materials' and 'Fellowship Campfire Materials'.
+- - Items previously used as banner/campfire components have been flagged as deprecated and have been changed to allow you to sell them back to a merchant to recoup their initial value.
+
+
+*** UI ***
+
+- Fixed an issue that caused formatting data to be printed to log files when considering a rare creature.
+- Fixed a bug with the advanced loot window that prevented 'Link All' from functioning.
+- The Spell Damage filter should be working again.
+- - Spell damage messages from NPCs casting on others now display resist type and the spell name, and the spell emote is displayed on a separate line, similar to player direct damage spells.
+- - Scripted spell damage dealt to other players is now visible.
+- The chat filter for Pet Spells now respects if you have Pet Spells set to hide in the options.
+- Corrected an issue where kill shots were not being reported.
+- The 'Highlight New Messages' chat tab option will now persist between logging in and out.
+- Increased the displayed precision of self-only hit points, mana, endurance, and experience.
+
+- Changed -
+EQUI_AAWindow.xml
+EQUI_Inventory.xml
+EQUI_PlayerWindow.xml
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: June 21, 2019
+------------------------------
+
+*** Spells ***
+
+- Corrected an issue where Act of Valor could cause a crash. 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: June 28, 2019
+------------------------------
+
+*** Spells ***
+
+- Fixed a bug that would result in a caster's spells not being focused after taking a resurrection in the same zone.
+
+Note: This change only applies to new zones (i.e. instances). Zones that were already up will not get this change until they restart. 
+
+.....................................................................
