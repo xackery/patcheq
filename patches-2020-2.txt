@@ -1,0 +1,482 @@
+.....................................................................
+
+------------------------------
+Game Update Notes: July 15, 2020
+------------------------------
+
+*** Highlights ***
+
+- Made various improvements to world performance and stability related to loading characters, real estate data, and instances.
+- Fixed several causes of zone and client crashes.
+- Made a number of speculative fixes to address issues with overseer data not loading as expected.
+- Added the ability for characters on Aradune to /servertransfer to Rizlona for free. See Progression Servers section for details.
+- Norrath now embraces free-range eggs. See Tradeskills section for details.
+
+
+*** Items ***
+
+- Corrected an issue where some ornamentations would not display after zoning, or in player housing.
+- The spell description on Black Fur Boots now correctly indicates that the Spirit of the Wolf buff affects the caster and not their target.
+- Snow Griffin Saddle will no longer display as a bag when placed in a real estate.
+- Unwritten Glyph and the glyphs sold by Alerynril the Loyal now include the level 115 rank of the glyph ability.
+- 'Transforming Surprises' that dropped from Convorteum raids have been removed as they served absolutely no purpose other than to annoy completionists.
+- Adjusted the price of the Hero's Forge Suit Consolidator on loyalty merchants down to 781 crowns.
+- Painting: Tassel's Tavern when placed in housing should now correctly teleport you to the tavern in classic North Freeport.
+- Adjusted the buffs offered by the following marketplace potions to prevent them from being overwritten by other buffs/debuffs: Double Faction Potion, Draught of the Craftsman, Locked Faction Potion, Bottle of Alacrity, the Avian, Buoyancy, the Cetacean, Clarity, Endless Air, Health, Replenishment, See Invisible, Speed, Spirits, Ultravision, and the Ursine.
+- Fixed the missing ornamentation slot on Darkened Wind Saber.
+
+
+*** Tradeskills ***
+
+- Norrath now embraces free-range eggs. You'll find them on some baking merchants. These eggs work the same as snake eggs in many of the generic egg recipes.
+
+
+*** Quests & Events ***
+
+- Heroic adventures from Call of the Forsaken, The Darkened Sea, The Broken Mirror, and Empires of Kunark have been reverted to use the spell scaling data from when those expansions launched.
+- Seeking the Sorcerer (Raid) - It will no longer be possible to avoid Bledrek's Discharge by standing behind things. You will need to move out of the area.
+- Seeking the Sorcerer - Bledrek and Bled should no longer target the guardian golems with spells that are meant to cause the target to flee the room.
+- Seeking the Sorcerer - The bosses will no longer be willing to chase people down the stairs.
+- Tower of Frozen Shadow (Raid - Torment of Velious) - Once all the raids in the zone have been successfully completed, the mirrors will behave as they do in the group version of the zone.
+- The Ice Moves - Fixed an issue that could cause the Notes of a Grand Armsman and Smelting for the Grand Master to not drop from the Grand Armsman.
+- Crusader Vraket will no longer praise random summoned entities if he cannot find the player that made a kill worthy of mention, he will instead praise himself. After all, he is worthy!
+- Cactiikii (Raid) - The atrocious cacti will now only spawn one add at a time instead of four.
+- Kerafyrm the Awakened (Raid) - Kerafyrm can no longer be slain, which will ensure that the raid will complete successfully when he is reduced below 5% health.
+- Disable the Recycler (Fortress Mechanotus Task) - Added safety logic to despawn the event if it has not been completed for 15 minutes, which should prevent it from getting into a bad state for days.
+- Marton Sayer in Qeynos Hills will now reward adventurers with a version of the Gnoll Slayer that does not include Bane Damage before Shadows of Luclin is active.
+- - Once Shadows of Luclin is active, the Gnoll Slayer can be converted into the version that provides Bane Damage: Gnolls.
+- Made the following changes to the Gloomingdeep Tutorial:
+- - Clicking OK at the conclusion of the tutorial will correctly whisk you away to The Mines of Gloomingdeep.
+- - Made several formatting and text fixes.
+
+
+*** Spells ***
+
+- Corrected an issue where creatures slain by direct damage spells reported their death to everyone in the zone.
+- Updated the description on some familiar spells that said they summon a minotaur.
+
+
+*** NPCs ***
+
+- Added a small chance for 'humanoids' in Torment of Velious to drop Raw Velium Ore, Velium Infused Pelt, Velium Infused Spider Silk, or Velium Infused Logs. The ore is in addition to the ore they already drop.
+- Thach Jerden decided now was a good time to leave the Plane of Knowledge and embark on a journey of his own. Since he no longer wants your Hardcore Heritage items, we decided to update the Hardcore Heritage armor drops to simply be a right click on the dropped item.
+- - We'll miss Thach in the Plane of Knowledge, but hopefully he can find that eagle he keeps talking about...
+- Treants in classic zones have reverted to their classic appearance.
+- The cages in Combine Dredge are now less feisty, and no longer fight back.
+
+
+*** Overseer ***
+
+- Corrected an issue where the Finish Now! button would not be disabled if you had claimed 10 Overseer quest rewards.
+- When the last copy of an Agent is removed, if that Agent is assigned to an offered quest, the assigned quest will have all Agents cleared.
+- Corrected an issue where the number of reported Max Completed Quests could reset to its previous value after zoning.
+
+
+*** Progression Servers ***
+
+- Added the ability for characters on Aradune to /servertransfer to Rizlona for free. Note that the character needs to be of level 20 or above and your account and character must be at least 30 days old.
+- Narron Jenork in Ak'Anon is now available in original EverQuest. He has nothing to say to anyone about anything, including Initiate Watchman armor, until Planes of Power unlocks.
+- Iksar shaman Plane of Hate class armors are no longer available until Ruins of Kunark has unlocked.
+- Beastlord Plane of Fear class armors are no longer available until Shadows of Luclin has unlocked.
+- Berserker Plane of Fear class armors are no longer available until Gates of Discord has unlocked.
+- Magus Burlshin will be able to help players on Selo, and possible future fast servers, gain a shard for use in the Shard Experiences task.
+
+
+*** Miscellaneous ***
+
+- Corrected an issue where /hidemodels hid your character after dying in the same zone.
+- Added /hidemodels none as an option to more easily un-hide all players, pets, and mercenaries.
+
+
+*** UI ***
+- Removed the 'All Access Days Left:' label in the inventory window. This most accurate place to find this information is in the Membership Info section of your account at everquest.com.
+
+
+- Changed -
+EQUI_Inventory.xml
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: August 19, 2020
+------------------------------
+
+*** Highlights ***
+
+- Necromancer - The critical DoT focus effects on the Necromancer epic 1.5, 2.0, and 2.5 will now begin to decay in effectiveness when casting spells above level 80.
+- Fixed an issue where the task window would sometimes display 'left over' task steps from a different task.
+
+
+*** Items ***
+
+- Unequipping items whose stats are increased when wearing Power Sources will now immediately remove the invisible augments that provide these stat bonuses.
+- - This corrects several issues that indicated that the item can not be modified until all augments are removed.
+- Fixed an issue with some Sebilisian Hardcore Heritage items granting the wrong items.
+- Removed heirloom from tradeable items since it's redundant.
+- Necromancer - The critical DoT focus effects on the Necromancer epic 1.5, 2.0, and 2.5 will now begin to decay in effectiveness when casting spells above level 80.
+
+
+*** Tradeskills ***
+
+- Corrected the spelling of Rallos Zek Devotee's Defense and Rallos Zek Acolyte's Defense to be consistent with other things with defense in the name.
+- Corrected the spelling of crystallized in several recipes.
+
+
+*** Quests & Events ***
+
+- Ralkor Bloodmoon Raid - Fixed an issue that would cause the event to stall once all of the channelers were killed.
+- The Conflagration Generals - Added a zone-wide message when a whorling wildfire is hit with the proper spell. The message will indicate who cast what spell and what the special damage is.
+- Earning One's Place - Fixed the faction requirement to now work properly. You must be "threateningly" to the Servants of Esianti to get the task.
+- Grummus Event (Plane of Health) - Fixed an issue that was preventing the grumlings from "exploding" when they die. They will now cast Explosive Pus as expected when they die.
+- Corrected an issue where seasonal events could be scheduled incorrectly during a leap year.
+
+
+*** Spells ***
+
+- Fixed a client crash when moving or deleting an item in the middle of casting free target spells.
+- Updated the message when scribing ToV spells to be more informative.
+- Added a message when learning a new combat ability that includes the ability name.
+- Corrected an issue that periodically caused the spell bar to become locked out, either after activating an item or while casting spells with the highest ranks of the Bard AA ability Quick Time active.
+- Cleric - The Crippling Glare effects from the Shining Rampart line will no longer create a debuff on the target. Reduced the chance to proc slightly (from a base of 10ppm to 9ppm) and changed the heal from a recourse to a trigger cast so that it will now be able to heal you even if the stun can not land.
+- Necromancer - The Curse of Mortality line of spells no longer stacks with itself. Increased the damage dealt and mana cost.
+- Necromancer - The Swift Deconstruction line of spells no longer stacks with itself or with the Curse of Mortality line. It now deals the same amount of damage as the equivalent spell from the Curse of Mortality line, with the same efficiency. Removed the shared spell timer from the line. This spell line will no longer deal different damage to different targets. Increased the resist modifier so it lands more reliably.
+
+
+*** AA ***
+
+- Fixed an incorrectly referenced level range in the spell description for the max rank Enchanter Gracious Gift of Mana proc.
+- Added a spell description to Enchanter Reactive Rune IV through XIII and standardized the AA description at all ranks.
+- Shaman/Magician Wind of Malaise ranks 2, 3, 10, and 11 now have the same expansion and level requirements as the ranks of Malaise that unlock them.
+- Magician Companion's Fury ranks 110, 111, 112, 133, 134, 135, and 136 now require expansions that match their level requirements.
+- Fixed an issue that could cause Paladin Divine Stun and Disruptive Persecution to have no reuse timer.
+
+
+*** NPCs ***
+
+- Swarm pets should now have the correct name, even when being summoned at the same time as another.
+- Geomar Hapera in Paineel now correctly offers Parcel and Recovery services.
+
+
+*** Mercenaries ***
+
+- Corrected an issue where mercenaries sometimes displayed numbers after their name.
+
+
+*** Overseer ***
+
+- Incapacitated agents should now recover naturally more quickly, instead of idling at 0h 0m 0s.
+- Added Conflagrant Platinum as one of the rewards for the Ring of Scale tradeskill rewards.
+- Fixed an issue with the Agent Tab display when adding an agent while scrolled down.
+
+
+*** Miscellaneous ***
+
+- Corrected an issue that prevented real estate items from appearing in your Crate of Eviction after transferring servers.
+- Made further improvements to reduce lag caused by launching dynamic zones.
+- Fixed a potential client crash when adding a new item to the Advanced Loot window.
+- Fixed a potential client crash when adding an item to a player's cursor.
+- Fixed several new types of zone crashes.
+
+
+*** UI ***
+
+- Corrected an issue where spell damage was only reporting to 75 feet away.
+- Fixed an issue where the task window would sometimes display 'left over' task steps from a different task.
+- Fixed an issue that was causing erratic behavior for a raid's delegated main assists, NPC markers, and master looter after a change in raid leadership. This should fix the problem where /assist main or /assist raid would stop working as expected.
+- Fixed an issue that would cause an ornament to stick to an item if it had a reward that was claimed while the ornament was in an item. Instead, you will be unable to claim the reward until the ornament has been removed. Players with a stuck ornament will need to use an Ornamentation Stripping Tool to remove the ghost ornament from their item.
+- Moved DoT damage taken by your character from the DoTs (Others) filter to the DoTs (Yours) filter.
+- Removed voice chat integration from the game.
+
+- Changed -
+EQUI.xml
+EQUI_Animations.xml
+EQUI_DragItems.xml
+EQUI_FriendsWnd.xml
+EQUI_GroupWindow.xml
+EQUI_OptionsWindow.xml
+EQUI_PlayerWindow.xml
+EQUI_RaidWindow.xml
+EQUI_TopLevelScreens.xml
+EQUI_VoiceActionBarWnd.xml
+
+
+*** Previously Updated ***
+
+- Fixed an issue where one set of next year's collectibles were dropping from creatures in Mearatas.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: September 16, 2020
+------------------------------
+
+*** Highlights ***
+
+- Made many improvements to the Overseer system to make it simpler to find Agents you need when you need them. See the Overseer section below.
+
+
+*** Quests & Events ***
+
+- Shared tasks will now accurately display a max duration of 24 hours rather than listing unlimited time remaining.
+- Franklin Teek remembered that there is no such thing as "highlor" kobolds in Norrath, and has realized that he meant "highland" kobolds. He apologizes to all adventurers who he confused.
+
+
+*** Spells ***
+
+- Corrected an issue that would cause the messages displayed when a spell is overwritten or wears off to either fail to display or display incorrectly.
+- Enchanter - Corrected a missing item that made level 111 animations take more melee damage than intended.
+
+
+*** AA ***
+
+- Corrected an issue that was preventing multiple Alternate Advancement Abilities from activating from a single hotkey press.
+
+
+*** NPCs ***
+
+- Lord Bergurgle is no longer susceptible to charm.
+- Fixed the models in the Misty Thicket to be more consistent with other fire beetles.
+
+
+*** Overseer ***
+
+- Fixed an issue that caused the 21st Anniversary Overseer Quest "I Guess This is Growing Up" to remain available after the event had ended.
+- Conversion quests no longer enforce rules for iconic Agents, meaning that you can have more than one of an iconic Agent on a single conversion quest at a time.
+- You can now start or complete conversion quests when you have hit the active or completed quest caps and they continue to not count towards these caps.
+- The DBC costs to recover an incapacitated Agent have been rebalanced. The minimum cost to recover an Agent has slightly increased while the cost to recover an Agent with a multi-day incapacitation has decreased significantly.
+- Modified how Available Agents are sorted in the Quests tab for non-conversion quests. They are now sorted by the total number of matching traits and jobs, then by job ranks, rarity, and finally name. This change will usually result in sorting Agents with the highest potential contribution ahead of the pack.
+- - Conversion Quests now sort by the total number of idle duplicates in descending order, then by name.
+- Optional quest party slots now display their required job rank.
+- Agents who offer no benefit to a quest no longer appear in the Available Agents list in the Quests tab.
+- Unavailable Agents are now sorted to the end of the Available Agents list.
+- Added a tooltip that displays an Agent's name, jobs, and traits when hovering your mouse over an Agent's minimized portrait.
+
+
+*** Progression Servers ***
+
+- Players may server transfer between progression servers that are in the same or later expansion and within the same or a less restricted ruleset. True box is more restrictive than servers without it. Free trade (Firiona Vie ruleset) is less restrictive than servers without it. Voting unlock servers are more restrictive than servers without voting. This means:
+- - Characters on any progression server may transfer to live servers.
+- - Characters on Aradune, Agnarr, Coirnav, and Mangler may transfer to Phinigel.
+- - Characters on Aradune and Mangler may transfer to Selo.
+- - Characters on Aradune may transfer to Mangler or Rizlona.
+
+
+*** Miscellaneous ***
+
+- When starting a new shared task or dynamic zone, players in a group or raid will be added in order by what group they are in from 1 to 12 in the raid window, followed by ungrouped players. The raid leader will always be added first. This is to alleviate the need to remove and reinvite additional players if there isn't room for them in the instance. Within a single group, the order players are added to the instance is not necessarily what is displayed in the raid window.
+- On new characters, autosplit will now be enabled by default.
+
+
+*** UI ***
+
+- Corrected an issue that would prevent the reward selection window from displaying your pending rewards.
+- Fixed an issue where /grouproles could cause your client to crash.
+
+
+- Changed -
+EQUI_OverseerWnd.xml
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: October 21, 2020
+------------------------------
+
+*** Items ***
+
+- Fixed a small spelling error in the description of Nimbus of the Lit Way.
+- Necromancer - Corrected an issue that caused the Deathwhisper Shard of the Ancients to provide more benefit than intended. It now results in the same total benefit as other class epic augments.
+- Look to the Marketplace this month for the Dwarf Heritage Crate. Each crate contains a random item. Trade these Dwarf Heritage items to your friends or collect them all yourself!
+- Changed the name of Goblet of Shared Adventure III to Shared Goblet of Adventure III to match phrasing given outside the game itself.
+
+*** Tradeskills ***
+
+- Fixed an issue that prevented some characters from receiving the tradeskill skill cap extensions that their known recipe counts qualified them for.
+
+*** Quests & Events ***
+
+- Corrected an issue where solo tasks were incorrectly displaying a 24 hour duration.
+- Innoruuk's Curse - Duriek Bloodpool in Paineel is no longer susceptible to combat and will now respawn every 30 minutes.
+
+*** Spells ***
+
+- Cleric and Paladin - Corrected a bad description for Divine Aura.
+
+*** AA ***
+
+- Ferocious Kick ranks 11-13 have improved resist values, making it harder to resist.
+
+*** NPCs ***
+
+- Fixed an issue that was causing pets renamed to a name that contained "pet" to revert to the default pet name.
+
+*** Overseer ***
+
+- Added Conflagrant Platinum as one of the rewards for crit success of the Ring of Scale tradeskill rewards.
+
+*** Miscellaneous ***
+
+- Corrected an issue where some characters who are in a fellowship were not always appearing in their fellowship.
+- The /report command now gives you the option to open a Customer Service ticket in a browser, as reports will not be investigated without a corresponding ticket. Updated the help text for report to be more accurate. This command reports the first 20 visible lines of text in each open chat window, starting with the main chat window. /report can now be used once every minute instead of once each time your character zones.
+- Added the /usetarget command which will left click a targeted player or right click a targeted NPC to help facilitate interactions in crowded areas.
+
+*** UI ***
+
+- Block, shield block, and staff block now display different messages in combat logs.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: November 18, 2020
+------------------------------
+
+*** Items ***
+
+- Fixed the spell description of the Claws of Veeshan Expansion Ticket to say it will grant Claws of Veeshan.
+- Music Box: Kaladim will now play music even if you do not target yourself when you click.
+
+
+*** Quests & Events ***
+
+- Dragons, Dragons, Dragons will allow you to progress further, if you have the skills.
+
+
+*** Spells ***
+
+- Necromancer - Corrected an issue that allowed the Deathwhisper focus effect to affect spells that it is not intended to affect.
+- Paladin - Spells in the Harmonious Blessing line will no longer stack with each other.
+- Shadowknight - Spells in the Harmonious Disruption line will no longer stack with each other.
+- Magician - Fixed an issue that caused Meteoric Bolt and Korascian Bolt to display an incorrect bolt model.
+
+
+*** Miscellaneous ***
+
+- Addressed potential zone crashes related to disconnected players and spell processing.
+- Addressed a potential login server crash related to modifying account data.
+- The newest wolves no longer count as birds and will trigger as wolves for Slayer achievements. The kills that were wolves but triggered the bird achievements will be removed from the "Bird Flew," "The Zookeeper," and "Featherbrained Plan" Slayer achievements. These kills will not be added to the equivalent wolf achievements. We apologize for the inconvenience this caused.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: December 8, 2020
+------------------------------
+
+*** Highlights ***
+
+- Claws of Veeshan is now available for anyone that has purchased it.
+- - Velious is overwhelmed with writhing ice. Frozen undead swarm everywhere. The few survivors throw aside old hatreds, for now at least, and band together to survive. The heroes of Norrath arrive to help them, but they have not discovered the source of the deadly ice. The remaining giants of Kael Drakkel, now more able to move around their city, carve a tunnel out to the Cobalt Scar. It is time for the bravest heroes of Norrath to challenge the dragons of Velious and put an end to the deadly magic that has tormented the citizens of the continent.
+- - Rise to the challenge! Face the ancient dragons of Velious and bring them to account for their actions!
+- - The Dragon's Hoard is now available. See below for details.
+
+
+*** Quests & Events ***
+
+- Lake-Effect Snow Devils - Updated text to reflect which mob should be killed for credit with the quest.
+- - Fixed an issue with snow dervishes appearing with incorrect names.
+- - Fixed an issue in where players were not getting kill credit for killing snow dervishes in the Great Divide.
+- To Kill a Thel Ereth Ril - Fixed an issue where Alchemist Vaskerin would not give the player the correct item to continue the quest.
+
+
+*** Spells ***
+
+- Monk - Increased the incoming damage modifier for ranks 2 and 3 of Firewalker's Covenant.
+- Necromancer - Increased the maximum level affected by Malevolent Alliance from 110 to 115.
+- Paladin - Increased the maximum level affected by Holy Alliance from 110 to 115.
+- Wizard - Increased the maximum level affected by Self-Combustion Effect from 110 to 115.
+
+
+*** AA ***
+
+- The following Archetype AAs are now collectively called "Battlefield Vengeance":
+- - Return Kick, Frenzied Return Strike, Knight's Return Strike, Hunter's Return Kick, Knave's Return Strike, Warlord's Return Kick, Beastlord's Feral Kick, and Furious Refrain.
+- - Their functionality remains the same.
+
+
+*** NPCs ***
+
+- More windchill sprites can be found in the Eastern Wastes (Torment of Velious).
+- Zeflmin Welikanin can now teleport you to the Torment of Velious version of the Cobalt Scar.
+
+
+*** Miscellaneous ***
+
+- The Dragon's Hoard is now available. To find it, open the bank and click on the Dragon's Hoard button.
+- - This will act as a separate bank for each character and allow you to store additional items.
+- - It can be accessed from any banker in the world on all servers as long as you have purchased the Claws of Veeshan expansion.
+- - This gives you the option to store your items in a list based format that is easily sorted and auto-merges your stacks of items for you.
+- - The cap for each character's Hoard is 100 items for members, 25 items for non-members, and 100 additional items from purchased Dragon's Hoard Slots.
+- - Dragon's Hoard items will only show up in Find Item window searches when the Dragon's Hoard window is open.
+- - Dragon's Hoard items will be listed in /outputfile inventory if it is run when the Dragon's Hoard window is open.
+- - The Dragon's Hoard allows for one additional instance of a lore/lore-group item to be stored, independent of your inventory, similar to the shared bank.
+- Fixed a potential client crash when trying to render lighting on some models.
+- Fixed a potential rare client crash related to chat channels and invalid character data.
+
+
+*** UI ***
+
+- Fixed several potential client crashes related to custom UIs and the Overseer window.
+
+- Added -
+EQUI_DragonHoardWnd.xml
+
+- Changed -
+EQUI.xml
+EQUI_Animations.xml
+EQUI_BankWnd.xml
+EQUI_BigBankWnd.xml
+EQUI_FindItemWnd.xml
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: December 10, 2020
+------------------------------
+
+*** Items ***
+
+- Addressed an issue where raid chests and other NPCs that had more than 10 items in them were not properly allowing for those items to be looted.
+
+
+*** Quests & Events ***
+
+- Aaryonar (mission) - Removed a couple of wandering drakes that could ambush people just as they zoned in.
+- The Call (mission) - Corrected an issue that was preventing the achievements from being awarded properly.
+- The New Brood (raid) - Messaging for Klandicar's Sortilege Strike and Klandicar's Concussion spells will start a little earlier. On a strategy note, one of those starts happening after Klandicar loses a specific amount of HP, and that should really be the warning...
+
+
+*** Collections ***
+
+- Corrected an issue that was preventing collections from spawning in a few Claws of Veeshan zones.
+
+
+*** Miscellaneous ***
+
+- Corrected experience modifiers in the Claws of Veeshan version of Cobalt Scar, The Western Wastes, Skyshrine, and The Temple of Veeshan.
+
+
+*** UI ***
+
+- Fixed some missing strings on the server select screen.
+
+
+- The EverQuest Team 
+
+.....................................................................
