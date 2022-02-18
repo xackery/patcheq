@@ -1,0 +1,1019 @@
+.....................................................................
+
+------------------------------
+Game Update Notes: January 15, 2020
+------------------------------
+
+*** Highlights ***
+
+- Crusader Vraket in the Eastern Wastes is looking for adventurers who are willing to prove their crafting skills and pay tribute to Rallos Zek.
+
+
+*** Items ***
+
+- Corrected an issue where right-clicking the Compressed Banquet Complete Set would cause the item to poof with no reward if you didn't have a top level inventory slot open.
+- Added a range value to Frostbite, Frost Strike, Spruce Berry Bow, and Sparkling Soul Bow.
+- Berserkers can now use Mazicul's Magical Makeup.
+- Velium Infused Gem of Striking now fits in all weapons and Reactive Velium Infused Gem of Striking and Complimentary Velium Infused Gem of Striking now fit in all items that have compatible equip slots.
+- Fixed an issue that prevented the Torment of Velious armor set charms from working correctly.
+- Arctic Ornament is now named Arctic Orb, as it was not actually an Ornament.
+- The cursed items offered by the yearning inhabitants on the 3rd floor of the Tower of Frozen Shadow are now lore and cannot be traded on free trade ruleset servers.
+
+
+*** Collections ***
+
+- Increased the drop rate of collectibles within the Broken Mirror mission 'The Head of the Snake'.
+- Made the following changes to Torment of Velious collections:
+- - All collections should now be acquirable.
+- - The Restlessly Shattered collectibles drop from restless dwarves, giants, and orcs in Eastern Wastes.
+- - The Useless Tools collectibles drop from restless kobolds and Coldain in the Seeking the Sorcerer mission in Velketor's Labyrinth.
+- - Rare NPCs in Kael can now drop collectibles.
+- - Geonids in Crystal Caverns no longer drop spider parts.
+
+
+*** Tradeskills ***
+
+- The tradeskill questline for Torment of Velious is now available.
+
+
+*** Quests & Events ***
+
+- You Can't Go Back Home - Fixed an issue that could cause the Restless Ry'Gorr to not appear if there was already one there. This prevented two people from completing the task at the same time and would make it so that the second person to scoop up Orctooth would not be able to continue the task without stealing the Restless Ry'Gorr from the other player(s).
+- Last of the Storm Boars - Fixed issue that caused pets to sometimes prevent task updates.
+- The Way Back Home - Made the following changes to this quest:
+- - Reduced the experience and coin granted for completing this quest.
+- - The NPC named a restless aged Coldain is no longer unique, which could have prevented her from spawning if multiple groups working on the quest at the same time.
+- - The NPC named a restless aged Coldain now has an undead body type and uses a restless ice visual.
+- Rustbottom, Grinder of Gears - Rustbottom is now immune to stun, mesmerization, charm, etc.
+- Velium Coldain Insignia Ring (8th Ring) - The character that hands in the Marching Orders will now have loot rights for Chief Ry'Gorr.
+- Unfettered Emerald Excellence - Made the following changes:
+- - Unbearable Heat and Magnificent Presence will no longer apply on aura entry. They will only be applied periodically.
+- - In the final phase, suits of armor that spawn will always be of different types.
+- - Added logic to have the suits of armor despawn themselves if the raid has been completed.
+- - Reordered the logic for an Elemental Incompatibility penalty so that the messaging occurs before the penalty spell is applied.
+- - When the Mark of <type> buffs indicating which wing is safe are applied, all characters will also receive a buff that blocks up to 3 applications of Steaming Stone Scorch.
+
+
+*** Spells ***
+
+- Scribing a new rank of a spell will now try to auto-memorize the spell for you.
+- Scribing reward set spells will always close your spellbook if updating your memorized spell list.
+- Damaging Aura spells now report last hit damage to players who did not receive kill credit.
+- Elemental Minion III will now summon the intended pet.
+
+
+*** AA ***
+
+- All - Fixed numerous description errors.
+- All - Fixed an issue where Glyphs were unavailable at levels 69, 84, 99, and 114.
+- All - Adjusted the levels that ranks 11-12 of each classes' Synergy ability can be purchased to match the required level of the spell or combat ability that triggers the ability.
+- Bard - Improved the duration extension of all ranks of Selo's Sonata from 2 to 5 minutes.
+- Beastlord - Improved the resist modifier for ranks 11-18 and 23-28 of Raven's Claw and Gorilla Smash.
+- Berserker - Changed Binding Axe to trigger Lingering Wound when fading for any reason rather than only when fading to duration.
+- Enchanter - Updated all ranks of Tashan's Lingering Cry to focus spells up to level 115.
+- Enchanter - Self Stasis will now count down in buff-held zones.
+- Enchanter - Changed the spell landed message on all ranks of Mental Contortion to differ from the Mind Shatter spell line.
+- Enchanter - Changed the spell worn off messages for all ranks of Chromatic Haze and Gift of Chromatic Haze to be more unique.
+- Magician - Updated all ranks of Steel Vengeance to include Shock of Burning Steel.
+- Magician - Updated ranks 5-6 of Flames of Power to include Chaotic Pyroclasm.
+- Necromancer - Updated all ranks of Funeral Pyre to focus spells up to level 115.
+- Paladin - Fixed an issue where the duration of Inquisitor's Judgment ranks 16+ was less than intended.
+- Rogue - Fixed ranks 7-8 of Focus: Exuberant Dagger-Throw to properly include Powerful Dagger-Throw.
+- Shadowknight - Updated all ranks of Focused Bites to include Vulak's Bite.
+- Shadowknight - Fixed an issue where the duration of Veil of Darkness ranks 2+ was less than was intended.
+- Shaman - Inconspicuous Totem will now count down in buff-held zones.
+- Warrior - Improved the resist modifier for all ranks of Gut Punch and Gut Punch Strike.
+- Wizard - Updated ranks 3+ of Trifurcating Magic to allow Cryomancy to overwrite Arcane Disjunction Aura Effect.
+
+
+*** NPCs ***
+
+- Corrected an issue where pets and mounts could be left behind when their owner left the zone.
+- Re-tuned rare spawns throughout Torment of Velious to address some that were spawning too frequently or too rarely.
+- Zombies in Torment of Velious Great Divide now use newer zombie models.
+- Thosgromri, and other rare creatures in Torment of Velious, will no longer equip the weapon augment Arctic Ornament and use it as a makeshift blender.
+- Fixed a problem with some gargoyles in Velketor's Labyrinth that caused them to have a low chance to land attacks.
+- Removed a rare that was spawning in the Kael Drakkel instance erroneously.
+
+
+*** Progression Servers ***
+
+- Guild teleport merchants will no longer sell Brilliant Frigid Gemstone until Torment of Velious unlocks.
+- Veteran Reward AA abilities have been updated for progression servers to more closely reflect the timeline of their introduction.
+- - The ability to claim Veteran Rewards on a character has been moved from Gates of Discord to Dragons of Norrath.
+- - Abilities for years 1-7 (Lesson of the Devoted, Infusion of the Faithful, Chaotic Jester, Expedient Recovery, Steadfast Servant, Staunch Recovery, and Intensity of the Resolute) will now be usable starting with the release of Dragons of Norrath.
+- - The 8th year ability, Throne of Heroes, will be usable with the release of Prophecy of Ro.
+- - The 9th year ability, Armor of Experience, will be usable with the release of The Buried Sea.
+- - The 10th year ability, Summon Resupply Agent, will be usable with the release of Secrets of Faydwer.
+- - The 11th year ability, Summon Clockwork Banker, will be usable with the release of Seeds of Destruction.
+- - The 12th year ability, Summon Permutation Peddler, will be usable with the release of Underfoot.
+- - The 13th year ability, Summon Tribute Master, will be usable with the release of House of Thule.
+- - The 14th year ability, Blessing of the Devoted, will be usable with the release of Veil of Alaris.
+
+
+*** Miscellaneous ***
+
+- Special locations that allow the use of Bind Affinity on melee classes will now display a message when entering and exiting their boundaries.
+- Addressed an issue that would cause the client to appear hung when it should have just closed due to graphics issues.
+- Achievement links in tells now log correctly.
+- Corrected an issue where Heroic Characters would not always have their AAs auto-granted.
+- Added achievements for reaching level 115 skill caps.
+
+
+*** UI ***
+
+- Corrected an issue where the AA window wouldn't always update if Can Purchase was enabled.
+- Corrected an issue where critical nukes caused by the innate wizard critical hit chance were not reported as critical hits.
+
+
+- Changed -
+EQUI_GroupSearchWnd.xml
+
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: February 11, 2020
+------------------------------
+
+*** Highlights ***
+
+- Modified the Restless Ice spell cast by many creatures in Torment of Velious. Restless Ice is no longer recast when it wears off. Now when Restless Ice wears off it leaves behind Restless Ice Infection, which can be cured with a disease cure.
+- Three merchants have appeared in Eastern Wastes, selling augmentations for your spells from Torment of Velious.
+- Addressed a world stability issue related to raids.
+- Detrimental spells displayed in the target window will now have a yellow border around their icon if you are the caster of that spell.
+
+
+*** Items ***
+
+- Removed mana, mana regeneration, and clairvoyance from Righteous Assaulter's Earring of Rallos Zek, Blooded Righteous Assaulter's Earring of Rallos, and Endowed Assaulter's Earring of Rallos Zek.
+- Improved the proc rate of Forceful Shout on Dreadstone Guardian's Blade and Possessed Dreadstone Guardian's Blade.
+- Rallos Zek Devotee's Assault, Rallos Zek Devotee's Stealth, Rallos Zek Devotee's Strategy, and Rallos Zek Devotee's Fortification will only fit in type 19 augmentation slots.
+- Rallos Zek Devotee's Strategy now has the intended mana and endurance.
+- Updated the descriptions for Rallos Zek Acolyte's Casting Ice, Rallos Zek Acolyte's Protecting Ice, Rallos Zek Acolyte's Warding Ice, Rallos Zek Devotee's Casting Ice, Rallos Zek Devotee's Protecting Ice, and Rallos Zek Devotee's Warding Ice to indicate they work with cold (or all) spells, not fire.
+- Increased the base damage of Orc Herbalist Staff, Golden Reinforced Brawl Stick, Blizzent's Rod of Wintry Fever, and Thunder Snow.
+- Updated type 18 and 19 augments to fit into any armor slot, most notably earrings.
+- Added the appropriate focus to Icebound Mindlock Wristguard.
+- The Torment of Velious charms will increase in stats as you complete the elements each one requires. For real this time.
+- Fixed an issue where Explorer of Torment of Velious did not count for granting Journeyman's Speed via the Journeyman's Compass.
+- Adjusted the skill damage mod on Velium infused gear.
+- Added Attack, HP regeneration, and mana regeneration to Torment of Velious Type 7 augments.
+- Ry`Gorr Parley Totem, Velium Wood Chisel, and Marrow Hardened Etching Tool are now place-able.
+- Velium Spear Ornamentation will display its graphics in two-handed weapons. You will need to remove and re-socket this ornament for it to update.
+- Increased the amount of coin on Torment of Velious NPCs.
+- Created new instruments for bards and added them to a few rare Torment of Velious NPCs.
+- Corrected several items that were marked No Trade on Firiona Vie and Brekt.
+- Reworked racial drops in Omens of War so that higher tier drops are always associated with higher level NPCs.
+- Updated several Snowbound armor icons to better match what they look like.
+- Fixed several typos in the names and descriptions of Torment of Velious items.
+- Corrected items and recipe names with incorrect hyphenation and capitalization of Half-Moon.
+- Fixed incorrect lore on fourteen Faded Velium Weapon containers.
+- Fixed a typo in the lore of Chisel Set.
+- Servan't Belt is now Servant's Belt.
+- The Mount Key Ring feature is now available to all players starting with Shadows of Luclin. Additional Mount Key Ring Slots are now visible to all players in the Marketplace.
+- Elemental Minion V will now summon a swarm pet as intended.
+- Updated the name of the proc effect on the spell Potion - Restless Focus to Restless Strike.
+
+
+*** Tradeskills ***
+
+- The Evergreen Leaf spawn locations in Greater Faydark have been spread out so that they are less predictable. The leaves are now much larger and easier to see against the ground.
+- Created a recipe to make Myrmidon's Sloth XIX with Torment of Velious components.
+- Changed the poison used in the Faded Velium Injection Dagger recipe to Bite of the Shissar XX.
+- Updated the recipe for Faded Velium War Hammer to better represent a hammer instead of a sword. It is also now fletching instead of smithing.
+- Increased the drop rate of Velium Laced Nigriventer Venom.
+- Corrected the typo in the Torment of Velious fish dressing recipe for Velious Angel Fish.
+- Wurms and kodiaks in Torment of Velious will drop Velium Infused Pelts.
+- Changed the paper used by recipes Song: Pulse of Salarra Rk. II and Scroll: Word of Renewal Rk. II to Rough Sortilege Sheet.
+- Imbued Black Sapphire Silver Necklace is no longer an auto-learned recipe. This will allow it to count towards a skill of 350.
+- All Aneuk NPCs in Omens of War now have a chance to drop an Aneuk Eye.
+
+
+*** Quests & Events ***
+
+- Servant of the Sleeper - Velium Sentries will drop Construct Binding Gel even if the raid has a loot lockout.
+- Restless Assault (Mission) - Added wurms, tizmak, and Coldain (of the restless variety) to the zone. These creatures will drop collection items.
+- Griklor the Restless (Raid and Mission) - Slightly altered the speed of flight and path of Griklor's mount to require more effort to bring him to ground.
+- Griklor the Restless (Raid and Mission) - Griklor will now clear all buffs before he gets on his mount. This is intended to fix the issue where Griklor does not get on his mount when he should, which might be caused by his reaching his buff limit. This should also fix reports that he can die while on that mount, causing the event to break.
+- Griklor the Restless (Mission) - Made the following changes changes to this event:
+- - The message that occurs when Griklor's mount is killed will now show up in the chat window.
+- - Griklor will now stay on the ground after being brought down for at least 10 seconds.
+- - Chilling Sleet will stop once Griklor is killed.
+- Restless Assault, Icebound Avatar, and Seeking the Sorcerer (Missions) - The corpses of the bosses in these events will no longer disappear upon success of the event.
+- The Morale of Despair - You can no longer get credit for killing 'those that have come back' by clicking the mirror to the mirror room.
+- Nature Walker's Scimitar (Druid Epic 1.0) / Swiftwind and Earthcaller (Ranger Epic 1.0) - The Dark Elf Corruptor and Dark Elf Reavers will now be loot locked to the character that hands in the Braided Grass Amulet to Teloa.
+- Ashengate North raids - Lethar's AEs will no longer hit Veldyn and vice versa.
+- Fibblebrap 1-5: Bellfast should now offer the appropriate Fibblebrap tasks.
+- Dragons of Norrath raids - Hostile NPCs in these raids will stop spawning once the raid has been successfully completed.
+- To be consistent with other mercenary tasks, Restless Orc Syndrome, Glacial Apophysis, and Invisible Complement no longer offer experience.
+- Last of the Storm Boars - Enemies will now remain for 20 minutes before leaving. Also, if you speak with Yealdin and ask to try again, he will reset all aspects of the encounter at the bridge.
+- Anniversary Fabled - Made the following changes to fabled:
+- - Fixed a bug that prevented some fabled NPCs from using the correct stats.
+- - Fixed a bug that prevented some fabled NPCs from applying their new spell innates.
+- - Fixed a bug that could allow some Planes of Power fabled NPCs to spawn multiples simultaneously.
+- - Fixed a bug that caused NPCs that failed to become fabled to heal to full HP every tick while idle as if they were fabled.
+- - Fixed a bug that prevented NPCs in some Agent of Change instances from becoming fabled.
+
+
+*** Spells ***
+
+- Three merchants have appeared in Eastern Wastes, selling augmentations for your spells from Torment of Velious.
+- Scribing a new rank of a combat ability will now update the corresponding hotkeys in your hotbars and your Combat Ability Window.
+- Fixed a bug that caused some lifetap spells to return less HP than was intended.
+- - This primarily impacted the Necromancer and Shadowknight pets' Spectral Lifetap spells.
+- Increased the damage of Bite of the Shissar Poison Strike XII which increases the damage of the normal and consigned version of Bite of the Shissar XX poison.
+- Druid and Magician - Modified descriptions of the Exterminate the Unnatural spell line to indicate that the spells will also work on constructs.
+- Druid and Magician - Annihilate the Divergent will now deal more damage when Annihilate Havoc is triggered.
+- Druid and Magician - Eradicate the Unnatural will now deal more damage when Eradicate Destruction is triggered.
+- Cleric - Fixed an issue that caused Purified Ground to fail to cast.
+- Druid - Fixed an issue that caused Icerend Aura to fail to cast.
+- Bard - Increased the base duration of Song of the Dryads, Requiem for the Lost, and Requiem for the Dead to one minute.
+- Magician - Increased the base duration of the Searing Skin line of damage shields to one minute.
+- Necromancer - Increased the base duration of the Necrotize Ally line now to one minute.
+- Wizard - Corrected a bug that caused the Secrets of Faydwer item Irae Faycite Shard: Pure Wildmagic to focus the incorrect spell.
+
+
+*** AA ***
+
+- The AA Ability Window's Buy All button now works as expected when purchasing abilities that have a cost of 0.
+- Removed an additional 'a' in the spell landed message for Gift of Mana (115) to ensure uniformity between all ranks of the spell.
+
+
+*** NPCs ***
+
+- Modified the Restless Ice spell cast by many creatures in Torment of Velious. Restless Ice is no longer recast when it wears off. Now when Restless Ice wears off it leaves behind Restless Ice Infection, which can be cured with a disease cure.
+- Updated body types for NPCs in Torment of Velious zones so that they are more consistent.
+- Updated see through invisibility and see through invisibility to undead for NPCs in Torment of Velious zones so that they are correct for their body type(s). This change means that several NPCs that could see through all kinds of invisibility will no longer be able to do so.
+- The shipwright in Nedaria who was hopelessly lost under the world for 16 years has found his way back to the docks.
+- Fixed an issue in Eastern Wastes where some roaming NPCs could spawn under the world.
+- Eldervine the Twisted in Fortress Mechanotus will now cast Mind Numb on his target and not himself.
+- The windchill sprites in Great Divide have returned to their winter home.
+- Fixed an issue where elite drolvargs were spawning on the first floor of The Tower of Frozen Shadow. Also fixed an issue where the NPCs that drop the key to the second floor were spawning on the sixth floor.
+- Made it clearer which NPCs are placeholders for rare NPCs in Eastern Wastes and Great Divide.
+- Reduced the damage done by Drake Fireball, the spell cast by the drakes in Skyfire Mountains.
+- Yealdin, beloved resident of Kael Drakkel, will no longer attack the undead giants and vice versa.
+- Corrected some of Crusader Vraket's grammar and spelling.
+
+
+*** Mercenaries ***
+
+- The mercenary Auto Assist toggle button will no longer default to on after changing zones.
+- Reduced the amount of experience required per Mercenary AA for levels 112 to 116.
+- Corrected an issue where caster mercenaries would not equip an earring, resulting in less stats and damage than was intended.
+- The caster DPS mercenary will now choose spells more appropriate to its level.
+
+
+*** Collections ***
+
+- Moved an out of bounds collection spawn point in Velketor's Labyrinth to be reachable.
+
+
+*** Progression Servers ***
+
+- Reduced the standard expansion unlock time for Lost Dungeons of Norrath from twelve weeks to eight weeks.
+- Players can now forage dragon crystals in Skyfire Mountains when Luclin opens.
+- All of the spiroc and pegasus (-es-esses) in the Plane of Sky will now spawn in the Agent of Change instance of this zone.
+- Corrected the eras for some global tradeskill drops. In most cases, this made them available earlier, but level 75 and 80 drops are available later.
+
+*** Miscellaneous ***
+
+- Increased the Personal tribute cap to 2,500,000.
+- Increased the Guild tribute cap to 20,000,000.
+- Fixed an area in Velketor's Labyrinth where you could get stuck in a gap between the floor and a wall.
+- Many Call of the Forsaken and The Darkened Sea zones now have load balancing enabled.
+- Corrected issues with logging into the server select screen after being disconnected for going idle, and leaving the character select screen.
+- Fixed an issue that caused raid member notes and raid MotDs to not update.
+- Addressed a world stability issue related to raids.
+- Fixed a bug that caused pick zones to spam players every second that the zone was shutting down.
+- Added an achievement for the Torment of Velious long tradeskill quest.
+- It will no longer snow in the Torment of Velious version of Tower of Frozen Shadow.
+- Removed the achievements for Lyricist's Casting Proficiency, Level 110 and Lyricist's Casting Proficiency, Level 115.
+- Addressed an issue where characters and objects were not properly handling fog and would not match the environment in older zones.
+- Fixed some incorrect audio on the Pridewing mount. Most notably, it will no longer sound like splashing water when turning to the right.
+
+
+*** UI ***
+
+- Detrimental spells displayed in the target window will now have a yellow border around their icon if you are the caster of that spell.
+- Added Besieged Citizens of Froststone and Besieged Crystal Denizens to the faction window.
+- Fixed the main cause for guild names displaying as Unknown Guild after first entering a zone.
+- Fixed an issue that could cause a player's guild tag to display as empty.
+- The copy layout command now copies chat filter and chat window settings.
+- Modified the Manage Loot Window to use the value in the quantity box instead of the default slider value.
+- Adjusted the position of the scrolling banner on the login server chat screen to not overlap buttons.
+- Added the count of active quests to the Quest Journal.
+
+- Changed -
+EQUI_OverseerWnd.xml
+EQUI_TaskWnd.xml
+EQUI_Templates.xml
+
+
+*** Previously Updated ***
+
+- Task Cap Increase is no longer for sale in the Marketplace.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: February 14, 2020
+------------------------------
+
+*** Items ***
+
+- Corrected the AC and endurance valus and of Lute of the Wanderer, Horn of the Stormcaller, Flute of the Siren, and Drums of the Warlord.
+
+
+*** Quests & Events ***
+
+- Tower of Frozen Shadow progression - The large frost-bitten gnoll can again be found on the first floor. The shadow beast necromancer can again be found on the sixth floor.
+- Griklor the Restless (Raid and Mission) - Fixed issue that was causing Griklor to suddenly go to full health when on his mount.
+- Griklor the Restless (Mission) - Griklor will stop getting on his mount once below 30% health. This should fix the issue that could cause him to get stuck on his mount and more closely matches the raid event.
+
+
+*** Miscellaneous ***
+
+- Fixed an issue with raid groups disbanding randomly.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: March 11, 2020
+------------------------------
+
+*** Highlights ***
+
+- Become the Overseer! Gain the loyalty of iconic Agents and protect Norrath from the ever-present ripples of Discord. See below for more information.
+- All Access members who log in to EverQuest during our 21st Anniversary Celebration (between March 16th and May 10th) will receive a claimable Heroic Character! This character can only be redeemed once per account.
+- In celebration of EverQuest's 21st anniversary we have made Veteran Reward abilities available to all players! See below for more details.
+
+
+*** Items ***
+
+- You can no longer combine items using tradeskills when any ingredient contains one or more augments.
+- - Note: Worn visible armor items may have hidden power source augments in them. Unequip your power source before you retrieve the worn item in order to remove the hidden augments.
+- Evolving items with the Claim Reward button cannot be claimed until all augments are removed from the item in addition to any other requirements that are present.
+- Added AC to the guild tribute Aura of Preservation 14.
+- The Claim the Item spells attached to various Iksar, Half Elf, and Dark Elf Heritage Crate items no longer have a spell description that suggests that you will receive a familiar.
+- Corrected an issue that prevented high damage 2-handed weapons from dealing their intended damage.
+
+
+*** Tradeskills ***
+
+- The Faded Velium War Hammer recipe will now give the correct product.
+- Crystallized Precious Velium Ore now has a chance to drop in the chest in the missions Seeking the Sorcerer and Icebound Avatar.
+- - Six months after the release of Torment of Velious there will be an additional chance to gain Crystallized Precious Velium Ore from those two missions, as well as the Griklor the Restless and Restless Assault missions.
+
+
+*** Quests And Events ***
+
+- Tower of Frozen Shadow raid events - Made the following changes:
+- - Increased the health and melee damage of all raid NPCs.
+- - Heart of Frozen Shadow - Fixed a bug that caused the 'It's a No Slow from Me, Dog' achievement to always be granted.
+- - Till Death Do Us Part - Added a speculative fix to address reports that sometimes characters successfully spoke to the usher and were assigned a side yet they still received a dancer.
+- - Tserrina Syl`Tor - Fixed a bug that prevented one of Tserrina's mechanics from working in her final phase.
+- - Tserrina Syl`Tor - Reduced lag in this event.
+- - Tserrina Syl`Tor - Tserrina's corpse will no longer move upon success of this raid event. This will hopefully prevent problems with looting the Key of Trauma.
+- All Access members who log in to EverQuest during our 21st Anniversary Celebration (between March 16th and May 10th) will receive a claimable Heroic Character! This character can only be redeemed once per account.
+- New 21st anniversary quests are available! Speak with the Mechanical Fortune Teller in the Plane of Knowledge and she will guide you.
+- New anniversary items are available at the Special Celebratory Goods merchants in the Plane of Knowledge! These new goodies can be purchased with Commemorative Coins.
+
+
+*** Spells ***
+
+- Beastlord - Corrected the name of Griklor's Feralgia.
+- Enchanter - Fixed a bug preventing Omica's Animation from taunting.
+- Magician - Fixed a bug preventing Riotous Servant, Remote Riotous Servant, and Pyroxenite Bodyguard from taunting.
+- Paladin - Concordant Blessing is now available at level 108 from Fairelwil Amsapi, Median Spellbound Lamps, and Median Spellbound Rings.
+- Shadowknight - Fixed a bug preventing Minion of Drendar from taunting.
+- Shaman - Fixed a bug preventing Grondo's Faithful from taunting.
+- Wizard - Fixed a bug where Daveron's Pyroblade and earlier summoned swords were not immune to area damage effects.
+
+
+*** AA ***
+
+- Rogue - Adjusted all ranks of Etherium Strikes to remove stacking conflicts with the Blinding Speed line of disciplines.
+- In celebration of EverQuest's 21st anniversary we have made Veteran Reward abilities available to all players!
+- - The restrictions that limited the number of characters that can activate these abilities have been removed.
+- - The requirement that your account must be active for 1 to 15+ years has been removed.
+- - On progression servers, these abilities will continue to unlock starting with Dragons of Norrath up through Veil of Alaris.
+
+
+*** NPCs ***
+
+- Sporali in Hills of Shade will no longer cast Chattering Bones XXII.
+- Restless Ice Infection now has a longer duration, instead of re-casting itself every six seconds.
+
+
+*** Overseer ***
+
+- Become the Overseer! Gain the loyalty of iconic Agents and protect Norrath from the ever-present ripples of Discord. Send your Agents on harrowing Overseer Quests, into moments spanning the entirety of Norrath's history, and restore balance where you can. Along the way, you'll gain fabulous rewards and grow in power. You may even draw the attention of Norrath's most famous heroes, and perhaps a few particularly nefarious villains. Do you have what it takes to gain the allegiance of Norrath's elite?
+- Access the Overseer interface via the EQ Menu > Quests > Overseer option, or by entering the command /overseer.
+- A mysterious presence in the Plane of Knowledge is interested in the coin gained through Overseer Quests.
+
+
+*** Progression Servers ***
+
+- Fixed the requirements on the door from Drachnid Hive to Dreadspire. Once Secrets of Faydwer has been unlocked for a month, level 70+ characters can access the zone without needing a key.
+
+
+*** Miscellaneous ***
+
+- Added the /shownpcnames command which toggles npc names on and off like the Option Window checkbox.
+- In the guild bank, if you try to set an item to be withdrawable by Single Member and that character doesn't exist, the item will now be set to Public If Usable.
+- - If the character gets deleted or transferred to another server, the permissions for that item will also get set to Public If Usable.
+- Increased the experience bonus for having other players (not mercenaries) in your group.
+- Increased the amount of AA experience you get in groups of 4 or more and raids of 13 or more.
+- Fixed the spelling of the bartender's name on the map in Timorous Deep.
+- Fast Camping can now be done within guild halls.
+- The surname command now allows the use of a second capital letter and a single accent character.
+- Fixed a crash that could occur when trying to shroud while on a mount.
+- Made the following changes to dynamic zone event replay timers:
+- - When zoning into a dynamic zone you will now be given an event replay timer for each event that has been completed since the zone was launched.
+- - You will not be given replay timers for any event that was already completed when the zone was launched.
+- - If you already have an existing replay timer for an event completed since instance launch, your timer will not be modified.
+- - You will receive a warning containing the list of replay timers you will incur upon zoning into the DZ when you are invited to join the DZ.
+- - You will not be able to loot items off of raid bosses or chests associated with the completion of an event if your replay timer was not received from this instance of the DZ.
+- Changed the way Resurrection Sickness works. It no longer reduces stats. It will now increase the cast time of detrimental spells by 10% and decrease your attack speed by 10%. Both of these values will stack with other spells rather than preventing haste or spell haste effects.
+- Changed the way the PvP version of Resurrection Sickness works. The cast time increase and attack speed decrease have the same values, but these effects will stack with other spells rather than preventing haste or spell haste effects.
+- Changed the way Revival Sickness works. It no longer caps mana and endurance at 4000. Instead it caps at 25% and slowly decreases the cap by 1% every 5 levels starting at 50. For example, the cap at level 85 is 18% and the cap at level 115 is 12%.
+- Improved how the guild message of the day is stored.
+- Improved how fellowship member names are stored.
+- Accessing Dreadspire, Meldrath's Mansion, and Crystallos should no longer refuse entry the first time until you wait or relog.
+- Plane of Knowledge is now listed as a destination of type Priest of Discord from Dranik's Scar in the Zone Connection Guide. This will not always be the destination that the Priest of Discord will send you to, but it should be more correct than the guide not showing a way back to Norrath.
+
+
+*** UI ***
+
+- Corrected an issue that prevented weapon ornaments that can be placed in all slashing, blunt, or piercing weapons from displaying their slot restriction information in the item inspect window.
+- If you zone with the Rewards window open, the rewards now display properly, and no longer require you to close and open the window to see the rewards you have pending.
+- Fixed the neighborhood window to always display the name of the guild in the guild plot section.
+- The Quest Journal quest selections will now persist through opening and closing the window and zoning.
+- Rewards that have a stackable item as one of the reward choices will have a number indicating how many of that item you will receive if the amount is greater than 1.
+- Fixed an issue with the Rewards Window where selected rewards could become deselected.
+- You can no longer modify the compensation for items or toggle items on and off while barter buyer mode is on. In order to make modifications you will need to exit barter buyer mode.
+
+
+- Changed -
+EQUI_OverseerWnd.xml
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: March 12, 2020
+------------------------------
+
+*** Items ***
+
+- Potions that change the user into a male Elddar will no longer turn the character into a Doug.
+
+
+*** Quests & Events ***
+
+- Travit Conwil gives reduced experience and will no longer drop global loot.
+
+
+*** Overseer ***
+
+- Fixed an issue with Overseer Conversion Quests accepting lower tier Agents than expected.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: March 18, 2020
+------------------------------
+
+*** Items ***
+
+- A mysterious presence will only sell McKenzie's Brew's when Veil of Alaris is unlocked.
+- You may now only gain one Collection Dispener items from the Overseer system. Also, there are some rewards that only offer a chance at gaining a collection item. The chance is in the name. The rewards that only give a chance offer an amount of Overseer Tetradrachm to make up for the fact that it's only a chance to gain a collection item.
+- Overseer Tetradrachms are no longer trade-able. They are still heirloom.
+- Overseer rewards of Tradeskill items and Collectibles unlock one expansion behind. I.E. The Burning Lands collectibles are available when Torment of Velious unlocks, the Torment of Velious crafting supplies are unavailable until the next expansion unlocks.
+- Increased the price on most items sold for Overseer Tetradrachm.
+- You must be a gold member to choose the collection dispensers, ornament dispensers, or tradeskill items from the overseer rewards. Overseer rewards and other rewards are available to all membership levels.
+- Added all races and classes to the Common Agent Catalyst.
+
+
+*** Quests And Events ***
+
+- Updated the calendar event text and alert text to more correctly describe this year's anniversary events.
+- Tower of Frozen Shadow raid events - Made the following changes:
+- - Heart of Frozen Shadow - Fixed a bug that caused the 'It's a No Slow from Me, Dog' achievement to always be granted. For real this time.
+- - Heart of Frozen Shadow - Fixed a bug that caused many spells to fail to land on drolvarg NPCs and displayed a message that you had failed an achievement when spells did land on them.
+- - Tserrina Syl`Tor - Fixed a bug that prevented one of Tserrina's mechanics from working in her final phase. For real this time.
+- - Tserrina Syl`Tor - Moved the key from Tserrina to the reward chest.
+- Fixed issues with Discuit's dialogues that allowed players to skip parts of his quest.
+- Due to an error in the expected and announced launch day of Torment of Velious tier 3 raids, we have decided to open them in mid-April to allow everyone to be ready.
+
+
+*** Miscellaneous ***
+- Corrected an issue preventing some players from receiving the tutorial Overseer Agent if they had received any Agents prior to opening the Overseer window for the first time.
+- Modified the success and fail chances of Overseer quests to succeed more often.
+- Fixed a timing issue that could cause dates measured across Daylight Savings Time changes to be off by one.
+
+
+*** UI ***
+- Modified the default width of the Overseer window so that you can select agents on smaller screens.
+
+
+- Changed -
+EQUI_OverseerWnd.xml
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: March 19, 2020
+------------------------------
+
+*** Overseer ***
+
+- Restricted Agent selection for Overseer Conversion Quests to be exactly the rarity specified. You will need to re-patch your game client.
+- Iconic Overseer Recruitment Quests now give correct rewards for critical success.
+- Uncommon Overseer Recovery Quests now correctly recover incapacitated Agents.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: April 15, 2020
+------------------------------
+
+*** Highlights ***
+
+- Shadowknight - Your Damage over Time spells at or above level 71 have been adjusted so that they no longer stack with themselves, but now do more damage and cost more mana.
+- NPCs (except for mercenaries) now display all 97 of their buffs and debuffs in the target window
+
+
+*** Items ***
+
+- Hidden augments will no longer block tradeskill combines or reward set claims. This fixes two issues: First, the Burning Lands evolving items with purity have hidden augments for the power source, and these would block the upgrade rewards. Second, some classes had hidden augments in the Underfoot Prayer shawl, preventing the combine to upgrade.
+- All standard collectible items have been flagged Attunable.
+- Increased the effectiveness and reduced the recast time of Fancy Feast and Mom's Love.
+- Reduced the price of Crystallized Luck on the loyalty merchants.
+- Fixed an issue where Torment of Velious necklaces didn't grant the AAs or the phantom buff.
+- Fixed the lore text on several items that had "&CHAR(34)&" instead of a double quote.
+- Removed the Tradeskill flag from Restless Giant Skull.
+- Created Tempus Faycite Shard: Heron Stance and placed it with other melee augments on Peret Mykland in Eastern Wastes (Torment of Velious).
+- Fixed the spell description on Guardian's Bravery on Gladiator's Plate Chestguard of War.
+
+
+*** Tradeskills ***
+
+- When using a Draught of the Craftsman or other effect that increases your salvage chance to 100% or greater, you can no longer receive an 'unexpected product' upon failure; however it is still possible to receive an 'alternate product' upon failure.
+- Removed the Quest flag from the Torment of Velious tradeskill books.
+- Added the Tradeskill flag to: Fermented Restless Bone Marrow, Marrow Hardened Etching Tool, Powdered Velium and Platinum, Velium and Platinum Filter, Filtered Velium and Platinum, Velium and Platinum with Wood Primer, Dried Velium and Platinum, Desiccated Velium and Platinum, Purified Velium-Platinum Bar, and Anointed Purified Velium-Platinum Bar.
+- Altered Talem Tucter's text so that he tells players to speak with Loremaster Solstrin to continue the shawl quest line.
+
+
+*** Quests And Events ***
+
+- Servant of the Sleeper - Reduced the aggro range of a velium sentry. The awareness range is unchanged, so its reaction to ranged damage is as before.
+- Servant of the Sleeper - Added a sound effect when this raid sets up.
+- End the Return - Fixed an issue where an incorrect Z bounding volume was being checked, preventing task completion.
+- Raid events from Veil of Alaris and later will now grant more currency after they have been open for 3, 6, and 9 months on live servers. On Progression Servers these events will grant more currency as soon as the expansion unlocks, and add additional bonuses after each of the next two expansions unlock or at 3 month intervals, whichever is faster.
+- A Formal Dinner Party - Capped the scaling of the mission to level 110.
+- Seeking the Sorcerer (Mission) - The mission is now restricted to a maximum of six characters.
+- The Handmaiden - Changed the requirements for staying on the pedestal. If the ritualist character (the one with the skull and baton) falls through the pedestal, they will no longer trigger a failure.
+- Tudor's Ale - Liviu now has a helper named Nicoli, who can help create the ale for this quest.
+- Fixed some script errors in several old quests and events.
+- Tower of Frozen Shadow progression - Handing in an item correctly for the yearning NPC puzzle on the 3rd floor now indicates how many steps you've completed and how many are left to go.
+- Tower of Frozen Shadow progression - The mirror on the 8th floor will now teleport the user to the entrance of the 7th floor. No key is required to use the 8th floor mirror.
+- Made the following changes to the Tower of Frozen Shadow raids:
+- - Heart of Frozen Shadow - The Heart of Frozen Shadow will now gain health when the wrong type of monster is slain.
+- - Heart of Frozen Shadow - The limitation on killing type of monsters (10 specters and 25 drolvargs / skeletons) to reduce the Heart of Frozen Shadow's health is now being enforced correctly.
+- - Heart of Frozen Shadow - The amount of cold status decay that occurs during the middle phases of the fight are now variable, rather than static.
+- - Till Death Do Us Part - Relaxed the bounding volume requirements in the pool of blood slightly for the Bad Blood achievement.
+- - Till Death Do Us Part and Tserrina Syl`Tor - Fixed some logic bugs that affected how frequently the NPCs would cast their spells.
+
+
+*** Spells ***
+
+- Necromancer - Corrected a bug in the spell description for Incite Ally.
+- Shadowknight - Your Damage over Time spells at or above level 71 have been adjusted so that they no longer stack with themselves, but now do more damage and cost more mana.
+- Shadowknight - The Bond of Inruku line starting at level 66 has been modified to use resource taps rather than a separate recourse spell to return health to you. Lower level spells were not changed.
+
+
+*** AA ***
+
+- Bard - Corrected an issue where rank 3 of Shauri's Sonorous Clouding would not consistently trigger Shauri's Deathly Clouding for all group members.
+
+
+*** NPCs ***
+
+- Rares will now spawn properly in Mearatas pick zones.
+- A minotaur miner will no longer spawn under the world in Dragonscale Hills.
+- It is no longer valuable to kill the living giants in Kael (Torment of Velious).
+- Zrelik and Horasug have traded spots.
+- Algot will no longer cast Algot's Impalement on himself.
+- The swarm pets summoned by Sporali in Hills of Shade no longer proc deadly spells.
+- The vicarum vitai halflings in Arx Mentis will no longer spawn as tall as giants.
+
+
+*** Mercenaries ***
+
+- When purchasing a mercenary the list of available mercenaries will include the mercenary type in addition to the mercenary tier. Additionally, the list is now sorted by type, then tier, and then if it requires a membership level.
+- Level 111+ 'player race' mercenaries should now equip weapons.
+
+
+*** Overseer ***
+
+- Collectible items granted by the Overseer Collection Item Dispenser are now attuned to the user (made No Trade) when claimed.
+- Reduced the prices on the Overseer merchant for all items except for the Common Agent Catalyst and Crystallized Luck, which had their prices increased.
+- Restricted the lesser coin reward that comes with some of the Overseer Collection Item Dispensers so they are also hidden on Free accounts to avoid confusion.
+- The percentage chance Overseer Collection Item Dispensers are now fragments. Click on one, if you have at least four fragments, to make a single normal (100% chance) Overseer Collection Item Dispenser.
+- - If you have one of the old percent chance dispensers, they will have a name change and you can right-click them to convert them to fragments.
+- Fixed errors in collections offered by the Overseer Collection Item Dispenser.
+- - Crypt of Decay collectibles are no longer offered in The Darkened Sea, as Crypt of decay collectibles are already in the Broken Mirror set.
+- - Added Velketor's Labyrinth to the Torment of Velious set and moved the collections that were in the incorrect zone.
+- - Added the Dispenser to all sets so that if you get a set that you cannot claim, you have a fallback.
+- Added player requested ornaments to the Overseer merchant in Plane of Knowledge.
+- Overseer Quests no longer have duplicate Traits.
+- Overseer Quests no longer have Negative Traits that conflict with or match Bonus Traits
+- Overseer Quests no longer have Negative Traits with bad icons.
+- Overseer Quest rewards for all Tutorial and Conversion quests are now auto-claimed when the quests are completed.
+- When receiving, converting, or retiring Overseer Agents, the full Agent name will now be displayed in the chat instead of the Agent's shortened name.
+- Corrected an issue where random Agent rewards excluded a single Agent from the qualifying list.
+- Corrected an issue where Overseer Recovery quests were not being offered.
+- Corrected an issue where Overseer Quests rotated multiple times within a few minutes.
+- Fixed an issue where an incapacitated Overseer Agent would sometimes show the incorrect time remaining. This also fixes Agent Slots on offered quests displaying the wrong incapacitation duration.
+- Altered the display of mercenary experience granted by the Overseer system. It was displaying more than it was giving, but it was giving the correct amount.
+- Corrected an issue that prevented Conversion quests from being reassigned after completion.
+
+
+*** Miscellaneous ***
+
+- Added a message explaining what happens when players try to accept a raid invite while the raid is locked.
+- Fixed an issue where if an account had certain characters in their name, the account could not log in.
+- Buyers may now only have one active buy line per item. When activating buyer mode in the bazaar, duplicate buy lines will be disabled and only the buy line that offers the highest amount of platinum and the highest quantity of items will remain active.
+- Renamed the /hideafk command to /hidemodels.
+- Added options to hide all players, pets, or mercenaries, even if they are not AFK. Group and raid marked targets will not be hidden.
+- Made the following changes to /inspectbuffs:
+- - Added caster name and spell duration in hours, minutes, and seconds.
+- - Added an /inspectbuffs mine option which only displays buffs or debuffs cast by you.
+- You will now see a warning when entering the channel server at server select if your displayed chat name matches your account name that encourages you to use the #rename command.
+- - The displayed chat name for newly created accounts will now default to a randomly generated username rather than your account name.
+- The following internal storage changes were made.
+- - Made improvements to how zone names of other fellowship members are stored.
+- - Improved how character names are stored.
+- - Made changes to how player housing stores items.
+
+
+*** UI ***
+
+- The Link All option when looting now separates items with a vertical bar instead of a comma.
+- Fixed an issue where if the guild's MOTD author changed their name, the message would still display the old name.
+- Corrected an issue where NPC feign death failures were displaying extra characters in the name.
+- Corrected an issue where damage from NPC auras was displaying extra characters in the caster's name.
+- Corrected an issue where healing from wards was not being displayed.
+- Buffs that absorb incoming damage from your mana or endurance pool will now message the amount of endurance or mana drained in addition to the amount of damage absorbed.
+- NPCs (except for mercenaries) now display all 97 of their buffs and debuffs in the target window.
+
+
+- Changed -
+EQUI_MercenaryMerchantWnd.xml
+EQUI_OptionsWindow.xml
+
+
+*** Previously Updated ***
+
+- Potions that change the user into a male Elddar will no longer turn the character into a Doug.
+- Travit Conwil gives reduced experience and will no longer drop global loot.
+- Fixed an issue with Overseer Conversion Quests accepting lower tier Agents than expected.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: April 22, 2020
+------------------------------
+
+*** Items ***
+
+- Restored the missing visuals of the troll heritage armor ornaments.
+
+
+*** Quests And Events ***
+
+- Seeking the Sorcerer (Mission) - Mercenaries are allowed in this mission.
+- Seeking the Sorcerer and Kael raid (ToV) - fixed issues with the basic population of the zone. They are now of the proper difficulty and will also drop the right rewards.
+- Made the following changes to the Tower of Frozen Shadow raids:
+- - Heart of Frozen Shadow - Relaxed the limitation on killing type of monsters to reduce the Heart of Frozen Shadow's health. Up to 60% of the heart's HP reduction can come from specters and up to 70% from skeletons / drolvargs.
+- - Heart of Frozen Shadow - Fixed the bug that caused the deaths of the drolvargs to behave as if they were a specter.
+- - Heart of Frozen Shadow - Reduced the health of the restless ice skeletons / drolvargs.
+- - Heart of Frozen Shadow - Increased the health of the non-restless ice skeletons / drolvargs / specters.
+- - Heart of Frozen Shadow - Increased how frequently the controller checks to see if it's time to spawn more adds.
+- - Heart of Frozen Shadow - Increased how many skeletons or drolvargs spawn.
+- - Heart of Frozen Shadow - Lower level slows and AA cast slows will now land on the drolvargs.
+- - Heart of Frozen Shadow - Reduced the magic resistance of the drolvargs.
+- A Different Perspective - Killing Vhal`Sera will update the step to Unlock the way to the seventh floor.
+
+
+*** Miscellaneous ***
+
+- Restored the missing Aradune Memorial stone.
+
+- The EverQuest Team
+
+.....................................................................
+
+------------------------------
+Game Update Notes: May 20, 2020
+------------------------------
+
+*** Highlights ***
+
+- Consolidated fire, poison, and disease-based Necromancer Damage Over Time spells. See the Spells section below for details.
+- Look to the Marketplace this month for the Human Heritage Crate.
+- Made multiple changes to mercenaries. See the Mercenaries section for details.
+
+
+*** Items ***
+
+- Corrected an issue that prevented weapon ornaments that are intended to fit into 1-handed blunt and hand-to-hand weapons from fitting into hand-to-hand weapons.
+- Look to the Marketplace this month for the Human Heritage Crate. Each crate contains a random item. Trade these Human Heritage items to your friends or collect them all yourself!
+- Updated the spells on Godshard and Velium Enhanced Athame to the proper rank.
+- You can again see the achievements for Thaell Ew Hero's Forge armor sets.
+
+
+*** Tradeskills ***
+
+- Fixed an issue where Ability: Enchant Celestial Platinum (x10) and Ability: Enchant Refined Velium (x10) allowed players to click the items before the appropriate expansion was unlocked.
+- Removed the tradeskill flag from Shattered Crystal, Emerald Colored Mephit Scales, Fiery Granite, Solidified Magma, Tormentor's Hoof, Alabaster Beak, Ivory Stormrider Canine, Stormwatchers Stone, Putrid Ooze, Large Shard of Stone, Foul Smelling Liquid, Enforcer Stone, Grallok Quartz, and Living Coal.
+- Added the Planing Tool to the failure returns for Alliance Longbow.
+
+
+*** Quests & Events ***
+
+- Dynamic zone lockouts should no longer double if you're offline when the lockout is given.
+- The banshee essences needed for Deafening Quietus will no longer drop from Orfur, Priest of Zek in the Great Divide (ToV).
+- Seeking the Sorcerer (Mission) - Fixed an issue that would cause Bled Enraged to remain up if the event reset.
+- Several missions will now allow placement of and teleportation to campfires that did not before. There should be very few that do not.
+- Basepop in the Torment of Velious raid instances will now summon.
+- The Handmaiden - Fixed an issue that could cause the fanatics to fail to defend the statue.
+- Beyond the Barrier and Exploring Crystallos - Made the following changes to these linked quests:
+- - Completing Exploring Crystallos and then dropping Beyond the Barrier will no longer prevent the completion of Beyond the Barrier.
+- - If you are on the step to Explore Crystallos, hailing Laiyken should now always give you the Exploring Crystallos task and/or the Master Crystal Base, if you do not have them.
+- - It is no longer necessary to hail Laiyken twice, once to update the task and again to receive items and the sub-task. One hail should suffice.
+- - If you hail Laiyken but are missing necessary items, he will now tell you what you are missing.
+- When leaving the Seeking the Sorcerer and Restless Assault instances, characters will exit near where they entered.
+- Raid bosses in the Secrets of Faydwer can no longer be affected by knock back effects.
+- Added a Fragment of Legendary Alaran History as a reward for some Shard's Landing and Heart of Fear quests and missions.
+- Plane of Hate and Plane of Fear Revisited - NPC stats at max level should closely match their values when this content originally released.
+- Heart of Frozen Shadow - Made the following changes to this raid:
+- - Removed the per-type kill limitation. Now killing a restless ice NPC will always reduce the Heart of Frozen Shadow's health.
+- - Killing a restless ice drolvarg will deal 3% damage to the Heart of Frozen Shadow's health, up from 2%.
+- - Reduced the health of the restless ice skeletons and restless ice drolvargs. Increased the health of the restless ice specters.
+- - Reduced the melee damage done by the non-restless ice skeletons and non-restless ice drolvargs.
+- - Drolvargs and skeletons are rogues instead of warriors now and therefore will no longer shield each other.
+- - Non-restless ice drolvargs and non-restless ice skeletons will no longer take damage from damage shields.
+- - Non-restless NPCs will now depop much more quickly. Note that the drolvargs and skeletons must be aggro to have a chance to depop.
+- - Initial spawns are guaranteed not to be in the same room. Further spawns will rotate between different types of NPCs and on alternating east and west sides of the floor.
+- - Drolvargs and skeletons will no longer spawn two at a time.
+- - The check to see if more NPCs should spawn will occur more frequently.
+- - It's no longer possible for two drolvargs / skeletons to spawn on the same spot.
+- - It's more likely that spawned specters will be restless.
+
+
+*** Spells ***
+
+- Fixed an issue where auras would override mount spells when zoning.
+- Altered Whispering Midnight Protecting Magic, Blazing Euphoria Protecting Magic, Whispering Midnight Protecting Fire, Blazing Euphoria Protecting Fire, Rallos Zek Acolyte's Protecting Ice, and Rallos Zek Devotee's Protecting Ice so they no longer block lifetap spells.
+- Necromancer - The Dread Pyre line of spells no longer stacks with itself. Increased the mana cost and damage dealt.
+- Necromancer - Pyre of Mori and later Damage over Time spells in that line will no longer stack with themselves. Increased the mana cost and damage dealt by those spells.
+- Necromancer - The Tenak's Flashblaze line of spells now deals the same amount of damage as the Pyre of Mori spells of the same level, with the same mana efficiency. This line can no longer stack with itself or with the Pyre of Mori line. This line no longer deals different damage to different targets. Increased the resist modifier so that this line now lands more reliably. Removed the recast timer on the spell line.
+- Necromancer - Searing Shadow and later spells in its line no longer stack with each other. Increased the damage dealt and the mana cost. All ranks of this spell line now add a specific damage amount to incoming lifetap spells rather than a percentage.
+- Necromancer - The Pallid Haze line of Damage Over Time spells no longer stacks with itself, starting with Chaos Venom at level 70. Increased damage, mana costs, and resist modifiers for these spells.
+- Necromancer - The Corath Venom line of Damage Over Time spells no longer stacks with itself. Increased damage and mana costs as a result.
+- Necromancer - The Swift Venom line of Damage Over Time spells no longer stacks with itself or with the Corath Venom line of spells. It now deals the same amount of damage every tick that the equivalent Corath Venom spell would do. It no longer deals different amounts of damage to raid targets. Increased the resist modifier to make the line land more reliably. Removed the recast timer from this spell line.
+- Necromancer - The Eranon's Decay line of spells no longer scales with your level and instead reaches full potency the first level they are available. Reduced the duration by two ticks. Increased the damage and mana cost but removed the ability for the spell line to stack with itself.
+- Necromancer - The Swift Sickness line of spells now deals the same amount of damage per tick as the Eranon's Decay spell of the same level range, with the same mana efficiency. Increased the resist modifiers so spells will now land more reliably. The spell line will no longer deal different damage to different targets. The spell line will no longer stack with itself and will be overwritten by the equivalent Eranon's Decay spell. Removed the recast time from this spell line.
+- Necromancer - The Grip of Mori line of spells will no longer stack with itself above level 67. Damage and mana cost have been increased.
+- Necromancer - Changed Ilsaria's Swift Decay and Mourgis' Swift Decay so that they now trigger spells from the Grip line in addition to the Decay line. Changed the names to Livianus' Grip of Decay and Mourgis' Grip of Decay.
+- Changed the weight reduction property of Minandra's Scent Marker spell to no longer reduce your weight. You actually did gain weight but we were too nice to tell you. This was wrong and we will be more honest with you in the future.
+
+
+*** AA ***
+
+- Berserker, Monk, Paladin - Corrected an issue with Agony of Absolution, Blessing of Purification, and Purification that prevented them from curing the correct number of debuffs.
+
+
+*** NPCs ***
+
+- Altered the following Torment of Velious NPC abilities:
+- - Foot Stomp - Lowered damage from 155k to 105k.
+- - Leap - Lowered damage from 125k to 95k.
+- - Pounce - Lowered damage from 155k to 115k and removed the stun.
+- - Knee Crack - Lowered damage from 115k to 90k.
+- - Ragged Swipe - Lowered damage from 95k per tick to 75k per tick.
+- - Ragged Slash - Lowered damage from 155k per tick to 95k per tick and removed the snare.
+- - Creeping Pus - Removed the snare.
+- - Crawling Pus - Lowered damage from 115k per tick to 95k per tick and removed the snare.
+- - Foot Stomp - Lowered the damage from 125k per tick to 105k per tick and removed the snare.
+- - Gore - Lowered the damage from 125k per tick to 105k per tick and removed the gravitate.
+- - Spider's Bite - Lowered the damage from 145k hit points per tick to 105k hit points per tick and lowered the 1,515 mana damage per tick to 1,015 per tick.
+- - Restless Ice Infection - Lowered damage from 71k per tick to 51k per tick.
+
+
+*** Mercenaries ***
+
+- Significantly increased the damage of level 111+ Tank mercenaries. This will have the side effect of increasing their aggro.
+- Altered the Melee DPS mercenary as follows:
+- - Decreased the melee damage from level 111 to 115.
+- - Added a new higher effectiveness de-aggro spell at level 106 and 113.
+- - Added a new higher damage poison proc at level 114.
+- Improved the spell selection for healer mercenaries at high levels.
+
+
+*** Collections ***
+
+- The Messy Miners Collection items can again be found as ground spawns in the Ry'Gorr Mines.
+
+
+*** Overseer ***
+
+- A new Recruitment quest is now delivered to the offered quest list every rotation.
+- Uncommon and Rare Iconic Recruitment quests have had their duration reduced from 48 hours to 24 and 36 hours, respectively.
+- Iconic Recruitment quests now have higher-level versions, which grant more agents than their lower-level equivalents.
+- Common Non-Iconic Recruitment quests now have level 2-5 versions, which grant more agents than their level 1 equivalents.
+- Recruitment Quest Party slots no longer require specific agent rarities, meaning any agent with the correct Job at the correct rank or better can contribute to the quest's success chance.
+- - Common Non-Iconic Recruitment quests now require only 12 hours to complete, instead of 24 or 48 hours.
+- - Common Non-Iconic Recruitment quests have updated start and completion descriptions.
+- Rare and Elite Recovery quests are now available at level 1 in the Recovery category and require fewer agents and lower job ranks.
+- - Recovery Quest Party slots no longer require specific agent rarities, meaning any agent with the correct Job at the correct rank or better can contribute to the quest's success chance.
+- - Recovery quests have updated quest text.
+- Added a cap on quest completions per rotation. You may now complete up to 10 quests every 12 hours. This does not include Conversion quests.
+- To make Non-Iconic Agents more viable at higher quest levels, their Job Ranks have been increased by 1.
+- - Increased the Job Ranks of Common Agents from 1 to 2.
+- - Increased the Job Ranks of Uncommon Non-Iconic Agents from 2 to 3.
+- Fixed the success chance display to be consistent between offered quests and active quests.
+- Improved the usability of the Available Agents section of the Offered Quests tab on smaller window resolutions.
+- Fixed active quests to be consistent when switching zones or logging in to a different character.
+- Changed the highlight text color on the lists of quests and agents so that there isn't yellow text on a yellow background.
+- Added chat messages when a quest is started (including the agents assigned to it), completed, or abandoned.
+- The Chapterhouse of the Fallen Collection Item now includes Ankle Bone in the Dem Bones set.
+
+
+*** Progression Servers ***
+
+- Fixed an issue that caused the script that multiplies raid currency and key rewards to reward less than was intended.
+- Updated Mount Buff Azia so that characters can receive it once Lost Dungeons of Norrath has unlocked. Similarly, updated Mount Buff Beza so that characters can receive it once Secrets of Faydwer has unlocked.
+
+
+*** Miscellaneous ***
+
+- Fixed an issue where members of fellowships could not see items in the Real Estate Plot Item Window when marked as members of the Owner's Club.
+- Added the /usurp command. This command allows a senior officer to take leadership of their guild if the guild does not currently have a guild leader, or if the guild leader has been offline for more than a year.
+- Corrected an issue where corpses would expire after 3 hours even if the owner's account was offline.
+- LaunchPad will now automatically run if you failed to login to a server due to your client being out of date.
+- When a guild leader deletes their character, the next highest rank, most recently online player will be automatically promoted to be the new leader.
+- Sealed a hole in the world in Argin-Hiz.
+
+
+*** UI ***
+
+- The search in the Marketplace window will now also search through the description of items instead of just the names.
+- Fixed an issue where calling /loadskin would reset the data in your Overseer window until you camped.
+
+- Changed -
+EQUI_OverseerWnd.xml
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: May 26, 2020
+------------------------------
+
+*** Items ***
+
+- Fixed the jumbled up achievement objectives for Human Heritage Crate: Human Art Collector.
+
+
+*** Quests & Events ***
+
+- Fixed an error in the Call of the Forsaken reward script that caused it to fail to give currency or keys.
+- Beyond the Barrier - It should now be possible for a character to receive the subtask Exploring Crystallos, even if the character had already completed that task.
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: June 17, 2020
+------------------------------
+
+*** Highlights ***
+
+- Three new pride hares, along with the three introduced last year, will be freely claimable from the Marketplace from June 24th to July 31st.
+
+
+*** Items ***
+
+- Fixed a problem with the teleport on Painting: Tassel's Tavern.
+- Fixed the typo in the Fear-Infused Rachnid Heart. It is now a Fear-Infused Drachnid Heart, as Mayong intended.
+- The Human Heritage ringmail, cloth, and leather suits will no longer indicate that they fit into chain and plate armor.
+- Fixed some Froststone ornament icons that would look like necklaces after being applied to a weapon.
+- Three new pride hares, along with the three introduced last year, will be freely claimable from the Marketplace from June 24th to July 31st.
+- Mounts will no longer activate for Paladins or Shadowknights before Luclin.
+- Adoptable Heritage Crate Familiars are no longer Heirloom, as the adoptable versions of the items are tradable and the adopted familiar versions of the items are not.
+
+
+*** Quests & Events ***
+
+- Derakor the Vindicator (Raid - Torment of Velious) - At the point where Derakor starts eating the undead around him, whenever a set of adds spawns he will always wait at least 30 seconds before he eats one. This should address issues with the Don't Eat the Dead achievement.
+- Greater Spirit Shield (Achievement - The Broken Mirror) - Corrected a typo in the reward description of this achievement.
+- Bugglegupp, Tergon's Spellbook, Toko's Head, Darkforge Helm - Fixed some broken dialogues and other bad behavior in these quests.
+- Till Death Do Us Part - Increased the threshold before the raid will reset due to any NPCs being idle.
+- Heart of Frozen Shadow - Made the following changes to this raid:
+- - Increased the threshold before the raid will reset due to all NPCs being idle.
+- - It's again equally likely that spawned specters will be restless or non-restless.
+- The Tavern at the End of Norrath (Achievement) - Now correctly indicates that you need to have completed The Fall of Toskirakk in order to have access to Korafax, Home of the Riders.
+- Hardcore Heritage, Sebilis Phase - Extended the duration of this event from 2 to 4 weeks.
+- The Beast Below - Fixed several issues with the messaging of the mechanics in this raid event. The messages will no longer show # and ! symbols, they will no longer display if the target is invalid, the pop-up message sent directly to a target will now also appear in chat, and chat messages now use the event color / filter.
+- Veil of Alaris - If you do not have the correct flags to request raids in the tier that your evolving Record book has advanced to, activating it again should correctly flag you to request access to any tier in which you have completed all raids.
+- Convorteum Raids - The "Transforming Surprises" have been removed as they served absolutely no purpose other than to annoy completionists.
+
+
+*** Spells ***
+
+- Necromancer and Shadowknight - Changed Vampiric Curse and Bond of Death to use resource taps rather than a reflected recourse spell to return health to you.
+- Necromancer - Changed the Dyn`Leth's Grasp line of Damage over Time spells to use resource taps rather than a reflected recourse spell to return health to you.
+- Necromancer - The Dyn`Leth's Grasp line of Damage over Time spells no longer stacks with itself. Damage and mana costs have been increased.
+- Necromancer - The Swift Lifedraw line of Damage over Time spells no longer stacks with itself or the Dyn`Leth's Grasp line. Its damage and mana cost now matches the Grasp line per tick. Reduced the recast time and removed the timer. It no longer deals different amounts of damage to raid targets. Converted all ranks to use a resource tap rather than a reflected recourse spell to return health to you. Moved the memorization category from Taps->Health to Taps->Duration Tap.
+- Necromancer - The Dark Leech line of Damage Over Time spells no longer stacks with itself. Damage and mana costs have been increased.
+- Necromancer - Lowered the recast time of Zevfeer's Theft of Vitae and Night Stalker to 1.5 seconds. Removed the linked spell timer from Night Stalker.
+
+
+*** NPCs ***
+
+- NPCs in Classic through Luclin will inflict 20% less damage while charmed.
+
+
+*** Overseer ***
+
+- Removed the membership requirements for collection, tradeskill, and ornament rewards.
+- If you change filters while selecting an agent for an Overseer quest, it will now properly update the selected agent highlighting and count.
+- If you are unable to start an Overseer quest, you will now receive a message in the chat window stating such.
+- Addressed an issue that could cause the agent count when assigning agents to a quest.
+
+
+*** Progression Servers ***
+
+- It is no longer possible to unwrap the Sanctus Seru teleport or mount from the Human Heritage Crate until the Shadows of Luclin has unlocked on the server.
+- Aradune unlock events will show on the in-game calendar.
+- The Demiplane of Blood - It's now possible to launch this raid instance once Secrets of Faydwer has been unlocked for at least one month and the character requesting the raid is at least level 70.
+
+
+*** Miscellaneous ***
+
+- Corrected an issue where guild names would sometimes display as 'Unknown Guild'.
+- The Hero's Forge Suit Consolidator is now available on the loyalty merchant.
+- Hero's Forge - Fixed a clipping problem in the backs of the arms that affected some races.
+- Fixed an issue that caused a few legacy zones to unintentionally be set as hotzones on non-Progression servers.
+- Disabled the use of the keyring window and keyring-item hotkeys during monster missions.
+
+
+*** UI ***
+
+- Corrected an issue where the LDoN leaderboards failed to display all players in the list.
+- Experience reward types will now display more detailed descriptions when previewed in the reward selection window.
+- Added the command /rewards to open the reward window.
+- Added a chat message when you try to open the reward window without having any pending rewards instead of opening and immediately closing the window.
+- Added a confirmation box when attempting to loot an item with a lore-equipped group that matches an item you currently possess.
+- Updated the message when failing a tradeskill combine to include the name of the item you were intending to make.
+
+
+*** Previously Updated ***
+
+- Agnarr: Added three worg mounts to the marketplace.
+- Fixed the jumbled up achievement objectives for Human Heritage Crate: Human Art Collector.
+- Fixed an error in the Call of the Forsaken reward script that caused it to fail to give currency or keys.
+- Beyond the Barrier - It should now be possible for a character to receive the subtask Exploring Crystallos, even if the character had already completed that task.
+
+
+- The EverQuest Team 
+
+.....................................................................

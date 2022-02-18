@@ -1,0 +1,820 @@
+.....................................................................
+
+------------------------------
+Game Update Notes: July 17, 2019
+------------------------------
+
+*** Items ***
+
+- Fixed a bug that prevented the zonewide rare drops in Harbingers' Spire and The Bloodfields from dropping from non-rare NPCs.
+- Wooden Wand of Whispers is now usable by healers and casters.
+- Updated the spell description for Erollisi's Boundless Heart Hare, Erollisi's Trueheart Hare, and Erollisi's Proudheart Hare.
+- Changed the way procs on items work to reduce the number of spells used.
+- Items that scale the power of their activated spells will now list the 'effective' level of the spell when inspecting that item.
+- - The spell's description, when viewed in the item display window, will now take into account the item's 'effective' level when reporting the effects of the spell.
+
+
+*** Quests And Events ***
+
+- Return artifacts to the Wraithguard quests - The skeletal spirits that can spawn upon the deaths of zombies in Frostcrypt are now unique and will despawn after 30 minutes.
+- Mechamatic Whirlrender (Raid and Group) - Made the following changes:
+- - Removed the tether from the boss to prevent situations where the boss could regenerate to full health when switching phases.
+- - Added a message when an NPC tethers.
+- Unfettered Emerald Excellence - Made the following changes:
+- - Fixed the bug that caused raid achievements to always be rewarded.
+- - Doubled the time in-between the zonewide auras' pulses and doubled the impact of their effects.
+- - Waves of mephits will no longer spawn at the same moment that it's necessary to flee to the correctly colored wing to avoid being struck by Elemental Incompatibility.
+- - Added a chat message when a wave of mephits spawns.
+
+
+*** Spells ***
+
+- Accepting a resurrection will now break charm.
+- Call of the Hero will now break charm.
+- Fixed the bug that would result in a caster's spells not being focused after taking a resurrection.
+- Beneficial spells with a dispel component cast by players will no longer land on pets or mercenaries unless the target belongs to you or a member of your group.
+- Berserker - Corrected an issue that prevented Temple Chop Rk. III from being cast in combat as intended.
+
+
+*** NPCs ***
+
+- Restored some missing rare spawns in The Bloodfields.
+- Fang, a rare in Dranik's Scar, will now drop loot.
+
+
+*** Collections ***
+
+- Made the following changes to ground spawn collectibles in Trials of Smoke, Stratos, Aalishai, Empyr, Esianti, and Mearatas
+- - Reduced the respawn rate.
+- - Increased the number of spawns that can be up simultaneously.
+
+
+*** Progression Servers ***
+
+- Gorenaire and Severilous will no longer depop themselves in the instances provided by the Agent of Change.
+- Either Essence of Concealment or Philter of Concealment can be used to craft Nexona's Poison Vial.
+
+
+*** Miscellaneous ***
+
+- Corrected an issue where some NPCs spawned via item turn in were not loot locked as expected.
+- Fixed an issue where a loot locked NPC would not make its items available to the group or raid of the player credited with spawning that NPC.
+- Guild tags in chat will now properly write to your client's log file.
+- Faction messages in chat will now be properly cleaned when writing to your client's log file.
+- Fixed a bug that could cause your helmet to display incorrectly after removing an illusion.
+- Turned the sky on for Everfrost, Eastern Wastes, Cobalt Scar, and Great Divide.
+- Players should no longer be able to attack mercenaries of other players who are in corpse hover mode.
+
+
+*** UI ***
+
+- When linking a list of items from the loot window into chat, messages that do not fit on a single line will now be output to the channel specified by the pending message.
+- - Ex: If your default chat channel is 'say' and you have queued up the text '/ooc The following items have dropped: ...', the item links will be output to the out of character channel rather than the say channel if they do not all fit in one line.
+- Corrected an issue where not having a hitpoints, mana, or endurance gauge in the Player Window caused a crash.
+- Fixed an issue causing mana percentage for pure melee classes in custom UIs to show incorrectly.
+- Added a Loot Messages chat filter. This filter contains messages related to advanced loot settings, items looted by players, and looting / splitting coin.
+- - Added corpse names to loot messages.
+- - Split messages for receiving 0 copper will no longer be displayed.
+- Damage and healing will now properly report to the caster even if they are out of range.
+- Added an error message when you try to invite someone to a task or dynamic zone, but you aren't a member of one, or you aren't the leader.
+- When creating a new chat tab or window, the font size of the currently selected tab/window will apply to the new one.
+- When 'Use Tell Windows' is enabled, receiving a tell that creates a new chat tab will no longer interrupt your response when typing a reply in that tell window.
+- Disabled the UI option to toggle Hardware Vertex Shaders / Software Vertex Shaders.
+- - This will still be supported through the eqclient INI, with the VertexShaders option under the 'Defaults' section.
+
+
+- Changed -
+EQUI_AdvancedDisplayOptionsWnd.xml
+
+
+*** Previously Updated ***
+
+- Fixed a bug that would result in a caster's spells not being focused after taking a resurrection in the same zone.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: August 21, 2019
+------------------------------
+
+*** Items ***
+
+- To alleviate confusion with the 'Purified Nest Water', we updated the item not needed for progression to have the name 'Potable Nest Water'.
+- Added equipment slots to Stone Eye of the Guardian from Stillmoon Temple.
+- Added drakkin to many classic game items.
+- Added vah shir to Hynid-Hide Bag and Tarnished Halberd.
+- Fixed lore errors in The Burning Lands subsumptions and transmogrificants.
+- Fixed some item spell descriptions that reported zero effect.
+- Fixed the lore text for Inventor's Handbook.
+
+
+*** Tradeskills ***
+
+- Fixed many inconsistencies found with the spelling of recipes and items associated with those recipes.
+- Aneuk NPC that can drop Aneuk Eye now drop it much more frequently.
+
+
+*** Quests And Events ***
+
+- Savage Lord's Totem (Beastlord Epic 1.5) - Moved the rares in Siren's Grotto that shared an encounter with the Ailing Walrus to a different encounter table and different spawn points. This should prevent rare spawn bonuses from preventing the Ailing Walrus from spawning.
+- Origins of the Curse - It's no longer necessary to have a single character loot four Fragments of Zebeker's Bone Chips. They can be handed to Zebeker one at a time by anyone in the task.
+- A Goblin's Escort - Made the following changes:
+- - After a 13 year hiatus, Higglin Diggerchop has returned to the highest level version of this mission.
+- - The escort NPCs are now PC friendly.
+- - The escort NPCs now stop at their destination to prevent soft locking the task if they walked away before you interacted with the next escort NPC.
+- - Increased the movement speed and health of the escort NPCs.
+- - The task now updates when you confirm with an escort NPC that you are ready for them to move, and not on their hail.
+- End the Return - Made the following adjustments to the steps that involve using the Glob of Oil or Burning Ember:
+- - Increased the range at which these items will work on a nearby target by about 50%.
+- - The check for closest valid target will now skip any targets which have already been affected.
+- - The Z axis is no longer taken into account when determining nearest target.
+- - Widened the valid area in Tomoko's room where the objects can be used so that it no longer says you're not in a valid area when up against the south wall.
+- - It's now necessary to oil all the tools before any of them can be burned.
+- - Burned tools now disappear.
+- - Fixed the bug where you could burn multiple tools with one use of the ember but only get credit for 1.
+- Restored the darkwater piranha spawn in Nektulos Forest so that Roary Fishpouncer's Kerran Fishing Spear quest can again be completed.
+- Night at the Museum - Added a speculative fix to prevent the situation where multiple waves spawn simultaneously.
+- Breakdown in Communication - It is now possible to complete the quest to receive another Stone of Entry from Councilman Sislono Nislan if you have deleted your Stone of Entry, but don't have credit for completing the Qinimi execution event.
+- Rogue Epic 1.0 - Made some changes to Renux Herkanor's dialogues so that they can all be reached and some of the more obscure ones can be found more easily.
+- Pyrique Redwing - It's no longer possible to identify the real from the fake Pyrique's Shadow by considering them.
+- Keeper's Imbalance Achievement - Fixed the description for this achievement to match the actual requirement. You only have to push the keepers out of balance by 20 percent.
+
+
+*** Spells ***
+
+- Fixed a bug that was preventing some NPCs from summoning their custom pets.
+- Magician - Call of the Hero (including AA versions) can now only be cast on other players.
+
+
+*** NPCs ***
+
+- Bathouse Manager Hakvar is now Bathhouse Manager Hakvar, because he manages a house with baths and not a house for bats.
+- Restored three missing rare spawns from the Broodlands.
+- Removed the dragorn box and dragorn chest that would sometimes spawn upon killing an NPC in The Bloodfields.
+- Made 1,052 NPCs immune to charm. These are rare NPCs and those with very long respawn times.
+- The Bloodmoon Orcs that harry Gnome Memorial Mountain will now give positive faction hits with the Gnomelikes when the orcs are in their were-form.
+- Bloodmoon Night-Orcs faction standing can now be viewed in the faction window in the Secrets of Faydwer Category.
+
+
+*** Collections ***
+
+- Removed an unreachable collection location in the Empires of Kunark version of Droga.
+- Corrected an error that was preventing half of the collectibles in Skyfire (Ring of Scale) from spawning.
+
+
+*** UI ***
+
+- When inspecting a spell on an item, it will now correctly display the spell at the correct level.
+- Corrected an issue where augmentation procs would not display the correct damage when viewed inside another item.
+- Fixed the issue that broke the ability to invite someone to your DZ or task by clicking on their name in chat.
+- Corrected an issue where leaving an item on a corpse would display an unformatted NPC name.
+- Made the following changes to the Spell Display Window:
+- - Added directional AE degrees, reflectability, and focused spell duration.
+- - Added text samples of what is seen when the spell lands on you or others.
+- - Increased precision of focused cast time.
+- - Fixed a bug where Gift of Mana caused focused mana cost to display incorrectly.
+- Cleaned up the tribute related windows. The current tier of a tribute will now be highlighted to clearly indicate which one is available. Each tier will also display information more clearly, much like the item display window.
+- Adjusted the default location of the Mercenary Management window and the Tutorial Help window to not overlap with the Task Overlay window.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: August 26, 2019
+------------------------------
+
+*** Quests & Events ***
+
+- Staff of the Serpent (Enchanter epic 1.0) - The spectral librarian in Kaesora can again be charmed.
+- Veeshan's Peak access - The NPCs that drop medallion pieces can no longer be charmed. 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: September 18, 2019
+------------------------------
+
+*** Items ***
+
+- Removed the stacking on 5 Dose Potion of the Bone Field and 10 Dose Potion of the Bone Field items. Changed Toy Eye Ball to one charge.
+- Fixed a typo in the lore of Overgrowth Shears.
+- Restored mana preservation to The Burning Lands evolving shoulders that include classes with mana.
+- Consolidated the various mount blessings. In nearly all cases, the new buff is equal to or an improvement over the previous buff, with the exception of Mount Blessing Izah which has had its AC value reduced to be in line with the other mount blessings.
+
+
+*** Quests And Events ***
+
+- Guntrik's quests - Sven and Philicia Drinn are no longer merchants and can be killed.
+- Strange Magic - Pets and mercenaries will no longer flee right after the first golem is defeated.
+- Destroy Marnek's Wand - If a character who has handed in the wand loses their Suncrest Isle instance, the fisherman will offer a new instance.
+- Gnome Memorial Mountain - Adjusted the risk vs reward for Heroic Adventures in GMM.
+
+
+*** Spells ***
+
+- Buffs that absorb hits (up to a maximum damage value) will no longer fully negate resistible spells. These buffs will continue to properly block the intended amount of damage from spell and melee attacks.
+- Corrected an issue that allowed certain types of pets (Cleric hammers, Wizard swords, Magician runes, etc) to be hit by detrimental spells. They are now immune to all spells as intended.
+- Bard - Added a target limit of 5 to the Denon's Desperate Dirge line of AE damage songs.
+- Cleric - Sacred Word and Stun Command now have their target limit explicitly defined on the spell.
+- Druid - The Heliacal Flare and Lunar Chill lines of targeted AE spells now have their target limit explicitly defined on the spell.
+- Magician - Fixed an error that caused pets that used Fire Elemental Bolt I-VII to deal less damage when focused. Increased the power all ranks of Fire Elemental Bolt VI and VII.
+- Magician - Corrected an error that made fire pets on Progression servers deal more damage than expected in Kunark, Velious, and Luclin eras.
+- Wizard - Thunderbolt now has its target limit explicitly defined on the spell.
+
+
+*** AA ***
+
+- All - Refunded Identify as this ability is redundant now that item descriptions are displayed when inspecting items at level 50+.
+- All - Fixed a typo in the description of Veteran's Enhancement that errantly stated the ability increased your worn mana regeneration cap rather than your worn health regeneration cap.
+- Multiple - Renamed the non-pet class ability 'Pet Discipline' to 'Companion's Discipline' to be in line with the naming used for pet classes.
+- Bard - Refunded all ranks of Steady Hands and increased the base pick lock skill cap for bards for levels 80+ by 40 points. The skill bonus was reduced from 60 points to correct a few level span where bards had a higher skill cap than rogues. The skill cap increase is being granted at level 80 rather than level 70 due to the ability initially releasing with Secrets of Faydwer.
+- Bard - Capped the maximum number of opponents that can be hit by Vainglorious Shout to 6 and increased the endurance cost for all ranks of this ability by 50%.
+- Bard - Granted the ability to use Double Riposte as Bards were the only class with the skill that did not have access to this ability.
+- Bard - Refunded all ranks of Tune of Pursuance and increased the base tracking skill cap for Bards for levels 65 and 96-100+.
+- Berserker - Refunded all ranks of Student of War and increased the base frenzy skill cap for Berserkers for levels 101+.
+- Berserker - Refunded all ranks of Weapon Proficiency and increased the base weapon skill caps for Berserkers for levels 85-105+.
+- Berserker - Renamed Cry of Battle to Mass Group Buff.
+- Cleric - Removed the undead-only restriction from Repel the Wicked.
+- Cleric - Fixed a typo in the description for all ranks of Channeling the Divine that stated the ability granted a 50% twincast chance rather than a 100% chance.
+- Cleric - Shield of Reverence has been changed to a passive ability.
+- Druid - Refunded all ranks of Advanced Tracking and increased the base tracking skill cap for Druids for levels 65+.
+- Enchanter - Renamed the enchant metal abilities to include the quantity as a suffix rather than prefix. Ex: 'Mass Enchant Feymetal' is now titled 'Enchant Feymetal (x10)'. Refunded 'Enchant Palladium (x3)' and 'Enchant Palladium (x20)' as they were inconsistent with the rest of the abilities.
+- Magician - Call Hither has been renamed Summoner's Step and is now a teleport-forward ability similar to Netherstep or Whisperwind. Reduced the level and expansion required to obtain ranks 4 and 5 of this ability.
+- Magician - Updated Turn Summoned to deal direct damage rather than damage over time and updated Infusion of Elemental Light to always deal instant critical damage that will no longer block other instances of Infusion of Elemental Light from landing.
+- Magician - Updated the buff icon for Thaumaturge's Focus.
+- Monk - Consolidated Hastened Crane Stance and Focus: Crane Stance into a single line, Improved Crane Stance, and added an additional rank that was intended to go live with The Burning Lands.
+- Necromancer - Call to Corpse has been renamed Summon Corpse. This ability now has 9 ranks and will cast the highest rank of your equivalent level summon corpse spell with a 10 second reuse time.
+- Necromancer - Refunded Self Sacrifice as its initial purpose of dealing damage to the caster in order to benefit from other abilities is no longer required.
+- Necromancer - Summon Remains now consumes 4 Tiny Jade Inlaid Coffins when cast.
+- Paladin - Hand of Tunare no longer triggers Tunare's Fatigue after fading but will now instead increase the mana cost of twincast healing spells by 100%.
+- Paladin - Moved Holy Warhorse from the Class tab to the Special tab in the AA window.
+- Paladin - Shield of Brilliance has been changed to a passive ability.
+- Paladin - Refunded all ranks of Glorious Reflection as this ability provided no benefit given the existence of Healing Adept.
+- Paladin - Consolidated Restoration of Life to be rank 2 of Gift of Resurrection. Rank 2+ will now restore 96% experience. Reduced the hastening offered by rank 5 by 1 second and increased the mana cost of ranks 2+ by 100 points.
+- Ranger - Refunded all ranks of Tracking Mastery and increased the base tracking skill cap for Rangers for levels 66-70+.
+- Rogue - Refunded all ranks of Weapon Proficiency and increased the base weapon skill caps for Rogues for levels 96 and 101-105+.
+- Rogue - Fixed an error with ranks 5 and 6 of 'Focus: Hack' that prevented the ability from focusing the combat ability 'Slice'.
+- Shadowknight - Moved Unholy Warhorse from the Class tab to the Special tab in the AA window.
+- Shadowknight - Summon Remains now consumes 4 Tiny Jade Inlaid Coffins when cast.
+- Shaman - Improved Pure Spirit has been changed from a passive focus ability to an activated ability that casts the best rank of Pure Spirit that you have scribed.
+- Shaman - Turgur's Virulent Swarm will no longer land on PCs (including yourself).
+- Shaman - Feral Bite, the damage triggered by Rabid Bear, has had its damage over time component consolidated into its direct damage component.
+- Wizard - Ward of Destruction now summons a stationary aura rather than a ward. As an aura, Ward of Destruction will no longer be susceptible to damage and any opponents hit by Silent Fire will now credit the wizard as the attacker. Changed all ranks of Silent Fire from a 12 second damage over time spell to a direct damage spell that will not break root.
+- Wizard - Updated Arcane Fusion to always deal critical damage and fixed an issue that allowed the ability to trigger on beneficial spells.
+- Wizard - Corrected an issue that prevented Mirror Mirror from functioning as expected.
+- Wizard - Refunded Translocational Anchor and updated all ranks of Cryomancy to include gate suppression as part of Cryomantic Stasis.
+
+
+*** NPCs ***
+
+- Moved a spiderling in the Broodlands that was spawning inside of a tree.
+- In Stoneroot Falls, a witheran named Slubber with unique items now has a chance to spawn.
+- In the Ruins of Illsalin, Overseer Xygern now drops unique items instead of the same items that Battlemage Ristyr drops.
+
+
+*** Progression Servers ***
+
+- Access to Gnome Memorial Mountain now requires that The Burning Lands is unlocked on your server.
+- Corrected an error that made fire pets on Progression servers deal more damage than expected in Kunark, Velious, and Luclin eras.
+
+
+*** Miscellaneous ***
+
+- The /safelock command now requires typing the full command in order to function to prevent accidental locking of the game. This should help in real life when kerrans are frisking your keyboard and manage to lock the game with a secret safelock password.
+- You can no longer block, parry, dodge, or riposte an attack that would have missed.
+- Made multiple adjustments to Tribute and Guild Tribute:
+- - Merged the various "II" lines into their parent line as additional ranks. This results in ranks above 10 for some tribute lines.
+- - Reduced the cost of ranks 5 to 13 of the tribute lines: Power of Will, Visions of Suffering, Twinge of Pain, Expeditious Aid, Persistent Boon, Power of Sight, Power of Recovery, Power of Conservation, Power of Alacrity, Visions of Command, Commanding Presence, and Power of Suffering.
+- - Increased the effectiveness of rank 12 of Bulwark of Honor, Strength of Body, Strength of Mind, and Strength of Will.
+- - Increased the effectiveness of rank 13 of Arm of Power, Body of Divinity, Symphony of the Rabbit, Juggler's Grace, Sage's Requital, Sage's Comprehension, and Countenance of Ardor.
+- - Reduced the cost of ranks 6 to 13 of the guild tribute lines: Aura of Preservation, Power of Will, Visions of Suffering, Twinge of Pain, Expeditious Aid, Persistent Boon, Power of Sight, Power of Recovery, Power of Conservation, Power of Alacrity, Visions of Command, Commanding Presence, and Power of Suffering.
+- - Guild Tribute: Added String Resonance to rank 8 of Symphony of Replenishment.
+- Removed the Hero's Forge - Tinker's Clockwork and Hero's Forge - Memorial Clockwork achievements. The items are not currently available.
+- Housing Explorer (Achievement) - Visiting Evantil's Abode, Hermit's Hideaway, and Bixie Hive houses are now optional for completing this achievement.
+- Guild Locals Explorer (Achievement) - Visiting Grand, Modest, and Palatial Guild Halls are now optional for completing this achievement.
+
+
+*** UI ***
+
+- Made improvements to taunt messages:
+- - Taunt messages are sent to all players in the area, and include the name of the NPC being taunted.
+- - Added a new chat filter for taunt messages.
+- - Failing to capture your target's attention is more clearly indicated as a partial success.
+- - Added a message when a player obtains aggro using an aggro lock ability (Ex: Undivided Attention).
+- - Taunt spells are no longer blocked by spells locking an NPC's aggro.
+- - Sends a single message to players in the area when someone uses an area effect taunt (Ex: Area Taunt).
+- NPC tells are now formatted as 'Soandso told you' while player tells (including cross server tells) appear as 'Soandso tells you.'
+- Removed an extra space from raid chat messages.
+- Changed the format of tells from tell windows when writing to the log. They now use the same format as regular tells.
+
+
+*** Previously Updated ***
+
+- Shield of Spines reports the correct amount of healing on the item description.
+- Staff of the Serpent (Enchanter epic 1.0) - The spectral librarian in Kaesora can again be charmed.
+- Veeshan's Peak access - The NPCs that drop medallion pieces can no longer be charmed.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: October 16, 2019
+------------------------------
+
+*** Highlights ***
+
+- Made significant changes to fade and leap abilities. See the AA section for details.
+- When using Search in the Barter Window, the results will only display the most expensive buy line from each buyer per unique item matched from the search.
+
+
+
+*** Items ***
+
+- Increased the proc rate of Whispering Midnight Defending Fire, Whispering Midnight Defending Magic, Blazing Euphoria Defending Fire, and Blazing Euphoria Defending Magic.
+- Adjusted the spell stacking on Illusion Benefit Greater Jann to coexist with the Enchanter spell Night's Endless Terror.
+- Corrected the spell descriptions for the Mana Preservation focus on the high tier ring and shoulder chase items from The Burning Lands.
+- Corrected Sebilisian ornament descriptions.
+
+
+*** Quests and Events ***
+
+- Antraygus, the Sporali King - Antraygus will only spawn once in the instance.
+- General Reparm (Raid) - Put in a speculative fix for the Bone Burners spawning more than 3 times.
+- The Darkness Howls and Ironing Out the Legion - Aggressive NPCs will grant experience where they were not before.
+- Guntrik's quests - Sven and Philicia Drinn have had their difficulty reduced dramatically. Tattered Parchment now drops from some NPCs in Rathe Mountains and Innothule Swamp.
+
+
+
+*** Spells ***
+
+- All melee classes - Hiatus can now be activated in combat. It still has the melee speed penalty and endurance cap.
+- Corrected melee abilities that were listed under incorrect timers in the right-click menu. For example, Bestial Savagery was listed under Disciplines->Timer 3 when it is Timer 7.
+- Ranger - Drifting Smoke is now flagged outdoor-only as intended.
+- Rogue - All three ranks of Waylay can now be found under Combat Abilities->Stun.
+
+
+*** AA ***
+
+- All - Made the following changes to fade abilities for retuning and to provide a more consistent experience:
+-- All AA escape abilities now have a 100% chance to succeed on opponents up to 5 levels above the caster.
+-- Escape abilities trigger their secondary invisibility or sanctuary buffs regardless of proximity to attackers.
+-- Escape abilities will reduce the amount of hatred any NPC the caster fails to escape from by 1 million points.
+-- Escape abilities now have higher reuse times and resource costs for most classes, as this better reflects our vision for these abilities.
+- - Pet Users - Summon Companion - Rank 2 now provides a 100% chance for your pet to escape combat from all NPCs. Removed ranks 3 and 4 of this ability and made rank 2 available in Underfoot. Ranks 1 and 2 now consume 1% of your maximum mana to activate.
+- - Bard - Fading Memories - Removed ranks 4-40. Ranks 1-3 now consume 12, 6, and 2% of your maximum mana to activate.
+- - Beastlord - Falsified Death - This ability is now available at level 80 in Underfoot. This ability consumes 2% of your maximum mana to feign death, allows you to escape combat from NPCs up to 5 levels higher than you, allows your warder to escape combat from all NPCs, triggers Evader's Invisibility, and has a 2.5-minute reuse time.
+- - Berserker - Self Preservation - Removed the self-stun component of this ability. Removed ranks 4-11 and adjusted the hastening so that this ability has a 10-minute reuse by rank 3 at level 85 (up from 6 minutes at level 100). This ability now consumes 8% of your maximum endurance to activate.
+- - Cleric - Divine Peace - Set the reuse time of this ability to be 10 minutes (up from 3 minutes), removed the 0.25 second cast time, and made the ability available in Underfoot at level 85 (previously Veil of Alaris at level 91). This ability now consumes 8% of your maximum mana to activate.
+- - Druid - Veil of the Underbrush - Set the reuse time of this ability to be 10 minutes (up from 3 minutes), and made the ability available in Underfoot at level 85 (previously Veil of Alaris at level 95). This ability now consumes 8% of your maximum mana to activate.
+- - Enchanter - Friendly Stasis - Fixed the mesmerize duration to be 18 seconds rather than 30 seconds. This ability now consumes 8% of your maximum mana to activate.
+- - Enchanter - Self Stasis - Removed ranks 5-11 and adjusted the hastening so that this ability has a 5-minute reuse by rank 4 at level 85 (down from 6 minutes at level 105). Fixed the mesmerize duration to be 18 seconds rather than 30 seconds. This ability now consumes 8% of your maximum mana to activate.
+- - Magician - Drape of Shadows - Removed ranks 2-14 and set the reuse time of this ability to be 10 minutes (up from 3 minutes at 105). This ability now consumes 8% of your maximum mana to activate.
+- - Monk - Imitate Death - Reduced the reuse of ranks 1-8 by 30 seconds. Rank 9 is now available in Underfoot (previously House of Thule). This ability now consumes 2% of your maximum endurance to activate.
+- - Necromancer - Death's Effigy - Ranks 1-4 are now available in Underfoot (previously House of Thule for rank 1 and Call of the Forsaken for ranks 2-4). This ability now consumes 2% of your maximum mana to activate.
+- - Paladin - Balefire Burst - Increased the reuse time to 10 minutes (up from 3 minutes), removed the 0.5 second cast time, and made the ability available at level 85 in Underfoot (previously House of Thule). The ability now consumes 8% of your maximum mana to activate.
+- - Ranger - Cover Tracks - Removed ranks 4-15 and adjusted the hastening so that this ability has a 10-minute reuse by rank 3 at level 85 (up from 3 minutes at level 100). This ability now consumes 8% of your mana to activate.
+- - Rogue - Escape - Reduced the reuse of ranks 3-11 and added rank 12 resulting in a 1.5-minute reuse timer at level 85. This ability now consumes 2% of your maximum endurance to activate.
+- - Shadowknight - Death's Effigy - This ability now consumes 2% of your maximum mana to activate.
+- - Shaman - Inconspicuous Totem - Removed ranks 4-13 and adjusted the hastening so that this ability has a 10-minute reuse by rank 3 at level 85 (up from 4 minutes at level 105). This ability now consumes 8% of your maximum mana to activate.
+- - Warrior - Howl of the Warlord - Removed the 0.5 second cast time. Removed ranks 2-5 and adjusted rank 1 so that this ability has a 10-minute reuse time (up from 3 minutes) at level 85 and is available in Underfoot (previously House of Thule). This ability now consumes 8% of your maximum endurance to activate.
+- - Wizard - A Hole in Space - Set the reuse time of this ability to be 10 minutes (up from 2.5 minutes), and made the ability available in Underfoot at level 85 (previously Veil of Alaris at level 95). This ability now consumes 8% of your maximum mana to activate.
+- All - AA abilities that allow characters to leap forward have been normalized with improved reuse times, distances, new abilities for some classes, and reduced level and expansions to obtain:
+- - Bard - Increased the distance that Lyre Leap allows you to travel from 160 to 315 feet.
+- - Beastlord - Reduced the level required to purchase Cheetah's Pounce and made the ability available in Underfoot.
+- - Berserker - Changed all ranks of Furious Leap to function like other leap abilities rather than relying on applying force to the caster. The reworked ability will now allow you to travel up to 234 feet forward. Reduced the initial reuse time of this ability from 60 seconds to 40 seconds and modified ranks 2-5 to reduce the reuse time by 5 seconds per rank rather than 10 seconds per rank, resulting in the final rank matching the existing reuse time of 20 seconds.
+- - Cleric - Added the ability Holy Step available at level 85 in Underfoot which allows you to teleport forward by 160 feet every 20 seconds.
+- - Druid - Reduced the initial reuse time of Mistwalk from 30 to 20 seconds and made rank 1 available at level 85 in Underfoot.
+- - Enchanter - Added the ability Phantasmal Step available at level 85 in Underfoot which allows you to teleport forward by 160 feet every 20 seconds.
+- - Monk - Reduced the initial reuse time of Neshika's Blink from 30 seconds to 25 seconds, made rank 4 available in House of Thule, made rank 5 available in Veil of Alaris, and removed ranks 6-10.
+- - Necromancer - Increased the distance that ranks 1-6 of Whisper Step allows you to travel from 234 to 315 feet.
+- - Paladin - Reduced the level required to purchase ranks 2-7 of Leap of Faith and made ranks 6-7 available in Rain of Fear.
+- - Ranger - Reduced the level required to purchase ranks 2-6 of Gladestrider's Leap, made ranks 2-4 available in House of Thule, and made ranks 5-6 available in Rain of Fear.
+- - Rogue - Added new ranks 1 and 2 to Whisper Step at level 85 in Underfoot and 87 in House of Thule making the current rank 1 into rank 3 thereby reducing the final reuse time of this ability from 30 seconds to 20 seconds, increased the distance that all ranks allow you to travel from 104 to 234 feet, and made the final rank of this ability available in Rain of Fear.
+- - Shadowknight - Reduced the level required to purchase ranks 2-4 and 6-7 of Hate Step and made ranks 6-7 available in Veil of Alaris.
+- - Shaman - Reduced the level required to purchase Spirit Leap and made the ability available in Underfoot.
+- - Warrior - Changed all ranks of Furious Leap function like other leap abilities rather than relying on applying force to the caster. The reworked ability will now allow you to travel up to 234 feet forward. Reduced the initial reuse time of this ability from 60 seconds to 40 seconds and modified ranks 2-5 to reduce the reuse time by 5 seconds per rank rather than 10 seconds per rank, resulting in the final rank matching the existing reuse time of 20 seconds.
+- - Wizard - Increased the distance that Netherstep allows you to travel from 160 to 315 feet and added 2 additional hastening ranks bringing the final reuse time down to 10 seconds at level 95.
+- Multiple - AA abilities that reduce that chance that your root spells will break (ex: Druid - Enhanced Root, Enchanter - Clinging Root, etc.) will now only apply that improvement to root spells cast by that caster. Previously, when a caster with one of these abilities would cast a root spell, the improved break chance would apply to all root spells on that target.
+- Bard - Corrected an issue with rank 43 of Boastful Bellow that caused the maximum level target that can be stunned to go down to 106 rather than up to 109.
+- Enchanter - Increased the effectiveness of rank 17 of Gather Mana from 37,000 instant mana and 750 mana regeneration for 1 minute to 40,000 instant mana and 1,000 mana regeneration for 1 minute.
+- Magician - Refunded all ranks of Intrinsic Efficiency, which was intended to be done when ranks 13-15 and 19-21 of Conjurer's Efficiency were consolidated.
+- Necromancer - Refunded all ranks of Intrinsic Efficiency, which was intended to be done when ranks 2-7 of Embalmer's Efficiency were consolidated.
+- Shadowknight - Refunded all ranks of Intrinsic Efficiency, which was intended to be done when ranks 2-7 of Embalmer's Efficiency were consolidated.
+- Paladin - Hand of Tunare - Increased the number of counters on this ability to 20 to account for the fact that a successful twinheal focused with the mana penalty will consume 2 charges per cast. Reduced the duration of the ability from 6 minutes to 5 minutes and reduced the reuse time of the ability from 18 minutes to 15 minutes. Updated the ability so that the healing component of your Denouncement and Valiant Deflection line of spells will continue to be twincast, but the initial mana cost of these spells will be increased to compensate.
+- Wizard - Ranks 1-5 of Mirror Mirror now increase the resist modifier of the reflected spell by 20 points per rank.
+
+
+*** Miscellaneous ***
+
+- Messages sent using tell windows are now logged correctly.
+- /pick will now send players and group members to the evac point of a zone.
+- Corrected an issue where days entitled could be incorrect when logging in by bypassing the LaunchPad, resulting in issues with claiming veteran rewards and easily becoming marked as spam.
+
+
+*** UI ***
+
+- Fixed a crash that can occur when there are multiple entries for the same ChatWindowX_ContainerIndex saved in the UI configuration file. This should help in some of the cases where you had to delete your ini files in order to login.
+- Corrected a crash bug from moving a tab left of Main Chat.
+- Removed some no longer used UI elements from the Marketplace window.
+- When using Search in the Barter Window, the results will only display the most expensive buy line from each buyer per unique item matched from the search.
+- When searching for items in both the Bazaar Search Window and Barter Window, results over the transaction cap (2000000 platinum) will not be displayed.
+- Fixed a bug where you could not disable tribute benefits when running out of favor.
+
+
+- Changed -
+EQUI_MarketplaceWnd.xml
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: November 20, 2019
+------------------------------
+
+*** Spells ***
+
+- Corrected an issue where bards couldn't interrupt spells if those spells were not originally bard songs.
+- Beastlord - Fixed the description for Beramos' Maelstrom.
+- Beastlord - Corrected the description for Akalit's Feralgia.
+- Beastlord and Magician - Fixed a bug where Promised Alleviation was healing you rather than your pet.
+
+
+*** AA ***
+
+- All - Increased the number of bandolier slots granted by each rank of Battle Ready from 1 to 2.
+
+- All - The First, Second, and Third Spire abilities for each class have been consolidated into a single Spire:
+- - Spire abilities that buff the caster's group have been renamed 'Apex of _' while the self-targeted buffs retain the name 'Spire of _'.
+- - Adjusted the buff stacking of all spires to reduce conflicts.
+- - Berserker - Changed the name of the spire from 'Savagery' to 'of the Juggernaut'.
+- - Cleric - Changed the name of the spire from 'Divinity' to 'of the Vicar'.
+- - Enchanter - Increased the maximum level that Bewilderment of Lights, the effect triggered by the doppelgangers summoned by Spire of Enchantment, can mesmerize to 105 up from 88 for ranks 1-24 and to 118 up from 108 for ranks 25+.
+- - Monk - Removed the triggered Rising/Waning buffs and included the benefits of the Rising Focus as part of the combined spire buff and increased the melee mitigation percentage of Sensei's Guard.
+- - Necromancer - Tripled the base damage of the pet proc and changed the effect from damage over time to a direct damage lifetap.
+- - Paladin - Changed the name of the spire from 'Holiness' to 'Chivalry'.
+- - Wizard - Rank 27 of Spire of Arcanum will now reduce the mana cost of spells up to level 115 (up from level 110).
+
+- All - Ranks 1-3 of Mental Fortitude have been renamed Adamant Will for all classes. The functionality of the ability is unchanged.
+- - The following classes have their Ranks 1-3 of Adamant Will refunded: bard, monk, paladin, shadowknight, and warrior.
+- - Bard - Consolidated Belltone Mind, Fluid March, and The Show Must Go On into a bard specific version of Adamant Will.
+- - Monk - Renamed Agile Feet to a monk specific version of Adamant Will.
+- - Paladin - Renamed Defender's Defiance to a paladin specific version of Adamant Will.
+- - Shadowknight - Renamed Dreadlord's Defiance to a shadowknight specific version of Adamant Will.
+- - Warrior - Renamed Myrmidon's Defiance to a warrior specific version of Adamant Will.
+
+- Multiple - AA abilities that extend the duration of damage over time spells have been changed to instead increase the base damage of these spells by the equivalent duration's worth of damage:
+- - Druid - Renamed Extended Maladies to Enhanced Maladies and changed ranks 1-2 to increase base damage.
+- - Enchanter - Renamed Lingering Torment to Enhanced Torment and changed ranks 1-2 to increase base damage.
+- - Necromancer - Renamed Lingering Death to Enhanced Decay and changed ranks 1-3 to function like ranks 4-7.
+- - Shadowknight - Renamed Lingering Death to Enhanced Decay and changed ranks 1-4 to increase base damage.
+- - Shaman - Renamed Extended Pestilence to Enhanced Pestilence and changed ranks 1-4 to increase base damage.
+
+- Berserker, Monk, Rogue, Warrior - Adjusted the buff stacking on Killing Spree to better coexist with Group Guardian of the Forest.
+- Berserker, Monk, Ranger - Increased the duration of all ranks of Silent Strikes from 30 seconds to 1 minute.
+- Enchanter, Magician, Wizard - Changed all ranks of Arcane Whisper to reduce your target's hatred for you when the ability is activated rather than splitting the effect over 24 seconds.
+- Enchanter, Magician, Wizard - Consolidated Dimensional Shield and Dimensional Instability into a single ability line named Dimensional Shield that grants melee guard in one buff and a defensive jolt and hate reduction modifier in a second buff. The random teleportation component of this ability has been changed to a backwards directional teleport that will trigger up to 6 times when you are struck in combat.
+
+- Monk, Paladin - Increased the duration of Purified Protection I, the buff triggered from Blessing of Purification, Purification, and Purify Body, from 30 seconds to 1 minute.
+- Necromancer, Shadowknight - Increased the healing values for all ranks of Harmshield and added an additional rank at level 110.
+
+- Bard - Increased the melee damage and critical melee damage modifiers for all ranks of Fierce Eye.
+- Bard - Changed Tune Stuck In Your Head from an activated ability to a passive ability and rescaled the existing ranks between levels 71-106.
+- Bard - Removed the self damaging component from all ranks of Hymn of the Last Stand and added an effect to improve the caster's armor class soft cap.
+- Bard - Removed all ranks of Focus: Denon's Dirge of Disruption and moved the effects of this ability line to the equivalent ranks of Focus: Brusco's Burning Call.
+
+- Beastlord - Changed all ranks of Pact of the Wurine to be no-dispel and to persist through death.
+- Beastlord - Adjusted the buff stacking on Frenzy of Spirit to better coexist with Group Guardian of the Forest.
+
+- Berserker - Changed all ranks of Agony of Absolution to instantly consume 10% of the caster's maximum health and cure detrimental effects rather than requiring the caster to avoid cure spells for 18 seconds before triggering.
+- Berserker - Increased the additional 2 handed hit chance on rank 3 of Desperation from 1% to 5%.
+- Berserker - Focus: Axe of Numicia has been renamed Focus: Axe of the Aeons and now improves the base damage of both the Axe of Numicia and Axe of the Aeons combat ability lines.
+- Berserker - Changed Juggernaut Surge to scale the minimum per hit damage based on the delay of your attack and adjusted the value for all ranks.
+- Berserker - Consolidated Throwing Mastery, Juggernaut's Mastery of Throwing, and Juggernaut's Weapon Mastery into a single ability line named Weapon Mastery of the Juggernaut.
+- Berserker - Adjusted the mechanics of Untamed Rage to simplify its functionality and ensure the effects of the buff last for its full intended duration:
+- - Rather than ranks 1-3 reducing armor class and ranks 4+ consuming health, all ranks now uniformly consume 1% of your maximum health every 6 seconds.
+- - Rather than ranks 5+ applying an initial buff that is overwritten in stages (Azia, Beza, Caza, Dena, Ena) the initial buff placed on you will last the full duration of the intervening stages (30 seconds to 2 minutes, depending on rank) before triggering the 30 second self-refreshing stage of the buff.
+- - The benefits granted by the initial stage of the buff and the self-refreshing component are now approximately equal to the power of what was previously the highest stage of the buff.
+- Berserker - Adjusted the mechanics of Reckless Abandon to simplify its functionality and offer a more consistent experience:
+- - Changed all ranks to provide a consistent melee accuracy and damage bonus for 1 minute as a single buff rather than a scaling bonus over multiple buffs.
+- - Removed the required cure/penalty component of the ability and changed all ranks to consume 10% of your maximum health when activated and 2% of your maximum health every 6 seconds for its duration.
+- - Adjusted the stacking on the ability to better coexist with other disciplines that increase melee damage.
+- Berserker - Revamped Juggernaut's Resolve. Now, rather than reducing incoming melee damage by 10-20% and reducing the caster's outgoing melee damage by 20%, this ability will consume 5% of the caster's maximum endurance and reduce all incoming damage by 10-20% while consuming 5% of the damage absorbed as endurance.
+- - Ex: If attacked for 1000 damage, rank 2 will reduce the incoming damage by 200 points and consume 10 endurance.
+
+- Cleric - Bestow Divine Aura Azia has been changed to a self-targeted ability named Divine Aura with dramatically increased healing values for all ranks. Additional ranks have been added to scale from level 59 to 110.
+- Cleric - Bestow Divine Aura Beza has been renamed Bestow Divine Aura and has had its reuse time reduced to match the recast time of the now self-only AA ability Divine Aura. Increased the healing values for all ranks and added additional ranks to scale from level 59 to 110.
+- Cleric - Infusion of Holy Light, the bonus damage component of Turn Undead, now has a 100% chance to deal critical damage.
+- Cleric - Yaulp (Lesser) has been renamed Yaulp and has been changed to cast the highest rank of the equivalent level Yaulp spell that you have scribed. Additional ranks have been added and existing ranks have been rescaled between levels 76 and 106.
+- Cleric - Removed the cast time from rank 1 of Sanctuary and dramatically increased the healing offered by all ranks to better allow this ability to fill its role as a survival tool.
+- Cleric - Removed the cast time from all ranks of Blessing of Sanctuary, increased the range of this ability from 100 to 200 feet, and dramatically increased the healing offered by all ranks.
+- Cleric - Increased the duration of Channeling the Divine from 12 seconds to 5 minutes and modified the ability to focus up to 10 twinheals.
+- - The healing components of your Awecrash, Sound of Fury, and Celestial Contravention lines of spells are included at the cost of increasing the base spell's cost by 50%.
+- Cleric - Consolidated Vehement Recompense to be ranks of Recourse of Life:
+- - Improved the healing and rune offered by all ranks of Recourse of Life and changed all ranks to trigger off of either direct damage or stun spells within a 10 level range of the equivalent rank's expansion level cap.
+- - The protection offered by this ability now guards against both spell and melee damage.
+
+- Druid - Reduced the initial reuse time and hastening of Nature's Fury so that the ability now starts with a 30 minute reuse timer (down from 45 minutes) and scales to a 20 minute reuse timer (down from 21 minutes).
+- Druid - Adjusted the buff stacking on Wrath of the Wild to better coexist with other buffs that grant defensive procs.
+- Druid - Blessing of Tunare now has a 100% chance to critically heal its targets.
+- Druid - Consolidated Spirit of the White Wolf and Spirit of the Black Wolf into a single ability named Spirit of the Great Wolf that combines the benefits of each form.
+- Druid - Consolidated Group Spirit of the White Wolf and Group Spirit of the Black Wolf into a single ability named Group Spirit of the Great Wolf that combines the benefits of each form.
+- Druid - Reduced the reuse time of Season's Wrath from 5 minutes to 1 minute and extended the duration of this ability from 24-30 seconds to 1 minute for all ranks. Adjusted the expansion and level that each rank is obtained in to more closely match the ranger ability line Elemental Arrow.
+- Druid - Removed all ranks of Peaceful Spirit of the Wood and Peaceful Convergence of Spirits. The standard (non-peaceful) versions of these abilities have been changed to trigger an additional blockable damage shield buff named Spiritwood Spikes.
+- Druid - Added additional ranks to Dire Charm that allow animals to be charmed without the chance to break for up to 6 minutes.
+- Druid - Made the following changes to Storm Strike and Fire Storm:
+- - Storm Strike has been renamed Nature's Bolt and has had its damage changed to be consistent regardless of the target's health.
+- - Fire Storm has been renamed Nature's Fire and has had additional ranks added to match behavior of Nature's Bolt.
+- - An additional ability line has been added named Nature's Frost that mirrors the other two ability lines.
+- - Each of the three abilities now has a unique reuse timer as well as a mana cost.
+
+- Enchanter - Refunded all ranks of Soothing Words as the ability was found to be unnecessary.
+
+- Magician - Consolidated Heart of Ice and Heart of Stone into a single ability named Heart of Froststone and increased the total damage this ability can absorb for all ranks.
+- Magician - Consolidated Heart of Flames and Heart of Vapor into a single ability named Heart of Skyfire.
+- Magician - Consolidated Elemental Form: Air, Earth, Fire, and Water into a single ability line that combines the benefits of each form.
+- - Note: There is currently a bug that will be fixed in the December update that prevents Elemental Flames and Elemental Earth from triggering as expected from the combined ability.
+- Magician - Increased the initial healing for all ranks of Second Wind Ward and adjusted the buff to better coexist with Companion's Aegis.
+- Magician - Focus: Fickle Conflagration has been renamed Focus: Capricious Fire and now includes the Chaotic Fire line of spells.
+- Magician - All ranks of Elemental Conversion have been changed to return 33% of the damage dealt to your summoned pet as mana rather than returning mana as a separate spell effect. The health/mana values for each rank are unchanged.
+
+- Monk - Increased the value of ranks 4+ of Combat Fury.
+- Monk - Added a small critical melee chance modifier to all ranks of Ton Po's Stance.
+- Monk - Removed all ranks of Improved Step Pattern and moved the effects of this group to the equivalent ranks of Improved Synergy.
+- Monk - Consolidated Disciple of the Tonfa and Disciple of the Katori into a single ability line named Weapon Mastery of the Katori.
+
+- Necromancer - Added ranks to Dire Charm that allow undead creatures to be charmed without the chance to break for up to 6 minutes.
+- Necromancer - Removed all ranks of Focus: Vollmondnacht Orb and moved the effects of this group to the equivalent ranks of Focus: Impose for Blood.
+- Necromancer - Changed Gift of the Grave to be a toggled passive ability so that its incoming direct damage absorption will persist as a permanent buff if the ability is enabled. The zombie illusion component of this ability has been removed and will instead apply to the caster when activating any rank of the AA ability Dead Man Floating.
+
+- Paladin - Changed Heroic Leap to generate hatred on up to 8 opponents centered around the target you leap toward. Added additional ranks and improved the reuse time of this ability from 2 minutes to 90 seconds.
+- - Note: The ability will currently cause you to land directly on your target when activated. This will be corrected in the December update, instead allowing you to land more safely in front of your target.
+- Paladin - Increased the healing values for all ranks of Divine Aura and Bestow Divine Aura and added additional ranks that scale from level 85 to 110.
+- Paladin - Refunded all ranks of Yaulp (Lesser) and modified ranks 10+ of Divine Stun, ranks 7+ of Force of Disruption, and ranks 3+ of Disruptive Persecution to bless you with the equivalent buff now named Knight's Yaulp. Increased the base duration of Knight's Yaulp to 1 minute.
+- Paladin - Doubled the duration of Valorous Rage, removed the armor class penalty, and added a base melee damage improvement effect to all ranks.
+- Paladin - Thunder of Karana no longer shares a reuse timer with Armor of the Inquisitor.
+- - Rank 1 is now available at level 100 (down from 105).
+- - Removed the critical melee damage and incoming healing benefits, added base spell damage focus, and increased the spell critical damage chance and critical damage modifier effects.
+- Paladin - Consolidated Improved Blunted Blade Strike to be ranks 17-21 of Blessing of Light.
+- Paladin - Consolidated Two-Handed Bash, Immobilizing Bash, Vicious Smash, and the improved stun effect for bash attacks from Overpowering Strikes into a single ability line named Improved Bash. The resist modifier improvements offered by Overpowering Strikes are now integrated as new ranks of Improved Stuns.
+- Paladin - Consolidated Weapon Mastery of the Knight and Valiant Blade into a single ability line named Weapon Mastery of the Knight. This was done by replacing Valiant Blade with ranks of the shadowknight equivalent line Bloodthirsty Blade, resulting in earlier ranks of Weapon Mastery of the Knight now being available to the paladin class.
+
+- Ranger - Consolidated Scout's Mastery of the Elements to be ranks of Wrath of the Forest Stalker.
+- Ranger - Removed the accuracy penalty from all ranks of Outrider's Evasion and improved the melee damage guard for all ranks.
+- Ranger - Adjusted the buff stacking on Group Guardian of the Forest (and Guardian of the Forest for parity) to prevent this ability from conflicting with Frenzied Burnout, Frenzy of the Dead, and Untamed Rage.
+- Ranger - Removed all ranks of Frost Arrows and updated Flaming Arrows to include the stun component from Frost Arrows. Changed all ranks of Flaming Arrows and Poison Arrows to deal direct damage rather than direct damage followed by damage over time. Reduced the proc rate on all ranks of Flaming Arrows and Poison Arrows to better space out the damage and mana consumption of these abilities.
+- Ranger - Consolidated Glacial Arrow and Volatile Arrow to be ranks of Elemental Arrow. The combined ability line will now increase incoming cold/fire spell and ability damage on your target for 1 minute with a 1 minute reuse time.
+- Ranger - The damage shield component of Convergence of Spirits will now apply as a separate blockable buff named Spiritwood Spikes.
+- Ranger - Consolidated Archery Mastery, Bow Mastery, Close Combat Mastery, and Scout's Weapon Mastery into a single ability line named Weapon Mastery of the Scout.
+
+- Rogue - Removed the accuracy penalty and increased the melee damage guard for all ranks of Tumble.
+- Rogue - Consolidated Absorbing Agent to be ranks of Twisted Shank. The combined ability now increases your target's incoming poison damage, reduces the effects of healing, and deals damage for 1 minute with a 90 second reuse time.
+- Rogue - Consolidated Dirty Fighting to be ranks of Ligament Slice. The combined ability now directly inflicts blindness, reduces your target's accuracy, movement rate, and armor class for up to 90 seconds when activated.
+- Rogue - Increased the damage modifier for all ranks of Shadow's Flanking.
+- Rogue - Fixed an error with ranks 5 and 6 of Focus: Exuberant Dagger-Throw that prevented Forceful Dagger-Throw from being focused.
+- Rogue - Consolidated Assassin's Weapon Mastery, Rake's Powerful Aim, and Weighted Strikes into a single ability line named Weapon Mastery of the Assassin.
+
+- Shadowknight - Consolidated ranks 1-5 of Improved Spite of Ronak to be ranks 16-20 of Soul Abrasion.
+- Shadowknight - Consolidated Two-Handed Bash, Immobilizing Bash, Vicious Smash, and the improved stun effect for bash attacks from the cleric/paladin ability Overpowering Strikes into a single ability line named Improved Bash.
+- Shadowknight - Consolidated Bloodthirsty Blade and Knight's Weapon Mastery into a single ability line named Weapon Mastery of the Knight.
+- Shadowknight - Consolidated Reinforced Malaise and Visage of Decay into a single ability line that combines the direct damage benefits of Visage with the damage over time at increased mana cost benefits of Malaise.
+
+- Shaman - Refunded all ranks of Hastened Decay as the ability no longer provides benefit given the changes made to the base recast time of short duration damage over time spells.
+
+- Warrior - Consolidated Imperator's Charge to be ranks of Imperator's Command. The combined ability now grants all benefits of each ability line in a single group buff.
+- Warrior - Refunded all ranks of Imperator's Precision as it was deemed out of character for the types of debuffs available to warriors.
+- Warrior - Consolidated Rage of the Forsaken to be ranks of Warlord's Fury. Reduced the reuse time of this ability from 2 minutes to 90 seconds, increased the initial aggro generated by each rank, adjusted the recourse effects to grant an 80% increase in aggro generation for 18 seconds followed by a 25% increase in combat ability and spell generation for 30 seconds.
+- Warrior - Consolidated Merciless Grip and Warlord's Weapon Mastery into a single ability line named Weapon Mastery of the Warlord.
+
+- Wizard - Renamed Concussive Intuition to Concussion and changed this ability line to cast the highest rank of the equivalent level spell from the Concussive Burst line that you have scribed.
+- Wizard - Removed all ranks of Focus: Permeating Magic and moved the effects of this group to the equivalent ranks of Focus: Claws.
+- Wizard - Arcomancy, Cryomancy, and Pyromancy have been consolidated into a toggled passive ability named Trifurcating Magic.
+- - Increased the chance for fire and ice spells to trigger their additional effects to match magic spells.
+- - Increased the hate reduction of Pyromancy to include 2% of your total hate.
+- - Changed Arcomancy to apply a buff on the wizard that will increase the damage of your next 5 spells and increased the damage focus amount.
+- - Changed Cryomancy to reduce the target's cold, fire, and magic resists, deal damage, suppress gate spells, and removed Cryomantic Snare.
+
+
+*** Progression Servers ***
+
+- Fixed an issue that prevented Falmonius from spawning in the Plane of Knowledge when Rain of Fear unlocks.
+
+
+*** Miscellaneous ***
+
+- Corrected an issue where a player could get stuck unable to cast spells or use items when dying and drinking alcohol.
+- Fixed a bug where picking as a group wasn't properly sending players to the evac point of a zone.
+- Addressed a zone stability issue related to buffs / debuffs on NPCs.
+- Addressed a client crash if you used a Potion of Disgenderment soon after logging in.
+- Addressed a client crash when the game closes.
+- Addressed a client crash issue when camping to server select or desktop.
+- Addressed a client crash when trying to login from server select.
+
+
+*** UI ***
+
+- Addressed a crash issue in the UI related to entering character select or running the /loadskin command.
+- Added a message when players activate a combat ability, visible to themselves and others.
+- - Added a chat filter for others' disciplines that can turn off these messages, and modified the existing discipline filter so you can turn off your own activate messages.
+- Mercenaries will now display their correct name in taunt messages.
+- Rank 1-18 of Mana Burn once again will display damage done in the combat log.
+- Fixed an issue preventing flash sale items from properly being displayed when they're started.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: December 18, 2019
+------------------------------
+
+*** Torment of Velious ***
+
+- The lands and denizens of the continent of Velious are suffering. The icy landscape has seemingly come to life and is flowing oddly upward toward the sky. This restless ice is infecting and animating the inhabitants it touches, turning them into zombie-like beings with a strange icy infection that appears alive in its own way – moving and shifting over their bodies. What has caused this strange turn? And what could it mean? All adventurers are called upon to unravel the chilling mysteries that are the Torment of Velious.
+- See Belinda in Northern Desert of Ro to get there.
+- Increased the maximum level cap to 115.
+- Added a new key ring for Hero's Forge armor pieces and suits.
+
+
+*** Items ***
+
+- New items for level 111 to 115 characters.
+- Fixed an art issue with two Marketplace housing items: White Frontier Door and White Frontier Shack.
+
+
+*** Tradeskills ***
+
+- New crafting recipes for baking, brewing, tailoring, smithing, research, fishing, fletching, alchemy, tinkering, poison making, jewelry making, and pottery.
+
+
+*** Quests And Events ***
+
+- New Raids, Quests, and Missions for Torment of Velious!
+- - Tier 1 raids are unlocking 30 days after the expansion launches.
+- - Tier 2 raids are unlocking 60 days after the expansion launches.
+- - Tier 3 raids are unlocking 90 days after the expansion launches.
+- End of Empire (Raid) - Fixed a bug that prevented the shield from creating the protective aura.
+- Counting Shadows - Improved operation of the task. It should be nearly impossible to be blocked by doing the steps out of order.
+- Velishan's Revenge - Corrected a bug that would make it impossible to force the dragon to change forms.
+- Braxi Roundup - You can now select a Snowstorm Ornamentation as a reward even if you've already received a Snowstorm Ornamentation in the past.
+
+
+*** Spells ***
+
+- Added new spells and combat abilities for level 111 to 115 characters.
+- Scribing new ranks of spells will now un-memorize the spells that are a lower rank in that same group.
+- Many long term buffs for levels 111 to 115 have been changed from three ranks to one powerful rank, available on vendors alongside other rank 1 spells.
+- Level 111 to 115 hybrid class healing spells will now target an ally or the target's target, meaning you do not need to switch targets to heal.
+- Cleric - Divine Alliance now modifies spells up to level 115.
+- Druid - Bosquetender's Alliance now modifies spells up to level 115.
+- Druid - Skin to Sumac now modifies spells up to level 115.
+- Paladin - Harmonious Blessing now reacts to spells up to level 115. Harmonious Illumination can now stun targets up to level 115.
+- Paladin - Remorseful Effect (from Remorse for the Fallen) now affects spells up to level 115.
+- Shadowknight - Remorselessness (from Remorseless Demeanor) now affects spells up to level 115.
+- Shaman - Ancient Alliance now modifies spells up to level 115.
+
+
+*** AA ***
+
+- New AA abilities for level 111 to 115 characters.
+- All - Adjusted the AA ability window descriptions and spell descriptions for all ranks of every AA line that was upgraded with new ranks for Torment of Velious to include spell description links and more accurate information regarding how each ability functions.
+- Multiple - Made the following changes to Cleric's Exquisite Benediction, Druid's Nature's Boon, and Shaman's Call of the Ancients:
+- - Reduced the initial reuse time from 30 minutes to 20 minutes.
+- - Granted the ward immunity from damage so that it cannot be killed early.
+- - Changed the healing spells cast by the ward from a heal over time cast every 10 seconds to a direct heal cast every 6 seconds and increased the base value of the heal.
+- - Increased the range of the ward's heal from 60 to 100 feet.
+- Bard - Changed Selo's Sonata to cast the highest rank of Selo's Accelerando that you have scribed and added a passive effect that extends the duration of Selo's Accelerando by 2 minutes.
+- Cleric - Adjusted buff stacking on Divine Avatar to reduce conflicts with other buffs.
+- Magician - Changed the pet summoned by all ranks of Servant of Ro to follow the caster when out of combat, improved its survivability, and increased the damage done by all ranks.
+- Necromancer - Changed Gathering Dusk from a delayed damage over time effect that is applied after an initial hatred generation period to an activated damage over time effect that blesses the caster with a buff that both increases DoT damage and negates Spell Casting Subtlety for 24 seconds.
+- Necromancer - Added additional ranks of Embalmer's Carapace from levels 85 to 110, reduced the damage absorption total of the existing ranks, and reduced the reuse time from 20 minutes to 15 minutes. Extended the duration of the buff and removed the hit limit from all ranks. Replaced the self damaging component that was previously triggered after the rune expired with a self damaging component that is active during damage absorption. Removed the critical DoT damage modifier from this line and increased the critical DoT damage modifier for ranks 7+ of Spire of Necromancy.
+- Necromancer - Renamed Gift of Deathly Resolve to Heretic's Twincast and modified the functionality of this ability to match that of Improved Twincast.
+- Paladin - Changed Marr's Salvation from a single target buff to a targeted group buff. Increased the duration of all ranks to 10 minutes and the recast time of all ranks to 5 minutes. Adjusted the levels and expansions that each rank is made available to more closely match the Shadowknight ability Voice of Thule.
+- Ranger - Consolidated Outrider's Attack to be ranks of Outrider's Accuracy and modified all ranks to grant the bonuses of each ability. Adjusted the levels and expansions that each rank becomes available for purchase.
+- Rogue - Changed all ranks of Envenomed Blades to a toggled passive ability and adjusted the damage based on its previous uptime.
+- Shaman - Adjusted buff stacking on Rabid Bear to reduce conflicts with other buffs.
+- Warrior - Removed the self damaging component of Warlord's Tenacity.
+
+
+*** NPCs ***
+
+- Rare spawn bonuses will no longer prevent Telgrith, Black Legion Captain from spawning in Direwind.
+- Capped strikethrough values on non-raid NPCs from Underfoot to Torment of Velious. You should see fewer strikethroughs, especially from higher level NPCs.
+- The ghostly student in the Tower of Frozen Shadow who appears in odd places on the 6th floor has found his way back to the 2nd floor library.
+- Spells cast by NPCs in Heroic Adventures will scale more appropriately at higher levels.
+- Level 106-110 NPCs in Heroic Adventures now base their stats on tier 1 Ring of Scale instead of tier 1 Empires of Kunark.
+
+*** Mercenaries ***
+
+- Increased the abilities of level 111 to 115 mercenaries.
+
+
+*** Progression Servers ***
+
+- Accelerated the unlock schedule of Rain of Fear and Call of the Forsaken later tiered content.
+- Decreased turn-ins required to unlock the druid rings in Shard's Landing.
+
+
+*** Miscellaneous ***
+
+- Customers browsing a Buyer or Trader in the Bazaar will be prompted to re-open the Merchant/Barter Window if there is a price change before they are allowed to complete a transaction.
+- Vex Thal - Fixed a bug that would send players to the zone in if they got too close to some walls in the rooms where the various Khaas Thox Aten Ha Ra hang out.
+- Fixed a crash that can occur at the server select screen.
+- Fixed a problem in Valdeholm that was causing characters to fall through the world if LoD bias was set to low.
+- Granted access to Ring of Scale content for free to play players.
+
+
+*** UI ***
+
+- Corrected an issue where right-clicking an AA hotbutton would not always go to the correct AA description.
+- Corrected an issue where avoiding a hit by a lucky riposte would not display that it was lucky.
+- Corrected an issue where a twinproc would cause additional procs from the same cast to report incorrectly as twincasts.
+- Corrected an issue where the Marketplace did not always display a membership discount correctly at the character select screen.
+- Moved spell emotes from heal messages to their own line of text instead of at the beginning of a heal line.
+- - Removed the spell emote that made it look like the caster of a lifetap was hit by the spell.
+- Added the ShowHeader property for the ListBox control to allow for hiding the header via XML.
+
+
+- Added -
+EQUI_OverseerWnd.xml
+
+
+- Changed -
+EQUI.xml
+EQUI_Animations.xml
+EQUI_KeyRingWnd.xml
+EQUI_Templates.xml
+SIDL.xml
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: December 20, 2019
+------------------------------
+
+*** Items ***
+
+- Players on free-trade servers (Firiona Vie and Brekt) can now trade Gift: Torment of Velious Standard Expansion Ticket and Gift: Level 85 Heroic Character Boost.
+- Added the class based armor emblems to Sandrice Gemheart in Froststone.
+
+
+*** Quests & Events ***
+
+- Removed beta token rewards from Torment of Velious quests.
+- All Torment of Velious raid, mission, and quest givers should now be findable.
+- All findable Torment of Velious NPCs should have a title, which shows up as their Category in the Find Window.
+- - Reward chests are an exception. They are findable, but have no title.
+- Corrected the Challenger of Torment of Velious Achievement so it now checks for the correct group challenge achievements for Zero Command, Zero Tolerance, and Zero Loss.
+- You Can't Go Back Home
+- - Fixed a bug that prevented the blessed torch from burning Ry`Gorr corpses if you'd already completed the step to kill 7 infected orcs.
+- - Ry`Gorr Blessed Torch and Ry`Gorr Blessed Sack are now lore items.
+- - Adjusted a few of the quest steps to make more sense, grammar wise.
+- - Various task text was not able to be seen if the player left the zone.
+- - Updated the icon for the necklace to make more sense.
+- - Fixed a misspelling of Grunak's name in the task text.
+
+
+*** Spells ***
+
+- Fixed several spell descriptions that were referencing item names that weren't displaying correctly.
+- Added spell descriptions to all NPC spells created for Torment of Velious.
+- Bind Affinity will now function in the Torment of Velious Eastern Wastes and Great Divide zones.
+- Made several corrections to spells used by NPCs in Torment of Velious.
+- - Chilling Touch, Stone Bite, Spider's Web, and Acidic Ice Pool will slow attack speed without removing attack speed buffs.
+- - Crushing Ice and Acidic Ice Pool have been given a duration so that their detrimental effects can have some actual effect.
+- - Vorag's Curse of the Laggard changed so that it will be harmful rather than beneficial for the target.
+
+
+*** NPCs ***
+
+- Grunak and Reclamation Officer Borminn have found their way back to the Eastern Wastes.
+- Excellent Raiton Evasion and chilled carcasses in Eastern Wastes should no longer display as humans.
+- An wandering icepaw kobold is now a wandering icepaw kobold.
+- Sanra Gemheart will now work with parcels as advertised.
+
+
+*** Miscellaneous ***
+
+- Zeflmin Welikanin can now teleport you to the Torment of Velious version of the Eastern Wastes.
+
+
+*** UI ***
+
+- Fixed a linking issue with the Ry`Gorr Mines section of the Atlas.
+
+
+- The EverQuest Team 
+
+.....................................................................

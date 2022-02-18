@@ -1,0 +1,1244 @@
+.....................................................................
+
+------------------------------
+Game Update Notes: January 4, 2018 (rescheduled to January 5, 2018)
+------------------------------
+
+*** Quests & Events ***
+
+- Shared tasks, upon completion, will now give their replay timer to any members who dropped the task before it was completed.
+
+
+*** Miscellaneous ***
+
+- You will no longer be able to loot items in a dynamic zone if you have left the shared task or been removed from the DZ. 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: January 17, 2018
+------------------------------
+
+*** Highlights ***
+
+- Added an /outputfile recipes command. See the Tradeskills section for details.
+- The Iksar Heritage Crate and the Broker's Backpack Set are now available on the Marketplace!
+- Characters that did not have the proper rank of Hero's Fortitude, Resolution, or Vitality should now be fixed.
+- Fixed a bug that could result in the loss of mercenary experience at higher levels.
+- Corrected the size of target decals for AE spells. Previously they were off by about 10% from the actual size.
+
+
+*** Items ***
+
+- Mount, Illusion, and Familiar Key Ring Slots have returned to the Marketplace. They now have a cap of 250 slots.
+- If an item is stackable and has a convert button, one item from the stack will be converted per click instead of the entire stack.
+- Fixed Island Toxin to correctly reduce the target's melee accuracy and increased the duration from 12 to 30 seconds.
+- Raised the tier of Improved Dodge on Shattered Mirror of Self-Loathing to VII.
+- Bridle of the Balefire Wyvern will now dismiss the mount if clicked again like other mount items.
+- Gorowyn Translocator Lantern now notes "This item is placed on a ceiling."
+- Scale Touched Dragonbrood Leggings now have Ferocity XI.
+- Wrapped Conflagrant augments are no longer temporary and Wrapped Conflagrant type 5 augments stack to 20.
+- Ability: Enchant Conflagrant Platinum and Ability: Mass Enchant Conflagrant Platinum are now enchanter only and will correctly teach their abilities.
+- The charm descriptions on Polished Ember Relic, Venril Sathir Charm, Ioulin's Warrant, and Conflagrant Charm of Security now correctly state that Ring of Scale armor is required.
+- Corrected the visual appearance and icons of Phlogiston Tower Shield, Phlogiston Kite Shield, and Phlogiston Buckler.
+- Fixed the name of Signet of the Forge Lord.
+- Fixed the negative stats on Grave.
+- Fixed the description for Fury of the Beast, the click spell on Beastlord chest items from Ring of Scale.
+- Fixed the description for Secretion of the Mamba, the click spell on Rogue leg items from Ring of Scale.
+- Fixed the descriptions of Elixir of Clarity XIX, Spider's Bite Poison X, Bite of the Shissar Poison X, Elixir of Health XIX, Healing Potion XIX, Elixir of Healing XXI, Elixir of Spiritualism XIX, Elixir of Replenishment XIX, Spider's Bite Poison Strike XI, Bite of the Shissar Poison Strike XI on various potions and poisons from Ring of Scale.
+- Changed the augmentation slot type from 7 to 8 on all Phlogiston non-visible items.
+- The purity augmentation slot in Ring of Scale group armor is now type 13.
+- Changed the proc on Brilliant One Eye to Burst of Flames III.
+- Corrected the proc and focus on Phlogiston Longbow.
+- Many legacy Hero's Forge ornaments will no longer drop from higher level NPCs.
+- Type 5 Tier 2 augments now drop in appropriate zones.
+- Added the ability to place Draconic Poison, Acidic Abrasive, Drachnid Toxin, Phlogiston Miasma, and Draconic Formula in potion belts.
+- Irae Faycite Shard: Skorpikis Blade Strike can now correctly be used by rogues.
+
+
+*** Tradeskills ***
+
+- Added an /outputfile recipes command. It will output the names of tradeskill recipes you know if they qualify you for additional skill points past the 300 cap.
+- Sub combine items for Crestra's Earring are now no-trade.
+- Changed the text in the Ring of Scale poison book (Osbdosmn) to include a mention of Distilled AA ingredients and correct the reference to Sculptured Poison Vials.
+- It is now possible to create Scorpion's Agony XIX, Strike of the Shissar XIX, Strike of Ssraeshza XIX, E`ci's Lament XIX, Myrmidon's Sloth XIX, Fighter's Bane XIX, Vallon's Tactic XIX, Tallon's Tactic XIX, Anger of the Shissar XIX, Hate of the Shissar XIX, Gelidran Lament XIX, Pyrilen Burn XIX, Monk's Bane XIX, Archer's Bane XIX, Warlord's Bane XIX, Messenger's Bane XIX, Quellious' Trauma XIX, Solusek's Burn XIX, and Hero's Toxin III poisons.
+- Increased the drop rate of Conflagrant Silk.
+
+
+*** Quests And Events ***
+
+- Ring of Scale raids will now drop the intended amount of coin.
+- Fixed a few typos in Crestra's dialogs.
+- Crestra's quests will be more forgiving if you fail to follow instructions and create the earring early. Forcing an update to your inventory (looting or destroying an item) will force an update to your quest if you are currently in this situation.
+- Fit for the New World - The guards on patrol will no longer re-spawn and are worth significantly less experience.
+- End of Empire (mission) - The mission will no longer grant raid achievements.
+- Balance of Power (mission) - Fixed a bug that was making it impossible to succeed at the 'Unburnt' achievement.
+- Talendor (mission) - Fixed a messaging error that would say that the 'Hard Way' achievement had failed when it hadn't.
+- Talendor (mission) - Nexona no longer casts the raid version of Shadow Flames. Talendor now has hit points more appropriate to a mission for two groups.
+- Talendor (mission) - The Veeshan's Peak mission for Ring of Scale now properly requires participants to have the key to Veeshan's Peak.
+- Veeshan's Peak (Ring of Scale) - Everyone will need the proper key to be in the zone.
+- Fell Foliage (mission) - Made this event more challenging.
+- End of Empire (mission) - All three of the soldiers should drop shields.
+- Balance of Power (mission) - NPCs in this mission will no longer give raid out of combat cooldowns or /con as raid level targets.
+- End of Empire (raid) - Warleader Hegron's corpse will no longer depop if he has loot.
+- Chokidai Unbound - The chokidai will find a new master if it can't see the current one. If everyone in the group that is alive in the zone is invisible, it will run away forever and be sad.
+- Chokidai Unbound - Lavalisks should no longer fail to spawn at the end of the quest, unless you do not have an egg for them to eat.
+- Fixed a bug with some reward sets failing to offer experience for level 106+ players (e.g. the tasks offered by Master Hunter Jilare in Shard's Landing).
+- The tasks 'All to Scale', 'Killing Claws', and 'Bipedal Dragons' no longer share a replay timer.
+- Fixed a problem with three events that could erroneously send someone on a one-way trip to Qeynos.
+- Master Vule, the Silent Tear - This raid is now instanced instead of open air contested. Speak to Margaret Hill in Dreadspire to launch the raid.
+- Master Vule, the Silent Tear - This event has received various minor changes and improvements.
+- Zi-Thuuli of the Granite Claw - The reward chest for Zi-Thuuli of the Graniteclaw should spawn at his location instead of on a random person in the Demi-Plane of Blood.
+- Mayong Mistmoore (Demi-Plane of Blood) - Mayong will only allow a limited number of item debuffs when he is at high health. More opportunities to debuff him will appear as he takes more damage.
+
+
+*** Spells ***
+
+- Bard songs now display full casting information similar to normal spells when a bard begins to sing.
+- Bard songs no longer display a message when the song ends or is interrupted.
+- Beastlord - Increased damage, HP, AC, and skills of all level 106+ warders. Increased the level of pets focused by Enhanced Minion XIX and higher.
+- Cleric - Increased the damage dealt by Unyielding Hammer of Zeal.
+- Cleric - Corrected the spell description for Divine Response.
+- Enchanter - Increased damage, HP, AC, and skills of Nureya's Animation.
+- Magician - Increased damage, HP, AC, and skills of all level 106+ elementals. Increased the level of pets focused by Enhanced Minion XIX and higher.
+- Magician - Fire pets will properly cast Frenzied Elemental Bolt again when under the effect of Frenzied Burnout.
+- Necromancer - Increased damage, HP, AC, and skills of all level 106+ servants. Increased the level of pets focused by Enhanced Minion XIX and higher.
+- Paladin - Remorse for the Fallen will now affect spells up to level 110.
+- Shadowknight - Increased damage, HP, AC, and skills of Minion of T'Vem.
+- Shadowknight - Remorselessness will now affect spells up to level 110.
+- Shadowknight - The Glowing Clawed Tablet of the Ring of Scale will no longer grant duplicate scrolls.
+- Shadowknight - The Glowing Marked Symbol of the Ring of Scale will now grant Scroll: Touch of T`Vem Rk. III in addition to the other level 110 items.
+- Shaman - Increased damage, HP, AC, and skills of Mirtuk's Faithful.
+- Wizard - Increased damage dealt by Virnax's Pyroblade.
+- Wizard - Corrected spell descriptions for Funnel of Frostbite and Claw of Qunard.
+
+
+*** AA ***
+
+- Characters that did not have the proper rank of Hero's Fortitude, Resolution, or Vitality should now be fixed.
+- Mercenary - Changed the prerequisite for rank 11 of Healing Acumen and Mystic Destruction to be rank 15 of Improved Spell Resistance rather than rank 16.
+- Berserker - Ranks 4-5 of War Cry of the Braxi will now trigger the correct spell.
+- Monk - Fixed a missing 30 second duration extension on ranks 28-30 of Zan Fi's Whistle.
+- Paladin, Shadowknight - Enduring Reproval will now focus the level 108 combat ability Spurn.
+- Paladin - All ranks of Divine Protector's Unity now include the buff Silent Piety.
+- Rogue - Removed the restriction which required you to be invisible to activate Shared Stealth, which fixes the bug where the ability would not last its intended duration if the recipient was invisible.
+
+
+*** NPCs ***
+
+- Heroic Adventure NPCs will now scale more appropriately at higher levels instead of being drastically easier than similarly leveled content.
+- Praetor Scout Ellidia is now findable.
+- Added cash loot to NPCs in Ring of Scale zones.
+- Made the following changes to the rare NPCs in Gorowyn:
+- - Increased the spawn rate of rare NPCs.
+- - Changed the placeholder of Head Boiler Akett to a soup boiler so that he is no longer on the same fast-respawning encounter as the meat broilers that are quest targets.
+
+
+*** Mercenaries ***
+
+- Fixed a bug that could result in the loss of mercenary experience at higher levels.
+
+
+*** Collections ***
+
+- The items for the 'Rocks and or Boulders' collection set will now correctly spawn in Veeshan's Peak replacing the errantly spawning set 'Dragonhunter's Folly'.
+- Corrected a bug where collection items for Sathir's Tomb and Howling Stones could drop from the wrong location.
+
+
+*** Progression Servers ***
+
+- Enrid Ebonclaw is now available when Omens of War unlocks.
+- The Curse Begins - This task can now be completed in era. Nisha Lightbrook's spawn is now restricted to Dragons of Norrath.
+- The Ring of Scale Painting can now be claimed after House of Thule has unlocked on the server.
+
+
+*** Miscellaneous ***
+
+- Corrected the size of target decals for AE spells. Previously they were off by about 10% from the actual size.
+- Race Change Scrolls will now properly grant racial skills.
+- Fixed a client crash that could occur when logging into the game or logging out to server select.
+- Corrected an issue with /target not consistently working on corpses or players with a corpse in the zone.
+
+
+*** UI ***
+
+- Added pagination to the guild management window.
+- - By default, the page size is 100.
+- - This greatly improves responsiveness and performance of the window for large guilds.
+- Alternate Currency vendors that offer parcel services will now properly mail your items.
+- The merchant window now displays expanded coin cost as a tooltip.
+- Purchasing an item will no longer cause the merchant window to scroll back to the top every time.
+- Added a default text color for the UI.
+- Corrected an issue where the client could crash when changing loot filter settings.
+- The bazaar and find item windows UI positioning has been adjusted.
+
+- Changed -
+EQUI_AAWindow.xml
+EQUI_AchievementsWnd.xml
+EQUI_AchievementWnd.xml
+EQUI_ActionsWindow.xml
+EQUI_AdvancedDisplayOptionsWnd.xml
+EQUI_AdvancedLootWnd.xml
+EQUI_AdventureLeaderboardWnd.xml
+EQUI_AdventureRequestWnd.xml
+EQUI_AdventureStatsWnd.xml
+EQUI_AggroMeterWnd.xml
+EQUI_AlarmWnd.xml
+EQUI_AlertHistoryWnd.xml
+EQUI_AlertStackWnd.xml
+EQUI_AlertWnd.xml
+EQUI_AltStorageWnd.xml
+EQUI_AudioTriggersWindow.xml
+EQUI_AVA_ItemSearchWnd.xml
+EQUI_BandolierWnd.xml
+EQUI_BankWnd.xml
+EQUI_BarterMerchantWnd.xml
+EQUI_BarterSearchWnd.xml
+EQUI_BarterWnd.xml
+EQUI_BazaarConfirmationWnd.xml
+EQUI_BazaarSearchWnd.xml
+EQUI_BazaarWnd.xml
+EQUI_BigBankWnd.xml
+EQUI_BlockedBuffWnd.xml
+EQUI_BlockedPetBuffWnd.xml
+EQUI_BodyTintWnd.xml
+EQUI_BookWindow.xml
+EQUI_BugReportWnd.xml
+EQUI_CastingWindow.xml
+EQUI_CharacterCreate.xml
+EQUI_CharacterListWnd.xml
+EQUI_CharacterSelect.xml
+EQUI_ChooseZoneWnd.xml
+EQUI_ClaimWnd.xml
+EQUI_ColorPickerWnd.xml
+EQUI_CombatAbilityWnd.xml
+EQUI_CombatSkillsSelectWindow.xml
+EQUI_ConfirmationDialog.xml
+EQUI_Container.xml
+EQUI_DynamicZoneWnd.xml
+EQUI_EditLabelWnd.xml
+EQUI_EQMainWnd.xml
+EQUI_EventCalendarWnd.xml
+EQUI_ExtendedTargetWindow.xml
+EQUI_FeedbackWnd.xml
+EQUI_FellowshipWnd.xml
+EQUI_FileSelectionWnd.xml
+EQUI_FindItemWnd.xml
+EQUI_FindLocationWnd.xml
+EQUI_FriendsWnd.xml
+EQUI_GemsGameWnd.xml
+EQUI_GiveWnd.xml
+EQUI_GroupSearchWnd.xml
+EQUI_GroupWindow.xml
+EQUI_GuildBankWnd.xml
+EQUI_GuildCreationWnd.xml
+EQUI_GuildManagementWnd.xml
+EQUI_HelpWnd.xml
+EQUI_HeritageSelectionWnd.xml
+EQUI_HotButtonWnd.xml
+EQUI_HtmlWnd.xml
+EQUI_IconSelectionWnd.xml
+EQUI_InspectWnd.xml
+EQUI_Inventory.xml
+EQUI_ItemDisplay.xml
+EQUI_ItemExpTransferWnd.xml
+EQUI_ItemOverflowWnd.xml
+EQUI_JournalCatWnd.xml
+EQUI_JournalNPCWnd.xml
+EQUI_KeyRingWnd.xml
+EQUI_LargeDialogWnd.xml
+EQUI_LayoutCopyWnd.xml
+EQUI_LFGuildWnd.xml
+EQUI_LoadskinWnd.xml
+EQUI_LootFiltersCopyWnd.xml
+EQUI_LootFiltersWnd.xml
+EQUI_LootSettingsWnd.xml
+EQUI_LootWnd.xml
+EQUI_MailAddressBookWindow.xml
+EQUI_MailCompositionWindow.xml
+EQUI_MailIgnoreListWindow.xml
+EQUI_MailWindow.xml
+EQUI_ManageLootWnd.xml
+EQUI_MapToolbarWnd.xml
+EQUI_MapViewWnd.xml
+EQUI_MarketplaceWnd.xml
+EQUI_MercenaryInfoWnd.xml
+EQUI_MercenaryManageWnd.xml
+EQUI_MercenaryMerchantWnd.xml
+EQUI_MerchantWnd.xml
+EQUI_MIZoneSelectWnd.xml
+EQUI_MusicPlayerWnd.xml
+EQUI_NameChangeMercWnd.xml
+EQUI_NameChangePetWnd.xml
+EQUI_NameChangeWnd.xml
+EQUI_NoteWindow.xml
+EQUI_ObjectPreviewWnd.xml
+EQUI_OptionsWindow.xml
+EQUI_PetInfoWindow.xml
+EQUI_PlayerCustomizationWnd.xml
+EQUI_PlayerNotesWindow.xml
+EQUI_PlayerWindow.xml
+EQUI_PotionBeltWnd.xml
+EQUI_ProgressionSelectionWnd.xml
+EQUI_PurchaseGroupWnd.xml
+EQUI_PurchaseWnd.xml
+EQUI_PvPLeaderboardWnd.xml
+EQUI_PvPStatsWnd.xml
+EQUI_QuantityWnd.xml
+EQUI_RaceChangeWnd.xml
+EQUI_RaidOptionsWindow.xml
+EQUI_RaidWindow.xml
+EQUI_RealEstateItemsWnd.xml
+EQUI_RealEstateLayoutDetailsWnd.xml
+EQUI_RealEstateManageWnd.xml
+EQUI_RealEstateNeighborhoodWnd.xml
+EQUI_RealEstatePlotSearchWnd.xml
+EQUI_RealEstatePurchaseWnd.xml
+EQUI_RespawnWnd.xml
+EQUI_RewardSelectionWnd.xml
+EQUI_SendMoneyWnd.xml
+EQUI_ServerListWnd.xml
+EQUI_ShareWnd.xml
+EQUI_SkillsWindow.xml
+EQUI_SocialEditWnd.xml
+EQUI_SpellBookWnd.xml
+EQUI_StoryWnd.xml
+EQUI_TargetOfTargetWindow.xml
+EQUI_TargetWindow.xml
+EQUI_TaskOverlayWnd.xml
+EQUI_TaskSelectWnd.xml
+EQUI_TaskTemplateSelectWnd.xml
+EQUI_TaskWnd.xml
+EQUI_TemplateCharacterWnd.xml
+EQUI_TemplateSelectWnd.xml
+EQUI_TextEntryWnd.xml
+EQUI_TipWnd.xml
+EQUI_TitleWnd.xml
+EQUI_TrackingWnd.xml
+EQUI_TradeskillWnd.xml
+EQUI_TradeWnd.xml
+EQUI_TrainWindow.xml
+EQUI_TributeBenefitWnd.xml
+EQUI_TributeMasterWnd.xml
+EQUI_TributeTrophyWnd.xml
+EQUI_VideoModesWnd.xml
+EQUI_VoiceActionBarWnd.xml
+EQUI_VoiceMacroWnd.xml
+EQUI_VoteResultsWnd.xml
+EQUI_VoteWnd.xml
+EQUI_ZoneGuideWnd.xml
+EQUI_ZonePathWnd.xml
+
+
+*** Previously Updated ***
+
+- Corrected the rewards for the quests Stomp the Invaders, Stomp the Defenders, and Tooth and Fist.
+
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: January 19, 2018
+------------------------------
+
+*** Tradeskills ***
+
+- Increased the drop rate of Conflagrant Ore, Conflagrant Platinum, Conflagrant Wood, Conflagrant Diamond, Conflagrant Reptile Skin, Kunark Conflagrant Powder, and Slime.
+
+
+*** Quests And Events ***
+
+- The Sathir Line - Venril and Rile will now be killable when both of their health percentages are lowered.
+- Fell Foliage (Mission) - Lowered the damage output and hit points of Cactiikii.
+
+
+*** Miscellaneous ***
+
+- You must have an empty inventory slot to claim items. 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: January 30, 2018
+------------------------------
+
+*** Quests And Events ***
+
+- Master Vule the Silent Tear - Master Vule will always leave a corpse when slain. 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: February 21, 2018
+------------------------------
+
+*** Highlights ***
+
+- Fixed several problems with Ring of Scale items. See the Items section below for details.
+- Many UI features are no longer expansion restricted on Progression Servers including but not limited to: clicking items from bags, bandolier, blocking spells, and the quest journal.
+
+
+*** Items ***
+
+- Items that can be converted will now always show the conversion preview link when inspected. Previously this link could only be seen if the item was in your inventory.
+- Containers that can be converted must now be empty of all items before they will process the conversion.
+- Lore is now enforced in the item recovery system. The recover tab in the merchant window will no longer allow for the storage of multiple items in the same lore group. Destroying an item while another in the same lore group exists in the recover tab will not add the most recently destroyed item to the recover tab.
+- Fixed the spell types on Crasher to allow the Remote Healing Blessing V proc to function.
+- Skull of Null is now All/All and a charm slot item. Fixed the shielding effect. Changed the click spell to Annul Magic.
+- The Mask of Monstrosity from the Plane of Mischief now casts Illusion: Ogre instead of Chill Sight.
+- The Hoarded Worker Sledgemallet can be equipped in the primary slot instead of the charm slot.
+- Added a Spell Research Table for placement in your house. It can be purchased from Varlad Rahnta in the Neighborhood.
+- Lowered the damage on Strike of the Blood Orchid to one-hand weapon appropriate.
+- Boon of the Soother now triggers on heals instead of damage spells.
+- Scale Touched Dragonbrood Cowl now has Faerune.
+- Chalandria's fang now mentions its intended level cap of 100.
+- Overlord and Archon Phlogiston armor now have 75 purity.
+- Ring of Scale unique edible foragables have had the tradeskill flag removed.
+- Ring of Scale chase items now have Augmentation slots.
+- For Ring of Scale items, added bash damage to shoulders, backstab damage to cloaks, kick damage to neck items, and frenzy damage to select face items.
+- Phlogiston two-handed weapons with negative poison resist now have a save of 127.
+- Scale Touched Dragonbrood Armwraps now have Cleave VII - 38.
+- Fixed an issue with the stats granted by the Ring of Scale power sources, which were lower than intended.
+- Sebilisian Dragonhunter Cowl and Sebilisian Dragonhunter Armwraps now have the correct icons.
+- Coercer's Conflagrant Wristguard now has the group poison/chromatic focus.
+- Coercer's Phlogiston Wristguard, Archon's Phlogiston Bracer, Dread Suzerain's Phlogiston Bracer, and Feral Lord's Phlogiston Wristguard now have the raid poison/chromatic focus.
+- Trader's Satchel and its colored variants are now heirloom.
+- The following keys will now be added to the key ring when used: Wind Etched Key, Gem-Etched Key, Symbol of Torden, and Crystalline Globe.
+- The Brain in a Jar, Painting: Tink N Babble, Statue: Iksar Head, Emperor Ganak Throne, Statue: Iksar Bust, and Froglok Head in a Jar will now be flush with the ground when placed in housing in Cursor Mode.
+- Typos in the following items were fixed: Dull Broadsword of Decay, Rust Venom, Tevik's Vision, Forgeborn Shield, Tome of Tash, Spell: Illusion: White Bunny, and the spelling of Hoshkar in focus effects.
+- Claiming an item without having the appropriate available inventory space should no longer result in losing both the item and the claim. Instead, either the item will be placed on your cursor or the claim will be restored.
+- Race Change Scrolls will no longer remove spells in your spellbook unless you do not qualify to know them due to deity restrictions.
+
+
+*** Tradeskills ***
+
+- Salvage can now return all items that were used in the recipe regardless of how many items the recipe returns on failure. For example: failing to create a Conflagrant Fish Scale Sheet can now return between two and ten Conflagrant Fish Scale Swatches instead of just two.
+- Changed the name of Conflagrant and Phlogiston Katar to Conflagrant and Phlogiston Claws. Renamed the appropriate recipes. Added the proper offhand look and modified the book Weapon and Shields of Combination to mention claws instead of a katar.
+
+
+*** Quests And Events ***
+
+- If you leave a shared task, you are no longer able to join a different instance of that task until the task you left ends.
+- Drusella's Vault (Raid) - It is no longer possible to trigger the raid by standing in the starting area near the room where the raid takes place.
+- Balance of Power (Raid) - It should now be possible to receive the Foul Breath achievement.
+- Balance of Power (Raid) - The death of the real High Arcron Ioulin will no longer despawn all adds in the raid.
+- Balance of Power - (Raid and Mission) - The portals can no longer be opened like chests.
+- End of Empire (Raid and Mission) - Fixed an issue where the Kar`Zok soldiers would sometimes not drop a Defender's Shield. The Combine allies in this fight will no longer be selected when using cycle-target.
+- Fell Foliage (Mission) - Removed the mechanic where Caktiikii teleports people into the ravine. Slowed the spawn rate of the adds and increased the number required for the boss to lock his HP by one.
+- Fell Foliage (Mission) - Reduced the number of the same cactus adds needed to create the atrocious cactus from 5 to 3. Also fixed a bug that caused one too many to be needed to spawn the atrocious cactus.
+- Removed zone restrictions from all of the collect steps of Crestra's earring quests.
+- Hoshkar - Cloud of Frailty and Massive Cloud of Frailty now debuff casting speed instead of buffing it. In addition, the slow debuff component now stacks with haste effects.
+- Corrected the achievement references in the holiday events.
+- Find Fibblebrap - Corathus - Bellfast will now offer his missions properly and will give you all of the information that he was originally intended to give.
+- Dreadspire Keep - The statue in Dreadspire Keep that can be used to enter the Demi-Plane of Blood will now work properly in pick zones.
+- Flight of the Seeker - It is no longer possible to accidentally kill The Seeker and fail the mission.
+- The Master of Dreadspire - Hailing The Master of Dreadspire will reveal which answers you gave to Arturos, Irrissa the Seer, Ur-Koraag, and Ariahn Teller.
+- The Master of Dreadspire - The Master of Dreadspire will now remember the top several players of his hatelist and resume attacking them after the Burst of Dawn effect from the Glimmering Dawnstone wears off.
+- Porthio, the Second Born - The shared aggro between Porthio and Nightshade should work more reliably.
+- Emperor Ssraeshza - Emperor is now tethered to his room.
+- Most Vex Thal bosses now tether to their rooms.
+- Legacy Heroic Adventures have received several tuning and functionality changes:
+- - Heroic Adventure NPCs have lower stats at level 106+, compared to their January 2018 stats.
+- - Spells cast by NPCs in Heroic Adventures scale in approximately the same way that the NPCs' stats scale. For levels 101+ this was generally an increase.
+- - Heroic Adventures stop scaling at the maximum level in the era they were introduced. For example, 15th anniversary and Call of the Forsaken errands released when the maximum level was 100, so even if there is a level 101+ player in the zone, the highest these adventures will scale is as if the max level player in the zone were level 100.
+- - Heroic Adventures experience and point reward scaling have been adjusted to better reflect their difficulty.
+- - Heroic Adventures daily quest experience and point reward scaling have been adjusted to better reflect their difficulty.
+
+
+*** Spells ***
+
+- Fixed a bug where some characters were unable to learn any new combat abilities.
+- Corrected an issue where some spells erroneously displayed 'begins to sing a song.<>'
+- Berserker - Corrected the descriptions for the amount of hatred reduction on Jarring Jolt and Axe of Rekatok Jolt Effect.
+- Cleric - Increased the AC granted by Armor of the Merciful slightly.
+- Druid - Increased the AC granted by Arcronite Skin and Arcronite Blessing and adjusted stacking blockers so that they are no longer overwritten by Assurance.
+- Druid - Increased the mana regeneration rate of Arcronite Skin to match Arcronite Blessing.
+- Druid - Greatly reduced the damage of combined DoTs above level 70. The Flame Lick and Gelid Moonbeam lines have been further reduced in damage to reflect that they were not stackable before stacking groups were created.
+- Shaman - Greatly reduced the damage of combined DoTs above level 70.
+
+
+*** AA ***
+
+- Cleric - Fixed the description for rank 18 of Divine Retribution.
+- Magician - Fixed a bug that caused Second Wind Ward to trigger Second Wind on the magician rather than their pet when their pet reached low health. Modified Second Wind to better coexist with other AC buffs.
+- Paladin - Fixed a bug where ranks 35-37 of Lay on Hands would not reset on death like previous ranks.
+- Rogue - Fixed the duration of ranks 22-23 of Rogue's Fury.
+- Wizard - Changed rank 11 of Evoker's Synergy to trigger off of Shocking Vortex rather than Ethereal Braid.
+
+
+*** NPCs ***
+
+- Overthere and Skyfire (Ring of Scale) - NPC spells Aggressive Buffet, Irritating Spines, Rake, and Soul Drain no longer land through immunities. The Irritating Spines debuff's duration has been reduced.
+- Veeshan's Peak (Ring of Scale) - NPCs should regard pets in the more common way now.
+- Veeshan's Peak (Ring of Scale) - Hard rares will respawn more slowly and will have a maximum of one power source.
+- Xalgoz in Sathir's Tomb has returned to his proper race.
+- Lashun Novashine in Plane of Health has remembered what he wanted to say and should now respond properly.
+- Big cat familiars will no longer eat other people's familiars, because that's naughty. Bad kitty!
+- Depths of Darkhollow - Several quest NPCs are now immune to attack. This includes but is not limited to the Doorman in Dreadspire Keep and Shadowalker Dustspirit in Stoneroot Falls.
+- Shadowalker Dustspirit in Stoneroot Falls now has the (Missions) tag.
+
+
+*** Collections ***
+
+- Many collectibles from Call of the Forsaken and The Broken Mirror now have lore text.
+- Fixed the typos in the collectibles and associated achievements for the Dull Broadsword of Decay and Rust Venom.
+
+
+*** Progression Servers ***
+
+- Many UI features are no longer expansion restricted, including but not limited to: clicking items from bags, bandolier, blocking spells, and the quest journal.
+- Added an Agent of Change for the Veeshan's Peak revamp, available when Gates of Discord unlocks.
+- The Cazic-Thule instance offered by the Agent of Change will now grant lockouts as intended.
+- The Temple of Cazic-Thule will now turn into the Accursed Temple of Cazic-Thule when Planes of Power unlocks.
+- The Praesertums in Sanctus Seru are now in the progression instance zone with Lord Inquisitor Seru.
+- - The Agent of Change no longer requires the key. It still does a level check.
+- - The Arx Key teleports you to the Lord Inquisitor Seru area in the base zone UNLESS you are in the progression instance or a pick zone for Sanctus Seru, in which case it will teleport you to the Lord Inquisitor Seru area in the zone you are in.
+- - The entrance point of the progression instance is now near the relative location of the Agent of Change that sends you there, not the Agent of Change is in the Lord Inquisitor Seru area that can teleport you out of the instance.
+- The initial ranks of mercenary alternate advancement abilities can now be obtained with the release of Seeds of Destruction.
+- Fixed a bug that caused low level fire pets to cast an incorrect spell in eras prior to Planes of Power.
+- All adoptable heritage crate mounts now have text in the adopt effect description that state that Luclin must be unlocked in order to adopt the mount.
+- The sky and outdoor settings are now consistent between Luclin Agent of Change instances and base zones. This will allow for summoning a mount in the instance if it can be summoned in the base zone.
+- Ruins of Kunark must be unlocked in order to claim Kunark teleporter items.
+
+
+*** Miscellaneous ***
+
+- Performed significant upgrades to both the client and server to utilize more modern hardware and operating system features.
+- Added a warning message when starting the game on Windows Vista, XP, and older operating systems:
+- - In a few months the game will be unable to run on such systems.
+- - Please refer to the minimum system requirements on our website.
+- Fixed an issue where characters that had previously changed race did not have their innate skills updated to the expected values.
+- NPC names will be capitalized at the beginning of FLURRY or RAMPAGE messages.
+- Corrected an issue where players on non-PVP servers were hitting a distance limit when /targeting another player.
+- Corrected an issue that could cause characters to fail to load into the Character Select screen.
+- Corrected several misspellings of Lxanvom.
+
+
+*** UI ***
+
+- The AA abilities window will now display descriptions for your current ability rank as well as the next rank available for purchase.
+- You can now toggle a border on the Task Overlay window.
+- Fixed an issue where quests were being removed from the Task Overlay window on logout.
+- Merchants that use alternate currencies will no longer purchase your coin items.
+- The Find Item Window now filters equipped items and items in your inventory as separate locations.
+- Corrected an issue where players were not being added to the guild window after zoning or logging in.
+- The bazaar and find item windows UI positioning has been adjusted.
+- Added focused mana cost, range, endurance cost, resist mod, and push information to the spell display window.
+- The guild window no longer counts players who are not displayed in each page's total, and the players per page setting is now saved.
+- Corrected an issue with the Reset button on the Find Item Window.
+
+- Changed -
+EQUI_AAWindow.xml
+EQUI_BazaarSearchWnd.xml
+EQUI_FindItemWnd.xml
+EQUI_GuildManagementWnd.xml
+EQUI_TaskOverlayWnd.xml
+
+*** Previously Updated ***
+
+- Master Vule the Silent Tear - Master Vule will always leave a corpse when slain.
+- Corrected a problem that could cause the Cazic-Thule zone to continually repop when a progression instance was active.
+- Cleric - All spells in the Holy Intervention Strike line are now Chromatic resists with a -10 modifier. Fixed several other inconsistencies with early ranks of these spells.
+- Necromancer - Fixed a problem that prevented Adalora's Shade and Reliving Assassin from spawning pets if you did not have a spell focus that affected them.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: February 23, 2018
+------------------------------
+
+*** Hotfix ***
+
+- Drusella's Vault - This event should activate properly again.
+- The Veeshan's Peak Agent of Change is now able to send you to the correct instance when Omens of War unlocks on Progression Servers. 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: March 14, 2018
+------------------------------
+
+*** Highlights ***
+
+- March 16, 2018 marks EverQuest's 19th Anniversary! We're grateful for all of you who have made this possible. Keep an eye out for new and returning special events in the upcoming weeks!
+- Have you been looking for an opportunity to start fresh? Our newest Progression Server, Coirnav, launches on March 16, 2018! See the forums for details.
+- Bristlebane's been rummaging around in his vault recently and has found some once-lost items! Check the Marketplace for limited time offers during the 19th Anniversary!
+
+
+*** Items ***
+
+- Adjusted the base modification of Jeweled Skull of Null to make the stats closer to the group version if you have completed no Veeshan's Peak raids.
+- Procs on weapons can now activate if the item has a click cooldown that is different from the spell activated on a proc.
+- Removed the small knockback from Rain of the Overthere on Hoarded Worker Sledgemallet and Jeweled Hoarded Worker Sledgemallet.
+- New player starting tunics can no longer be traded and have no value.
+- Fixed the spelling of Deathseeker on three items.
+
+
+*** Tradeskills ***
+
+- Fixed a problem where combine failures were not always returning the tools used.
+- The recipe for Scaleborn Warmonger Coat now requires Combine Draconic Scale Transmogrificant.
+
+
+*** Quests And Events ***
+
+- End of Empire (Mission and Raid) - Fixed a bug that could cause the Unhammered and No Outbreaks achievements to fail when they should not.
+- Hoshkar (Ring of Scale) - Smoothed out the intervals at which Hoshkar casts his spells. They should no longer cast at the same time.
+- Balance of Power (Raid) - Fixed an issue that would prevent completion of the Ghosted achievement.
+- Fell Foliage (Mission) - Lowered the maximum number of players allowed in this mission to 6.
+- Jondin's Fern Flower quest can now be completed.
+- Crypt of Sul Heroic Adventures - Removed some NPCs that should not have spawned in these missions.
+- Reduced the level of many Heroic Adventure NPCs. This mostly affects rares in The Broken Mirror.
+- Vex Thal - Bosses will now tether in the Agent of Change instances.
+- Vex Thal - Akhevan Warders will again banish people.
+- Vex Thal - Kaas Thox Xi Aten Ha Ra will no longer tether if it gravity fluxes.
+
+
+*** Spells ***
+
+- Detrimental beam spells no longer attempt to hit many types of invalid targets such as friendly NPCs (including pets), auras, and invulnerable NPCs. Beneficial beam spells now include friendly NPCs (including pets), and exclude enemy NPCs and players.
+- Spell/Tome reward sets from Ring of Scale will now hide abilities you have already memorized when you view them. If you have used a tablet or symbol before this change but not selected a reward you will have to reuse the tablet or symbol to do so.
+- Moved all melee timers up one ID in order to fix several timing issues with procs.
+- Bard - Corrected an issue where certain songs would attempt to begin playing twice.
+- Druid - Corrected the description of Chill of the Wildtender.
+- Druid - Reduced mana costs on most DoT spells to better reflect the damage they do.
+- Ranger - Strength of the Wildstalker should now prevent the same or lower ranks of Brell's Blessed Bastion from landing.
+- Shaman - Increased the damage on Curse of Sisslak so that it is an upgrade to Bane as intended. Increased damage on higher level spells in the Blood of Saryrn DoT line as a result.
+- Shaman - Lowered mana costs on most spells in the combined DoT lines. Fast (two tick duration) DoTs are all more efficient than their parent spells.
+- Warrior - Corrected the descriptions for the Scowl line of abilities.
+
+
+*** AA ***
+
+- Magician - Fixed a bug where rank 1 of Frenzied Burnout only increased 1-Hand Blunt damage rather than all melee damage.
+- All - Quick Draw has been refunded.
+
+
+*** NPCs ***
+
+- NPCs will no longer summon or cast spells on the corpses of players who are hovering.
+- Reduced the level of many Heroic Adventure NPCs. This mostly affects rares in The Broken Mirror.
+- Encounters that have a 100% chance to generate a rare now have a delay before they will spawn. These encounters now have a respawn variance as well.
+- Veeshan's Peak (Ring of Scale) - Changed the factions used by NPCs in the zone to be distinct from the faction in the original Veeshan's Peak. Faction loss for killing the Denizens of Veeshan's Peak will be heavy. They do not like when mortals kill their kin.
+- Overthere (Ring of Scale) - Corrected the spelling of Fereth.
+- Mercenary Liaison NPCs now have a more consistent category name and spelling.
+- In the Tower of Frozen Shadow, killing an enraged vampire on floor 7 will no longer spawn Cara Omica on floor 4.
+- Only one instance of Champion Ultharas will be active at one time in Arcstone.
+- Ice goblins in Permafrost now have more varied names. Corrected a problem that could prevent some ice goblins from spawning if there were too many active elsewhere.
+- The following NPCs are no longer flagged as rare:
+- - Grandmaster R`tal, Mistress of Scorn, Lord of Ire, Lord of Loathing, Avatar of Abhorrence, High Priest M`kari, Coercer T`vala, Magi P`tasa, Ashenbone Broodmaster, Master of Spite, Muramite Commander, Ulga the Elfeater, Ogoruk the Charming, Nendor the Daunting, Zurul the Bonecruncher, Korizar the Neckbreaker, Death Fang Teraz, Alassh the Cannibal, Katazz the Twisted, Nentassh the Blade Queen, Iross the Sledge, The Steel Serpent, Akazz the Blood Goddess, Thunderstone, a rotting warchest, a Malgrin Legion warchest, a Xillsfar Legion warchest, Kael Militia Captain, an Imperial Gravemaster, Wraith of a Di`Zok Hero, Vrex High Priest, Secrets of Faydwer faction vendors, thick boned skeleton, thick tailed skeleton, thick skulled skeleton, Barkley, Bloodmaw, a froglok hunter, a froglok forager, Nosja (the common version), and Daman (the common version)
+- The following NPCs are now flagged as rare:
+- - Maru the Twelfth Born, A Wrulon Sentry, Tower of Frozen Shadow NPCs that are triggers to spawn rares, a large undead gnoll, an angry librarian, an enraged shadow beast, an enraged relative, Cara Omica, VhalSera, Tserrina Syl`Tor, Tenebrous NPCs that are triggers to spawn rares, Heratius Grolden, Valdanov Zevfeer, Oracle Froskil, Vessel Fryn, Knight Dragol, Master Fasliw, Dreadlord Dekir, Keeper Sepsis, Hierophant Ixyl, Harbinger Josk, Doom, Thruke, Flayhte, Dragontail, Commander Sils, Stonebeak, Ffroaak, and Throkkok
+- Many rares have had their spawn chance or spawn time adjusted.
+
+
+*** Progression Servers ***
+
+- Fixed an issue where /blockspell commands would clear upon zoning.
+- The Ice Witch and Greshvoule in Permafrost will not spawn until Planes of Power is unlocked.
+- Recipes for Golden Idols and alchemy Distillates now require Shadows of Luclin to be unlocked.
+- Added an Agent of Change for Theater of Blood in Arcstone. The Twisted Harmonic Chime will still be needed to request and enter this instance.
+- Some doors in Unrest will be locked on servers that have not yet unlocked Ruins of Kunark. You may need to find the key or bring a rogue proficient with lock picks.
+- - These keys will no longer drop on servers that have unlocked Ruins of Kunark.
+
+
+*** Miscellaneous ***
+
+- Fixed an issue that would cause the game to crash when entering Arx Mentis, Chapterhouse of the Fallen, and the Breeding Grounds.
+- Fixed an issue that was causing collection or tradeskill task steps to fail outside of specific zones.
+- Many original EverQuest zones have had their experience modifier adjusted for balance reasons and/or to encourage variety in leveling.
+
+
+*** UI ***
+
+- Fixed a bug where merchants would mix up the singular and plural name of currencies when buying and selling items for alternate currencies.
+- Fixed an issue where the Window Selector would not open the map.
+- Fixed an issue where the Map window would not open the map toolbar.
+- Fixed an issue where the Task Overlay window was not saving its settings.
+- Removed the potion belt and added a new hotbar. Hotbars now go to 11.
+- The Guild window no longer resets your scroll position when a guild member zones.
+
+- Changed -
+EQUI.xml
+EQUI_HotButtonWnd.xml
+EQUI_ItemDisplay.xml
+EQUI_OptionsWindow.xml
+EQUI_PotionBeltWnd.xml
+
+
+*** Previously Updated ***
+
+- Drusella's Vault - This event should activate properly again.
+- The Veeshan's Peak Agent of Change is now able to send you to the correct instance when Omens of War unlocks on Progression Servers.
+- Bristlebane was here.
+
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: March 15, 2018
+------------------------------
+
+*** Quests And Events ***
+
+- Vex Thal - The Akhevan Warders should despawn more reliably when their associated boss has been slain.
+- End of Empire (Raid) - Completing the event will spawn the chest and apply the correct lockout.
+
+*** Progression ***
+
+- Calendar events for Coirnav will display correctly. 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: March 19, 2018
+------------------------------
+
+*** Quests And Events ***
+
+- The Summoning of Droga (Raid and Mission) - Reverted the changes to the High Priest of Droga's spell resistances.
+- A Formal Dinner Party - It is no longer possible to receive the hidden bonus reward without completing the mission.
+- A Formal Dinner Party - Fixed a bug that was causing more population than intended to be in the mission.
+- Anashti Sul, Enslaver of Souls (Mission) - Reduced the HP and melee damage of Anashti Sul.
+- Anashti Sul, Damsel of Decay (Mission) - Reduced the HP of Anashti Sul.
+- Vex Thal - The Akhevan Warders associated with bosses Thall Xundraux Diabo and Diabo Xi Va Temariel will now despawn if either boss has been slain.
+
+
+*** Progression ***
+
+- Calendar events for Coirnav will display correctly.
+
+
+*** Miscellaneous ***
+
+- Corrected an event alert that was displaying information for the wrong event.
+
+.....................................................................
+
+------------------------------
+Game Update Notes: April 18, 2018
+------------------------------
+
+*** Highlights ***
+
+- EverQuest will no longer run on Windows Vista or older operating systems. Please refer to the minimum system requirements on our website.
+- Made a number of improvements to hotbars. See the UI section below for details.
+
+
+*** Items ***
+
+- Upgraded the model on Jeweled Sarnak Focus of the Elemental, Jeweled Hoarded Worker Sledgemallet, and Jeweled Hoarded Blood Orchid Katana to an equivalent model with particles.
+- Changed Guardian's Boon to affect all combat skills and not only 1h blunt.
+- Ingenious and Savvy Conflagrant Earrings now have the standard recast timer for Geomantra.
+- Focused Strike of the Blood Orchid now checks against chromatic resists.
+- The Skull of Null and Jeweled Skull of Null are now convertible items. One item is the full charm, the other is for clicking from inventory.
+- - The equippable version requires that it is equipped for the click to work (This was true already due to it being a charm, though some caching would allow it to work if it was equipped then unequipped).
+- - As a side effect, converting and converting back will fix the charms that are not working for players that had the Skull before the evolving data was attached.
+- Corrected the names of Faycite Shards available from Ring of Scale vendors. Shards that change spell duration are now correctly called Durus and shards that change spell recast time are correctly called Tempus.
+- Corrected errors in the lore and text for Cliff Stone, Scorpikis Worry Stone, Magma Stone, Enchanted Dragon Scale.
+- Added stats, for reference only, to power sources.
+- Old style molds for weapon ornaments now have a convert button to change them into a new style ornament augment.
+- Gnomish Water Pistol no longer stacks.
+- Many unused tradeskill items have been removed from vendors. This mostly affected old Dragons of Norrath or Prophecy of Ro cultural items.
+- - The item information that shows "This item is no longer used in tradeskills" has been removed.
+- Reverted the models of the starting weapons Short Sword* and Club* to a classic look.
+
+
+*** Tradeskills ***
+
+- Changed Ring of Scale poison drops from "Tainted X" to "Desiccated X."
+- Changed the required level of all Ring of Scale poisons and components to 106.
+- Fixed the name of the recipe for Tome of Savage Volley Rk. II.
+- Fixed all cases where multiple recipes for a tradeskill shared the same recipe name.
+- Crestra's Earring combines now require a minimum skill to attempt. For fishing this is 200. For the 202 trivial combines the minimum skill is 202. All other combines require a minimum skill of 300.
+- Phlogiston items are now Prestige.
+- Fixed all cases where multiple recipes for a tradeskill shared the same recipe name.
+- Tradeskill-created ornaments are now augments.
+
+
+*** Quests And Events ***
+
+- 19th Anniversary quests no longer require the player to own the Ring of Scale expansion, but do require Ring of Scale to be open on the server before they appear.
+- A Formal Dinner Party (19th Anniversary) - Made several changes to this mission:
+- - Removed the erroneous faction hit on some NPCs.
+- - Reduced the difficulty of most, but not all, NPCs.
+- - Corrected some typos and misspellings.
+- - Removed the two orcs from the other side of the dining room door.
+- - Players will not get the secondary success for proper investigation if they give Melion the incorrect food.
+- - The instance will now only allow a total of 6 players and/or mercenaries.
+- - This mission will only reward one red berry paste in a chest if the mission is done correctly.
+- - While the berry paste is appreciated, the augment will no longer be given to players that have not completed the mission.
+- - The task will now reward a minimum of 5 currency on completion instead of scaling down to 0 at low levels.
+- Lost but Not Forgotten (19th Anniversary) - Various changes and improvements have been made to this Heroic Adventure.
+- - Harris Feril's adds now share aggro with him.
+- - Harris Feril's HP will be locked until his adds have been slain.
+- - Forceful Presence's adds now share aggro with her.
+- - Forceful Presence's HP will be locked until her adds have been slain.
+- - Forceful Presence should no longer teleport to an unreachable location.
+- - If anyone in the ward's area of effect has the Warded Bag, no one will be teleported.
+- - The message indicating how to remove the ward should display more reliably.
+- - Messages indicating that the Forceful Presence will soon spawn should display more reliably.
+- - Bosses are now immune to many crowd control effects.
+- - The task now locks on element 6 instead of element 3.
+- - Sila will no longer give her medallion to the person that gives her Hilus's Journal, as this method of receiving the medallion doesn't update the task. The task expects the medallion to be looted from the Forceful Presence.
+- - This task will now reward a minimum of 5 currency on completion instead of scaling down to 0 at low levels.
+- Pieces is Pieces (19th Anniversary) - Made several changes to this quest:
+- - The combine for Deep Caverns Collector's Case now requires the task to be complete.
+- - Quest items are no longer marked as collectible and are now lore.
+- - Changed the replay timer so it no longer conflicts with Fish Eyes in the Dark.
+- Liquid Courage (16th Anniversary) - The spells cast by NPCs in this Heroic Adventure will now scale correctly.
+- Defending Knowledge (15th Anniversary) - The task will only give the horn reward when the task is complete.
+- End of Empire (Mission) - This should now give the proper challenge achievement for Stalwart Guardian.
+- Balance of Power (Mission) - The ghost versions of the bosses will now have the undead property.
+- All Ring of Scale raids - Di`Zok Hero's Forge ornaments no longer drop directly from bosses. There will be an additional chest that spawns upon success that contains the Hero's Forge ornament.
+- Assault on Atrebe - Fixed a spelling error.
+- Hoshkar - Corrected an error in the dragon's combat that could cause large delays between a message and the attack it is meant to warn about.
+- Sathir's Tomb raids - Combatable sarnaks will attack players on sight.
+- Sathir's Tomb raids - Drusella's aura will no longer land on pets.
+- Drusella's Vault - Made a few tuning changes to this event.
+- - Reduced health on the bonepile and ooze spawners.
+- - Increased health on basket spawners.
+- - Reduced radius of Drusella's aura.
+- - Reduced frequency of Drusella's wander.
+- Trail of Discovery - Fixed a typo in the Partisan of The Howling stones achievement component for this quest.
+- Cost of Balance - Fixed a bug that caused the final power conduit to be unkillable.
+- Anashti Sul, Enslaver of Souls (Mission) - Fixed a bug that was causing Poison Blast to occur more often than it should have in phase 2 of the event.
+- Mayong Mistmoore's undead that infest many zones in Norrath once Ayonae Ro has been defeated now respawn more slowly.
+- Vex Thal - The Akhevan Warders in the rooms adjacent to Diabo Xi Xin Thall and Thall Va Kelun will no longer banish characters that are in the room with the boss.
+- Knargon Lanenda in North Qeynos will again respond to the phrase 'courier.'
+- The Berserker newbie armor quest givers will now respond when you click on the bracketed text in their dialogs.
+
+
+*** Spells ***
+
+- Cleric - Corrected the stun levels on Silent Directive.
+- Cleric - Corrected the resist type of the Holy Intervention Strike line from physical to chromatic.
+- Enchanter - Strengthened runes from levels 76-90 and lowered the strength of runes above level 95.
+- Enchanter - Increased the recast time of all Unity runes.
+- Enchanter - Added hate overrides to self and single target rune spells above level 70.
+- Detrimental duration extension will no longer cause Damage Over Time spells that increase in damage over their duration (ex: Splurt) to lose damage.
+- Corrected an issue where the DoT damage you took was initially being reported to you without accounting for DoT shielding.
+- Fixed a problem that allowed buffs with stacking blockers to block debuffs in some cases.
+
+
+*** AA ***
+
+- Shaman - Fixed a bug that prevented Rabid Bear's Protection from absorbing the intended amount of damage.
+
+
+*** NPCs ***
+
+- Mayor Salvador West will no longer attend the evening parties in Sul Vius and will remain in his office. This should prevent him from getting lost on his way back to work.
+- Sverag - Rare NPCs that were not respawning properly when population changed should do so now. This specifically addresses issues with Soulfury Embermeer, but should fix others with similar issues.
+- Armorer Dach Aldridge no longer spawns in Dead Hills.
+- Bertoxxulous worshiping gnomes can now interact with the Parcels and Noble Exchange NPC in the Ak`Anon bank.
+- Vex Thal - The Akhevan Warders should despawn more reliably when their associated boss has been slain.
+- Added a Parcels and Noble Exchange vendor in the Paineel bank.
+- Some general blacksmithing merchants now carry a Small Helm Mold. This includes Ilanon Untitia in East Freeport.
+- Vendors in cities in original EverQuest have more consistent and more correct titles under their names.
+- Tigers across Norrath celebrate by roaring in delight! Reverted tigers in older zones to their original appearance.
+- The Arisen Dragoon T`Vex and The Arisen Dragoon T`Vem will no longer drop Hero's Forge boots.
+- An Arisen officer and an Arisen marine will no longer drop a legacy spear and shield.
+- Fixed a problem causing Alerynril the Loyal to sometimes hold a bag in her right hand.
+- Updated various hunter achievements to remove NPCs that no longer fit the definition of 'rare' NPC, and add some NPCs were not previously included.
+- The Minotaur Hero will again terrorize the Steamfont Mountains. Newbie gnomes beware!
+- Fixed the odd visual of a kobold missionary in Steamfont Mountains.
+- Fixed several ghoul NPCs that were not marked as undead: The Boogeymonster, a voracious fiend, a ravenous fiend, and a drooling ghoul.
+
+
+*** Mercenaries ***
+
+- The following raids no longer allow mercenaries: The Plane of Fear: Revisited, The Plane of Hate: Revisited, Hate's Fury: Seventeen Pieces of Silver, Cazic's Final Stand.
+
+
+*** Progression Servers ***
+
+- All Agent of Change raid instances now offer reduced experience compared to the open version of the zone. Previously this was handled inconsistently.
+- Bosses will stop using Mitigation of the Mighty and applying Mark of the Mighty aura when that era becomes Fabled on that server.
+- Relic now has an Agent of Change instance.
+- Relic can now hold an unlimited number of adventurers.
+- Tipsy Gnome Race - If Kunark hasn't unlocked on the server, the final target Dibster `Dibs` Biroboddle will be on the accessible side of the locked door leading to the basement.
+- Reverted several spawns in Runnyeye to restore classic drops and population.
+- - The Goblin King, a dazed goblin knight, and a goblin warlord will spawn until Velious has unlocked.
+- - Lord Pickclaw, a pickclaw crusader, and Battlelord Paluk will spawn once Velious has unlocked.
+- The Chilling Terror will not spawn in Permafrost until Lost Dungeons of Norrath is unlocked.
+- The Aviak Avenger event in South Karana will not run until Gates of Discord is unlocked.
+- Many spawns related to the Freeport poison quests have been restricted to the launch of Seeds of Destruction.
+- Numinous Weapon Augmenting is available when House of Thule opens.
+- Fixed an issue where tradeskill recipes for Distillates and Golden Idols were being allowed before their intended expansions unlocked. These are now properly restricted.
+
+
+*** Miscellaneous ***
+
+- Performed additional upgrades to both the client and server to utilize more modern hardware and operating system features.
+- - EverQuest will no longer run on Windows Vista or older operating systems.
+- - Please refer to the minimum system requirements on our website.
+- Corrected an issue where a race change, Heroic Character upgrade, or speaking with Warlowe Rida could result in a loss of spells.
+- Fixed a problem that allowed players to create characters with the same name on the same server in some cases.
+- Sounds should no longer randomly play multiple times or suddenly increase volume for no reason.
+- The music player will now remember your volume between logins.
+- Titles granted for purchasing AA abilities are no longer restricted to specific categories or expansions. You now gain titles for spending 6, 18, and 42 points in any AA ability category.
+- Made improvements to the pathing in Gorowyn so that the denizens of the fortress city will better understand how to walk through doorways.
+- Fixed an uncommon crash that could occur when logging in.
+- Handing in the Tome of Order and Discord to a Priest of Discord will again flag the character as Player Versus Player.
+
+
+*** UI ***
+
+- Fixed a display bug with the pet window when right clicking pet-buff icons.
+- Updated /useitem to accept item names:
+- - Specifying the full name of an item will now allow you to activate it directly without having to ensure the item is in a specific inventory slot.
+- - This functionality now allows items in your key rings to be activated with the /useitem command.
+- - Example: /useitem corrupted hammer of consternation
+- Reduced the size of borders on a number of UI windows.
+- Adventure point merchants will no longer display platinum prices.
+- Changed the messaging at character creation when choosing a race/class/starting city that has not been unlocked on a server.
+- When race changing, expansion-restricted cities and races will now be unavailable.
+- Fixed an issue that prevented find destinations from being displayed on your map when mysterious forces prevented the route to that target from being drawn.
+- Fixed an issue that prevented the border toggle setting from being saved.
+- The /copylayout command will now look for any valid ini files in the uifiles folder in addition to the ini files in the main install folder.
+- Selling an item with an augment in it to an Adventure Merchant should no longer cause your game to stop responding.
+- Made the following improvements to item hotkeys:
+- - Item hotkeys will now display the total count of items in your inventory, rather than the count of the first stack.
+- - Items will now display the total number of charges for items that use them.
+- - Item hotkeys for items that are no longer in your inventory will now display the icon/name of the missing item rather than 'Not Found'.
+- - Pre-existing item hotkeys will need to be remade to get these updates.
+
+- Changed -
+EQUI_AchievementsWnd.xml
+EQUI_AchievementWnd.xml
+EQUI_BigBankWnd.xml
+EQUI_CastingWindow.xml
+EQUI_ExtendedTargetWindow.xml
+EQUI_GroupWindow.xml
+EQUI_InspectWnd.xml
+EQUI_Inventory.xml
+EQUI_ItemDisplay.xml
+EQUI_KeyRingWnd.xml
+EQUI_PlayerWindow.xml
+EQUI_SkillsWindow.xml
+EQUI_SpellDisplay.xml
+EQUI_TargetWindow.xml 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: April 20, 2018
+------------------------------
+
+*** UI ***
+
+- Fixed an issue where the quantity of Krono was not displaying correctly. You must update your client to get this fix.
+
+
+*** Quests and Events ***
+
+- Ring of Scale Raids - Fixed an issue that was preventing the Di'Zok Hero's Forge items from showing up in the chests.
+- A Formal Dinner Party (19th Anniversary) - Removed the chance for one of the clues to spawn on an inaccessible NPC.
+
+
+*** Progression Servers ***
+
+- Theatre of Blood (Agent of Change) - Fixed an error that was sending player characters to the wrong location when zoning into the instance.
+- Relic (Agent of Change) - Fixed an issue that prevented the teleporters up to (and down from) the dragon platforms from working. 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: May 16, 2018
+------------------------------
+
+*** Highlights ***
+
+- The Hero's Journey help text is now directly accessible via a UI button. See the UI section below for details.
+- Fixed a bug with the last update where the timestamp format in log files was inadvertently changed.
+- Added a volume slider to the audio triggers window which acts independently of the game volume slider.
+- Race changing now only removes spells for which you don't meet the deity requirements.
+
+
+*** Items ***
+
+- Tsaph Katta Ornaments and Di`Zok Ornaments are available on the raid point vendors in Lceanium and Overthere, respectively.
+- The Depowered Skull of Null and Depowered Jeweled Skull of Null can now be activated when not equipped.
+- Added appropriate chromatic damage to Light-Blessed Cudgel, Brilliant One Eye, and Lifestealer's Cudgel
+- Ornaments converted from molds to augments have the appropriate description text.
+- Converted ornaments are no longer marked as magic.
+- The nightmare mount will allow you to ride it if you own the Nightmare Saddle.
+- Made the new augment based ornaments that are part of Legends of Norrath sets heirloom.
+- Increased the pet focus level on Summoner's Phlogiston Earring.
+- The Ring of Scale chase items are placable in real estates.
+- Mirror Fragment of Anashti Sul will now act properly if you are on the task Decay Decreased and not in the dynamic zone for the task or either Sul Vius.
+- Added the Quest tag to the following items:
+- - Saurek Deathmaw Scales, Poguu's Herbal Growth, Sagaag's Finest, Red Berry Paste, Ancient Sathir Necklace, Ancient Sathir Staff, Ancient Sathir Skull, Ancient Sathir Chalice, Mithril Plated Girth
+- Fixed typos in the spelling of a few Bouquet items.
+- Corrected the spell description for Sword of Darkness and Sword of Corruption, the activated effects on some Shadow Knight breastplates.
+- Consuming Zeal, which procs from Rousing Consumption, now correctly deals damage instead of healing its target.
+
+
+*** Tradeskills ***
+
+- The timer for foraging will now correctly persist between logins.
+- A Grandmaster Medicine Bag can be created with Tonic of Benefit Affinity II (Prophecy of Ro or later) or Potion of Mystical Aptitude (Pre-Prophecy of Ro).
+- Corrected typos, inconsistencies, and misspellings in many tradeskill recipe names.
+- The book necessary to create Fereth Hero's Forge ornaments will drop rarely from rare NPCs in Ring of Scale.
+- The Repeating Crossbow recipe will return a planing tool on failure.
+- Darkhollow Skeleton Dust will drop from appropriate mobs in Depths of Darkhollow.
+- Urn Sketches are now available on appropriate merchants.
+
+
+*** Quests And Events ***
+
+- Updated the Hero's Journey text to include direct links to relevant achievements.
+- A Formal Dinner Party (19th Anniversary) - Fixed several grammar errors in dialogues.
+- Tipsy Gnome Race (17th Anniversary) - Corrected a bug that could lead to the race breaking every 200 iterations.
+- Drusella's Vault - Implemented some bug fixes and tuning changes:
+- - The size of the decal should now match the size of Drusella's aura.
+- - Reduced attack and offense on golems, animated swords, and animated skulls.
+- - Lowered spell damage on Bonk!, Enveloping Smoke, and Electric Blast.
+- - Reduced radius of Whirlwind Slash.
+- - Changed decal warning for Whirlwind Slash to match the impact radius of the spell.
+- - Changed the models of the swords and skulls to make them easier to identify.
+- - Created specific spawn points for the swords, skulls, and maces instead of having them spawn in random locations.
+- - Removed Drusella's wandering during the event.
+- - Corrected a misspelling of annihilate in the timer warnings.
+- Devastation and Sverag - The chests that spawned on the death of some bosses have been removed. The Legendary Berserker Bones will now drop off the bodies of those bosses.
+- Black Orb of the Scrykin - The Gray Orb of Ao the Fourth now has a higher chance to drop from rares in Arcstone and Relic.
+- - Rares in Arcstone and Relic now have a higher chance to drop a Gray Orb.
+- - Non-rares in Arcstone and Relic now have a very small chance to drop a Gray Orb.
+- Tris Wallow III - It's no longer possible to heal or cure Tris by using spells that are cast from items.
+- Corrected old information about tomes in the training dialogue for new berserkers.
+- Plane of Storms - Jeplak, Gurebk, Falto, and Neffiken should properly turn into fabled versions when appropriate.
+- Restored a long forgotten quest chain in the Mines of Nurga.
+- Staff of the Observers quest - Borxx once again spawns in Runnyeye.
+
+
+*** Spells ***
+
+- Spells that absorb direct spell damage will no longer absorb damage shield damage.
+- Corrected singing messages from bards in your group and some incorrect song messages.
+- Race changing now only removes spells for which you don't meet the deity requirements.
+- Corrected many spells that were not correctly displaying their descriptions, such as Divine Response, Nature's Response, and Responsive Spirit.
+- Spells that lose effectiveness over time, such as Rampant Growth or Nectar of Agony, will no longer be penalized by extended duration effects. Spells that gain effectiveness over time, such as Splurt, will continue to be enhanced by extended duration effects.
+- Fixed all cases where player pets had higher hand to hand skills than weapon skills. This was causing many pets to lose accuracy when they were given weapons.
+- Cleric - Fixed a typo in the spell landed text for Harmonious Blessing.
+- Cleric, Druid, Shaman - Ancient Alliance, Bosquetender's Alliance, and Harmonious Blessing will now report a message when they wear off.
+- Druid - Form of the Great Wolf and Share Form of the Great Wolf will now add stats as a separate buff.
+- Druid and Ranger - The PVP spells Tangle and Entangle can now be found under Utility Detrimental->Snare.
+
+
+*** NPCs ***
+
+- NPCs will be more vocal when accepting or rejecting quest items or bribes.
+- Pets now respond appropriately when they accept an item and wear it, eat an item, or refuse an item.
+- Varied up the names of ice goblins in many instanced versions of Permafrost to prevent a situation where some goblins could fail to spawn when there were too many with the same name.
+- Many NPCs with blank merchant lists are either no longer a merchant or have a small merchant list.
+- Brother Island NPCs will no longer assist NPCs of other races.
+- Several NPCs that were decievers are now deceivers.
+
+
+*** Progression Servers ***
+
+- Replaced recipes in the following tradeskill tests with recipes that are available by Prophecy of Ro:
+- - For the Jewelcraft tests, replaced Velium Practice Earring with Gold Polished Quartz Ring, Palladium Practice Earring with Platinum Geode Necklace and Pear Cut Rubellite with Bloodmetal Earring of Engagement (non-enchanted).
+- - For the Smithing tests, replaced Pale Platinum Mace with Ethereal Sheet of Metal.
+- - For the Research tests, replaced Researcher Ceramic Clay with Spell: Focus Mass Spellcaster's Essence for the non-tome makers and Parchment Manual for the tome makers.
+- All Distillate recipes are restricted to Prophecy of Ro or later.
+- Hypericum is available when Prophecy of Ro unlocks.
+- Porthio the Second Born - can now be completed in the Agent of Change instance of Relic.
+- Rathe Council (Plane of Earth) - fixed issue that was causing the council to disappear and reappear repeatedly in the Agent of Change instance.
+- Runnyeye's population will be pre-revamp until Scars of Velious unlocks.
+- Champion's Mancatcher quest - a sarnak messenger is no longer restricted to the launch of Gates of Discord.
+
+
+*** Miscellaneous ***
+
+- Many Serpent's Spine, Buried Sea, and Secrets of Faydwer zones now have load balancing enabled.
+- Fixed an issue that caused certain armor pieces to show Anashti Sul Robes instead of the intended models.
+- The duplicate 'a large undead gnoll' component label in the Hunter of The Tower of Frozen Shadow achievement is corrected to Vhal Sera. This was a cosmetic label error and Vhal Sera kills made after the April 2018 update will count.
+- Fixed a visual bug where the castle that leads to the Plane of Mischief was hovering several feet above the ground in both Great Divide and the Temple of Veeshan.
+- Many Ruins of Kunark zones have had their experience modifier adjusted for balance reasons and/or to encourage variety in leveling.
+- Restored the fog in Hate's Fury.
+
+
+*** UI ***
+
+- The Hero's Journey help text is now directly accessible via a UI button:
+- - The new menu entry can be found in the EQ Button list under Quests on servers that have unlocked The Serpent's Spine expansion.
+- - The alternate advancement ability Summon Tome of the Hero's Journey has been removed. Any existing copies of the tome can still be used to display the list of suggested quests.
+- Fixed a bug where the Zone Guide would report that there is no active path each time you zone.
+- Using /outputfile will now display a link to the file created.
+- Fixed an issue where /outputfile recipes wasn't accepting an additional parameter to specify an alternate filename.
+- Fixed a bug with the last update where the timestamp format in log files was inadvertently changed.
+- Fixed a bug that would sometimes cause alerts you have already seen to be displayed again.
+- Fixed an issue that would cause the event calendar scroll bar to bounce to the top when scrolling.
+- The /feedback command will now generate a link to our forums instead of opening the feedback window.
+- Added a volume slider to the audio triggers window which acts independently of the game volume slider.
+- Players can now see the level of their target upon considering them, unless their target is anonymous or roleplaying.
+- When you zone, hotbuttons linked to an item will no longer reset to the first copy of the item found in your inventory.
+- - Hotbuttons with a blank label will now properly save when zoning or camping.
+- - When turning hotbar pages, item links will no longer bleed their color and icon to the other page.
+- The Manage Loot Window no longer closes when a member of your group or raid zones or leaves.
+
+- Changed -
+EQUI_AudioTriggersWindow.xml
+EQUI_FeedbackWnd.xml
+
+
+*** Previously Updated ***
+
+- Ring of Scale Raids - fixed an issue that was preventing the Di`Zok Hero's Forge items from showing up in the chests.
+- A Formal Dinner Party (19th Anniversary) - Removed the chance for one of the clues to spawn on a bad NPC.
+- Theatre of Blood (Agent of Change) - Fixed an issue that was sending player characters to the wrong location when zoning into the instance.
+- Relic (Agent of Change) - Fixed an issue that prevented the teleporters up to (and down from) the dragon platforms from working.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: May 18, 2018
+------------------------------
+
+*** NPCs ***
+
+- Fixed a problem in Bastion of Thunder where a Chaotic Vortex would not teleport you to the next phase of the raid.
+- Fixed a problem in the Plane of War where the Effigy of Suffering would not teleport you within the zone. 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: June 20, 2018
+------------------------------
+
+*** Highlights ***
+
+- Charm items with right click effects can now be activated from your inventory.
+- Look to the Marketplace this month for the Northman Heritage Crate. Each crate contains a random item. Trade these Northman Heritage items to your friends or collect them all yourself!
+
+
+*** Items ***
+
+- Charm items with click effects can now be activated from bags and inventory. This includes both Skulls of Null.
+- - The convert button will remain on the Skulls of Null for the people that may not have fixed their broken versions.
+- Updated the name of the items and recipes for the consolidated Fereth armors.
+- Altered the visual appearance of Ancient Gaffi of Trorsmang and Veltar's Staff of Tranquility.
+- The Mirror Fragment of Anashti Sul will now only transport you if you are in a Broken Mirror zone.
+- Suits of Hero's Forge armor now link to the reward window which allows for inspecting their individual pieces without unpacking the suits.
+- Bottle of Shared Adventure effects can now land on you even if you have an existing single-target experience enhancing effect active. These effects do not stack with each other -- only the most powerful one will affect your experience.
+
+
+*** Tradeskills ***
+
+- Replaced Platinum Geode Necklace in the Jewelcraft Tradeskill Tests with Jaded Velium Ring.
+- Fixed the Tradeskill Test quests so the required turn-ins match the required recipes.
+
+
+*** Quests And Events ***
+
+- Journey Into Terror - **Read Carefully** Crestra will accept Crestra's Empowered Elegant Earring for the final turn in, BUT they will only return Crestra's Elegant Earring. You will not get the raid version back. You will not get a Flawless Conflagrant Diamond.
+- Drusella's Vault - Added a popup message when Drusella heads to a raid member's location. Drusella's aura will no longer damage NPCs.
+- The Sathir Line - Added a popup message when Drusella chases a raid member. Added a popup message when Venril levels his gaze at a raid member.
+- The Plane of Fear: Revisited and The Plane of Hate: Revisited again allow mercenaries.
+- Fell Foliage (Mission) - The Atrocious Succulent will no longer spawn burgeoning succulents.
+- Measure of the Dead - The energy collection elements will no longer reset if you have already completed the earring combine.
+- Anashti Sul, Enslaver of Souls (Group) - Fixed a bug that caused the Enraged Guardian of Sul to be much harder than intended.
+- In Defense of Health - Corrected issues with the strength of some NPCs being too high. Fixed a spawn that could spawn a raid NPC in the Heroic Adventure.
+- Plane of Health raids - Set many non-boss NPCs to the correct difficulty rating.
+- Crypt of Sul Heroic Adventures - Fixed a spawn with a bad encounter that could lead to an NPC 7 levels higher than the highest player in the adventure.
+- End of Empire (Raid) - The bonus chest that drops ornamentation will no longer move after it is opened.
+- Kragsmash - The speed of body and strength of body adds will now assist Kragsmash more reliably. The adds will despawn if the boss has been slain.
+- Sverag, Stronghold of Rage - Characters with the Hero's Challenge will once again be offered a chance to get into the instance.
+- Plane of War - Adjusted the appearance of the colossi that offer transportation to Narikor.
+- Bastion of Thunder - After the defeat of Emmerik Skyfury, Askr the Lost will now send you to Karana's chamber rather than opening the Chaotic Vortex to do so.
+- Fixed an issue that would prevent you from obtaining some cultural tasks if you had other unrelated tasks such as 'Will It Live?'.
+- Ancient Heroes - Lord Nagafen - King Tranix, Warlord Skarlon, and Magus Rokyl have returned to this Old Man McKenzie mission.
+
+
+*** Spells ***
+
+- Corrected a typo in the message you see when attempting to teleport to an anchor that doesn't exist.
+- Spells with multiple damage values will now correctly report the total damage done.
+- Form of Darkness now fades on zoning.
+- Druid and Shaman - The Regeneration line of spells will now increase in power as you gain levels up to level 80.
+- Enchanter - Lowered the damage, efficiency, and mana return of the Mind Shatter line of Damage over Time spells. The line has been added to a shared timer and has a recast delay.
+- Enchanter - Lowered the damage and efficiency of the Suffocating Sphere and Baffling Constriction lines of Damage over Time spells.
+- Shadowknight - Moved Mental Corruption from Utility Detrimental->Combat Innates to Utility Beneficial->Combat Innates since it provides a buff.
+
+
+*** AA ***
+
+- Beastlord - Fixed a bug that prevented Frenzied Swipe from being purchasable.
+- Berserker - Fixed a bug with rank 5 of Screaming Axes that caused Screaming Fury II to grant less haste than was intended.
+- Shadowknight - Fixed errors in the descriptions for ranks 25-26, 40-41, and 45 of Leech Touch.
+
+
+*** NPCs ***
+
+- Fixed a bug that prevented charmed NPCs and pets from returning items that they will not equip.
+- NPCs will be more responsive when returning items they do not want.
+- Seer Mal Nae`Shi's dialogues can now be clicked instead of having to type the correct response.
+
+
+*** Progression Servers ***
+
+- Changed the requirements to create alchemy distillate potions to be relative to equivalent player spell power within the era.
+- Echo of Sebilis will despawn if it spawns before Gates of Discord is open.
+- Temple of Veeshan (Agent of Change) - Restored Lord Vyemm to the Temple of Veeshan where he is meant to reside.
+- All Bottle of X items on the marketplace now use the quest reward window to grant an item appropriate to the current era and your level.
+- Bottle of Spirits will be available on progression servers when Luclin opens.
+- There is a new Bottle of Health Pack, Bottle of the Ursine Pack, Bottle of the Avian Pack, and Bottle of the Cetacean Pack. These offer versions of the potions where the effectiveness does not exceed the effectiveness of equivalent player spells. Once Veil of Alaris opens, they will offer the original more powerful potions.
+- - Existing Bottle of Health Pack, Bottle of the Ursine Pack, Bottle of the Avian Pack, and Bottle of the Cetacean Pack items will not be removed from players.
+
+
+*** Miscellaneous ***
+
+- Corrected an issue that would cause beneficial damage over time spells (such as the Necromancer Lich line) to display damage messages to other players.
+- Fixed an issue that would cause pets to lose all of their buffs when zoning if they had a large number of effects on them.
+- Fixed several geometry bugs in The Breeding Grounds.
+- Fixed the various Tier 6 heroic stat tribute benefits to grant the correct amount of the stat.
+- Estimated dates and times of scheduled monthly updates are now visible on the in-game calendar.
+- Fixed issues with the classic iksar 2-handed and range attack animations.
+- Fixed the spelling of some momentos.
+
+
+*** UI ***
+
+- Corrected an issue where AA hotbuttons were not properly saving their labels.
+- Fixed a typo when trying to grant alternate advancement abilities over the advancement point limit.
+- Improved the resolution for spell icons when used for hotbuttons.
+- Fixed an issue in the Bazaar where various Dragons of Norrath spells would try to sell for crystals instead of platinum.
+- Holding an item on your cursor and left clicking a hotbutton that is red or linked to that item will autoinventory the item.
+- Old hotbuttons linked to items will now look up their name.
+- Corrected an issue where hotbuttons pointing to an item with 0 charges would stop working.
+- Corrected an issue where characters with similar names would not appear in the loot list on the Advanced Loot Window.
+- The guild window will correctly keep your selection when other members zone or camp.
+- When creating a character or race changing, expansion restricted cities and race-class combinations will now display as unavailable.
+- Fixed an issue where /grouproles would not save or load correctly.
+
+- Changed -
+
+EQUI.xml
+EQUI_Animations.xml
+EQUI_CastSpellWnd.xml
+EQUI_CharacterCreate.xml
+EQUI_CursorAttachment.xml
+EQUI_GuildManagementWnd.xml
+EQUI_HotButtonWnd.xml
+EQUI_PetInfoWindow.xml
+EQUI_RaceChangeWnd.xml
+EQUI_SpellIcons.xml
+
+
+- The EverQuest Team 
+
+.....................................................................
