@@ -1,0 +1,985 @@
+.....................................................................
+
+------------------------------
+Game Update Notes: January 18, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-january-18-2017.237833/
+------------------------------
+
+
+*** Highlights ***
+
+- Changed the display of the 'Armor Class' statistic to show its component parts: 'Mitigation' and 'Evasion':
+- - Although the new numbers are lower, your effective Armor Class is the same. These new numbers have always been used in combat calculations (see below for more details).
+
+
+*** Items ***
+
+- Increased the spell damage on some pieces of Selrach's armor so there is not a downgrade on the set between it and Cohort's armor.
+- Corrected the name of the focus effect on Velazul's Soulrender Breastplate to be 'Deflection Discipline Duration' rather than 'Focused Arrowrain Fury'.
+- Corrected a bug that prevented a number of Empires of Kunark items with activated spells from unlocking the correct passive Alternate Advancement ability.
+- Mana of the Sarnak Compressor is now an eight slot container, allowing it to be used as an alternative for players without skills in tradeskills.
+
+
+*** Quests And Events ***
+
+- Atrebe's Vault (Raid and Group) - It should no longer be possible for the event to spawn NPCs when the raid is not in progress, for example shortly after a success or reset.
+- Maestro of Rancor (PoP Era, Hateplaneb) (Raid) - Damaging Maestro will no longer prevent him from using his mechanics. For example, the accompanists will spawn at the organ even if he was reduced from 100% to 70% health in one tick.
+- Innoruuk (PoP Era, Hateplaneb) (Raid) - It is no longer possible to kill the large version of Innoruuk without also killing the Evangelist of Hate first. This will prevent the raid from getting into a state where the untargetable Evangelist of Hate would spawn adds indefinitely.
+- Atrebe Sathir (Raid) - Ultimate Siphon Pulse now drains mana and endurance instead of endurance and endurance.
+- The Crystal Bloom (Group) - Wary ol' Krange, wary though he may be, has returned to the Korascian Warrens.
+- Karana the Rainkeeper (Raid) - Restored a dialog that was intended to take place between Askr the Lost and Karana at the conclusion of this event.
+- Drogan Toes - The first step will no longer suggest that you should get Drogan Toes from the quest giver, Vasyryx Teken`tlar.
+- Drogan Toes - Fixed the hand-in of Drogan toes to Vasyryx in Frontier Mountains.
+- Queen Velazul Di`Zok (Raid) - Queen Velazul in the Chardok raid event will now make it very clear when she casts Reflective Scales.
+- The quest Guilds and the Guild Lobby again work correctly.
+- Faldor Hendrys has returned from an over-a-decade-long vacation and can again be found in North Qeynos.
+- Fixed some dialogue errors with Ralla Merow'shu in Chardok. She should now properly give out the quest Their Own Medicine.
+- Removed dozens of bad LDoN adventure definitions that could send you to kill a low level Miragul's Menagerie spider in a high level Balancing Chambers Takish-Hiz dungeon.
+- The brazier teleporters in Solusek Ro's Tower will no longer give a character a flag if they already have one. This should reduce lag and confusion.
+- The items necessary to spawn Captain Krasnok in Hate's Fury can now be acquired much more easily.
+- Fixed some issues with the Avatar of Wind, Avatar of Dust, Spider and 'Turkeybee' events in Plane of Air.
+- Fixed an issue that was causing the Unstable Potion in the first Kor'Sha raid to not work properly.
+
+
+*** Spells ***
+
+- Improved messaging when a spell that you have cast has been overwritten:
+- - Two new filterable chat colors have been created for beneficial and detrimental spells being overwritten.
+- - The message 'Your Spellname spell on Target has been overwritten.' replaces the message 'Your Spellname spell has worn off of Target.' when your spell is overwritten by another spell.
+- - This message will not display when a spell that you cast on yourself is overwritten by yourself.
+- Bard - Increased the damage dealt by all four 'Chant' DoT/Debuff lines of spells.
+- Bard - Added a cast time and duration to Soothing Psalm of the Sunrise so it will now work like most other songs.
+- Wizard - Corrected an issue that caused the Vortex Effect debuff triggered from the Shocking Vortex line of spells to fade earlier than intended.
+
+
+*** AA ***
+
+- Fixed a bug with rank 4 of Trophy Collector that prevented it from functioning.
+
+
+*** NPCs ***
+
+- Many of the nobles in Kael Drakkel have shed their cumbersome armor and waxed their mustaches to return to the refined appearance they had pre-2005.
+
+
+*** Progression Servers ***
+
+- Fixed issue that could cause triggered bosses in Velious raid instances to spawn on zone up. Now they should not.
+- Fixed several instances that would cause characters to be teleported to base zones instead of the instance, such as in Planes of Nightmare and Torment.
+- Respawns should no longer happen in Phinigel progression server instances, except where they are important to boss fights.
+- Vulak, Avatar of War, and Bazzt Zzzt in Phinigel progression server instances will no longer be up on zone startup and will have to be triggered using the expected method.
+- Corrected some Progression-server-only requirements for Planes of Power zones. When Planes of Power launches they will require full flagging. Once Lost Dungeons of Norrath launches they will behave as they did from the first time zone access was increased (in 2003) until we again lowered their requirements during the Dragons of Norrath era. The 85/15 rule remains unchanged for these zones.
+- - The Plane of Valor can now be entered at level 55 without other flags when Lost Dungeons of Norrath is open. This requirement lowers to level 46 when Dragons of Norrath opens.
+- - The Halls of Honor can be entered at level 63 when Lost Dungeons of Norrath is open. This will now lower to 57 when Dragons of Norrath opens. Previously neither exception would work on Progression servers.
+- - The Temple of Marr can now be entered at level 62 without other flags when Lost Dungeons of Norrath is open. This requirement now lowers to 57 when Dragons of Norrath opens. Previously there had not been an alternate level requirement for this zone on Progression servers until DoN unlocked it.
+- - Drunder, the Fortress of Zek can now be entered at level 62 without other flags when Lost Dungeons of Norrath is open. This requirement will lower to 57 when Dragons of Norrath opens.
+- - The Bastion of Thunder can now be entered at level 62 without other flags when Lost Dungeons of Norrath is open. This requirement will lower to 57 when Dragons of Norrath opens. Previously neither exception would ever take effect on Progression servers.
+- - The Tower of Solusek Ro can now be entered at level 57 when Dragons of Norrath opens. Previously there was no alternate level requirement available at any time on Progression servers.
+- - The Elemental planes (Air, Fire, Water, EarthA and EarthB) can only be entered via flag until Dragons of Norrath opens. At that point any level 60 will be able to enter these zones.
+- Many Spell Research recipes are now restricted to an expansion at least three expansions after the spell itself is available.
+
+
+*** Miscellaneous ***
+
+- Enabled the free trade ruleset for items on Brekt.
+- Enabled character transfers to Brekt, except from Firiona Vie.
+- Made an adjustment to how NPCs on flight paths animate in order to reduce unnecessary pitching as they traverse through the air.
+- Updated attack messaging for a number of NPCs races so that some creatures will 'sting, slice, maul, or claw' rather than 'hit'.
+- Fixed an issue with fear spells that would often result in a zone crash. Occurred most commonly in the Revisited Plane of Fear.
+- Made various fixes to punctuation and spelling:
+- - Added missing direct address comma to many NPC phrases.
+- - Added missing comma to set off speaker's tag for say and shout.
+- - Corrected several misspellings of Cazic-Thule.
+- - Added terminating punctuation to /yell texts.
+- Many Planes of Power zones now have load balancing enabled.
+- Addressed an issue where fellowship leaders were sometimes randomly changing when a world was restarted.
+- Addressed an issue that was causing standard guild halls to not properly spawn.
+- Fixed a typo in the faction name Drusella Sathir.
+- Mitigation armor class granted from buffs will now function the same for players, player summoned pets, and mercenaries in that it will be subject to the armor class 'soft cap'.
+- - This corrects an issue seen on the test server where player summoned pets and mercenaries had their total mitigation AC impacted by the soft cap.
+
+
+*** UI ***
+
+- Added a velocity label to the stats page of the inventory window which will display your current movement speed.
+- Adjusted the formatting of AA ability descriptions to reduce the amount of scrolling necessary to view relevant information for most abilities.
+- Changed the display of the 'Attack' statistic to show its component parts: 'Offense' and 'Accuracy':
+- - The Offense stat increases your likelihood to deal more damage when you land a melee attack and is countered by your opponent's Mitigation stat.
+- - The Accuracy stat increases your likelihood to land a hit on your opponent in melee combat and is countered by your opponent's Evasion stat.
+- Changed the display of the 'Armor Class' statistic to show its component parts: 'Mitigation' and 'Evasion':
+- - Although the new numbers are lower, your effective Armor Class is the same. These new numbers have always been used in combat calculations.
+- - The Mitigation stat increases the likelihood for you to take less damage when you are hit by a melee attack and is countered by your opponent's Offense stat.
+- - The Evasion stat increases the likelihood for you to avoid being hit by a melee attack and is countered by your opponent's Accuracy stat.
+- - Spell descriptions that report the amount of Armor Class granted by buffs should now report a more accurate value.
+- Inspecting a mount, illusion, or familiar item that triggers an additional blessing buff will now list that buff as a 'Blessing' rather than a 'Focus Effect'.
+- - Inspecting an item with an activated effect that requires you to be able to equip the item to use will display 'Can Equip' before the casting time. This label will be highlighted in red if you cannot activate the item you are inspecting.
+- Fixed an issue with the advanced loot window when looting a no drop item. This occurred only the first time after zoning when no drop confirmation was on.
+
+
+- Changed -
+EQUI_AAWindow.xml
+EQUI_Inventory.xml
+
+
+*** Previously Updated ***
+
+- Fixed an issue that was preventing the Lceanium raid from working.
+- Atrebe's Vault (Raid) - All NPCs in the event will now tether if pulled outside of the main room.
+- Queen Velazul Di`Zok (Raid) - The event cleanup on success or failure should more reliably remove all adds in the event by not spawning adds as the event is resetting.
+- The Last Grove - The Majestic Water Bucket can now be used in load balanced versions of Scorched Woods.
+- The Vex Thal instance on progression servers will again spawn the Vex Thal bosses.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: February 15, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-february-15-2017.238466/
+------------------------------
+
+*** Highlights ***
+
+- Rumors abound that brave adventurers are needed in Kunark! Long-forgotten heroes in Cabilis, Overthere, and Firiona Vie are offering long-forgotten quests.
+- The daily bonuses for completing Heroic Adventures offered by Guard Hamarn in Ethernere Tainted West Karana have been significantly improved.
+- Druid - Increased all DoT lines in power and efficiency. Removed the ability for the same caster to stack multiple spells within these DoT lines (where it was possible).
+- Shaman - All DoT lines have been increased in damage and efficiency but can no longer stack with earlier spells in their lines.
+- Mercenary equipment has been simplified and improved.
+- Level 100+ mercenaries have had their base stats improved.
+- Load balanced pickzones will now 'lock' if any two versions of a load balanced zone have a player count less than or equal to 1/3 of the zone's threshold.
+
+
+*** Items ***
+
+- Several items with typos in the names no longer have typos.
+- The charms Burnt Effigy of Tsaph Katta and King's Key will now include group currency in their calculations as intended.
+- Fixed an issue with the Empires of Kunark progression based charms (Stone Feather, Star Plate Charm, White Dragon's Tooth, and Petrified Egg) where the Droga mission "The Summoning of Droga" was not counting towards the charms' stats. Additionally, Petrified Egg will now give more weight to group content than raid content, though raid content is still required for maximum potential.
+- Bag tokens are now convertible items. Click the convert button to turn it into a bag. This is a one-way conversion.
+
+
+*** Quests And Events ***
+
+- The Kar'Zok (Raid) - Beetles and frost spheres should no longer hang around after successfully defeating the Kar'Zok raid in Kor-Sha. When the Kar'Zok event resets, the on-screen message will now be correct.
+- The Kar'Zok (Raid) - Fixed an issue that was causing the Unstable Potion to not work properly.
+- Completing Kor-Sha raids will now activate the next available raid correctly.
+- Erollisi Day (Event) - Corrected the placement on three collection spawn locations that became inaccessible behind a locked door in Halas.
+- Crusader's Test of the Lord(Quest) - The elusive goblin penkeeper has returned to the Frontier Mountains.
+- Rumors abound that brave adventurers are needed in Kunark! Long-forgotten heroes in Cabilis, Overthere, and Firiona Vie are offering long-forgotten quests.
+- Fixed issues with the Substance Delivery Device used for quests in Droga.
+- The daily bonuses for completing Heroic Adventures offered by Guard Hamarn in Ethernere Tainted West Karana have been significantly improved:
+- - Guard Hamarn has been relieved of his duties. These bonus tasks are now offered by Clayton Teek in the Plane of Knowledge. You will be able to find him next to his brother Franklin Teek near the door to the Guild Lobby.
+- - Clayton Teek has the ability to directly teleport you to the quest giver of any Heroic Adventure for which you have the daily bonus task to complete.
+- - The amount of experience rewarded by the bonus tasks has been increased by an average of 300%. The bonus task now offers approximately the same amount of experience as just completing the Heroic Adventure.
+- - The bonus now additionally rewards 50% of the experience needed to complete a Mercenary AA ability point as well as approximately the same amount of matching currency of completing the Heroic Adventure.
+- - Heroic Adventures from The Darkened Sea, The Broken Mirror, and Empires of Kunark are now included in the list of possible adventures that bonuses are granted for.
+- - The bonuses for the tasks 'Into the Hills', 'Scouting Ahead', and 'Disrupting the Ritual' have been removed from the list of possible adventures that bonuses are granted for.
+- - The number of daily bonus tasks offered per day has been reduced from four to two.
+- Lost Dungeons of Norrath changes:
+- - Hostages will be less likely to be stopped by nearby monsters as they are fleeing, unless the monsters are very close by.
+- - Hostage movement speed has been increased.
+- - Hostages will not be stopped by most non-combat NPCs.
+- - The kill percentage necessary to trigger the boss in boss adventures or to allow the hostage to escape in hostage adventures has been lowered slightly.
+- - Collection adventure items will no longer be seeded on NPCs that do not leave a corpse.
+- - The "bad luck" item seeding script will more accurately determine the location nearest to the adventuring party when seeding an additional collection item during an adventure.
+- - The "bad luck" item seeding script will no longer seed additional collection items when no one is in the zone or when NPCs aren't being actively killed.
+
+
+*** Spells ***
+
+- Buffs that allow you to regain health as a percentage of your melee damage will now only heal you for attacks made on your current target.
+- - This change prevents ripostes made on creatures that aren't your current target from healing you while under the effects of abilities such as the Shadowknight AA ability Mortal Coil.
+- Druid - Increased all DoT lines in power and efficiency. Removed the ability for the same caster to stack multiple spells within these DoT lines (where it was possible).
+- The following lines were consolidated:
+- - Sunscorch (Vengeance of the Wild to Sunflash)
+- - Stinging Swarm (to Horde of Aculeids)
+- - Flame Lick (to Consuming Sunray)
+- - Nature's Blazing Wrath (to Nature's Fiery Wrath)
+- - Gelid Moonbeam (to Argent Moonbeam)
+- - Chill of the Natureward (to Chill of the Copsetender)
+- Enchanter - Rune spells at and above level 86 now have a recast time of 2.5 seconds.
+- Enchanter - Modified "Unity" rune spells (Spectral Unity, Arcane Unity, Phantasmal Unity, and Enticer's Unity) in the following ways:
+- - All spells now cast the highest ranks you know of their component runes. For example, If you know Enticer's Rune Rk. III and Polyrefractive Rune Rk. II, those are the two ranks you get when using any rank of Enticer's Unity.
+- - All Unity rune spells now have a base recast time of 30/29/28 seconds and share timer 15. Type 3 augments will still reduce this recast time.
+- - All spells had the additional hate modifier removed.
+- - All spells now have their own mana cost in addition to the base mana costs of the triggered spells.
+- Shaman - All DoT lines have been increased in damage and efficiency but can no longer stack with earlier spells in their lines.
+- Shaman - Removed the recast time from the Undaleen's Venom line of fast DoTs. This line will now deal the same damage to all targets, but does not stack with the Blood of Saryrn line of DoTs.
+- Shaman - Removed the recast time from the Nargul's Malady line of fast DoTs. This line will now deal the same damage to all targets, but does not stack with the Breath of Ultor line of DoTs.
+- Shaman - Vengeance of Sholoth, Vengeance of Anguish, and Vengeance of Woe have been extended to four ticks rather than two.
+- Added an innate defensive effect that reduces incoming damage to all pets focused with Enhanced Minion I or higher. This effect will increase in power with greater ranks of focus.
+
+
+*** AA ***
+
+- Necromancer & Shadowknight - Fixed a bug that caused the pet feign death command to stop working consistently with the release of Empires of Kunark.
+- Beastlord - Fixed an issue with Feral Swipe that caused its accuracy bonus to function as an accuracy penalty.
+- Enchanter - Chromatic Haze and the effect of Gift of Hazy Thoughts will now increase the base damage of direct-damage spells that have a damage-over-time component; either increasing the initial direct-damage of a spell cast or increasing the base damage of the next damage-over-time tick of a qualifying spell.
+
+
+*** NPCs ***
+
+- The Emissaries of Shadowrest are retiring now that Shadowrest is no longer a repository for forgotten bodies, with one exception: the Emissary in Plane of Knowledge is still available should adventurers wish to visit Shadowrest and reminisce about the olden days.
+- A goblin in Nurga was spawning outside the world. He is now back at home.
+- Tuned down some charmed NPC combat values that were unintentionally stronger than non-charm combat values.
+
+
+*** Mercenaries ***
+
+- Mercenary equipment has been simplified and improved:
+- - All existing pieces of mercenary equipment (excluding the Vestments of the Forsaken) are now 'Faded' items that can be converted to newer equivalent level and archetype items.
+- - Vendors that sell mercenary equipment now sell the newer items.
+- - The stats for all levels of mercenary equipment have been improved significantly.
+- - There are now four archetypes of mercenary equipment corresponding to each of the four mercenary types: Defender, Soother, Assassin, and Sorcerer.
+- - Mercenary equipment slots have been changed from head, chest, primary, and secondary to ear, neck, shoulder, and waist in order to correct a bug that would cause melee DPS and tank mercenaries to become less effective when wielding primary/secondary equipment.
+- - Two new sets of mercenary equipment have been created for Empires of Kunark. One set can be purchased for Sathir Trade Gems in Lceanium while the other set can be obtained as rare drops from basepop and rare creatures.
+- Level 100+ mercenaries have had their base stats improved:
+- - Increased the total HP and evasion of tank mercenaries
+- - Increased the evasion of healer mercenaries
+- - Increased the evasion, offense, and HP of melee damage mercenaries
+- - Increased the evasion of spell damage mercenaries
+- Identified and corrected an error with melee damage mercenaries that caused them to delete their innate haste item.
+- Healer and damage caster mercenaries will now update their target when casting spells. This corrects an issue where casting target-of-target type spells would not resolve correctly when targeting a mercenary.
+- Added an innate defensive effect that reduces incoming melee damage to Journeyman mercenaries. This effect will increase in power with each tier.
+- Additional ranks of Mercenary Alternate Advancement abilities have been added for levels 101-105. Additionally, the following Mercenary Alternate Advancement abilities have been improved:
+- - Increased the effectiveness of Furious Wrath from 1% to 2% per rank
+- - Increased the effectiveness of Subtle Magic from 2% to 3% per rank
+
+
+*** Progression Servers ***
+
+- Pride of the Legion - A lower level version of Stone Seer Kaigek spawns in pre-revamp Droga and drops the Broken Medal.
+- Trooper's Pike - The froglok outlander that drops the "Barsh" Froglok Head has returned to the Swamp of No Hope.
+- Demi Lich Skullcap - Lowered the restrictions on the spawns needed for this quest so that it can be completed in Kunark era.
+- Small Bricks of Titanium are now available on progression servers when Velious unlocks.
+- Loren Thu'Leth's purchasable items are now restricted to the expansions in which they should be unlocked.
+- Fixed a bug where Agents of Change in pickzones would fail to send you to an instance.
+- Hateplane 2.0's Agent of Change instance will become available when LDoN unlocks on the server.
+- Bite of the Shissar items have been restricted to the unlocking of Underfoot.
+
+
+*** Miscellaneous ***
+
+- Guild Looking for Player and Player Looking for Guild should now again persist across world restarts.
+- Load balanced pickzones will now 'lock' if any two versions of a load balanced zone have a player count less than or equal to 1/3 of the zone's threshold. A locked zone will:
+- - Transfer any player corpses to the base zone and any new corpses created when you release from hover mode will get moved to the base zone immediately.
+- - Block entry and will be removed the from the /pick options.
+- - Start despawning mercenaries.
+- You will now see the mount and illusion key ring features as active immediately after purchasing, without the need to zone or relog.
+- Invalid reward sets should no longer display in your list of pending rewards.
+- Corrected some default text that contained duplicated punctuation.
+- Corrected an issue that could cause a player to get stuck in an instance if entering from a pickzone. This addresses the issue with Agents of Change in the Plane of Tranquility.
+- The Plane of Tranquility now has load balancing enabled.
+- When there is a world experience modifier in effect, experience messages will now reflect a bonus.
+
+
+*** UI ***
+
+- Adjusted the label positions in the Mercenary tab of the inventory window to be more consistent with the Stats tab.
+- - Additionally, Mercenary Armor Class and Attack will now display their component parts, and a mercenary's heroic stats are now displayed.
+- Completing certain achievements will no longer automatically generate messages if you have enabled social sharing.
+- - Enabling the ability to post a message with a screenshot to your Twitter or Facebook account will no longer result in automatically generated achievement messages.
+- - A button to quickly access the social sharing window has been added to the EQ button command list.
+- When logging on, /announce will no longer state if announce is turned on or off. It will state the status if you run the command.
+
+
+- Changed -
+EQUI_Inventory.xml
+
+
+*** Previously Updated ***
+
+- Queen Velazul Di'Zok (Raid) - The popup message for Queen Velazul Di'Zok's Doomlight ability will now take precedence over her Reflective Scales ability.
+- The first step of Drogan Toes will no longer suggest that you should get Drogan Toes from the quest giver, Vasyryx Teken'tlar.
+- Plane of Time NPCs will now use the Mitigation of the Mighty buff.
+- Tome of Deflection Discipline is restricted to the unlocking of Seeds of Destruction on all merchants.
+- The shady merchant and shady smuggler in Nadox are on vacation until Dragons of Norrath unlocks.
+- Warrior Epic 2.0 changes:
+- - A chat message will indicate when Larnik the Recluse spawns.
+- - The messages showing the direction of Larnik the Recluse will occur twice as frequently.
+- - The messages showing the direction of the Blackfall Borer will occur twice as frequently.
+- Corrected an issue that caused the tunnels to The Broodlands in Lavastorm to be blocked even after the launch of Dragons of Norrath.
+
+
+- The EverQuest Team 
+
+At the moment, the in-game patch notes are a slightly older version. This version here on the forums is the most up to date. 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: February 21, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-february-21-2017.238707/
+------------------------------
+
+This happened on Tuesday, 2/21/17.
+
+*** Hotfix ***
+
+- Chardok - Fixed an error with the experience setting in the new Chardok for Empires of Kunark. Experience gain should return to previous, higher, values.
+- Some spells that should be available when Planes of Power opens are now available when Planes of Power opens on progression servers.
+- Nureya will always return the Orb of Night from her quest instead of being stingy and giving it only rarely.
+- Dajrool Waggletongue is now indifferent so there can be no faction difficulties when attempting to speak to him or complete his quests.
+- Thin Strands of Golden Silk should drop on non-progression servers. 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: February 28, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-february-28-2017.238772/
+------------------------------
+
+*** Hotfix ***
+
+- Phinigel - Fixed an issue that was causing an inability to access to Plane of Hate instance on Phinigel. 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: March 15, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-march-15-2017.238973/
+------------------------------
+
+*** Highlights ***
+
+- We’ve finished two Player Designed Missions that groups of players created with the development team during SOE Live 2014. “Fippy’s Further Revenge” and “Delving into Frostcrypt” are new tasks for the 18th Anniversary, starting Thursday, March 16, 2017. In addition to this, explore Norrath through the anniversary quest “Tsaph’s Day Off.”
+- - There are also NEW rewards available on jubilant merchants for Commemorative Coins! Look for them in the Special Celebratory Goods section of your Find window in the Plane of Knowledge!
+
+
+*** Items ***
+
+- Corrected the spelling of Hero's Band.
+- Extruded Underfoot Diamond now stacks to 100.
+- Added Brass Resonance to Circlet of Umbra and the Invested Circlet of Umbra.
+- Corrected the description on a number of items that are no longer used in tradeskills but do not have an item conversion option.
+
+
+*** Tradeskills ***
+
+- Jewelers can now select their cutting or setting tool using the convert item button as well as their jewelry bag.
+- The tradeskill trainers in Crescent Reach will train you in their recipes if you are above the skill that the training offers.
+- The merchants in Abysmal Sea that offer free tradeskill quests will now train you in prerequisite recipes when accepting the quest, once you have earned the refinement ability for that tradeskill.
+
+
+*** Quests And Events ***
+
+- Run, You Fools! (Group) - Fixed an issue that could cause the completion of the "By The Power of Dead Skulls" achievement in this mission to be unreliable. It should be more reliable now. If you let Taros get the final hit on enough targets, you should get the achievement.
+- On Behest of the Emperor and Others' Things (Heroic Adventures) - These no longer share a replay timer.
+- The Prince (Raid) - Added a specific message when the Prince has become fully enraged.
+- Unstable Creation (Raid) - This no longer requires 18 players to trigger once House of Thule has been open on that server for 3 months or more.
+- The Blade of Sirrik (Quest) - The Gleaming Serrated Blade can now drop from any black reaver in the City of Mist.
+- Three new missions have been added for EverQuest's 18th Anniversary:
+- - Fippy is restless again. Find a sloshed gnoll in the Plane of Knowledge to give Fippy a hand.
+- - Help Firiona Vie stop Lanys T'Vyl's quest to dominate Norrath! Find her associate, Sionachie Heartsinger in the Plane of Knowledge.
+- - Accompany Tsaph Katta himself as he tours the many ancient spires and dragon circles of Norrath!
+- Lowered the level of the ballista in one of the Plane of Health errands to make it so they can be killed at a reasonable pace by lower level characters.
+- Wanderer Astobin in the Plane of Knowledge now offers the Spell: Instinctual Panic as one of the rewards for an Ethereal Parchment.
+- Thin Strands of Golden Silk should now drop on non-progression servers.
+- Lost Dungeons of Norrath reward points have been increased for more difficult adventure types.
+- - Kill count type adventures have not changed.
+- - Collect type adventures now reward 20% more points.
+- - Boss type adventures now reward 50% more points.
+- - Hostage rescue type adventures now reward 75% more points.
+
+
+*** Spells ***
+
+- Fixed an issue where pets summoned with certain levels of Enhanced Minion had incorrect Cloaks of Enhancement equipped:
+- - Beastlord, Magician, and Necromancer pets between level 86 and 105 with Enhanced Minion XV and XVI
+- - Beastlord, Magician, and Necromancer pets between level 81 and 85 using Enhanced Minion VII - XII
+- - Magician and Beastlord pets between level 71 and 75 using Enhanced Minion I and II
+- Druid - Reduced the efficiency of some Damage over Time spells that were combined in last month's update.
+- Druid - Lowered the damage dealt by all spells in the Chill of the Natureward line.
+- Shaman - Converted Falhotep's Malosenia and Livio's Malosenia to cast the highest rank you know of their component spells. You will now be charged the correct cost for the DoT they use. Higher ranks of these spells have lower recast times.
+- Shaman - DoT spells that were consolidated in the last update are now less efficient and will do less damage than before. They will still do substantially more damage than before they were consolidated.
+- Shaman - Corrected a problem that made Sephry's Malady (and earlier spells in the line) do less damage per tick than Breath of Hemocoraxius (and earlier spells in that line).
+
+
+*** NPCs ***
+
+- It is no longer possible to spawn infinite black reaver NPCs in City of Mist by setting up a situation where the encounter cannot spawn the unique NPC because it's already up.
+
+
+*** Progression Servers ***
+
+- Event NPCs in The Halls of Betrayal (ChardokB), The Caverns of Exile (SoldungC), The Plane of Mischief, and Veksar will be treated as bosses.
+
+
+*** Miscellaneous ***
+
+- Players can now get onto the floating ruins of Atrebe's Lab while in the non-instance version of Kor-Sha (not applicable for raids).
+- Veksar, The Halls of Betrayal (ChardokB), and The Caverns of Exile (SoldungC) now have load balancing enabled.
+- All Legacy of Ykesha zones have load balancing enabled.
+- The number of characters necessary to trigger a new load balanced zone (pickzone) has been adjusted to better reflect the amount of combatable population in each zone. In the vast majority of cases, the threshold has been lowered, meaning it will be easier to trigger the new pickzone, requiring fewer characters in a zone to do so than before the update.
+- Additionally, when a pickzone's population drops below the threshold, it may lock. Players will be alerted when a pickzone locks and will have 15 minutes to leave the zone before it closes. If players do not leave, they will get teleported to the main zone after the time expires.
+- Fixed an issue that could cause Address Book files with invalid filenames to get generated in the client directory.
+- Fixed an issue where the Looking For Players information wouldn't properly display for the guild that is looking for players. Search Guilds was unaffected and would still show the guild in the search results.
+- Changed the chat color description for 'Membership Restriction Messages' to 'System Messages' to properly reflect what they're actually used for. This aligns with the Chat Filter 'System Messages'.
+
+
+*** UI ***
+
+- Added the item overflow window available through /itemoverflow. This window will be utilized in the future.
+- Fixed a bug that could cause an item description to not properly appear for some abilities.
+- Added the ability to enable the display of timestamps in your chat windows.
+- - The display of timestamps defaults to off but can be customized per window.
+- - Available formats are hh:mm:ss, hh:mm, or mm:ss.
+- - The default color of timestamp text matches the color of the chat channel it corresponds to. This setting can be toggled, and the timestamps can instead display in a uniform custom color per window.
+- - Tell windows can also have their timestamp settings customized like normal chat windows.
+- Fixed a crash issue when a character had too many zone lockouts.
+
+
+*** Previously Updated ***
+
+- Some spells that should be available when Planes of Power opens are now available when this expansion opens on progression servers.
+- Phinigel - Fixed an issue that was causing an inability to access to Plane of Hate instance.
+
+
+- Changed -
+
+EQUI.xml
+EQUI_ItemOverflowWnd.xml
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: March 22, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-march-22-2017.239293/
+------------------------------
+
+*** Hotfix ***
+
+- Delving into Frostcrypt (18th Anniversary) - The items required to finish this mission are now dropping properly. Talk to Sionachie Heartsinger in the Plane of Knowledge to begin! 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: April 19, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-april-19-2017.239817/
+------------------------------
+
+*** Highlights ***
+
+- Added the ability for level 61 and higher level players to automatically activate basic combat skills (Backstab, Bash, Frenzy, Kick, Tiger Claw, etc) while auto-attacking. See below for details.
+- Fixed an issue that caused boats to stop following their intended sailing paths.
+
+
+*** Items ***
+
+- Corrected a bug that caused heroic stats in the item display window to show their full value when they should have displayed an adjusted value depending on the 'modified' toggle in the window.
+- The innate benefit of Fiery Avenger, Fiery Defender, and Innoruuk's Curse that allows you to use the bash skill while wielding these weapons is now explicitly noted as a worn effect on these items.
+- Compressed Copper Stud and Golden Sage's Earring now use a higher tier Enhanced Minion spell, improving the pets of players wearing these earrings. You will need to summon a new pet to gain the benefits of this improvement.
+- Corrected the lore text on Giant Dire Wolf Skin.
+- Wrathful and Malevolent Hero's Forge armor pieces now have custom icons to help differentiate each set.
+- Music Box: Neriak can now be placed in housing. It is possible to hear the song by interacting with the Music Box item and selecting the "Wind the Music Box" option.
+
+
+*** Quests And Events ***
+
+- Lceanium: Before the Siege (Group) - Fixed a bug that would prevent success on the "You Be The Hero" achievement if one of the invaders was killed by a mercenary.
+- Prince Selrach Di'Zok (Raid) - It should now be possible to get the Maximum Anger Achievement.
+- Kor-Sha: The Kar'Zok (Raid) - Adds should no longer spawn after an event reset.
+- Deepest Guk: The Curse Reborn (Raid) - The Scouts are now player friendly. They can be buffed and healed and cannot be aggroed or injured by PCs.
+- Valdoon Paladin Epic 2.0 (Raid) - Lowered the minimum number of players necessary to request this raid from 10 to 6.
+- Wither and Decay (Raid) - The achievement "The Crazy Eight" should no longer have the chance to auto-fail immediately when the raid has begun.
+- Rebirth Leather Armor (Quests) - The four different kinds of jawbones that Spiritist Karina in Shadeweaver's Thicket requires for her quests will all drop more frequently.
+- Jail Break! (Quest) - Completing the task and clicking OK on the dialogue window will transport the character to the version of The Mines of Gloomingdeep with the fewest number of players. In any edge case where this does not occur correctly, hailing Arias or waiting for up to a minute will also transport the character to the version of The Mines of Gloomingdeep with the fewest number of players.
+- Jail Break! (Quest) - Returning to an in-progress tutorial after camping out or a client crash should be handled more gracefully now.
+- Jail Break! (Quest) - It is no longer possible to aggro Arias.
+- Fixed a problem that was preventing some Frostfell, Bristlebane Day, and anniversary NPCs from spawning during those events.
+- Plane of Health Heroic Adventures - Lowered the level of the weapon racks in Plane of Health heroic adventures so they can be killed at a reasonable pace by lower level characters.
+- Icons for alerts on many events will now show properly instead of displaying the hand reaching towards the heart spell icon.
+
+
+*** Spells ***
+
+- Berserker - Dichotomic Rage has been flagged non-focusable to exempt it from the benefits of Scarlet Cheetah Fang.
+- Ranger - Dichotomic Fusillade Strike has been flagged non-focusable to exempt it from the benefits of Scarlet Cheetah Fang.
+- Magician - Firebound Alliance now focuses bolt target type spells in addition to single target type spells.
+- Magician - Fixed a bug that prevented Monster Summoning pets from being reclaimed.
+- Magician - Converted Dyzil's Deafening Decoy and Rage of Zomm to swarm pets so that they can be used while your main pet is active. Rage of Zomm is now much costlier.
+- Made a change to Empires of Kunark 'Alliance' spells that deal damage and the Monk combat ability 'Curse of the Thirteen Fingers' so that the damage dealt by the 'Fulmination' of these abilities will now credit the appropriate player.
+- Updated the description on all Empires of Kunark 'Alliance' spells to include more information about their 'Fulmination' effects.
+- Updated Empires of Kunark 'Alliance' spells to have stacking groups to correct a bug where multiple ranks of the same spell line could be placed on a target.
+- Increased the melee avoidance of all player pets. This increase will be most noticeable at high levels. Swarm pets were not affected.
+
+
+*** AA ***
+
+- Abilities that reduce the reuse time of spells will now impact the reuse time when first memorizing a spell.
+- Rewrote the description for Stoicism to more clearly explain its effect.
+- Adjusted the default behavior of Doppelganger swarm pets so they will no longer spawn with more aggro than their owner when attacking a target.
+- - Swarm pets summoned by the Enchanter abilities 'Doppelganger', 'First Spire of Enchantment', 'Illusory Ally', or by the Bard ability 'Lyrical Prankster' are unchanged and will continue to act as temporary defenders.
+- Berserker - Fixed a bug with Rank 22 of Untamed Rage which caused the Azia buff to refresh itself rather than cycling through the Beza to Ena buffs before refreshing itself.
+- Monk - Increased the damage modifier of ranks 10-17 of Innate Innerflame from 52-66% to 53-70%.
+- Monk - Veteran's Wrath now offers higher returns from level 103 to 105. Note: This will cause all existing ranks of Veteran's Wrath to be refunded for monks.
+- Paladin, Shadowknight, Warrior - Reduced the base damage reduction percent of Defensive Proficiency from 30% to 20%.
+- Shadowknight - Reduced the damage modifier of rank 17 of Innate Darkblade from 120% to 100%.
+- Warrior - Reduced the damage bonus modifier of Two-Handed Proficiency from 110-120% to 80-90%.
+- Made a number of adjustments to buffs that increase the damage of critical melee attacks.
+- - A new spell effect has been implemented to grant a non-cumulative bonus to critical melee attack damage.
+- - Buffs that have been modified to use this new effect will only impart the highest bonus of all current buffs that use this new spell effect.
+- - The following abilities and buffs have been modified to use this new effect:
+- - - All - Glyph of Destruction and Glyph of the Cataclysm now grant a non-cumulative increase to all melee skills rather than a cumulative bonus to the primary weapon skills.
+- - - Bard - Thousand Blades now grants a non-cumulative increase.
+- - - Berserker - Savage Spirit now grants a non-cumulative increase to all melee skills rather than a cumulative bonus to 2-Handed weapon skills and Frenzy. Additionally, all ranks will now consume 25% of the Berserker's health when the effect wears off.
+- - - Paladin - Valorous Rage now grants a non-cumulative increase. Additionally, the effectiveness of the critical damage portion ability has been reduced from 75-400% to 45-200%, the effectiveness of the weapon delay reduction effect has been reduced from 13-45% to 10-25%, and the ability has been flagged non-focusable so that its duration will be a static 1 minute. The portion of this ability that reduces healing focus has been removed.
+- - - Shaman - Fateseer's Boon and Prophet's Gift of the Ruchu now grant a non-cumulative effect.
+- - - Warrior - Savage Onslaught, Savage Assault, Brutal Onslaught Disciplines, and Heroic Rage now grant a non-cumulative increase.
+
+
+*** NPCs ***
+
+- The feigned bone golems in Miragul's Menagerie adventures that can act as a short term pet should now work more reliably.
+
+
+*** Progression Servers ***
+
+- Temple of Veeshan (Raid) - Fixed some errors with the spawning of some of the bosses (Gozzrem, Eashen, and Ikatiar) on progression servers. They should spawn and give lockouts as expected now.
+- Temple of Veeshan (Raid) - The lockout for the Halls of Testing Drakes should no longer compound with each kill in the same DZ.
+- 16th Anniversary quest givers will spawn on progression servers when Rain of Fear has unlocked on the server, instead of requiring The Broken Mirror.
+- 14th Anniversary NPCs now have descriptions under their names that are consistent with other Player Designed Mission quest givers.
+- Magics of Fear (Quest) - Sarviksa Tiths no longer has a restriction that prevents her from spawning until Legacy of Ykesha.
+- Bosses will no longer apply a Mark of the Old Ways debuff to pets if there are 10 or fewer pets on their hatelist.
+- Several Planes of Power era quests that were restricted to Lost Dungeons of Norrath have been changed so that they are restricted to Planes of Power. Some examples include the Restock High Quality Ore quests, the Storm Reaper Initiate Scimitar quest, and the Mace of the Stoutdeacon quest.
+- Progression servers will now automatically wipe all corpses from the game when an expansion that includes a level increase is opened. This is not retroactive for already unlocked expansions on existing progression servers but will activate going forward on existing progression servers and for all applicable expansions on new progression servers.
+- - This will happen when the following expansions unlock: The Ruins of Kunark, The Planes of Power, Omens of War, The Serpent's Spine, Secrets of Faydwer, Seeds of Destruction, House of Thule, Veil of Alaris, Rain of Fear, The Darkened Sea, and future expansions that include a level increase.
+- We've updated the expansion unlock required for many seasonal and anniversary events to run on progression servers. Most of these changes will result in events occurring on progression servers earlier than they were before, particularly the 5th-13th anniversary events. The current breakdown, roughly in calendar order:
+- - New Year - Omens of War
+- - Erollisi Day - Seeds of Destruction
+- - Brew Day - no restriction
+- - Bristlebane Day - Seeds of Destruction
+- - 5th anniversary fabled (NPCs in original EverQuest) - Gates of Discord
+- - 6th anniversary fabled (NPCs in Ruins of Kunark) - Dragons of Norrath
+- - 7th anniversary fabled (NPCs in Scars of Velious) - Prophecy of Ro
+- - 8th anniversary fabled (NPCs in Shadows of Luclin) - The Buried Sea
+- - 9th anniversary fabled (NPCs in Planes of Power) - Secrets of Faydwer
+- - 14th-18th anniversary Player Designed Missions - Rain of Fear
+- - 17th anniversary Faydwer Gnome Race - no restriction
+- - 17th anniversary Hate's Fury - The Broken Mirror
+- - 18th anniversary Tsaph's Day Off - Empires of Kunark
+- - Stomples Day - Planes of Power
+- - Hardcore Heritage Blackburrow - Secrets of Faydwer
+- - Hardcore Heritage Cazic-Thule - Secrets of Faydwer
+- - Hardcore Heritage Old Guk - Seeds of Destruction
+- - Hardcore Heritage Unrest - Seeds of Destruction
+- - Hardcore Heritage Crushbone - House of Thule
+- - Hardcore Heritage Permafrost - House of Thule
+- - Hardcore Heritage Mistmoore - Rain of Fear
+- - Hardcore Heritage Nagafen's Lair - Rain of Fear
+- - Hardcore Heritage NEW - Empires of Kunark
+- - Death, Death, Death! - Scars of Velious
+- - Living Legacy - Seeds of Destruction
+- - Stone Cold Summer - Veil of Alaris
+- - Nights of the Dead - Omens of War
+- - Raid, Raid, Raid! - Seeds of Destruction
+- - Frostfell - The Serpent's Spine
+
+
+*** Miscellaneous ***
+
+- Pickzones that lock will no longer suspend mercenaries.
+- Fixed an issue that caused boats to stop following their intended sailing paths.
+- In an effort to reduce the frustration caused by watery environments, melee attacks will no longer cause push back if the defender is in water. This applies to both PCs and NPCs.
+- Added the ability for level 61 and higher level players to automatically activate basic combat skills (Backstab, Bash, Frenzy, Kick, Tiger Claw, etc) while auto-attacking:
+- - The hold-right click menu for combat skill hot buttons now has an 'Auto Activate' toggle to enable/disable the automatic activation of these skills.
+- - The slash command /autoskill can also be used to toggle the automatic activation of these skills.
+- Fixed several grammatical errors related to tells and emotes.
+- Fixed an issue with purchasing Key Ring Slots.
+- Achievement reward sets that grant only money, quest AA abilities (ex. Banestrike), titles, flags, alternate currency, or faction points will now be claimed automatically rather than first going into the pending reward queue.
+
+
+*** UI ***
+
+- Added chat color and filtering options for 'You can't use that command' messages.
+- Added chat color and filtering options for combat ability and AA ability reuse time messages.
+
+
+*** Previously Updated ***
+
+- On progression servers, the Tome of Spirit of Rage Discipline, Tome of Healing Will Discipline, and Tome of Stonewall Discipline will be available when Gates of Discord opens.
+- Fippy's Revenge (Group) - Removed the despawn behavior from the NPCs in the instance.
+- Tsaph's Day Off (Quest) - Due to how simple the task is, the experience and point rewards are now reduced.
+- Fippy's Revenge (Group) - Increased the number of quest drops, Qeynosian Teeth and Scalps. However, note that NPCs may still be difficult to find.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: April 20, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-april-20-2017.239887/
+------------------------------
+
+*** Hotfix ***
+
+- Origin of the Cuniculus (Quest) - Removed spawn requirements on the first 4 eggs that made these items not spawn until Secrets of Faydwer.
+
+.....................................................................
+
+------------------------------
+Game Update Notes: April 25, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-april-25-2017.239984/
+------------------------------
+
+
+*** Miscellaneous ***
+- The dynamic zone disconnects issue has been addressed. We will continue to monitor the affected zone systems for additional problems.
+- Server transfers should now work as they did before. The item will be available again on the marketplace within the next 12 hours.
+- Guildhall anchors: We have published a speculative fix for this and continue to need your reports if anchors are not functioning correctly.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: May 17, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-may-17-2017.240500/
+------------------------------
+
+*** Items ***
+
+- Corrected a bug where some types of throwing items could not be placed in bandolier containers.
+- - Bandolier containers will now increase the speed of throwing attacks in the same fashion that quivers increase the speed of archery attacks.
+- - The 'Bandoleer of Luclin' has been renamed 'Bandolier of Luclin' and has had its weight reduction reduced from 100% to 10%.
+- Corrected a bug where 'Darkened Blackburrow Trinket' could only reach 98% of its potential power.
+- In classic zones (Velious and earlier), many weapons, shields, and other held items have reverted to their classic appearance.
+
+
+*** Tradeskills ***
+
+- Non-Progression servers can now create Imbued Black Sapphire Silver Necklaces.
+
+
+*** Quests & Events ***
+
+- Fixed an issue where a number of achievements (primarily those from The Rain of Fear expansion) would not complete as expected.
+- Atrebe (Raid) - Reworked the way the event works to ensure that the Everything Reborn achievement will function and the event will be easier to understand. Now there will only ever be four Haulers. They will try to pick up every ancient iksar or iksar skeleton corpse, rather than leaving some as they did before.
+- Atrebe (Mission) - Reworked the way the event works to ensure that the Everything Reborn achievement will function and the event will be easier to understand. Now there will only ever be four haulers. They will try to pick up every ancient iksar or iksar skeleton corpse, rather than leaving some as they did before. So to get the achievement you must allow them all to be animated by Atrebe. As a minor fix, the haulers will visibly pick up their burdens rather than just making them disappear.
+- The anniversary decorations in the Plane of Knowledge will take no more than one minute to populate or depopulate when the anniversary has started or ended.
+- Demi Lich Skullcap (Quest) - It is no longer possible to have quest or dialogue interactions with Ixpacan or Harbinger Glosk related to this quest until you have handed in the Necromancer Skullcap to Ixpacan.
+- All Necromancer Skullcap (Quests) - Quest steps that require handing in a skullcap can no longer be multiquested.
+- The details and dates of many seasonal, anniversary, and other special events have been changed. See the in-game calendar for details under EQ->Alerts->Event Calendar or by using the /calendar command.
+- - Nights of the Dead events will now run for four weeks instead of two. The festivities begin two weeks earlier and end at the same time.
+- - Hardcore Heritage events have been consolidated. The newest zone runs for four weeks and the eight pre-existing Hardcore Heritage events run for two weeks in two distinct phases.
+- - Living Legacy has been consolidated into a single event.
+- - Stone Cold Summer has been consolidated into a single event.
+- - Hardcore Heritage, Brew Day, Living Legacy, Stone Cold Summer, Death Death Death!, Nights of the Dead, Raid Raid Raid!, and Bristlebane Day now end on a Tuesday instead of a Wednesday.
+- - Hardcore Heritage events now begin on June 7th.
+- Bane of Decay (Mission) - The skulls will no longer have a massive amount of hit points.
+
+
+*** Spells ***
+
+- Most lower level Druid and Shaman DoT spells now do as much or slightly more damage as the equivalent spell plus the two spells before it when the spells originally stacked. Mana costs of these spells have increased accordingly.
+- - These changes apply to the shaman Curse, Blood of Saryrn, and Breath of Ultor lines and the druid Sunscorch and Stinging Swarm lines.
+- Corrected a bug that prevented some combat abilities that trigger a short-duration buff on the caster from being usable while a discipline was running. Ex: The Monk ability 'Drunken Monkey Style' or 'Breather'.
+- The Fulmination components of Empires of Kunark Alliance spells have been adjusted to generate less aggro.
+- Monk - The Doom component of Curse of the Thirteen Fingers has been adjusted to generate less aggro.
+- Berserker - Frenzied Resolve has been changed to function as a discipline and has been renamed 'Frenzied Resolve Discipline'.
+- Necromancer - Converted Chaotic Contagion, Corruption, and Liquefaction to cast the highest ranks you know of the component spells. Ranks 2 and 3 now have higher chances to cast both DoTs in addition to the base debuffs.
+
+
+*** NPCs ***
+
+- Fixed a kobold that was spawning outside the world in Nagafen's Lair.
+- Classic monsters across Norrath, celebrate! In classic zones (Lost Dungeons of Norrath and earlier), many creatures have reverted to their classic appearance. This change affects the following models: skeleton, bat, rat, snake, spider, drake, orc, goblin, puma, lion, kobold, zombie, mummy, basilisk/alligator, spectre, and wolf.
+
+
+*** Mercenaries ***
+
+- Mercenaries will now automatically get suspended if you join a raid.
+
+
+*** Progression Servers ***
+
+- The Enchanter spell Apathy is now available when Planes of Power unlocks.
+- Agents of Change on the Agnarr server will take on a more thematically appropriate appearance.
+- Calendar events on the Phinigel and Agnarr servers will show when future expansions will unlock.
+- Maestro of Rancor (Raid) - Pre and post revamp versions of Maestro will now have Mitigation of the Mighty and can use Mark of the Old Ways.
+- Innoruuk (Raid) - The post revamp version of Innoruuk can use Mark of the Old Ways.
+
+
+*** Miscellaneous ***
+
+- Addressed an issue where Replay Timers were sometimes improperly increased.
+- Addressed an issue that could cause Real Estate Anchors to not properly function.
+- Hunter and Raid achievements have been added for original EverQuest and Ruins of Kunark zones.
+
+
+*** UI ***
+
+- Added an event calendar that displays all of the event alerts for the year:
+- - The event calendar can be accessed via the command /calendar or via the EQ Button in the Alerts sub-menu.
+- - The event calendar lists all active events with beginning and end dates.
+- - The event calendar displays your localized start and end time for each event.
+- You can now toggle the potion belt UI on and off using the EQ menu.
+- Added the following commands to the menu that is displayed when left clicking a player's name in the chat window: Send tell, invite to group, invite to raid, task add, and add to dynamic zone.
+- Setting a custom chat timestamp color will now automatically cause timestamps in that chat window to display in that color, rather than also requiring you to disable the 'Match Chat Color' setting.
+- Made a number of adjustments to heroic stat labels in the item display window:
+- - Corrected a bug that prevented items that have negative heroic stats from displaying these stats.
+- - Heroic stats increased or decreased by power sources will now display their value in green/red the same way that base stats do.
+- - Adjusted the spacing of base stat and heroic stat labels to better support items with 3 digit heroic stat values.
+- Fixed an issue where newly created characters weren't properly loading their default Hot Buttons.
+
+
+- Changed -
+
+EQUI.xml
+EQUI_Animations.xml
+EQUI_EventCalendarWnd.xml
+
+
+*** Previously Updated ***
+
+- Magician - Fixed a bug that prevented Monster Summoning pets from being reclaimed.
+- Valdoon Paladin 2.0 (Raid) - Lowered the minimum number of players necessary to request this raid from 10 to 6.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: May 18, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-may-18-2017.240587/
+------------------------------
+
+*** Items ***
+
+- The Reassuring Strike II spell on Darkened Mrylokar's Helm now only requires level 105.
+- Darkened Bracer of Wrath now fits on wrists instead of heads.
+
+
+*** Quests & Events ***
+
+- Kar'zok (Raid) - Added safeguards for the functionality of the frost sphere so that if it can't find a valid target it will move to the center of the cave.
+- Maria Starforge in the Loping Plains no longer gives out a Rain of Fear task.
+- Dirt Criminal Vakov will now count for the Hunter of The Temple of Droga achievement.
+
+
+*** AA ***
+
+- Bard - Fixed a bug where rank 2 of Flurry of Notes was not extending the duration of the ability as intended.
+
+
+*** NPCs ***
+
+- Basilisk NPCs that had an alligator head now have a basilisk head.
+- Guardian Adew no longer spawns in the Arena.
+- Classic monsters across Norrath, celebrate! In classic zones (Lost Dungeons of Norrath and earlier), many creatures have reverted to their classic appearance. This change affects the following models: werewolf, beetle, and gnoll.
+
+
+*** Progression Servers ***
+
+- Plane of War - Gorod's Medallion will once again spawn in Frostcrypt.
+
+
+*** Miscellaneous ***
+
+- Fixed an error that caused many scripts in the game to fail to run correctly.
+- Fixed a potential zone crash in Skyshrine and Icewell Keep.
+
+
+- The EverQuest Team 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: May 24, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-may-24-2017.240863/
+------------------------------
+
+*** Hotfix ***
+
+- Wandering low level NPCs in the western section of Everfrost will respawn much more quickly.
+- Low level spawns have returned near the entrance to Neriak in Nektulos Forest. 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: June 2, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-june-2-2017.241529/
+------------------------------
+
+*** Hotfix ***
+
+- Fixed an issue that caused voting time-locked servers to start a vote to unlock Legacy of Ykesha instead of immediately unlocking it once Planes of Power's vote was successful.
+- The population of Kithicor Forest will again transition between relatively high level undead at night and relatively low level non-undead during the day.
+- Kithicor NPCs should swap states between the night and day versions more reliably. 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: June 6, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-june-6-2017.241642/
+------------------------------
+
+*** Hotfix ***
+
+- The Reinforced Lair of Trakanon (Raid) - The debuff Ennui of the Dead has been temporarily replaced. 
+
+.....................................................................
+
+------------------------------
+Hotfix Notes: June 9, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-june-9-2017.241744/
+------------------------------
+
+*** Hotfix ***
+
+- The Reinforced Lair of Trakanon (Raid) - Fixed a bug that caused the chest at the end of the raid to not contain loot.
+- Fixed a bug where the hotzone experience bonus would not work with global experience bonuses.
+- Hardcore Heritage - Load balanced versions of Hardcore Heritage zones should change to or from the Hardcore version correctly when the Hardcore Heritage event activates or deactivates.
+- Hardcore Heritage - The exits from Sebilis will now work correctly in the zone's Hardcore Heritage version.
+- Hardcore Heritage - Trakanon will no longer spawn in the base Hardcore Heritage version of Sebilis.
+- Hardcore Heritage - The Trakanon raid chest will be a bit easier to see and find and will no longer face away from the raid.
+- Hardcore Heritage - The Trakanon raid success lockout has been reduced from 4.5 days to 2.5 days.
+- Hardcore Heritage - The Trakanon raid should now clean up completely on success or failure. 
+
+.....................................................................
+
+------------------------------
+Game Update Notes: June 21, 2017
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-june-21-2017.242045/
+------------------------------
+
+*** Highlights ***
+
+- Updated many items in Hardcore Heritage Sebillis (see Items section).
+
+
+*** Items ***
+
+- Serisaria's Pearl Stud: Fixed the unprintable character in the lore text.
+- Added cleave to Darkened Sebilite Scale Vambraces .
+- Added ferocity to Darkened Dark Scale Greaves and Darkened Sebilite Scale Leggings.
+- Darkened Ebon Mace and Darkened Sword of the Morning now have increased damage.
+- The spell on Darkened Breath of Harmony should no longer break Melody.
+- Runed Helm of Strategy now has 41% haste.
+- Collection items for Medal from the Living will now drop from humanoid undead in Sul Vius: Demiplane of Decay instead of NPCs in Arx Mentis and Plane of Sky.
+- The following items now have a shared recast timer for their click effect: Darkened Cobalt Bracer, Darkened Blood Ember Bracer, Darkened Jaundiced Bone Bracer, Darkened Tolan's Darkwood Vambraces, Darkened Deepwater Vambraces, Darkened Mrylokar's Helm, Darkened Donal's Bracer of Mourning, and Darkened Elder Spiritist's Helm.
+- Darkened Trakanon's Malleus, Darkened Trakanon's Claw, and Darkened Trakanon's Femur now have raid level damage ratios.
+- Reduced the cast time on many of the Sebilis Hardcore Heritage items. In many cases, this also entailed adding a recast timer to prevent spamming.
+- Tendon Slice, a worn effect on some items, now has block as a trigger skill in addition to parry.
+
+
+*** Quests And Events ***
+
+- There are now Hunter and Raid achievements for Scars of Velious, Shadows of Luclin, Planes of Power, and Legacy of Ykesha.
+- Updated the Hunter and Raid achievements for Ruins of Kunark zones.
+- The guild tutorial quest will now properly add you to 'Novices of Brekt' on the Brekt server.
+- Access to Asylum of Anguish - A Cunning Dragorn in the Sewers of Dranik and the Insidious Dragorn in the Dranik Catacombs no longer have placeholders and are now guaranteed to spawn in all three versions of these instances. They now carry six signets, but will not respawn.
+- Taskmistress Krisz (Raid) - Taskmistress Krisz no longer waits for 30 minutes between each leg of her journey around Riwwi.
+- Taskmistress Krisz (Raid) - The dialogues on Pixtt Uxnikk and Pixtt Kekken now indicate that you need one group to spawn Taskmistress Krisz, not three.
+- Reef of Coirnav (Plane of Water) - Addressed the following issues with the Fishlord Craiyk/Lezom events:
+- - Fixed a bug that caused various anglerfish to get stuck and prevent the event from progressing as intended.
+- - Increased the chance that fierce, ferocious, or furious anglerfish will spawn.
+- - Reduced the time between anglerfish spawns from 2 minutes to 30 seconds.
+- Made the following adjustments and fixes to Hunter and Conqueror achievements:
+- - Conquerer of the Hole - Added an achievement for slaying Nortlav the Scalekeeper. This achievement will become available when the achievement for slaying Master Yael is no longer available.
+- - Hunter of The Castle Mistmoore - Renamed a specific 'a werewolf' to 'a werewolf gypsy' and updated the achievement label to reflect this change.
+- - Hunter of Feerrott - Fixed a typo where the 'Tae Ew Archon' and 'Tae Ew Templar' were swapped.
+- - Hunter of Freeport Sewers - Will now be hidden until Prophecy of Ro unlocks on progression servers.
+- - Hunter of Jaggedpine Forest - Two of the three versions of 'A Potameid Matriarch' have been renamed 'A Potameid Dame' and 'A Potameid Matron'. These creatures have been added to the achievement.
+- - Hunter of The Plane of Hate - Added 'an ashenbone broodmaster' and 'thought destroyer' to this achievement.
+- - Hunter of Timorous Deep - Removed Captain Crag, Captain Velinos, Chartsman Longneck, Chartsman Tallbones, First Mate Daggerfist, and First Mate Morgan from this achievement.
+- - Hunter of The Warsliks Woods - Removed 'Gibold Goblin Stomper' from this achievement.
+- - Ruinslayer - Renamed the 'Veteran Hunter of Kunark' achievement to 'Ruinslayer' and corrected an issue with the 'Hunter of Kurn's Tower' component.
+- Hardcore Heritage - The Trakanon raid will again use the spell Ennui of the Dead instead of Mire of Crimson Mists II and Oppression of Thule.
+- Hardcore Heritage - The zone experience modifier in hardcore Sebilis has been increased.
+
+
+*** Spells ***
+
+- Song: Saryrn's Scream of Pain is now available on Minstrel Silnon when Planes of Power unlocks.
+- Berserker - Reduced the effectiveness of Disconcerting Discipline so that it better fits its intended role as an enhancement for sustained damage rather than being the best discipline to use under most situations.
+
+
+*** AA ***
+
+- Shadowknight - Fixed a bug that caused ranks 4, 6, 13, and 26 of Leech Touch to deal rank 1 damage rather than the intended amount of damage.
+
+
+*** NPCs ***
+
+- Considering an NPC will now indicate if that NPC is 'Rare'.
+- NPC names are now automatically capitalized at the beginning of sentences. This applies to consider messages, aggro, death, victory texts, all combat messages, and more.
+- Efreeti Lord Djarn in Nagafen's Lair has returned to his fire appearance. The fire djinn look is so hot right now.
+- Fixed a bug that was preventing some Kod`Taz NPCs from summoning as they should.
+- Corrected an issue where some NPCs in Old Commonlands and Crypt of Sul appeared as default humans.
+- Rare and boss NPCs in Charasis can no longer be charmed.
+- Chardok: The Halls of Betrayal - The three different rare creatures named 'a rabid chokidai' have been given unique names.
+- Dalnir - The three different rare creatures named 'a kly imprecator' have been given unique names.
+- Kurn's Tower - The three different rare creatures named 'thick boned skeleton' have been given unique names.
+- The two different rare creatures named 'Velketor's Experiment' and 'Failed Experiment' in Velketor's Labyrinth have been given unique names.
+- Fixed a bug where Nintal in Western Wastes would drop Bufa's Talisman rather than his own talisman.
+
+
+*** Progression Servers ***
+
+- Alerts for Hot Zones will not display until The Serpent's Spine has unlocked.
+- Phylactery Will Get You Nowhere (Quest) - The Ghoul of Takish-Hiz is now restricted to the unlock of Lost Dungeons of Norrath.
+- Many quest items used for quests that aren't available until the Planes of Power will no longer drop until the Planes of Power has unlocked on the server.
+- Raster of Guk is no longer restricted to the unlocking of Kunark.
+- The achievement 'Hunter of Veeshan's Peak (Enhanced)' will now replace the non-enhanced achievement with Dragons of Norrath instead of Lost Dungeons of Norrath. Note: If the non-enhanced achievement is completed before Dragons of Norrath launches, it will remain visible.
+- Plane of Sky - The Hand of Veeshan and Overseer of Air will no longer spawn when the instance of this zone starts up. This will prevent multiple spawns of The Hand of Veeshan.
+
+
+*** Miscellaneous ***
+
+- Servers that require membership will now be visible to all players regardless of membership status.
+- Achievements that require you to have certain items will now properly check items stored in key rings.
+- Many Gates of Discord zones now have load balancing enabled.
+- The allowable distance for targeted emotes has been increased dramatically. Now you can /point at that aviak on the horizon like you've always wanted!
+- Fixed a crash that could occur while the computer is locked with the client running.
+- Removed unprintable characters from some Neighborhood names. These changes will only be visible if these names were chosen by your server.
+
+
+*** UI ***
+
+- The advanced loot window has a new setting, 'Show on new items only'.
+- - This will prevent the advanced loot window from popping up if an item drops that is already filtered.
+- - This is off by default.
+- - The window will always show if something is in your personal loot list.
+- - For Master Looter, the window will still pop up unless you have already marked all of the items in the list as auto ask/roll.
+- The reminders for claim items and veteran rewards displayed when logging in will now only display once per week and only for level 5 or higher characters.
+- - Note: The ability to claim items and veteran rewards remains unchanged. These changes only impact the messages displayed when logging in.
+- Fixed a bug that prevented the player name left-click context menu from working correctly if chat timestamps were enabled.
+- Added the option 'missingSpells' to the /outputfile command.
+- - Running this command will output a list of any spells usable by your class up to your current level that you haven't yet scribed in your spellbook.
+- The Claim window will now display information about the highlighted claim. Generally this will describe where the claim came from. However, in a few cases the information will also indicate what servers the item can be claimed on, if that item has server restrictions.
+
+
+- Changed -
+EQUI_LootSettingsWnd.xml
+
+
+*** Previously Updated ***
+
+- Classic monsters across Norrath, celebrate! In classic zones (Lost Dungeons of Norrath and earlier), many creatures have reverted to their classic appearance. This change affects the following models: werewolf, beetle, and gnoll.
+- Fixed a potential zone crash in Skyshrine and Icewell Keep.
+- Dirt Criminal Vakov will now count for the Hunter of The Temple of Droga achievement.
+- Wandering low level NPCs in the western section of Everfrost will respawn much more quickly.
+- Low level spawns have returned near the entrance to Neriak in Nektulos Forest.
+- Fixed an issue that caused voting time-locked servers to start a vote to unlock Legacy of Ykesha instead of immediately unlocking it once Planes of Power's vote was successful.
+- The population of Kithicor Forest will again transition between relatively high level undead at night and relatively low level non-undead during the day.
+- The Reinforced Lair of Trakanon (Raid) - The debuff Ennui of the Dead has been temporarily replaced.
+- The Reinforced Lair of Trakanon (Raid) - Fixed a bug that caused the chest at the end of the raid to not contain loot.
+- Fixed a bug where the hotzone experience bonus would not work with global experience bonuses.
+- Hardcore Heritage - Load balanced versions of Hardcore Heritage zones should change to or from the Hardcore version correctly when the Hardcore Heritage event activates or deactivates.
+- Hardcore Heritage - The exits from Sebilis will now work correctly in the zone's Hardcore Heritage version.
+- Hardcore Heritage - Trakanon will no longer spawn in the base Hardcore Heritage version of Sebilis.
+- Hardcore Heritage - The Trakanon raid chest will be a bit easier to see and find and will no longer face away from the raid.
+- Hardcore Heritage - The Trakanon raid success lockout has been reduced from 4.5 days to 2.5 days.
+- Hardcore Heritage - The Trakanon raid should now clean up completely on success or failure.
+
+
+- The EverQuest Team 
+
+.....................................................................

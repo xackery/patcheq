@@ -5,8 +5,8 @@ Patch Messages from January 2016 to June 2016
 
 ------------------------------
 Game Update Notes: January 20, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-jan-20-2016.230187/
+------------------------------
 
 *** Highlights ***
 
@@ -251,8 +251,8 @@ EQUI_BlockedPetBuffWnd.xml
 
 ------------------------------
 Game Update Notes: January 22, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-jan-22-2016.230290/
+------------------------------
 
 *** Highlights ***
 
@@ -270,8 +270,8 @@ Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-
 
 ------------------------------
 Hotfix Notes: January 26, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-jan-26-2016.230401/
+------------------------------
 
 *** Hotfix ***
 
@@ -283,8 +283,8 @@ Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-jan-2
 
 ------------------------------
 Hotfix Notes: January 28, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-jan-28-2016.230453/
+------------------------------
 
 *** Hotfix ***
 
@@ -294,8 +294,8 @@ Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-jan-2
 
 ------------------------------
 Game Update Notes: February 17, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-feb-17-2016.230797/
+------------------------------
 
 *** Highlights ***
 
@@ -448,8 +448,8 @@ EQUI_OptionsWindow.xml
 
 ------------------------------
 Hotfix Notes: February 17, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-feb-17-2016.230831/
+------------------------------
 
 *** Hotfix ***
 
@@ -460,8 +460,8 @@ Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-feb-1
 
 ------------------------------
 Game Update Notes: March 16, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-mar-16-2016.231371/
+------------------------------
 
 *** Highlights ***
 
@@ -578,8 +578,8 @@ EQUI_OptionsWindow.xml
 
 ------------------------------
 Game Update Notes: March 23, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-mar-23-2016.231623/
+------------------------------
 
 - The Shield of the Dark Waters is now flagged correctly as a shield and can be used to bash. Bash away, all!
 - Corrected several mixed-up spawns in Phinigel raid instances.
@@ -593,8 +593,8 @@ Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-
 
 ------------------------------
 Hotfix Notes: March 28, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-march-28-2016.231763/
+------------------------------
 
 *** Hotfix ***
 
@@ -612,8 +612,8 @@ Progression servers:
 
 ------------------------------
 Game Update Notes: April 20, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-april-20-2016.232137/
+------------------------------
 
 *** Highlights ***
 
@@ -767,8 +767,8 @@ EQUI_TCGWnd.xml
 
 ------------------------------
 Game Update Notes: April 22, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-april-22-2016.232195/
+------------------------------
 
 *** Items ***
 
@@ -801,8 +801,8 @@ Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-
 
 ------------------------------
 Hotfix Notes: April 22, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-april-22-2016.232223/
+------------------------------
 
 *** Hotfix ***
 
@@ -814,8 +814,8 @@ Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-april
 
 ------------------------------
 Game Update Notes: May 18, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-may-18-2016.232719/
+------------------------------
 
 *** Highlights ***
 
@@ -1047,8 +1047,8 @@ EQUI_RaidWindow.xml
 
 ------------------------------
 Hotfix Notes: May 20, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-may-20-2016.232866/
+------------------------------
 
 *** Hotfix ***
 
@@ -1059,8 +1059,8 @@ Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-may-2
 
 ------------------------------
 Hotfix Notes: May 24, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-may-24-2016.232899/
+------------------------------
 
 *** Hotfix ***
 
@@ -1071,8 +1071,8 @@ Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-may-2
 
 ------------------------------
 Hotfix Notes: May 26, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-may-26-2016.232942/
+------------------------------
 
 *** Hotfix ***
 
@@ -1087,8 +1087,8 @@ Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-may-2
 
 ------------------------------
 Game Update Notes: June 15, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-june-15-2016.233363/
+------------------------------
 
 *** Items ***
 
@@ -1185,8 +1185,8 @@ Edit: The Trakanon server maintenance has completed and we have unlocked the ser
 
 ------------------------------
 Game Update Notes: June 22, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-june-22-2016.233542/
+------------------------------
 
 *** Items ***
 
