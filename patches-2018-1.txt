@@ -2,6 +2,7 @@
 
 ------------------------------
 Game Update Notes: January 4, 2018 (rescheduled to January 5, 2018)
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-january-4-2018.246253/
 ------------------------------
 
 *** Quests & Events ***
@@ -17,6 +18,7 @@ Game Update Notes: January 4, 2018 (rescheduled to January 5, 2018)
 
 ------------------------------
 Game Update Notes: January 17, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-january-17-2018.246522/
 ------------------------------
 
 *** Highlights ***
@@ -342,6 +344,7 @@ EQUI_ZonePathWnd.xml
 
 ------------------------------
 Hotfix Notes: January 19, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-january-19-2018.246613/
 ------------------------------
 
 *** Tradeskills ***
@@ -363,6 +366,7 @@ Hotfix Notes: January 19, 2018
 
 ------------------------------
 Hotfix Notes: January 30, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-january-30-2018.246838/
 ------------------------------
 
 *** Quests And Events ***
@@ -373,6 +377,7 @@ Hotfix Notes: January 30, 2018
 
 ------------------------------
 Game Update Notes: February 21, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-february-21-2018.247316/
 ------------------------------
 
 *** Highlights ***
@@ -551,6 +556,7 @@ EQUI_TaskOverlayWnd.xml
 
 ------------------------------
 Hotfix Notes: February 23, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-february-23-2018.247417/
 ------------------------------
 
 *** Hotfix ***
@@ -562,6 +568,7 @@ Hotfix Notes: February 23, 2018
 
 ------------------------------
 Game Update Notes: March 14, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-march-14-2018.247896/
 ------------------------------
 
 *** Highlights ***
@@ -686,6 +693,7 @@ EQUI_PotionBeltWnd.xml
 
 ------------------------------
 Hotfix Notes: March 15, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-march-15-2018.248009/
 ------------------------------
 
 *** Quests And Events ***
@@ -701,6 +709,7 @@ Hotfix Notes: March 15, 2018
 
 ------------------------------
 Hotfix Notes: March 19, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-march-19-2018.248135/
 ------------------------------
 
 *** Quests And Events ***
@@ -726,6 +735,7 @@ Hotfix Notes: March 19, 2018
 
 ------------------------------
 Game Update Notes: April 18, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-april-18-2018.248650/
 ------------------------------
 
 *** Highlights ***
@@ -933,6 +943,7 @@ EQUI_TargetWindow.xml
 
 ------------------------------
 Hotfix Notes: April 20, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-april-20-2018.248830/
 ------------------------------
 
 *** UI ***
@@ -955,6 +966,7 @@ Hotfix Notes: April 20, 2018
 
 ------------------------------
 Game Update Notes: May 16, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-may-16-2018.249309/
 ------------------------------
 
 *** Highlights ***
@@ -1107,6 +1119,7 @@ EQUI_FeedbackWnd.xml
 
 ------------------------------
 Hotfix Notes: May 18, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-may-18-2018.249378/
 ------------------------------
 
 *** NPCs ***
@@ -1118,6 +1131,7 @@ Hotfix Notes: May 18, 2018
 
 ------------------------------
 Game Update Notes: June 20, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-june-20-2018.249930/
 ------------------------------
 
 *** Highlights ***

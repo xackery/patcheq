@@ -5,8 +5,8 @@ Patch Messages from July 2016 to December 2016
 
 ------------------------------
 Game Update Notes: July 6, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-july-6-2016.233847/
+------------------------------
 
 *** Highlights ***
 
@@ -166,8 +166,8 @@ EQUI_Inventory.xml
 
 ------------------------------
 Game Update Notes: July 13, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-july-13-2016.234063/
+------------------------------
 
 *** Highlights ***
 
@@ -231,8 +231,8 @@ Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-
 
 ------------------------------
 Hotfix Notes: July 29, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-july-29-2016.234324/
+------------------------------
 
 *** Hotfix ***
 
@@ -245,8 +245,8 @@ Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-july-
 
 ------------------------------
 Game Update Notes: August 17, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-august-17-2016.234531/
+------------------------------
 
 *** Highlights ***
 
@@ -491,8 +491,8 @@ EQUI_ItemDisplay.xml
 
 ------------------------------
 Game Update Notes: September 21, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-september-21-2016.235002/
+------------------------------
 
 *** Highlights ***
 
@@ -634,8 +634,8 @@ EQUI_OptionsWindow.xml
 
 ------------------------------
 Game Update Notes: October 19, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-october-19-2016.235819/
+------------------------------
 
 *** Highlights ***
 
@@ -722,8 +722,8 @@ EQUI_AdvancedDisplayOptionsWnd.xml
 
 ------------------------------
 Hotfix Notes: October 21, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-october-21st.235960/
+------------------------------
 
 *** Hotfix ***
 
@@ -733,8 +733,8 @@ Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-octob
 
 ------------------------------
 Game Update Notes: November 16, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-november-16-2016.236577/
+------------------------------
 
 After decades of slumber, Imperator Tsaph Katta awakens and vows to reform the Combine Empire. With the former glorious capital of his nation rebuilt in the treacherous lands of Kunark, Tsaph Katta vows to cement his place in the annals of history as The Great Unifier. Not all are ready to bend to the will of Katta and his allies, least of all the current inhabitants of Kunark.
 
@@ -851,20 +851,20 @@ EQUI_TaskWnd.xml
 
 ------------------------------
 Hotfix Notes: December 1st, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-december-1st.236945/
+------------------------------
 
  *** Hotfix ***
 
-    The Summoning of Droga (raid) - The Incarnate Droga will no longer cast Blood Splash without an associated warning and a way to avoid the effect.
-    On Behest of the Emperor - Fixed a problem that prevented Dread Overseer Akalod and Royal Guard Kakator from leaving corpses.
+    - The Summoning of Droga (raid) - The Incarnate Droga will no longer cast Blood Splash without an associated warning and a way to avoid the effect.
+    - On Behest of the Emperor - Fixed a problem that prevented Dread Overseer Akalod and Royal Guard Kakator from leaving corpses.
 
 .....................................................................
 
 ------------------------------
 Game Update Notes: December 14, 2016
-------------------------------
 Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-december-14-2016.237218/
+------------------------------
 
 *** Highlights ***
 

@@ -2,6 +2,7 @@
 
 ------------------------------
 Game Update Notes: July 18, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-july-18-2018.250417/
 ------------------------------
 
 *** Highlights ***
@@ -135,6 +136,7 @@ Game Update Notes: July 18, 2018
 
 ------------------------------
 Game Update Notes: July 27, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-july-27-2018.250629/
 ------------------------------
 
 - Corrected an issue where the Summer Appreciation event was not running on Progression Servers.
@@ -143,6 +145,7 @@ Game Update Notes: July 27, 2018
 
 ------------------------------
 Game Update Notes: August 15, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-august-15-2018.250902/
 ------------------------------
 
 *** Highlights ***
@@ -307,6 +310,7 @@ EQUI_PurchaseWnd.xml
 
 ------------------------------
 Hotfix Notes: August 22, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/hotfix-notes-august-22-2018.251132/
 ------------------------------
 
 *** Quests & Events ***
@@ -317,6 +321,7 @@ Planes of Power Progression - Fixed a bug with Grand Librarian Maelin's "lore" d
 
 ------------------------------
 Game Update Notes: September 19, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-september-19-2018.251483/
 ------------------------------
 
 *** Highlights ***
@@ -443,6 +448,7 @@ Game Update Notes: September 19, 2018
 
 ------------------------------
 Game Update Notes: October 24, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-october-24-2018.252016/
 ------------------------------
 
 *** Items ***
@@ -530,6 +536,7 @@ Game Update Notes: October 24, 2018
 
 ------------------------------
 Game Update Notes: November 14, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-november-14-2018.252644/
 ------------------------------
 
 *** Items ***
@@ -563,6 +570,7 @@ Game Update Notes: November 14, 2018
 
 ------------------------------
 Game Update Notes: November 28, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-november-28-2018.252970/
 ------------------------------
 
 *** Miscellaneous ***
@@ -577,6 +585,7 @@ Game Update Notes: November 28, 2018
 
 ------------------------------
 Game Update Notes: December 11, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-december-11-2018.253191/
 ------------------------------
 
 *** Highlights ***
@@ -667,6 +676,7 @@ EQUI_ItemFuseWnd.xml
 
 ------------------------------
 Hotfix Notes: December 11, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-december-11-2018.253191/
 ------------------------------
 
 - Fixed a problem that caused progressive spell scrolls to fail to scribe their first ranks. If your new Dissident ability is failing to cast when you activate it, go to Stratos and ask Virtuous Dusk for a reminder. 
@@ -675,6 +685,7 @@ Hotfix Notes: December 11, 2018
 
 ------------------------------
 Game Update Notes: December 13, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-december-13-2018.253241/
 ------------------------------
 
 *** NPCs ***
@@ -710,6 +721,7 @@ Game Update Notes: December 13, 2018
 
 ------------------------------
 Game Update Notes: December 18, 2018
+Source: https://forums.daybreakgames.com/eq/index.php?threads/game-update-notes-december-18-2018.253358/
 ------------------------------
 
 *** Items ***
